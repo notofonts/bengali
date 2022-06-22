@@ -82,21 +82,21 @@ Further info can be found in our spec https://github.com/googlefonts/gf-docs/tre
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
 
 
@@ -143,35 +143,35 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni099D09BC09CD
-	* uni09B209CD099F09D7
-	* uni099D09BC
-	* uni09AE09CD09AC
-	* uni099909CD0997
-	* uni09A109CD09AE
+	* uni099509CD09B8
+	* uni09AE09CD09AE
+	* uni099C09CD099E
+	* uni09AA09CD099F
 	* uni09A409CD09A4
-	* uni09FE.low
-	* uni09B809CD09A5
-	* uni09A609CD09A7 and 337 more.
+	* uni09AA09CD09B8
+	* uni099B09CD09AC
+	* uni099709CD09AC
+	* uni09B209CD09A7
+	* uni09B609CD099B and 337 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -302,35 +302,35 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni09B209CD099F09D7
-	* uni09AE09CD09AC
-	* uni099909CD0997
-	* uni09A109CD09AE
+	* uni099509CD09B8
+	* uni09AE09CD09AE
+	* uni099C09CD099E
+	* uni09AA09CD099F
 	* uni09A409CD09A4
-	* uni09B809CD09A5
-	* uni09A609CD09A7
-	* uni099709CD09AE
-	* uni099909BC
-	* uni09B209CD09AE and 257 more.
+	* uni09AA09CD09B8
+	* uni099B09CD09AC
+	* uni09B209CD09A7
+	* uni09B609CD099B
+	* uni09B909CD09A8 and 257 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -424,7 +424,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* h (U+0068): L<<252.0,309.0>--<253.0,118.0>> 
 
 	* And sterling (U+00A3): L<<428.0,346.0>--<270.0,347.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[15] NotoSerifBengali-Condensed.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSerifBengali-Condensed.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
@@ -439,22 +439,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp">com.google.fonts/check/gasp</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
-If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
-GFTools is available at https://pypi.org/project/gftools/ [code: lacks-gasp]
 </div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
 
 
 * 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
 But instead we have got:
 "Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
-
-
-* 🔥 **FAIL** The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the `gftools fix-nonhinting` script. [code: lacks-smart-dropout]
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
@@ -468,21 +458,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -599,21 +589,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -716,7 +706,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<399.0,334.0>--<258.0,335.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] NotoSerifBengali-CondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-CondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
@@ -731,26 +721,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp">com.google.fonts/check/gasp</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
-If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
-GFTools is available at https://pypi.org/project/gftools/ [code: lacks-gasp]
 </div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
 
 
 * 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
 But instead we have got:
 "Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname">com.google.fonts/check/name/typographicsubfamilyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "Condensed Bold" must be "Bold". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
-
-
-* 🔥 **FAIL** The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the `gftools fix-nonhinting` script. [code: lacks-smart-dropout]
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
@@ -764,21 +740,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -901,21 +877,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1022,21 +998,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1181,21 +1157,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1320,21 +1296,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1459,21 +1435,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1590,21 +1566,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1753,35 +1729,35 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni099D09BC09CD
-	* uni09B209CD099F09D7
-	* uni099D09BC
-	* uni09AE09CD09AC
-	* uni099909CD0997
-	* uni09A109CD09AE
+	* uni099509CD09B8
+	* uni09AE09CD09AE
+	* uni099C09CD099E
+	* uni09AA09CD099F
 	* uni09A409CD09A4
-	* uni09B809CD09A5
-	* uni09A609CD09A7
-	* uni099709CD09AE and 294 more.
+	* uni09AA09CD09B8
+	* uni099B09CD09AC
+	* uni09B209CD09A7
+	* uni09B609CD099B
+	* uni09B909CD09A8 and 294 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1880,7 +1856,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<442.0,340.0>--<284.0,341.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[15] NotoSerifBengali-ExtraCondensed.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSerifBengali-ExtraCondensed.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
@@ -1895,22 +1871,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp">com.google.fonts/check/gasp</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
-If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
-GFTools is available at https://pypi.org/project/gftools/ [code: lacks-gasp]
 </div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
 
 
 * 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
 But instead we have got:
 "Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
-
-
-* 🔥 **FAIL** The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the `gftools fix-nonhinting` script. [code: lacks-smart-dropout]
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
@@ -1924,21 +1890,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2059,21 +2025,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2150,7 +2116,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<375.0,334.0>--<242.0,335.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] NotoSerifBengali-ExtraCondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-ExtraCondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
@@ -2165,26 +2131,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp">com.google.fonts/check/gasp</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
-If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
-GFTools is available at https://pypi.org/project/gftools/ [code: lacks-gasp]
 </div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
 
 
 * 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
 But instead we have got:
 "Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname">com.google.fonts/check/name/typographicsubfamilyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "ExtraCondensed Bold" must be "Bold". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
-
-
-* 🔥 **FAIL** The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the `gftools fix-nonhinting` script. [code: lacks-smart-dropout]
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
@@ -2198,21 +2150,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2351,21 +2303,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2504,21 +2456,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2671,21 +2623,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2834,21 +2786,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2973,21 +2925,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -3106,21 +3058,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -3271,21 +3223,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -3407,35 +3359,35 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni09B909CD09AE
-	* uni09B809CD09A409CD09AC
+	* uni099509CD09B709CD09B0
 	* uni09B709CD0995
-	* uni09A409CD09A409CD09AC
-	* uni099F09CD09AC09BF
-	* uni09B709CD099509CD09B0
-	* uni09B809CD09A409C1
+	* uni09A809CD09A409C1
 	* uni099509CD09A409CD09AC
-	* uni099C09CD099E09CD09AC
-	* uni09A809CD09A409C1 and 17 more.
+	* uni09B709CD09AE
+	* uni09B709CD09AC
+	* uni09B709CD099509CD09B0
+	* uni09B809CD09A409CD09AC
+	* uni09B809CD09A409C1
+	* uni09A809CD09A409CD09AC and 17 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -3560,35 +3512,35 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni09AE09CD09AC
-	* uni099909CD0997
-	* uni09A109CD09AE
-	* uni09B809CD09A5
-	* uni09A609CD09A7
-	* uni09B709CD09A009C0
-	* uni09A209BC09CD09AC
-	* uni0986
-	* uni09A809CD09A7
-	* uni099A09CD099A and 146 more.
+	* uni09AE09CD09AE
+	* uni099B09CD09AC
+	* uni09B209CD09A7
+	* uni09B909CD09A8
+	* uni099509CD09AE
+	* uni09AA09CD09A409C1
+	* uni099809CD09B0
+	* uni099509CD099F
+	* uni099509CD09B709CD09B0
+	* uni09B709CD0995 and 146 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -3679,35 +3631,35 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni09AE09CD09AC
-	* uni099909CD0997
-	* uni0986
-	* uni09A809CD09A7
-	* uni0988
-	* uni09AE09CD09B2
-	* uni09B909CD09AE
-	* uni09A409CD09F1
+	* uni09AE09CD09AE
 	* uni099B09CD09AC
-	* uni09AE09CD09AC09CD09B0 and 117 more.
+	* uni09B209CD09A7
+	* uni09B909CD09A8
+	* uni09AA09CD09A409C1
+	* uni099509CD09B709CD09B0
+	* uni09B709CD0995
+	* uni09A809CD09A409C1
+	* uni099509CD09A409CD09AC
+	* uni09A209CD09AC and 117 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -3821,35 +3773,35 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni09AE09CD09AC
-	* uni099909CD0997
-	* uni09A109CD09AE
+	* uni09AE09CD09AE
+	* uni099C09CD099E
+	* uni09AA09CD099F
 	* uni09A409CD09A4
-	* uni09B809CD09A5
-	* uni09A609CD09A7
-	* uni09B209CD09AE
-	* uni09B709CD09A009C0
-	* uni09A209BC09CD09AC
-	* uni09AB09CD099F and 201 more.
+	* uni099B09CD09AC
+	* uni09B209CD09A7
+	* uni09B909CD09A8
+	* uni099509CD09AE
+	* uni098B
+	* uni09AA09CD09A409C1 and 201 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -3936,7 +3888,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* h (U+0068): L<<104.0,119.0>--<103.0,648.0>> 
 
 	* And h (U+0068): L<<233.0,313.0>--<234.0,115.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[15] NotoSerifBengali-SemiCondensed.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSerifBengali-SemiCondensed.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
@@ -3951,22 +3903,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp">com.google.fonts/check/gasp</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
-If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
-GFTools is available at https://pypi.org/project/gftools/ [code: lacks-gasp]
 </div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
 
 
 * 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
 But instead we have got:
 "Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
-
-
-* 🔥 **FAIL** The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the `gftools fix-nonhinting` script. [code: lacks-smart-dropout]
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
@@ -3980,21 +3922,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4113,21 +4055,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4222,7 +4164,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<425.0,335.0>--<276.0,336.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] NotoSerifBengali-SemiCondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-SemiCondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
@@ -4237,26 +4179,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp">com.google.fonts/check/gasp</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
-If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
-GFTools is available at https://pypi.org/project/gftools/ [code: lacks-gasp]
 </div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
 
 
 * 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
 But instead we have got:
 "Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname">com.google.fonts/check/name/typographicsubfamilyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME entry for Win "SemiCondensed Bold" must be "Bold". Please note, since the font style is RIBBI, this record can be safely deleted. [code: bad-win-name]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
-
-
-* 🔥 **FAIL** The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the `gftools fix-nonhinting` script. [code: lacks-smart-dropout]
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
@@ -4270,21 +4198,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4421,21 +4349,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4540,21 +4468,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4695,21 +4623,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4846,21 +4774,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4953,21 +4881,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -5090,21 +5018,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -5235,21 +5163,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -5386,21 +5314,21 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uni1CD6
-
-	- uni0952
-
-	- uni1CD2
-
-	- uni1CD8
+	- uni1CD5
 
 	- uni1CED
 
-	- uni1CD5
+	- uni1CD0
 
-	- uni0951 
+	- uni0951
 
-	- And uni1CD0 [code: unattached-dotted-circle-marks]
+	- uni0952
+
+	- uni1CD6
+
+	- uni1CD2 
+
+	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
 
 
@@ -5425,7 +5353,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 279 | 252 | 4552 | 285 | 3007 | 0 |
+| 0 | 264 | 252 | 4552 | 291 | 3016 | 0 |
 | 0% | 3% | 3% | 54% | 3% | 36% | 0% |
 
 **Note:** The following loglevels were omitted in this report:

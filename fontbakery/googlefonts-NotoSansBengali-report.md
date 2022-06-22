@@ -190,25 +190,25 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uvowelsignbeng
-
-	- lvocalicvowelsignbeng
-
 	- uni1CED
+
+	- uuvowelsignbeng
 
 	- rrvocalicvowelsignbeng
 
+	- uni1CD0
+
 	- uni1CD2
 
-	- uni0952
-
-	- uni1CD0
+	- rvocalicvowelsignbeng
 
 	- uni1CD5
 
-	- llvocalicvowelsignbeng
+	- uni1CD6
 
-	- uuvowelsignbeng 
+	- uni1CD8
+
+	- uni0952 
 
 	- And 6 more.
 
@@ -229,25 +229,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- equal
+	- ra1nuktahalfbeng
 
-	- viramavattuUIbeng
+	- dhahalfbeng
 
-	- multiply
+	- uuvowelsignvattuUIbeng
 
-	- rvocalicvowelsignvattuUIbeng
+	- dhanuktahalfbeng
 
-	- khanuktahalfbeng
-
-	- rvocalicinterpolateUIbeng
+	- one
 
 	- kanuktahalfbeng
 
-	- chanuktahalfbeng
+	- canuktahalfbeng
 
-	- ganuktahalfbeng
+	- shanuktahalfbeng
 
-	- uni00A0 
+	- asciitilde
+
+	- phanuktahalfbeng 
 
 	- And 81 more.
 
@@ -339,25 +339,25 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uvowelsignbeng
-
-	- lvocalicvowelsignbeng
-
 	- uni1CED
+
+	- uuvowelsignbeng
 
 	- rrvocalicvowelsignbeng
 
+	- uni1CD0
+
 	- uni1CD2
 
-	- uni0952
-
-	- uni1CD0
+	- rvocalicvowelsignbeng
 
 	- uni1CD5
 
-	- llvocalicvowelsignbeng
+	- uni1CD6
 
-	- uuvowelsignbeng 
+	- uni1CD8
+
+	- uni0952 
 
 	- And 6 more.
 
@@ -366,16 +366,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* gubeng
+	* tathabeng
+	* shabeng
+	* sharabeng
+	* gadhabeng
+	* ngakarabeng
+	* ttarabeng
+	* kababeng
 	* nadabeng
-	* tabasquishbeng
-	* ivowelsigncandrabind2beng
-	* sattarasquishbeng
-	* ssattabeng
-	* thahalfbeng
-	* sharuubeng
-	* ngababeng
-	* kassabeng and 411 more.
+	* dadhabeng
+	* babhabeng and 411 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -394,25 +394,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- hanuktahalfbeng
+	- danuktahalfbeng
 
-	- thahalfbeng
-
-	- jhanuktahalfbeng
-
-	- khanuktahalfbeng
-
-	- kanuktahalfbeng
+	- nyanuktahalfbeng
 
 	- chanuktahalfbeng
 
-	- ganuktahalfbeng
+	- nganuktahalfbeng
 
-	- sanuktahalfbeng
+	- ra1nuktahalfbeng
 
-	- shanuktahalfbeng
+	- dhahalfbeng
 
-	- ttanuktahalfbeng 
+	- jhanuktahalfbeng
+
+	- dhanuktahalfbeng
+
+	- kanuktahalfbeng
+
+	- canuktahalfbeng 
 
 	- And 22 more.
 
@@ -553,25 +553,25 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uvowelsignbeng
-
-	- lvocalicvowelsignbeng
-
 	- uni1CED
+
+	- uuvowelsignbeng
 
 	- rrvocalicvowelsignbeng
 
+	- uni1CD0
+
 	- uni1CD2
 
-	- uni0952
-
-	- uni1CD0
+	- rvocalicvowelsignbeng
 
 	- uni1CD5
 
-	- llvocalicvowelsignbeng
+	- uni1CD6
 
-	- uuvowelsignbeng 
+	- uni1CD8
+
+	- uni0952 
 
 	- And 6 more.
 
@@ -580,16 +580,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* gubeng
+	* shabeng
+	* sharabeng
+	* gadhabeng
+	* ngakarabeng
+	* ttarabeng
+	* kababeng
 	* nadabeng
-	* tabasquishbeng
-	* ivowelsigncandrabind2beng
-	* sattarasquishbeng
-	* ssattabeng
-	* sharuubeng
-	* ngababeng
-	* kassabeng
-	* sakabeng and 367 more.
+	* dadhabeng
+	* babhabeng
+	* jhahalfbeng and 367 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -601,25 +601,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- hanuktahalfbeng
+	- danuktahalfbeng
 
-	- thahalfbeng
-
-	- jhanuktahalfbeng
-
-	- khanuktahalfbeng
-
-	- kanuktahalfbeng
+	- nyanuktahalfbeng
 
 	- chanuktahalfbeng
 
-	- ganuktahalfbeng
+	- nganuktahalfbeng
 
-	- sanuktahalfbeng
+	- ra1nuktahalfbeng
 
-	- shanuktahalfbeng
+	- dhahalfbeng
 
-	- ttanuktahalfbeng 
+	- jhanuktahalfbeng
+
+	- dhanuktahalfbeng
+
+	- kanuktahalfbeng
+
+	- canuktahalfbeng 
 
 	- And 22 more.
 
@@ -760,25 +760,25 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uvowelsignbeng
-
-	- lvocalicvowelsignbeng
-
 	- uni1CED
+
+	- uuvowelsignbeng
 
 	- rrvocalicvowelsignbeng
 
+	- uni1CD0
+
 	- uni1CD2
 
-	- uni0952
-
-	- uni1CD0
+	- rvocalicvowelsignbeng
 
 	- uni1CD5
 
-	- llvocalicvowelsignbeng
+	- uni1CD6
 
-	- uuvowelsignbeng 
+	- uni1CD8
+
+	- uni0952 
 
 	- And 6 more.
 
@@ -787,16 +787,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* gubeng
+	* shabeng
+	* sharabeng
+	* gadhabeng
+	* ngakarabeng
+	* ttarabeng
+	* kababeng
 	* nadabeng
-	* tabasquishbeng
-	* ivowelsigncandrabind2beng
-	* sattarasquishbeng
-	* ssattabeng
-	* sharuubeng
-	* ngababeng
-	* kassabeng
-	* sakabeng and 391 more.
+	* dadhabeng
+	* babhabeng
+	* tatabeng and 391 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -815,25 +815,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- hanuktahalfbeng
+	- danuktahalfbeng
 
-	- thahalfbeng
-
-	- jhanuktahalfbeng
-
-	- khanuktahalfbeng
-
-	- kanuktahalfbeng
+	- nyanuktahalfbeng
 
 	- chanuktahalfbeng
 
-	- ganuktahalfbeng
+	- nganuktahalfbeng
 
-	- sanuktahalfbeng
+	- ra1nuktahalfbeng
 
-	- shanuktahalfbeng
+	- dhahalfbeng
 
-	- ttanuktahalfbeng 
+	- jhanuktahalfbeng
+
+	- dhanuktahalfbeng
+
+	- kanuktahalfbeng
+
+	- canuktahalfbeng 
 
 	- And 22 more.
 
@@ -1002,25 +1002,25 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uvowelsignbeng
-
-	- lvocalicvowelsignbeng
-
 	- uni1CED
+
+	- uuvowelsignbeng
 
 	- rrvocalicvowelsignbeng
 
+	- uni1CD0
+
 	- uni1CD2
 
-	- uni0952
-
-	- uni1CD0
+	- rvocalicvowelsignbeng
 
 	- uni1CD5
 
-	- llvocalicvowelsignbeng
+	- uni1CD6
 
-	- uuvowelsignbeng 
+	- uni1CD8
+
+	- uni0952 
 
 	- And 6 more.
 
@@ -1029,16 +1029,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* cacabeng
 	* ssamabeng
-	* ssakarabeng
-	* maparabeng
-	* hababeng
-	* kassarabeng
 	* badabeng
-	* ngakassabeng
-	* ssattiibeng
+	* kassannabeng
+	* ssakabeng
+	* cachababeng
+	* maparabeng
+	* badarabeng
 	* cacharabeng
-	* cachababeng and 7 more.
+	* ssakarabeng and 7 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1057,25 +1057,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- hanuktahalfbeng
+	- danuktahalfbeng
 
-	- thahalfbeng
-
-	- jhanuktahalfbeng
-
-	- khanuktahalfbeng
-
-	- kanuktahalfbeng
+	- nyanuktahalfbeng
 
 	- chanuktahalfbeng
 
-	- ganuktahalfbeng
+	- nganuktahalfbeng
 
-	- sanuktahalfbeng
+	- ra1nuktahalfbeng
 
-	- shanuktahalfbeng
+	- dhahalfbeng
 
-	- ttanuktahalfbeng 
+	- jhanuktahalfbeng
+
+	- dhanuktahalfbeng
+
+	- kanuktahalfbeng
+
+	- canuktahalfbeng 
 
 	- And 22 more.
 
@@ -1250,25 +1250,25 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uvowelsignbeng
-
-	- lvocalicvowelsignbeng
-
 	- uni1CED
+
+	- uuvowelsignbeng
 
 	- rrvocalicvowelsignbeng
 
+	- uni1CD0
+
 	- uni1CD2
 
-	- uni0952
-
-	- uni1CD0
+	- rvocalicvowelsignbeng
 
 	- uni1CD5
 
-	- llvocalicvowelsignbeng
+	- uni1CD6
 
-	- uuvowelsignbeng 
+	- uni1CD8
+
+	- uni0952 
 
 	- And 6 more.
 
@@ -1277,16 +1277,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* ssattabeng
-	* kassabeng
+	* ngakarabeng
+	* cacabeng
 	* ssamabeng
-	* ssakarabeng
-	* maparabeng
-	* hababeng
-	* kassarabeng
-	* ssahalfbeng
-	* ngakabeng
-	* badabeng and 48 more.
+	* mababeng
+	* badabeng
+	* papabeng
+	* yarephiivowelsignbeng
+	* kakabeng
+	* kassababeng
+	* ssattabeng and 48 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1305,25 +1305,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- hanuktahalfbeng
+	- danuktahalfbeng
 
-	- thahalfbeng
-
-	- jhanuktahalfbeng
-
-	- khanuktahalfbeng
-
-	- kanuktahalfbeng
+	- nyanuktahalfbeng
 
 	- chanuktahalfbeng
 
-	- ganuktahalfbeng
+	- nganuktahalfbeng
 
-	- sanuktahalfbeng
+	- ra1nuktahalfbeng
 
-	- shanuktahalfbeng
+	- dhahalfbeng
 
-	- ttanuktahalfbeng 
+	- jhanuktahalfbeng
+
+	- dhanuktahalfbeng
+
+	- kanuktahalfbeng
+
+	- canuktahalfbeng 
 
 	- And 22 more.
 
@@ -1496,25 +1496,25 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uvowelsignbeng
-
-	- lvocalicvowelsignbeng
-
 	- uni1CED
+
+	- uuvowelsignbeng
 
 	- rrvocalicvowelsignbeng
 
+	- uni1CD0
+
 	- uni1CD2
 
-	- uni0952
-
-	- uni1CD0
+	- rvocalicvowelsignbeng
 
 	- uni1CD5
 
-	- llvocalicvowelsignbeng
+	- uni1CD6
 
-	- uuvowelsignbeng 
+	- uni1CD8
+
+	- uni0952 
 
 	- And 6 more.
 
@@ -1523,16 +1523,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* tabasquishbeng
-	* ivowelsigncandrabind2beng
-	* sattarasquishbeng
-	* ssattabeng
-	* sharuubeng
-	* ngababeng
-	* kassabeng
-	* sakabeng
-	* ghababeng
-	* barubeng and 261 more.
+	* sharabeng
+	* gadhabeng
+	* ngakarabeng
+	* kababeng
+	* babhabeng
+	* ra1nuktahalfbeng
+	* yarasquishbeng
+	* cacabeng
+	* charabeng
+	* satarabeng and 261 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1551,25 +1551,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- hanuktahalfbeng
+	- danuktahalfbeng
 
-	- thahalfbeng
-
-	- jhanuktahalfbeng
-
-	- khanuktahalfbeng
-
-	- kanuktahalfbeng
+	- nyanuktahalfbeng
 
 	- chanuktahalfbeng
 
-	- ganuktahalfbeng
+	- nganuktahalfbeng
 
-	- sanuktahalfbeng
+	- ra1nuktahalfbeng
 
-	- shanuktahalfbeng
+	- dhahalfbeng
 
-	- ttanuktahalfbeng 
+	- jhanuktahalfbeng
+
+	- dhanuktahalfbeng
+
+	- kanuktahalfbeng
+
+	- canuktahalfbeng 
 
 	- And 22 more.
 
@@ -1738,25 +1738,25 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uvowelsignbeng
-
-	- lvocalicvowelsignbeng
-
 	- uni1CED
+
+	- uuvowelsignbeng
 
 	- rrvocalicvowelsignbeng
 
+	- uni1CD0
+
 	- uni1CD2
 
-	- uni0952
-
-	- uni1CD0
+	- rvocalicvowelsignbeng
 
 	- uni1CD5
 
-	- llvocalicvowelsignbeng
+	- uni1CD6
 
-	- uuvowelsignbeng 
+	- uni1CD8
+
+	- uni0952 
 
 	- And 6 more.
 
@@ -3763,16 +3763,16 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* tabasquishbeng
-	* ivowelsigncandrabind2beng
-	* ssattabeng
-	* sharuubeng
-	* kassabeng
-	* sakabeng
-	* barubeng
+	* sharabeng
+	* gadhabeng
+	* ngakarabeng
+	* kababeng
+	* ra1nuktahalfbeng
+	* cacabeng
+	* satarabeng
 	* ssamabeng
-	* ssakarabeng
-	* ra1babeng and 194 more.
+	* marasquishbeng
+	* mababeng and 194 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -3784,25 +3784,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- hanuktahalfbeng
+	- danuktahalfbeng
 
-	- thahalfbeng
-
-	- jhanuktahalfbeng
-
-	- khanuktahalfbeng
-
-	- kanuktahalfbeng
+	- nyanuktahalfbeng
 
 	- chanuktahalfbeng
 
-	- ganuktahalfbeng
+	- nganuktahalfbeng
 
-	- sanuktahalfbeng
+	- ra1nuktahalfbeng
 
-	- shanuktahalfbeng
+	- dhahalfbeng
 
-	- ttanuktahalfbeng 
+	- jhanuktahalfbeng
+
+	- dhanuktahalfbeng
+
+	- kanuktahalfbeng
+
+	- canuktahalfbeng 
 
 	- And 22 more.
 
@@ -3975,25 +3975,25 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uvowelsignbeng
-
-	- lvocalicvowelsignbeng
-
 	- uni1CED
+
+	- uuvowelsignbeng
 
 	- rrvocalicvowelsignbeng
 
+	- uni1CD0
+
 	- uni1CD2
 
-	- uni0952
-
-	- uni1CD0
+	- rvocalicvowelsignbeng
 
 	- uni1CD5
 
-	- llvocalicvowelsignbeng
+	- uni1CD6
 
-	- uuvowelsignbeng 
+	- uni1CD8
+
+	- uni0952 
 
 	- And 6 more.
 
@@ -4002,16 +4002,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* gubeng
-	* tabasquishbeng
-	* ivowelsigncandrabind2beng
-	* sattarasquishbeng
-	* ssattabeng
-	* sharuubeng
-	* ngababeng
-	* kassabeng
-	* sakabeng
-	* ghababeng and 316 more.
+	* shabeng
+	* sharabeng
+	* gadhabeng
+	* ngakarabeng
+	* kababeng
+	* dadhabeng
+	* babhabeng
+	* jhahalfbeng
+	* uni1CF6
+	* ra1nuktahalfbeng and 316 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -4030,25 +4030,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- hanuktahalfbeng
+	- danuktahalfbeng
 
-	- thahalfbeng
-
-	- jhanuktahalfbeng
-
-	- khanuktahalfbeng
-
-	- kanuktahalfbeng
+	- nyanuktahalfbeng
 
 	- chanuktahalfbeng
 
-	- ganuktahalfbeng
+	- nganuktahalfbeng
 
-	- sanuktahalfbeng
+	- ra1nuktahalfbeng
 
-	- shanuktahalfbeng
+	- dhahalfbeng
 
-	- ttanuktahalfbeng 
+	- jhanuktahalfbeng
+
+	- dhanuktahalfbeng
+
+	- kanuktahalfbeng
+
+	- canuktahalfbeng 
 
 	- And 22 more.
 
@@ -4217,25 +4217,25 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uvowelsignbeng
-
-	- lvocalicvowelsignbeng
-
 	- uni1CED
+
+	- uuvowelsignbeng
 
 	- rrvocalicvowelsignbeng
 
+	- uni1CD0
+
 	- uni1CD2
 
-	- uni0952
-
-	- uni1CD0
+	- rvocalicvowelsignbeng
 
 	- uni1CD5
 
-	- llvocalicvowelsignbeng
+	- uni1CD6
 
-	- uuvowelsignbeng 
+	- uni1CD8
+
+	- uni0952 
 
 	- And 6 more.
 
@@ -4244,9 +4244,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* cacharabeng
+	* cacabeng
 	* cachababeng
-	* cachabeng and cacabeng
+	* cacharabeng and cachabeng
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4263,25 +4263,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- hanuktahalfbeng
+	- danuktahalfbeng
 
-	- thahalfbeng
-
-	- jhanuktahalfbeng
-
-	- khanuktahalfbeng
-
-	- kanuktahalfbeng
+	- nyanuktahalfbeng
 
 	- chanuktahalfbeng
 
-	- ganuktahalfbeng
+	- nganuktahalfbeng
 
-	- sanuktahalfbeng
+	- ra1nuktahalfbeng
 
-	- shanuktahalfbeng
+	- dhahalfbeng
 
-	- ttanuktahalfbeng 
+	- jhanuktahalfbeng
+
+	- dhanuktahalfbeng
+
+	- kanuktahalfbeng
+
+	- canuktahalfbeng 
 
 	- And 22 more.
 
@@ -4448,25 +4448,25 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- candrabindubeng
-
-	- viramabeng
-
-	- uvowelsignbeng
-
-	- uni0952
-
-	- uni1CD8
+	- uni1CD6
 
 	- uni1CD0
 
+	- uni1CD2
+
+	- rvocalicvowelsignbeng
+
+	- uni1CD8
+
+	- uni0952
+
 	- uni1CED
 
-	- uni1CD5
+	- uuvowelsignbeng
 
-	- uni0951
+	- viramabeng
 
-	- uuvowelsignbeng 
+	- uni0951 
 
 	- And 3 more.
 
@@ -4487,25 +4487,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- hanuktahalfbeng
+	- danuktahalfbeng
 
-	- thahalfbeng
+	- nyanuktahalfbeng
 
-	- viramavattuUIbeng
+	- uvowelsignvattuUIbeng
 
-	- hahalfbeng
+	- chanuktahalfbeng
+
+	- nganuktahalfbeng
+
+	- ra1nuktahalfbeng
+
+	- dhahalfbeng
 
 	- jhanuktahalfbeng
 
-	- rvocalicvowelsignvattuUIbeng
+	- dabasquishbeng
 
-	- viramainterpolateUIbeng
-
-	- uuvowelsignvattuUIbeng
-
-	- khanuktahalfbeng
-
-	- rvocalicinterpolateUIbeng 
+	- uuvowelsignvattuUIbeng 
 
 	- And 34 more.
 
@@ -4651,25 +4651,25 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- candrabindubeng
-
-	- viramabeng
-
-	- uvowelsignbeng
-
-	- uni0952
-
-	- uni1CD8
+	- uni1CD6
 
 	- uni1CD0
 
+	- uni1CD2
+
+	- rvocalicvowelsignbeng
+
+	- uni1CD8
+
+	- uni0952
+
 	- uni1CED
 
-	- uni1CD5
+	- uuvowelsignbeng
 
-	- uni0951
+	- viramabeng
 
-	- uuvowelsignbeng 
+	- uni0951 
 
 	- And 3 more.
 
@@ -4683,25 +4683,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- hanuktahalfbeng
+	- danuktahalfbeng
 
-	- thahalfbeng
+	- nyanuktahalfbeng
 
-	- viramavattuUIbeng
+	- uvowelsignvattuUIbeng
 
-	- hahalfbeng
+	- chanuktahalfbeng
+
+	- nganuktahalfbeng
+
+	- ra1nuktahalfbeng
+
+	- dhahalfbeng
 
 	- jhanuktahalfbeng
 
-	- rvocalicvowelsignvattuUIbeng
+	- dabasquishbeng
 
-	- viramainterpolateUIbeng
-
-	- uuvowelsignvattuUIbeng
-
-	- khanuktahalfbeng
-
-	- rvocalicinterpolateUIbeng 
+	- uuvowelsignvattuUIbeng 
 
 	- And 34 more.
 
@@ -4847,25 +4847,25 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- candrabindubeng
-
-	- viramabeng
-
-	- uvowelsignbeng
-
-	- uni0952
-
-	- uni1CD8
+	- uni1CD6
 
 	- uni1CD0
 
+	- uni1CD2
+
+	- rvocalicvowelsignbeng
+
+	- uni1CD8
+
+	- uni0952
+
 	- uni1CED
 
-	- uni1CD5
+	- uuvowelsignbeng
 
-	- uni0951
+	- viramabeng
 
-	- uuvowelsignbeng 
+	- uni0951 
 
 	- And 3 more.
 
@@ -4886,25 +4886,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- hanuktahalfbeng
+	- danuktahalfbeng
 
-	- thahalfbeng
+	- nyanuktahalfbeng
 
-	- viramavattuUIbeng
+	- uvowelsignvattuUIbeng
 
-	- hahalfbeng
+	- chanuktahalfbeng
+
+	- nganuktahalfbeng
+
+	- ra1nuktahalfbeng
+
+	- dhahalfbeng
 
 	- jhanuktahalfbeng
 
-	- rvocalicvowelsignvattuUIbeng
+	- dabasquishbeng
 
-	- viramainterpolateUIbeng
-
-	- uuvowelsignvattuUIbeng
-
-	- khanuktahalfbeng
-
-	- rvocalicinterpolateUIbeng 
+	- uuvowelsignvattuUIbeng 
 
 	- And 34 more.
 
@@ -5078,25 +5078,25 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- candrabindubeng
-
-	- viramabeng
-
-	- uvowelsignbeng
-
-	- uni0952
-
-	- uni1CD8
+	- uni1CD6
 
 	- uni1CD0
 
+	- uni1CD2
+
+	- rvocalicvowelsignbeng
+
+	- uni1CD8
+
+	- uni0952
+
 	- uni1CED
 
-	- uni1CD5
+	- uuvowelsignbeng
 
-	- uni0951
+	- viramabeng
 
-	- uuvowelsignbeng 
+	- uni0951 
 
 	- And 3 more.
 
@@ -5117,25 +5117,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- hanuktahalfbeng
+	- danuktahalfbeng
 
-	- thahalfbeng
+	- nyanuktahalfbeng
 
-	- viramavattuUIbeng
+	- uvowelsignvattuUIbeng
 
-	- hahalfbeng
+	- chanuktahalfbeng
+
+	- nganuktahalfbeng
+
+	- ra1nuktahalfbeng
+
+	- dhahalfbeng
 
 	- jhanuktahalfbeng
 
-	- rvocalicvowelsignvattuUIbeng
+	- dabasquishbeng
 
-	- viramainterpolateUIbeng
-
-	- uuvowelsignvattuUIbeng
-
-	- khanuktahalfbeng
-
-	- rvocalicinterpolateUIbeng 
+	- uuvowelsignvattuUIbeng 
 
 	- And 34 more.
 
@@ -5315,25 +5315,25 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- candrabindubeng
-
-	- viramabeng
-
-	- uvowelsignbeng
-
-	- uni0952
-
-	- uni1CD8
+	- uni1CD6
 
 	- uni1CD0
 
+	- uni1CD2
+
+	- rvocalicvowelsignbeng
+
+	- uni1CD8
+
+	- uni0952
+
 	- uni1CED
 
-	- uni1CD5
+	- uuvowelsignbeng
 
-	- uni0951
+	- viramabeng
 
-	- uuvowelsignbeng 
+	- uni0951 
 
 	- And 3 more.
 
@@ -5354,25 +5354,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- hanuktahalfbeng
+	- danuktahalfbeng
 
-	- thahalfbeng
+	- nyanuktahalfbeng
 
-	- viramavattuUIbeng
+	- uvowelsignvattuUIbeng
 
-	- hahalfbeng
+	- chanuktahalfbeng
+
+	- nganuktahalfbeng
+
+	- ra1nuktahalfbeng
+
+	- dhahalfbeng
 
 	- jhanuktahalfbeng
 
-	- rvocalicvowelsignvattuUIbeng
+	- dabasquishbeng
 
-	- viramainterpolateUIbeng
-
-	- uuvowelsignvattuUIbeng
-
-	- khanuktahalfbeng
-
-	- rvocalicinterpolateUIbeng 
+	- uuvowelsignvattuUIbeng 
 
 	- And 34 more.
 
@@ -5550,25 +5550,25 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- candrabindubeng
-
-	- viramabeng
-
-	- uvowelsignbeng
-
-	- uni0952
-
-	- uni1CD8
+	- uni1CD6
 
 	- uni1CD0
 
+	- uni1CD2
+
+	- rvocalicvowelsignbeng
+
+	- uni1CD8
+
+	- uni0952
+
 	- uni1CED
 
-	- uni1CD5
+	- uuvowelsignbeng
 
-	- uni0951
+	- viramabeng
 
-	- uuvowelsignbeng 
+	- uni0951 
 
 	- And 3 more.
 
@@ -5589,25 +5589,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- hanuktahalfbeng
+	- danuktahalfbeng
 
-	- thahalfbeng
+	- nyanuktahalfbeng
 
-	- viramavattuUIbeng
+	- uvowelsignvattuUIbeng
 
-	- hahalfbeng
+	- chanuktahalfbeng
+
+	- nganuktahalfbeng
+
+	- ra1nuktahalfbeng
+
+	- dhahalfbeng
 
 	- jhanuktahalfbeng
 
-	- rvocalicvowelsignvattuUIbeng
+	- dabasquishbeng
 
-	- viramainterpolateUIbeng
-
-	- uuvowelsignvattuUIbeng
-
-	- khanuktahalfbeng
-
-	- rvocalicinterpolateUIbeng 
+	- uuvowelsignvattuUIbeng 
 
 	- And 34 more.
 
@@ -5781,25 +5781,25 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- candrabindubeng
-
-	- viramabeng
-
-	- uvowelsignbeng
-
-	- uni0952
-
-	- uni1CD8
+	- uni1CD6
 
 	- uni1CD0
 
+	- uni1CD2
+
+	- rvocalicvowelsignbeng
+
+	- uni1CD8
+
+	- uni0952
+
 	- uni1CED
 
-	- uni1CD5
+	- uuvowelsignbeng
 
-	- uni0951
+	- viramabeng
 
-	- uuvowelsignbeng 
+	- uni0951 
 
 	- And 3 more.
 
@@ -5813,25 +5813,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- hanuktahalfbeng
+	- danuktahalfbeng
 
-	- thahalfbeng
+	- nyanuktahalfbeng
 
-	- viramavattuUIbeng
+	- uvowelsignvattuUIbeng
 
-	- hahalfbeng
+	- chanuktahalfbeng
+
+	- nganuktahalfbeng
+
+	- ra1nuktahalfbeng
+
+	- dhahalfbeng
 
 	- jhanuktahalfbeng
 
-	- rvocalicvowelsignvattuUIbeng
+	- dabasquishbeng
 
-	- viramainterpolateUIbeng
-
-	- uuvowelsignvattuUIbeng
-
-	- khanuktahalfbeng
-
-	- rvocalicinterpolateUIbeng 
+	- uuvowelsignvattuUIbeng 
 
 	- And 34 more.
 
@@ -6009,25 +6009,25 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- candrabindubeng
-
-	- viramabeng
-
-	- uvowelsignbeng
-
-	- uni0952
-
-	- uni1CD8
+	- uni1CD6
 
 	- uni1CD0
 
+	- uni1CD2
+
+	- rvocalicvowelsignbeng
+
+	- uni1CD8
+
+	- uni0952
+
 	- uni1CED
 
-	- uni1CD5
+	- uuvowelsignbeng
 
-	- uni0951
+	- viramabeng
 
-	- uuvowelsignbeng 
+	- uni0951 
 
 	- And 3 more.
 
@@ -6048,25 +6048,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- hanuktahalfbeng
+	- danuktahalfbeng
 
-	- thahalfbeng
+	- nyanuktahalfbeng
 
-	- viramavattuUIbeng
+	- uvowelsignvattuUIbeng
 
-	- hahalfbeng
+	- chanuktahalfbeng
+
+	- nganuktahalfbeng
+
+	- ra1nuktahalfbeng
+
+	- dhahalfbeng
 
 	- jhanuktahalfbeng
 
-	- rvocalicvowelsignvattuUIbeng
+	- dabasquishbeng
 
-	- viramainterpolateUIbeng
-
-	- uuvowelsignvattuUIbeng
-
-	- khanuktahalfbeng
-
-	- rvocalicinterpolateUIbeng 
+	- uuvowelsignvattuUIbeng 
 
 	- And 34 more.
 
@@ -6240,25 +6240,25 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- candrabindubeng
-
-	- viramabeng
-
-	- uvowelsignbeng
-
-	- uni0952
-
-	- uni1CD8
+	- uni1CD6
 
 	- uni1CD0
 
+	- uni1CD2
+
+	- rvocalicvowelsignbeng
+
+	- uni1CD8
+
+	- uni0952
+
 	- uni1CED
 
-	- uni1CD5
+	- uuvowelsignbeng
 
-	- uni0951
+	- viramabeng
 
-	- uuvowelsignbeng 
+	- uni0951 
 
 	- And 3 more.
 
@@ -6279,25 +6279,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- hanuktahalfbeng
+	- danuktahalfbeng
 
-	- thahalfbeng
+	- nyanuktahalfbeng
 
-	- viramavattuUIbeng
+	- uvowelsignvattuUIbeng
 
-	- hahalfbeng
+	- chanuktahalfbeng
+
+	- nganuktahalfbeng
+
+	- ra1nuktahalfbeng
+
+	- dhahalfbeng
 
 	- jhanuktahalfbeng
 
-	- rvocalicvowelsignvattuUIbeng
+	- dabasquishbeng
 
-	- viramainterpolateUIbeng
-
-	- uuvowelsignvattuUIbeng
-
-	- khanuktahalfbeng
-
-	- rvocalicinterpolateUIbeng 
+	- uuvowelsignvattuUIbeng 
 
 	- And 34 more.
 
@@ -6436,25 +6436,25 @@ But instead we have got:
 
 * 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
 
-	- uvowelsignbeng
-
-	- lvocalicvowelsignbeng
-
 	- uni1CED
+
+	- uuvowelsignbeng
 
 	- rrvocalicvowelsignbeng
 
+	- uni1CD0
+
 	- uni1CD2
 
-	- uni0952
-
-	- uni1CD0
+	- rvocalicvowelsignbeng
 
 	- uni1CD5
 
-	- llvocalicvowelsignbeng
+	- uni1CD6
 
-	- uuvowelsignbeng 
+	- uni1CD8
+
+	- uni0952 
 
 	- And 6 more.
 
@@ -6472,25 +6472,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: unattached-do
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- equal
+	- ra1nuktahalfbeng
 
-	- viramavattuUIbeng
+	- dhahalfbeng
 
-	- multiply
+	- uuvowelsignvattuUIbeng
 
-	- rvocalicvowelsignvattuUIbeng
+	- dhanuktahalfbeng
 
-	- khanuktahalfbeng
-
-	- rvocalicinterpolateUIbeng
+	- one
 
 	- kanuktahalfbeng
 
-	- chanuktahalfbeng
+	- canuktahalfbeng
 
-	- ganuktahalfbeng
+	- shanuktahalfbeng
 
-	- uni00A0 
+	- asciitilde
+
+	- phanuktahalfbeng 
 
 	- And 81 more.
 
