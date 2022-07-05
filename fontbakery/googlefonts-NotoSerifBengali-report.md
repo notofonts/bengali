@@ -5,7 +5,7 @@ Fontbakery version: 0.8.9
 <details><summary><b>[3] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
 
-* 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf', 'fonts/NotoSerifBengali/googlefonts/ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf'] [code: single-directory]
+* 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSerifBengali/googlefonts/ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf'] [code: single-directory]
 </div></details><details><summary>🔥 <b>FAIL:</b> Fonts have consistent PANOSE proportion? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/family/panose_proportion">com.google.fonts/check/family/panose_proportion</a>)</summary><div>
 
 
@@ -14,164 +14,28 @@ Fontbakery version: 0.8.9
 
 
 * 🔥 **FAIL** PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
-</div></details><br></div></details><details><summary><b>[13] NotoSerifBengali[wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** The file 'NotoSerifBengali[wght].ttf' must be renamed to 'NotoSerifBengali[wdth,wght].ttf' according to the Google Fonts naming policy for variable fonts. [code: bad-varfont-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp">com.google.fonts/check/gasp</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
-If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
-GFTools is available at https://pypi.org/project/gftools/ [code: lacks-gasp]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
-
-
-* 🔥 **FAIL** The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the `gftools fix-nonhinting` script. [code: lacks-smart-dropout]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check variable font instances have correct names (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_names">com.google.fonts/check/varfont_instance_names</a>)</summary><div>
-
-
-* 🔥 **FAIL** Following instances are not supported: 
-	- SemiCondensed ExtraLight
-	- SemiCondensed Light
-	- SemiCondensed
-	- SemiCondensed Medium
-	- SemiCondensed SemiBold
-	- SemiCondensed Bold
-	- Condensed ExtraLight
-	- Condensed Light
-	- Condensed
-	- Condensed Medium
-	- Condensed SemiBold
-	- Condensed Bold
-	- ExtraCondensed ExtraLight
-	- ExtraCondensed Light
-	- ExtraCondensed
-	- ExtraCondensed Medium
-	- ExtraCondensed SemiBold
-	- ExtraCondensed Bold
-
-Further info can be found in our spec https://github.com/googlefonts/gf-docs/tree/main/Spec#fvar-instances [code: bad-instance-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
-</div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
-
-
-* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 261. [code: invalid-default-instance-subfamily-nameid:261]
-* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its postScriptNameID should be 6, instead of 297. [code: invalid-default-instance-postscript-nameid:297]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni099509CD09B8
-	* uni09AE09CD09AE
-	* uni099C09CD099E
-	* uni09AA09CD099F
-	* uni09A409CD09A4
-	* uni09AA09CD09B8
-	* uni099B09CD09AC
-	* uni099709CD09AC
-	* uni09B209CD09A7
-	* uni09B609CD099B and 337 more.
+	* uni099509CD099F09BF
+	* uni099709CD09AE
+	* uni099C09CD09B0
+	* uni0986
+	* uni099C09CD099E09CD09B0
+	* uni09B909CD09A8
+	* uni09A809CD099F09D7
+	* uni09EE
+	* uni09B709CD09AE
+	* uni09B609CD09B009C2 and 337 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -272,65 +136,28 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<454.0,335.0>--<295.0,336.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSerifBengali-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni099509CD09B8
-	* uni09AE09CD09AE
-	* uni099C09CD099E
-	* uni09AA09CD099F
-	* uni09A409CD09A4
-	* uni09AA09CD09B8
-	* uni099B09CD09AC
-	* uni09B209CD09A7
-	* uni09B609CD099B
-	* uni09B909CD09A8 and 257 more.
+	* uni099509CD099F09BF
+	* uni099709CD09AE
+	* uni0986
+	* uni099C09CD099E09CD09B0
+	* uni09B909CD09A8
+	* uni09A809CD099F09D7
+	* uni09B709CD09AE
+	* uni09B809CD09A409CD09F1
+	* uni099809BC09CD
+	* uni09AE09CD and 257 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -424,55 +251,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* h (U+0068): L<<252.0,309.0>--<253.0,118.0>> 
 
 	* And sterling (U+00A3): L<<428.0,346.0>--<270.0,347.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSerifBengali-Condensed.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-Condensed.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -555,55 +345,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* uni09AE (U+09AE): B<<304.5,251.0>-<328.0,219.0>-<344.0,163.0>>/B<<344.0,163.0>-<341.0,203.0>-<340.0,241.0>> = 11.656242572103839 
 
 	* And uni09B2 (U+09B2): B<<355.0,444.0>-<381.0,416.0>-<401.0,348.0>>/B<<401.0,348.0>-<399.0,376.0>-<397.5,402.5>> = 12.30392355405985 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-CondensedBlack.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-CondensedBlack.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -706,55 +459,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<399.0,334.0>--<258.0,335.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-CondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-CondensedBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -843,55 +559,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* h (U+0068): L<<223.0,312.0>--<224.0,116.0>> 
 
 	* And sterling (U+00A3): L<<375.0,337.0>--<238.0,338.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSerifBengali-CondensedExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-CondensedExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -964,55 +643,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* h (U+0068): L<<241.0,308.0>--<242.0,119.0>> 
 
 	* And sterling (U+00A3): L<<388.0,335.0>--<249.0,336.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-CondensedExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-CondensedExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1123,55 +765,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* Euro (U+20AC): L<<147.0,303.0>--<301.0,302.0>> 
 
 	* And OE (U+0152): L<<422.0,359.0>--<420.0,30.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-CondensedLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-CondensedLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1262,55 +867,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* OE (U+0152): L<<454.0,355.0>--<453.0,38.0>> 
 
 	* And uni09B8 (U+09B8): L<<381.0,585.0>--<112.0,584.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-CondensedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-CondensedMedium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1401,55 +969,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<354.0,334.0>--<220.0,335.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSerifBengali-CondensedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-CondensedSemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1532,55 +1063,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* uni09AE (U+09AE): B<<322.5,251.0>-<343.0,223.0>-<357.0,180.0>>/B<<357.0,180.0>-<354.0,218.0>-<352.5,254.5>> = 13.520297109128588 
 
 	* And uni09B2 (U+09B2): B<<327.0,476.0>-<393.0,476.0>-<433.0,352.0>>/B<<433.0,352.0>-<430.0,378.0>-<428.5,403.0>> = 11.296751940663306 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[15] NotoSerifBengali-CondensedThin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSerifBengali-CondensedThin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1699,65 +1193,28 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* And 8 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni099509CD09B8
-	* uni09AE09CD09AE
-	* uni099C09CD099E
-	* uni09AA09CD099F
-	* uni09A409CD09A4
-	* uni09AA09CD09B8
-	* uni099B09CD09AC
-	* uni09B209CD09A7
-	* uni09B609CD099B
-	* uni09B909CD09A8 and 294 more.
+	* uni099509CD099F09BF
+	* uni099709CD09AE
+	* uni099C09CD09B0
+	* uni0986
+	* uni099C09CD099E09CD09B0
+	* uni09B909CD09A8
+	* uni09A809CD099F09D7
+	* uni09EE
+	* uni09B709CD09AE
+	* uni09B809CD09A409CD09F1 and 294 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1856,55 +1313,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<442.0,340.0>--<284.0,341.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSerifBengali-ExtraCondensed.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-ExtraCondensed.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1991,55 +1411,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* uni09B2 (U+09B2): B<<322.0,445.5>-<346.0,419.0>-<364.0,354.0>>/B<<364.0,354.0>-<361.0,380.0>-<360.0,405.0>> = 8.896693510240363 
 
 	* And uni09B6 (U+09B6): B<<298.5,586.0>-<330.0,543.0>-<352.0,470.0>>/B<<352.0,470.0>-<349.0,519.0>-<349.0,580.0>> = 13.267692173845946 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSerifBengali-ExtraCondensedBlack.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-ExtraCondensedBlack.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2116,55 +1499,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<375.0,334.0>--<242.0,335.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-ExtraCondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-ExtraCondensedBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2269,55 +1615,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<352.0,333.0>--<224.0,334.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-ExtraCondensedExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-ExtraCondensedExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2422,55 +1731,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<365.0,334.0>--<234.0,335.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-ExtraCondensedExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-ExtraCondensedExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2589,55 +1861,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* Eogonek (U+0118): L<<149.0,359.0>--<148.0,30.0>> 
 
 	* And OE (U+0152): L<<390.0,359.0>--<389.0,30.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-ExtraCondensedLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-ExtraCondensedLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2752,55 +1987,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* And 3 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-ExtraCondensedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-ExtraCondensedMedium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -2891,55 +2089,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<331.0,332.0>--<207.0,333.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSerifBengali-ExtraCondensedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-ExtraCondensedSemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -3024,55 +2185,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* uni09AE (U+09AE): B<<301.0,257.0>-<319.0,233.0>-<331.0,197.0>>/B<<331.0,197.0>-<328.0,233.0>-<326.5,268.0>> = 13.671307132195812 
 
 	* And uni09B2 (U+09B2): B<<302.0,476.0>-<365.0,476.0>-<401.0,358.0>>/B<<401.0,358.0>-<399.0,383.0>-<397.5,407.0>> = 12.39222684863529 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-ExtraCondensedThin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-ExtraCondensedThin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -3193,51 +2317,14 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* And 8 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -3329,65 +2416,28 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* uni09B2 (U+09B2): L<<484.0,3.0>--<485.0,303.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni099509CD09B709CD09B0
-	* uni09B709CD0995
-	* uni09A809CD09A409C1
-	* uni099509CD09A409CD09AC
 	* uni09B709CD09AE
-	* uni09B709CD09AC
-	* uni09B709CD099509CD09B0
-	* uni09B809CD09A409CD09AC
-	* uni09B809CD09A409C1
-	* uni09A809CD09A409CD09AC and 17 more.
+	* uni09B809CD09A409CD09F1
+	* uni099F09CD09AC09BF
+	* uni099509CD09B709CD09AE
+	* uni09A809CD09A409C1
+	* uni099509CD09B709CD09AC
+	* uni099909CD099509CD09B7
+	* uni099509CD09B709CD09B0
+	* uni099A09CD099B09CD09AC
+	* uni09A409CD09A409CD09AC and 17 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -3482,65 +2532,28 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* uni09B2 (U+09B2): L<<483.0,3.0>--<484.0,288.0>> 
 
 	* And uni09B8 (U+09B8): L<<469.0,585.0>--<135.0,584.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSerifBengali-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni09AE09CD09AE
-	* uni099B09CD09AC
-	* uni09B209CD09A7
+	* uni099509CD099F09BF
+	* uni0986
+	* uni099C09CD099E09CD09B0
 	* uni09B909CD09A8
-	* uni099509CD09AE
-	* uni09AA09CD09A409C1
-	* uni099809CD09B0
-	* uni099509CD099F
-	* uni099509CD09B709CD09B0
-	* uni09B709CD0995 and 146 more.
+	* uni09B709CD09AE
+	* uni09B809CD09A409CD09F1
+	* uni09A809CD09A7
+	* uni09AE09CD09AC09CD09B0
+	* uni09E1
+	* uni09B709CD099F09D7 and 146 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -3601,65 +2614,28 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<408.0,339.0>--<251.0,340.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSerifBengali-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSerifBengali-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni09AE09CD09AE
-	* uni099B09CD09AC
-	* uni09B209CD09A7
+	* uni099509CD099F09BF
+	* uni0986
+	* uni099C09CD099E09CD09B0
 	* uni09B909CD09A8
-	* uni09AA09CD09A409C1
-	* uni099509CD09B709CD09B0
-	* uni09B709CD0995
-	* uni09A809CD09A409C1
-	* uni099509CD09A409CD09AC
-	* uni09A209CD09AC and 117 more.
+	* uni09B709CD09AE
+	* uni09B809CD09A409CD09F1
+	* uni09A809CD09A7
+	* uni09AE09CD09AC09CD09B0
+	* uni09E1
+	* uni09B709CD099F09D7 and 117 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -3743,65 +2719,28 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* uni09BE (U+09BE): B<<50.0,605.0>-<71.0,588.0>-<84.0,550.0>>/B<<84.0,550.0>-<82.0,572.0>-<81.0,590.5>> = 13.69165846197449 
 
 	* And uni09CB (U+09CB): B<<612.0,605.0>-<633.0,588.0>-<646.0,550.0>>/B<<646.0,550.0>-<644.0,572.0>-<643.0,590.5>> = 13.69165846197449 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni09AE09CD09AE
-	* uni099C09CD099E
-	* uni09AA09CD099F
-	* uni09A409CD09A4
-	* uni099B09CD09AC
-	* uni09B209CD09A7
+	* uni099509CD099F09BF
+	* uni0986
+	* uni099C09CD099E09CD09B0
 	* uni09B909CD09A8
-	* uni099509CD09AE
-	* uni098B
-	* uni09AA09CD09A409C1 and 201 more.
+	* uni09B709CD09AE
+	* uni09B809CD09A409CD09F1
+	* uni09A809CD09A7
+	* uni09B209CD099F09CD09B009D7
+	* uni09AE09CD09AC09CD09B0
+	* uni09E1 and 201 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -3888,55 +2827,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* h (U+0068): L<<104.0,119.0>--<103.0,648.0>> 
 
 	* And h (U+0068): L<<233.0,313.0>--<234.0,115.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSerifBengali-SemiCondensed.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-SemiCondensed.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4021,55 +2923,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* uni09AE (U+09AE): B<<331.5,244.5>-<359.0,206.0>-<377.0,141.0>>/B<<377.0,141.0>-<375.0,182.0>-<374.0,224.0>> = 12.685935799705051 
 
 	* And uni09B2 (U+09B2): B<<392.5,443.0>-<421.0,414.0>-<442.0,343.0>>/B<<442.0,343.0>-<440.0,372.0>-<439.0,399.5>> = 12.53169516465037 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-SemiCondensedBlack.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-SemiCondensedBlack.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4164,55 +3029,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<425.0,335.0>--<276.0,336.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-SemiCondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-SemiCondensedBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4315,55 +3143,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* h (U+0068): L<<237.0,310.0>--<238.0,117.0>> 
 
 	* And sterling (U+00A3): L<<400.0,341.0>--<253.0,342.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSerifBengali-SemiCondensedExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-SemiCondensedExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4434,55 +3225,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* h (U+0068): L<<256.0,306.0>--<257.0,121.0>> 
 
 	* And sterling (U+00A3): L<<414.0,338.0>--<265.0,339.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-SemiCondensedExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-SemiCondensedExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4589,55 +3343,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* Eogonek (U+0118): L<<175.0,359.0>--<174.0,30.0>> 
 
 	* And Euro (U+20AC): L<<318.0,272.0>--<153.0,273.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-SemiCondensedLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-SemiCondensedLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4740,55 +3457,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* Eogonek (U+0118): L<<194.0,355.0>--<193.0,38.0>> 
 
 	* And uni09B8 (U+09B8): L<<423.0,585.0>--<123.0,584.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSerifBengali-SemiCondensedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSerifBengali-SemiCondensedMedium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4847,55 +3527,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* uni09BE (U+09BE): B<<46.0,606.5>-<66.0,591.0>-<78.0,556.0>>/B<<78.0,556.0>-<76.0,578.0>-<75.0,596.5>> = 13.730215508316416 
 
 	* And uni09CB (U+09CB): B<<608.0,606.5>-<628.0,591.0>-<640.0,556.0>>/B<<640.0,556.0>-<638.0,578.0>-<637.0,596.5>> = 13.730215508316416 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-SemiCondensedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-SemiCondensedSemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -4984,55 +3627,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* h (U+0068): L<<219.0,314.0>--<220.0,114.0>> 
 
 	* And sterling (U+00A3): L<<389.0,339.0>--<244.0,340.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSerifBengali-SemiCondensedThin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-SemiCondensedThin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -5133,51 +3739,14 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* exclamdown (U+00A1): L<<128.0,370.0>--<132.0,-177.0>> 
 
 	* And uni09B8 (U+09B8): L<<415.0,602.0>--<112.0,601.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[13] NotoSerifBengali-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -5284,51 +3853,14 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* uni09B2 (U+09B2): L<<484.0,3.0>--<485.0,313.0>> 
 
 	* And uni09B8 (U+09B8): L<<464.0,602.0>--<122.0,601.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali[wdth,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] NotoSerifBengali[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifBengali/googlefonts/slim-variable-ttf/NotoSerifBengali[wght].ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Black.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Bold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Light.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Medium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Regular.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf', 'fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Thin.ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf/NotoSerifBengali[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni1CD5
-
-	- uni1CED
-
-	- uni1CD0
-
-	- uni0951
-
-	- uni0952
-
-	- uni1CD6
-
-	- uni1CD2 
-
-	- And uni1CD8 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
 
 
@@ -5353,8 +3885,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 264 | 252 | 4552 | 291 | 3016 | 0 |
-| 0% | 3% | 3% | 54% | 3% | 36% | 0% |
+| 37 | 68 | 250 | 4377 | 249 | 3174 | 0 |
+| 0% | 1% | 3% | 54% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
