@@ -9,6 +9,8 @@
   <anchor x="299" y="-120" name="nukta"/>
   <anchor x="314" y="592" name="top"/>
   <anchor x="299" y="592" name="topright"/>
+  <anchor x="270" y="0" name="vedic"/>
+  <anchor x="423" y="609" name="topleft"/>
   <outline>
     <contour>
       <point x="457" y="423" type="curve" smooth="yes"/>
