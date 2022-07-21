@@ -147,16 +147,16 @@ Noto Sans Bengali UI Thin: -293 [code: descent-mismatch]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* kassabeng
-	* lababeng
-	* gadabeng
-	* cachabeng
-	* auvowelwavebeng
-	* sawabeng
-	* kassababeng
-	* tabasquishbeng
-	* harabeng
-	* janyabeng and 411 more.
+	* dhamabeng
+	* dhanuktahalfbeng
+	* shachabeng
+	* katarabeng
+	* janyabeng
+	* ssanuktabeng
+	* ghabeng
+	* jarabeng
+	* bhalabeng
+	* sattarasquishbeng and 411 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -175,25 +175,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ra1nuktahalfbeng
+	- dhanuktahalfbeng
 
 	- lanuktahalfbeng
 
-	- llvocalicUIbeng
+	- semicolon
 
-	- parenleft
+	- endash
 
-	- llvocalicvowelsignUIbeng
+	- jhanuktahalfbeng
 
-	- ssanuktahalfbeng
+	- wanuktahalfbeng
 
-	- underscore
+	- five
 
-	- chanuktahalfbeng
+	- question
 
-	- nnaddarubeng
+	- greater
 
-	- uvowelsigninterpolateUIbeng 
+	- khanuktahalfbeng 
 
 	- And 81 more.
 
@@ -282,16 +282,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* kassabeng
-	* lababeng
-	* gadabeng
-	* ra1halfbeng
-	* cachabeng
-	* auvowelwavebeng
-	* sawabeng
-	* kassababeng
-	* tabasquishbeng
-	* harabeng and 367 more.
+	* dhamabeng
+	* dhanuktahalfbeng
+	* shachabeng
+	* katarabeng
+	* janyabeng
+	* ssanuktabeng
+	* ghabeng
+	* bhalabeng
+	* sattarasquishbeng
+	* nadababeng and 367 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -303,25 +303,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ra1nuktahalfbeng
+	- dhanuktahalfbeng
 
 	- lanuktahalfbeng
 
-	- llvocalicUIbeng
+	- semicolon
 
-	- parenleft
+	- endash
 
-	- llvocalicvowelsignUIbeng
+	- jhanuktahalfbeng
 
-	- ssanuktahalfbeng
+	- wanuktahalfbeng
 
-	- underscore
+	- five
 
-	- chanuktahalfbeng
+	- question
 
-	- nnaddarubeng
+	- greater
 
-	- uvowelsigninterpolateUIbeng 
+	- khanuktahalfbeng 
 
 	- And 81 more.
 
@@ -438,16 +438,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* kassabeng
-	* lababeng
-	* gadabeng
-	* ra1halfbeng
-	* cachabeng
-	* auvowelwavebeng
-	* sawabeng
-	* kassababeng
-	* tabasquishbeng
-	* harabeng and 391 more.
+	* dhamabeng
+	* dhanuktahalfbeng
+	* shachabeng
+	* katarabeng
+	* janyabeng
+	* ssanuktabeng
+	* ghabeng
+	* jarabeng
+	* bhalabeng
+	* sattarasquishbeng and 391 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -466,25 +466,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ra1nuktahalfbeng
+	- dhanuktahalfbeng
 
 	- lanuktahalfbeng
 
-	- llvocalicUIbeng
+	- semicolon
 
-	- parenleft
+	- endash
 
-	- llvocalicvowelsignUIbeng
+	- jhanuktahalfbeng
 
-	- ssanuktahalfbeng
+	- wanuktahalfbeng
 
-	- underscore
+	- five
 
-	- chanuktahalfbeng
+	- question
 
-	- nnaddarubeng
+	- greater
 
-	- uvowelsigninterpolateUIbeng 
+	- khanuktahalfbeng 
 
 	- And 81 more.
 
@@ -573,16 +573,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* badabeng
 	* cachabeng
-	* ssattibeng
-	* cachababeng
-	* badarabeng
-	* maparabeng
-	* cacharabeng
 	* hababeng
+	* ngakassabeng
 	* ssamabeng
 	* ssakabeng
-	* ssakarabeng and 7 more.
+	* kassannabeng
+	* ssattiibeng
+	* kassarabeng
+	* kassamabeng and 7 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -601,25 +601,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ra1nuktahalfbeng
+	- dhanuktahalfbeng
 
 	- lanuktahalfbeng
 
-	- llvocalicUIbeng
+	- semicolon
 
-	- parenleft
+	- endash
 
-	- llvocalicvowelsignUIbeng
+	- jhanuktahalfbeng
 
-	- ssanuktahalfbeng
+	- wanuktahalfbeng
 
-	- underscore
+	- five
 
-	- chanuktahalfbeng
+	- question
 
-	- nnaddarubeng
+	- greater
 
-	- uvowelsigninterpolateUIbeng 
+	- khanuktahalfbeng 
 
 	- And 81 more.
 
@@ -724,16 +724,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* kassabeng
-	* cachabeng
-	* kassababeng
+	* dhamabeng
 	* janyabeng
-	* ssaphabeng
-	* ssattibeng
-	* janyababeng
-	* cachababeng
-	* sharubeng
-	* ngarasquishbeng and 48 more.
+	* kassabeng
+	* kamabeng
+	* janyahalfbeng
+	* badabeng
+	* ngarasquishbeng
+	* cachabeng
+	* hababeng
+	* sakarabeng and 48 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -752,25 +752,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ra1nuktahalfbeng
+	- dhanuktahalfbeng
 
 	- lanuktahalfbeng
 
-	- llvocalicUIbeng
+	- semicolon
 
-	- parenleft
+	- endash
 
-	- llvocalicvowelsignUIbeng
+	- jhanuktahalfbeng
 
-	- ssanuktahalfbeng
+	- wanuktahalfbeng
 
-	- underscore
+	- five
 
-	- chanuktahalfbeng
+	- question
 
-	- nnaddarubeng
+	- greater
 
-	- uvowelsigninterpolateUIbeng 
+	- khanuktahalfbeng 
 
 	- And 81 more.
 
@@ -873,16 +873,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* kassabeng
-	* ra1halfbeng
-	* cachabeng
-	* sawabeng
-	* kassababeng
-	* tabasquishbeng
-	* harabeng
+	* dhamabeng
+	* shachabeng
+	* katarabeng
 	* janyabeng
-	* rrvocalicbeng
-	* nyacabeng and 261 more.
+	* bhalabeng
+	* sattarasquishbeng
+	* nadababeng
+	* kassabeng
+	* pattabeng
+	* abeng and 261 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -901,25 +901,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ra1nuktahalfbeng
+	- dhanuktahalfbeng
 
 	- lanuktahalfbeng
 
-	- llvocalicUIbeng
+	- semicolon
 
-	- parenleft
+	- endash
 
-	- llvocalicvowelsignUIbeng
+	- jhanuktahalfbeng
 
-	- ssanuktahalfbeng
+	- wanuktahalfbeng
 
-	- underscore
+	- five
 
-	- chanuktahalfbeng
+	- question
 
-	- nnaddarubeng
+	- greater
 
-	- uvowelsigninterpolateUIbeng 
+	- khanuktahalfbeng 
 
 	- And 81 more.
 
@@ -3165,16 +3165,16 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* kassabeng
-	* ra1halfbeng
-	* cachabeng
-	* sawabeng
-	* kassababeng
-	* tabasquishbeng
-	* harabeng
+	* dhamabeng
+	* shachabeng
+	* katarabeng
 	* janyabeng
-	* nyacabeng
-	* jajabeng and 194 more.
+	* kassabeng
+	* pattabeng
+	* abeng
+	* ra1rasquishbeng
+	* kamabeng
+	* gharasquishbeng and 194 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -3186,25 +3186,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ra1nuktahalfbeng
+	- dhanuktahalfbeng
 
 	- lanuktahalfbeng
 
-	- llvocalicUIbeng
+	- semicolon
 
-	- parenleft
+	- endash
 
-	- llvocalicvowelsignUIbeng
+	- jhanuktahalfbeng
 
-	- ssanuktahalfbeng
+	- wanuktahalfbeng
 
-	- underscore
+	- five
 
-	- chanuktahalfbeng
+	- question
 
-	- nnaddarubeng
+	- greater
 
-	- uvowelsigninterpolateUIbeng 
+	- khanuktahalfbeng 
 
 	- And 81 more.
 
@@ -3279,16 +3279,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* kassabeng
-	* ra1halfbeng
-	* cachabeng
-	* sawabeng
-	* kassababeng
-	* tabasquishbeng
-	* harabeng
+	* dhamabeng
+	* shachabeng
+	* katarabeng
 	* janyabeng
-	* rrvocalicbeng
-	* nyacabeng and 316 more.
+	* ssanuktabeng
+	* ghabeng
+	* bhalabeng
+	* sattarasquishbeng
+	* nadababeng
+	* kassabeng and 316 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -3307,25 +3307,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ra1nuktahalfbeng
+	- dhanuktahalfbeng
 
 	- lanuktahalfbeng
 
-	- llvocalicUIbeng
+	- semicolon
 
-	- parenleft
+	- endash
 
-	- llvocalicvowelsignUIbeng
+	- jhanuktahalfbeng
 
-	- ssanuktahalfbeng
+	- wanuktahalfbeng
 
-	- underscore
+	- five
 
-	- chanuktahalfbeng
+	- question
 
-	- nnaddarubeng
+	- greater
 
-	- uvowelsigninterpolateUIbeng 
+	- khanuktahalfbeng 
 
 	- And 81 more.
 
@@ -3443,8 +3443,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* cachabeng
-	* cachababeng
-	* cacharabeng and cacabeng
+	* cacharabeng
+	* cachababeng and cacabeng
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -3461,25 +3461,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ra1nuktahalfbeng
+	- dhanuktahalfbeng
 
 	- lanuktahalfbeng
 
-	- llvocalicUIbeng
+	- semicolon
 
-	- parenleft
+	- endash
 
-	- llvocalicvowelsignUIbeng
+	- jhanuktahalfbeng
 
-	- ssanuktahalfbeng
+	- wanuktahalfbeng
 
-	- underscore
+	- five
 
-	- chanuktahalfbeng
+	- question
 
-	- nnaddarubeng
+	- greater
 
-	- uvowelsigninterpolateUIbeng 
+	- khanuktahalfbeng 
 
 	- And 81 more.
 
@@ -3592,25 +3592,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ra1nuktahalfbeng
+	- dhanuktahalfbeng
 
 	- lanuktahalfbeng
 
-	- parenleft
+	- semicolon
 
-	- ssanuktahalfbeng
+	- endash
 
-	- underscore
+	- jhanuktahalfbeng
 
-	- chanuktahalfbeng
+	- wanuktahalfbeng
 
-	- nnaddarubeng
+	- five
 
-	- uvowelsigninterpolateUIbeng
+	- question
 
-	- plus
+	- greater
 
-	- colon 
+	- khanuktahalfbeng 
 
 	- And 81 more.
 
@@ -3704,25 +3704,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ra1nuktahalfbeng
+	- dhanuktahalfbeng
 
 	- lanuktahalfbeng
 
-	- parenleft
+	- semicolon
 
-	- ssanuktahalfbeng
+	- endash
 
-	- underscore
+	- jhanuktahalfbeng
 
-	- chanuktahalfbeng
+	- wanuktahalfbeng
 
-	- nnaddarubeng
+	- five
 
-	- uvowelsigninterpolateUIbeng
+	- question
 
-	- plus
+	- greater
 
-	- colon 
+	- khanuktahalfbeng 
 
 	- And 81 more.
 
@@ -3851,25 +3851,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ra1nuktahalfbeng
+	- dhanuktahalfbeng
 
 	- lanuktahalfbeng
 
-	- parenleft
+	- semicolon
 
-	- ssanuktahalfbeng
+	- endash
 
-	- underscore
+	- jhanuktahalfbeng
 
-	- chanuktahalfbeng
+	- wanuktahalfbeng
 
-	- nnaddarubeng
+	- five
 
-	- uvowelsigninterpolateUIbeng
+	- question
 
-	- plus
+	- greater
 
-	- colon 
+	- khanuktahalfbeng 
 
 	- And 81 more.
 
@@ -3998,25 +3998,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ra1nuktahalfbeng
+	- dhanuktahalfbeng
 
 	- lanuktahalfbeng
 
-	- parenleft
+	- semicolon
 
-	- ssanuktahalfbeng
+	- endash
 
-	- underscore
+	- jhanuktahalfbeng
 
-	- chanuktahalfbeng
+	- wanuktahalfbeng
 
-	- nnaddarubeng
+	- five
 
-	- uvowelsigninterpolateUIbeng
+	- question
 
-	- plus
+	- greater
 
-	- colon 
+	- khanuktahalfbeng 
 
 	- And 81 more.
 
@@ -4133,25 +4133,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ra1nuktahalfbeng
+	- dhanuktahalfbeng
 
 	- lanuktahalfbeng
 
-	- parenleft
+	- semicolon
 
-	- ssanuktahalfbeng
+	- endash
 
-	- underscore
+	- jhanuktahalfbeng
 
-	- chanuktahalfbeng
+	- wanuktahalfbeng
 
-	- nnaddarubeng
+	- five
 
-	- uvowelsigninterpolateUIbeng
+	- question
 
-	- plus
+	- greater
 
-	- colon 
+	- khanuktahalfbeng 
 
 	- And 81 more.
 
@@ -4266,25 +4266,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ra1nuktahalfbeng
+	- dhanuktahalfbeng
 
 	- lanuktahalfbeng
 
-	- parenleft
+	- semicolon
 
-	- ssanuktahalfbeng
+	- endash
 
-	- underscore
+	- jhanuktahalfbeng
 
-	- chanuktahalfbeng
+	- wanuktahalfbeng
 
-	- nnaddarubeng
+	- five
 
-	- uvowelsigninterpolateUIbeng
+	- question
 
-	- plus
+	- greater
 
-	- colon 
+	- khanuktahalfbeng 
 
 	- And 81 more.
 
@@ -4360,25 +4360,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ra1nuktahalfbeng
+	- dhanuktahalfbeng
 
 	- lanuktahalfbeng
 
-	- parenleft
+	- semicolon
 
-	- ssanuktahalfbeng
+	- endash
 
-	- underscore
+	- jhanuktahalfbeng
 
-	- chanuktahalfbeng
+	- wanuktahalfbeng
 
-	- nnaddarubeng
+	- five
 
-	- uvowelsigninterpolateUIbeng
+	- question
 
-	- plus
+	- greater
 
-	- colon 
+	- khanuktahalfbeng 
 
 	- And 81 more.
 
@@ -4465,25 +4465,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ra1nuktahalfbeng
+	- dhanuktahalfbeng
 
 	- lanuktahalfbeng
 
-	- parenleft
+	- semicolon
 
-	- ssanuktahalfbeng
+	- endash
 
-	- underscore
+	- jhanuktahalfbeng
 
-	- chanuktahalfbeng
+	- wanuktahalfbeng
 
-	- nnaddarubeng
+	- five
 
-	- uvowelsigninterpolateUIbeng
+	- question
 
-	- plus
+	- greater
 
-	- colon 
+	- khanuktahalfbeng 
 
 	- And 81 more.
 
@@ -4612,25 +4612,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ra1nuktahalfbeng
+	- dhanuktahalfbeng
 
 	- lanuktahalfbeng
 
-	- parenleft
+	- semicolon
 
-	- ssanuktahalfbeng
+	- endash
 
-	- underscore
+	- jhanuktahalfbeng
 
-	- chanuktahalfbeng
+	- wanuktahalfbeng
 
-	- nnaddarubeng
+	- five
 
-	- uvowelsigninterpolateUIbeng
+	- question
 
-	- plus
+	- greater
 
-	- colon 
+	- khanuktahalfbeng 
 
 	- And 81 more.
 
@@ -4742,25 +4742,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ra1nuktahalfbeng
+	- dhanuktahalfbeng
 
 	- lanuktahalfbeng
 
-	- llvocalicUIbeng
+	- semicolon
 
-	- parenleft
+	- endash
 
-	- llvocalicvowelsignUIbeng
+	- jhanuktahalfbeng
 
-	- ssanuktahalfbeng
+	- uni00A0
 
-	- underscore
+	- wanuktahalfbeng
 
-	- chanuktahalfbeng
+	- five
 
-	- nnaddarubeng
+	- question
 
-	- uvowelsigninterpolateUIbeng 
+	- greater 
 
 	- And 81 more.
 
