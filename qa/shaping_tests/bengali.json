@@ -1,6 +1,12 @@
 {
     "tests": [
         {
+            "input": "ত্ত্র",
+            "expectation": "ttarabeng=0+675",
+            "note": "Issue #6",
+            "only": "NotoSansBengali-Regular.ttf"
+        },
+        {
             "expectation": "tabeng=0+707|candrabindubeng=0@-157,0+0|aavowelsignbeng=0+266|evowelsignbeng=3+346|dabeng=3+603|rabeng=5+596",
             "input": "তাঁদের",
             "note": "Issue #604",
