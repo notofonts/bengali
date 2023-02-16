@@ -1,8 +1,8 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.9
+Fontbakery version: 0.8.11b0
 
-<details><summary><b>[4] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
+<details><summary><b>[5] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
 
 * 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSansBengali/googlefonts/ttf', 'fonts/NotoSansBengali/googlefonts/variable-ttf'] [code: single-directory]
@@ -16,7 +16,7 @@ Noto Sans Bengali ExtraBold: 917
 Noto Sans Bengali ExtraLight: 917
 Noto Sans Bengali Light: 917
 Noto Sans Bengali Medium: 917
-Noto Sans Bengali Regular: 917
+Noto Sans Bengali: 917
 Noto Sans Bengali SemiBold: 917
 Noto Sans Bengali Thin: 917
 Noto Sans Bengali UI Black: 1069
@@ -25,7 +25,7 @@ Noto Sans Bengali UI ExtraBold: 1069
 Noto Sans Bengali UI ExtraLight: 1069
 Noto Sans Bengali UI Light: 1069
 Noto Sans Bengali UI Medium: 1069
-Noto Sans Bengali UI Regular: 1069
+Noto Sans Bengali UI: 1069
 Noto Sans Bengali UI SemiBold: 1069
 Noto Sans Bengali UI Thin: 1069 [code: sTypoAscender-mismatch]
 * 🔥 **FAIL** sTypoDescender is not the same across the family:
@@ -35,7 +35,7 @@ Noto Sans Bengali ExtraBold: -408
 Noto Sans Bengali ExtraLight: -408
 Noto Sans Bengali Light: -408
 Noto Sans Bengali Medium: -408
-Noto Sans Bengali Regular: -408
+Noto Sans Bengali: -408
 Noto Sans Bengali SemiBold: -408
 Noto Sans Bengali Thin: -408
 Noto Sans Bengali UI Black: -293
@@ -44,7 +44,7 @@ Noto Sans Bengali UI ExtraBold: -293
 Noto Sans Bengali UI ExtraLight: -293
 Noto Sans Bengali UI Light: -293
 Noto Sans Bengali UI Medium: -293
-Noto Sans Bengali UI Regular: -293
+Noto Sans Bengali UI: -293
 Noto Sans Bengali UI SemiBold: -293
 Noto Sans Bengali UI Thin: -293 [code: sTypoDescender-mismatch]
 * 🔥 **FAIL** usWinAscent is not the same across the family:
@@ -54,7 +54,7 @@ Noto Sans Bengali ExtraBold: 917
 Noto Sans Bengali ExtraLight: 917
 Noto Sans Bengali Light: 917
 Noto Sans Bengali Medium: 917
-Noto Sans Bengali Regular: 917
+Noto Sans Bengali: 917
 Noto Sans Bengali SemiBold: 917
 Noto Sans Bengali Thin: 917
 Noto Sans Bengali UI Black: 1069
@@ -63,7 +63,7 @@ Noto Sans Bengali UI ExtraBold: 1069
 Noto Sans Bengali UI ExtraLight: 1069
 Noto Sans Bengali UI Light: 1069
 Noto Sans Bengali UI Medium: 1069
-Noto Sans Bengali UI Regular: 1069
+Noto Sans Bengali UI: 1069
 Noto Sans Bengali UI SemiBold: 1069
 Noto Sans Bengali UI Thin: 1069 [code: usWinAscent-mismatch]
 * 🔥 **FAIL** usWinDescent is not the same across the family:
@@ -73,7 +73,7 @@ Noto Sans Bengali ExtraBold: 408
 Noto Sans Bengali ExtraLight: 408
 Noto Sans Bengali Light: 408
 Noto Sans Bengali Medium: 408
-Noto Sans Bengali Regular: 408
+Noto Sans Bengali: 408
 Noto Sans Bengali SemiBold: 408
 Noto Sans Bengali Thin: 408
 Noto Sans Bengali UI Black: 293
@@ -82,7 +82,7 @@ Noto Sans Bengali UI ExtraBold: 293
 Noto Sans Bengali UI ExtraLight: 293
 Noto Sans Bengali UI Light: 293
 Noto Sans Bengali UI Medium: 293
-Noto Sans Bengali UI Regular: 293
+Noto Sans Bengali UI: 293
 Noto Sans Bengali UI SemiBold: 293
 Noto Sans Bengali UI Thin: 293 [code: usWinDescent-mismatch]
 * 🔥 **FAIL** ascent is not the same across the family:
@@ -92,7 +92,7 @@ Noto Sans Bengali ExtraBold: 917
 Noto Sans Bengali ExtraLight: 917
 Noto Sans Bengali Light: 917
 Noto Sans Bengali Medium: 917
-Noto Sans Bengali Regular: 917
+Noto Sans Bengali: 917
 Noto Sans Bengali SemiBold: 917
 Noto Sans Bengali Thin: 917
 Noto Sans Bengali UI Black: 1069
@@ -101,7 +101,7 @@ Noto Sans Bengali UI ExtraBold: 1069
 Noto Sans Bengali UI ExtraLight: 1069
 Noto Sans Bengali UI Light: 1069
 Noto Sans Bengali UI Medium: 1069
-Noto Sans Bengali UI Regular: 1069
+Noto Sans Bengali UI: 1069
 Noto Sans Bengali UI SemiBold: 1069
 Noto Sans Bengali UI Thin: 1069 [code: ascent-mismatch]
 * 🔥 **FAIL** descent is not the same across the family:
@@ -111,7 +111,7 @@ Noto Sans Bengali ExtraBold: -408
 Noto Sans Bengali ExtraLight: -408
 Noto Sans Bengali Light: -408
 Noto Sans Bengali Medium: -408
-Noto Sans Bengali Regular: -408
+Noto Sans Bengali: -408
 Noto Sans Bengali SemiBold: -408
 Noto Sans Bengali Thin: -408
 Noto Sans Bengali UI Black: -293
@@ -120,7 +120,7 @@ Noto Sans Bengali UI ExtraBold: -293
 Noto Sans Bengali UI ExtraLight: -293
 Noto Sans Bengali UI Light: -293
 Noto Sans Bengali UI Medium: -293
-Noto Sans Bengali UI Regular: -293
+Noto Sans Bengali UI: -293
 Noto Sans Bengali UI SemiBold: -293
 Noto Sans Bengali UI Thin: -293 [code: descent-mismatch]
 </div></details><details><summary>🔥 <b>FAIL:</b> Fonts have consistent PANOSE proportion? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.google.fonts/check/family/panose_proportion">com.google.fonts/check/family/panose_proportion</a>)</summary><div>
@@ -131,10 +131,14 @@ Noto Sans Bengali UI Thin: -293 [code: descent-mismatch]
 
 
 * 🔥 **FAIL** PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
-</div></details><br></div></details><details><summary><b>[12] NotoSansBengali-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Check that OS/2.fsSelection bold & italic settings are unique for each NameID1 (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.adobe.fonts/check/family/bold_italic_unique_for_nameid1">com.adobe.fonts/check/family/bold_italic_unique_for_nameid1</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** Family 'Noto Sans Bengali' has 2 fonts (should be no more than 1) with the same OS/2.fsSelection bold & italic settings: Bold=False, Italic=False [code: unique-fsselection]
+</div></details><br></div></details><details><summary><b>[11] NotoSansBengali-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -147,16 +151,16 @@ Noto Sans Bengali UI Thin: -293 [code: descent-mismatch]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* dhamabeng
-	* dhanuktahalfbeng
-	* shachabeng
-	* katarabeng
-	* janyabeng
-	* ssanuktabeng
-	* ghabeng
-	* jarabeng
-	* bhalabeng
-	* sattarasquishbeng and 411 more.
+	* aabeng
+	* abeng
+	* aibeng
+	* aubeng
+	* auvowelwavebeng
+	* bababeng
+	* babhabeng
+	* badabeng
+	* badarabeng
+	* badhabeng and 393 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -175,27 +179,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- dhanuktahalfbeng
+	- asciicircum
 
-	- lanuktahalfbeng
+	- asciitilde
 
-	- semicolon
+	- asterisk
 
-	- endash
+	- backslash
 
-	- jhanuktahalfbeng
+	- banuktahalfbeng
 
-	- wanuktahalfbeng
+	- bar
 
-	- five
+	- bhanuktahalfbeng
 
-	- question
+	- braceleft
 
-	- greater
+	- braceright
 
-	- khanuktahalfbeng 
+	- bracketleft 
 
-	- And 81 more.
+	- 81 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -219,20 +223,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 	 uni1CE1 (U+1CE1), uni1CE1.UI (unencoded) and uni1CF7 (U+1CF7) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -263,13 +260,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* Wcircumflex (U+0174): B<<714.0,235.0>-<721.0,196.0>-<724.0,167.0>>/B<<724.0,167.0>-<727.0,192.0>-<734.0,229.0>> = 12.748914526401432 
 
-	* And 9 more.
+	* 9 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansBengali-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansBengali-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -282,16 +279,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* dhamabeng
-	* dhanuktahalfbeng
-	* shachabeng
-	* katarabeng
-	* janyabeng
-	* ssanuktabeng
-	* ghabeng
-	* bhalabeng
-	* sattarasquishbeng
-	* nadababeng and 367 more.
+	* aabeng
+	* abeng
+	* aibeng
+	* aubeng
+	* auvowelwavebeng
+	* bababeng
+	* babhabeng
+	* badabeng
+	* badarabeng
+	* badhabeng and 352 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -303,27 +300,27 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- dhanuktahalfbeng
+	- asciicircum
 
-	- lanuktahalfbeng
+	- asciitilde
 
-	- semicolon
+	- asterisk
 
-	- endash
+	- backslash
 
-	- jhanuktahalfbeng
+	- banuktahalfbeng
 
-	- wanuktahalfbeng
+	- bar
 
-	- five
+	- bhanuktahalfbeng
 
-	- question
+	- braceleft
 
-	- greater
+	- braceright
 
-	- khanuktahalfbeng 
+	- bracketleft 
 
-	- And 81 more.
+	- 81 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -347,20 +344,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 	 uni1CE1 (U+1CE1), uni1CE1.UI (unencoded) and uni1CF7 (U+1CF7) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -391,7 +381,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* m (U+006D): X=627.5,Y=537.0 (should be at x-height 536?) 
 
-	* And 60 more.
+	* 60 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -419,13 +409,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* Wdieresis (U+1E84): B<<266.0,196.0>-<272.0,161.0>-<275.0,137.0>>/B<<275.0,137.0>-<278.0,162.0>-<284.0,196.5>> = 13.967789761532726 
 
-	* And 8 more.
+	* 8 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansBengali-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansBengali-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -438,16 +428,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* dhamabeng
-	* dhanuktahalfbeng
-	* shachabeng
-	* katarabeng
-	* janyabeng
-	* ssanuktabeng
-	* ghabeng
-	* jarabeng
-	* bhalabeng
-	* sattarasquishbeng and 391 more.
+	* aabeng
+	* abeng
+	* aibeng
+	* aubeng
+	* auvowelwavebeng
+	* bababeng
+	* babhabeng
+	* badabeng
+	* badarabeng
+	* badhabeng and 375 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -466,27 +456,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- dhanuktahalfbeng
+	- asciicircum
 
-	- lanuktahalfbeng
+	- asciitilde
 
-	- semicolon
+	- asterisk
 
-	- endash
+	- backslash
 
-	- jhanuktahalfbeng
+	- banuktahalfbeng
 
-	- wanuktahalfbeng
+	- bar
 
-	- five
+	- bhanuktahalfbeng
 
-	- question
+	- braceleft
 
-	- greater
+	- braceright
 
-	- khanuktahalfbeng 
+	- bracketleft 
 
-	- And 81 more.
+	- 81 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -510,20 +500,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 	 uni1CE1 (U+1CE1), uni1CE1.UI (unencoded) and uni1CF7 (U+1CF7) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -554,13 +537,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* Wgrave (U+1E80): B<<283.5,211.5>-<290.0,175.0>-<293.0,151.0>>/B<<293.0,151.0>-<297.0,183.0>-<305.0,226.5>> = 14.25003269780357 
 
-	* And 4 more.
+	* 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoSansBengali-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansBengali-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -574,15 +557,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* badabeng
+	* badarabeng
+	* cacabeng
+	* cachababeng
 	* cachabeng
+	* cacharabeng
 	* hababeng
-	* ngakassabeng
-	* ssamabeng
-	* ssakabeng
+	* kassamabeng
 	* kassannabeng
-	* ssattiibeng
-	* kassarabeng
-	* kassamabeng and 7 more.
+	* kassarabeng and 7 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -601,27 +584,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- dhanuktahalfbeng
+	- asciicircum
 
-	- lanuktahalfbeng
+	- asciitilde
 
-	- semicolon
+	- asterisk
 
-	- endash
+	- backslash
 
-	- jhanuktahalfbeng
+	- banuktahalfbeng
 
-	- wanuktahalfbeng
+	- bar
 
-	- five
+	- bhanuktahalfbeng
 
-	- question
+	- braceleft
 
-	- greater
+	- braceright
 
-	- khanuktahalfbeng 
+	- bracketleft 
 
-	- And 81 more.
+	- 81 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -645,20 +628,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 	 uni1CE1 (U+1CE1), uni1CE1.UI (unencoded) and uni1CF7 (U+1CF7) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -689,7 +665,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* colon.beng (U+003A): X=149.0,Y=1.5 (should be at baseline 0?) 
 
-	* And 80 more.
+	* 79 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -707,11 +683,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* mabeng (U+09AE): L<<449.0,587.0>--<64.0,587.0>>/B<<64.0,587.0>-<143.0,574.0>-<185.0,541.5>> = 9.344671902099696 
 
-	* And sabeng (U+09B8): L<<516.0,587.0>--<57.0,587.0>>/B<<57.0,587.0>-<145.0,570.0>-<197.5,544.5>> = 10.933816785755795 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoSansBengali-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* sabeng (U+09B8): L<<516.0,587.0>--<57.0,587.0>>/B<<57.0,587.0>-<145.0,570.0>-<197.5,544.5>> = 10.933816785755795 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansBengali-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -724,16 +700,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* dhamabeng
-	* janyabeng
-	* kassabeng
-	* kamabeng
-	* janyahalfbeng
 	* badabeng
-	* ngarasquishbeng
+	* badarabeng
+	* cacabeng
+	* cachababeng
 	* cachabeng
+	* cacharabeng
+	* canyabeng
+	* dhamabeng
 	* hababeng
-	* sakarabeng and 48 more.
+	* hamabeng and 48 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -752,27 +728,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- dhanuktahalfbeng
+	- asciicircum
 
-	- lanuktahalfbeng
+	- asciitilde
 
-	- semicolon
+	- asterisk
 
-	- endash
+	- backslash
 
-	- jhanuktahalfbeng
+	- banuktahalfbeng
 
-	- wanuktahalfbeng
+	- bar
 
-	- five
+	- bhanuktahalfbeng
 
-	- question
+	- braceleft
 
-	- greater
+	- braceright
 
-	- khanuktahalfbeng 
+	- bracketleft 
 
-	- And 81 more.
+	- 81 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -796,20 +772,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 	 uni1CE1 (U+1CE1), uni1CE1.UI (unencoded) and uni1CF7 (U+1CF7) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -840,7 +809,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* e (U+0065): X=395.0,Y=-2.0 (should be at baseline 0?) 
 
-	* And 57 more.
+	* 57 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -856,11 +825,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* mabeng (U+09AE): L<<450.0,574.0>--<82.0,574.0>>/B<<82.0,574.0>-<187.0,558.0>-<229.5,500.0>> = 8.664135433108044 
 
-	* And sabeng (U+09B8): L<<514.0,574.0>--<75.0,574.0>>/B<<75.0,574.0>-<159.0,558.0>-<208.0,534.0>> = 10.784297867562596 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansBengali-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* sabeng (U+09B8): L<<514.0,574.0>--<75.0,574.0>>/B<<75.0,574.0>-<159.0,558.0>-<208.0,534.0>> = 10.784297867562596 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[11] NotoSansBengali-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -873,16 +842,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* dhamabeng
-	* shachabeng
-	* katarabeng
-	* janyabeng
-	* bhalabeng
-	* sattarasquishbeng
-	* nadababeng
-	* kassabeng
-	* pattabeng
-	* abeng and 261 more.
+	* aabeng
+	* abeng
+	* bababeng
+	* babhabeng
+	* badabeng
+	* badarabeng
+	* badhabeng
+	* barabeng
+	* barasquishbeng
+	* barubeng and 256 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -901,27 +870,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- dhanuktahalfbeng
+	- asciicircum
 
-	- lanuktahalfbeng
+	- asciitilde
 
-	- semicolon
+	- asterisk
 
-	- endash
+	- backslash
 
-	- jhanuktahalfbeng
+	- banuktahalfbeng
 
-	- wanuktahalfbeng
+	- bar
 
-	- five
+	- bhanuktahalfbeng
 
-	- question
+	- braceleft
 
-	- greater
+	- braceright
 
-	- khanuktahalfbeng 
+	- bracketleft 
 
-	- And 81 more.
+	- 81 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -945,20 +914,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 	 uni1CE1 (U+1CE1), uni1CE1.UI (unencoded) and uni1CF7 (U+1CF7) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -973,11 +935,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* mabeng (U+09AE): L<<443.0,539.0>--<157.0,539.0>>/B<<157.0,539.0>-<228.0,521.0>-<265.0,472.0>> = 14.22596389875178 
 
-	* And sabeng (U+09B8): L<<504.0,539.0>--<143.0,539.0>>/B<<143.0,539.0>-<204.0,527.0>-<240.0,506.5>> = 11.129189289611167 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansBengali-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* sabeng (U+09B8): L<<504.0,539.0>--<143.0,539.0>>/B<<143.0,539.0>-<204.0,527.0>-<240.0,506.5>> = 11.129189289611167 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[12] NotoSansBengali-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3165,16 +3127,16 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* dhamabeng
-	* shachabeng
-	* katarabeng
-	* janyabeng
-	* kassabeng
-	* pattabeng
+	* aabeng
 	* abeng
-	* ra1rasquishbeng
-	* kamabeng
-	* gharasquishbeng and 194 more.
+	* bababeng
+	* badabeng
+	* badarabeng
+	* badhabeng
+	* barabeng
+	* barasquishbeng
+	* barubeng
+	* cacabeng and 192 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -3186,27 +3148,27 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- dhanuktahalfbeng
+	- asciicircum
 
-	- lanuktahalfbeng
+	- asciitilde
 
-	- semicolon
+	- asterisk
 
-	- endash
+	- backslash
 
-	- jhanuktahalfbeng
+	- banuktahalfbeng
 
-	- wanuktahalfbeng
+	- bar
 
-	- five
+	- bhanuktahalfbeng
 
-	- question
+	- braceleft
 
-	- greater
+	- braceright
 
-	- khanuktahalfbeng 
+	- bracketleft 
 
-	- And 81 more.
+	- 81 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -3230,20 +3192,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 	 uni1CE1 (U+1CE1), uni1CE1.UI (unencoded) and uni1CF7 (U+1CF7) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -3262,11 +3217,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* mabeng (U+09AE): L<<450.0,551.0>--<116.0,551.0>>/B<<116.0,551.0>-<199.0,540.0>-<246.5,489.5>> = 7.549421768263246 
 
-	* And sabeng (U+09B8): L<<510.0,551.0>--<107.0,551.0>>/B<<107.0,551.0>-<183.0,540.0>-<226.5,518.0>> = 8.235619324209488 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansBengali-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* sabeng (U+09B8): L<<510.0,551.0>--<107.0,551.0>>/B<<107.0,551.0>-<183.0,540.0>-<226.5,518.0>> = 8.235619324209488 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[12] NotoSansBengali-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3279,16 +3234,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* dhamabeng
-	* shachabeng
-	* katarabeng
-	* janyabeng
-	* ssanuktabeng
-	* ghabeng
-	* bhalabeng
-	* sattarasquishbeng
-	* nadababeng
-	* kassabeng and 316 more.
+	* aabeng
+	* abeng
+	* aubeng
+	* bababeng
+	* babhabeng
+	* badabeng
+	* badarabeng
+	* badhabeng
+	* balabeng
+	* barabeng and 305 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -3307,27 +3262,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- dhanuktahalfbeng
+	- asciicircum
 
-	- lanuktahalfbeng
+	- asciitilde
 
-	- semicolon
+	- asterisk
 
-	- endash
+	- backslash
 
-	- jhanuktahalfbeng
+	- banuktahalfbeng
 
-	- wanuktahalfbeng
+	- bar
 
-	- five
+	- bhanuktahalfbeng
 
-	- question
+	- braceleft
 
-	- greater
+	- braceright
 
-	- khanuktahalfbeng 
+	- bracketleft 
 
-	- And 81 more.
+	- 81 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -3351,20 +3306,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 	 uni1CE1 (U+1CE1), uni1CE1.UI (unencoded) and uni1CF7 (U+1CF7) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -3395,7 +3343,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* G (U+0047): X=531.0,Y=0.5 (should be at baseline 0?) 
 
-	* And 68 more.
+	* 68 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -3423,13 +3371,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* Wgrave (U+1E80): B<<678.0,182.0>-<684.0,150.0>-<687.0,126.0>>/B<<687.0,126.0>-<690.0,151.0>-<695.5,183.0>> = 13.967789761532726 
 
-	* And 3 more.
+	* 3 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[14] NotoSansBengali-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansBengali-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3442,9 +3390,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* cachabeng
-	* cacharabeng
-	* cachababeng and cacabeng
+	* cacabeng
+	* cachababeng
+	* cachabeng and cacharabeng
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -3461,27 +3409,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- dhanuktahalfbeng
+	- asciicircum
 
-	- lanuktahalfbeng
+	- asciitilde
 
-	- semicolon
+	- asterisk
 
-	- endash
+	- backslash
 
-	- jhanuktahalfbeng
+	- banuktahalfbeng
 
-	- wanuktahalfbeng
+	- bar
 
-	- five
+	- bhanuktahalfbeng
 
-	- question
+	- braceleft
 
-	- greater
+	- braceright
 
-	- khanuktahalfbeng 
+	- bracketleft 
 
-	- And 81 more.
+	- 81 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -3505,20 +3453,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 	 uni1CE1 (U+1CE1), uni1CE1.UI (unencoded) and uni1CF7 (U+1CF7) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -3537,7 +3478,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* rvocalicbeng (U+098B): L<<484.0,676.0>--<489.0,622.0>> -> L<<489.0,622.0>--<489.0,318.0>> 
 
-	* And rvocalicbeng (U+098B): L<<677.0,676.0>--<682.0,622.0>> -> L<<682.0,622.0>--<682.0,72.0>> [code: found-colinear-vectors]
+	* rvocalicbeng (U+098B): L<<677.0,676.0>--<682.0,622.0>> -> L<<682.0,622.0>--<682.0,72.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -3551,7 +3492,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* sabeng (U+09B8): L<<517.0,596.0>--<44.0,596.0>>/B<<44.0,596.0>-<113.0,582.0>-<160.5,564.0>> = 11.469530332866904 
 
-	* And twobeng (U+09E8): B<<252.0,187.0>-<242.0,187.0>-<233.0,188.0>>/B<<233.0,188.0>-<313.0,158.0>-<390.0,105.5>> = 14.21585347367354 [code: found-jaggy-segments]
+	* twobeng (U+09E8): B<<252.0,187.0>-<242.0,187.0>-<233.0,188.0>>/B<<233.0,188.0>-<313.0,158.0>-<390.0,105.5>> = 14.21585347367354 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -3563,11 +3504,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* exclamdown (U+00A1): L<<122.0,354.0>--<124.0,-186.0>> 
 
-	* And exclamdown (U+00A1): L<<96.0,-186.0>--<98.0,354.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSansBengaliUI-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* exclamdown (U+00A1): L<<96.0,-186.0>--<98.0,354.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[11] NotoSansBengaliUI-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3592,27 +3533,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- dhanuktahalfbeng
+	- asciicircum
 
-	- lanuktahalfbeng
+	- asciitilde
 
-	- semicolon
+	- asterisk
 
-	- endash
+	- backslash
 
-	- jhanuktahalfbeng
+	- banuktahalfbeng
 
-	- wanuktahalfbeng
+	- bar
 
-	- five
+	- bhanuktahalfbeng
 
-	- question
+	- braceleft
 
-	- greater
+	- braceright
 
-	- khanuktahalfbeng 
+	- bracketleft 
 
-	- And 81 more.
+	- 81 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -3636,7 +3577,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
@@ -3647,9 +3588,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 8 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 llvocalicvowelsignUIbeng (U+09E3), lvocalicvowelsignUIbeng (U+09E2) and rrvocalicvowelsignUIbeng (U+09C4) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -3680,13 +3619,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* Wcircumflex (U+0174): B<<714.0,235.0>-<721.0,196.0>-<724.0,167.0>>/B<<724.0,167.0>-<727.0,192.0>-<734.0,229.0>> = 12.748914526401432 
 
-	* And 9 more.
+	* 9 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSansBengaliUI-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansBengaliUI-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3704,27 +3643,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- dhanuktahalfbeng
+	- asciicircum
 
-	- lanuktahalfbeng
+	- asciitilde
 
-	- semicolon
+	- asterisk
 
-	- endash
+	- backslash
 
-	- jhanuktahalfbeng
+	- banuktahalfbeng
 
-	- wanuktahalfbeng
+	- bar
 
-	- five
+	- bhanuktahalfbeng
 
-	- question
+	- braceleft
 
-	- greater
+	- braceright
 
-	- khanuktahalfbeng 
+	- bracketleft 
 
-	- And 81 more.
+	- 81 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -3748,7 +3687,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
@@ -3759,9 +3698,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 8 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 llvocalicvowelsignUIbeng (U+09E3), lvocalicvowelsignUIbeng (U+09E2) and rrvocalicvowelsignUIbeng (U+09C4) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -3792,7 +3729,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* m (U+006D): X=627.5,Y=537.0 (should be at x-height 536?) 
 
-	* And 59 more.
+	* 59 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -3820,13 +3757,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* Wdieresis (U+1E84): B<<266.0,196.0>-<272.0,161.0>-<275.0,137.0>>/B<<275.0,137.0>-<278.0,162.0>-<284.0,196.5>> = 13.967789761532726 
 
-	* And 8 more.
+	* 8 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansBengaliUI-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansBengaliUI-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3851,27 +3788,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- dhanuktahalfbeng
+	- asciicircum
 
-	- lanuktahalfbeng
+	- asciitilde
 
-	- semicolon
+	- asterisk
 
-	- endash
+	- backslash
 
-	- jhanuktahalfbeng
+	- banuktahalfbeng
 
-	- wanuktahalfbeng
+	- bar
 
-	- five
+	- bhanuktahalfbeng
 
-	- question
+	- braceleft
 
-	- greater
+	- braceright
 
-	- khanuktahalfbeng 
+	- bracketleft 
 
-	- And 81 more.
+	- 81 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -3895,7 +3832,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
@@ -3906,9 +3843,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 8 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 llvocalicvowelsignUIbeng (U+09E3), lvocalicvowelsignUIbeng (U+09E2) and rrvocalicvowelsignUIbeng (U+09C4) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -3939,7 +3874,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* g (U+0067): X=565.0,Y=-1.0 (should be at baseline 0?) 
 
-	* And 67 more.
+	* 67 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -3967,13 +3902,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* Wgrave (U+1E80): B<<283.5,211.5>-<290.0,175.0>-<293.0,151.0>>/B<<293.0,151.0>-<297.0,183.0>-<305.0,226.5>> = 14.25003269780357 
 
-	* And 4 more.
+	* 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansBengaliUI-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansBengaliUI-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3998,27 +3933,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- dhanuktahalfbeng
+	- asciicircum
 
-	- lanuktahalfbeng
+	- asciitilde
 
-	- semicolon
+	- asterisk
 
-	- endash
+	- backslash
 
-	- jhanuktahalfbeng
+	- banuktahalfbeng
 
-	- wanuktahalfbeng
+	- bar
 
-	- five
+	- bhanuktahalfbeng
 
-	- question
+	- braceleft
 
-	- greater
+	- braceright
 
-	- khanuktahalfbeng 
+	- bracketleft 
 
-	- And 81 more.
+	- 81 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -4042,7 +3977,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
@@ -4053,9 +3988,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 8 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 llvocalicvowelsignUIbeng (U+09E3), lvocalicvowelsignUIbeng (U+09E2) and rrvocalicvowelsignUIbeng (U+09C4) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -4086,7 +4019,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* colon.beng (U+003A): X=149.0,Y=1.5 (should be at baseline 0?) 
 
-	* And 77 more.
+	* 76 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -4104,11 +4037,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* mabeng (U+09AE): L<<449.0,587.0>--<64.0,587.0>>/B<<64.0,587.0>-<143.0,574.0>-<185.0,541.5>> = 9.344671902099696 
 
-	* And sabeng (U+09B8): L<<516.0,587.0>--<57.0,587.0>>/B<<57.0,587.0>-<145.0,570.0>-<197.5,544.5>> = 10.933816785755795 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansBengaliUI-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* sabeng (U+09B8): L<<516.0,587.0>--<57.0,587.0>>/B<<57.0,587.0>-<145.0,570.0>-<197.5,544.5>> = 10.933816785755795 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[13] NotoSansBengaliUI-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -4133,27 +4066,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- dhanuktahalfbeng
+	- asciicircum
 
-	- lanuktahalfbeng
+	- asciitilde
 
-	- semicolon
+	- asterisk
 
-	- endash
+	- backslash
 
-	- jhanuktahalfbeng
+	- banuktahalfbeng
 
-	- wanuktahalfbeng
+	- bar
 
-	- five
+	- bhanuktahalfbeng
 
-	- question
+	- braceleft
 
-	- greater
+	- braceright
 
-	- khanuktahalfbeng 
+	- bracketleft 
 
-	- And 81 more.
+	- 81 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -4177,7 +4110,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
@@ -4188,9 +4121,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 8 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 llvocalicvowelsignUIbeng (U+09E3), lvocalicvowelsignUIbeng (U+09E2) and rrvocalicvowelsignUIbeng (U+09C4) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -4221,7 +4152,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* e (U+0065): X=395.0,Y=-2.0 (should be at baseline 0?) 
 
-	* And 56 more.
+	* 56 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -4237,11 +4168,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* mabeng (U+09AE): L<<450.0,574.0>--<82.0,574.0>>/B<<82.0,574.0>-<187.0,558.0>-<229.5,500.0>> = 8.664135433108044 
 
-	* And sabeng (U+09B8): L<<514.0,574.0>--<75.0,574.0>>/B<<75.0,574.0>-<159.0,558.0>-<208.0,534.0>> = 10.784297867562596 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSansBengaliUI-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* sabeng (U+09B8): L<<514.0,574.0>--<75.0,574.0>>/B<<75.0,574.0>-<159.0,558.0>-<208.0,534.0>> = 10.784297867562596 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[11] NotoSansBengaliUI-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -4266,27 +4197,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- dhanuktahalfbeng
+	- asciicircum
 
-	- lanuktahalfbeng
+	- asciitilde
 
-	- semicolon
+	- asterisk
 
-	- endash
+	- backslash
 
-	- jhanuktahalfbeng
+	- banuktahalfbeng
 
-	- wanuktahalfbeng
+	- bar
 
-	- five
+	- bhanuktahalfbeng
 
-	- question
+	- braceleft
 
-	- greater
+	- braceright
 
-	- khanuktahalfbeng 
+	- bracketleft 
 
-	- And 81 more.
+	- 81 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -4310,7 +4241,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
@@ -4321,9 +4252,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 8 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 llvocalicvowelsignUIbeng (U+09E3), lvocalicvowelsignUIbeng (U+09E2) and rrvocalicvowelsignUIbeng (U+09C4) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -4338,11 +4267,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* mabeng (U+09AE): L<<443.0,539.0>--<157.0,539.0>>/B<<157.0,539.0>-<228.0,521.0>-<265.0,472.0>> = 14.22596389875178 
 
-	* And sabeng (U+09B8): L<<504.0,539.0>--<143.0,539.0>>/B<<143.0,539.0>-<204.0,527.0>-<240.0,506.5>> = 11.129189289611167 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSansBengaliUI-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* sabeng (U+09B8): L<<504.0,539.0>--<143.0,539.0>>/B<<143.0,539.0>-<204.0,527.0>-<240.0,506.5>> = 11.129189289611167 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[11] NotoSansBengaliUI-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -4360,27 +4289,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- dhanuktahalfbeng
+	- asciicircum
 
-	- lanuktahalfbeng
+	- asciitilde
 
-	- semicolon
+	- asterisk
 
-	- endash
+	- backslash
 
-	- jhanuktahalfbeng
+	- banuktahalfbeng
 
-	- wanuktahalfbeng
+	- bar
 
-	- five
+	- bhanuktahalfbeng
 
-	- question
+	- braceleft
 
-	- greater
+	- braceright
 
-	- khanuktahalfbeng 
+	- bracketleft 
 
-	- And 81 more.
+	- 81 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -4404,7 +4333,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
@@ -4415,9 +4344,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 8 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 llvocalicvowelsignUIbeng (U+09E3), lvocalicvowelsignUIbeng (U+09E2) and rrvocalicvowelsignUIbeng (U+09C4) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -4436,11 +4363,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* mabeng (U+09AE): L<<450.0,551.0>--<116.0,551.0>>/B<<116.0,551.0>-<199.0,540.0>-<246.5,489.5>> = 7.549421768263246 
 
-	* And sabeng (U+09B8): L<<510.0,551.0>--<107.0,551.0>>/B<<107.0,551.0>-<183.0,540.0>-<226.5,518.0>> = 8.235619324209488 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansBengaliUI-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* sabeng (U+09B8): L<<510.0,551.0>--<107.0,551.0>>/B<<107.0,551.0>-<183.0,540.0>-<226.5,518.0>> = 8.235619324209488 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[12] NotoSansBengaliUI-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -4465,27 +4392,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- dhanuktahalfbeng
+	- asciicircum
 
-	- lanuktahalfbeng
+	- asciitilde
 
-	- semicolon
+	- asterisk
 
-	- endash
+	- backslash
 
-	- jhanuktahalfbeng
+	- banuktahalfbeng
 
-	- wanuktahalfbeng
+	- bar
 
-	- five
+	- bhanuktahalfbeng
 
-	- question
+	- braceleft
 
-	- greater
+	- braceright
 
-	- khanuktahalfbeng 
+	- bracketleft 
 
-	- And 81 more.
+	- 81 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -4509,7 +4436,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
@@ -4520,9 +4447,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 8 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 llvocalicvowelsignUIbeng (U+09E3), lvocalicvowelsignUIbeng (U+09E2) and rrvocalicvowelsignUIbeng (U+09C4) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -4553,7 +4478,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* G (U+0047): X=531.0,Y=0.5 (should be at baseline 0?) 
 
-	* And 54 more.
+	* 54 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -4581,13 +4506,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* Wgrave (U+1E80): B<<678.0,182.0>-<684.0,150.0>-<687.0,126.0>>/B<<687.0,126.0>-<690.0,151.0>-<695.5,183.0>> = 13.967789761532726 
 
-	* And 3 more.
+	* 3 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansBengaliUI-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansBengaliUI-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -4612,27 +4537,27 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- dhanuktahalfbeng
+	- asciicircum
 
-	- lanuktahalfbeng
+	- asciitilde
 
-	- semicolon
+	- asterisk
 
-	- endash
+	- backslash
 
-	- jhanuktahalfbeng
+	- banuktahalfbeng
 
-	- wanuktahalfbeng
+	- bar
 
-	- five
+	- bhanuktahalfbeng
 
-	- question
+	- braceleft
 
-	- greater
+	- braceright
 
-	- khanuktahalfbeng 
+	- bracketleft 
 
-	- And 81 more.
+	- 81 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -4656,7 +4581,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni25CC	Contours detected: 8	Expected: 16 or 12 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
@@ -4667,9 +4592,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 8 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 llvocalicvowelsignUIbeng (U+09E3), lvocalicvowelsignUIbeng (U+09E2) and rrvocalicvowelsignUIbeng (U+09C4) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -4690,7 +4613,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* rvocalicbeng (U+098B): L<<484.0,676.0>--<489.0,622.0>> -> L<<489.0,622.0>--<489.0,318.0>> 
 
-	* And rvocalicbeng (U+098B): L<<677.0,676.0>--<682.0,622.0>> -> L<<682.0,622.0>--<682.0,72.0>> [code: found-colinear-vectors]
+	* rvocalicbeng (U+098B): L<<677.0,676.0>--<682.0,622.0>> -> L<<682.0,622.0>--<682.0,72.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -4704,7 +4627,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* sabeng (U+09B8): L<<517.0,596.0>--<44.0,596.0>>/B<<44.0,596.0>-<113.0,582.0>-<160.5,564.0>> = 11.469530332866904 
 
-	* And twobeng (U+09E8): B<<252.0,187.0>-<242.0,187.0>-<233.0,188.0>>/B<<233.0,188.0>-<313.0,158.0>-<390.0,105.5>> = 14.21585347367354 [code: found-jaggy-segments]
+	* twobeng (U+09E8): B<<252.0,187.0>-<242.0,187.0>-<233.0,188.0>>/B<<233.0,188.0>-<313.0,158.0>-<390.0,105.5>> = 14.21585347367354 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -4716,11 +4639,23 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* exclamdown (U+00A1): L<<122.0,354.0>--<124.0,-186.0>> 
 
-	* And exclamdown (U+00A1): L<<96.0,-186.0>--<98.0,354.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSansBengali[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* exclamdown (U+00A1): L<<96.0,-186.0>--<98.0,354.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[9] NotoSansBengali[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check variable font instances (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fvar_instances">com.google.fonts/check/fvar_instances</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -4729,10 +4664,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * 🔥 **FAIL** Glyph 0x00A0 is called "uni00A0.beng": Change to "uni00A0" [code: non-compliant-00a0]
-</div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
-
-
-* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 292. [code: invalid-default-instance-subfamily-nameid:292]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -4742,53 +4673,42 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- dhanuktahalfbeng
+	- asciicircum
 
-	- lanuktahalfbeng
+	- asciitilde
 
-	- semicolon
+	- asterisk
 
-	- endash
+	- backslash
 
-	- jhanuktahalfbeng
+	- banuktahalfbeng
 
-	- uni00A0
+	- bar
 
-	- wanuktahalfbeng
+	- bhanuktahalfbeng
 
-	- five
+	- braceleft
 
-	- question
+	- braceright
 
-	- greater 
+	- bracketleft 
 
-	- And 81 more.
+	- 81 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
-
-
-* ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 uni1CE1 (U+1CE1), uni1CE1.UI (unencoded) and uni1CF7 (U+1CF7) [code: spacing-mark-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
-	 U+1CE1 and U+1CF7 [code: non-mark-chars]
+	 nuktabeng (U+09BC), uni09FE (U+09FE) and uniA8F1 (U+A8F1) [code: mark-chars]
 </div></details><br></div></details>
+
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 19 | 44 | 173 | 2126 | 116 | 1717 | 0 |
+| 3 | 63 | 162 | 2173 | 116 | 1755 | 0 |
 | 0% | 1% | 4% | 51% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:

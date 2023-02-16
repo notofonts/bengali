@@ -1,8 +1,8 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.9
+Fontbakery version: 0.8.11b0
 
-<details><summary><b>[3] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
+<details><summary><b>[4] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
 
 * 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSerifBengali/googlefonts/ttf', 'fonts/NotoSerifBengali/googlefonts/variable-ttf'] [code: single-directory]
@@ -14,10 +14,14 @@ Fontbakery version: 0.8.9
 
 
 * 🔥 **FAIL** PANOSE family type is not the same across this family. In order to fix this, please make sure that the panose.bFamilyType value is the same in the OS/2 table of all of this family font files. [code: inconsistency]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Check that OS/2.fsSelection bold & italic settings are unique for each NameID1 (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/os2.html#com.adobe.fonts/check/family/bold_italic_unique_for_nameid1">com.adobe.fonts/check/family/bold_italic_unique_for_nameid1</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** Family 'Noto Serif Bengali' has 2 fonts (should be no more than 1) with the same OS/2.fsSelection bold & italic settings: Bold=False, Italic=False [code: unique-fsselection]
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -26,16 +30,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni09B709CD09A3
-	* uni099C09CD099E
-	* uni09A809CD09AC
-	* uni0999
-	* uni099C09CD099E09CD09AC
-	* uni099509CD099F09C0
-	* uni09B909C1
-	* uni09A309CD099F09CD09B009D7
-	* uni09B709CD099F09C0
-	* uni09EA and 337 more.
+	* Euro
+	* uni0985
+	* uni0986
+	* uni0987
+	* uni0988
+	* uni098B
+	* uni0993
+	* uni0994
+	* uni099509CD0995
+	* uni099509CD099F and 338 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -71,7 +75,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -105,7 +109,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* X (U+0058): X=350.0,Y=621.0 (should be at cap-height 622?) 
 
-	* And 79 more.
+	* 79 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -129,17 +133,17 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* ydieresis (U+00FF): B<<336.0,187.0>-<342.0,160.0>-<343.0,142.0>>/B<<343.0,142.0>-<346.0,164.0>-<349.5,180.0>> = 10.944996138289511 
 
-	* And ygrave (U+1EF3): B<<336.0,187.0>-<342.0,160.0>-<343.0,142.0>>/B<<343.0,142.0>-<346.0,164.0>-<349.5,180.0>> = 10.944996138289511 [code: found-jaggy-segments]
+	* ygrave (U+1EF3): B<<336.0,187.0>-<342.0,160.0>-<343.0,142.0>>/B<<343.0,142.0>-<346.0,164.0>-<349.5,180.0>> = 10.944996138289511 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<454.0,335.0>--<295.0,336.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -148,16 +152,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni09B709CD09A3
-	* uni099C09CD099E
-	* uni0999
-	* uni099C09CD099E09CD09AC
-	* uni099509CD099F09C0
-	* uni09A309CD099F09CD09B009D7
-	* uni09B709CD099F09C0
-	* uni099F09CD09B009BF
-	* uni099509CD09B709CD09A3
-	* uni09A809CD09A4 and 257 more.
+	* Euro
+	* uni0985
+	* uni0986
+	* uni0987
+	* uni0988
+	* uni098B
+	* uni0993
+	* uni0994
+	* uni099509CD0995
+	* uni099509CD099F and 258 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -186,7 +190,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -220,7 +224,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* yen (U+00A5): X=406.0,Y=621.0 (should be at cap-height 622?) 
 
-	* And 69 more.
+	* 68 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -240,7 +244,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* ydieresis (U+00FF): B<<321.0,162.0>-<327.0,138.0>-<329.0,118.0>>/B<<329.0,118.0>-<331.0,139.0>-<339.5,165.0>> = 11.150925168505127 
 
-	* And ygrave (U+1EF3): B<<321.0,162.0>-<327.0,138.0>-<329.0,118.0>>/B<<329.0,118.0>-<331.0,139.0>-<339.5,165.0>> = 11.150925168505127 [code: found-jaggy-segments]
+	* ygrave (U+1EF3): B<<321.0,162.0>-<327.0,138.0>-<329.0,118.0>>/B<<329.0,118.0>-<331.0,139.0>-<339.5,165.0>> = 11.150925168505127 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -250,15 +254,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* h (U+0068): L<<252.0,309.0>--<253.0,118.0>> 
 
-	* And sterling (U+00A3): L<<428.0,346.0>--<270.0,347.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-Condensed.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* sterling (U+00A3): L<<428.0,346.0>--<270.0,347.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-Condensed.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliCondensed-Regular.ttf. Got NotoSerifBengali-Condensed.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-Condensed.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -296,7 +300,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -330,7 +334,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* Y (U+0059): X=69.0,Y=620.0 (should be at cap-height 622?) 
 
-	* And 89 more.
+	* 88 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -344,15 +348,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09AE (U+09AE): B<<304.5,251.0>-<328.0,219.0>-<344.0,163.0>>/B<<344.0,163.0>-<341.0,203.0>-<340.0,241.0>> = 11.656242572103839 
 
-	* And uni09B2 (U+09B2): B<<355.0,444.0>-<381.0,416.0>-<401.0,348.0>>/B<<401.0,348.0>-<399.0,376.0>-<397.5,402.5>> = 12.30392355405985 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-CondensedBlack.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni09B2 (U+09B2): B<<355.0,444.0>-<381.0,416.0>-<401.0,348.0>>/B<<401.0,348.0>-<399.0,376.0>-<397.5,402.5>> = 12.30392355405985 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-CondensedBlack.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliCondensed-Black.ttf. Got NotoSerifBengali-CondensedBlack.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBlack.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -390,7 +394,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -424,7 +428,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* c (U+0063): X=380.5,Y=535.0 (should be at x-height 536?) 
 
-	* And 83 more.
+	* 83 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -452,21 +456,21 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* ydieresis (U+00FF): B<<296.5,179.5>-<302.0,151.0>-<303.0,132.0>>/B<<303.0,132.0>-<308.0,175.0>-<316.0,206.0>> = 9.645302119321792 
 
-	* And ygrave (U+1EF3): B<<296.5,179.5>-<302.0,151.0>-<303.0,132.0>>/B<<303.0,132.0>-<308.0,175.0>-<316.0,206.0>> = 9.645302119321792 [code: found-jaggy-segments]
+	* ygrave (U+1EF3): B<<296.5,179.5>-<302.0,151.0>-<303.0,132.0>>/B<<303.0,132.0>-<308.0,175.0>-<316.0,206.0>> = 9.645302119321792 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<399.0,334.0>--<258.0,335.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-CondensedBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-CondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliCondensed-Bold.ttf. Got NotoSerifBengali-CondensedBold.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -504,7 +508,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -538,7 +542,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* t (U+0074): X=70.5,Y=534.0 (should be at x-height 536?) 
 
-	* And 66 more.
+	* 66 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -550,7 +554,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09A8 (U+09A8): B<<305.0,345.5>-<333.0,304.0>-<349.0,255.0>>/B<<349.0,255.0>-<347.0,281.0>-<346.0,308.0>> = 13.6847400280531 
 
-	* And uni09B2 (U+09B2): B<<405.5,446.0>-<432.0,413.0>-<452.0,355.0>>/B<<452.0,355.0>-<450.0,379.0>-<448.5,403.5>> = 14.261964346842499 [code: found-jaggy-segments]
+	* uni09B2 (U+09B2): B<<405.5,446.0>-<432.0,413.0>-<452.0,355.0>>/B<<452.0,355.0>-<450.0,379.0>-<448.5,403.5>> = 14.261964346842499 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -558,15 +562,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* h (U+0068): L<<223.0,312.0>--<224.0,116.0>> 
 
-	* And sterling (U+00A3): L<<375.0,337.0>--<238.0,338.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-CondensedExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* sterling (U+00A3): L<<375.0,337.0>--<238.0,338.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-CondensedExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliCondensed-ExtraBold.ttf. Got NotoSerifBengali-CondensedExtraBold.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -604,7 +608,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -634,7 +638,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* ydieresis (U+00FF): B<<288.5,172.0>-<294.0,142.0>-<296.0,122.0>>/B<<296.0,122.0>-<299.0,145.0>-<303.5,166.0>> = 13.142001108672124 
 
-	* And ygrave (U+1EF3): B<<288.5,172.0>-<294.0,142.0>-<296.0,122.0>>/B<<296.0,122.0>-<299.0,145.0>-<303.5,166.0>> = 13.142001108672124 [code: found-jaggy-segments]
+	* ygrave (U+1EF3): B<<288.5,172.0>-<294.0,142.0>-<296.0,122.0>>/B<<296.0,122.0>-<299.0,145.0>-<303.5,166.0>> = 13.142001108672124 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -642,15 +646,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* h (U+0068): L<<241.0,308.0>--<242.0,119.0>> 
 
-	* And sterling (U+00A3): L<<388.0,335.0>--<249.0,336.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-CondensedExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* sterling (U+00A3): L<<388.0,335.0>--<249.0,336.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[11] NotoSerifBengali-CondensedExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliCondensed-ExtraLight.ttf. Got NotoSerifBengali-CondensedExtraLight.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedExtraLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -688,8 +692,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 465 among a set of 5 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 464:
+minus, equal
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -722,7 +735,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* w (U+0077): X=382.0,Y=535.0 (should be at x-height 536?) 
 
-	* And 63 more.
+	* 63 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -736,7 +749,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09AE (U+09AE): B<<281.0,229.5>-<310.0,188.0>-<325.0,130.0>>/B<<325.0,130.0>-<323.0,165.0>-<322.5,201.0>> = 11.229678843369 
 
-	* And uni09B2 (U+09B2): B<<344.0,438.5>-<368.0,413.0>-<390.0,350.0>>/B<<390.0,350.0>-<388.0,371.0>-<387.5,396.5>> = 13.809193841676203 [code: found-jaggy-segments]
+	* uni09B2 (U+09B2): B<<344.0,438.5>-<368.0,413.0>-<390.0,350.0>>/B<<390.0,350.0>-<388.0,371.0>-<387.5,396.5>> = 13.809193841676203 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -764,15 +777,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* Euro (U+20AC): L<<147.0,303.0>--<301.0,302.0>> 
 
-	* And OE (U+0152): L<<422.0,359.0>--<420.0,30.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-CondensedLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* OE (U+0152): L<<422.0,359.0>--<420.0,30.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[11] NotoSerifBengali-CondensedLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliCondensed-Light.ttf. Got NotoSerifBengali-CondensedLight.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -810,8 +823,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 465 among a set of 5 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 464:
+minus, equal
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -844,7 +866,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* sterling (U+00A3): X=391.0,Y=0.5 (should be at baseline 0?) 
 
-	* And 61 more.
+	* 61 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -856,7 +878,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09A8 (U+09A8): B<<271.0,299.0>-<296.0,250.0>-<307.0,194.0>>/B<<307.0,194.0>-<306.0,219.0>-<304.5,247.0>> = 8.822430493309726 
 
-	* And uni09AE (U+09AE): B<<290.5,239.0>-<317.0,202.0>-<333.0,144.0>>/B<<333.0,144.0>-<331.0,181.0>-<330.0,218.0>> = 12.328103259821559 [code: found-jaggy-segments]
+	* uni09AE (U+09AE): B<<290.5,239.0>-<317.0,202.0>-<333.0,144.0>>/B<<333.0,144.0>-<331.0,181.0>-<330.0,218.0>> = 12.328103259821559 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -866,15 +888,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* OE (U+0152): L<<454.0,355.0>--<453.0,38.0>> 
 
-	* And uni09B8 (U+09B8): L<<381.0,585.0>--<112.0,584.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-CondensedMedium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni09B8 (U+09B8): L<<381.0,585.0>--<112.0,584.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-CondensedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliCondensed-Medium.ttf. Got NotoSerifBengali-CondensedMedium.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedMedium.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -912,7 +934,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -946,7 +968,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* sterling (U+00A3): X=295.0,Y=-2.0 (should be at baseline 0?) 
 
-	* And 76 more.
+	* 74 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -962,21 +984,21 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09AE (U+09AE): B<<312.5,251.5>-<334.0,221.0>-<350.0,171.0>>/B<<350.0,171.0>-<347.0,210.0>-<345.5,247.5>> = 13.345966270061387 
 
-	* And uni09B2 (U+09B2): B<<369.0,444.5>-<395.0,415.0>-<415.0,350.0>>/B<<415.0,350.0>-<413.0,377.0>-<411.5,402.5>> = 12.866334169993527 [code: found-jaggy-segments]
+	* uni09B2 (U+09B2): B<<369.0,444.5>-<395.0,415.0>-<415.0,350.0>>/B<<415.0,350.0>-<413.0,377.0>-<411.5,402.5>> = 12.866334169993527 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<354.0,334.0>--<220.0,335.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-CondensedSemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-CondensedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliCondensed-SemiBold.ttf. Got NotoSerifBengali-CondensedSemiBold.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedSemiBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1014,7 +1036,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -1048,7 +1070,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* sterling (U+00A3): X=295.0,Y=-2.0 (should be at baseline 0?) 
 
-	* And 63 more.
+	* 62 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1062,15 +1084,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09AE (U+09AE): B<<322.5,251.0>-<343.0,223.0>-<357.0,180.0>>/B<<357.0,180.0>-<354.0,218.0>-<352.5,254.5>> = 13.520297109128588 
 
-	* And uni09B2 (U+09B2): B<<327.0,476.0>-<393.0,476.0>-<433.0,352.0>>/B<<433.0,352.0>-<430.0,378.0>-<428.5,403.0>> = 11.296751940663306 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSerifBengali-CondensedThin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni09B2 (U+09B2): B<<327.0,476.0>-<393.0,476.0>-<433.0,352.0>>/B<<433.0,352.0>-<430.0,378.0>-<428.5,403.0>> = 11.296751940663306 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[12] NotoSerifBengali-CondensedThin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliCondensed-Thin.ttf. Got NotoSerifBengali-CondensedThin.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-CondensedThin.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1108,8 +1130,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 465 among a set of 5 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 463:
+minus, equal
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -1142,7 +1173,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* y (U+0079): X=231.0,Y=-2.0 (should be at baseline 0?) 
 
-	* And 84 more.
+	* 84 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -1164,7 +1195,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09B2 (U+09B2): B<<341.5,437.0>-<365.0,412.0>-<387.0,351.0>>/B<<387.0,351.0>-<385.0,370.0>-<384.5,395.5>> = 13.823123892723835 
 
-	* And uni09B6 (U+09B6): B<<183.5,368.5>-<168.0,386.0>-<162.0,432.0>>/B<<162.0,432.0>-<158.0,389.0>-<140.0,370.0>> = 12.745953641117218 [code: found-jaggy-segments]
+	* uni09B6 (U+09B6): B<<183.5,368.5>-<168.0,386.0>-<162.0,432.0>>/B<<162.0,432.0>-<158.0,389.0>-<140.0,370.0>> = 12.745953641117218 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1190,13 +1221,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* Eogonek (U+0118): L<<149.0,362.0>--<148.0,25.0>> 
 
-	* And 8 more.
+	* 8 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1205,16 +1236,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni09B709CD09A3
-	* uni099C09CD099E
-	* uni09A809CD09AC
-	* uni0999
-	* uni099C09CD099E09CD09AC
-	* uni099509CD099F09C0
-	* uni09A309CD099F09CD09B009D7
-	* uni09B709CD099F09C0
-	* uni09EA
-	* uni099F09CD09B009BF and 294 more.
+	* Euro
+	* uni0985
+	* uni0986
+	* uni0987
+	* uni0988
+	* uni098B
+	* uni0993
+	* uni0994
+	* uni099509CD0995
+	* uni099509CD099F and 295 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1250,7 +1281,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -1284,7 +1315,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* Q (U+0051): X=319.0,Y=-2.0 (should be at baseline 0?) 
 
-	* And 55 more.
+	* 55 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1306,21 +1337,21 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* ydieresis (U+00FF): B<<329.0,175.5>-<335.0,150.0>-<337.0,131.0>>/B<<337.0,131.0>-<339.0,153.0>-<345.0,173.0>> = 11.203434865229296 
 
-	* And ygrave (U+1EF3): B<<329.0,175.5>-<335.0,150.0>-<337.0,131.0>>/B<<337.0,131.0>-<339.0,153.0>-<345.0,173.0>> = 11.203434865229296 [code: found-jaggy-segments]
+	* ygrave (U+1EF3): B<<329.0,175.5>-<335.0,150.0>-<337.0,131.0>>/B<<337.0,131.0>-<339.0,153.0>-<345.0,173.0>> = 11.203434865229296 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<442.0,340.0>--<284.0,341.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-ExtraCondensed.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-ExtraCondensed.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliExtraCondensed-Regular.ttf. Got NotoSerifBengali-ExtraCondensed.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensed.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1358,7 +1389,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -1392,7 +1423,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* asciicircum (U+005E): X=211.0,Y=624.0 (should be at cap-height 622?) 
 
-	* And 78 more.
+	* 77 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1410,15 +1441,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09B2 (U+09B2): B<<322.0,445.5>-<346.0,419.0>-<364.0,354.0>>/B<<364.0,354.0>-<361.0,380.0>-<360.0,405.0>> = 8.896693510240363 
 
-	* And uni09B6 (U+09B6): B<<298.5,586.0>-<330.0,543.0>-<352.0,470.0>>/B<<352.0,470.0>-<349.0,519.0>-<349.0,580.0>> = 13.267692173845946 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-ExtraCondensedBlack.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni09B6 (U+09B6): B<<298.5,586.0>-<330.0,543.0>-<352.0,470.0>>/B<<352.0,470.0>-<349.0,519.0>-<349.0,580.0>> = 13.267692173845946 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-ExtraCondensedBlack.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliExtraCondensed-Black.ttf. Got NotoSerifBengali-ExtraCondensedBlack.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1456,7 +1487,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -1490,7 +1521,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* uni099E (U+099E): B<<410.0,164.5>-<433.0,142.0>-<454.0,98.0>>/B<<454.0,98.0>-<450.0,117.0>-<446.5,147.0>> = 13.62521238790627 
 
-	* And 8 more.
+	* 8 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -1499,14 +1530,14 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<375.0,334.0>--<242.0,335.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-ExtraCondensedBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-ExtraCondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliExtraCondensed-Bold.ttf. Got NotoSerifBengali-ExtraCondensedBold.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1544,7 +1575,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -1578,7 +1609,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* t (U+0074): X=67.0,Y=535.0 (should be at x-height 536?) 
 
-	* And 57 more.
+	* 57 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1606,7 +1637,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* yacute (U+00FD): B<<261.0,163.5>-<268.0,130.0>-<270.0,108.0>>/B<<270.0,108.0>-<274.0,133.0>-<278.5,156.5>> = 14.284705828557108 
 
-	* And 3 more.
+	* 3 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -1615,14 +1646,14 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<352.0,333.0>--<224.0,334.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-ExtraCondensedExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-ExtraCondensedExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliExtraCondensed-ExtraBold.ttf. Got NotoSerifBengali-ExtraCondensedExtraBold.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1660,7 +1691,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -1694,7 +1725,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* sterling (U+00A3): X=271.0,Y=-2.0 (should be at baseline 0?) 
 
-	* And 51 more.
+	* 51 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1722,7 +1753,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* y (U+0079): B<<271.5,170.5>-<277.0,139.0>-<279.0,118.0>>/B<<279.0,118.0>-<282.0,142.0>-<285.5,163.5>> = 12.565348379907268 
 
-	* And 4 more.
+	* 4 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -1731,14 +1762,14 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<365.0,334.0>--<234.0,335.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-ExtraCondensedExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSerifBengali-ExtraCondensedExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliExtraCondensed-ExtraLight.ttf. Got NotoSerifBengali-ExtraCondensedExtraLight.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1776,8 +1807,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 425 among a set of 5 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 423:
+minus, equal
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -1810,7 +1850,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* sterling (U+00A3): X=272.0,Y=-2.0 (should be at baseline 0?) 
 
-	* And 40 more.
+	* 40 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1834,7 +1874,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09BE (U+09BE): B<<49.5,613.0>-<65.0,604.0>-<74.0,576.0>>/B<<74.0,576.0>-<73.0,590.0>-<73.0,602.0>> = 13.733272134547873 
 
-	* And uni09CB (U+09CB): B<<611.5,613.0>-<627.0,604.0>-<636.0,576.0>>/B<<636.0,576.0>-<635.0,590.0>-<635.0,602.0>> = 13.733272134547873 [code: found-jaggy-segments]
+	* uni09CB (U+09CB): B<<611.5,613.0>-<627.0,604.0>-<636.0,576.0>>/B<<636.0,576.0>-<635.0,590.0>-<635.0,602.0>> = 13.733272134547873 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1860,15 +1900,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* Eogonek (U+0118): L<<149.0,359.0>--<148.0,30.0>> 
 
-	* And OE (U+0152): L<<390.0,359.0>--<389.0,30.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-ExtraCondensedLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* OE (U+0152): L<<390.0,359.0>--<389.0,30.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[11] NotoSerifBengali-ExtraCondensedLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliExtraCondensed-Light.ttf. Got NotoSerifBengali-ExtraCondensedLight.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1906,8 +1946,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 425 among a set of 5 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 424:
+minus, equal
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -1940,7 +1989,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* Yacute (U+00DD): X=406.0,Y=621.0 (should be at cap-height 622?) 
 
-	* And 62 more.
+	* 62 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -1958,7 +2007,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09B2 (U+09B2): B<<313.5,441.5>-<336.0,416.0>-<354.0,354.0>>/B<<354.0,354.0>-<353.0,376.0>-<352.0,401.0>> = 13.586644054527104 
 
-	* And uni09C4 (U+09C4): B<<0.0,-256.0>-<-13.0,-251.0>-<-24.0,-248.0>>/B<<-24.0,-248.0>-<-15.0,-251.0>-<-7.5,-254.5>> = 3.1798301198640497 [code: found-jaggy-segments]
+	* uni09C4 (U+09C4): B<<0.0,-256.0>-<-13.0,-251.0>-<-24.0,-248.0>>/B<<-24.0,-248.0>-<-15.0,-251.0>-<-7.5,-254.5>> = 3.1798301198640497 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1984,17 +2033,17 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* Eogonek (U+0118): L<<169.0,355.0>--<168.0,38.0>> 
 
-	* And 3 more.
+	* 3 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-ExtraCondensedMedium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-ExtraCondensedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliExtraCondensed-Medium.ttf. Got NotoSerifBengali-ExtraCondensedMedium.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -2032,7 +2081,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -2066,7 +2115,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* g (U+0067): X=259.0,Y=537.5 (should be at x-height 536?) 
 
-	* And 72 more.
+	* 71 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -2082,21 +2131,21 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09B2 (U+09B2): B<<338.0,445.5>-<362.0,417.0>-<380.0,356.0>>/B<<380.0,356.0>-<378.0,381.0>-<377.0,405.5>> = 11.86645826177929 
 
-	* And uni09B6 (U+09B6): B<<311.5,587.5>-<344.0,545.0>-<368.0,472.0>>/B<<368.0,472.0>-<366.0,497.0>-<365.0,526.5>> = 13.625243793144524 [code: found-jaggy-segments]
+	* uni09B6 (U+09B6): B<<311.5,587.5>-<344.0,545.0>-<368.0,472.0>>/B<<368.0,472.0>-<366.0,497.0>-<365.0,526.5>> = 13.625243793144524 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<331.0,332.0>--<207.0,333.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-ExtraCondensedSemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-ExtraCondensedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliExtraCondensed-SemiBold.ttf. Got NotoSerifBengali-ExtraCondensedSemiBold.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -2134,7 +2183,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -2168,7 +2217,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* P (U+0050): X=343.0,Y=622.5 (should be at cap-height 622?) 
 
-	* And 71 more.
+	* 70 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -2184,15 +2233,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09AE (U+09AE): B<<301.0,257.0>-<319.0,233.0>-<331.0,197.0>>/B<<331.0,197.0>-<328.0,233.0>-<326.5,268.0>> = 13.671307132195812 
 
-	* And uni09B2 (U+09B2): B<<302.0,476.0>-<365.0,476.0>-<401.0,358.0>>/B<<401.0,358.0>-<399.0,383.0>-<397.5,407.0>> = 12.39222684863529 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-ExtraCondensedThin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni09B2 (U+09B2): B<<302.0,476.0>-<365.0,476.0>-<401.0,358.0>>/B<<401.0,358.0>-<399.0,383.0>-<397.5,407.0>> = 12.39222684863529 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[11] NotoSerifBengali-ExtraCondensedThin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliExtraCondensed-Thin.ttf. Got NotoSerifBengali-ExtraCondensedThin.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-ExtraCondensedThin.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -2230,8 +2279,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 425 among a set of 5 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 422:
+minus, equal
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -2264,7 +2322,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* section (U+00A7): X=84.0,Y=2.0 (should be at baseline 0?) 
 
-	* And 70 more.
+	* 70 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -2288,7 +2346,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09B6 (U+09B6): B<<163.5,368.5>-<150.0,386.0>-<144.0,432.0>>/B<<144.0,432.0>-<140.0,389.0>-<124.0,370.0>> = 12.745953641117218 
 
-	* And uni09B6 (U+09B6): B<<290.0,582.5>-<317.0,536.0>-<340.0,457.0>>/B<<340.0,457.0>-<339.0,479.0>-<339.0,503.0>> = 13.629788458656373 [code: found-jaggy-segments]
+	* uni09B6 (U+09B6): B<<290.0,582.5>-<317.0,536.0>-<340.0,457.0>>/B<<340.0,457.0>-<339.0,479.0>-<339.0,503.0>> = 13.629788458656373 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -2314,13 +2372,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* Eogonek (U+0118): L<<137.0,362.0>--<135.0,25.0>> 
 
-	* And 8 more.
+	* 8 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -2363,7 +2421,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -2397,7 +2455,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* braceright (U+007D): X=277.0,Y=620.0 (should be at cap-height 622?) 
 
-	* And 64 more.
+	* 63 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -2409,17 +2467,17 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09A8 (U+09A8): B<<349.5,236.5>-<368.0,193.0>-<377.0,152.0>>/B<<377.0,152.0>-<376.0,178.0>-<375.0,204.5>> = 10.17815876704136 
 
-	* And uni09AE (U+09AE): B<<339.0,215.5>-<377.0,161.0>-<398.0,89.0>>/B<<398.0,89.0>-<396.0,131.0>-<395.5,180.0>> = 13.53389371440569 [code: found-jaggy-segments]
+	* uni09AE (U+09AE): B<<339.0,215.5>-<377.0,161.0>-<398.0,89.0>>/B<<398.0,89.0>-<396.0,131.0>-<395.5,180.0>> = 13.53389371440569 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* uni09B2 (U+09B2): L<<484.0,3.0>--<485.0,303.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSerifBengali-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -2428,16 +2486,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni099C09CD099E09CD09AC
-	* uni099509CD09B709CD09A3
+	* uni099509CD09A409CD09AC
 	* uni099509CD09B7
-	* uni09AF09BC09CD09AC
-	* uni099A09CD099B09CD09AC
+	* uni099509CD09B709CD
+	* uni099509CD09B709CD09A3
 	* uni099509CD09B709CD09AC
-	* uni09B709CD09AE
-	* uni09B809CD09A409CD09F1
-	* uni099A09CD099B09CD09B0
-	* uni099A09CD099E and 17 more.
+	* uni099509CD09B709CD09AE
+	* uni099509CD09B709CD09B0
+	* uni099909CD099509CD09B7
+	* uni099A09CD099B09CD09AC
+	* uni099A09CD099B09CD09B0 and 17 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -2473,8 +2531,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 559 among a set of 6 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 558:
+multiply
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -2507,7 +2574,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* sterling (U+00A3): X=460.5,Y=1.0 (should be at baseline 0?) 
 
-	* And 41 more.
+	* 41 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -2517,7 +2584,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09A8 (U+09A8): B<<354.5,258.5>-<374.0,217.0>-<384.0,175.0>>/B<<384.0,175.0>-<383.0,201.0>-<382.0,229.5>> = 11.1898995919853 
 
-	* And uni09AE (U+09AE): B<<348.5,224.5>-<384.0,174.0>-<404.0,101.0>>/B<<404.0,101.0>-<403.0,143.0>-<402.0,191.0>> = 13.957582543261873 [code: found-jaggy-segments]
+	* uni09AE (U+09AE): B<<348.5,224.5>-<384.0,174.0>-<404.0,101.0>>/B<<404.0,101.0>-<403.0,143.0>-<402.0,191.0>> = 13.957582543261873 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -2531,11 +2598,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09B2 (U+09B2): L<<483.0,3.0>--<484.0,288.0>> 
 
-	* And uni09B8 (U+09B8): L<<469.0,585.0>--<135.0,584.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni09B8 (U+09B8): L<<469.0,585.0>--<135.0,584.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -2544,16 +2611,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni09B709CD09A3
-	* uni099C09CD099E09CD09AC
-	* uni099509CD099F09C0
-	* uni09B709CD099F09C0
-	* uni099509CD09B709CD09A3
-	* uni09A809CD09A4
-	* uni099909CD0995
-	* uni09A309CD09A1
-	* uni099509CD09B7
-	* uni09B809CD09AC and 146 more.
+	* Euro
+	* uni0985
+	* uni0986
+	* uni0987
+	* uni0988
+	* uni0993
+	* uni0994
+	* uni099509CD0995
+	* uni099509CD099F
+	* uni099509CD099F09BF and 147 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -2589,8 +2656,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 559 among a set of 6 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 558:
+multiply
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -2607,17 +2683,17 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* uni09A8 (U+09A8): B<<347.0,320.0>-<379.0,273.0>-<396.0,219.0>>/B<<396.0,219.0>-<394.0,246.0>-<393.0,276.5>> = 13.238379457196844 
 
-	* And uni09AE (U+09AE): B<<366.5,236.5>-<395.0,194.0>-<415.0,128.0>>/B<<415.0,128.0>-<413.0,169.0>-<412.0,212.5>> = 14.065696402024967 [code: found-jaggy-segments]
+	* uni09AE (U+09AE): B<<366.5,236.5>-<395.0,194.0>-<415.0,128.0>>/B<<415.0,128.0>-<413.0,169.0>-<412.0,212.5>> = 14.065696402024967 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<408.0,339.0>--<251.0,340.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] NotoSerifBengali-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -2626,16 +2702,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni09B709CD09A3
-	* uni099C09CD099E09CD09AC
-	* uni09B709CD099F09C0
-	* uni099509CD09B709CD09A3
-	* uni09A309CD09A1
-	* uni099509CD09B7
-	* uni09B809CD09AC
-	* uni099B09CD09AC
-	* uni09AA09CD09AE
-	* uni09A609CD09A709CD09AC and 117 more.
+	* Euro
+	* uni0985
+	* uni0986
+	* uni0987
+	* uni0988
+	* uni0994
+	* uni099509CD099F09BF
+	* uni099509CD099F09CD09B0
+	* uni099509CD099F09CD09B009BF
+	* uni099509CD099F09CD09B009C0 and 118 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -2664,8 +2740,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 559 among a set of 6 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 558:
+multiply
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -2698,7 +2783,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* V (U+0056): X=520.0,Y=623.0 (should be at cap-height 622?) 
 
-	* And 70 more.
+	* 70 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -2718,11 +2803,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09BE (U+09BE): B<<50.0,605.0>-<71.0,588.0>-<84.0,550.0>>/B<<84.0,550.0>-<82.0,572.0>-<81.0,590.5>> = 13.69165846197449 
 
-	* And uni09CB (U+09CB): B<<612.0,605.0>-<633.0,588.0>-<646.0,550.0>>/B<<646.0,550.0>-<644.0,572.0>-<643.0,590.5>> = 13.69165846197449 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni09CB (U+09CB): B<<612.0,605.0>-<633.0,588.0>-<646.0,550.0>>/B<<646.0,550.0>-<644.0,572.0>-<643.0,590.5>> = 13.69165846197449 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -2731,16 +2816,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni09B709CD09A3
-	* uni099C09CD099E
-	* uni099C09CD099E09CD09AC
-	* uni099509CD099F09C0
-	* uni09A309CD099F09CD09B009D7
-	* uni09B709CD099F09C0
-	* uni099F09CD09B009BF
-	* uni099509CD09B709CD09A3
-	* uni09A809CD09A4
-	* uni099909CD0995 and 201 more.
+	* Euro
+	* uni0985
+	* uni0986
+	* uni0987
+	* uni0988
+	* uni098B
+	* uni0993
+	* uni0994
+	* uni099509CD0995
+	* uni099509CD099F and 202 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -2776,7 +2861,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -2810,7 +2895,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* P (U+0050): X=416.0,Y=620.0 (should be at cap-height 622?) 
 
-	* And 66 more.
+	* 66 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -2826,15 +2911,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* h (U+0068): L<<104.0,119.0>--<103.0,648.0>> 
 
-	* And h (U+0068): L<<233.0,313.0>--<234.0,115.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-SemiCondensed.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* h (U+0068): L<<233.0,313.0>--<234.0,115.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-SemiCondensed.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliSemiCondensed-Regular.ttf. Got NotoSerifBengali-SemiCondensed.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensed.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -2872,8 +2957,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 510 among a set of 6 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 509:
+multiply
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -2906,7 +3000,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* X (U+0058): X=224.0,Y=620.0 (should be at cap-height 622?) 
 
-	* And 80 more.
+	* 79 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -2922,15 +3016,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09AE (U+09AE): B<<331.5,244.5>-<359.0,206.0>-<377.0,141.0>>/B<<377.0,141.0>-<375.0,182.0>-<374.0,224.0>> = 12.685935799705051 
 
-	* And uni09B2 (U+09B2): B<<392.5,443.0>-<421.0,414.0>-<442.0,343.0>>/B<<442.0,343.0>-<440.0,372.0>-<439.0,399.5>> = 12.53169516465037 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-SemiCondensedBlack.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni09B2 (U+09B2): B<<392.5,443.0>-<421.0,414.0>-<442.0,343.0>>/B<<442.0,343.0>-<440.0,372.0>-<439.0,399.5>> = 12.53169516465037 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-SemiCondensedBlack.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliSemiCondensed-Black.ttf. Got NotoSerifBengali-SemiCondensedBlack.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBlack.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -2968,7 +3062,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -3002,7 +3096,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* bracketright (U+005D): X=209.0,Y=-2.0 (should be at baseline 0?) 
 
-	* And 90 more.
+	* 90 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -3022,21 +3116,21 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* ydieresis (U+00FF): B<<315.5,183.0>-<321.0,155.0>-<322.0,137.0>>/B<<322.0,137.0>-<325.0,159.0>-<328.5,176.0>> = 10.944996138289511 
 
-	* And ygrave (U+1EF3): B<<315.5,183.0>-<321.0,155.0>-<322.0,137.0>>/B<<322.0,137.0>-<325.0,159.0>-<328.5,176.0>> = 10.944996138289511 [code: found-jaggy-segments]
+	* ygrave (U+1EF3): B<<315.5,183.0>-<321.0,155.0>-<322.0,137.0>>/B<<322.0,137.0>-<325.0,159.0>-<328.5,176.0>> = 10.944996138289511 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<425.0,335.0>--<276.0,336.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-SemiCondensedBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-SemiCondensedBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliSemiCondensed-Bold.ttf. Got NotoSerifBengali-SemiCondensedBold.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3074,7 +3168,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -3108,7 +3202,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* h (U+0068): X=235.5,Y=535.0 (should be at x-height 536?) 
 
-	* And 83 more.
+	* 82 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -3134,7 +3228,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* ydieresis (U+00FF): B<<299.0,162.5>-<305.0,135.0>-<307.0,114.0>>/B<<307.0,114.0>-<310.0,137.0>-<317.0,162.0>> = 12.871740002177972 
 
-	* And ygrave (U+1EF3): B<<299.0,162.5>-<305.0,135.0>-<307.0,114.0>>/B<<307.0,114.0>-<310.0,137.0>-<317.0,162.0>> = 12.871740002177972 [code: found-jaggy-segments]
+	* ygrave (U+1EF3): B<<299.0,162.5>-<305.0,135.0>-<307.0,114.0>>/B<<307.0,114.0>-<310.0,137.0>-<317.0,162.0>> = 12.871740002177972 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -3142,15 +3236,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* h (U+0068): L<<237.0,310.0>--<238.0,117.0>> 
 
-	* And sterling (U+00A3): L<<400.0,341.0>--<253.0,342.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-SemiCondensedExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* sterling (U+00A3): L<<400.0,341.0>--<253.0,342.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-SemiCondensedExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliSemiCondensed-ExtraBold.ttf. Got NotoSerifBengali-SemiCondensedExtraBold.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3188,7 +3282,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -3216,7 +3310,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* ydieresis (U+00FF): B<<308.0,173.5>-<314.0,146.0>-<315.0,126.0>>/B<<315.0,126.0>-<318.0,149.0>-<323.0,169.5>> = 10.293813197284212 
 
-	* And ygrave (U+1EF3): B<<308.0,173.5>-<314.0,146.0>-<315.0,126.0>>/B<<315.0,126.0>-<318.0,149.0>-<323.0,169.5>> = 10.293813197284212 [code: found-jaggy-segments]
+	* ygrave (U+1EF3): B<<308.0,173.5>-<314.0,146.0>-<315.0,126.0>>/B<<315.0,126.0>-<318.0,149.0>-<323.0,169.5>> = 10.293813197284212 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -3224,15 +3318,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* h (U+0068): L<<256.0,306.0>--<257.0,121.0>> 
 
-	* And sterling (U+00A3): L<<414.0,338.0>--<265.0,339.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-SemiCondensedExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* sterling (U+00A3): L<<414.0,338.0>--<265.0,339.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[11] NotoSerifBengali-SemiCondensedExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliSemiCondensed-ExtraLight.ttf. Got NotoSerifBengali-SemiCondensedExtraLight.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3270,8 +3364,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 510 among a set of 5 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 509:
+minus, equal
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -3304,7 +3407,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* braceright (U+007D): X=241.0,Y=620.0 (should be at cap-height 622?) 
 
-	* And 53 more.
+	* 53 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -3316,7 +3419,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09A8 (U+09A8): B<<312.0,246.0>-<329.0,204.0>-<337.0,163.0>>/B<<337.0,163.0>-<336.0,189.0>-<335.0,217.5>> = 8.838342018557874 
 
-	* And uni09AE (U+09AE): B<<308.5,223.0>-<342.0,175.0>-<360.0,110.0>>/B<<360.0,110.0>-<358.0,149.0>-<357.5,191.0>> = 12.542964718997187 [code: found-jaggy-segments]
+	* uni09AE (U+09AE): B<<308.5,223.0>-<342.0,175.0>-<360.0,110.0>>/B<<360.0,110.0>-<358.0,149.0>-<357.5,191.0>> = 12.542964718997187 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -3342,15 +3445,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* Eogonek (U+0118): L<<175.0,359.0>--<174.0,30.0>> 
 
-	* And Euro (U+20AC): L<<318.0,272.0>--<153.0,273.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-SemiCondensedLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* Euro (U+20AC): L<<318.0,272.0>--<153.0,273.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[11] NotoSerifBengali-SemiCondensedLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliSemiCondensed-Light.ttf. Got NotoSerifBengali-SemiCondensedLight.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedLight.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3388,8 +3491,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 510 among a set of 5 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 509:
+minus, equal
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -3422,7 +3534,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* w (U+0077): X=426.0,Y=534.0 (should be at x-height 536?) 
 
-	* And 57 more.
+	* 57 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -3432,7 +3544,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09A8 (U+09A8): B<<304.5,292.0>-<332.0,241.0>-<344.0,185.0>>/B<<344.0,185.0>-<343.0,211.0>-<341.5,239.0>> = 9.892158915246274 
 
-	* And uni09AE (U+09AE): B<<318.5,232.0>-<349.0,188.0>-<367.0,123.0>>/B<<367.0,123.0>-<365.0,163.0>-<364.0,205.0>> = 12.616232939306576 [code: found-jaggy-segments]
+	* uni09AE (U+09AE): B<<318.5,232.0>-<349.0,188.0>-<367.0,123.0>>/B<<367.0,123.0>-<365.0,163.0>-<364.0,205.0>> = 12.616232939306576 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -3456,15 +3568,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* Eogonek (U+0118): L<<194.0,355.0>--<193.0,38.0>> 
 
-	* And uni09B8 (U+09B8): L<<423.0,585.0>--<123.0,584.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] NotoSerifBengali-SemiCondensedMedium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni09B8 (U+09B8): L<<423.0,585.0>--<123.0,584.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-SemiCondensedMedium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliSemiCondensed-Medium.ttf. Got NotoSerifBengali-SemiCondensedMedium.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedMedium.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3502,8 +3614,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 510 among a set of 6 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 509:
+multiply
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -3526,15 +3647,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* uni09BE (U+09BE): B<<46.0,606.5>-<66.0,591.0>-<78.0,556.0>>/B<<78.0,556.0>-<76.0,578.0>-<75.0,596.5>> = 13.730215508316416 
 
-	* And uni09CB (U+09CB): B<<608.0,606.5>-<628.0,591.0>-<640.0,556.0>>/B<<640.0,556.0>-<638.0,578.0>-<637.0,596.5>> = 13.730215508316416 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-SemiCondensedSemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni09CB (U+09CB): B<<608.0,606.5>-<628.0,591.0>-<640.0,556.0>>/B<<640.0,556.0>-<638.0,578.0>-<637.0,596.5>> = 13.730215508316416 [code: found-jaggy-segments]
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-SemiCondensedSemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliSemiCondensed-SemiBold.ttf. Got NotoSerifBengali-SemiCondensedSemiBold.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3572,7 +3693,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -3606,7 +3727,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* Q (U+0051): X=439.0,Y=-2.0 (should be at baseline 0?) 
 
-	* And 73 more.
+	* 72 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -3618,7 +3739,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09A8 (U+09A8): B<<319.5,334.5>-<349.0,291.0>-<366.0,240.0>>/B<<366.0,240.0>-<364.0,266.0>-<363.0,293.5>> = 14.036243467926457 
 
-	* And uni09B2 (U+09B2): B<<354.0,477.0>-<424.0,477.0>-<468.0,346.0>>/B<<468.0,346.0>-<466.0,372.0>-<464.0,398.5>> = 14.167354862673697 [code: found-jaggy-segments]
+	* uni09B2 (U+09B2): B<<354.0,477.0>-<424.0,477.0>-<468.0,346.0>>/B<<468.0,346.0>-<466.0,372.0>-<464.0,398.5>> = 14.167354862673697 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -3626,15 +3747,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* h (U+0068): L<<219.0,314.0>--<220.0,114.0>> 
 
-	* And sterling (U+00A3): L<<389.0,339.0>--<244.0,340.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali-SemiCondensedThin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* sterling (U+00A3): L<<389.0,339.0>--<244.0,340.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[11] NotoSerifBengali-SemiCondensedThin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Expected "NotoSerifBengaliSemiCondensed-Thin.ttf. Got NotoSerifBengali-SemiCondensedThin.ttf. [code: bad-filename]
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL** Style name used in "fonts/NotoSerifBengali/googlefonts/ttf/NotoSerifBengali-SemiCondensedThin.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3672,8 +3793,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 510 among a set of 5 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 509:
+minus, equal
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -3706,7 +3836,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* y (U+0079): X=282.0,Y=-1.0 (should be at baseline 0?) 
 
-	* And 74 more.
+	* 74 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -3720,7 +3850,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09A8 (U+09A8): B<<308.0,232.0>-<324.0,189.0>-<332.0,148.0>>/B<<332.0,148.0>-<331.0,176.0>-<330.5,204.5>> = 8.995531691436472 
 
-	* And uni09AE (U+09AE): B<<303.0,216.5>-<338.0,166.0>-<355.0,102.0>>/B<<355.0,102.0>-<353.0,140.0>-<353.0,182.0>> = 11.86289449745543 [code: found-jaggy-segments]
+	* uni09AE (U+09AE): B<<303.0,216.5>-<338.0,166.0>-<355.0,102.0>>/B<<355.0,102.0>-<353.0,140.0>-<353.0,182.0>> = 11.86289449745543 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -3738,11 +3868,11 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* exclamdown (U+00A1): L<<128.0,370.0>--<132.0,-177.0>> 
 
-	* And uni09B8 (U+09B8): L<<415.0,602.0>--<112.0,601.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni09B8 (U+09B8): L<<415.0,602.0>--<112.0,601.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[9] NotoSerifBengali-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -3780,7 +3910,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -3814,7 +3944,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	* T (U+0054): X=506.0,Y=620.0 (should be at cap-height 622?) 
 
-	* And 89 more.
+	* 89 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -3840,7 +3970,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09BD (U+09BD): B<<206.0,193.0>-<185.0,193.0>-<160.0,196.0>>/B<<160.0,196.0>-<235.0,168.0>-<295.5,129.5>> = 13.62950610711097 
 
-	* And uni09E8 (U+09E8): B<<257.0,214.0>-<225.0,214.0>-<189.0,220.0>>/B<<189.0,220.0>-<260.0,189.0>-<317.5,146.5>> = 14.124708317102618 [code: found-jaggy-segments]
+	* uni09E8 (U+09E8): B<<257.0,214.0>-<225.0,214.0>-<189.0,220.0>>/B<<189.0,220.0>-<260.0,189.0>-<317.5,146.5>> = 14.124708317102618 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -3852,33 +3982,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* uni09B2 (U+09B2): L<<484.0,3.0>--<485.0,313.0>> 
 
-	* And uni09B8 (U+09B8): L<<464.0,602.0>--<122.0,601.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] NotoSerifBengali[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* uni09B8 (U+09B8): L<<464.0,602.0>--<122.0,601.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[10] NotoSerifBengali[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check variable font instances (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fvar_instances">com.google.fonts/check/fvar_instances</a>)</summary><div>
 
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
 
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
-		Original error message:
-		<class 'requests.exceptions.ReadTimeout'> [code: namecheck-service]
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1273, but got 1092 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
-
-
-* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 334. [code: invalid-default-instance-subfamily-nameid:334]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
 
 
@@ -3887,6 +4011,19 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
+
+
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'uni09C4' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8a26f09290> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8a26ef2190> [code: interpolation-issues]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 559 among a set of 6 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 558:
+multiply
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -3895,12 +4032,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><br></div></details>
+
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 38 | 68 | 250 | 4377 | 249 | 3173 | 0 |
-| 0% | 1% | 3% | 54% | 3% | 39% | 0% |
+| 3 | 105 | 266 | 4397 | 249 | 3284 | 0 |
+| 0% | 1% | 3% | 53% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
