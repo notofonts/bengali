@@ -34,8 +34,8 @@ lookup finalFormsOfMatras {
 
 lookup killStack {
 #ka-beng kha-beng pa-beng pha-beng uni1CF5.stack uni1CF6.stack 
-	sub uni1CF5 by zerowidthspace ;
-	sub uni1CF6 by zerowidthspace ;
+	sub uni1CF5  by NULL ;
+	sub uni1CF6  by NULL ;
 } killStack ;
 
 lookup splitStack {
@@ -924,7 +924,7 @@ lookup aboveBase_imatra_ligatures_1 {
 } aboveBase_imatra_ligatures_1 ;
 
 lookup aboveBase_imatra_ligatures_2 {
-	sub [iMatra_reph-beng iMatra_candrabindu-beng] @BENG_imatraBases [reph-beng candrabindu-beng]' by zerowidthspace;
+	sub [iMatra_reph-beng iMatra_candrabindu-beng] @BENG_imatraBases [reph-beng candrabindu-beng]'  by NULL;
 } aboveBase_imatra_ligatures_2 ;
 
 lookup switch_candrabindu {
