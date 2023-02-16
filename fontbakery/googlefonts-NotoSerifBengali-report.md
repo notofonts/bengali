@@ -4014,7 +4014,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'uni09C4' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8a26f09290> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f8a26ef2190> [code: interpolation-issues]
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 1 start point differs in glyph 'uni09C4' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e63514490> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f4e6352d390> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
