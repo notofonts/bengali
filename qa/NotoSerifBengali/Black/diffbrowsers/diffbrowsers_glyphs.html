@@ -1,0 +1,1910 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Glyphs</title>
+    
+    <style type="text/css">
+    
+
+        html{
+	  font-family: sans-serif;
+	}
+	.box-title{
+	  width: 100%;
+	  float: left;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+		float: left;
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	  display: block;
+	  font-weight: 700;
+	  cursor: pointer;
+	  -webkit-user-select: none; /* Safari */        
+	  -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* IE10+/Edge */
+	  user-select: none; /* Standard */
+	  text-align: center;
+	  color: white;
+	  background-color: black;
+	  width: 50px;
+	  display: block;
+	  padding: 10px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attrib-old{
+                color: red;
+                cursor: text;
+            }
+            .attrib-new{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-CondensedThin.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-Regular.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-ExtraCondensedBlack.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-SemiCondensedSemiBold.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-ExtraCondensedThin.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-ExtraCondensedExtraLight.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-SemiCondensedMedium.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-CondensedBlack.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-ExtraCondensedBold.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-SemiCondensed.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-ExtraLight.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-SemiCondensedThin.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-ExtraCondensedSemiBold.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-Medium.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-SemiCondensedBold.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-CondensedExtraBold.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-SemiCondensedBlack.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-CondensedBold.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-SemiBold.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-SemiCondensedLight.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-ExtraBold.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-Thin.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-CondensedMedium.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-Bold.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-CondensedSemiBold.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-Condensed.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-Black.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-ExtraCondensedMedium.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-SemiCondensedExtraBold.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-ExtraCondensedLight.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-SemiCondensedExtraLight.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-Light.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-CondensedLight.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-ExtraCondensedExtraBold.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-CondensedExtraLight.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-ExtraCondensed.ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali[wght].ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 200 700;
+    font-stretch: 62% 100%;
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali[wdth,wght].ttf);
+    font-family: "old Noto Serif Bengali";
+    font-weight: 100 900;
+    font-stretch: 62% 100%;
+    font-style: normal;
+}
+	  
+
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-Medium.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-SemiBold.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-ExtraCondensedExtraLight.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-ExtraCondensedThin.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-ExtraCondensedExtraBold.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-CondensedExtraBold.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-ExtraBold.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-Thin.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-SemiCondensedExtraLight.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-SemiCondensedMedium.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-Light.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-CondensedBold.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-SemiCondensedBold.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-ExtraCondensedBold.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-SemiCondensedBlack.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-Bold.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-Regular.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-CondensedBlack.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-SemiCondensedSemiBold.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-CondensedMedium.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-SemiCondensed.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-ExtraCondensedSemiBold.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-CondensedLight.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-ExtraCondensedLight.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-ExtraCondensedBlack.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-CondensedExtraLight.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-ExtraLight.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-SemiCondensedLight.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-Black.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-ExtraCondensed.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-CondensedSemiBold.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-SemiCondensedThin.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-Condensed.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-SemiCondensedExtraBold.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-ExtraCondensedMedium.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-CondensedThin.ttf);
+    font-family: "new Noto Serif Bengali";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+
+	  
+
+	  
+	    .old-Noto-Serif-Bengali-Bold{
+    font-family: "old Noto Serif Bengali";
+    font-weight: 700;
+    font-stretch: 100%;
+    font-style: normal;
+}
+	  
+	    .old-Noto-Serif-Bengali-Black{
+    font-family: "old Noto Serif Bengali";
+    font-weight: 900;
+    font-stretch: 100%;
+    font-style: normal;
+}
+	  
+	    .old-Noto-Serif-Bengali-Black{
+    font-family: "old Noto Serif Bengali";
+    font-weight: 900.0;
+    font-stretch: 100.0%;
+    font-style: normal;
+}
+	  
+
+	  
+	    .new-Noto-Serif-Bengali-Bold{
+    font-family: "new Noto Serif Bengali";
+    font-weight: 700;
+    font-stretch: 100%;
+    font-style: normal;
+}
+	  
+	    .new-Noto-Serif-Bengali-Black{
+    font-family: "new Noto Serif Bengali";
+    font-weight: 900;
+    font-stretch: 100%;
+    font-style: normal;
+}
+	  
+
+	  
+	
+.cell{
+  position: relative;
+  z-index: -1;
+  float: left;
+  background-color: #fcfcfc;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  width: 30.0px;
+  line-height: 30.0px;
+}
+
+    </style>
+</head>
+<body>
+    
+    <div id="nav">
+        <div id="font-toggle">old</div>
+     </div>
+    
+    <div id="content">
+	<h2>
+<b>Text</b>
+</h2>
+	
+  
+      <div class="box">
+	<div class="box-title">old-Noto-Serif-Bengali-Bold 20pt</div>
+	  <span class="old-Noto-Serif-Bengali-Bold" style="font-size: 20pt">
+	    
+	      <div class="cell"> </div>
+	    
+	      <div class="cell"></div>
+	    
+	      <div class="cell"> </div>
+	    
+	      <div class="cell">!</div>
+	    
+	      <div class="cell">"</div>
+	    
+	      <div class="cell">#</div>
+	    
+	      <div class="cell">%</div>
+	    
+	      <div class="cell">'</div>
+	    
+	      <div class="cell">(</div>
+	    
+	      <div class="cell">)</div>
+	    
+	      <div class="cell">*</div>
+	    
+	      <div class="cell">+</div>
+	    
+	      <div class="cell">,</div>
+	    
+	      <div class="cell">-</div>
+	    
+	      <div class="cell">.</div>
+	    
+	      <div class="cell">/</div>
+	    
+	      <div class="cell">0</div>
+	    
+	      <div class="cell">1</div>
+	    
+	      <div class="cell">2</div>
+	    
+	      <div class="cell">3</div>
+	    
+	      <div class="cell">4</div>
+	    
+	      <div class="cell">5</div>
+	    
+	      <div class="cell">6</div>
+	    
+	      <div class="cell">7</div>
+	    
+	      <div class="cell">8</div>
+	    
+	      <div class="cell">9</div>
+	    
+	      <div class="cell">:</div>
+	    
+	      <div class="cell">;</div>
+	    
+	      <div class="cell"><</div>
+	    
+	      <div class="cell">=</div>
+	    
+	      <div class="cell">></div>
+	    
+	      <div class="cell">?</div>
+	    
+	      <div class="cell">[</div>
+	    
+	      <div class="cell">\</div>
+	    
+	      <div class="cell">]</div>
+	    
+	      <div class="cell">^</div>
+	    
+	      <div class="cell">_</div>
+	    
+	      <div class="cell">{</div>
+	    
+	      <div class="cell">|</div>
+	    
+	      <div class="cell">}</div>
+	    
+	      <div class="cell">~</div>
+	    
+	      <div class="cell"> </div>
+	    
+	      <div class="cell">­</div>
+	    
+	      <div class="cell">×</div>
+	    
+	      <div class="cell">÷</div>
+	    
+	      <div class="cell">ʼ</div>
+	    
+	      <div class="cell">॑</div>
+	    
+	      <div class="cell">॒</div>
+	    
+	      <div class="cell">।</div>
+	    
+	      <div class="cell">॥</div>
+	    
+	      <div class="cell">ঀ</div>
+	    
+	      <div class="cell">ঁ</div>
+	    
+	      <div class="cell">ং</div>
+	    
+	      <div class="cell">ঃ</div>
+	    
+	      <div class="cell">অ</div>
+	    
+	      <div class="cell">আ</div>
+	    
+	      <div class="cell">ই</div>
+	    
+	      <div class="cell">ঈ</div>
+	    
+	      <div class="cell">উ</div>
+	    
+	      <div class="cell">ঊ</div>
+	    
+	      <div class="cell">ঋ</div>
+	    
+	      <div class="cell">ঌ</div>
+	    
+	      <div class="cell">এ</div>
+	    
+	      <div class="cell">ঐ</div>
+	    
+	      <div class="cell">ও</div>
+	    
+	      <div class="cell">ঔ</div>
+	    
+	      <div class="cell">ক</div>
+	    
+	      <div class="cell">খ</div>
+	    
+	      <div class="cell">গ</div>
+	    
+	      <div class="cell">ঘ</div>
+	    
+	      <div class="cell">ঙ</div>
+	    
+	      <div class="cell">চ</div>
+	    
+	      <div class="cell">ছ</div>
+	    
+	      <div class="cell">জ</div>
+	    
+	      <div class="cell">ঝ</div>
+	    
+	      <div class="cell">ঞ</div>
+	    
+	      <div class="cell">ট</div>
+	    
+	      <div class="cell">ঠ</div>
+	    
+	      <div class="cell">ড</div>
+	    
+	      <div class="cell">ঢ</div>
+	    
+	      <div class="cell">ণ</div>
+	    
+	      <div class="cell">ত</div>
+	    
+	      <div class="cell">থ</div>
+	    
+	      <div class="cell">দ</div>
+	    
+	      <div class="cell">ধ</div>
+	    
+	      <div class="cell">ন</div>
+	    
+	      <div class="cell">প</div>
+	    
+	      <div class="cell">ফ</div>
+	    
+	      <div class="cell">ব</div>
+	    
+	      <div class="cell">ভ</div>
+	    
+	      <div class="cell">ম</div>
+	    
+	      <div class="cell">য</div>
+	    
+	      <div class="cell">র</div>
+	    
+	      <div class="cell">ল</div>
+	    
+	      <div class="cell">শ</div>
+	    
+	      <div class="cell">ষ</div>
+	    
+	      <div class="cell">স</div>
+	    
+	      <div class="cell">হ</div>
+	    
+	      <div class="cell">়</div>
+	    
+	      <div class="cell">ঽ</div>
+	    
+	      <div class="cell">া</div>
+	    
+	      <div class="cell">ি</div>
+	    
+	      <div class="cell">ী</div>
+	    
+	      <div class="cell">ু</div>
+	    
+	      <div class="cell">ূ</div>
+	    
+	      <div class="cell">ৃ</div>
+	    
+	      <div class="cell">ৄ</div>
+	    
+	      <div class="cell">ে</div>
+	    
+	      <div class="cell">ৈ</div>
+	    
+	      <div class="cell">ো</div>
+	    
+	      <div class="cell">ৌ</div>
+	    
+	      <div class="cell">্</div>
+	    
+	      <div class="cell">ৎ</div>
+	    
+	      <div class="cell">ৗ</div>
+	    
+	      <div class="cell">ড়</div>
+	    
+	      <div class="cell">ঢ়</div>
+	    
+	      <div class="cell">য়</div>
+	    
+	      <div class="cell">ৠ</div>
+	    
+	      <div class="cell">ৡ</div>
+	    
+	      <div class="cell">ৢ</div>
+	    
+	      <div class="cell">ৣ</div>
+	    
+	      <div class="cell">০</div>
+	    
+	      <div class="cell">১</div>
+	    
+	      <div class="cell">২</div>
+	    
+	      <div class="cell">৩</div>
+	    
+	      <div class="cell">৪</div>
+	    
+	      <div class="cell">৫</div>
+	    
+	      <div class="cell">৬</div>
+	    
+	      <div class="cell">৭</div>
+	    
+	      <div class="cell">৮</div>
+	    
+	      <div class="cell">৯</div>
+	    
+	      <div class="cell">ৰ</div>
+	    
+	      <div class="cell">ৱ</div>
+	    
+	      <div class="cell">৲</div>
+	    
+	      <div class="cell">৳</div>
+	    
+	      <div class="cell">৴</div>
+	    
+	      <div class="cell">৵</div>
+	    
+	      <div class="cell">৶</div>
+	    
+	      <div class="cell">৷</div>
+	    
+	      <div class="cell">৸</div>
+	    
+	      <div class="cell">৹</div>
+	    
+	      <div class="cell">৺</div>
+	    
+	      <div class="cell">৻</div>
+	    
+	      <div class="cell">ৼ</div>
+	    
+	      <div class="cell">৽</div>
+	    
+	      <div class="cell">৾</div>
+	    
+	      <div class="cell">᳐</div>
+	    
+	      <div class="cell">᳒</div>
+	    
+	      <div class="cell">᳕</div>
+	    
+	      <div class="cell">᳖</div>
+	    
+	      <div class="cell">᳘</div>
+	    
+	      <div class="cell">᳡</div>
+	    
+	      <div class="cell">ᳪ</div>
+	    
+	      <div class="cell">᳭</div>
+	    
+	      <div class="cell">ᳲ</div>
+	    
+	      <div class="cell">ᳵ</div>
+	    
+	      <div class="cell">ᳶ</div>
+	    
+	      <div class="cell">᳷</div>
+	    
+	      <div class="cell">​</div>
+	    
+	      <div class="cell">‌</div>
+	    
+	      <div class="cell">‍</div>
+	    
+	      <div class="cell">‐</div>
+	    
+	      <div class="cell">–</div>
+	    
+	      <div class="cell">—</div>
+	    
+	      <div class="cell">‘</div>
+	    
+	      <div class="cell">’</div>
+	    
+	      <div class="cell">“</div>
+	    
+	      <div class="cell">”</div>
+	    
+	      <div class="cell">…</div>
+	    
+	      <div class="cell">₹</div>
+	    
+	      <div class="cell">−</div>
+	    
+	      <div class="cell">◌</div>
+	    
+	      <div class="cell">꣱</div>
+	    
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">old-Noto-Serif-Bengali-Black 20pt</div>
+	  <span class="old-Noto-Serif-Bengali-Black" style="font-size: 20pt">
+	    
+	      <div class="cell"> </div>
+	    
+	      <div class="cell"></div>
+	    
+	      <div class="cell"> </div>
+	    
+	      <div class="cell">!</div>
+	    
+	      <div class="cell">"</div>
+	    
+	      <div class="cell">#</div>
+	    
+	      <div class="cell">%</div>
+	    
+	      <div class="cell">'</div>
+	    
+	      <div class="cell">(</div>
+	    
+	      <div class="cell">)</div>
+	    
+	      <div class="cell">*</div>
+	    
+	      <div class="cell">+</div>
+	    
+	      <div class="cell">,</div>
+	    
+	      <div class="cell">-</div>
+	    
+	      <div class="cell">.</div>
+	    
+	      <div class="cell">/</div>
+	    
+	      <div class="cell">0</div>
+	    
+	      <div class="cell">1</div>
+	    
+	      <div class="cell">2</div>
+	    
+	      <div class="cell">3</div>
+	    
+	      <div class="cell">4</div>
+	    
+	      <div class="cell">5</div>
+	    
+	      <div class="cell">6</div>
+	    
+	      <div class="cell">7</div>
+	    
+	      <div class="cell">8</div>
+	    
+	      <div class="cell">9</div>
+	    
+	      <div class="cell">:</div>
+	    
+	      <div class="cell">;</div>
+	    
+	      <div class="cell"><</div>
+	    
+	      <div class="cell">=</div>
+	    
+	      <div class="cell">></div>
+	    
+	      <div class="cell">?</div>
+	    
+	      <div class="cell">[</div>
+	    
+	      <div class="cell">\</div>
+	    
+	      <div class="cell">]</div>
+	    
+	      <div class="cell">^</div>
+	    
+	      <div class="cell">_</div>
+	    
+	      <div class="cell">{</div>
+	    
+	      <div class="cell">|</div>
+	    
+	      <div class="cell">}</div>
+	    
+	      <div class="cell">~</div>
+	    
+	      <div class="cell"> </div>
+	    
+	      <div class="cell">­</div>
+	    
+	      <div class="cell">×</div>
+	    
+	      <div class="cell">÷</div>
+	    
+	      <div class="cell">ʼ</div>
+	    
+	      <div class="cell">॑</div>
+	    
+	      <div class="cell">॒</div>
+	    
+	      <div class="cell">।</div>
+	    
+	      <div class="cell">॥</div>
+	    
+	      <div class="cell">ঀ</div>
+	    
+	      <div class="cell">ঁ</div>
+	    
+	      <div class="cell">ং</div>
+	    
+	      <div class="cell">ঃ</div>
+	    
+	      <div class="cell">অ</div>
+	    
+	      <div class="cell">আ</div>
+	    
+	      <div class="cell">ই</div>
+	    
+	      <div class="cell">ঈ</div>
+	    
+	      <div class="cell">উ</div>
+	    
+	      <div class="cell">ঊ</div>
+	    
+	      <div class="cell">ঋ</div>
+	    
+	      <div class="cell">ঌ</div>
+	    
+	      <div class="cell">এ</div>
+	    
+	      <div class="cell">ঐ</div>
+	    
+	      <div class="cell">ও</div>
+	    
+	      <div class="cell">ঔ</div>
+	    
+	      <div class="cell">ক</div>
+	    
+	      <div class="cell">খ</div>
+	    
+	      <div class="cell">গ</div>
+	    
+	      <div class="cell">ঘ</div>
+	    
+	      <div class="cell">ঙ</div>
+	    
+	      <div class="cell">চ</div>
+	    
+	      <div class="cell">ছ</div>
+	    
+	      <div class="cell">জ</div>
+	    
+	      <div class="cell">ঝ</div>
+	    
+	      <div class="cell">ঞ</div>
+	    
+	      <div class="cell">ট</div>
+	    
+	      <div class="cell">ঠ</div>
+	    
+	      <div class="cell">ড</div>
+	    
+	      <div class="cell">ঢ</div>
+	    
+	      <div class="cell">ণ</div>
+	    
+	      <div class="cell">ত</div>
+	    
+	      <div class="cell">থ</div>
+	    
+	      <div class="cell">দ</div>
+	    
+	      <div class="cell">ধ</div>
+	    
+	      <div class="cell">ন</div>
+	    
+	      <div class="cell">প</div>
+	    
+	      <div class="cell">ফ</div>
+	    
+	      <div class="cell">ব</div>
+	    
+	      <div class="cell">ভ</div>
+	    
+	      <div class="cell">ম</div>
+	    
+	      <div class="cell">য</div>
+	    
+	      <div class="cell">র</div>
+	    
+	      <div class="cell">ল</div>
+	    
+	      <div class="cell">শ</div>
+	    
+	      <div class="cell">ষ</div>
+	    
+	      <div class="cell">স</div>
+	    
+	      <div class="cell">হ</div>
+	    
+	      <div class="cell">়</div>
+	    
+	      <div class="cell">ঽ</div>
+	    
+	      <div class="cell">া</div>
+	    
+	      <div class="cell">ি</div>
+	    
+	      <div class="cell">ী</div>
+	    
+	      <div class="cell">ু</div>
+	    
+	      <div class="cell">ূ</div>
+	    
+	      <div class="cell">ৃ</div>
+	    
+	      <div class="cell">ৄ</div>
+	    
+	      <div class="cell">ে</div>
+	    
+	      <div class="cell">ৈ</div>
+	    
+	      <div class="cell">ো</div>
+	    
+	      <div class="cell">ৌ</div>
+	    
+	      <div class="cell">্</div>
+	    
+	      <div class="cell">ৎ</div>
+	    
+	      <div class="cell">ৗ</div>
+	    
+	      <div class="cell">ড়</div>
+	    
+	      <div class="cell">ঢ়</div>
+	    
+	      <div class="cell">য়</div>
+	    
+	      <div class="cell">ৠ</div>
+	    
+	      <div class="cell">ৡ</div>
+	    
+	      <div class="cell">ৢ</div>
+	    
+	      <div class="cell">ৣ</div>
+	    
+	      <div class="cell">০</div>
+	    
+	      <div class="cell">১</div>
+	    
+	      <div class="cell">২</div>
+	    
+	      <div class="cell">৩</div>
+	    
+	      <div class="cell">৪</div>
+	    
+	      <div class="cell">৫</div>
+	    
+	      <div class="cell">৬</div>
+	    
+	      <div class="cell">৭</div>
+	    
+	      <div class="cell">৮</div>
+	    
+	      <div class="cell">৯</div>
+	    
+	      <div class="cell">ৰ</div>
+	    
+	      <div class="cell">ৱ</div>
+	    
+	      <div class="cell">৲</div>
+	    
+	      <div class="cell">৳</div>
+	    
+	      <div class="cell">৴</div>
+	    
+	      <div class="cell">৵</div>
+	    
+	      <div class="cell">৶</div>
+	    
+	      <div class="cell">৷</div>
+	    
+	      <div class="cell">৸</div>
+	    
+	      <div class="cell">৹</div>
+	    
+	      <div class="cell">৺</div>
+	    
+	      <div class="cell">৻</div>
+	    
+	      <div class="cell">ৼ</div>
+	    
+	      <div class="cell">৽</div>
+	    
+	      <div class="cell">৾</div>
+	    
+	      <div class="cell">᳐</div>
+	    
+	      <div class="cell">᳒</div>
+	    
+	      <div class="cell">᳕</div>
+	    
+	      <div class="cell">᳖</div>
+	    
+	      <div class="cell">᳘</div>
+	    
+	      <div class="cell">᳡</div>
+	    
+	      <div class="cell">ᳪ</div>
+	    
+	      <div class="cell">᳭</div>
+	    
+	      <div class="cell">ᳲ</div>
+	    
+	      <div class="cell">ᳵ</div>
+	    
+	      <div class="cell">ᳶ</div>
+	    
+	      <div class="cell">᳷</div>
+	    
+	      <div class="cell">​</div>
+	    
+	      <div class="cell">‌</div>
+	    
+	      <div class="cell">‍</div>
+	    
+	      <div class="cell">‐</div>
+	    
+	      <div class="cell">–</div>
+	    
+	      <div class="cell">—</div>
+	    
+	      <div class="cell">‘</div>
+	    
+	      <div class="cell">’</div>
+	    
+	      <div class="cell">“</div>
+	    
+	      <div class="cell">”</div>
+	    
+	      <div class="cell">…</div>
+	    
+	      <div class="cell">₹</div>
+	    
+	      <div class="cell">−</div>
+	    
+	      <div class="cell">◌</div>
+	    
+	      <div class="cell">꣱</div>
+	    
+          </span>
+       </div>
+    
+      <div class="box">
+	<div class="box-title">old-Noto-Serif-Bengali-Black 20pt</div>
+	  <span class="old-Noto-Serif-Bengali-Black" style="font-size: 20pt">
+	    
+	      <div class="cell"> </div>
+	    
+	      <div class="cell"></div>
+	    
+	      <div class="cell"> </div>
+	    
+	      <div class="cell">!</div>
+	    
+	      <div class="cell">"</div>
+	    
+	      <div class="cell">#</div>
+	    
+	      <div class="cell">%</div>
+	    
+	      <div class="cell">'</div>
+	    
+	      <div class="cell">(</div>
+	    
+	      <div class="cell">)</div>
+	    
+	      <div class="cell">*</div>
+	    
+	      <div class="cell">+</div>
+	    
+	      <div class="cell">,</div>
+	    
+	      <div class="cell">-</div>
+	    
+	      <div class="cell">.</div>
+	    
+	      <div class="cell">/</div>
+	    
+	      <div class="cell">0</div>
+	    
+	      <div class="cell">1</div>
+	    
+	      <div class="cell">2</div>
+	    
+	      <div class="cell">3</div>
+	    
+	      <div class="cell">4</div>
+	    
+	      <div class="cell">5</div>
+	    
+	      <div class="cell">6</div>
+	    
+	      <div class="cell">7</div>
+	    
+	      <div class="cell">8</div>
+	    
+	      <div class="cell">9</div>
+	    
+	      <div class="cell">:</div>
+	    
+	      <div class="cell">;</div>
+	    
+	      <div class="cell"><</div>
+	    
+	      <div class="cell">=</div>
+	    
+	      <div class="cell">></div>
+	    
+	      <div class="cell">?</div>
+	    
+	      <div class="cell">[</div>
+	    
+	      <div class="cell">\</div>
+	    
+	      <div class="cell">]</div>
+	    
+	      <div class="cell">^</div>
+	    
+	      <div class="cell">_</div>
+	    
+	      <div class="cell">{</div>
+	    
+	      <div class="cell">|</div>
+	    
+	      <div class="cell">}</div>
+	    
+	      <div class="cell">~</div>
+	    
+	      <div class="cell"> </div>
+	    
+	      <div class="cell">­</div>
+	    
+	      <div class="cell">×</div>
+	    
+	      <div class="cell">÷</div>
+	    
+	      <div class="cell">ʼ</div>
+	    
+	      <div class="cell">॑</div>
+	    
+	      <div class="cell">॒</div>
+	    
+	      <div class="cell">।</div>
+	    
+	      <div class="cell">॥</div>
+	    
+	      <div class="cell">ঀ</div>
+	    
+	      <div class="cell">ঁ</div>
+	    
+	      <div class="cell">ং</div>
+	    
+	      <div class="cell">ঃ</div>
+	    
+	      <div class="cell">অ</div>
+	    
+	      <div class="cell">আ</div>
+	    
+	      <div class="cell">ই</div>
+	    
+	      <div class="cell">ঈ</div>
+	    
+	      <div class="cell">উ</div>
+	    
+	      <div class="cell">ঊ</div>
+	    
+	      <div class="cell">ঋ</div>
+	    
+	      <div class="cell">ঌ</div>
+	    
+	      <div class="cell">এ</div>
+	    
+	      <div class="cell">ঐ</div>
+	    
+	      <div class="cell">ও</div>
+	    
+	      <div class="cell">ঔ</div>
+	    
+	      <div class="cell">ক</div>
+	    
+	      <div class="cell">খ</div>
+	    
+	      <div class="cell">গ</div>
+	    
+	      <div class="cell">ঘ</div>
+	    
+	      <div class="cell">ঙ</div>
+	    
+	      <div class="cell">চ</div>
+	    
+	      <div class="cell">ছ</div>
+	    
+	      <div class="cell">জ</div>
+	    
+	      <div class="cell">ঝ</div>
+	    
+	      <div class="cell">ঞ</div>
+	    
+	      <div class="cell">ট</div>
+	    
+	      <div class="cell">ঠ</div>
+	    
+	      <div class="cell">ড</div>
+	    
+	      <div class="cell">ঢ</div>
+	    
+	      <div class="cell">ণ</div>
+	    
+	      <div class="cell">ত</div>
+	    
+	      <div class="cell">থ</div>
+	    
+	      <div class="cell">দ</div>
+	    
+	      <div class="cell">ধ</div>
+	    
+	      <div class="cell">ন</div>
+	    
+	      <div class="cell">প</div>
+	    
+	      <div class="cell">ফ</div>
+	    
+	      <div class="cell">ব</div>
+	    
+	      <div class="cell">ভ</div>
+	    
+	      <div class="cell">ম</div>
+	    
+	      <div class="cell">য</div>
+	    
+	      <div class="cell">র</div>
+	    
+	      <div class="cell">ল</div>
+	    
+	      <div class="cell">শ</div>
+	    
+	      <div class="cell">ষ</div>
+	    
+	      <div class="cell">স</div>
+	    
+	      <div class="cell">হ</div>
+	    
+	      <div class="cell">়</div>
+	    
+	      <div class="cell">ঽ</div>
+	    
+	      <div class="cell">া</div>
+	    
+	      <div class="cell">ি</div>
+	    
+	      <div class="cell">ী</div>
+	    
+	      <div class="cell">ু</div>
+	    
+	      <div class="cell">ূ</div>
+	    
+	      <div class="cell">ৃ</div>
+	    
+	      <div class="cell">ৄ</div>
+	    
+	      <div class="cell">ে</div>
+	    
+	      <div class="cell">ৈ</div>
+	    
+	      <div class="cell">ো</div>
+	    
+	      <div class="cell">ৌ</div>
+	    
+	      <div class="cell">্</div>
+	    
+	      <div class="cell">ৎ</div>
+	    
+	      <div class="cell">ৗ</div>
+	    
+	      <div class="cell">ড়</div>
+	    
+	      <div class="cell">ঢ়</div>
+	    
+	      <div class="cell">য়</div>
+	    
+	      <div class="cell">ৠ</div>
+	    
+	      <div class="cell">ৡ</div>
+	    
+	      <div class="cell">ৢ</div>
+	    
+	      <div class="cell">ৣ</div>
+	    
+	      <div class="cell">০</div>
+	    
+	      <div class="cell">১</div>
+	    
+	      <div class="cell">২</div>
+	    
+	      <div class="cell">৩</div>
+	    
+	      <div class="cell">৪</div>
+	    
+	      <div class="cell">৫</div>
+	    
+	      <div class="cell">৬</div>
+	    
+	      <div class="cell">৭</div>
+	    
+	      <div class="cell">৮</div>
+	    
+	      <div class="cell">৯</div>
+	    
+	      <div class="cell">ৰ</div>
+	    
+	      <div class="cell">ৱ</div>
+	    
+	      <div class="cell">৲</div>
+	    
+	      <div class="cell">৳</div>
+	    
+	      <div class="cell">৴</div>
+	    
+	      <div class="cell">৵</div>
+	    
+	      <div class="cell">৶</div>
+	    
+	      <div class="cell">৷</div>
+	    
+	      <div class="cell">৸</div>
+	    
+	      <div class="cell">৹</div>
+	    
+	      <div class="cell">৺</div>
+	    
+	      <div class="cell">৻</div>
+	    
+	      <div class="cell">ৼ</div>
+	    
+	      <div class="cell">৽</div>
+	    
+	      <div class="cell">৾</div>
+	    
+	      <div class="cell">᳐</div>
+	    
+	      <div class="cell">᳒</div>
+	    
+	      <div class="cell">᳕</div>
+	    
+	      <div class="cell">᳖</div>
+	    
+	      <div class="cell">᳘</div>
+	    
+	      <div class="cell">᳡</div>
+	    
+	      <div class="cell">ᳪ</div>
+	    
+	      <div class="cell">᳭</div>
+	    
+	      <div class="cell">ᳲ</div>
+	    
+	      <div class="cell">ᳵ</div>
+	    
+	      <div class="cell">ᳶ</div>
+	    
+	      <div class="cell">᳷</div>
+	    
+	      <div class="cell">​</div>
+	    
+	      <div class="cell">‌</div>
+	    
+	      <div class="cell">‍</div>
+	    
+	      <div class="cell">‐</div>
+	    
+	      <div class="cell">–</div>
+	    
+	      <div class="cell">—</div>
+	    
+	      <div class="cell">‘</div>
+	    
+	      <div class="cell">’</div>
+	    
+	      <div class="cell">“</div>
+	    
+	      <div class="cell">”</div>
+	    
+	      <div class="cell">…</div>
+	    
+	      <div class="cell">₹</div>
+	    
+	      <div class="cell">−</div>
+	    
+	      <div class="cell">◌</div>
+	    
+	      <div class="cell">꣱</div>
+	    
+          </span>
+       </div>
+    
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	  items = document.getElementsByClassName("box");
+	  console.log("Click from "+POSITION)
+	  
+	  if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of items) {
+	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("old", "new")
+            item.lastElementChild.className = item.lastElementChild.className.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of items) {
+	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("new", "old")
+            item.lastElementChild.className = item.lastElementChild.className.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+    const divs = document.querySelectorAll('.node');
+    divs.forEach(el => el.addEventListener('click', event => {
+    var children = event.target.querySelectorAll(".node");
+    children.forEach(function(e) {
+        if (e.style.display === "none") {
+            e.style.display = "block";
+        } else {
+            e.style.display = "none";
+        }
+    })
+    }));
+    
+	
+
+    </script>
+</html>
