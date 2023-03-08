@@ -1466,7 +1466,10 @@ sub dhabeng nuktabeng by dhanuktabeng;
 sub nabeng nuktabeng by nanuktabeng;
 sub pabeng nuktabeng by panuktabeng;
 sub phabeng nuktabeng by phanuktabeng;
-sub babeng nuktabeng by rabeng;
+
+# Disabling as per #3
+#sub babeng nuktabeng by rabeng;
+
 sub bhabeng nuktabeng by bhanuktabeng;
 sub mabeng nuktabeng by manuktabeng;
 sub yabeng nuktabeng by yyabeng;
