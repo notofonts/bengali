@@ -61,32 +61,6 @@ name = _bottom.virama;
 pos = (-75,0);
 }
 );
-layerId = "BB0A671B-466D-4412-B862-1FE3A30BF7BB";
-shapes = (
-{
-closed = 1;
-nodes = (
-(120,-235,l),
-(46,-135,o),
-(-42,-85,o),
-(-136,-56,c),
-(-167,-152,l),
-(-75,-172,o),
-(5,-206,o),
-(83,-276,c)
-);
-}
-);
-vertWidth = 0;
-width = 0;
-},
-{
-anchors = (
-{
-name = _bottom.virama;
-pos = (-75,0);
-}
-);
 layerId = "18A8C34B-6260-4854-BBF8-229863F38B25";
 shapes = (
 {
@@ -152,32 +126,6 @@ nodes = (
 (-48,-138,o),
 (28,-183,o),
 (85,-243,c)
-);
-}
-);
-vertWidth = 0;
-width = 0;
-},
-{
-anchors = (
-{
-name = _bottom.virama;
-pos = (-75,0);
-}
-);
-layerId = "E72CC6C8-F2F5-4BE7-9263-7F4440809454";
-shapes = (
-{
-closed = 1;
-nodes = (
-(120,-235,l),
-(46,-135,o),
-(-42,-85,o),
-(-136,-56,c),
-(-167,-152,l),
-(-75,-172,o),
-(5,-206,o),
-(83,-276,c)
 );
 }
 );
