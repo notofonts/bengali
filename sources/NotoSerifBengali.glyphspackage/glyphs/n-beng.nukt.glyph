@@ -94,50 +94,6 @@ width = 524;
 anchors = (
 {
 name = bottom;
-pos = (474,69);
-},
-{
-name = bottom.rakaar;
-pos = (486,87);
-},
-{
-name = bottom.rvocalic;
-pos = (486,5);
-},
-{
-name = bottom.virama;
-pos = (466,14);
-},
-{
-name = top;
-pos = (489,550);
-},
-{
-name = topright;
-pos = (489,550);
-},
-{
-name = vedic;
-pos = (283,0);
-}
-);
-layerId = "BB0A671B-466D-4412-B862-1FE3A30BF7BB";
-shapes = (
-{
-ref = "na-beng.nukt";
-},
-{
-pos = (541,14);
-ref = "halant-beng";
-}
-);
-vertWidth = 0;
-width = 566;
-},
-{
-anchors = (
-{
-name = bottom;
 pos = (503,68);
 },
 {
@@ -265,50 +221,6 @@ ref = "halant-beng";
 );
 vertWidth = 0;
 width = 396;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (396,80);
-},
-{
-name = bottom.rakaar;
-pos = (411,87);
-},
-{
-name = bottom.rvocalic;
-pos = (407,5);
-},
-{
-name = bottom.virama;
-pos = (389,14);
-},
-{
-name = top;
-pos = (489,550);
-},
-{
-name = topright;
-pos = (489,550);
-},
-{
-name = vedic;
-pos = (236,0);
-}
-);
-layerId = "E72CC6C8-F2F5-4BE7-9263-7F4440809454";
-shapes = (
-{
-ref = "na-beng.nukt";
-},
-{
-pos = (464,14);
-ref = "halant-beng";
-}
-);
-vertWidth = 0;
-width = 473;
 },
 {
 anchors = (

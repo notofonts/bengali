@@ -774,19 +774,6 @@ wght = {
 194 = 900;
 };
 };
-},
-{
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-},
-{
-Name = Width;
-Tag = wdth;
-}
-);
 }
 );
 date = "2019-06-10 11:58:22 +0000";
@@ -2036,7 +2023,6 @@ over = -15;
 pos = -502;
 },
 {
-over = -15;
 }
 );
 name = Light;
@@ -2178,7 +2164,6 @@ over = -15;
 pos = -502;
 },
 {
-over = -15;
 }
 );
 name = Regular;
@@ -2191,149 +2176,6 @@ GSOffsetHorizontal = 5;
 GSOffsetMakeStroke = 1;
 GSOffsetVertical = 5;
 };
-},
-{
-axesValues = (
-152,
-100
-);
-customParameters = (
-{
-name = "UFO Filename";
-value = "NotoSerifBengali-Bold.ufo";
-},
-{
-name = hheaAscender;
-value = 1092;
-},
-{
-name = hheaDescender;
-value = -502;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = fsType;
-value = (
-);
-},
-{
-name = typoAscender;
-value = 1092;
-},
-{
-name = typoDescender;
-value = -502;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = unicodeRanges;
-value = (
-0,
-1,
-5,
-15,
-16,
-31,
-33,
-38,
-45
-);
-},
-{
-name = versionString;
-value = "Version 2.003";
-},
-{
-name = vendorID;
-value = GOOG;
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "https://scripts.sil.org/OFL";
-},
-{
-name = trademark;
-value = "Noto is a trademark of Google Inc.";
-},
-{
-name = description;
-value = "Designed by Monotype design team.";
-},
-{
-name = openTypeNameVersion;
-value = "Version 2.003";
-},
-{
-name = styleMapFamilyName;
-value = "Noto Serif Bengali";
-},
-{
-name = styleMapStyleName;
-value = bold;
-},
-{
-name = winAscent;
-value = 1092;
-},
-{
-name = winDescent;
-value = 502;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
-},
-{
-name = "Has WWS Names";
-value = 1;
-},
-{
-name = openTypeOS2SelectionUnsupportedBits;
-value = (
-);
-}
-);
-iconName = Bold;
-id = "BB0A671B-466D-4412-B862-1FE3A30BF7BB";
-metricValues = (
-{
-over = 15;
-pos = 1092;
-},
-{
-over = 15;
-pos = 622;
-},
-{
-over = 15;
-pos = 536;
-},
-{
-over = -15;
-},
-{
-over = -15;
-pos = -502;
-},
-{
-over = -15;
-}
-);
-name = Bold;
-stemValues = (
-72,
-89
-);
 },
 {
 axesValues = (
@@ -2469,7 +2311,6 @@ over = -15;
 pos = -502;
 },
 {
-over = -15;
 }
 );
 name = Black;
@@ -2612,7 +2453,6 @@ over = -15;
 pos = -502;
 },
 {
-over = -15;
 }
 );
 name = "Light Condensed";
@@ -2755,7 +2595,6 @@ over = -15;
 pos = -502;
 },
 {
-over = -15;
 }
 );
 name = Condensed;
@@ -2768,149 +2607,6 @@ GSOffsetHorizontal = 5;
 GSOffsetMakeStroke = 1;
 GSOffsetVertical = 5;
 };
-},
-{
-axesValues = (
-152,
-70
-);
-customParameters = (
-{
-name = "UFO Filename";
-value = "NotoSerifBengali-CondensedBold.ufo";
-},
-{
-name = hheaAscender;
-value = 1092;
-},
-{
-name = hheaDescender;
-value = -502;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = fsType;
-value = (
-);
-},
-{
-name = typoAscender;
-value = 1092;
-},
-{
-name = typoDescender;
-value = -502;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = unicodeRanges;
-value = (
-0,
-1,
-5,
-15,
-16,
-31,
-33,
-38,
-45
-);
-},
-{
-name = versionString;
-value = "Version 2.003";
-},
-{
-name = vendorID;
-value = GOOG;
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "https://scripts.sil.org/OFL";
-},
-{
-name = trademark;
-value = "Noto is a trademark of Google Inc.";
-},
-{
-name = description;
-value = "Designed by Monotype design team.";
-},
-{
-name = openTypeNameVersion;
-value = "Version 2.003";
-},
-{
-name = styleMapFamilyName;
-value = "Noto Serif Bengali Condensed Bold";
-},
-{
-name = styleMapStyleName;
-value = regular;
-},
-{
-name = winAscent;
-value = 1092;
-},
-{
-name = winDescent;
-value = 502;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
-},
-{
-name = "Has WWS Names";
-value = 1;
-},
-{
-name = openTypeOS2SelectionUnsupportedBits;
-value = (
-);
-}
-);
-iconName = Bold_Condensed;
-id = "E72CC6C8-F2F5-4BE7-9263-7F4440809454";
-metricValues = (
-{
-over = 15;
-pos = 1092;
-},
-{
-over = 15;
-pos = 622;
-},
-{
-over = 15;
-pos = 536;
-},
-{
-over = -15;
-},
-{
-over = -15;
-pos = -502;
-},
-{
-over = -15;
-}
-);
-name = "Bold Condensed";
-stemValues = (
-72,
-86
-);
 },
 {
 axesValues = (
@@ -3046,7 +2742,6 @@ over = -15;
 pos = -502;
 },
 {
-over = -15;
 }
 );
 name = "Black Condensed";
@@ -3240,8 +2935,8 @@ value = "instance_ufos/NotoSerifBengali-Medium.ufo";
 }
 );
 instanceInterpolations = {
-"B2542900-2B87-4688-8902-A06B6D3D93DD" = 0.72414;
-"BB0A671B-466D-4412-B862-1FE3A30BF7BB" = 0.27586;
+"18A8C34B-6260-4854-BBF8-229863F38B25" = 0.16;
+"B2542900-2B87-4688-8902-A06B6D3D93DD" = 0.84;
 };
 linkStyle = Medium;
 name = Medium;
@@ -3278,8 +2973,8 @@ value = "instance_ufos/NotoSerifBengali-SemiBold.ufo";
 }
 );
 instanceInterpolations = {
-"B2542900-2B87-4688-8902-A06B6D3D93DD" = 0.37931;
-"BB0A671B-466D-4412-B862-1FE3A30BF7BB" = 0.62069;
+"18A8C34B-6260-4854-BBF8-229863F38B25" = 0.36;
+"B2542900-2B87-4688-8902-A06B6D3D93DD" = 0.64;
 };
 linkStyle = SemiBold;
 name = SemiBold;
@@ -3316,7 +3011,8 @@ value = "instance_ufos/NotoSerifBengali-Bold.ufo";
 }
 );
 instanceInterpolations = {
-"BB0A671B-466D-4412-B862-1FE3A30BF7BB" = 1;
+"18A8C34B-6260-4854-BBF8-229863F38B25" = 0.58;
+"B2542900-2B87-4688-8902-A06B6D3D93DD" = 0.42;
 };
 isBold = 1;
 name = Bold;
@@ -3353,8 +3049,8 @@ value = "instance_ufos/NotoSerifBengali-ExtraBold.ufo";
 }
 );
 instanceInterpolations = {
-"18A8C34B-6260-4854-BBF8-229863F38B25" = 0.54762;
-"BB0A671B-466D-4412-B862-1FE3A30BF7BB" = 0.45238;
+"18A8C34B-6260-4854-BBF8-229863F38B25" = 0.81;
+"B2542900-2B87-4688-8902-A06B6D3D93DD" = 0.19;
 };
 linkStyle = ExtraBold;
 name = ExtraBold;
@@ -3587,10 +3283,10 @@ value = "instance_ufos/NotoSerifBengali-SemiCondensedMedium.ufo";
 }
 );
 instanceInterpolations = {
-"5278E13D-D735-4789-ABCD-F52B0BBC306E" = 0.26552;
-"B2542900-2B87-4688-8902-A06B6D3D93DD" = 0.45862;
-"BB0A671B-466D-4412-B862-1FE3A30BF7BB" = 0.17471;
-"E72CC6C8-F2F5-4BE7-9263-7F4440809454" = 0.10115;
+"03D26766-37BE-4C80-9191-ECBB7A84F3C2" = 0.05867;
+"18A8C34B-6260-4854-BBF8-229863F38B25" = 0.10133;
+"5278E13D-D735-4789-ABCD-F52B0BBC306E" = 0.308;
+"B2542900-2B87-4688-8902-A06B6D3D93DD" = 0.532;
 };
 linkStyle = "SemiCondensed Medium";
 name = "SemiCondensed Medium";
@@ -3628,10 +3324,10 @@ value = "instance_ufos/NotoSerifBengali-SemiCondensedSemiBold.ufo";
 }
 );
 instanceInterpolations = {
-"5278E13D-D735-4789-ABCD-F52B0BBC306E" = 0.13908;
-"B2542900-2B87-4688-8902-A06B6D3D93DD" = 0.24023;
-"BB0A671B-466D-4412-B862-1FE3A30BF7BB" = 0.3931;
-"E72CC6C8-F2F5-4BE7-9263-7F4440809454" = 0.22759;
+"03D26766-37BE-4C80-9191-ECBB7A84F3C2" = 0.132;
+"18A8C34B-6260-4854-BBF8-229863F38B25" = 0.228;
+"5278E13D-D735-4789-ABCD-F52B0BBC306E" = 0.23467;
+"B2542900-2B87-4688-8902-A06B6D3D93DD" = 0.40533;
 };
 linkStyle = "SemiCondensed SemiBold";
 name = "SemiCondensed SemiBold";
@@ -3669,8 +3365,10 @@ value = "instance_ufos/NotoSerifBengali-SemiCondensedBold.ufo";
 }
 );
 instanceInterpolations = {
-"BB0A671B-466D-4412-B862-1FE3A30BF7BB" = 0.63333;
-"E72CC6C8-F2F5-4BE7-9263-7F4440809454" = 0.36667;
+"03D26766-37BE-4C80-9191-ECBB7A84F3C2" = 0.21267;
+"18A8C34B-6260-4854-BBF8-229863F38B25" = 0.36733;
+"5278E13D-D735-4789-ABCD-F52B0BBC306E" = 0.154;
+"B2542900-2B87-4688-8902-A06B6D3D93DD" = 0.266;
 };
 isBold = 1;
 linkStyle = SemiCondensed;
@@ -3709,10 +3407,10 @@ value = "instance_ufos/NotoSerifBengali-SemiCondensedExtraBold.ufo";
 }
 );
 instanceInterpolations = {
-"03D26766-37BE-4C80-9191-ECBB7A84F3C2" = 0.20079;
-"18A8C34B-6260-4854-BBF8-229863F38B25" = 0.34683;
-"BB0A671B-466D-4412-B862-1FE3A30BF7BB" = 0.28651;
-"E72CC6C8-F2F5-4BE7-9263-7F4440809454" = 0.16587;
+"03D26766-37BE-4C80-9191-ECBB7A84F3C2" = 0.297;
+"18A8C34B-6260-4854-BBF8-229863F38B25" = 0.513;
+"5278E13D-D735-4789-ABCD-F52B0BBC306E" = 0.06967;
+"B2542900-2B87-4688-8902-A06B6D3D93DD" = 0.12033;
 };
 linkStyle = "SemiCondensed ExtraBold";
 name = "SemiCondensed ExtraBold";
@@ -3948,10 +3646,10 @@ value = "instance_ufos/NotoSerifBengali-CondensedMedium.ufo";
 }
 );
 instanceInterpolations = {
-"5278E13D-D735-4789-ABCD-F52B0BBC306E" = 0.5069;
-"B2542900-2B87-4688-8902-A06B6D3D93DD" = 0.21724;
-"BB0A671B-466D-4412-B862-1FE3A30BF7BB" = 0.08276;
-"E72CC6C8-F2F5-4BE7-9263-7F4440809454" = 0.1931;
+"03D26766-37BE-4C80-9191-ECBB7A84F3C2" = 0.112;
+"18A8C34B-6260-4854-BBF8-229863F38B25" = 0.048;
+"5278E13D-D735-4789-ABCD-F52B0BBC306E" = 0.588;
+"B2542900-2B87-4688-8902-A06B6D3D93DD" = 0.252;
 };
 linkStyle = "Condensed Medium";
 name = "Condensed Medium";
@@ -3989,10 +3687,10 @@ value = "instance_ufos/NotoSerifBengali-CondensedSemiBold.ufo";
 }
 );
 instanceInterpolations = {
-"5278E13D-D735-4789-ABCD-F52B0BBC306E" = 0.26552;
-"B2542900-2B87-4688-8902-A06B6D3D93DD" = 0.11379;
-"BB0A671B-466D-4412-B862-1FE3A30BF7BB" = 0.18621;
-"E72CC6C8-F2F5-4BE7-9263-7F4440809454" = 0.43448;
+"03D26766-37BE-4C80-9191-ECBB7A84F3C2" = 0.252;
+"18A8C34B-6260-4854-BBF8-229863F38B25" = 0.108;
+"5278E13D-D735-4789-ABCD-F52B0BBC306E" = 0.448;
+"B2542900-2B87-4688-8902-A06B6D3D93DD" = 0.192;
 };
 linkStyle = "Condensed SemiBold";
 name = "Condensed SemiBold";
@@ -4030,8 +3728,10 @@ value = "instance_ufos/NotoSerifBengali-CondensedBold.ufo";
 }
 );
 instanceInterpolations = {
-"BB0A671B-466D-4412-B862-1FE3A30BF7BB" = 0.3;
-"E72CC6C8-F2F5-4BE7-9263-7F4440809454" = 0.7;
+"03D26766-37BE-4C80-9191-ECBB7A84F3C2" = 0.406;
+"18A8C34B-6260-4854-BBF8-229863F38B25" = 0.174;
+"5278E13D-D735-4789-ABCD-F52B0BBC306E" = 0.294;
+"B2542900-2B87-4688-8902-A06B6D3D93DD" = 0.126;
 };
 isBold = 1;
 linkStyle = Condensed;
@@ -4070,10 +3770,10 @@ value = "instance_ufos/NotoSerifBengali-CondensedExtraBold.ufo";
 }
 );
 instanceInterpolations = {
-"03D26766-37BE-4C80-9191-ECBB7A84F3C2" = 0.38333;
-"18A8C34B-6260-4854-BBF8-229863F38B25" = 0.16429;
-"BB0A671B-466D-4412-B862-1FE3A30BF7BB" = 0.13571;
-"E72CC6C8-F2F5-4BE7-9263-7F4440809454" = 0.31667;
+"03D26766-37BE-4C80-9191-ECBB7A84F3C2" = 0.567;
+"18A8C34B-6260-4854-BBF8-229863F38B25" = 0.243;
+"5278E13D-D735-4789-ABCD-F52B0BBC306E" = 0.133;
+"B2542900-2B87-4688-8902-A06B6D3D93DD" = 0.057;
 };
 linkStyle = "Condensed ExtraBold";
 name = "Condensed ExtraBold";
@@ -4303,8 +4003,8 @@ value = "instance_ufos/NotoSerifBengali-ExtraCondensedMedium.ufo";
 }
 );
 instanceInterpolations = {
-"5278E13D-D735-4789-ABCD-F52B0BBC306E" = 0.72414;
-"E72CC6C8-F2F5-4BE7-9263-7F4440809454" = 0.27586;
+"03D26766-37BE-4C80-9191-ECBB7A84F3C2" = 0.16;
+"5278E13D-D735-4789-ABCD-F52B0BBC306E" = 0.84;
 };
 linkStyle = "ExtraCondensed Medium";
 name = "ExtraCondensed Medium";
@@ -4342,8 +4042,8 @@ value = "instance_ufos/NotoSerifBengali-ExtraCondensedSemiBold.ufo";
 }
 );
 instanceInterpolations = {
-"5278E13D-D735-4789-ABCD-F52B0BBC306E" = 0.37931;
-"E72CC6C8-F2F5-4BE7-9263-7F4440809454" = 0.62069;
+"03D26766-37BE-4C80-9191-ECBB7A84F3C2" = 0.36;
+"5278E13D-D735-4789-ABCD-F52B0BBC306E" = 0.64;
 };
 linkStyle = "ExtraCondensed SemiBold";
 name = "ExtraCondensed SemiBold";
@@ -4381,7 +4081,8 @@ value = "instance_ufos/NotoSerifBengali-ExtraCondensedBold.ufo";
 }
 );
 instanceInterpolations = {
-"E72CC6C8-F2F5-4BE7-9263-7F4440809454" = 1;
+"03D26766-37BE-4C80-9191-ECBB7A84F3C2" = 0.58;
+"5278E13D-D735-4789-ABCD-F52B0BBC306E" = 0.42;
 };
 isBold = 1;
 linkStyle = ExtraCondensed;
@@ -4420,8 +4121,8 @@ value = "instance_ufos/NotoSerifBengali-ExtraCondensedExtraBold.ufo";
 }
 );
 instanceInterpolations = {
-"03D26766-37BE-4C80-9191-ECBB7A84F3C2" = 0.54762;
-"E72CC6C8-F2F5-4BE7-9263-7F4440809454" = 0.45238;
+"03D26766-37BE-4C80-9191-ECBB7A84F3C2" = 0.81;
+"5278E13D-D735-4789-ABCD-F52B0BBC306E" = 0.19;
 };
 linkStyle = "ExtraCondensed ExtraBold";
 name = "ExtraCondensed ExtraBold";
@@ -4537,45 +4238,6 @@ kerningLTR = {
 "p_tta-beng" = -40;
 };
 };
-"BB0A671B-466D-4412-B862-1FE3A30BF7BB" = {
-"@MMK_L_bnmE" = {
-"@MMK_R_above_N" = -32;
-"@MMK_R_b_ra" = 16;
-"@MMK_R_bnBA" = -24;
-"@MMK_R_lower_LA" = 20;
-"@MMK_R_upper_SA" = -35;
-"@MMK_R_upper_SHA" = -47;
-"@MMK_R_upper_ttha" = -47;
-"c_ba-beng" = 20;
-"j_ny_ba-beng" = -29;
-"j_ny_ra-beng" = 16;
-"l_ra-beng" = 12;
-"m_b_ra-beng" = 4;
-"m_la-beng" = 12;
-"n_d_ba-beng" = -43;
-"ng_k_ra-beng" = 16;
-"p_ba-beng" = -26;
-"p_ma-beng" = -35;
-"p_na-beng" = -25;
-"p_sa-beng" = -47;
-"p_tta-beng" = -26;
-"p_tta_auLength-beng" = -26;
-"p_tta_iiMatra-beng" = -26;
-"ss_ba-beng" = -8;
-"ss_ka-beng" = -13;
-"ss_ra-beng" = 12;
-"ss_tt_ra-beng" = 8;
-"t_t_ba-beng" = -13;
-"tt_ba-beng" = 20;
-"y_ra-beng" = 12;
-};
-"iMatra-beng" = {
-"kha-beng" = -11;
-};
-"iMatra-beng.wide3" = {
-"p_tta-beng" = -17;
-};
-};
 "18A8C34B-6260-4854-BBF8-229863F38B25" = {
 "@MMK_L_bnmE" = {
 "@MMK_R_above_N" = -30;
@@ -4672,46 +4334,6 @@ kerningLTR = {
 "iMatra-beng.wide3" = {
 "l_tta-beng" = -20;
 "p_tta-beng" = -40;
-};
-};
-"E72CC6C8-F2F5-4BE7-9263-7F4440809454" = {
-"@MMK_L_bnmE" = {
-"@MMK_R_above_N" = -32;
-"@MMK_R_b_ra" = 16;
-"@MMK_R_bnBA" = -24;
-"@MMK_R_lower_LA" = 20;
-"@MMK_R_upper_SA" = -35;
-"@MMK_R_upper_SHA" = -47;
-"@MMK_R_upper_ttha" = -47;
-"c_ba-beng" = 20;
-"j_ny_ba-beng" = -29;
-"j_ny_ra-beng" = 16;
-"l_ra-beng" = 12;
-"m_b_ra-beng" = 4;
-"m_la-beng" = 12;
-"n_d_ba-beng" = -43;
-"ng_k_ra-beng" = 16;
-"p_ba-beng" = -26;
-"p_ma-beng" = -35;
-"p_na-beng" = -25;
-"p_sa-beng" = -47;
-"p_tta-beng" = -26;
-"p_tta_auLength-beng" = -26;
-"p_tta_iiMatra-beng" = -26;
-"ss_ba-beng" = -8;
-"ss_ka-beng" = -13;
-"ss_ra-beng" = 12;
-"ss_tt_ra-beng" = 8;
-"t_t_ba-beng" = -13;
-"tt_ba-beng" = 20;
-"y_ra-beng" = 12;
-};
-"iMatra-beng" = {
-"kha-beng" = -11;
-};
-"iMatra-beng.wide3" = {
-"l_tta-beng" = -8;
-"p_tta-beng" = -17;
 };
 };
 "03D26766-37BE-4C80-9191-ECBB7A84F3C2" = {

@@ -80,45 +80,6 @@ width = 776;
 anchors = (
 {
 name = vedic;
-pos = (338,0);
-}
-);
-layerId = "BB0A671B-466D-4412-B862-1FE3A30BF7BB";
-shapes = (
-{
-closed = 1;
-nodes = (
-(452,249,o),
-(480,272,o),
-(480,310,cs),
-(480,346,o),
-(453,372,o),
-(419,372,cs),
-(384,372,o),
-(355,346,o),
-(355,310,cs),
-(355,274,o),
-(385,249,o),
-(419,249,cs)
-);
-},
-{
-alignment = -1;
-ref = "eMatra-beng";
-},
-{
-alignment = -1;
-pos = (562,0);
-ref = "aaMatra-beng";
-}
-);
-vertWidth = 0;
-width = 811;
-},
-{
-anchors = (
-{
-name = vedic;
 pos = (314,0);
 }
 );
@@ -225,45 +186,6 @@ ref = "aaMatra-beng";
 );
 vertWidth = 0;
 width = 747;
-},
-{
-anchors = (
-{
-name = vedic;
-pos = (365,0);
-}
-);
-layerId = "E72CC6C8-F2F5-4BE7-9263-7F4440809454";
-shapes = (
-{
-closed = 1;
-nodes = (
-(452,249,o),
-(480,272,o),
-(480,310,cs),
-(480,346,o),
-(453,372,o),
-(419,372,cs),
-(384,372,o),
-(355,346,o),
-(355,310,cs),
-(355,274,o),
-(385,249,o),
-(419,249,cs)
-);
-},
-{
-alignment = -1;
-ref = "eMatra-beng";
-},
-{
-alignment = -1;
-pos = (562,0);
-ref = "aaMatra-beng";
-}
-);
-vertWidth = 0;
-width = 757;
 },
 {
 anchors = (

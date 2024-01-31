@@ -41,22 +41,6 @@ name = _vedic;
 pos = (-299,-211);
 }
 );
-layerId = "BB0A671B-466D-4412-B862-1FE3A30BF7BB";
-shapes = (
-{
-ref = uni1CF6.stack;
-}
-);
-vertWidth = 0;
-width = 0;
-},
-{
-anchors = (
-{
-name = _vedic;
-pos = (-299,-211);
-}
-);
 layerId = "18A8C34B-6260-4854-BBF8-229863F38B25";
 shapes = (
 {
@@ -90,22 +74,6 @@ pos = (-299,-211);
 }
 );
 layerId = "5278E13D-D735-4789-ABCD-F52B0BBC306E";
-shapes = (
-{
-ref = uni1CF6.stack;
-}
-);
-vertWidth = 0;
-width = 0;
-},
-{
-anchors = (
-{
-name = _vedic;
-pos = (-299,-211);
-}
-);
-layerId = "E72CC6C8-F2F5-4BE7-9263-7F4440809454";
 shapes = (
 {
 ref = uni1CF6.stack;
