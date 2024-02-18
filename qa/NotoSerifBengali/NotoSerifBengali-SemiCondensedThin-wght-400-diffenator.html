@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Glyphs</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+    
+
+        html{
+	  font-family: sans-serif;
+	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
+	.box-title{
+	  width: 100%;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attr-before{
+                color: red;
+                cursor: text;
+            }
+            .attr-after{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+	    @font-face{
+    src: url(old-NotoSerifBengali-SemiCondensedThin.ttf);
+    font-family: "old font";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+
+	  
+	    @font-face{
+    src: url(new-NotoSerifBengali-SemiCondensedThin.ttf);
+    font-family: "new font";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+
+	  
+
+	  
+	    .old-wght-400{
+    font-family: "old font", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+
+	  
+	    .new-wght-400{
+    font-family: "new font", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+}
+	  
+
+	  
+	
+.cell{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  width: 50pt;
+  line-height: 48.0px;
+}
+.cell-word{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  line-height: 48.0px;
+}
+.cat-strings .cell {
+  clear: both;
+  position: static;
+  float: none;
+  text-align: left;
+}
+.box-title {
+  clear: both;
+}
+
+
+	   #ot-panel {
+		max-height: 400px;
+		overflow-y: scroll;
+		background: white;
+		padding: 10px;
+		display: none;
+	   }
+    </style>
+</head>
+<body>
+    <div id="nav">
+		
+			<div class="nav-item" id="font-toggle">old</div>
+		
+			<div class="nav-item" id="ot-button">OT features</div>
+			<div id="ot-panel">
+			</div>
+		
+	</div>
+    <div id="content">
+	<h2>
+<b>Diffenator</b>
+</h2>
+	
+  
+    <div class="box">
+    <div class="box-title">Tables</div>
+      <div data-path="root" data-open="0" id="difftable"></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+      <div class="box">
+        <div class="box-title">Modified encoded Glyphs</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ৄ<br>
+        <span class="tooltiptext">
+            name: BENGALI VOWEL SIGN VOCALIC RR<br>
+            unicode: U+09C4<br>
+            changed pixels: 1.08%
+        </span>
+    </div>
+</div>
+            </div>
+          
+          </div>
+      </div>
+    
+
+    
+      <div class="box">
+        <div class="box-title">Misshapen Common words</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+        </div>
+      </div>
+    
+      <div class="box">
+        <div class="box-title">Misshapen Bengali words</div>
+        <div class="box-text old-wght-400" style="font-size: 32pt">
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        এঁকেবেঁকে<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=122, pos=(0, 0, 574, 0)<br>gid=61, pos=(-159, -20, 0, 0)<br>gid=238, pos=(0, 0, 646, 0)<br>gid=123, pos=(0, 0, 295, 0)<br>gid=32, pos=(0, 0, 471, 0)<br>gid=123, pos=(0, 0, 295, 0)<br>gid=61, pos=(0, 0, 0, 0)<br>gid=238, pos=(0, 0, 646, 0)<br>gid=123, pos=(0, 0, 325, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=122, pos=(0, 0, 574, 0)<br>gid=61, pos=(-159, -20, 0, 0)<br>gid=238, pos=(0, 0, 646, 0)<br>gid=123, pos=(0, 0, 325, 0)<br>gid=32, pos=(0, 0, 471, 0)<br>gid=123, pos=(0, 0, 325, 0)<br>gid=61, pos=(0, 0, 0, 0)<br>gid=238, pos=(0, 0, 646, 0)<br>gid=123, pos=(0, 0, 325, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 2.88%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        কঁয়ের<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=238, pos=(0, 0, 646, 0)<br>gid=61, pos=(-253, -20, 0, 0)<br>gid=632, pos=(0, 0, 465, 0)<br>gid=364, pos=(-280, 196, 0, 0)<br>gid=123, pos=(0, 0, 295, 0)<br>gid=425, pos=(0, 0, 471, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=238, pos=(0, 0, 646, 0)<br>gid=61, pos=(-253, -20, 0, 0)<br>gid=632, pos=(0, 0, 465, 0)<br>gid=364, pos=(-280, 196, 0, 0)<br>gid=123, pos=(0, 0, 325, 0)<br>gid=425, pos=(0, 0, 471, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.38%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ওঁদের<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=376, pos=(0, 0, 626, 0)<br>gid=61, pos=(-229, -20, 0, 0)<br>gid=88, pos=(0, 0, 455, 0)<br>gid=123, pos=(0, 0, 295, 0)<br>gid=425, pos=(0, 0, 471, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=376, pos=(0, 0, 626, 0)<br>gid=61, pos=(-229, -20, 0, 0)<br>gid=88, pos=(0, 0, 455, 0)<br>gid=123, pos=(0, 0, 325, 0)<br>gid=425, pos=(0, 0, 471, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.35%
+        </div>
+        </span>
+    </div>
+</div>
+          
+              <div class="cell-word" style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        অওধের<br>
+        <span class="tooltiptext">
+        <div class="tooltipleft">
+            Before:<br>
+            gid=3, pos=(0, 0, 683, 0)<br>gid=376, pos=(0, 0, 626, 0)<br>gid=118, pos=(0, 0, 460, 0)<br>gid=123, pos=(0, 0, 295, 0)<br>gid=425, pos=(0, 0, 471, 0)<br>
+            feats=()
+        </div>
+        <div class="tooltipright">
+            After:<br>
+            gid=3, pos=(0, 0, 683, 0)<br>gid=376, pos=(0, 0, 626, 0)<br>gid=118, pos=(0, 0, 460, 0)<br>gid=123, pos=(0, 0, 325, 0)<br>gid=425, pos=(0, 0, 471, 0)<br>
+            feats=()
+        </div>
+        <div>
+            changed pixels: 1.04%
+        </div>
+        </span>
+    </div>
+</div>
+          
+        </div>
+      </div>
+    
+    
+    <div class="box">
+      <div class="box-title">Misshapen user strings</div>
+      <div class="box-text old-wght-400" style="font-size: 32pt">
+        
+      </div>
+    </div>
+    
+
+    
+
+    </div>
+  
+<script>var fontdiff = {"head": {"checkSumAdjustment": [517298610, 4091826289], "modified": [3739847968, 3791114658]}, "vhea": {"tableTag": [null, "vhea"], "tableVersion": [null, 69632], "ascent": [null, 500], "descent": [null, -500], "lineGap": [null, 1000], "advanceHeightMax": [null, 0], "minTopSideBearing": [null, -88], "minBottomSideBearing": [null, -1448], "yMaxExtent": [null, 1448], "caretSlopeRise": [null, 0], "caretSlopeRun": [null, 1], "caretOffset": [null, 0], "reserved1": [null, 0], "reserved2": [null, 0], "reserved3": [null, 0], "reserved4": [null, 0], "metricDataFormat": [null, 0], "numberOfVMetrics": [null, 1]}, "vmtx": {"tableTag": [null, "vmtx"], "metrics": {"error": ["There are 640 changes, check manually!", ""]}}, "hhea": {"caretSlopeRise": [1, 1000]}, "glyf": {"glyphs": {"uni099809CD09A8": {"Contour: 0": {"Node: 2": {"y": [48, 47]}}}, "uni09E1": {"Contour: 0": {"Node: 27": {"x": [228, 229]}}}, "uni09B709CD099F09CD09B0": {"Contour: 0": {"Node: 40": {"y": [803, 802]}}}, "uni099909CD09AE": {"Contour: 1": {"Node: 65": {"x": [391, 390]}, "Node: 67": {"x": [391, 390]}, "Node: 66": {"x": [391, 390]}}}, "uni09AE09CD09AA09CD09B0": {"Contour: 0": {"Node: 10": {"x": [215, 214]}, "Node: 12": {"x": [215, 214]}, "Node: 11": {"x": [215, 214]}}}, "uni09B809CD09A409C1": {"Contour: 0": {"Node: 66": {"x": [204, 203]}, "Node: 90": {"y": [45, 44]}}}, "uni09A809CD09A409CD09B0": {"Contour: 0": {"Node: 61": {"y": [455, 454]}}}, "uni09EA": {"Contour: 0": {"Node: 3": {"y": [118, 119]}}}, "uni09A609CD09AD": {"Contour: 0": {"Node: 21": {"y": [237, 236]}}}, "uni09A309CD09A3": {"Contour: 0": {"Node: 26": {"y": [191, 192]}}}, "uni09B709CD099F": {"Contour: 0": {"Node: 40": {"y": [803, 802]}}}, "uni09A509CD09B009C2": {"Contour: 0": {"Node: 26": {"y": [86, 85]}}}, "uni09A809CD09A4": {"Contour: 0": {"Node: 38": {"y": [455, 454]}}}, "uni20B9": {"Contour: 0": {"Node: 14": {"x": [326, 325]}}}, "uni09B809CD0996": {"Contour: 0": {"Node: 11": {"x": [50, 49]}}}, "uni09B609CD09B009C2": {"Contour: 0": {"Node: 20": {"x": [125, 124]}, "Node: 7": {"x": [232, 231]}}}, "uni099909CD099509CD09B7": {"Contour: 0": {"Node: 89": {"x": [219, 218]}, "Node: 88": {"x": [219, 218]}}}, "uni09B709CD099F09BF": {"Contour: 0": {"Node: 55": {"x": [352, 351]}}}, "uni09B809CD09A5": {"Contour: 0": {"Node: 39": {"x": [50, 49]}}}, "uni09A709CD09A8": {"Contour: 0": {"Node: 2": {"y": [48, 47]}}}, "uni09B609CD09B009C1": {"Contour: 0": {"Node: 20": {"x": [125, 124]}, "Node: 7": {"x": [232, 231]}}}, "uni09AA09CD09B0": {"Contour: 1": {"Node: 68": {"x": [254, 255]}}}, "uni09A809CD09A409C1": {"Contour: 0": {"Node: 63": {"x": [124, 123]}, "Node: 64": {"x": [124, 123]}, "Node: 58": {"y": [455, 454]}, "Node: 62": {"x": [124, 123]}}}, "uni09B709CD099F09D7": {"Contour: 0": {"Node: 44": {"x": [414, 413]}}}, "uni09B809CD09A8": {"Contour: 0": {"Node: 36": {"x": [50, 49]}}}, "uni09AB": {"Contour: 0": {"Node: 26": {"x": [361, 362]}}}, "uni09B709CD09A3": {"Contour: 2": {"Node: 73": {"x": [379, 378]}, "Node: 71": {"x": [379, 378]}, "Node: 72": {"x": [379, 378]}, "Node: 66": {"x": [558, 557]}}}, "uni09AE": {"Contour: 0": {"Node: 1": {"x": [357, 358]}}}, "uni099F09CD09B009C0": {"Contour: 1": {"Node: 112": {"x": [267, 266]}}}, "uni0999": {"Contour: 0": {"Node: 33": {"x": [219, 218]}, "Node: 32": {"x": [219, 218]}}}, "uni09BF.wide3": {"Contour: 0": {"Node: 12": {"y": [890, 889]}, "Node: 11": {"y": [890, 889]}, "Node: 13": {"y": [890, 889]}}}, "uni09A409CD09A5": {"Contour: 0": {"Node: 20": {"x": [58, 59]}, "Node: 19": {"x": [58, 59]}, "Node: 21": {"x": [58, 59]}}}, "uni09A309CD09A0": {"Contour: 0": {"Node: 31": {"y": [553, 552]}}}, "uni09C1.alt": {"Contour: 0": {"Node: 17": {"x": [82, null], "y": [-136, null], "on": [0, null]}, "Node: 6": {"on": [0, 1], "x": [-139, 157], "y": [-158, -225]}, "Node: 11": {"on": [1, 0], "x": [-95, 11], "y": [-91, -140]}, "Node: 18": {"x": [108, null], "y": [-164, null], "on": [1, null]}, "Node: 1": {"x": [76, -199], "y": [-150, -79]}, "Node: 0": {"x": [105, -199], "y": [-174, -125]}, "Node: 3": {"on": [0, 1], "x": [21, -94], "y": [-144, -29]}, "Node: 15": {"on": [1, 0], "x": [44, -199], "y": [-117, -169]}, "Node: 13": {"on": [0, 1], "x": [16, -104], "y": [-105, -220]}, "Node: 8": {"on": [1, 0], "x": [-191, 113], "y": [-125, -186]}, "Node: 5": {"on": [1, 0], "x": [-102, 113], "y": [-158, -140]}, "Node: 2": {"on": [1, 0], "x": [38, -141], "y": [-136, -29]}, "Node: 4": {"x": [-47, -9], "y": [-158, -29]}, "Node: 12": {"x": [-53, -48], "y": [-91, -220]}, "Node: 16": {"x": [45, null], "y": [-119, null], "on": [1, null]}, "Node: 7": {"on": [0, 1], "x": [-191, 140], "y": [-141, -234]}, "Node: 14": {"on": [1, 0], "x": [43, -143], "y": [-118, -220]}, "Node: 10": {"on": [0, 1], "x": [-137, 15], "y": [-91, -85]}, "Node: 9": {"x": [-191, 52], "y": [-107, -109]}}, "Contour: 1": {"Node: 26": {"x": [-135, -175], "y": [-115, -91]}, "Node: 21": {"x": [-1, -9], "y": [-135, -134]}, "Node: 18": {"x": [null, -133], "y": [null, -196], "on": [null, 0]}, "Node: 20": {"x": [-63, -64], "y": [-135, -196]}, "Node: 27": {"x": [-184, null], "y": [-119, null], "on": [0, null]}, "Node: 28": {"x": [-184, null], "y": [-123, null], "on": [1, null]}, "Node: 22": {"x": [20, -5], "y": [-129, -73]}, "Node: 30": {"x": [-136, null], "y": [-135, null], "on": [0, null]}, "Node: 19": {"x": [-99, -101], "y": [-135, -196]}, "Node: 24": {"on": [0, 1], "x": [-61, -93], "y": [-115, -53]}, "Node: 16": {"x": [null, -175], "y": [null, -123], "on": [null, 1]}, "Node: 25": {"on": [1, 0], "x": [-95, -131], "y": [-115, -53]}, "Node: 17": {"x": [null, -175], "y": [null, -158], "on": [null, 0]}, "Node: 29": {"x": [-184, null], "y": [-129, null], "on": [0, null]}, "Node: 23": {"x": [-4, -46], "y": [-122, -53]}}}, "uni099509CD09B709CD09B0": {"Contour: 0": {"Node: 2": {"x": [410, 411]}}}, "uni0989": {"Contour: 0": {"Node: 65": {"y": [343, 342]}}}, "uni09B209CD09A109CD09B0": {"Contour: 0": {"Node: 81": {"y": [343, 342]}}}, "uni09B809CD09AB": {"Contour: 0": {"Node: 11": {"x": [50, 49]}}}, "uni099509CD099F09BF": {"Contour: 3": {"Node: 124": {"x": [443, 442]}, "Node: 125": {"x": [443, 442]}, "Node: 134": {"x": [443, 442]}}}, "uni099E09CD099B": {"Contour: 1": {"Node: 112": {"x": [436, 435]}}}, "six": {"Contour: 0": {"Node: 20": {"y": [381, 380]}, "Node: 12": {"x": [402, 401]}, "Node: 13": {"x": [402, 401]}}}, "uni09B209CD09AA": {"Contour: 0": {"Node: 1": {"x": [445, 446]}}}, "uni09E3": {"Contour: 0": {"Node: 7": {"x": [8, 7]}}}, "uni09B709CD099F09CD09B009BF": {"Contour: 0": {"Node: 50": {"x": [582, 581]}}, "Contour: 2": {"Node: 130": {"x": [458, 457]}}}, "uni09A809CD09A5": {"Contour: 0": {"Node: 35": {"y": [455, 454]}}}, "uni09A809CD09A509CD09B0": {"Contour: 0": {"Node: 65": {"y": [455, 454]}}}, "uni09A1": {"Contour: 0": {"Node: 38": {"y": [343, 342]}}}, "uni09B809CD": {"Contour: 0": {"Node: 11": {"x": [50, 49]}}}, "uni09C4": {"Contour: 0": {"Node: 26": {"x": [null, -154], "y": [null, -207], "on": [null, 1]}, "Node: 6": {"on": [0, 1], "x": [-88, 0], "y": [-29, -9]}, "Node: 18": {"x": [null, -117], "y": [null, -210], "on": [null, 1]}, "Node: 31": {"x": [null, -123], "y": [null, -108], "on": [null, 0]}, "Node: 20": {"x": [null, 24], "y": [null, -303], "on": [null, 0]}, "Node: 1": {"x": [7, -142], "y": [-189, -64]}, "Node: 3": {"on": [1, 0], "x": [-145, -32], "y": [-101, 4]}, "Node: 15": {"x": [24, -16], "y": [-182, -172]}, "Node: 5": {"on": [0, 1], "x": [-142, 0], "y": [-64, -2]}, "Node: 2": {"x": [-91, -88], "y": [-118, -29]}, "Node: 4": {"x": [-162, -10], "y": [-80, 15]}, "Node: 12": {"on": [0, 1], "x": [-96, 53], "y": [-61, -213]}, "Node: 19": {"x": [null, -60], "y": [null, -237], "on": [null, 0]}, "Node: 16": {"x": [53, -39], "y": [-213, -156]}, "Node: 25": {"x": [null, -136], "y": [null, -227], "on": [null, 1]}, "Node: 14": {"x": [-64, 27], "y": [-112, -208]}, "Node: 10": {"on": [1, 0], "x": [0, -64], "y": [-9, -112]}, "Node: 9": {"x": [0, -125], "y": [-2, -84]}, "Node: 11": {"x": [-28, 24], "y": [-22, -182]}, "Node: 21": {"x": [null, 53], "y": [null, -337], "on": [null, 1]}, "Node: 0": {"x": [45, -162], "y": [-226, -80]}, "Node: 27": {"x": [null, -136], "y": [null, -192], "on": [null, 0]}, "Node: 28": {"x": [null, -85], "y": [null, -156], "on": [null, 0]}, "Node: 13": {"x": [-125, 45], "y": [-84, -226]}, "Node: 8": {"on": [1, 0], "x": [-10, -96], "y": [15, -61]}, "Node: 22": {"x": [null, 45], "y": [null, -351], "on": [null, 1]}, "Node: 30": {"x": [null, -81], "y": [null, -129], "on": [null, 0]}, "Node: 24": {"x": [null, -87], "y": [null, -244], "on": [null, 0]}, "Node: 32": {"x": [null, -145], "y": [null, -101], "on": [null, 1]}, "Node: 7": {"x": [-32, -28], "y": [4, -22]}, "Node: 17": {"x": [null, -80], "y": [null, -180], "on": [null, 0]}, "Node: 29": {"x": [null, -61], "y": [null, -141], "on": [null, 1]}, "Node: 23": {"x": [null, 7], "y": [null, -310], "on": [null, 0]}}, "Contour: 1": {"Node: 17": {"x": [23, null], "y": [-282, null], "on": [1, null]}, "Node: 18": {"x": [-8, null], "y": [-261, null], "on": [0, null]}, "Node: 19": {"x": [-90, null], "y": [-227, null], "on": [0, null]}, "Node: 20": {"x": [-132, null], "y": [-223, null], "on": [1, null]}, "Node: 21": {"x": [-144, null], "y": [-207, null], "on": [1, null]}, "Node: 22": {"x": [-139, null], "y": [-207, null], "on": [0, null]}, "Node: 23": {"x": [-135, null], "y": [-207, null], "on": [1, null]}, "Node: 24": {"x": [-135, null], "y": [-206, null], "on": [1, null]}, "Node: 25": {"x": [-131, null], "y": [-207, null], "on": [0, null]}, "Node: 26": {"x": [-128, null], "y": [-207, null], "on": [1, null]}, "Node: 27": {"x": [-103, null], "y": [-208, null], "on": [0, null]}, "Node: 28": {"x": [-51, null], "y": [-207, null], "on": [0, null]}, "Node: 29": {"x": [-26, null], "y": [-210, null], "on": [1, null]}, "Node: 30": {"x": [-14, null], "y": [-223, null], "on": [1, null]}, "Node: 31": {"x": [-36, null], "y": [-219, null], "on": [0, null]}, "Node: 32": {"x": [-76, null], "y": [-216, null], "on": [0, null]}, "Node: 33": {"x": [-95, null], "y": [-217, null], "on": [1, null]}, "Node: 34": {"x": [-59, null], "y": [-228, null], "on": [0, null]}, "Node: 35": {"x": [-1, null], "y": [-254, null], "on": [0, null]}, "Node: 36": {"x": [21, null], "y": [-267, null], "on": [1, null]}}}, "percent": {"Contour: 0": {"Node: 5": {"x": [117, 116]}}}, "uni09B209CD09A4": {"Contour: 0": {"Node: 29": {"x": [405, 404]}}}, "uni099509CD09A409CD09B0": {"Contour: 1": {"Node: 45": {"x": [242, 241]}}}, "uni09A409CD09B2": {"Contour: 1": {"Node: 58": {"x": [112, 111]}}}, "uni09B809CD0995": {"Contour: 0": {"Node: 19": {"x": [50, 49]}}}, "uni09AD09CD09B2": {"Contour: 0": {"Node: 3": {"x": [512, 511]}}}, "braceleft": {"Contour: 0": {"Node: 26": {"x": [116, 115]}}}, "uni09AA09CD09B009C2": {"Contour: 1": {"Node: 81": {"x": [254, 255]}}}, "uni099B": {"Contour: 0": {"Node: 38": {"x": [205, 206]}}}, "uni09A509CD09B009C1": {"Contour: 0": {"Node: 26": {"y": [86, 85]}}}, "uni099F09CD09B009BF": {"Contour: 0": {"Node: 70": {"y": [-38, -37]}}}, "uni09AA09CD09A4": {"Contour: 0": {"Node: 1": {"x": [249, 248]}}}, "uni09A309CD09A009C0": {"Contour: 0": {"Node: 40": {"y": [553, 552]}}, "Contour: 1": {"Node: 95": {"x": [350, 351]}}}, "uni09B809CD09AA09CD09B0": {"Contour: 0": {"Node: 61": {"x": [50, 49]}}}, "uni09B609CD09B0": {"Contour: 0": {"Node: 20": {"x": [125, 124]}, "Node: 7": {"x": [232, 231]}}}, "uni09A809CD09A1": {"Contour: 0": {"Node: 55": {"y": [343, 342]}}}, "uni099E09CD099C": {"Contour: 0": {"Node: 77": {"x": [443, 442]}, "Node: 78": {"x": [443, 442]}}}, "uni09B809CD09AE": {"Contour: 0": {"Node: 11": {"x": [50, 49]}, "Node: 30": {"x": [425, 424]}}}, "three": {"Contour: 0": {"Node: 14": {"x": [401, 400]}, "Node: 12": {"x": [401, 400]}, "Node: 13": {"x": [401, 400]}}}, "uni09AA09CD09B009C1": {"Contour: 1": {"Node: 99": {"x": [254, 255]}}}, "uni09B209CD09A1": {"Contour: 0": {"Node: 79": {"y": [343, 342]}}}, "uni09AC09CD09A609CD09B0": {"Contour: 0": {"Node: 8": {"x": [219, 218]}}}, "uni09BF.wide4": {"Contour: 0": {"Node: 12": {"y": [890, 889]}, "Node: 11": {"y": [890, 889]}, "Node: 13": {"y": [890, 889]}}}, "uni09A809CD09A409CD09AC": {"Contour: 0": {"Node: 45": {"y": [455, 454]}}}, "zero": {"Contour: 0": {"Node: 2": {"y": [171, 170]}}}, "nine": {"Contour: 0": {"Node: 4": {"y": [75, 76]}}}, "uni098A": {"Contour: 0": {"Node: 72": {"y": [343, 342]}}}, "uni09B809CD09AA": {"Contour: 0": {"Node: 31": {"x": [50, 49]}}}, "uni1CF7": {"Contour: 0": {"Node: 2": {"y": [-70, -69]}}}, "uni09A409CD09A8": {"Contour: 1": {"Node: 57": {"x": [234, 233]}}}}}, "hmtx": {"metrics": {"uni099C09CD099D": {"0": [817, 816]}, "uni09C1.alt": {"1": [-191, -199]}}}};</script>
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
+	  
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+// apply optional ot feats
+
+function buildFeatureList() {
+	var features = [
+		'aalt', 'c2sc', 'calt', 'case', 'cpsp', 'dlig', 'dnom',
+		'fina', 'frac', 'init', 'kern', 'liga', 'lnum', 'numr', 'onum',
+		'ordn', 'pnum', 'salt', 'sinf', 'smcp', 'sups',
+		'swsh', 'titl', 'tnum', 'zero', 'ss01', 'ss02',
+		'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08',
+		'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
+		'ss15', 'ss16', 'ss17', 'ss18', 'ss19', 'ss20'
+	]
+	
+	var otPanel = document.getElementById("ot-panel")
+	for (i=0; i<features.length; i++) {
+		var feat = features[i]
+		
+		var row = document.createElement("div");
+
+		var item = document.createElement("input");
+		item.type = "checkbox"
+		item.value = feat
+		item.classList.add("ot-checkbox")
+		var label = document.createElement("label")
+		label.textContent = feat
+
+		row.appendChild(item)
+		row.appendChild(label)
+
+		otPanel.appendChild(row)
+	}
+}
+
+buildFeatureList()
+
+
+function enableFeatures() {
+	var checkboxes = document.getElementsByClassName("ot-checkbox")
+	var res = []
+	var disableKerning = false
+	for (i=0; i<checkboxes.length; i++) {
+		if (checkboxes[i].checked === true) {
+			var checkbox = checkboxes[i]
+			res.push('"' + checkbox.value + '"')
+
+			if (checkbox.value === "kern") {
+				disableKerning = true
+			}
+		}
+	}	
+
+	var boxText = document.getElementsByClassName("box-text")
+	var otString = res.join(", ")
+	for (j=0; j<boxText.length; j++) {
+		boxText[j].style.fontFeatureSettings = otString
+		if (disableKerning === true) {
+			boxText[j].style.fontKerning = "none"
+		}
+	}
+}
+
+var otButton = document.getElementById("ot-button")
+otButton.addEventListener("click", function() {
+    otPanel = document.getElementById("ot-panel")
+    if (otPanel.style.display !== "block") {
+        otPanel.style.display = "block"
+    } else {
+        otPanel.style.display = "none"
+    }
+})
+var checkboxes = document.getElementsByClassName("ot-checkbox")
+for (i=0; i<checkboxes.length; i++) {
+	cb = checkboxes[i]
+	cb.addEventListener("click", enableFeatures)
+}	
+    
+  class Table {
+      constructor(data) {
+          this.data = {"root": data}
+          this.open("root")
+      }
+
+      createNode(key, label) {
+          let childElem = document.createElement("div")
+          let childKey = key
+          childElem.dataset.path = childKey
+          childElem.dataset.open = "0"
+          childElem.innerHTML = label
+          childElem.classList.add("node")
+          return childElem
+      }
+
+      close(key) {
+          let htmlParent = document.querySelector(`[data-path="${key}"]`)
+          let label = htmlParent.childNodes[0].nodeValue
+          htmlParent.replaceChildren()
+          htmlParent.textContent = label
+          htmlParent.dataset.open = "0"
+      }
+
+      open(key) {
+          let htmlParent = document.querySelector(`[data-path="${key}"]`)
+          htmlParent.dataset.open = "1"
+
+          // traverse to correct data level based on data-path
+          let path = key.split(".")
+          let data = this.data
+          for (var i=0; i<path.length; i++) {
+              data = data[path[i]];
+
+          }
+
+          // arrays containing two values are used as leaf nodes.
+          // The first item is the before value and the second
+          // is for after value.
+          if (Array.isArray(data)) {
+              let childElem = this.createNode("", "")
+              let before = document.createElement("span")
+              before.classList.add("attr-before")
+              before.textContent = String(data[0]) + " "
+              let after = document.createElement("span")
+              after.classList.add("attr-after")
+              after.textContent = String(data[1])
+              childElem.appendChild(before)
+              childElem.appendChild(after)
+              htmlParent.appendChild(childElem)
+              return
+          }
+          // Create next child nodes
+          for (var i in data) {
+              let childKey = key + "." + i
+              let childElem = this.createNode(childKey, i)
+              htmlParent.appendChild(childElem);
+              var that = this
+
+              // Toggle whether to open or close a node
+              childElem.addEventListener("click", function() {
+                  if (this.dataset.open === "0") {
+                      that.open(childKey)
+                      event.stopPropagation()
+                  } else {
+                      that.close(childKey)
+                      event.stopPropagation()
+                  }
+              })
+          }
+      }
+  }
+
+  let t = new Table(fontdiff, document.getElementById("difftable"))
+
+
+function wordBreaks() {
+  words = document.getElementsByClassName("cell-word")
+  res = []
+  prevTop = 0
+  for (i=0; i<words.length; i++) {
+      var word = words[i]
+      currentTop = word.getBoundingClientRect().top
+      if (currentTop > prevTop) {
+          res.push(i)
+      }
+      prevTop = currentTop
+  }
+  return res
+}
+
+async function insertBreaks() {
+  switchFonts()
+  await sleep(1)
+  breaksBefore = wordBreaks()
+  switchFonts()
+  await sleep(1)
+  breaksAfter = wordBreaks()
+
+
+  console.log(breaksBefore.length, breaksAfter.length)
+
+  if (breaksBefore.length >= breaksAfter.length) {
+    breaks = breaksBefore
+  } else {
+    breaks = breaksAfter
+  }
+
+  words = document.getElementsByClassName("cell-word")
+  breaks.forEach(function(i) {
+    if (i != 0) {
+      i = i
+    }
+    word = words[i]
+    spacer = document.createElement("div")
+    spacer.className = "spacer"
+    word.parentNode.insertBefore(spacer, word)
+  })
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+  
+insertBreaks()
+
+
+    </script>
+</html>
