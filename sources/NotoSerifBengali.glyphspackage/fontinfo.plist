@@ -27,33 +27,9 @@ name = BENG_allUMatraVariantBases;
 );
 customParameters = (
 {
-name = hheaAscender;
-value = 1092;
-},
-{
-name = hheaDescender;
-value = -502;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
 name = fsType;
 value = (
 );
-},
-{
-name = typoAscender;
-value = 1092;
-},
-{
-name = typoDescender;
-value = -502;
-},
-{
-name = typoLineGap;
-value = 0;
 },
 {
 name = unicodeRanges;
@@ -68,26 +44,6 @@ value = (
 38,
 45
 );
-},
-{
-name = openTypeNameVersion;
-value = "Version 2.003";
-},
-{
-name = styleMapFamilyName;
-value = "Noto Serif Bengali Light";
-},
-{
-name = styleMapStyleName;
-value = regular;
-},
-{
-name = winAscent;
-value = 1092;
-},
-{
-name = winDescent;
-value = 502;
 },
 {
 name = "Write lastChange";
@@ -754,26 +710,8 @@ zerowidthspace
 );
 },
 {
-name = "Axis Mappings";
-value = {
-wdth = {
-70 = 62.5;
-79 = 75;
-89 = 87.5;
-100 = 100;
-};
-wght = {
-28 = 100;
-42 = 200;
-64 = 300;
-94 = 400;
-110 = 500;
-130 = 600;
-152 = 700;
-175 = 800;
-194 = 900;
-};
-};
+name = "Variable Font Origin";
+value = "B2542900-2B87-4688-8902-A06B6D3D93DD";
 }
 );
 date = "2019-06-10 11:58:22 +0000";
