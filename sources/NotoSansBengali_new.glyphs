@@ -1,6 +1,11 @@
 {
 .appVersion = "3309";
 .formatVersion = 3;
+DisplayStrings = (
+"/jarabeng   /_smart-raphala-beng প /harabeng",
+"/harabeng",
+"/karabeng/kharabeng/garabeng/gharabeng/ngarabeng/carabeng/charabeng/jarabeng/jharabeng/nyarabeng/ttarabeng/ttharabeng/ddarabeng/ddharabeng/nnarabeng/tharabeng/darabeng/dharabeng/narabeng/parabeng/pharabeng/barabeng/bharabeng/marabeng/yarabeng/rarabeng/larabeng/sharabeng/ssarabeng/sarabeng/harabeng/ra1rabeng/warabeng/rrarabeng/rharabeng/yyarabeng/kassarabeng/janyarabeng"
+);
 axes = (
 {
 name = Weight;
@@ -847,7 +852,6 @@ userData = {
 GSOffsetHorizontal = 10;
 GSOffsetVertical = 7;
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -1075,7 +1079,7 @@ unicode = 13;
 },
 {
 glyphname = space;
-lastChange = "2024-07-24 16:28:37 +0000";
+lastChange = "2024-07-29 17:55:54 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -1087,7 +1091,7 @@ width = 260;
 },
 {
 layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
-width = 260;
+width = 580;
 }
 );
 unicode = 32;
@@ -53375,249 +53379,6 @@ subCategory = Nonspacing;
 {
 category = Mark;
 color = 0;
-glyphname = vattubeng;
-lastChange = "2024-07-24 16:28:37 +0000";
-layers = (
-{
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(-95,184,l),
-(-172,121,l),
-(-172,-129,l),
-(-201,-89,o),
-(-244,-75,o),
-(-301,-75,cs),
-(-371,-75,o),
-(-423,-92,o),
-(-495,-92,cs),
-(-560,-92,o),
-(-618,-72,o),
-(-618,0,cs),
-(-618,18,o),
-(-615,31,o),
-(-611,48,c),
-(-687,58,l),
-(-692,43,o),
-(-696,21,o),
-(-696,-2,cs),
-(-696,-136,o),
-(-581,-164,o),
-(-492,-164,cs),
-(-400,-164,o),
-(-353,-147,o),
-(-280,-147,cs),
-(-221,-147,o),
-(-187,-174,o),
-(-170,-233,c),
-(-95,-233,l)
-);
-}
-);
-};
-layerId = UUID0;
-shapes = (
-{
-closed = 1;
-nodes = (
-(-95,184,l),
-(-172,121,l),
-(-172,-129,l),
-(-201,-89,o),
-(-244,-75,o),
-(-301,-75,cs),
-(-371,-75,o),
-(-423,-92,o),
-(-495,-92,cs),
-(-560,-92,o),
-(-618,-72,o),
-(-618,0,cs),
-(-618,18,o),
-(-615,31,o),
-(-611,48,c),
-(-687,58,l),
-(-692,43,o),
-(-696,21,o),
-(-696,-2,cs),
-(-696,-136,o),
-(-581,-164,o),
-(-492,-164,cs),
-(-400,-164,o),
-(-353,-147,o),
-(-280,-147,cs),
-(-221,-147,o),
-(-187,-174,o),
-(-170,-233,c),
-(-95,-233,l)
-);
-}
-);
-width = 0;
-},
-{
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(-106,133,l),
-(-127,130,l),
-(-127,-190,l),
-(-157,-132,o),
-(-199,-95,o),
-(-270,-95,cs),
-(-337,-95,o),
-(-385,-112,o),
-(-464,-112,cs),
-(-562,-112,o),
-(-626,-85,o),
-(-626,-3,cs),
-(-626,21,o),
-(-623,37,o),
-(-618,54,c),
-(-639,57,l),
-(-644,42,o),
-(-648,24,o),
-(-648,-1,cs),
-(-648,-108,o),
-(-557,-133,o),
-(-462,-133,cs),
-(-387,-133,o),
-(-346,-116,o),
-(-270,-116,cs),
-(-198,-116,o),
-(-165,-156,o),
-(-127,-233,c),
-(-106,-233,l)
-);
-}
-);
-};
-layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
-shapes = (
-{
-closed = 1;
-nodes = (
-(-106,133,l),
-(-127,130,l),
-(-127,-190,l),
-(-157,-132,o),
-(-199,-95,o),
-(-270,-95,cs),
-(-337,-95,o),
-(-385,-112,o),
-(-464,-112,cs),
-(-562,-112,o),
-(-626,-85,o),
-(-626,-3,cs),
-(-626,21,o),
-(-623,37,o),
-(-618,54,c),
-(-639,57,l),
-(-644,42,o),
-(-648,24,o),
-(-648,-1,cs),
-(-648,-108,o),
-(-557,-133,o),
-(-462,-133,cs),
-(-387,-133,o),
-(-346,-116,o),
-(-270,-116,cs),
-(-198,-116,o),
-(-165,-156,o),
-(-127,-233,c),
-(-106,-233,l)
-);
-}
-);
-width = 0;
-},
-{
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(-77,166,l),
-(-241,121,l),
-(-241,-107,l),
-(-268,-81,o),
-(-300,-59,o),
-(-363,-59,cs),
-(-410,-59,o),
-(-464,-72,o),
-(-528,-72,cs),
-(-578,-72,o),
-(-611,-55,o),
-(-611,-10,cs),
-(-611,7,o),
-(-609,20,o),
-(-605,34,c),
-(-760,56,l),
-(-766,36,o),
-(-770,13,o),
-(-770,-18,cs),
-(-770,-174,o),
-(-642,-202,o),
-(-544,-202,cs),
-(-455,-202,o),
-(-405,-188,o),
-(-337,-188,cs),
-(-281,-188,o),
-(-258,-206,o),
-(-239,-233,c),
-(-77,-233,l)
-);
-}
-);
-};
-layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
-shapes = (
-{
-closed = 1;
-nodes = (
-(-77,166,l),
-(-241,121,l),
-(-241,-107,l),
-(-268,-81,o),
-(-300,-59,o),
-(-363,-59,cs),
-(-410,-59,o),
-(-464,-72,o),
-(-528,-72,cs),
-(-578,-72,o),
-(-611,-55,o),
-(-611,-10,cs),
-(-611,7,o),
-(-609,20,o),
-(-605,34,c),
-(-760,56,l),
-(-766,36,o),
-(-770,13,o),
-(-770,-18,cs),
-(-770,-174,o),
-(-642,-202,o),
-(-544,-202,cs),
-(-455,-202,o),
-(-405,-188,o),
-(-337,-188,cs),
-(-281,-188,o),
-(-258,-206,o),
-(-239,-233,c),
-(-77,-233,l)
-);
-}
-);
-width = 0;
-}
-);
-subCategory = Nonspacing;
-},
-{
-category = Mark;
-color = 0;
 glyphname = basubscriptbeng;
 lastChange = "2024-07-24 16:28:37 +0000";
 layers = (
@@ -62880,7 +62641,7 @@ subCategory = Spacing;
 {
 category = Letter;
 glyphname = nyarabeng;
-lastChange = "2024-07-26 12:00:33 +0000";
+lastChange = "2024-07-29 15:31:36 +0000";
 layers = (
 {
 anchors = (
@@ -62907,7 +62668,7 @@ ref = "nya-beng";
 },
 {
 pos = (798,0);
-ref = vattubeng;
+ref = "raphala-beng";
 }
 );
 width = 1021;
@@ -62951,7 +62712,7 @@ ref = "nya-beng";
 },
 {
 pos = (762,0);
-ref = vattubeng;
+ref = "raphala-beng";
 }
 );
 width = 993;
@@ -62998,8 +62759,8 @@ ref = "nya-beng";
 },
 {
 alignment = -1;
-pos = (723,0);
-ref = vattubeng;
+pos = (699,0);
+ref = "raphala-beng";
 }
 );
 width = 933;
@@ -63043,7 +62804,7 @@ ref = "nya-beng";
 },
 {
 pos = (819,0);
-ref = vattubeng;
+ref = "raphala-beng";
 }
 );
 width = 1033;
@@ -67234,7 +66995,7 @@ subCategory = Spacing;
 {
 category = Letter;
 glyphname = tharabeng;
-lastChange = "2024-07-26 12:00:33 +0000";
+lastChange = "2024-07-29 15:31:54 +0000";
 layers = (
 {
 anchors = (
@@ -74326,7 +74087,7 @@ subCategory = Spacing;
 {
 category = Letter;
 glyphname = yarabeng;
-lastChange = "2024-07-26 12:00:33 +0000";
+lastChange = "2024-07-29 15:32:19 +0000";
 layers = (
 {
 anchors = (
@@ -78585,7 +78346,7 @@ subCategory = Spacing;
 {
 category = Letter;
 glyphname = sarabeng;
-lastChange = "2024-07-26 12:00:33 +0000";
+lastChange = "2024-07-29 15:32:29 +0000";
 layers = (
 {
 anchors = (
@@ -86398,7 +86159,7 @@ ref = "j_nya-beng";
 },
 {
 pos = (904,-34);
-ref = vattubeng;
+ref = "raphala-beng";
 }
 );
 width = 939;
@@ -86446,7 +86207,7 @@ ref = "j_nya-beng";
 {
 alignment = -1;
 pos = (836,-2);
-ref = vattubeng;
+ref = "raphala-beng";
 }
 );
 width = 913;
@@ -86490,7 +86251,7 @@ ref = "j_nya-beng";
 },
 {
 pos = (1005,-34);
-ref = vattubeng;
+ref = "raphala-beng";
 }
 );
 width = 990;
@@ -343846,6 +343607,990 @@ script = bengali;
 subCategory = Spacing;
 },
 {
+category = Mark;
+color = 4;
+glyphname = "_smart-raphala-beng";
+lastChange = "2024-07-29 17:56:12 +0000";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(294,133,l),
+(273,130,l),
+(273,-190,l),
+(243,-132,o),
+(201,-95,o),
+(130,-95,cs),
+(63,-95,o),
+(15,-112,o),
+(-64,-112,cs),
+(-162,-112,o),
+(-226,-85,o),
+(-226,-3,cs),
+(-226,21,o),
+(-223,37,o),
+(-218,54,c),
+(-239,57,l),
+(-244,42,o),
+(-248,24,o),
+(-248,-1,cs),
+(-248,-108,o),
+(-157,-133,o),
+(-62,-133,cs),
+(13,-133,o),
+(54,-116,o),
+(130,-116,cs),
+(202,-116,o),
+(235,-156,o),
+(273,-233,c),
+(294,-233,l)
+);
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+partSelection = {
+TailHeight = 1;
+TailLength = 1;
+StemHeight = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(400,-233,l),
+(400,-190,l),
+(379,-190,l),
+(379,-190,l),
+(349,-132,o),
+(307,-100,o),
+(252,-100,cs),
+(210,-100,o),
+(165,-112,o),
+(113,-112,cs),
+(57,-112,o),
+(22,-85,o),
+(22,-33,cs),
+(22,-9,o),
+(25,7,o),
+(30,24,c),
+(9,27,l),
+(4,12,o),
+(0,-6,o),
+(0,-31,cs),
+(0,-98,o),
+(47,-133,o),
+(115,-133,cs),
+(163,-133,o),
+(201,-121,o),
+(252,-121,cs),
+(308,-121,o),
+(343,-158,o),
+(379,-233,c)
+);
+}
+);
+width = 400;
+},
+{
+associatedMasterId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(294,133,l),
+(273,130,l),
+(273,-190,l),
+(243,-132,o),
+(201,-95,o),
+(130,-95,cs),
+(63,-95,o),
+(15,-112,o),
+(-64,-112,cs),
+(-162,-112,o),
+(-226,-85,o),
+(-226,-3,cs),
+(-226,21,o),
+(-223,37,o),
+(-218,54,c),
+(-239,57,l),
+(-244,42,o),
+(-248,24,o),
+(-248,-1,cs),
+(-248,-108,o),
+(-157,-133,o),
+(-62,-133,cs),
+(13,-133,o),
+(54,-116,o),
+(130,-116,cs),
+(202,-116,o),
+(235,-156,o),
+(273,-233,c),
+(294,-233,l)
+);
+}
+);
+};
+layerId = "ADC943F2-01C8-424E-AFC2-F713027D032E";
+name = TallStem;
+partSelection = {
+TailHeight = 1;
+TailLength = 1;
+StemHeight = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(400,-233,l),
+(400,207,l),
+(379,204,l),
+(379,-190,l),
+(349,-132,o),
+(307,-100,o),
+(252,-100,cs),
+(210,-100,o),
+(165,-112,o),
+(113,-112,cs),
+(57,-112,o),
+(22,-85,o),
+(22,-33,cs),
+(22,-9,o),
+(25,7,o),
+(30,24,c),
+(9,27,l),
+(4,12,o),
+(0,-6,o),
+(0,-31,cs),
+(0,-98,o),
+(47,-133,o),
+(115,-133,cs),
+(163,-133,o),
+(201,-121,o),
+(252,-121,cs),
+(308,-121,o),
+(343,-158,o),
+(379,-233,c)
+);
+}
+);
+width = 400;
+},
+{
+associatedMasterId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+layerId = "62CB43F4-6D7A-4430-8075-6A159424EDE6";
+name = TallTail;
+partSelection = {
+TailHeight = 2;
+TailLength = 1;
+StemHeight = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(408,-233,l),
+(408,-190,l),
+(387,-190,l),
+(387,-190,l),
+(357,-132,o),
+(315,-100,o),
+(260,-100,cs),
+(218,-100,o),
+(180,-112,o),
+(130,-112,cs),
+(69,-112,o),
+(22,-85,o),
+(22,9,cs),
+(22,57,o),
+(35,97,o),
+(42,114,c),
+(21,117,l),
+(14,101,o),
+(0,60,o),
+(0,11,cs),
+(0,-98,o),
+(59,-133,o),
+(132,-133,cs),
+(178,-133,o),
+(209,-121,o),
+(260,-121,cs),
+(316,-121,o),
+(351,-158,o),
+(387,-233,c)
+);
+}
+);
+width = 408;
+},
+{
+associatedMasterId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(740,-198,l),
+(695,-123,o),
+(645,-100,o),
+(569,-100,cs),
+(477,-100,o),
+(377,-126,o),
+(291,-126,cs),
+(197,-126,o),
+(128,-107,o),
+(128,9,cs),
+(128,28,o),
+(130,53,o),
+(135,78,c),
+(114,80,l),
+(108,56,o),
+(106,31,o),
+(106,9,cs),
+(106,-125,o),
+(195,-148,o),
+(291,-148,cs),
+(373,-148,o),
+(482,-122,o),
+(569,-122,cs),
+(646,-122,o),
+(691,-145,o),
+(739,-228,c)
+);
+}
+);
+};
+layerId = "B064EC4A-8FBB-48CA-94C9-4DD013C079A3";
+name = WideTail;
+partSelection = {
+TailHeight = 1;
+TailLength = 2;
+StemHeight = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(760,-233,l),
+(760,-190,l),
+(739,-190,l),
+(739,-190,l),
+(707,-132,o),
+(666,-95,o),
+(558,-95,cs),
+(453,-95,o),
+(255,-137,o),
+(150,-137,cs),
+(62,-137,o),
+(22,-101,o),
+(22,-49,cs),
+(22,-29,o),
+(25,-13,o),
+(30,4,c),
+(9,7,l),
+(4,-8,o),
+(0,-26,o),
+(0,-47,cs),
+(0,-114,o),
+(52,-158,o),
+(152,-158,cs),
+(263,-158,o),
+(448,-116,o),
+(558,-116,cs),
+(668,-116,o),
+(705,-158,o),
+(739,-233,c)
+);
+}
+);
+width = 760;
+},
+{
+layerId = UUID0;
+partSelection = {
+TailHeight = 1;
+TailLength = 1;
+StemHeight = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(460,-232,l),
+(460,-126,l),
+(383,-126,l),
+(383,-126,l),
+(353,-86,o),
+(321,-75,o),
+(283,-75,cs),
+(246,-75,o),
+(196,-92,o),
+(153,-92,cs),
+(107,-92,o),
+(78,-69,o),
+(78,-18,cs),
+(78,-1,o),
+(81,17,o),
+(85,33,c),
+(8,43,l),
+(4,28,o),
+(0,3,o),
+(0,-17,cs),
+(0,-133,o),
+(83,-164,o),
+(151,-164,cs),
+(200,-164,o),
+(250,-147,o),
+(294,-147,cs),
+(340,-147,o),
+(369,-174,o),
+(385,-232,c)
+);
+}
+);
+width = 460;
+},
+{
+associatedMasterId = UUID0;
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(460,-138,ls),
+(460,-98,o),
+(457,-46,o),
+(454,-15,c),
+(384,-9,l),
+(383,-27,o),
+(383,-44,o),
+(383,-62,c),
+(383,-125,l),
+(350,-88,o),
+(319,-73,o),
+(281,-73,cs),
+(231,-73,o),
+(198,-90,o),
+(144,-90,cs),
+(92,-90,o),
+(58,-71,o),
+(58,-4,cs),
+(58,14,o),
+(61,33,o),
+(66,50,c),
+(-11,59,l),
+(-16,41,o),
+(-20,20,o),
+(-20,-7,cs),
+(-20,-129,o),
+(63,-162,o),
+(137,-162,cs),
+(194,-162,o),
+(231,-145,o),
+(283,-145,cs),
+(341,-145,o),
+(371,-176,o),
+(385,-232,c),
+(460,-232,l)
+);
+}
+);
+};
+layerId = "706699C2-1304-4DB6-B10D-DCDDBB43A7DA";
+name = TallStem;
+partSelection = {
+TailHeight = 1;
+TailLength = 1;
+StemHeight = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(460,-232,l),
+(460,228,l),
+(383,215,l),
+(383,-126,l),
+(353,-86,o),
+(321,-75,o),
+(283,-75,cs),
+(246,-75,o),
+(196,-92,o),
+(153,-92,cs),
+(107,-92,o),
+(78,-69,o),
+(78,-18,cs),
+(78,-1,o),
+(81,17,o),
+(85,33,c),
+(8,43,l),
+(4,28,o),
+(0,3,o),
+(0,-17,cs),
+(0,-133,o),
+(83,-164,o),
+(151,-164,cs),
+(200,-164,o),
+(250,-147,o),
+(294,-147,cs),
+(340,-147,o),
+(369,-174,o),
+(385,-232,c)
+);
+}
+);
+width = 460;
+},
+{
+associatedMasterId = UUID0;
+layerId = "CA0E98A5-1769-40DA-A4EA-C45D12A59CEA";
+name = TallTail;
+partSelection = {
+TailHeight = 2;
+TailLength = 1;
+StemHeight = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(460,-232,l),
+(460,-126,l),
+(383,-126,l),
+(383,-126,l),
+(353,-86,o),
+(321,-75,o),
+(283,-75,cs),
+(248,-75,o),
+(196,-90,o),
+(158,-90,cs),
+(107,-90,o),
+(71,-69,o),
+(71,17,cs),
+(71,55,o),
+(81,97,o),
+(92,123,c),
+(16,133,l),
+(6,112,o),
+(-7,60,o),
+(-7,16,cs),
+(-7,-133,o),
+(83,-162,o),
+(159,-162,cs),
+(199,-162,o),
+(250,-147,o),
+(293,-147,cs),
+(340,-147,o),
+(369,-174,o),
+(385,-232,c)
+);
+}
+);
+visible = 1;
+width = 460;
+},
+{
+associatedMasterId = UUID0;
+layerId = "1686C73B-478E-4F7E-868B-C654DF36D128";
+name = WideTail;
+partSelection = {
+TailHeight = 1;
+TailLength = 2;
+StemHeight = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(860,-232,l),
+(860,-128,l),
+(783,-128,l),
+(783,-128,l),
+(751,-92,o),
+(710,-75,o),
+(632,-75,cs),
+(506,-75,o),
+(336,-102,o),
+(211,-102,cs),
+(110,-102,o),
+(78,-69,o),
+(78,-19,cs),
+(78,-5,o),
+(81,12,o),
+(85,28,c),
+(8,38,l),
+(4,23,o),
+(0,0,o),
+(0,-22,cs),
+(0,-120,o),
+(72,-174,o),
+(211,-174,cs),
+(340,-174,o),
+(520,-147,o),
+(644,-147,cs),
+(726,-147,o),
+(769,-174,o),
+(785,-232,c)
+);
+}
+);
+visible = 1;
+width = 860;
+},
+{
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+partSelection = {
+TailHeight = 1;
+TailLength = 1;
+StemHeight = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(580,-238,l),
+(580,-109,l),
+(416,-109,l),
+(416,-107,l),
+(397,-71,o),
+(374,-53,o),
+(324,-53,cs),
+(287,-53,o),
+(245,-67,o),
+(213,-67,cs),
+(177,-67,o),
+(159,-42,o),
+(159,-8,cs),
+(159,3,o),
+(161,17,o),
+(165,30,c),
+(10,52,l),
+(4,33,o),
+(0,5,o),
+(0,-18,cs),
+(0,-149,o),
+(93,-197,o),
+(206,-197,cs),
+(247,-197,o),
+(303,-183,o),
+(341,-183,cs),
+(382,-183,o),
+(406,-201,o),
+(418,-238,c)
+);
+}
+);
+width = 580;
+},
+{
+associatedMasterId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+layerId = "F6A9D72D-B643-48EE-AB78-02A5E2816040";
+name = TallStem;
+partSelection = {
+TailHeight = 1;
+TailLength = 1;
+StemHeight = 2;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(580,-238,l),
+(580,258,l),
+(416,230,l),
+(416,-107,l),
+(397,-71,o),
+(374,-53,o),
+(324,-53,cs),
+(287,-53,o),
+(245,-67,o),
+(213,-67,cs),
+(177,-67,o),
+(159,-42,o),
+(159,-8,cs),
+(159,3,o),
+(161,17,o),
+(165,30,c),
+(10,52,l),
+(4,33,o),
+(0,5,o),
+(0,-18,cs),
+(0,-149,o),
+(93,-197,o),
+(206,-197,cs),
+(247,-197,o),
+(303,-183,o),
+(341,-183,cs),
+(382,-183,o),
+(406,-201,o),
+(418,-238,c)
+);
+}
+);
+width = 580;
+},
+{
+associatedMasterId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+layerId = "4BD399CE-C359-46C2-8646-DF6CD02FE5C2";
+name = TallTail;
+partSelection = {
+TailHeight = 2;
+TailLength = 1;
+StemHeight = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(580,-238,l),
+(580,-107,l),
+(416,-107,l),
+(416,-107,l),
+(397,-71,o),
+(374,-53,o),
+(324,-53,cs),
+(287,-53,o),
+(251,-67,o),
+(215,-67,cs),
+(168,-67,o),
+(141,-32,o),
+(141,35,cs),
+(141,80,o),
+(153,121,o),
+(165,151,c),
+(10,173,l),
+(-3,145,o),
+(-18,86,o),
+(-18,32,cs),
+(-18,-149,o),
+(91,-197,o),
+(198,-197,cs),
+(249,-197,o),
+(303,-183,o),
+(341,-183,cs),
+(382,-183,o),
+(406,-201,o),
+(418,-238,c)
+);
+}
+);
+width = 580;
+},
+{
+associatedMasterId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+layerId = "E0645BD5-4C0D-4CAB-95CC-36FED199F14F";
+name = WideTail;
+partSelection = {
+TailHeight = 1;
+TailLength = 2;
+StemHeight = 1;
+};
+shapes = (
+{
+closed = 1;
+nodes = (
+(980,-248,l),
+(980,-117,l),
+(816,-117,l),
+(816,-117,l),
+(787,-70,o),
+(754,-53,o),
+(674,-53,cs),
+(542,-53,o),
+(390,-87,o),
+(261,-87,cs),
+(182,-87,o),
+(159,-52,o),
+(159,-15,cs),
+(159,-4,o),
+(160,6,o),
+(165,20,c),
+(10,42,l),
+(4,23,o),
+(0,-3,o),
+(0,-28,cs),
+(0,-154,o),
+(98,-217,o),
+(254,-217,cs),
+(392,-217,o),
+(568,-183,o),
+(693,-183,cs),
+(762,-183,o),
+(797,-201,o),
+(818,-248,c)
+);
+}
+);
+width = 980;
+}
+);
+partsSettings = (
+{
+bottomValue = 160;
+name = TailHeight;
+topValue = 250;
+},
+{
+bottomValue = 400;
+name = TailLength;
+topValue = 760;
+},
+{
+bottomValue = 40;
+name = StemHeight;
+topValue = 440;
+}
+);
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+color = 0;
+glyphname = "raphala-beng";
+lastChange = "2024-07-29 12:33:14 +0000";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(-95,184,l),
+(-172,121,l),
+(-172,-129,l),
+(-201,-89,o),
+(-244,-75,o),
+(-301,-75,cs),
+(-371,-75,o),
+(-423,-92,o),
+(-495,-92,cs),
+(-560,-92,o),
+(-618,-72,o),
+(-618,0,cs),
+(-618,18,o),
+(-615,31,o),
+(-611,48,c),
+(-687,58,l),
+(-692,43,o),
+(-696,21,o),
+(-696,-2,cs),
+(-696,-136,o),
+(-581,-164,o),
+(-492,-164,cs),
+(-400,-164,o),
+(-353,-147,o),
+(-280,-147,cs),
+(-221,-147,o),
+(-187,-174,o),
+(-170,-233,c),
+(-95,-233,l)
+);
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-95,184,l),
+(-172,121,l),
+(-172,-129,l),
+(-201,-89,o),
+(-244,-75,o),
+(-301,-75,cs),
+(-371,-75,o),
+(-423,-92,o),
+(-495,-92,cs),
+(-560,-92,o),
+(-618,-72,o),
+(-618,0,cs),
+(-618,18,o),
+(-615,31,o),
+(-611,48,c),
+(-687,58,l),
+(-692,43,o),
+(-696,21,o),
+(-696,-2,cs),
+(-696,-136,o),
+(-581,-164,o),
+(-492,-164,cs),
+(-400,-164,o),
+(-353,-147,o),
+(-280,-147,cs),
+(-221,-147,o),
+(-187,-174,o),
+(-170,-233,c),
+(-95,-233,l)
+);
+}
+);
+width = 0;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(-106,133,l),
+(-127,130,l),
+(-127,-190,l),
+(-157,-132,o),
+(-199,-95,o),
+(-270,-95,cs),
+(-337,-95,o),
+(-385,-112,o),
+(-464,-112,cs),
+(-562,-112,o),
+(-626,-85,o),
+(-626,-3,cs),
+(-626,21,o),
+(-623,37,o),
+(-618,54,c),
+(-639,57,l),
+(-644,42,o),
+(-648,24,o),
+(-648,-1,cs),
+(-648,-108,o),
+(-557,-133,o),
+(-462,-133,cs),
+(-387,-133,o),
+(-346,-116,o),
+(-270,-116,cs),
+(-198,-116,o),
+(-165,-156,o),
+(-127,-233,c),
+(-106,-233,l)
+);
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-106,133,l),
+(-127,130,l),
+(-127,-190,l),
+(-157,-132,o),
+(-199,-95,o),
+(-270,-95,cs),
+(-337,-95,o),
+(-385,-112,o),
+(-464,-112,cs),
+(-562,-112,o),
+(-626,-85,o),
+(-626,-3,cs),
+(-626,21,o),
+(-623,37,o),
+(-618,54,c),
+(-639,57,l),
+(-644,42,o),
+(-648,24,o),
+(-648,-1,cs),
+(-648,-108,o),
+(-557,-133,o),
+(-462,-133,cs),
+(-387,-133,o),
+(-346,-116,o),
+(-270,-116,cs),
+(-198,-116,o),
+(-165,-156,o),
+(-127,-233,c),
+(-106,-233,l)
+);
+}
+);
+width = 0;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(-77,166,l),
+(-241,121,l),
+(-241,-107,l),
+(-268,-81,o),
+(-300,-59,o),
+(-363,-59,cs),
+(-410,-59,o),
+(-464,-72,o),
+(-528,-72,cs),
+(-578,-72,o),
+(-611,-55,o),
+(-611,-10,cs),
+(-611,7,o),
+(-609,20,o),
+(-605,34,c),
+(-760,56,l),
+(-766,36,o),
+(-770,13,o),
+(-770,-18,cs),
+(-770,-174,o),
+(-642,-202,o),
+(-544,-202,cs),
+(-455,-202,o),
+(-405,-188,o),
+(-337,-188,cs),
+(-281,-188,o),
+(-258,-206,o),
+(-239,-233,c),
+(-77,-233,l)
+);
+}
+);
+};
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-77,166,l),
+(-241,121,l),
+(-241,-107,l),
+(-268,-81,o),
+(-300,-59,o),
+(-363,-59,cs),
+(-410,-59,o),
+(-464,-72,o),
+(-528,-72,cs),
+(-578,-72,o),
+(-611,-55,o),
+(-611,-10,cs),
+(-611,7,o),
+(-609,20,o),
+(-605,34,c),
+(-760,56,l),
+(-766,36,o),
+(-770,13,o),
+(-770,-18,cs),
+(-770,-174,o),
+(-642,-202,o),
+(-544,-202,cs),
+(-455,-202,o),
+(-405,-188,o),
+(-337,-188,cs),
+(-281,-188,o),
+(-258,-206,o),
+(-239,-233,c),
+(-77,-233,l)
+);
+}
+);
+width = 0;
+}
+);
+subCategory = Nonspacing;
+},
+{
 glyphname = tatarabeng;
 lastChange = "2024-07-24 16:28:37 +0000";
 layers = (
@@ -345821,11 +346566,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -345876,11 +346621,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -345931,11 +346676,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -345986,11 +346731,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -346041,11 +346786,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -346096,11 +346841,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -346151,11 +346896,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -346206,176 +346951,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
-nyajhabeng = -18;
-"o-beng" = -18;
-"pa-beng" = -18;
-pababeng = -18;
-palabeng = -18;
-pamabeng = -18;
-panabeng = -18;
-papabeng = -18;
-patabeng = -18;
-pattabeng = -18;
-"rVocalic-beng" = -18;
-"rrVocalic-beng" = -18;
-shubeng = -18;
-"taKhanda-beng" = -18;
-tathabeng = -18;
-"tha-beng" = -18;
-thababeng = -18;
-};
-"nya-beng" = {
-"ai-beng" = -18;
-"au-beng" = -18;
-"dha-beng" = -18;
-dhababeng = -18;
-dhamabeng = -18;
-dhanabeng = -18;
-"e-beng" = -18;
-"ga-beng" = -18;
-gababeng = -18;
-gadabeng = -18;
-gadhabeng = -18;
-gagabeng = -18;
-gamabeng = -18;
-ganabeng = -18;
-"kha-beng" = -18;
-kharabeng = -18;
-"lVocalic-beng" = -18;
-"llVocalic-beng" = -18;
-"nga-beng" = -18;
-ngababeng = -18;
-"nna-beng" = -18;
-nnababeng = -18;
-nnaddabeng = -18;
-nnaddarabeng = -18;
-nnaddhabeng = -18;
-nnamabeng = -18;
-nnanabeng = -18;
-nnannabeng = -18;
-nnattabeng = -18;
-nnattarabeng = -18;
-nnatthabeng = -18;
-"nya-beng" = -18;
-nyababeng = -18;
-nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
-nyajhabeng = -18;
-"o-beng" = -18;
-"pa-beng" = -18;
-pababeng = -18;
-palabeng = -18;
-pamabeng = -18;
-panabeng = -18;
-papabeng = -18;
-patabeng = -18;
-pattabeng = -18;
-"rVocalic-beng" = -18;
-"rrVocalic-beng" = -18;
-shubeng = -18;
-"taKhanda-beng" = -18;
-tathabeng = -18;
-"tha-beng" = -18;
-thababeng = -18;
-};
-nyababeng = {
-"ai-beng" = -18;
-"au-beng" = -18;
-"dha-beng" = -18;
-dhababeng = -18;
-dhamabeng = -18;
-dhanabeng = -18;
-"e-beng" = -18;
-"ga-beng" = -18;
-gababeng = -18;
-gadabeng = -18;
-gadhabeng = -18;
-gagabeng = -18;
-gamabeng = -18;
-ganabeng = -18;
-"kha-beng" = -18;
-kharabeng = -18;
-"lVocalic-beng" = -18;
-"llVocalic-beng" = -18;
-"nga-beng" = -18;
-ngababeng = -18;
-"nna-beng" = -18;
-nnababeng = -18;
-nnaddabeng = -18;
-nnaddarabeng = -18;
-nnaddhabeng = -18;
-nnamabeng = -18;
-nnanabeng = -18;
-nnannabeng = -18;
-nnattabeng = -18;
-nnattarabeng = -18;
-nnatthabeng = -18;
-"nya-beng" = -18;
-nyababeng = -18;
-nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
-nyajhabeng = -18;
-"o-beng" = -18;
-"pa-beng" = -18;
-pababeng = -18;
-palabeng = -18;
-pamabeng = -18;
-panabeng = -18;
-papabeng = -18;
-patabeng = -18;
-pattabeng = -18;
-"rVocalic-beng" = -18;
-"rrVocalic-beng" = -18;
-shubeng = -18;
-"taKhanda-beng" = -18;
-tathabeng = -18;
-"tha-beng" = -18;
-thababeng = -18;
-};
-nyacabeng = {
-"ai-beng" = -18;
-"au-beng" = -18;
-"dha-beng" = -18;
-dhababeng = -18;
-dhamabeng = -18;
-dhanabeng = -18;
-"e-beng" = -18;
-"ga-beng" = -18;
-gababeng = -18;
-gadabeng = -18;
-gadhabeng = -18;
-gagabeng = -18;
-gamabeng = -18;
-ganabeng = -18;
-"kha-beng" = -18;
-kharabeng = -18;
-"lVocalic-beng" = -18;
-"llVocalic-beng" = -18;
-"nga-beng" = -18;
-ngababeng = -18;
-"nna-beng" = -18;
-nnababeng = -18;
-nnaddabeng = -18;
-nnaddarabeng = -18;
-nnaddhabeng = -18;
-nnamabeng = -18;
-nnanabeng = -18;
-nnannabeng = -18;
-nnattabeng = -18;
-nnattarabeng = -18;
-nnatthabeng = -18;
-"nya-beng" = -18;
-nyababeng = -18;
-nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -346426,11 +347006,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -346481,11 +347061,176 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
+nyajhabeng = -18;
+"o-beng" = -18;
+"pa-beng" = -18;
+pababeng = -18;
+palabeng = -18;
+pamabeng = -18;
+panabeng = -18;
+papabeng = -18;
+patabeng = -18;
+pattabeng = -18;
+"rVocalic-beng" = -18;
+"rrVocalic-beng" = -18;
+shubeng = -18;
+"taKhanda-beng" = -18;
+tathabeng = -18;
+"tha-beng" = -18;
+thababeng = -18;
+};
+"nya-beng" = {
+"ai-beng" = -18;
+"au-beng" = -18;
+"dha-beng" = -18;
+dhababeng = -18;
+dhamabeng = -18;
+dhanabeng = -18;
+"e-beng" = -18;
+"ga-beng" = -18;
+gababeng = -18;
+gadabeng = -18;
+gadhabeng = -18;
+gagabeng = -18;
+gamabeng = -18;
+ganabeng = -18;
+"kha-beng" = -18;
+kharabeng = -18;
+"lVocalic-beng" = -18;
+"llVocalic-beng" = -18;
+"nga-beng" = -18;
+ngababeng = -18;
+"nna-beng" = -18;
+nnababeng = -18;
+nnaddabeng = -18;
+nnaddarabeng = -18;
+nnaddhabeng = -18;
+nnamabeng = -18;
+nnanabeng = -18;
+nnannabeng = -18;
+nnattabeng = -18;
+nnattarabeng = -18;
+nnatthabeng = -18;
 "ny_cha-beng" = -18;
 "ny_ja-beng" = -18;
+"nya-beng" = -18;
+nyababeng = -18;
+nyacabeng = -18;
+nyajhabeng = -18;
+"o-beng" = -18;
+"pa-beng" = -18;
+pababeng = -18;
+palabeng = -18;
+pamabeng = -18;
+panabeng = -18;
+papabeng = -18;
+patabeng = -18;
+pattabeng = -18;
+"rVocalic-beng" = -18;
+"rrVocalic-beng" = -18;
+shubeng = -18;
+"taKhanda-beng" = -18;
+tathabeng = -18;
+"tha-beng" = -18;
+thababeng = -18;
+};
+nyababeng = {
+"ai-beng" = -18;
+"au-beng" = -18;
+"dha-beng" = -18;
+dhababeng = -18;
+dhamabeng = -18;
+dhanabeng = -18;
+"e-beng" = -18;
+"ga-beng" = -18;
+gababeng = -18;
+gadabeng = -18;
+gadhabeng = -18;
+gagabeng = -18;
+gamabeng = -18;
+ganabeng = -18;
+"kha-beng" = -18;
+kharabeng = -18;
+"lVocalic-beng" = -18;
+"llVocalic-beng" = -18;
+"nga-beng" = -18;
+ngababeng = -18;
+"nna-beng" = -18;
+nnababeng = -18;
+nnaddabeng = -18;
+nnaddarabeng = -18;
+nnaddhabeng = -18;
+nnamabeng = -18;
+nnanabeng = -18;
+nnannabeng = -18;
+nnattabeng = -18;
+nnattarabeng = -18;
+nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
+"nya-beng" = -18;
+nyababeng = -18;
+nyacabeng = -18;
+nyajhabeng = -18;
+"o-beng" = -18;
+"pa-beng" = -18;
+pababeng = -18;
+palabeng = -18;
+pamabeng = -18;
+panabeng = -18;
+papabeng = -18;
+patabeng = -18;
+pattabeng = -18;
+"rVocalic-beng" = -18;
+"rrVocalic-beng" = -18;
+shubeng = -18;
+"taKhanda-beng" = -18;
+tathabeng = -18;
+"tha-beng" = -18;
+thababeng = -18;
+};
+nyacabeng = {
+"ai-beng" = -18;
+"au-beng" = -18;
+"dha-beng" = -18;
+dhababeng = -18;
+dhamabeng = -18;
+dhanabeng = -18;
+"e-beng" = -18;
+"ga-beng" = -18;
+gababeng = -18;
+gadabeng = -18;
+gadhabeng = -18;
+gagabeng = -18;
+gamabeng = -18;
+ganabeng = -18;
+"kha-beng" = -18;
+kharabeng = -18;
+"lVocalic-beng" = -18;
+"llVocalic-beng" = -18;
+"nga-beng" = -18;
+ngababeng = -18;
+"nna-beng" = -18;
+nnababeng = -18;
+nnaddabeng = -18;
+nnaddarabeng = -18;
+nnaddhabeng = -18;
+nnamabeng = -18;
+nnanabeng = -18;
+nnannabeng = -18;
+nnattabeng = -18;
+nnattarabeng = -18;
+nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
+"nya-beng" = -18;
+nyababeng = -18;
+nyacabeng = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -346536,11 +347281,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -346591,11 +347336,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -346646,11 +347391,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -346701,11 +347446,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -346756,11 +347501,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -346811,11 +347556,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -346866,11 +347611,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -346972,11 +347717,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -347027,11 +347772,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -347082,11 +347827,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -347137,11 +347882,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -347192,11 +347937,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -347247,11 +347992,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -347302,11 +348047,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -347357,176 +348102,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
-nyajhabeng = -18;
-"o-beng" = -18;
-"pa-beng" = -18;
-pababeng = -18;
-palabeng = -18;
-pamabeng = -18;
-panabeng = -18;
-papabeng = -18;
-patabeng = -18;
-pattabeng = -18;
-"rVocalic-beng" = -18;
-"rrVocalic-beng" = -18;
-shubeng = -18;
-"taKhanda-beng" = -18;
-tathabeng = -18;
-"tha-beng" = -18;
-thababeng = -18;
-};
-"nya-beng" = {
-"ai-beng" = -18;
-"au-beng" = -18;
-"dha-beng" = -18;
-dhababeng = -18;
-dhamabeng = -18;
-dhanabeng = -18;
-"e-beng" = -18;
-"ga-beng" = -18;
-gababeng = -18;
-gadabeng = -18;
-gadhabeng = -18;
-gagabeng = -18;
-gamabeng = -18;
-ganabeng = -18;
-"kha-beng" = -18;
-kharabeng = -18;
-"lVocalic-beng" = -18;
-"llVocalic-beng" = -18;
-"nga-beng" = -18;
-ngababeng = -18;
-"nna-beng" = -18;
-nnababeng = -18;
-nnaddabeng = -18;
-nnaddarabeng = -18;
-nnaddhabeng = -18;
-nnamabeng = -18;
-nnanabeng = -18;
-nnannabeng = -18;
-nnattabeng = -18;
-nnattarabeng = -18;
-nnatthabeng = -18;
-"nya-beng" = -18;
-nyababeng = -18;
-nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
-nyajhabeng = -18;
-"o-beng" = -18;
-"pa-beng" = -18;
-pababeng = -18;
-palabeng = -18;
-pamabeng = -18;
-panabeng = -18;
-papabeng = -18;
-patabeng = -18;
-pattabeng = -18;
-"rVocalic-beng" = -18;
-"rrVocalic-beng" = -18;
-shubeng = -18;
-"taKhanda-beng" = -18;
-tathabeng = -18;
-"tha-beng" = -18;
-thababeng = -18;
-};
-nyababeng = {
-"ai-beng" = -18;
-"au-beng" = -18;
-"dha-beng" = -18;
-dhababeng = -18;
-dhamabeng = -18;
-dhanabeng = -18;
-"e-beng" = -18;
-"ga-beng" = -18;
-gababeng = -18;
-gadabeng = -18;
-gadhabeng = -18;
-gagabeng = -18;
-gamabeng = -18;
-ganabeng = -18;
-"kha-beng" = -18;
-kharabeng = -18;
-"lVocalic-beng" = -18;
-"llVocalic-beng" = -18;
-"nga-beng" = -18;
-ngababeng = -18;
-"nna-beng" = -18;
-nnababeng = -18;
-nnaddabeng = -18;
-nnaddarabeng = -18;
-nnaddhabeng = -18;
-nnamabeng = -18;
-nnanabeng = -18;
-nnannabeng = -18;
-nnattabeng = -18;
-nnattarabeng = -18;
-nnatthabeng = -18;
-"nya-beng" = -18;
-nyababeng = -18;
-nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
-nyajhabeng = -18;
-"o-beng" = -18;
-"pa-beng" = -18;
-pababeng = -18;
-palabeng = -18;
-pamabeng = -18;
-panabeng = -18;
-papabeng = -18;
-patabeng = -18;
-pattabeng = -18;
-"rVocalic-beng" = -18;
-"rrVocalic-beng" = -18;
-shubeng = -18;
-"taKhanda-beng" = -18;
-tathabeng = -18;
-"tha-beng" = -18;
-thababeng = -18;
-};
-nyacabeng = {
-"ai-beng" = -18;
-"au-beng" = -18;
-"dha-beng" = -18;
-dhababeng = -18;
-dhamabeng = -18;
-dhanabeng = -18;
-"e-beng" = -18;
-"ga-beng" = -18;
-gababeng = -18;
-gadabeng = -18;
-gadhabeng = -18;
-gagabeng = -18;
-gamabeng = -18;
-ganabeng = -18;
-"kha-beng" = -18;
-kharabeng = -18;
-"lVocalic-beng" = -18;
-"llVocalic-beng" = -18;
-"nga-beng" = -18;
-ngababeng = -18;
-"nna-beng" = -18;
-nnababeng = -18;
-nnaddabeng = -18;
-nnaddarabeng = -18;
-nnaddhabeng = -18;
-nnamabeng = -18;
-nnanabeng = -18;
-nnannabeng = -18;
-nnattabeng = -18;
-nnattarabeng = -18;
-nnatthabeng = -18;
-"nya-beng" = -18;
-nyababeng = -18;
-nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -347577,11 +348157,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -347632,11 +348212,176 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
+nyajhabeng = -18;
+"o-beng" = -18;
+"pa-beng" = -18;
+pababeng = -18;
+palabeng = -18;
+pamabeng = -18;
+panabeng = -18;
+papabeng = -18;
+patabeng = -18;
+pattabeng = -18;
+"rVocalic-beng" = -18;
+"rrVocalic-beng" = -18;
+shubeng = -18;
+"taKhanda-beng" = -18;
+tathabeng = -18;
+"tha-beng" = -18;
+thababeng = -18;
+};
+"nya-beng" = {
+"ai-beng" = -18;
+"au-beng" = -18;
+"dha-beng" = -18;
+dhababeng = -18;
+dhamabeng = -18;
+dhanabeng = -18;
+"e-beng" = -18;
+"ga-beng" = -18;
+gababeng = -18;
+gadabeng = -18;
+gadhabeng = -18;
+gagabeng = -18;
+gamabeng = -18;
+ganabeng = -18;
+"kha-beng" = -18;
+kharabeng = -18;
+"lVocalic-beng" = -18;
+"llVocalic-beng" = -18;
+"nga-beng" = -18;
+ngababeng = -18;
+"nna-beng" = -18;
+nnababeng = -18;
+nnaddabeng = -18;
+nnaddarabeng = -18;
+nnaddhabeng = -18;
+nnamabeng = -18;
+nnanabeng = -18;
+nnannabeng = -18;
+nnattabeng = -18;
+nnattarabeng = -18;
+nnatthabeng = -18;
 "ny_cha-beng" = -18;
 "ny_ja-beng" = -18;
+"nya-beng" = -18;
+nyababeng = -18;
+nyacabeng = -18;
+nyajhabeng = -18;
+"o-beng" = -18;
+"pa-beng" = -18;
+pababeng = -18;
+palabeng = -18;
+pamabeng = -18;
+panabeng = -18;
+papabeng = -18;
+patabeng = -18;
+pattabeng = -18;
+"rVocalic-beng" = -18;
+"rrVocalic-beng" = -18;
+shubeng = -18;
+"taKhanda-beng" = -18;
+tathabeng = -18;
+"tha-beng" = -18;
+thababeng = -18;
+};
+nyababeng = {
+"ai-beng" = -18;
+"au-beng" = -18;
+"dha-beng" = -18;
+dhababeng = -18;
+dhamabeng = -18;
+dhanabeng = -18;
+"e-beng" = -18;
+"ga-beng" = -18;
+gababeng = -18;
+gadabeng = -18;
+gadhabeng = -18;
+gagabeng = -18;
+gamabeng = -18;
+ganabeng = -18;
+"kha-beng" = -18;
+kharabeng = -18;
+"lVocalic-beng" = -18;
+"llVocalic-beng" = -18;
+"nga-beng" = -18;
+ngababeng = -18;
+"nna-beng" = -18;
+nnababeng = -18;
+nnaddabeng = -18;
+nnaddarabeng = -18;
+nnaddhabeng = -18;
+nnamabeng = -18;
+nnanabeng = -18;
+nnannabeng = -18;
+nnattabeng = -18;
+nnattarabeng = -18;
+nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
+"nya-beng" = -18;
+nyababeng = -18;
+nyacabeng = -18;
+nyajhabeng = -18;
+"o-beng" = -18;
+"pa-beng" = -18;
+pababeng = -18;
+palabeng = -18;
+pamabeng = -18;
+panabeng = -18;
+papabeng = -18;
+patabeng = -18;
+pattabeng = -18;
+"rVocalic-beng" = -18;
+"rrVocalic-beng" = -18;
+shubeng = -18;
+"taKhanda-beng" = -18;
+tathabeng = -18;
+"tha-beng" = -18;
+thababeng = -18;
+};
+nyacabeng = {
+"ai-beng" = -18;
+"au-beng" = -18;
+"dha-beng" = -18;
+dhababeng = -18;
+dhamabeng = -18;
+dhanabeng = -18;
+"e-beng" = -18;
+"ga-beng" = -18;
+gababeng = -18;
+gadabeng = -18;
+gadhabeng = -18;
+gagabeng = -18;
+gamabeng = -18;
+ganabeng = -18;
+"kha-beng" = -18;
+kharabeng = -18;
+"lVocalic-beng" = -18;
+"llVocalic-beng" = -18;
+"nga-beng" = -18;
+ngababeng = -18;
+"nna-beng" = -18;
+nnababeng = -18;
+nnaddabeng = -18;
+nnaddarabeng = -18;
+nnaddhabeng = -18;
+nnamabeng = -18;
+nnanabeng = -18;
+nnannabeng = -18;
+nnattabeng = -18;
+nnattarabeng = -18;
+nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
+"nya-beng" = -18;
+nyababeng = -18;
+nyacabeng = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -347687,11 +348432,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -347742,11 +348487,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -347797,11 +348542,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -347852,11 +348597,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -347907,11 +348652,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -347962,11 +348707,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -348017,11 +348762,11 @@ nnannabeng = -18;
 nnattabeng = -18;
 nnattarabeng = -18;
 nnatthabeng = -18;
+"ny_cha-beng" = -18;
+"ny_ja-beng" = -18;
 "nya-beng" = -18;
 nyababeng = -18;
 nyacabeng = -18;
-"ny_cha-beng" = -18;
-"ny_ja-beng" = -18;
 nyajhabeng = -18;
 "o-beng" = -18;
 "pa-beng" = -18;
@@ -348123,11 +348868,11 @@ nnannabeng = -24;
 nnattabeng = -24;
 nnattarabeng = -24;
 nnatthabeng = -24;
+"ny_cha-beng" = -24;
+"ny_ja-beng" = -24;
 "nya-beng" = -24;
 nyababeng = -24;
 nyacabeng = -24;
-"ny_cha-beng" = -24;
-"ny_ja-beng" = -24;
 nyajhabeng = -24;
 "o-beng" = -24;
 "pa-beng" = -24;
@@ -348178,11 +348923,11 @@ nnannabeng = -24;
 nnattabeng = -24;
 nnattarabeng = -24;
 nnatthabeng = -24;
+"ny_cha-beng" = -24;
+"ny_ja-beng" = -24;
 "nya-beng" = -24;
 nyababeng = -24;
 nyacabeng = -24;
-"ny_cha-beng" = -24;
-"ny_ja-beng" = -24;
 nyajhabeng = -24;
 "o-beng" = -24;
 "pa-beng" = -24;
@@ -348233,11 +348978,11 @@ nnannabeng = -24;
 nnattabeng = -24;
 nnattarabeng = -24;
 nnatthabeng = -24;
+"ny_cha-beng" = -24;
+"ny_ja-beng" = -24;
 "nya-beng" = -24;
 nyababeng = -24;
 nyacabeng = -24;
-"ny_cha-beng" = -24;
-"ny_ja-beng" = -24;
 nyajhabeng = -24;
 "o-beng" = -24;
 "pa-beng" = -24;
@@ -348288,11 +349033,11 @@ nnannabeng = -24;
 nnattabeng = -24;
 nnattarabeng = -24;
 nnatthabeng = -24;
+"ny_cha-beng" = -24;
+"ny_ja-beng" = -24;
 "nya-beng" = -24;
 nyababeng = -24;
 nyacabeng = -24;
-"ny_cha-beng" = -24;
-"ny_ja-beng" = -24;
 nyajhabeng = -24;
 "o-beng" = -24;
 "pa-beng" = -24;
@@ -348343,11 +349088,11 @@ nnannabeng = -24;
 nnattabeng = -24;
 nnattarabeng = -24;
 nnatthabeng = -24;
+"ny_cha-beng" = -24;
+"ny_ja-beng" = -24;
 "nya-beng" = -24;
 nyababeng = -24;
 nyacabeng = -24;
-"ny_cha-beng" = -24;
-"ny_ja-beng" = -24;
 nyajhabeng = -24;
 "o-beng" = -24;
 "pa-beng" = -24;
@@ -348398,11 +349143,11 @@ nnannabeng = -24;
 nnattabeng = -24;
 nnattarabeng = -24;
 nnatthabeng = -24;
+"ny_cha-beng" = -24;
+"ny_ja-beng" = -24;
 "nya-beng" = -24;
 nyababeng = -24;
 nyacabeng = -24;
-"ny_cha-beng" = -24;
-"ny_ja-beng" = -24;
 nyajhabeng = -24;
 "o-beng" = -24;
 "pa-beng" = -24;
@@ -348453,11 +349198,11 @@ nnannabeng = -24;
 nnattabeng = -24;
 nnattarabeng = -24;
 nnatthabeng = -24;
+"ny_cha-beng" = -24;
+"ny_ja-beng" = -24;
 "nya-beng" = -24;
 nyababeng = -24;
 nyacabeng = -24;
-"ny_cha-beng" = -24;
-"ny_ja-beng" = -24;
 nyajhabeng = -24;
 "o-beng" = -24;
 "pa-beng" = -24;
@@ -348508,176 +349253,11 @@ nnannabeng = -24;
 nnattabeng = -24;
 nnattarabeng = -24;
 nnatthabeng = -24;
+"ny_cha-beng" = -24;
+"ny_ja-beng" = -24;
 "nya-beng" = -24;
 nyababeng = -24;
 nyacabeng = -24;
-"ny_cha-beng" = -24;
-"ny_ja-beng" = -24;
-nyajhabeng = -24;
-"o-beng" = -24;
-"pa-beng" = -24;
-pababeng = -24;
-palabeng = -24;
-pamabeng = -24;
-panabeng = -24;
-papabeng = -24;
-patabeng = -24;
-pattabeng = -24;
-"rVocalic-beng" = -24;
-"rrVocalic-beng" = -24;
-shubeng = -24;
-"taKhanda-beng" = -24;
-tathabeng = -24;
-"tha-beng" = -24;
-thababeng = -24;
-};
-"nya-beng" = {
-"ai-beng" = -24;
-"au-beng" = -24;
-"dha-beng" = -24;
-dhababeng = -24;
-dhamabeng = -24;
-dhanabeng = -24;
-"e-beng" = -24;
-"ga-beng" = -24;
-gababeng = -24;
-gadabeng = -24;
-gadhabeng = -24;
-gagabeng = -24;
-gamabeng = -24;
-ganabeng = -24;
-"kha-beng" = -24;
-kharabeng = -24;
-"lVocalic-beng" = -24;
-"llVocalic-beng" = -24;
-"nga-beng" = -24;
-ngababeng = -24;
-"nna-beng" = -24;
-nnababeng = -24;
-nnaddabeng = -24;
-nnaddarabeng = -24;
-nnaddhabeng = -24;
-nnamabeng = -24;
-nnanabeng = -24;
-nnannabeng = -24;
-nnattabeng = -24;
-nnattarabeng = -24;
-nnatthabeng = -24;
-"nya-beng" = -24;
-nyababeng = -24;
-nyacabeng = -24;
-"ny_cha-beng" = -24;
-"ny_ja-beng" = -24;
-nyajhabeng = -24;
-"o-beng" = -24;
-"pa-beng" = -24;
-pababeng = -24;
-palabeng = -24;
-pamabeng = -24;
-panabeng = -24;
-papabeng = -24;
-patabeng = -24;
-pattabeng = -24;
-"rVocalic-beng" = -24;
-"rrVocalic-beng" = -24;
-shubeng = -24;
-"taKhanda-beng" = -24;
-tathabeng = -24;
-"tha-beng" = -24;
-thababeng = -24;
-};
-nyababeng = {
-"ai-beng" = -24;
-"au-beng" = -24;
-"dha-beng" = -24;
-dhababeng = -24;
-dhamabeng = -24;
-dhanabeng = -24;
-"e-beng" = -24;
-"ga-beng" = -24;
-gababeng = -24;
-gadabeng = -24;
-gadhabeng = -24;
-gagabeng = -24;
-gamabeng = -24;
-ganabeng = -24;
-"kha-beng" = -24;
-kharabeng = -24;
-"lVocalic-beng" = -24;
-"llVocalic-beng" = -24;
-"nga-beng" = -24;
-ngababeng = -24;
-"nna-beng" = -24;
-nnababeng = -24;
-nnaddabeng = -24;
-nnaddarabeng = -24;
-nnaddhabeng = -24;
-nnamabeng = -24;
-nnanabeng = -24;
-nnannabeng = -24;
-nnattabeng = -24;
-nnattarabeng = -24;
-nnatthabeng = -24;
-"nya-beng" = -24;
-nyababeng = -24;
-nyacabeng = -24;
-"ny_cha-beng" = -24;
-"ny_ja-beng" = -24;
-nyajhabeng = -24;
-"o-beng" = -24;
-"pa-beng" = -24;
-pababeng = -24;
-palabeng = -24;
-pamabeng = -24;
-panabeng = -24;
-papabeng = -24;
-patabeng = -24;
-pattabeng = -24;
-"rVocalic-beng" = -24;
-"rrVocalic-beng" = -24;
-shubeng = -24;
-"taKhanda-beng" = -24;
-tathabeng = -24;
-"tha-beng" = -24;
-thababeng = -24;
-};
-nyacabeng = {
-"ai-beng" = -24;
-"au-beng" = -24;
-"dha-beng" = -24;
-dhababeng = -24;
-dhamabeng = -24;
-dhanabeng = -24;
-"e-beng" = -24;
-"ga-beng" = -24;
-gababeng = -24;
-gadabeng = -24;
-gadhabeng = -24;
-gagabeng = -24;
-gamabeng = -24;
-ganabeng = -24;
-"kha-beng" = -24;
-kharabeng = -24;
-"lVocalic-beng" = -24;
-"llVocalic-beng" = -24;
-"nga-beng" = -24;
-ngababeng = -24;
-"nna-beng" = -24;
-nnababeng = -24;
-nnaddabeng = -24;
-nnaddarabeng = -24;
-nnaddhabeng = -24;
-nnamabeng = -24;
-nnanabeng = -24;
-nnannabeng = -24;
-nnattabeng = -24;
-nnattarabeng = -24;
-nnatthabeng = -24;
-"nya-beng" = -24;
-nyababeng = -24;
-nyacabeng = -24;
-"ny_cha-beng" = -24;
-"ny_ja-beng" = -24;
 nyajhabeng = -24;
 "o-beng" = -24;
 "pa-beng" = -24;
@@ -348728,11 +349308,11 @@ nnannabeng = -24;
 nnattabeng = -24;
 nnattarabeng = -24;
 nnatthabeng = -24;
+"ny_cha-beng" = -24;
+"ny_ja-beng" = -24;
 "nya-beng" = -24;
 nyababeng = -24;
 nyacabeng = -24;
-"ny_cha-beng" = -24;
-"ny_ja-beng" = -24;
 nyajhabeng = -24;
 "o-beng" = -24;
 "pa-beng" = -24;
@@ -348783,11 +349363,176 @@ nnannabeng = -24;
 nnattabeng = -24;
 nnattarabeng = -24;
 nnatthabeng = -24;
+"ny_cha-beng" = -24;
+"ny_ja-beng" = -24;
 "nya-beng" = -24;
 nyababeng = -24;
 nyacabeng = -24;
+nyajhabeng = -24;
+"o-beng" = -24;
+"pa-beng" = -24;
+pababeng = -24;
+palabeng = -24;
+pamabeng = -24;
+panabeng = -24;
+papabeng = -24;
+patabeng = -24;
+pattabeng = -24;
+"rVocalic-beng" = -24;
+"rrVocalic-beng" = -24;
+shubeng = -24;
+"taKhanda-beng" = -24;
+tathabeng = -24;
+"tha-beng" = -24;
+thababeng = -24;
+};
+"nya-beng" = {
+"ai-beng" = -24;
+"au-beng" = -24;
+"dha-beng" = -24;
+dhababeng = -24;
+dhamabeng = -24;
+dhanabeng = -24;
+"e-beng" = -24;
+"ga-beng" = -24;
+gababeng = -24;
+gadabeng = -24;
+gadhabeng = -24;
+gagabeng = -24;
+gamabeng = -24;
+ganabeng = -24;
+"kha-beng" = -24;
+kharabeng = -24;
+"lVocalic-beng" = -24;
+"llVocalic-beng" = -24;
+"nga-beng" = -24;
+ngababeng = -24;
+"nna-beng" = -24;
+nnababeng = -24;
+nnaddabeng = -24;
+nnaddarabeng = -24;
+nnaddhabeng = -24;
+nnamabeng = -24;
+nnanabeng = -24;
+nnannabeng = -24;
+nnattabeng = -24;
+nnattarabeng = -24;
+nnatthabeng = -24;
 "ny_cha-beng" = -24;
 "ny_ja-beng" = -24;
+"nya-beng" = -24;
+nyababeng = -24;
+nyacabeng = -24;
+nyajhabeng = -24;
+"o-beng" = -24;
+"pa-beng" = -24;
+pababeng = -24;
+palabeng = -24;
+pamabeng = -24;
+panabeng = -24;
+papabeng = -24;
+patabeng = -24;
+pattabeng = -24;
+"rVocalic-beng" = -24;
+"rrVocalic-beng" = -24;
+shubeng = -24;
+"taKhanda-beng" = -24;
+tathabeng = -24;
+"tha-beng" = -24;
+thababeng = -24;
+};
+nyababeng = {
+"ai-beng" = -24;
+"au-beng" = -24;
+"dha-beng" = -24;
+dhababeng = -24;
+dhamabeng = -24;
+dhanabeng = -24;
+"e-beng" = -24;
+"ga-beng" = -24;
+gababeng = -24;
+gadabeng = -24;
+gadhabeng = -24;
+gagabeng = -24;
+gamabeng = -24;
+ganabeng = -24;
+"kha-beng" = -24;
+kharabeng = -24;
+"lVocalic-beng" = -24;
+"llVocalic-beng" = -24;
+"nga-beng" = -24;
+ngababeng = -24;
+"nna-beng" = -24;
+nnababeng = -24;
+nnaddabeng = -24;
+nnaddarabeng = -24;
+nnaddhabeng = -24;
+nnamabeng = -24;
+nnanabeng = -24;
+nnannabeng = -24;
+nnattabeng = -24;
+nnattarabeng = -24;
+nnatthabeng = -24;
+"ny_cha-beng" = -24;
+"ny_ja-beng" = -24;
+"nya-beng" = -24;
+nyababeng = -24;
+nyacabeng = -24;
+nyajhabeng = -24;
+"o-beng" = -24;
+"pa-beng" = -24;
+pababeng = -24;
+palabeng = -24;
+pamabeng = -24;
+panabeng = -24;
+papabeng = -24;
+patabeng = -24;
+pattabeng = -24;
+"rVocalic-beng" = -24;
+"rrVocalic-beng" = -24;
+shubeng = -24;
+"taKhanda-beng" = -24;
+tathabeng = -24;
+"tha-beng" = -24;
+thababeng = -24;
+};
+nyacabeng = {
+"ai-beng" = -24;
+"au-beng" = -24;
+"dha-beng" = -24;
+dhababeng = -24;
+dhamabeng = -24;
+dhanabeng = -24;
+"e-beng" = -24;
+"ga-beng" = -24;
+gababeng = -24;
+gadabeng = -24;
+gadhabeng = -24;
+gagabeng = -24;
+gamabeng = -24;
+ganabeng = -24;
+"kha-beng" = -24;
+kharabeng = -24;
+"lVocalic-beng" = -24;
+"llVocalic-beng" = -24;
+"nga-beng" = -24;
+ngababeng = -24;
+"nna-beng" = -24;
+nnababeng = -24;
+nnaddabeng = -24;
+nnaddarabeng = -24;
+nnaddhabeng = -24;
+nnamabeng = -24;
+nnanabeng = -24;
+nnannabeng = -24;
+nnattabeng = -24;
+nnattarabeng = -24;
+nnatthabeng = -24;
+"ny_cha-beng" = -24;
+"ny_ja-beng" = -24;
+"nya-beng" = -24;
+nyababeng = -24;
+nyacabeng = -24;
 nyajhabeng = -24;
 "o-beng" = -24;
 "pa-beng" = -24;
@@ -348838,11 +349583,11 @@ nnannabeng = -24;
 nnattabeng = -24;
 nnattarabeng = -24;
 nnatthabeng = -24;
+"ny_cha-beng" = -24;
+"ny_ja-beng" = -24;
 "nya-beng" = -24;
 nyababeng = -24;
 nyacabeng = -24;
-"ny_cha-beng" = -24;
-"ny_ja-beng" = -24;
 nyajhabeng = -24;
 "o-beng" = -24;
 "pa-beng" = -24;
@@ -348893,11 +349638,11 @@ nnannabeng = -24;
 nnattabeng = -24;
 nnattarabeng = -24;
 nnatthabeng = -24;
+"ny_cha-beng" = -24;
+"ny_ja-beng" = -24;
 "nya-beng" = -24;
 nyababeng = -24;
 nyacabeng = -24;
-"ny_cha-beng" = -24;
-"ny_ja-beng" = -24;
 nyajhabeng = -24;
 "o-beng" = -24;
 "pa-beng" = -24;
@@ -348948,11 +349693,11 @@ nnannabeng = -24;
 nnattabeng = -24;
 nnattarabeng = -24;
 nnatthabeng = -24;
+"ny_cha-beng" = -24;
+"ny_ja-beng" = -24;
 "nya-beng" = -24;
 nyababeng = -24;
 nyacabeng = -24;
-"ny_cha-beng" = -24;
-"ny_ja-beng" = -24;
 nyajhabeng = -24;
 "o-beng" = -24;
 "pa-beng" = -24;
@@ -349003,11 +349748,11 @@ nnannabeng = -24;
 nnattabeng = -24;
 nnattarabeng = -24;
 nnatthabeng = -24;
+"ny_cha-beng" = -24;
+"ny_ja-beng" = -24;
 "nya-beng" = -24;
 nyababeng = -24;
 nyacabeng = -24;
-"ny_cha-beng" = -24;
-"ny_ja-beng" = -24;
 nyajhabeng = -24;
 "o-beng" = -24;
 "pa-beng" = -24;
@@ -349058,11 +349803,11 @@ nnannabeng = -24;
 nnattabeng = -24;
 nnattarabeng = -24;
 nnatthabeng = -24;
+"ny_cha-beng" = -24;
+"ny_ja-beng" = -24;
 "nya-beng" = -24;
 nyababeng = -24;
 nyacabeng = -24;
-"ny_cha-beng" = -24;
-"ny_ja-beng" = -24;
 nyajhabeng = -24;
 "o-beng" = -24;
 "pa-beng" = -24;
@@ -349113,11 +349858,11 @@ nnannabeng = -24;
 nnattabeng = -24;
 nnattarabeng = -24;
 nnatthabeng = -24;
+"ny_cha-beng" = -24;
+"ny_ja-beng" = -24;
 "nya-beng" = -24;
 nyababeng = -24;
 nyacabeng = -24;
-"ny_cha-beng" = -24;
-"ny_ja-beng" = -24;
 nyajhabeng = -24;
 "o-beng" = -24;
 "pa-beng" = -24;
@@ -349168,11 +349913,11 @@ nnannabeng = -24;
 nnattabeng = -24;
 nnattarabeng = -24;
 nnatthabeng = -24;
+"ny_cha-beng" = -24;
+"ny_ja-beng" = -24;
 "nya-beng" = -24;
 nyababeng = -24;
 nyacabeng = -24;
-"ny_cha-beng" = -24;
-"ny_ja-beng" = -24;
 nyajhabeng = -24;
 "o-beng" = -24;
 "pa-beng" = -24;
