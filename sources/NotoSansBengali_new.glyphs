@@ -807,7 +807,7 @@ over = 10;
 pos = -10;
 }
 );
-name = "Extra Thin";
+name = Thin;
 },
 {
 axesValues = (
@@ -344979,42 +344979,6 @@ instanceInterpolations = {
 "28FB090A-653E-4199-B7BE-FAE23D31B682" = 1;
 };
 name = "Extra Thin";
-weightClass = 100;
-},
-{
-axesValues = (
-26
-);
-customParameters = (
-{
-name = panose;
-value = (
-2,
-11,
-2,
-2,
-4,
-5,
-4,
-2,
-2,
-4
-);
-},
-{
-name = "Don't use Production Names";
-value = 1;
-},
-{
-name = xHeight;
-value = "536";
-}
-);
-instanceInterpolations = {
-"28FB090A-653E-4199-B7BE-FAE23D31B682" = 0.91429;
-UUID0 = 0.08571;
-};
-name = Thin;
 weightClass = 100;
 },
 {
