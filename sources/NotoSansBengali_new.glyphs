@@ -13,7 +13,7 @@ code = "ra-beng ramiddlediagonal-beng";
 name = BNG_RA;
 },
 {
-code = "";
+code = "ba-beng";
 name = BNG_BA;
 }
 );
@@ -509,12 +509,12 @@ tag = rphf;
 {
 code = "script bng2;
 
-lookup BNG_dflt_blwf_baphala{
+lookup BNG_dlft_blwf{
+ 
+	sub halant-beng @BNG_RA by raphala-beng.alt01;
+	sub halant-beng	@BNG_BA by ba-beng.blws1;
 
-	sub halant-beng ba-beng by ba-beng.blws1;
-
-}BNG_dflt_blwf_baphala;
-
+}BNG_dlft_blwf;
 ";
 tag = blwf;
 },
@@ -550,7 +550,6 @@ lookup BNG_dflt_vatu_raphala{
     sub da-beng halant-beng bha-beng raphala-beng.alt01 by d_bh_ra-beng;
     sub ba-beng halant-beng da-beng raphala-beng.alt01 by b_d_ra-beng;
     sub ma-beng halant-beng bha-beng raphala-beng.alt01 by m_bh_ra-beng;
-
 # triConsonants
     sub ka-beng halant-beng tta-beng raphala-beng.alt01 by k_tt_ra-beng;
     sub ka-beng halant-beng ta-beng raphala-beng.alt01 by k_t_ra-beng;
@@ -571,7 +570,7 @@ lookup BNG_dflt_vatu_raphala{
     sub na-beng halant-beng dha-beng raphala-beng.alt01 by n_dh_ra-beng;
     sub ma-beng halant-beng ta-beng raphala-beng.alt01 by m_t_ra-beng;
     sub ma-beng halant-beng pa-beng raphala-beng.alt01 by m_p_ra-beng;
-    sub ma-beng halant-beng ba-beng raphala-beng.alt01 by m_b_ra-beng;
+    sub ma-beng ba-beng.blws1 raphala-beng.alt01 by m_b_ra-beng;
     sub la-beng halant-beng tta-beng raphala-beng.alt01 by l_tt_ra-beng;
     sub la-beng halant-beng dda-beng raphala-beng.alt01 by l_dd_ra-beng;
     sub la-beng halant-beng da-beng raphala-beng.alt01 by l_d_ra-beng;
@@ -642,8 +641,8 @@ lookup BNG_dflt_blwf_baConjuncts{
 	sub na-beng halant-beng ta-beng ba-beng.blws1 by n_t_ba-beng;
 	sub ma-beng halant-beng ta-beng ba-beng.blws1 by m_t_ba-beng;
 # akhand
-	sub k_ssa-beng halant-beng ba-beng.blws1 by k_ss_ba-beng;
-	sub j_nya-beng halant-beng ba-beng.blws1 by j_ny_ba-beng;
+	sub k_ssa-beng ba-beng.blws1 by k_ss_ba-beng;
+	sub j_nya-beng ba-beng.blws1 by j_ny_ba-beng;
 # biconsonant Precomposed
 	sub rha-beng ba-beng.blws1 by rh_ba-beng;
 	sub yya-beng ba-beng.blws1 by yy_ba-beng;
@@ -659,7 +658,7 @@ lookup BNG_dflt_blwf_baConjuncts{
 	sub jha-beng ba-beng.blws1 by jh_ba-beng;
 	sub nya-beng ba-beng.blws1 by ny_ba-beng;
 	sub tta-beng ba-beng.blws1 by tt_ba-beng;
-	sub tta-beng ba-beng.blws1 by tth_ba-beng;
+	sub ttha-beng ba-beng.blws1 by tth_ba-beng;
 	sub dda-beng ba-beng.blws1 by dd_ba-beng;
 	sub ddha-beng ba-beng.blws1 by ddh_ba-beng;
 	sub nna-beng ba-beng.blws1 by nn_ba-beng;
@@ -693,6 +692,7 @@ lookup BNG_dflt_cjct_precomposedConjuncts {
 # akhand
 	sub k_ssa-beng halant-beng nna-beng by k_ss_nna-beng;
 	sub k_ssa-beng halant-beng ma-beng by k_ss_ma-beng;
+	sub nga-beng halant-beng k_ssa-beng by ng_k_ssa-beng;
 # biConsonant
 	sub ka-beng halant-beng tta-beng by k_tta-beng;
 	sub ka-beng halant-beng ma-beng by k_ma-beng;
@@ -732,7 +732,7 @@ lookup BNG_dflt_cjct_precomposedConjuncts {
 
 lookup BNG_dflt_cjct_ontheflyConjuncts{
 # triconsonant Assamese
-	sub ta-beng halant-beng ta-beng halant-beng ralowerdiagonal-beng by t_t_ralowerdiagonal-beng;
+	sub t_ta-beng halant-beng ralowerdiagonal-beng by t_t_ralowerdiagonal-beng;
 	sub sa-beng halant-beng ta-beng halant-beng ralowerdiagonal-beng by s_t_ralowerdiagonal-beng;
 # biconsonant
 	sub ka-beng halant-beng ka-beng by k_ka-beng;
@@ -903,20 +903,13 @@ lookup BNG_dflt_blws_ligatures{
 	sub s_ra-beng uuMatra-beng by s_ra_uuMatra-beng;
 	sub ramiddlediagonal-beng uuMatra-beng by ramiddlediagonal_uuMatra-beng;
 # rVocalic
-	sub ha-beng rVocalic-beng by ha_rVocalicMatra-beng;
-}BNG_dflt_blws_ligatures;";
+	sub ha-beng rVocalicMatra-beng by ha_rVocalicMatra-beng;
+}BNG_dflt_blws_ligatures;
+";
 tag = blws;
 },
 {
-code = "script bng2;
-
-lookup BNG_dlft_blwf{
- 
-	sub halant-beng @BNG_RA by raphala-beng.alt01;
-	sub halant-beng	@BNG_BA by ba-beng.blws1;
-
-}BNG_dlft_blwf;
-";
+code = "";
 tag = psts;
 }
 );
@@ -29956,7 +29949,7 @@ unicode = 2480;
 category = Letter;
 color = 5;
 glyphname = "la-beng";
-lastChange = "2024-08-05 13:27:15 +0000";
+lastChange = "2024-08-23 18:18:04 +0000";
 layers = (
 {
 anchors = (
@@ -30397,8 +30390,8 @@ nodes = (
 (572,586,l),
 (688,586,l),
 (688,607,l),
-(90,607,l),
-(90,586,l),
+(-10,607,l),
+(-10,586,l),
 (551,586,l),
 (551,445,ls),
 (551,414,o),
@@ -69210,8 +69203,9 @@ unicode = 9676;
 },
 {
 category = Mark;
+export = 0;
 glyphname = crossbeng;
-lastChange = "2024-07-24 17:38:48 +0000";
+lastChange = "2024-08-23 17:02:07 +0000";
 layers = (
 {
 anchors = (
@@ -69393,8 +69387,9 @@ subCategory = Nonspacing;
 },
 {
 category = Mark;
+export = 0;
 glyphname = wavebeng;
-lastChange = "2024-07-24 17:41:25 +0000";
+lastChange = "2024-08-23 17:02:07 +0000";
 layers = (
 {
 anchors = (
@@ -69702,8 +69697,9 @@ subCategory = Nonspacing;
 },
 {
 category = Mark;
+export = 0;
 glyphname = ivowelcrossbeng;
-lastChange = "2024-07-24 17:41:25 +0000";
+lastChange = "2024-08-23 17:02:07 +0000";
 layers = (
 {
 anchors = (
@@ -69798,8 +69794,9 @@ subCategory = Nonspacing;
 },
 {
 category = Mark;
+export = 0;
 glyphname = ivowelwavebeng;
-lastChange = "2024-07-24 17:41:25 +0000";
+lastChange = "2024-08-23 17:02:07 +0000";
 layers = (
 {
 anchors = (
@@ -69894,8 +69891,9 @@ subCategory = Nonspacing;
 },
 {
 category = Mark;
+export = 0;
 glyphname = iivowelcrossbeng;
-lastChange = "2024-07-24 17:41:25 +0000";
+lastChange = "2024-08-23 17:02:07 +0000";
 layers = (
 {
 anchors = (
@@ -69990,8 +69988,9 @@ subCategory = Nonspacing;
 },
 {
 category = Mark;
+export = 0;
 glyphname = iivowelwavebeng;
-lastChange = "2024-07-24 17:41:25 +0000";
+lastChange = "2024-08-23 17:02:07 +0000";
 layers = (
 {
 anchors = (
@@ -70086,8 +70085,9 @@ subCategory = Nonspacing;
 },
 {
 category = Mark;
+export = 0;
 glyphname = auvowelcrossbeng;
-lastChange = "2024-07-24 17:41:25 +0000";
+lastChange = "2024-08-23 17:02:07 +0000";
 layers = (
 {
 anchors = (
@@ -70188,8 +70188,9 @@ subCategory = Nonspacing;
 },
 {
 category = Mark;
+export = 0;
 glyphname = auvowelwavebeng;
-lastChange = "2024-07-24 17:41:25 +0000";
+lastChange = "2024-08-23 17:02:07 +0000";
 layers = (
 {
 anchors = (
@@ -81599,7 +81600,7 @@ subCategory = Spacing;
 category = Letter;
 color = 4;
 glyphname = "k_ssa-beng";
-lastChange = "2024-08-23 16:26:55 +0000";
+lastChange = "2024-08-23 17:03:32 +0000";
 layers = (
 {
 anchors = (
@@ -81687,16 +81688,16 @@ nodes = (
 (113,535,o),
 (141,482,o),
 (141,444,cs),
-(141,408,o),
-(126,394,o),
-(116,386,c),
+(141,421,o),
+(135,407,o),
+(128,398,c),
 (150,398,l),
 (260,398,o),
 (279,312,o),
 (279,270,cs),
-(279,225,o),
-(265,199,o),
-(254,190,c),
+(279,237,o),
+(271,214,o),
+(263,201,c),
 (308,201,l),
 (397,201,o),
 (490,120,o),
@@ -81833,19 +81834,19 @@ nodes = (
 (97,563,o),
 (130,523,o),
 (130,466,cs),
-(130,432,o),
-(110,384,o),
-(88,384,c),
-(115,435,l),
-(220,435,o),
-(276,365,o),
+(130,457,o),
+(129,446,o),
+(126,436,c),
+(127,435,l),
+(224,429,o),
+(276,362,o),
 (276,281,cs),
-(276,209,o),
-(257,185,o),
-(239,185,c),
-(261,223,l),
-(392,223,o),
-(467,140,o),
+(276,258,o),
+(274,240,o),
+(271,226,c),
+(273,223,l),
+(397,218,o),
+(468,137,o),
 (509,55,c)
 );
 },
@@ -84301,7 +84302,7 @@ subCategory = Spacing;
 category = Letter;
 color = 4;
 glyphname = "k_ss_ma-beng";
-lastChange = "2024-08-23 16:26:55 +0000";
+lastChange = "2024-08-23 17:03:18 +0000";
 layers = (
 {
 anchors = (
@@ -84622,19 +84623,19 @@ nodes = (
 (96,567,o),
 (130,528,o),
 (130,471,cs),
-(130,442,o),
-(110,394,o),
-(88,394,c),
-(115,445,l),
-(220,445,o),
-(276,385,o),
+(130,464,o),
+(129,455,o),
+(126,446,c),
+(127,445,l),
+(224,440,o),
+(276,381,o),
 (276,286,cs),
-(276,229,o),
-(257,205,o),
-(239,205,c),
-(261,243,l),
-(382,243,o),
-(467,161,o),
+(276,269,o),
+(274,256,o),
+(272,244,c),
+(273,243,l),
+(388,237,o),
+(468,158,o),
 (509,80,c)
 );
 },
@@ -107956,7 +107957,7 @@ subCategory = Spacing;
 category = Letter;
 color = 4;
 glyphname = "ny_cha-beng";
-lastChange = "2024-08-23 16:26:55 +0000";
+lastChange = "2024-08-23 17:01:33 +0000";
 layers = (
 {
 anchors = (
@@ -108437,12 +108438,12 @@ nodes = (
 (542,596,o),
 (570,571,o),
 (570,528,cs),
-(570,496,o),
-(544,444,o),
-(483,444,c),
-(490,452,l),
-(545,452,o),
-(572,411,o),
+(570,503,o),
+(554,466,o),
+(519,451,c),
+(519,448,l),
+(554,436,o),
+(572,401,o),
 (572,361,cs),
 (572,312,o),
 (531,289,o),
@@ -110328,7 +110329,7 @@ subCategory = Spacing;
 category = Letter;
 color = 4;
 glyphname = "ny_ja-beng";
-lastChange = "2024-08-23 16:26:55 +0000";
+lastChange = "2024-08-23 17:01:53 +0000";
 layers = (
 {
 anchors = (
@@ -110836,12 +110837,12 @@ nodes = (
 (644,596,o),
 (672,571,o),
 (672,528,cs),
-(672,496,o),
-(646,444,o),
-(585,444,c),
-(592,452,l),
-(647,452,o),
-(674,411,o),
+(672,503,o),
+(656,466,o),
+(620,451,c),
+(620,448,l),
+(656,436,o),
+(674,403,o),
 (674,366,cs),
 (674,312,o),
 (633,289,o),
@@ -197973,7 +197974,7 @@ subCategory = Spacing;
 category = Letter;
 color = 4;
 glyphname = "h_ma-beng";
-lastChange = "2024-08-23 16:26:55 +0000";
+lastChange = "2024-08-23 16:59:42 +0000";
 layers = (
 {
 anchors = (
@@ -198064,16 +198065,16 @@ nodes = (
 (123,535,o),
 (151,482,o),
 (151,444,cs),
-(151,408,o),
-(136,394,o),
-(126,386,c),
+(151,420,o),
+(145,406,o),
+(139,398,c),
 (160,398,l),
 (270,398,o),
 (289,312,o),
 (289,270,cs),
-(289,225,o),
-(275,199,o),
-(264,190,c),
+(289,229,o),
+(285,212,o),
+(282,201,c),
 (318,201,l),
 (407,201,o),
 (490,120,o),
@@ -198338,19 +198339,19 @@ nodes = (
 (97,563,o),
 (130,523,o),
 (130,466,cs),
-(130,432,o),
-(110,384,o),
-(88,384,c),
-(115,435,l),
-(220,435,o),
-(276,365,o),
+(130,457,o),
+(129,447,o),
+(125,435,c),
+(128,435,l),
+(225,429,o),
+(276,362,o),
 (276,281,cs),
-(276,209,o),
-(257,185,o),
-(239,185,c),
-(261,223,l),
-(382,223,o),
-(457,140,o),
+(276,257,o),
+(274,239,o),
+(269,223,c),
+(272,223,l),
+(387,218,o),
+(458,137,o),
 (499,55,c)
 );
 },
@@ -198615,14 +198616,14 @@ nodes = (
 (88,385,o),
 (80,335,o),
 (74,321,c),
-(142,321,ls),
+(142,321,l),
 (208,321,o),
 (231,281,o),
 (231,230,cs),
 (231,197,o),
 (223,147,o),
 (217,133,c),
-(345,133,ls),
+(345,133,l),
 (392,133,o),
 (452,103,o),
 (485,33,c)
@@ -218635,7 +218636,7 @@ subCategory = Spacing;
 category = Letter;
 color = 9;
 glyphname = "k_ss-beng.half";
-lastChange = "2024-08-22 16:35:48 +0000";
+lastChange = "2024-08-23 17:00:52 +0000";
 layers = (
 {
 anchors = (
@@ -218723,16 +218724,16 @@ nodes = (
 (128,541,o),
 (146,482,o),
 (146,454,cs),
-(146,426,o),
-(131,412,o),
-(121,404,c),
+(146,430,o),
+(135,416,o),
+(126,408,c),
 (155,408,l),
 (252,408,o),
 (287,350,o),
 (287,288,cs),
-(287,243,o),
-(270,225,o),
-(259,216,c),
+(287,256,o),
+(278,237,o),
+(270,227,c),
 (313,227,l),
 (404,227,o),
 (495,161,o),
@@ -218877,19 +218878,19 @@ nodes = (
 (101,567,o),
 (135,528,o),
 (135,471,cs),
-(135,442,o),
-(115,394,o),
-(93,394,c),
-(120,445,l),
-(225,445,o),
-(281,385,o),
+(135,463,o),
+(134,455,o),
+(131,446,c),
+(132,445,l),
+(229,440,o),
+(281,381,o),
 (281,286,cs),
-(281,229,o),
-(262,205,o),
-(244,205,c),
-(266,243,l),
-(387,243,o),
-(472,161,o),
+(281,269,o),
+(279,255,o),
+(277,244,c),
+(277,243,l),
+(392,238,o),
+(473,158,o),
 (514,80,c)
 );
 },
@@ -277999,7 +278000,7 @@ axesValues = (
 instanceInterpolations = {
 "28FB090A-653E-4199-B7BE-FAE23D31B682" = 1;
 };
-name = "Extra Thin";
+name = Thin;
 weightClass = 100;
 },
 {
