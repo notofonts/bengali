@@ -495,6 +495,7 @@ lookup BNG_dflt_pres_replaceBase {
 	sub da-beng' halant-beng gha-beng by d-beng.half4;
 	sub da-beng' [na-beng.blws dh_ba-beng.blws] by d-beng.half3;
 	sub da-beng' ma-beng.side3 by d-beng.half;
+	sub dha-beng' [na-beng.blws]
 } BNG_dflt_pres_replaceBase;
 
 lookup BNG_dflt_pres_replaceBaseHalant {
@@ -544,8 +545,8 @@ lookup BNG_dflt_pres_onTheFly_base_1to2 { # add extra glyph to string after the 
 
 
 
-
 	language PAL;
+# ADD SWAP LOOKUPS
 
 lookup BNG_PAL_pres_swapWa {
 	sub aaMatra-beng.side' lookup BNG_PAL_pres_chain_swapWaAaMatraSide wa-beng.part' lookup BNG_PAL_pres_chain_swapWaAaMatraSide;
