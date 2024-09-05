@@ -14,8 +14,8 @@ languagesystem beng PAL;
 # Classes
 # --------
 
-@BNG_RA = [ ra-beng ramiddediagonal-beng];
-@BNG_BA = [ ra-beng ralowerdiagonal-beng];
+@BNG_RA = [ ra-beng ramiddlediagonal-beng];
+@BNG_BA = [ ba-beng ralowerdiagonal-beng];
 
 @BNG_BLWS_BASE_ROUND = [ nga-beng ca-beng cha-beng tta-beng ttha-beng dda-beng ddha-beng ta-beng bha-beng ha-beng avagraha-beng k_tta-beng j_nya-beng ny_cha-beng tt_tta-beng dd_dda-beng nn_dda-beng t_ta-beng d_bha-beng ph_tta-beng b_bha-beng l_ta-beng ss_tta-beng ss_ttha-beng ha_uMatra-beng ];
 @BNG_BLWS_ROUND = [ uMatra-beng.round uuMatra-beng.round];
@@ -36,7 +36,7 @@ lookup BNG_bng2_PAL_locl_waBlwf {
 } BNG_bng2_PAL_locl_waBlwf;
 
 lookup BNG_beng_PAL_locl_wa {
-	sub halant-beng ralowerdiagonal-beng' by ralowerdiagonal-beng wa-beng.part;
+	sub ralowerdiagonal-beng halant-beng' by halant-beng wa-beng.part;
 } BNG_beng_PAL_locl_wa;
 
 
@@ -724,6 +724,20 @@ lookup BNG_dflt_blws_ligatures{
 # Features
 # ---------
 
+# locl
+
+feature locl {
+
+	script bng2;
+	language PAL;
+	lookup BNG_bng2_PAL_locl_waBlwf;
+
+	script beng;
+	language PAL;
+	lookup BNG_beng_PAL_locl_wa;
+
+} locl;
+
 
 # nukt
 
@@ -957,7 +971,7 @@ feature ss01 {
 
 	featureNames{
 		name "Alternate shape for Nna subscript";
-	}
+	};
 
 	lookup BNG_dflt_ss01_altKSsNna {
 		sub k_ss_nna-beng by k_ss_nna-beng.alt;
