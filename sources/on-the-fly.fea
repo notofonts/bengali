@@ -215,7 +215,7 @@ lookup BNG_dflt_pres_onTheFly_raphala_base { # replace base glyph for 1 glyph
 	sub ttha-beng' @BNG_RAPHALA_BAPHALA by tth-beng.half;
 	sub tha-beng' @BNG_RAPHALA_BAPHALA by th-beng.half;
 	sub dha-beng' [raphala-beng] by dh-beng.half;
-	sub ph-beng' @BNG_RAPHALA_BAPHALA by ph-beng.half;
+	sub pha-beng' @BNG_RAPHALA_BAPHALA by ph-beng.half;
 	sub pa-beng [raphala-beng] by p-bengl.half2;
 	sub ba-beng' [raphala-beng] by b-beng.half;
 	sub ya-beng' @BNG_RAPHALA_BAPHALA by y-beng.half;
