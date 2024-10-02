@@ -32,6 +32,22 @@ languagesystem bng2 PAL;
 @BNG_RAPHALAS = [ raphala-beng raphala-beng.alt01 raphala-beng.alt02 raphala-beng.alt03 raphala-beng.alt04 raphala-beng.alt05 raphala-beng.alt06 raphala-beng.alt07 raphala-beng.alt08 raphala-beng.alt09 raphala-beng.alt10 raphala-beng.alt11 raphala-beng.alt12 ];
 @BNG_TA_BLWS = [ta-beng.blws bha-beng.blws];
 
+@BNG_BASE_IMATRA_SHORT03 = [ca-beng ];
+@BNG_BASE_IMATRA_SHORT02 = [ny_ca-beng ];
+@BNG_BASE_IMATRA_SHORT01 = [ny_cha-beng rha-beng rh_ba-beng rh_ra-beng ha-beng cha-beng ha_uMatra-beng ];
+@BNG_BASE_IMATRA_DFLT = [ka-beng ra-beng dha-beng jha-beng ralowerdiagonal-beng ramiddlediagonal-beng dha-beng yy_ra-beng yy_ba-beng yya-beng ya-beng ssa-beng ss_nna-beng m_bh_ra-beng d_bh_ra-beng da-beng j_nya-beng ng_ka-beng na-beng tha-beng ta-beng nna-beng ja-beng gha-beng ga-beng ];
+@BNG_BASE_IMATRA_LONG01 = [nga-beng ny_ja-beng rr_ra-beng s_la-beng.alt t_ra-beng n_ra-beng sa-beng sha-beng ma-beng bha-beng pha-beng pa-beng kha-beng ];
+@BNG_BASE_IMATRA_LONG02 = [ng_ga-beng l_ta-beng nya-beng h_ma-beng k_ssa-beng t_ta-beng b_bha-beng t_tha-beng t_t_ra-beng dda-beng rra-beng ];
+@BNG_BASE_IMATRA_LONG03 = [l_ra-beng n_sa-beng d_bha-beng d_da-beng c_nya-beng nn_dda-beng ga_uMatra-beng la-beng ];
+@BNG_BASE_IMATRA_LONG04 = [j_ra-beng s_kha-beng sha_uMatra-beng b_d_ra-beng b_da-beng m_da-beng ];
+@BNG_BASE_IMATRA_LONG05 = [l_pha-beng dd_dda-beng k_sa-beng k_ma-beng ];
+@BNG_BASE_IMATRA_LONG06 = [b_ja-beng p_sa-beng ];
+@BNG_BASE_IMATRA_LONG07 = [j_ja-beng k_ss_ma-beng ];
+# @BNG_BASE_IMATRA_LONG08 = [];
+# @BNG_BASE_IMATRA_LONG09 = [];
+# @BNG_BASE_IMATRA_LONG10 = [];
+# @BNG_BASE_IMATRA_LONG11 = [];
+
 #table GDEF { GlyphClassDef @BASE, , @MARKS, ;} GDEF;
 
 # --------

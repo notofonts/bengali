@@ -22,6 +22,21 @@ languagesystem beng PAL;
 @BNG_BLWS_BASE_ALT = [ ja-beng da-beng rra-beng rha-beng ng_ga-beng j_ja-beng ny_ja-beng d_da-beng b_ja-beng b_da-beng m_da-beng];
 @BNG_BLWS_ALT = [ uMatra-beng.alt uuMatra-beng.alt];
 
+@BNG_BASE_IMATRA_SHORT03 = [ca-beng c_ba-beng c_wa-beng c_na-beng c_ra-beng ss_wa-beng ss_ka-beng ];
+@BNG_BASE_IMATRA_SHORT02 = [nn_ba-beng nn_na-beng nn_nna-beng nn_wa-beng ny_ca-beng ];
+@BNG_BASE_IMATRA_SHORT01 = [ny_cha-beng ddh_wa-beng ddh_ra-beng ddh_ba-beng rha-beng rh_ba-beng rh_ra-beng ha-beng h_nna-beng h_ba-beng h_wa-beng h_nna-beng.alt d_na-beng d_dh_wa-beng d_dh_ba-beng d_dha-beng d_dha-beng d_dha-beng cha-beng ch_wa-beng ch_ra-beng ch_ba-beng ng_k_ra-beng ha_uMatra-beng rh_wa-beng h_na-beng h_ra-beng h_la-beng m_ba-beng n_t_ra-beng n_tha-beng n_th_ra-beng n_wa-beng n_ba-beng n_na-beng n_dh_wa-beng n_dh_ra-beng n_dh_ba-beng n_dha-beng n_dd_ra-beng n_dda-beng b_dha-beng k_ba-beng k_ka-beng ];
+@BNG_BASE_IMATRA_DFLT = [ka-beng ra-beng dha-beng jha-beng ralowerdiagonal-beng ramiddlediagonal-beng k_la-beng k_na-beng b_la-beng b_ra-beng jh_ra-beng jh_ba-beng jh_wa-beng dha-beng dh_ra-beng dh_na-beng yy_wa-beng y_wa-beng y_ra-beng y_ba-beng yy_ra-beng yy_ba-beng yya-beng ya-beng ssa-beng ss_nna-beng s_ba-beng s_ka-beng m_la-beng m_ra-beng m_b_ra-beng m_na-beng m_tha-beng m_t_ra-beng sh_wa-beng sh_la-beng sh_ba-beng sh_na-beng bh_wa-beng bh_la-beng bh_ra-beng th_wa-beng th_ra-beng th_ba-beng t_la-beng t_ba-beng t_na-beng j_ny_wa-beng j_ny_ra-beng j_ny_ba-beng gh_wa-beng gh_la-beng gh_ra-beng gh_ba-beng gh_na-beng g_ba-beng g_na-beng g_dh_wa-beng g_dh_ba-beng g_dh_ba-beng g_dha-beng g_d_ra-beng g_ga-beng kh_wa-beng kh_ra-beng kh_ba-beng m_bh_ra-beng d_bh_ra-beng da-beng j_nya-beng ng_ka-beng na-beng tha-beng ta-beng nna-beng ja-beng gha-beng ga-beng ];
+@BNG_BASE_IMATRA_LONG01 = [ng_wa-beng ng_wa-beng ng_ra-beng nga-beng ng_ba-beng ny_ja-beng rr_ra-beng dd_ba-beng dd_wa-beng dd_ra-beng rr_ba-beng rr_wa-beng s_la-beng.alt s_la-beng s_ra-beng s_na-beng s_tha-beng s_t_ra-beng s_k_ra-beng ss_ra-beng ph_wa-beng ph_la-beng ph_ra-beng ph_ba-beng p_wa-beng p_la-beng p_ba-beng p_pa-beng p_na-beng nn_ra-beng ny_wa-beng ny_ba-beng ny_jha-beng k_ra-beng t_ra-beng g_ra-beng n_ra-beng sa-beng sha-beng ma-beng bha-beng pha-beng pa-beng kha-beng ];
+@BNG_BASE_IMATRA_LONG02 = [ng_ga-beng g_da-beng ss_k_ra-beng sh_ra-beng sh_ta-beng l_wa-beng l_la-beng l_ba-beng l_pa-beng l_dha-beng l_dd_ra-beng l_dda-beng l_ga-beng l_ka-beng l_ta-beng p_ra-beng p_ta-beng m_bha-beng m_t_wa-beng m_t_ba-beng m_ta-beng bh_ba-beng n_t_wa-beng n_t_ba-beng n_ta_uMatra-beng n_ta-beng d_ra-beng t_t_ba-beng ny_ra-beng nya-beng h_ma-beng k_ss_nna-beng.alt k_ssa-beng k_ss_wa-beng k_ss_ra-beng k_ss_ba-beng k_ss_nna-beng k_t_wa-beng k_t_ra-beng k_t_ba-beng k_ta-beng t_ta-beng b_bha-beng t_tha-beng t_t_ra-beng dda-beng rra-beng ];
+@BNG_BASE_IMATRA_LONG03 = [s_t_ba-beng s_ta_uMatra-beng s_ta-beng ss_ma-beng n_ma-beng nn_dd_ra-beng l_ra-beng n_sa-beng d_bha-beng d_da-beng c_nya-beng nn_dda-beng ga_uMatra-beng la-beng ];
+@BNG_BASE_IMATRA_LONG04 = [j_ra-beng j_ba-beng j_wa-beng ss_pha-beng m_ma-beng m_pha-beng n_d_wa-beng n_d_ba-beng n_ddh_ra-beng n_ddha-beng dh_ma-beng d_ma-beng d_d_wa-beng d_d_ra-beng d_d_ba-beng c_ch_wa-beng c_ch_ra-beng c_ch_ba-beng c_ca-beng s_kha-beng sha_uMatra-beng b_d_ra-beng b_da-beng m_da-beng ];
+@BNG_BASE_IMATRA_LONG05 = [sh_ca-beng l_d_ra-beng l_da-beng l_ddha-beng n_d_ra-beng n_da-beng nn_ma-beng dd_ma-beng c_cha-beng ng_ma-beng g_ma-beng l_pha-beng dd_dda-beng k_sa-beng k_ma-beng ];
+@BNG_BASE_IMATRA_LONG06 = [ss_p_ra-beng ss_pa-beng b_ja-beng s_ma-beng s_pha-beng sh_ma-beng sh_cha-beng l_ma-beng nn_ddha-beng p_ma-beng p_ddh_ra-beng p_ddha-beng d_ga-beng p_sa-beng t_ma-beng ];
+@BNG_BASE_IMATRA_LONG07 = [b_ba-beng dh_ba-beng m_sa-beng d_gha-beng j_jha-beng j_j_wa-beng j_ja-beng k_ss_ma-beng ];
+@BNG_BASE_IMATRA_LONG08 = [m_p_ra-beng m_p_ra-beng ];
+@BNG_BASE_IMATRA_LONG09 = [s_p_ra-beng s_pa-beng rr_ga-beng dd_ga-beng ];
+@BNG_BASE_IMATRA_LONG10 = [ng_gha-beng ];
+@BNG_BASE_IMATRA_LONG11 = [ng_k_ssa-beng ];
 
 
 # --------
