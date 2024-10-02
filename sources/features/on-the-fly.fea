@@ -193,9 +193,9 @@ lookup BNG_dflt_init_eMatra{
 lookup BNG_dflt_pres_decompose {
 	lookupflag 0;
 	# ka arm
+	sub ka-beng halant-beng [na-beng la-beng]' by [na-beng la-beng] ka-beng.arm;
+	sub ka-beng baphala-beng' by baphala-beng ka-beng.arm;
 	sub ka-beng halant-beng ka-beng' by ka-beng ka-beng.part ka-beng.arm1;
-	sub ka-beng halant-beng [na-beng la-beng]' by [na-beng la-beng] ka-beng.arm1;
-	sub ka-beng baphala-beng' by baphala-beng ka-beng.arm1;
 
 	sub ka-beng halant-beng ta-beng' by ta-beng ka-beng.arm2;
 	sub ka-beng raphala-beng' by raphala-beng ka-beng.arm2;
@@ -407,7 +407,7 @@ lookup BNG_dflt_pres_addHeadlineStem {
 	sub [d-beng.half3 n-beng.headline b-beng.half2 aaMatra-beng.part] baphala-beng dha-beng.part' by dha-beng.part headline-beng.130;
 	sub [d-beng.half3 n-beng.headline b-beng.half2 aaMatra-beng.part] baphala-beng raphala-beng.alt11 dha-beng.part' by dha-beng.part headline-beng.130;
 	sub dh_ba-beng.blws' by dh_ba-beng.blws headline-beng.130;
-	ignore sub b-beng.half [raphala-beng la-beng.blws]' @BNG_BLWS_VOWELS;
+	ignore sub b-beng.half [raphala-beng la-beng.blws]' jh-beng.side;
 	sub b-beng.half [raphala-beng la-beng.blws]' by [raphala-beng la-beng.blws] headline-beng.ba;
 	ignore sub [ss-beng.half4 s-beng.half] baphala-beng' ka-beng.part;
 	sub [m-beng.half ss-beng.half4 s-beng.half] [baphala-beng]' by [baphala-beng] headline-beng.200;
@@ -421,7 +421,7 @@ lookup BNG_dflt_pres_addHeadlineStem {
 	sub [g-beng.half nn-beng.half sh-beng.half] @BNG_LARGE_BLWS' by @BNG_LARGE_BLWS aaMatra-beng.side;
 	sub [g-beng.half nn-beng.half sh-beng.half] ma-beng.side' by ma-beng.side aaMatra-beng.side;
 	sub [g-beng.half] dh_ba-beng.blws' by aaMatra-beng.side dh_ba-beng.blws;
-	sub j-beng.half baphala-beng.alt3 jha-beng.part' by jha-beng.part aaMatra-beng.part;
+	sub j-beng.half baphala-beng.alt3 jha-beng.part' by jha-beng.part aaMatra-beng.float;
 	sub l-beng.half3' [baphala-beng ma-beng.side la-beng.blws2] by l-beng.half3 aaMatra-beng.part;
 	sub l-beng.half3' [ga-beng.blws pa-beng.blws] by l-beng.half3 aaMatra-beng.part2;
 } BNG_dflt_pres_addHeadlineStem;
