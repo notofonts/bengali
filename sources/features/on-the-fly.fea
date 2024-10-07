@@ -673,6 +673,8 @@ feature vatu {
 	lookup BNG_dflt_vatu_raphala;
 	lookup BNG_dflt_vatu_baConjuncts;
 
+	lookup BNG_dflt_pres_decompose;
+	lookup BNG_dflt_pres_makeVattus;
 	language PAL;
 
 } vatu;
@@ -710,8 +712,6 @@ feature init {
 feature pres {
 
 	script bng2;
-	lookup BNG_dflt_pres_decompose;
-	lookup BNG_dflt_pres_makeVattus;
 	lookup BNG_dflt_pres_replaceBaphala;
 	lookup BNG_dflt_pres_addVattuParts;
 	lookup BNG_dflt_pres_replaceBase;
