@@ -74,6 +74,10 @@ languagesystem bng2 PAL;
 # @BNG_BASE_IMATRA_LONG10 = [];
 # @BNG_BASE_IMATRA_LONG11 = [];
 
+@BNG_EMATRA = [eMatra-beng eMatra-beng.init aiMatra-beng aiMatra-beng.init];
+@BNG_EMATRA_SHORT = [eMatra-beng.short eMatra-beng.short.init aiMatra-beng.short aiMatra-beng.short.init];
+@BNG_BASE_EMATRA_SHORT = [t_ra-beng j_ra-beng t_t_ra-beng l_ra-beng rr_ra-beng rh_ba-beng yy_ra-beng ];
+
 #table GDEF { GlyphClassDef @BASE, , @MARKS, ;} GDEF;
 
 # --------
@@ -831,6 +835,22 @@ lookup BNG_dflt_pres_iMatra_other {
 
 # --- End iMatra Alternates ---
 
+
+# --- Begin eMatra Alternates ---
+
+lookup BNG_dflt_pres_eMAtra {
+    lookupflag 0;
+    sub @BNG_EMATRA' @BNG_BASE_EMATRA_SHORT by @BNG_EMATRA_SHORT;
+    sub @BNG_EMATRA' [b-beng.half dh-beng.half y-beng.half] raphala-beng by @BNG_EMATRA_SHORT;
+    sub @BNG_EMATRA' k_ss-beng.half raphala-beng.alt04 by @BNG_EMATRA_SHORT;
+    sub @BNG_EMATRA' ng-beng.half raphala-beng.alt05 by @BNG_EMATRA_SHORT;
+    sub @BNG_EMATRA' tth-beng.half raphala-beng.alt06 by @BNG_EMATRA_SHORT;
+    sub @BNG_EMATRA' d-beng.half2 raphala-beng.alt09 by @BNG_EMATRA_SHORT;
+    sub @BNG_EMATRA' dd-beng.half nukta-beng.alt by @BNG_EMATRA_SHORT;
+} BNG_dflt_pres_eMAtra;
+
+# --- End eMatra Alternates ---
+
 language PAL;
 lookup BNG_PAL_pres_swapWa {
     lookupflag 0;
@@ -940,6 +960,18 @@ lookup BNG_dflt_psts_iiMatra{
     sub [ttha-beng.side] iiMatra-beng' by iiMatra-beng.tthaAlt2;
 } BNG_dflt_psts_iiMatra;
 
+lookup BNG_dflt_psts_auLengthMatra {
+    lookupflag IgnoreMarks;
+    sub [ttha-beng ss_ttha-beng tth-beng.half ttha-beng.side] auLength-beng' by auLength-beng.long;
+} BNG_dflt_psts_auLengthMatra;
+
+lookup BNG_dflt_psts_yaPstf {
+    lookupflag UseMarkFilteringSet [ka-beng.arm2 ta-beng.blws ka-beng.part];
+    sub [ha-beng cha-beng ch-beng.half cha-beng.side h-beng.half h-beng.half2] ya-beng.pstf' by ya-beng.pstf.short;
+    sub sh-beng.half2 ta-beng.blws ya-beng.pstf' by ya-beng.pstf.short;
+    sub [ss-beng.half4 s-beng.half] ka-beng.part ya-beng.pstf' by ya-beng.pstf.short;
+    sub [ss-beng.half3 s-beng.half2] ka-beng.arm2 ya-beng.pstf' by ya-beng.pstf.short;
+} BNG_dflt_psts_yaPstf;
 
 language PAL;
 
