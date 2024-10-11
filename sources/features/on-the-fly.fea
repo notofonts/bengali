@@ -153,16 +153,28 @@ sub wa-beng.part by headline-beng.130;
 # Start Chain Contextual Sub
 
 lookup BNG_dflt_abvs_SwapAaMatraCandrabindu {
-lookupflag 0;
-sub candrabindu-beng by aaMatra-beng;
-sub aaMatra-beng by candrabindu-beng;
+    lookupflag 0;
+    sub candrabindu-beng by aaMatra-beng;
+    sub aaMatra-beng by candrabindu-beng;
 } BNG_dflt_abvs_SwapAaMatraCandrabindu;
 
 lookup BNG_dflt_abvs_SwapYaMatraCandrabindu {
-lookupflag 0;
-sub candrabindu-beng by ya-beng.pstf;
-sub ya-beng.pstf by candrabindu-beng;
+    lookupflag 0;
+    sub candrabindu-beng by ya-beng.pstf;
+    sub ya-beng.pstf by candrabindu-beng;
 } BNG_dflt_abvs_SwapYaMatraCandrabindu;
+
+lookup BNG_dflt_abvs_SwapRephIiMatra {
+    lookupflag 0;
+    sub reph-beng by iiMatra-beng;
+    sub iiMatra-beng by reph-beng;
+} BNG_dflt_abvs_SwapRephIiMatra;
+
+lookup BNG_dflt_abvs_SwapRephAuLength {
+    lookupflag 0;
+    sub reph-beng by auLength-beng;
+    sub auLength-beng by reph-beng;
+} BNG_dflt_abvs_SwapRephAuLength;
 
 # End Chain Contextual Sub
 
@@ -875,6 +887,24 @@ lookup BNG_dflt_abvs_SwapCandrabindu {
     sub aaMatra-beng' lookup BNG_dflt_abvs_SwapAaMatraCandrabindu candrabindu-beng' lookup BNG_dflt_abvs_SwapAaMatraCandrabindu;
     sub ya-beng.pstf' lookup BNG_dflt_abvs_SwapYaMatraCandrabindu candrabindu-beng' lookup BNG_dflt_abvs_SwapYaMatraCandrabindu;
 } BNG_dflt_abvs_SwapCandrabindu;
+
+lookup BNG_dflt_abvs_SwapReph{
+    lookupflag 0;
+    sub reph-beng' lookup BNG_dflt_abvs_SwapRephIiMatra iiMatra-beng' lookup BNG_dflt_abvs_SwapRephIiMatra;
+    sub reph-beng' lookup BNG_dflt_abvs_SwapRephAuLength auLength-beng' lookup BNG_dflt_abvs_SwapRephAuLength;
+} BNG_dflt_abvs_SwapReph;
+
+lookup BNG_dflt_abvs_smallCandrabindu {
+    lookupflag UseMarkFilteringSet [candrabindu-beng candrabindu-beng.small tta-beng.flag tta-beng.flag2 tta-beng.flag3 tta-beng];
+    sub [reph-beng iiMatra-beng auLength-beng tta-beng.flag tta-beng.flag2 tta-beng.flag3 tta-beng ttha-beng tth-beng.half ttha-beng.side ss_ttha-beng] candrabindu-beng' by candrabindu-beng.small;
+} BNG_dflt_abvs_smallCandrabindu;
+
+lookup BNG_dflt_abvs_altReph {
+    lookupflag UseMarkFilteringSet [reph-beng reph-beng.altIiMatra reph-beng.altAuLength reph-beng.altTtha tta-beng.flag tta-beng.flag2 tta-beng.flag];
+    sub iiMatra-beng reph-beng' by reph-beng.altIiMatra;
+    sub [auLength-beng tta-beng tta-beng.flag tta-beng.flag2 tta-beng.flag3] reph-beng' by reph-beng.altAuLength;
+    sub [ttha-beng tth-beng.half ttha-beng.side ss_ttha-beng] reph-beng' by reph-beng.altTtha;
+} BNG_dflt_abvs_altReph;
 
 language PAL;
 
