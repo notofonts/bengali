@@ -230,7 +230,7 @@ lookup BNG_dflt_nukt_onTheFlyDecomp {
     sub [ja-beng nya-beng] halant-beng jha-beng' by jha-beng jha-beng.part;
 
     # Transform tta in ddha + flag
-    sub tta-beng' [halant-beng] by ddha-beng tta-beng.flag;
+    sub tta-beng' [iiMatra-beng halant-beng] by ddha-beng tta-beng.flag;
     sub [iMatra-beng halant-beng] tta-beng' by ddha-beng tta-beng.flag;
 
     # Transform dha in ba+dha.part
@@ -921,12 +921,20 @@ feature psts {
 
 script bng2;
 
+lookup BNG_dflt_psts_iiMatra_flagSwap {
+    lookupflag UseMarkFilteringSet [@BNG_TTA_FLAGS];
+    sub tta-beng.flag' iiMatra-beng by tta-beng.flagIiMatra;
+    sub tta-beng.flag' ma-beng.side1 iiMatra-beng by tta-beng.flagIiMatra;
+    sub tta-beng.flag2' iiMatra-beng by tta-beng.flagIiMatra2;
+    sub tta-beng.flag3' iiMatra-beng by tta-beng.flagIiMatra3;
+} BNG_dflt_psts_iiMatra_flagSwap;
+
 lookup BNG_dflt_psts_iiMatra{
     lookupflag UseMarkFilteringSet [@BNG_TTA_FLAGS aaMatra-beng.side headline-beng.130];
     # nub
     sub g-beng.half aaMatra-beng.side headline-beng.130 iiMatra-beng' by iiMatra-beng.nubAlt1;
     # tta
-    sub [ddha-beng ddh-beng.half2 ddha-beng.side ddh-beng.side ph_tta-beng.noflag k_tta-beng.noflag ss_tta-beng.noflag] @BNG_TTA_FLAGS iiMatra-beng' by iiMatra-beng.ttaAlt1;
+    sub [ddha-beng ddh-beng.half ddh-beng.half2 ddha-beng.side ddh-beng.side tt_tta-beng.noflag ph_tta-beng.noflag k_tta-beng.noflag ss_tta-beng.noflag] @BNG_TTA_FLAGS iiMatra-beng' by iiMatra-beng.ttaAlt1;
     # ttha
     sub [ttha-beng tth-beng.half ss_ttha-beng] iiMatra-beng' by iiMatra-beng.tthaAlt1;
     sub [ttha-beng.side] iiMatra-beng' by iiMatra-beng.tthaAlt2;
