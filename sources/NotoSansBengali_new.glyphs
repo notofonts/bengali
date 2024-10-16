@@ -2,8 +2,15 @@
 .appVersion = "3309";
 .formatVersion = 3;
 DisplayStrings = (
-"ঠ",
-"়ড়  /uMatra-beng.alt   /uuMatra-beng.alt  "
+"/g-beng.half/g_wa-beng/g_ga-beng/g_da-beng/g_d_ra-beng/g_dha-beng/g_dh_ba-beng/g_dh_wa-beng/g_na-beng/g_ba-beng/g_ma-beng/g_la-beng 
+/aaMatra-beng.side/g_wa-beng/g_ga-beng/g_dha-beng/g_dh_ba-beng/g_dh_wa-beng/g_na-beng/g_ba-beng/g_ma-beng/g_la-beng/nn_nna-beng/nn_na-beng/nn_ba-beng/nn_ma-beng/nn_wa-beng/sh_na-beng/sh_ba-beng/sh_ma-beng/sh_la-beng/sh_wa-beng/g_wa-beng",
+"/iMatra-beng.long01   /iMatra-beng.long02   /iMatra-beng.long03   /iMatra-beng.long04   /iMatra-beng.long05/iMatra-beng.long06/iMatra-beng.long07/iMatra-beng.long08/iMatra-beng.long09/iMatra-beng.long10/iMatra-beng.long11",
+"/iMatra-beng.tthaAlt1   /iMatra-beng.tthaAlt2   /iMatra-beng.tthaAlt3  ",
+"ণ /reph-beng",
+"/p_tta-beng",
+"/l_tta-beng",
+"/s_tta-beng",
+"/d_d-beng.half/d_d_ba-beng"
 );
 axes = (
 {
@@ -700,7 +707,7 @@ value = kabeng;
 guides = (
 {
 angle = 180;
-pos = (514,709);
+pos = (514,646);
 }
 );
 id = "F455777D-7EDD-47E2-866A-D8A5173CE243";
@@ -1192,7 +1199,7 @@ unicode = 8205;
 },
 {
 glyphname = space;
-lastChange = "2024-10-15 03:31:33 +0000";
+lastChange = "2024-10-16 15:15:57 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -11699,7 +11706,7 @@ unicode = 2452;
 category = Letter;
 color = 5;
 glyphname = "ka-beng";
-lastChange = "2024-10-11 17:30:32 +0000";
+lastChange = "2024-10-16 15:15:24 +0000";
 layers = (
 {
 anchors = (
@@ -12324,6 +12331,11 @@ nodes = (
 }
 );
 };
+guides = (
+{
+pos = (495,652);
+}
+);
 layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
 shapes = (
 {
@@ -19214,7 +19226,7 @@ unicode = 2462;
 category = Letter;
 color = 5;
 glyphname = "tta-beng";
-lastChange = "2024-10-15 05:11:44 +0000";
+lastChange = "2024-10-16 15:57:59 +0000";
 layers = (
 {
 anchors = (
@@ -21485,7 +21497,7 @@ unicode = 2466;
 category = Letter;
 color = 5;
 glyphname = "nna-beng";
-lastChange = "2024-10-15 04:27:41 +0000";
+lastChange = "2024-10-16 17:03:06 +0000";
 layers = (
 {
 anchors = (
@@ -21995,7 +22007,7 @@ pos = (271,70);
 },
 {
 name = top_candrabindu;
-pos = (508,635);
+pos = (504,635);
 },
 {
 name = top_vedic;
@@ -33600,7 +33612,7 @@ unicode = 2489;
 category = Mark;
 color = 5;
 glyphname = "nukta-beng";
-lastChange = "2024-10-15 18:31:06 +0000";
+lastChange = "2024-10-16 14:31:14 +0000";
 layers = (
 {
 anchors = (
@@ -33609,8 +33621,8 @@ name = _nukta;
 pos = (0,-80);
 },
 {
-name = bottom;
-pos = (1,-270);
+name = bottom_nukta;
+pos = (1,-250);
 }
 );
 background = {
@@ -33674,8 +33686,8 @@ name = _nukta;
 pos = (0,-68);
 },
 {
-name = bottom;
-pos = (0,-230);
+name = bottom_nukta;
+pos = (0,-220);
 }
 );
 background = {
@@ -33739,7 +33751,7 @@ name = _nukta;
 pos = (0,-124);
 },
 {
-name = bottom;
+name = bottom_nukta;
 pos = (1,-308);
 }
 );
@@ -34667,9 +34679,10 @@ subCategory = Spacing;
 unicode = 2494;
 },
 {
+category = Letter;
 color = 5;
 glyphname = "iMatra-beng";
-lastChange = "2024-10-12 03:33:59 +0000";
+lastChange = "2024-10-16 15:12:38 +0000";
 layers = (
 {
 anchors = (
@@ -34926,6 +34939,7 @@ name = Length;
 topValue = 850;
 }
 );
+subCategory = Spacing;
 unicode = 2495;
 },
 {
@@ -38514,7 +38528,7 @@ unicode = 2519;
 category = Letter;
 color = 5;
 glyphname = "rra-beng";
-lastChange = "2024-10-11 17:30:32 +0000";
+lastChange = "2024-10-16 14:27:25 +0000";
 layers = (
 {
 anchors = (
@@ -50301,47 +50315,77 @@ unicode = 2558;
 category = Mark;
 color = 4;
 glyphname = "reph-beng";
-lastChange = "2024-10-15 04:26:22 +0000";
+lastChange = "2024-10-16 17:03:01 +0000";
 layers = (
 {
 anchors = (
 {
 name = _top_candrabindu;
-pos = (-172,622);
+pos = (0,622);
+},
+{
+name = _top_iMatra;
+pos = (-12,684);
 },
 {
 name = top_candrabindu;
-pos = (-245,699);
+pos = (-73,699);
+},
+{
+name = top_candrabindu_iMatra;
+pos = (-87,743);
 }
 );
 background = {
 anchors = (
 {
 name = _top_candrabindu;
-pos = (-172,622);
+pos = (-15,662);
+},
+{
+name = _top_iMatra;
+pos = (-12,684);
+},
+{
+name = top_candrabindu_iMatra;
+pos = (-102,743);
 }
 );
 shapes = (
 {
 closed = 1;
 nodes = (
-(-209,644,l),
-(110,860,l),
-(72,917,l),
-(-254,707,l)
+(252,838,l),
+(218,885,l),
+(-42,707,l),
+(3,644,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(237,878,l),
+(203,925,l),
+(-57,747,l),
+(-12,684,l)
 );
 }
 );
 };
+guides = (
+{
+pos = (-169,643);
+}
+);
 layerId = UUID0;
 shapes = (
 {
 closed = 1;
 nodes = (
-(100,858,l),
-(66,905,l),
-(-214,707,l),
-(-169,644,l)
+(272,858,l),
+(238,905,l),
+(-42,707,l),
+(3,644,l)
 );
 }
 );
@@ -50351,41 +50395,62 @@ width = 0;
 anchors = (
 {
 name = _top_candrabindu;
-pos = (-148,622);
+pos = (0,607);
+},
+{
+name = _top_iMatra;
+pos = (28,695);
 },
 {
 name = top_candrabindu;
-pos = (-195,691);
+pos = (-47,676);
+},
+{
+name = top_candrabindu_iMatra;
+pos = (-16,673);
 }
 );
 background = {
 anchors = (
 {
 name = _top_candrabindu;
-pos = (-148,622);
+pos = (30,643);
+},
+{
+name = _top_iMatra;
+pos = (28,695);
+},
+{
+name = top_candrabindu_iMatra;
+pos = (-26,673);
 }
 );
 shapes = (
 {
 closed = 1;
 nodes = (
-(-197,674,l),
-(107,881,l),
-(95,899,l),
-(-210,692,l)
+(255,882,l),
+(243,896,l),
+(12,713,l),
+(28,695,l)
 );
 }
 );
 };
+guides = (
+{
+pos = (495,652);
+}
+);
 layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
 shapes = (
 {
 closed = 1;
 nodes = (
-(97,873,l),
-(85,887,l),
-(-166,684,l),
-(-150,666,l)
+(245,858,l),
+(233,872,l),
+(-18,669,l),
+(-2,651,l)
 );
 }
 );
@@ -50398,15 +50463,31 @@ name = _top_candrabindu;
 pos = (0,622);
 },
 {
+name = _top_iMatra;
+pos = (-20,654);
+},
+{
 name = top_candrabindu;
 pos = (-80,773);
+},
+{
+name = top_candrabindu_iMatra;
+pos = (-150,743);
 }
 );
 background = {
 anchors = (
 {
 name = _top_candrabindu;
-pos = (-245,622);
+pos = (-45,641);
+},
+{
+name = _top_iMatra;
+pos = (-19,654);
+},
+{
+name = top_candrabindu_iMatra;
+pos = (-144,762);
 }
 );
 shapes = (
@@ -50418,6 +50499,24 @@ nodes = (
 (32,917,l),
 (-338,751,l)
 );
+},
+{
+closed = 1;
+nodes = (
+(251,813,l),
+(193,912,l),
+(-102,764,l),
+(-25,635,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(257,832,l),
+(199,931,l),
+(-96,783,l),
+(-19,654,l)
+);
 }
 );
 };
@@ -50428,7 +50527,7 @@ closed = 1;
 nodes = (
 (271,814,l),
 (217,909,l),
-(-97,758,l),
+(-93,758,l),
 (-25,633,l)
 );
 }
@@ -94220,7 +94319,7 @@ category = Letter;
 color = 9;
 glyphname = "g-beng.half";
 kernRight = "R_nn-beng_half";
-lastChange = "2024-10-11 17:30:32 +0000";
+lastChange = "2024-10-16 16:43:32 +0000";
 layers = (
 {
 anchors = (
@@ -94231,10 +94330,6 @@ pos = (463,140);
 {
 name = side;
 pos = (463,440);
-},
-{
-name = top_candrabindu;
-pos = (485,622);
 },
 {
 name = top_vedic;
@@ -94400,12 +94495,8 @@ name = side;
 pos = (455,440);
 },
 {
-name = top_candrabindu;
-pos = (420,622);
-},
-{
 name = top_vedic;
-pos = (264,622);
+pos = (264,607);
 }
 );
 background = {
@@ -94567,12 +94658,8 @@ name = side;
 pos = (463,440);
 },
 {
-name = top_candrabindu;
-pos = (405,622);
-},
-{
 name = top_vedic;
-pos = (307,622);
+pos = (307,635);
 }
 );
 background = {
@@ -104767,7 +104854,7 @@ category = Letter;
 color = 9;
 glyphname = "nn-beng.half";
 kernRight = "R_nn-beng_half";
-lastChange = "2024-10-11 17:30:32 +0000";
+lastChange = "2024-10-16 18:47:33 +0000";
 layers = (
 {
 anchors = (
@@ -110615,7 +110702,7 @@ subCategory = Spacing;
 category = Letter;
 color = 9;
 glyphname = "d_d-beng.half";
-lastChange = "2024-10-11 20:38:52 +0000";
+lastChange = "2024-10-16 19:03:19 +0000";
 layers = (
 {
 anchors = (
@@ -110733,7 +110820,7 @@ pos = (648,165);
 },
 {
 name = top_candrabindu;
-pos = (100,607);
+pos = (405,607);
 },
 {
 name = top_vedic;
@@ -134238,7 +134325,7 @@ category = Letter;
 color = 7;
 glyphname = "ma-beng.side";
 kernLeft = L_BNG_ma_side;
-lastChange = "2024-10-11 17:30:32 +0000";
+lastChange = "2024-10-16 18:42:31 +0000";
 layers = (
 {
 anchors = (
@@ -166647,12 +166734,12 @@ subCategory = Spacing;
 category = Mark;
 color = 3;
 glyphname = "candrabindu-beng.altIMatra";
-lastChange = "2024-10-15 03:59:23 +0000";
+lastChange = "2024-10-16 15:58:29 +0000";
 layers = (
 {
 anchors = (
 {
-name = _top_candrabindu;
+name = _top_candrabindu_iMatra;
 pos = (15,620);
 },
 {
@@ -166664,7 +166751,7 @@ background = {
 anchors = (
 {
 name = _top_iMatra;
-pos = (-10,634);
+pos = (-34,646);
 }
 );
 shapes = (
@@ -166750,7 +166837,7 @@ width = 0;
 {
 anchors = (
 {
-name = _top_candrabindu;
+name = _top_candrabindu_iMatra;
 pos = (11,602);
 },
 {
@@ -166855,8 +166942,8 @@ width = 0;
 {
 anchors = (
 {
-name = _top_candrabindu;
-pos = (-40,648);
+name = _top_candrabindu_iMatra;
+pos = (-40,646);
 },
 {
 name = _top_iMatra;
@@ -167441,9 +167528,10 @@ script = bengali;
 subCategory = Nonspacing;
 },
 {
+category = Letter;
 color = 4;
 glyphname = "iMatra-beng.long01";
-lastChange = "2024-10-12 03:33:57 +0000";
+lastChange = "2024-10-16 15:12:38 +0000";
 layers = (
 {
 anchors = (
@@ -167681,11 +167769,13 @@ name = Length;
 topValue = 850;
 }
 );
+subCategory = Spacing;
 },
 {
+category = Letter;
 color = 4;
 glyphname = "iMatra-beng.long02";
-lastChange = "2024-10-12 03:33:53 +0000";
+lastChange = "2024-10-16 15:12:38 +0000";
 layers = (
 {
 anchors = (
@@ -167923,11 +168013,13 @@ name = Length;
 topValue = 850;
 }
 );
+subCategory = Spacing;
 },
 {
+category = Letter;
 color = 4;
 glyphname = "iMatra-beng.long03";
-lastChange = "2024-10-12 03:33:50 +0000";
+lastChange = "2024-10-16 15:12:38 +0000";
 layers = (
 {
 anchors = (
@@ -168165,11 +168257,13 @@ name = Length;
 topValue = 850;
 }
 );
+subCategory = Spacing;
 },
 {
+category = Letter;
 color = 4;
 glyphname = "iMatra-beng.long04";
-lastChange = "2024-10-12 03:33:46 +0000";
+lastChange = "2024-10-16 15:12:38 +0000";
 layers = (
 {
 anchors = (
@@ -168407,11 +168501,13 @@ name = Length;
 topValue = 850;
 }
 );
+subCategory = Spacing;
 },
 {
+category = Letter;
 color = 4;
 glyphname = "iMatra-beng.long05";
-lastChange = "2024-10-12 03:33:43 +0000";
+lastChange = "2024-10-16 15:12:38 +0000";
 layers = (
 {
 anchors = (
@@ -168649,11 +168745,13 @@ name = Length;
 topValue = 850;
 }
 );
+subCategory = Spacing;
 },
 {
+category = Letter;
 color = 4;
 glyphname = "iMatra-beng.long06";
-lastChange = "2024-10-12 03:33:35 +0000";
+lastChange = "2024-10-16 15:12:38 +0000";
 layers = (
 {
 anchors = (
@@ -168891,11 +168989,13 @@ name = Length;
 topValue = 850;
 }
 );
+subCategory = Spacing;
 },
 {
+category = Letter;
 color = 4;
 glyphname = "iMatra-beng.long07";
-lastChange = "2024-10-12 03:33:30 +0000";
+lastChange = "2024-10-16 15:12:38 +0000";
 layers = (
 {
 anchors = (
@@ -169133,11 +169233,13 @@ name = Length;
 topValue = 850;
 }
 );
+subCategory = Spacing;
 },
 {
+category = Letter;
 color = 4;
 glyphname = "iMatra-beng.long08";
-lastChange = "2024-10-12 03:33:25 +0000";
+lastChange = "2024-10-16 15:12:38 +0000";
 layers = (
 {
 anchors = (
@@ -169375,11 +169477,13 @@ name = Length;
 topValue = 850;
 }
 );
+subCategory = Spacing;
 },
 {
+category = Letter;
 color = 4;
 glyphname = "iMatra-beng.long09";
-lastChange = "2024-10-12 03:33:22 +0000";
+lastChange = "2024-10-16 15:12:38 +0000";
 layers = (
 {
 anchors = (
@@ -169617,11 +169721,13 @@ name = Length;
 topValue = 850;
 }
 );
+subCategory = Spacing;
 },
 {
+category = Letter;
 color = 4;
 glyphname = "iMatra-beng.long10";
-lastChange = "2024-10-12 03:33:18 +0000";
+lastChange = "2024-10-16 15:12:38 +0000";
 layers = (
 {
 anchors = (
@@ -169859,11 +169965,13 @@ name = Length;
 topValue = 850;
 }
 );
+subCategory = Spacing;
 },
 {
+category = Letter;
 color = 4;
 glyphname = "iMatra-beng.long11";
-lastChange = "2024-10-12 03:33:13 +0000";
+lastChange = "2024-10-16 15:12:38 +0000";
 layers = (
 {
 anchors = (
@@ -170101,11 +170209,13 @@ name = Length;
 topValue = 850;
 }
 );
+subCategory = Spacing;
 },
 {
+category = Letter;
 color = 4;
 glyphname = "iMatra-beng.short01";
-lastChange = "2024-10-12 03:33:09 +0000";
+lastChange = "2024-10-16 15:12:38 +0000";
 layers = (
 {
 anchors = (
@@ -170343,11 +170453,13 @@ name = Length;
 topValue = 850;
 }
 );
+subCategory = Spacing;
 },
 {
+category = Letter;
 color = 4;
 glyphname = "iMatra-beng.short02";
-lastChange = "2024-10-12 03:33:04 +0000";
+lastChange = "2024-10-16 16:54:21 +0000";
 layers = (
 {
 anchors = (
@@ -170378,7 +170490,7 @@ width = 233;
 anchors = (
 {
 name = top_iMatra;
-pos = (631,681);
+pos = (641,681);
 }
 );
 background = {
@@ -170585,11 +170697,13 @@ name = Length;
 topValue = 850;
 }
 );
+subCategory = Spacing;
 },
 {
+category = Letter;
 color = 4;
 glyphname = "iMatra-beng.short03";
-lastChange = "2024-10-12 03:33:01 +0000";
+lastChange = "2024-10-16 16:54:24 +0000";
 layers = (
 {
 anchors = (
@@ -170620,7 +170734,7 @@ width = 233;
 anchors = (
 {
 name = top_iMatra;
-pos = (559,680);
+pos = (569,680);
 }
 );
 background = {
@@ -170827,11 +170941,13 @@ name = Length;
 topValue = 850;
 }
 );
+subCategory = Spacing;
 },
 {
+category = Letter;
 color = 4;
 glyphname = "iMatra-beng.ttaAlt1";
-lastChange = "2024-10-14 14:22:43 +0000";
+lastChange = "2024-10-16 15:12:38 +0000";
 layers = (
 {
 anchors = (
@@ -171150,11 +171266,13 @@ name = Length;
 topValue = 850;
 }
 );
+subCategory = Spacing;
 },
 {
+category = Letter;
 color = 4;
 glyphname = "iMatra-beng.ttaAlt2";
-lastChange = "2024-10-14 14:37:45 +0000";
+lastChange = "2024-10-16 15:12:38 +0000";
 layers = (
 {
 anchors = (
@@ -171473,11 +171591,13 @@ name = Length;
 topValue = 850;
 }
 );
+subCategory = Spacing;
 },
 {
+category = Letter;
 color = 4;
 glyphname = "iMatra-beng.ttaAlt3";
-lastChange = "2024-10-14 14:20:14 +0000";
+lastChange = "2024-10-16 15:12:38 +0000";
 layers = (
 {
 anchors = (
@@ -171815,11 +171935,13 @@ name = Length;
 topValue = 850;
 }
 );
+subCategory = Spacing;
 },
 {
+category = Letter;
 color = 4;
 glyphname = "iMatra-beng.ttaAlt4";
-lastChange = "2024-10-14 14:20:27 +0000";
+lastChange = "2024-10-16 15:12:38 +0000";
 layers = (
 {
 anchors = (
@@ -172150,11 +172272,13 @@ name = Length;
 topValue = 850;
 }
 );
+subCategory = Spacing;
 },
 {
+category = Letter;
 color = 4;
 glyphname = "iMatra-beng.tthaAlt1";
-lastChange = "2024-10-14 14:23:10 +0000";
+lastChange = "2024-10-16 15:12:38 +0000";
 layers = (
 {
 anchors = (
@@ -172473,11 +172597,13 @@ name = Length;
 topValue = 850;
 }
 );
+subCategory = Spacing;
 },
 {
+category = Letter;
 color = 4;
 glyphname = "iMatra-beng.tthaAlt2";
-lastChange = "2024-10-12 03:52:37 +0000";
+lastChange = "2024-10-16 15:12:38 +0000";
 layers = (
 {
 anchors = (
@@ -172796,11 +172922,13 @@ name = Length;
 topValue = 850;
 }
 );
+subCategory = Spacing;
 },
 {
+category = Letter;
 color = 4;
 glyphname = "iMatra-beng.tthaAlt3";
-lastChange = "2024-10-12 03:52:42 +0000";
+lastChange = "2024-10-16 15:12:38 +0000";
 layers = (
 {
 anchors = (
@@ -173119,6 +173247,7 @@ name = Length;
 topValue = 850;
 }
 );
+subCategory = Spacing;
 },
 {
 category = Letter;
@@ -175865,13 +175994,17 @@ subCategory = Spacing;
 category = Mark;
 color = 6;
 glyphname = "uMatra-beng.alt";
-lastChange = "2024-10-11 18:12:41 +0000";
+lastChange = "2024-10-16 14:33:38 +0000";
 layers = (
 {
 anchors = (
 {
 name = _bottom;
 pos = (-10,-10);
+},
+{
+name = _bottom_nukta;
+pos = (-40,-5);
 }
 );
 background = {
@@ -175956,7 +176089,10 @@ width = 0;
 anchors = (
 {
 name = _bottom;
-pos = (-1,0);
+},
+{
+name = _bottom_nukta;
+pos = (-60,-5);
 }
 );
 background = {
@@ -176006,32 +176142,32 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-3,9,l),
-(-10,-46,o),
-(-37,-127,o),
-(-127,-127,cs),
-(-172,-127,o),
-(-213,-100,o),
-(-213,-50,cs),
-(-213,-12,o),
-(-188,28,o),
-(-120,28,cs),
-(-20,28,o),
-(56,-31,o),
-(174,-157,c),
-(188,-142,l),
-(72,-16,o),
-(-10,50,o),
-(-121,50,cs),
-(-192,50,o),
-(-235,5,o),
-(-235,-50,cs),
-(-235,-116,o),
-(-179,-149,o),
-(-127,-149,cs),
-(-31,-149,o),
-(5,-67,o),
-(16,-4,c)
+(-2,9,l),
+(-9,-46,o),
+(-36,-127,o),
+(-126,-127,cs),
+(-171,-127,o),
+(-212,-100,o),
+(-212,-50,cs),
+(-212,-12,o),
+(-187,28,o),
+(-119,28,cs),
+(-19,28,o),
+(57,-31,o),
+(175,-157,c),
+(189,-142,l),
+(73,-16,o),
+(-9,50,o),
+(-120,50,cs),
+(-191,50,o),
+(-234,5,o),
+(-234,-50,cs),
+(-234,-116,o),
+(-178,-149,o),
+(-126,-149,cs),
+(-30,-149,o),
+(6,-67,o),
+(17,-4,c)
 );
 }
 );
@@ -176041,6 +176177,10 @@ width = 0;
 anchors = (
 {
 name = _bottom;
+},
+{
+name = _bottom_nukta;
+pos = (-10,-5);
 }
 );
 background = {
@@ -177085,12 +177225,16 @@ subCategory = Nonspacing;
 category = Mark;
 color = 6;
 glyphname = "uuMatra-beng.alt";
-lastChange = "2024-10-11 18:12:41 +0000";
+lastChange = "2024-10-16 14:33:33 +0000";
 layers = (
 {
 anchors = (
 {
 name = _bottom;
+},
+{
+name = _bottom_nukta;
+pos = (-30,-5);
 }
 );
 background = {
@@ -177180,6 +177324,10 @@ width = 0;
 anchors = (
 {
 name = _bottom;
+},
+{
+name = _bottom_nukta;
+pos = (-60,-5);
 }
 );
 background = {
@@ -177239,7 +177387,7 @@ nodes = (
 (-45,24,o),
 (0,3,c),
 (7,23,l),
-(-20,28,o),
+(-19,38,o),
 (-68,50,o),
 (-105,50,cs),
 (-188,50,o),
@@ -177264,6 +177412,10 @@ width = 0;
 anchors = (
 {
 name = _bottom;
+},
+{
+name = _bottom_nukta;
+pos = (0,-5);
 }
 );
 background = {
@@ -179763,7 +179915,7 @@ subCategory = Spacing;
 category = Mark;
 color = 3;
 glyphname = "reph-beng.altAuLength";
-lastChange = "2024-10-15 03:59:23 +0000";
+lastChange = "2024-10-16 16:01:07 +0000";
 layers = (
 {
 anchors = (
@@ -179778,6 +179930,10 @@ pos = (-172,622);
 {
 name = top_candrabindu;
 pos = (-185,749);
+},
+{
+name = top_candrabindu_iMatra;
+pos = (-180,749);
 }
 );
 background = {
@@ -179826,6 +179982,10 @@ pos = (-148,622);
 {
 name = top_candrabindu;
 pos = (-146,707);
+},
+{
+name = top_candrabindu_iMatra;
+pos = (-142,707);
 }
 );
 background = {
@@ -179874,6 +180034,10 @@ pos = (-245,622);
 {
 name = top_candrabindu;
 pos = (-248,793);
+},
+{
+name = top_candrabindu_iMatra;
+pos = (-264,743);
 }
 );
 background = {
@@ -179916,7 +180080,7 @@ subCategory = Nonspacing;
 category = Mark;
 color = 3;
 glyphname = "reph-beng.altIMatra";
-lastChange = "2024-10-15 03:59:23 +0000";
+lastChange = "2024-10-16 15:41:28 +0000";
 layers = (
 {
 anchors = (
@@ -179929,7 +180093,7 @@ name = _top_iMatra;
 pos = (-169,644);
 },
 {
-name = top_candrabindu;
+name = top_candrabindu_iMatra;
 pos = (-259,703);
 }
 );
@@ -179977,7 +180141,7 @@ name = _top_iMatra;
 pos = (-150,674);
 },
 {
-name = top_candrabindu;
+name = top_candrabindu_iMatra;
 pos = (-204,652);
 }
 );
@@ -180025,7 +180189,7 @@ name = _top_iMatra;
 pos = (-219,635);
 },
 {
-name = top_candrabindu;
+name = top_candrabindu_iMatra;
 pos = (-344,743);
 }
 );
@@ -328914,9 +329078,6 @@ kerningLTR = {
 "@MMK_L_R_BNG_uni1CE1" = {
 "@MMK_R_L_BNG_aiMatra" = 70;
 };
-"@MMK_L_R_nn-beng_half" = {
-"@MMK_R_L_BNG_aaMatra-beng_side" = -137;
-};
 };
 UUID0 = {
 "@MMK_L_R_BNG_aaMatra_part" = {
@@ -328978,9 +329139,6 @@ UUID0 = {
 };
 "@MMK_L_R_BNG_uni1CE1" = {
 "@MMK_R_L_BNG_aiMatra" = 70;
-};
-"@MMK_L_R_nn-beng_half" = {
-"@MMK_R_L_BNG_aaMatra-beng_side" = -172;
 };
 };
 "F455777D-7EDD-47E2-866A-D8A5173CE243" = {
@@ -329049,9 +329207,6 @@ UUID0 = {
 };
 "@MMK_L_R_BNG_uni1CE1" = {
 "@MMK_R_L_BNG_aiMatra" = 70;
-};
-"@MMK_L_R_nn-beng_half" = {
-"@MMK_R_L_BNG_aaMatra-beng_side" = -233;
 };
 };
 };
