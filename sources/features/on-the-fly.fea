@@ -27,10 +27,10 @@ languagesystem bng2 PAL;
 
 @BNG_BLWS_VOWELS = [ uMatra-beng uuMatra-beng];
 
-@BNG_BLWS_BASE_ROUND = [ nga-beng ca-beng cha-beng tta-beng ttha-beng dda-beng ddha-beng ta-beng bha-beng ha-beng avagraha-beng k_tta-beng.noflag j_nya-beng ny_cha-beng tt_tta-beng.noflag dd_dda-beng nn_dda-beng t_ta-beng d_bha-beng ph_tta-beng.noflag b_bha-beng l_ta-beng ss_tta-beng.noflag ss_ttha-beng ha_uMatra-beng ta-beng.blws tha-beng.blws bha-beng.blws ca-beng.side cha-beng.side ttha-beng.side dda-beng.side ddha-beng.side];
+@BNG_BLWS_BASE_ROUND = [ nga-beng ca-beng cha-beng tta-beng ttha-beng dda-beng ddha-beng ta-beng bha-beng ha-beng avagraha-beng k_tta-beng.noflag j_nya-beng ny_cha-beng tt_tta-beng.noflag dd_dda-beng nn_dda-beng t_ta-beng d_bha-beng ph_tta-beng.noflag b_bha-beng l_ta-beng ss_tta-beng.noflag ss_ttha-beng.notop ha_uMatra-beng ta-beng.blws tha-beng.blws bha-beng.blws ca-beng.side cha-beng.side ttha-beng.side dda-beng.side ddha-beng.side];
 @BNG_BLWS_ROUND = [ uMatra-beng.round uuMatra-beng.round];
 
-@BNG_BLWS_BASE_ALT = [rra-beng rha-beng];
+@BNG_BLWS_BASE_ALT = [ddha-beng dda-beng ya-beng];
 @BNG_BLWS_ALT = [ uMatra-beng.alt uuMatra-beng.alt];
 
 @BNG_BLWS_BASE_ALT1 = [la-beng.blws la-beng.blws2 la-beng.blws3 ga-beng.blws nna-beng.blws1];
@@ -50,6 +50,7 @@ languagesystem bng2 PAL;
 @BNG_TTA_FLAGS = [tta-beng.flag tta-beng.flag2 tta-beng.flag3 tta-beng.flagIMatra1 tta-beng.flagIMatra2 tta-beng.flagIMatra3 tta-beng.flagIiMatra tta-beng.flagIiMatra2 tta-beng.flagIiMatra3 ];
 @BNG_TTHA_TOP = [ttha-beng.top ttha-beng.top2 ttha-beng.topIMatra ttha-beng.topIMatra2];
 
+@BNG_BASE_NUBS = [kha-beng ga-beng];
 
 @BNG_IMATRA_TTHA = [iMatra-beng.tthaAlt1 iMatra-beng.tthaAlt2 iMatra-beng.tthaAlt3];
 
@@ -263,7 +264,7 @@ lookup BNG_dflt_nukt_onTheFlyDecomp {
     sub tta-beng' [iiMatra-beng halant-beng] by ddha-beng tta-beng.flag;
     sub [iMatra-beng halant-beng] tta-beng' by ddha-beng tta-beng.flag;
 
-    # Transform tta in ddha + flag
+    # Transform ttha in tha + top
     sub ttha-beng' [halant-beng] by ttha-beng.notop ttha-beng.top;
     sub [iMatra-beng halant-beng] ttha-beng' by ttha-beng.notop ttha-beng.top;
 
@@ -584,6 +585,7 @@ lookup BNG_dflt_abvs_swapCandrabinduMarkIMatra_2 {
 
 lookup BNG_dflt_abvs_swapRephMarkIMatra_1 {
     lookupflag UseMarkFilteringSet [reph-beng reph-beng.altIMatra];
+    ignore sub iMatra-beng' @BNG_BASE_NUBS reph-beng;
     sub iMatra-beng' @BNG_ALL_BASES reph-beng by iMatra-beng reph-beng.altIMatra;
     sub iMatra-beng' @BNG_ALL_BASES @BNG_ALL_BASES reph-beng by iMatra-beng reph-beng.altIMatra;
 } BNG_dflt_abvs_swapRephMarkIMatra_1;
@@ -1007,10 +1009,14 @@ lookup BNG_dflt_blws_onTheFly_uMatraLiga{
     sub [n-beng.half3 s-beng.half3] ta-beng.blws' uMatra-beng' by ta_uMatra-beng.blws;
 } BNG_dflt_blws_onTheFly_uMatraLiga;
 
+lookup BNG_dflt_blws_vowelAlternates_nukta{
+    lookupflag UseMarkFilteringSet [nukta-beng @BNG_BLWS_VOWELS @BNG_BLWS_ALT2];
+    sub @BNG_BLWS_BASE_ALT nukta-beng @BNG_BLWS_VOWELS' by @BNG_BLWS_ALT2;
+} BNG_dflt_blws_vowelAlternates_nukta;
+
 lookup BNG_dflt_blws_vowelAlternates {
     lookupflag UseMarkFilteringSet [@BNG_BLWS_BASE_ALT1 @BNG_BLWS_BASE_ALT2 uMatra-beng.alt1 @BNG_BLWS_VOWELS @BNG_BLWS_ROUND @BNG_BLWS_ALT @BNG_BLWS_BASE_ROUND @BNG_BLWS_BASE_ALT @BNG_RAPHALAS @BNG_BAPHALAS];
     sub @BNG_BLWS_BASE_ROUND @BNG_BLWS_VOWELS' by @BNG_BLWS_ROUND;
-    sub @BNG_BLWS_BASE_ALT @BNG_BLWS_VOWELS' by @BNG_BLWS_ALT;
     sub @BNG_BLWS_BASE_ALT1 uMatra-beng' by uMatra-beng.alt1;
     sub @BNG_BLWS_BASE_ALT2 @BNG_BLWS_VOWELS' by @BNG_BLWS_ALT2;
 } BNG_dflt_blws_vowelAlternates;
@@ -1054,8 +1060,10 @@ lookup BNG_dflt_psts_iiMatra{
 } BNG_dflt_psts_iiMatra;
 
 lookup BNG_dflt_psts_auLengthMatra {
-    lookupflag IgnoreMarks;
-    sub [ttha-beng ss_ttha-beng tth-beng.half ttha-beng.side] auLength-beng' by auLength-beng.long;
+    lookupflag UseMarkFilteringSet [@BNG_TTA_FLAGS];
+    sub [ttha-beng ttha-beng.notop ss_ttha-beng.notop tth-beng.half ttha-beng.side] auLength-beng' by auLength-beng.long;
+    sub tta-beng auLength-beng' by auLength-beng.short;
+    sub [ddha-beng tt_tta-beng.noflag ddh-beng.half ddh-beng.half2 ddha-beng.side ddh-beng.side ss_tta-beng.noflag] @BNG_TTA_FLAGS auLength-beng' by auLength-beng.short;
 } BNG_dflt_psts_auLengthMatra;
 
 lookup BNG_dflt_psts_yaPstf {
