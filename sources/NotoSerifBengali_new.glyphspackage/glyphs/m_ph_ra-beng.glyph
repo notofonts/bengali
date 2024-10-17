@@ -3,6 +3,7 @@ color = 9;
 glyphname = "m_ph_ra-beng";
 layers = (
 {
+color = 0;
 layerId = "94EB6DF8-7434-4BE0-9F23-77BCD575F5B8";
 shapes = (
 {
@@ -42,6 +43,7 @@ ref = "ra-beng.blwf";
 width = 1038;
 },
 {
+color = 0;
 layerId = "33F2F8B2-CCE7-4937-A852-9C044B0330C5";
 shapes = (
 {

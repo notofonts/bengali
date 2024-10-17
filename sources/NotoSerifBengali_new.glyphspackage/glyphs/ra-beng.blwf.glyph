@@ -185,11 +185,11 @@ pos = (-2,0);
 },
 {
 name = bottom;
-pos = (-2,-169);
+pos = (0,-169);
 },
 {
 name = bottom.rvocalic;
-pos = (-2,-148);
+pos = (0,-148);
 }
 );
 layerId = "33F2F8B2-CCE7-4937-A852-9C044B0330C5";
@@ -244,11 +244,11 @@ pos = (4,0);
 },
 {
 name = bottom;
-pos = (4,-184);
+pos = (0,-184);
 },
 {
 name = bottom.rvocalic;
-pos = (4,-181);
+pos = (0,-181);
 }
 );
 layerId = "5278E13D-D735-4789-ABCD-F52B0BBC306E";
@@ -303,11 +303,11 @@ pos = (3,0);
 },
 {
 name = bottom;
-pos = (3,-250);
+pos = (0,-250);
 },
 {
 name = bottom.rvocalic;
-pos = (3,-260);
+pos = (0,-260);
 }
 );
 layerId = "03D26766-37BE-4C80-9191-ECBB7A84F3C2";
