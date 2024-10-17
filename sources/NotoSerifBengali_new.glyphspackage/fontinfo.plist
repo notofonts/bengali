@@ -1,5 +1,5 @@
 {
-.appVersion = "3309";
+.appVersion = "3151";
 .formatVersion = 3;
 axes = (
 {
@@ -2698,32 +2698,7 @@ axesValues = (
 customParameters = (
 {
 name = "Replace Feature";
-value = "abvm;
-# Automatic Code End
-lookup contextual_candrabindu_pos {
-	pos [iMatra-beng.wide3] base [s_tt_ra-beng] <anchor 626 674> mark @mark_top';
-	pos [iMatra-beng] base [jha-beng jh_ba-beng] <anchor 481 570> mark @mark_top';
-	pos [iMatra-beng] base [ttha-beng] <anchor 426 617> mark @mark_top';
-	pos [iMatra-beng.wide2] base [c_cha-beng] <anchor 533 670> mark @mark_top';
-	pos [iMatra-beng.wide2] base [c_nya-beng] <anchor 696 570> mark @mark_top';
-	pos [iMatra-beng.wide2] base [j_ba-beng j_ra-beng] <anchor 653 600> mark @mark_top';
-	pos [iMatra-beng.wide4] base [j_ja-beng] <anchor 785 644> mark @mark_top';
-	pos [iMatra-beng.wide3] base [j_jha-beng] <anchor 678 640> mark @mark_top';
-	pos [iMatra-beng.wide1] base [ny_ba-beng] <anchor 569 573> mark @mark_top';
-	pos [iMatra-beng.wide1] base [ny_ra-beng] <anchor 573 570> mark @mark_top';
-	pos [iMatra-beng] base [tth_ba-beng] <anchor 426 614> mark @mark_top';
-	pos [iMatra-beng.wide4] base [dd_dda-beng] <anchor 907 570> mark @mark_top';
-	pos [iMatra-beng.wide2] base [dd_ma-beng] <anchor 645 610> mark @mark_top';
-	pos [iMatra-beng.wide1] base [nn_ttha-beng] <anchor 542 557> mark @mark_top_th';
-	pos [iMatra-beng.wide2] base [nn_dda-beng nn_dd_ra-beng] <anchor 569 644> mark @mark_top';
-	pos [iMatra-beng.wide3] base [nn_ddha-beng] <anchor 671 650> mark @mark_top';
-	pos [iMatra-beng.wide2] base [t_ma-beng] <anchor 645 606> mark @mark_top';
-	pos [iMatra-beng.wide1] base [d_da-beng] <anchor 480 640> mark @mark_top';
-	pos [iMatra-beng.wide3] base [b_ja-beng] <anchor 716 620> mark @mark_top';
-	pos [iMatra-beng.wide2] base [b_da-beng] <anchor 610 626> mark @mark_top';
-	pos [iMatra-beng.wide1] base [m_ta-beng m_bha-beng] <anchor 474 644> mark @mark_top';
-	pos [iMatra-beng.wide4] base [j_j_ba-beng] <anchor 915 570> mark @mark_top';
-} contextual_candrabindu_pos ;";
+value = "abvm;\012# Automatic Code End\012lookup contextual_candrabindu_pos {\012	pos [iMatra-beng.wide3] base [s_tt_ra-beng] <anchor 626 674> mark @mark_top';\012	pos [iMatra-beng] base [jha-beng jh_ba-beng] <anchor 481 570> mark @mark_top';\012	pos [iMatra-beng] base [ttha-beng] <anchor 426 617> mark @mark_top';\012	pos [iMatra-beng.wide2] base [c_cha-beng] <anchor 533 670> mark @mark_top';\012	pos [iMatra-beng.wide2] base [c_nya-beng] <anchor 696 570> mark @mark_top';\012	pos [iMatra-beng.wide2] base [j_ba-beng j_ra-beng] <anchor 653 600> mark @mark_top';\012	pos [iMatra-beng.wide4] base [j_ja-beng] <anchor 785 644> mark @mark_top';\012	pos [iMatra-beng.wide3] base [j_jha-beng] <anchor 678 640> mark @mark_top';\012	pos [iMatra-beng.wide1] base [ny_ba-beng] <anchor 569 573> mark @mark_top';\012	pos [iMatra-beng.wide1] base [ny_ra-beng] <anchor 573 570> mark @mark_top';\012	pos [iMatra-beng] base [tth_ba-beng] <anchor 426 614> mark @mark_top';\012	pos [iMatra-beng.wide4] base [dd_dda-beng] <anchor 907 570> mark @mark_top';\012	pos [iMatra-beng.wide2] base [dd_ma-beng] <anchor 645 610> mark @mark_top';\012	pos [iMatra-beng.wide1] base [nn_ttha-beng] <anchor 542 557> mark @mark_top_th';\012	pos [iMatra-beng.wide2] base [nn_dda-beng nn_dd_ra-beng] <anchor 569 644> mark @mark_top';\012	pos [iMatra-beng.wide3] base [nn_ddha-beng] <anchor 671 650> mark @mark_top';\012	pos [iMatra-beng.wide2] base [t_ma-beng] <anchor 645 606> mark @mark_top';\012	pos [iMatra-beng.wide1] base [d_da-beng] <anchor 480 640> mark @mark_top';\012	pos [iMatra-beng.wide3] base [b_ja-beng] <anchor 716 620> mark @mark_top';\012	pos [iMatra-beng.wide2] base [b_da-beng] <anchor 610 626> mark @mark_top';\012	pos [iMatra-beng.wide1] base [m_ta-beng m_bha-beng] <anchor 474 644> mark @mark_top';\012	pos [iMatra-beng.wide4] base [j_j_ba-beng] <anchor 915 570> mark @mark_top';\012} contextual_candrabindu_pos ;";
 },
 {
 name = panose;
