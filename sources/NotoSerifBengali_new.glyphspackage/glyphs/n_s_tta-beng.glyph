@@ -4,7 +4,12 @@ glyphname = "n_s_tta-beng";
 layers = (
 {
 layerId = "94EB6DF8-7434-4BE0-9F23-77BCD575F5B8";
-width = 240;
+shapes = (
+{
+ref = "s_tta-beng";
+}
+);
+width = 830;
 },
 {
 layerId = "B2542900-2B87-4688-8902-A06B6D3D93DD";
