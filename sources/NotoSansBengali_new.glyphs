@@ -1,21 +1,6 @@
 {
 .appVersion = "3309";
 .formatVersion = 3;
-DisplayStrings = (
-"/baphala-beng.alt4/b-beng.half2/g-beng.half/nn-beng.half/d-beng.half3/n-beng.headline/p-beng.half/m-beng.half/l-beng.half3/sh-beng.half/ss-beng.half4/s-beng.half/g_ga-beng ক
-/m_b_ra-beng 
-
-
-/raphala-beng/raphala-beng.alt11/raphala-beng.alt15/g_ba-beng 
-
-হ /h-beng.half2   /headline-beng.250/ka-beng.arm2 
-
-/m_p_la-beng/p-beng.half/iMatra-beng.long06/ss_p_la-beng/m_p_la-beng/s_p_la-beng/p_na-beng/p_pa-beng/p_ba-beng/p_ma-beng/p_la-beng/p_wa-beng/ss_p_ra-beng 
-হ/h-beng.half/h-beng.half2  /ka-beng.arm2 
-
-/ga-beng.side/d_ga-beng/raphala-beng.alt12 
-"
-);
 axes = (
 {
 name = Weight;
@@ -131439,7 +131424,7 @@ category = Letter;
 color = 7;
 glyphname = "ga-beng.side";
 kernLeft = L_BNG_ga_side;
-lastChange = "2024-10-24 18:25:40 +0000";
+lastChange = "2024-11-04 15:52:15 +0000";
 layers = (
 {
 anchors = (
@@ -132030,10 +132015,6 @@ anchors = (
 {
 name = bottom;
 pos = (479,0);
-},
-{
-name = bottomVattu;
-pos = (480,80);
 },
 {
 name = nukta;
