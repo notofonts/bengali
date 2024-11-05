@@ -1968,6 +1968,7 @@ stemValues = (
 20,
 23
 );
+visible = 1;
 },
 {
 axesValues = (
@@ -2114,6 +2115,7 @@ GSOffsetHorizontal = 5;
 GSOffsetMakeStroke = 1;
 GSOffsetVertical = 5;
 };
+visible = 1;
 },
 {
 axesValues = (
@@ -2256,6 +2258,7 @@ stemValues = (
 86,
 115
 );
+visible = 1;
 },
 {
 axesValues = (

@@ -13,7 +13,12 @@ width = 484;
 },
 {
 layerId = "B2542900-2B87-4688-8902-A06B6D3D93DD";
-width = 600;
+shapes = (
+{
+ref = "tt_ra-beng";
+}
+);
+width = 560;
 },
 {
 layerId = "18A8C34B-6260-4854-BBF8-229863F38B25";
