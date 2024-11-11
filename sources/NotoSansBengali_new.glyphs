@@ -1,9 +1,6 @@
 {
 .appVersion = "3309";
 .formatVersion = 3;
-DisplayStrings = (
-"  /ttha-beng.notop ়ঠ  /raphala-beng  /ta-beng.blws ꣱/n_tha-beng/n_th_ra-beng/m_tha-beng/s_tha-beng/k_ssa-beng খ/d_bha-beng/b_bha-beng ফত"
-);
 axes = (
 {
 name = Weight;
@@ -146950,10 +146947,10 @@ script = bengali;
 subCategory = Spacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "raphala-beng";
-lastChange = "2024-11-11 16:24:14 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -147168,13 +147165,13 @@ width = 689;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "raphala-beng.alt01";
-lastChange = "2024-11-11 16:24:13 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -147389,13 +147386,13 @@ width = 669;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "raphala-beng.alt02";
-lastChange = "2024-11-11 16:24:12 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -147584,13 +147581,13 @@ width = 729;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "raphala-beng.alt03";
-lastChange = "2024-11-11 16:24:11 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -147794,13 +147791,13 @@ width = 598;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "raphala-beng.alt04";
-lastChange = "2024-11-11 16:24:10 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -148005,13 +148002,13 @@ width = 700;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "raphala-beng.alt05";
-lastChange = "2024-11-11 16:24:09 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -148307,13 +148304,13 @@ width = 655;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "raphala-beng.alt06";
-lastChange = "2024-11-11 16:24:08 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -148538,13 +148535,13 @@ width = 546;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "raphala-beng.alt07";
-lastChange = "2024-11-11 16:24:08 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -148759,13 +148756,13 @@ width = 568;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "raphala-beng.alt08";
-lastChange = "2024-11-11 16:24:07 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -148956,13 +148953,13 @@ width = 773;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "raphala-beng.alt09";
-lastChange = "2024-11-11 16:24:06 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -149141,13 +149138,13 @@ width = 635;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "raphala-beng.alt10";
-lastChange = "2024-11-11 16:24:05 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -149521,13 +149518,13 @@ width = 596;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "raphala-beng.alt11";
-lastChange = "2024-11-11 16:24:04 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -149752,13 +149749,13 @@ width = 561;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "raphala-beng.alt12";
-lastChange = "2024-11-11 16:24:03 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -149949,13 +149946,13 @@ width = 886;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "raphala-beng.alt13";
-lastChange = "2024-11-11 16:24:03 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -150180,13 +150177,13 @@ width = 561;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "raphala-beng.alt14";
-lastChange = "2024-11-11 16:24:02 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -150389,13 +150386,13 @@ width = 576;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "raphala-beng.alt15";
-lastChange = "2024-11-11 16:24:01 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -150620,13 +150617,13 @@ width = 561;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "baphala-beng";
-lastChange = "2024-11-11 16:15:50 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -150967,13 +150964,13 @@ width = 456;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "baphala-beng.alt1";
-lastChange = "2024-11-11 16:15:50 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -151296,13 +151293,13 @@ width = 486;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "baphala-beng.alt2";
-lastChange = "2024-11-11 16:15:50 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -151655,13 +151652,13 @@ width = 489;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "baphala-beng.alt3";
-lastChange = "2024-11-11 16:15:50 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -152026,13 +152023,13 @@ width = 456;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "baphala-beng.alt4";
-lastChange = "2024-11-11 16:15:50 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -152406,13 +152403,13 @@ width = 476;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "ga-beng.blws";
-lastChange = "2024-11-11 16:25:16 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -152757,13 +152754,13 @@ width = 619;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "nna-beng.blws";
-lastChange = "2024-11-11 16:26:04 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -153243,13 +153240,13 @@ width = 507;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "nna-beng.blws1";
-lastChange = "2024-11-11 16:26:28 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -153729,13 +153726,13 @@ width = 572;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "ta-beng.blws";
-lastChange = "2024-11-11 16:26:57 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -154318,13 +154315,13 @@ width = 850;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "ta_uMatra-beng.blws";
-lastChange = "2024-11-11 16:27:28 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -154858,13 +154855,13 @@ width = 849;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "t_ra-beng.blws";
-lastChange = "2024-11-11 16:27:52 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -156347,13 +156344,13 @@ width = 1107;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "tha-beng.blws";
-lastChange = "2024-11-11 16:28:54 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -157369,13 +157366,13 @@ width = 536;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "dh_ba-beng.blws";
-lastChange = "2024-11-11 16:15:50 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -157790,13 +157787,13 @@ width = 729;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "na-beng.blws";
-lastChange = "2024-11-11 16:29:41 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -158127,13 +158124,13 @@ width = 511;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "na-beng.blws1";
-lastChange = "2024-11-11 16:30:06 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -158566,13 +158563,13 @@ width = 534;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "na-beng.blws2";
-lastChange = "2024-11-11 16:30:40 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -159005,13 +159002,13 @@ width = 529;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "na-beng.blws3";
-lastChange = "2024-11-11 16:30:59 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -159444,13 +159441,13 @@ width = 534;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "pa-beng.blws";
-lastChange = "2024-11-11 16:31:37 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -159920,13 +159917,13 @@ width = 666;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "bha-beng.blws";
-lastChange = "2024-11-11 16:32:00 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -160375,13 +160372,13 @@ width = 833;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "la-beng.blws";
-lastChange = "2024-11-11 16:32:33 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -160897,13 +160894,13 @@ width = 580;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "la-beng.blws1";
-lastChange = "2024-11-11 16:32:56 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -161502,13 +161499,13 @@ width = 601;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "la-beng.blws2";
-lastChange = "2024-11-11 16:33:29 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -162101,13 +162098,13 @@ width = 600;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "la-beng.blws3";
-lastChange = "2024-11-11 16:34:00 +0000";
+lastChange = "2024-11-11 16:37:22 +0000";
 layers = (
 {
 anchors = (
@@ -162396,7 +162393,7 @@ width = 580;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 },
 {
 category = Mark;
