@@ -286,6 +286,8 @@ lookup BNG_dflt_nukt_onTheFlyDecomp {
 } BNG_dflt_nukt_onTheFlyDecomp;
 
 lookup BNG_dflt_nukt_onTheFlyComp {
+	lookupflag 0;
+	sub ba-beng' nukta-beng' by ra-beng;
     sub na-beng halant-beng ta_uMatra-beng.blws halant-beng' ta-beng' by ka-beng.arm2;
 }BNG_dflt_nukt_onTheFlyComp;
 
@@ -1194,7 +1196,6 @@ lookup BNG_dflt_psts_iiMatra{
     sub @BNG_BASE_IIMATRA_TTA @BNG_TTA_FLAGS iiMatra-beng' by iiMatra-beng.ttaAlt1;
     # ttha
     sub @BNG_BASE_IIMATRA_TTHA iiMatra-beng' by iiMatra-beng.tthaAlt1;
-#    sub ttha-beng.side iiMatra-beng' by iiMatra-beng.tthaAlt2;
     # no headline
     sub @BNG_BASE_IIMATRA_NO_HEADLINE iiMatra-beng' by iiMatra-beng.alt;
 } BNG_dflt_psts_iiMatra;
