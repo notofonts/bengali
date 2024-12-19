@@ -2,7 +2,7 @@
 .appVersion = "3309";
 .formatVersion = 3;
 DisplayStrings = (
-"/p-beng.half/p_ma-beng"
+"ৰ/ramiddlediagonal_uMatra-beng"
 );
 axes = (
 {
@@ -618,12 +618,14 @@ lookup BNG_dflt_vedic_extension_shift {
 	pos d-beng.half2 @SideExtensionBases @VedicMarks' <$VEDIC_dHalf2 0 0 0>;
 	pos d-beng.half3 @SideExtensionBases @VedicMarks' <$VEDIC_dHalf3 0 0 0>;
 	pos d-beng.half4 @SideExtensionBases @VedicMarks' <$VEDIC_dHalf4 0 0 0>;
+	pos p-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_pHalf 0 0 0>;
 	pos p-beng.half3 @SideExtensionBases @VedicMarks' <$VEDIC_pHalf3 0 0 0>;
 	pos b-beng.half2 ka-beng.arm @VedicMarks' <$VEDIC_bHalf2 0 0 0>;
 	pos m-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_mHalf 0 0 0>;
+	pos ra-beng @SideExtensionBases @VedicMarks' <$VEDIC_ra 0 0 0>;
+	pos l-beng.half3 @SideExtensionBases @VedicMarks' <$VEDIC_lHalf3 0 0 0>;
 	pos sh-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_shHalf 0 0 0>;
-	pos ss-beng.half4 @SideExtensionBases @VedicMarks' <$VEDIC_ssHalf4 0 0 0>;
-	pos ss-beng.half4 @SideExtensionBases @VedicMarks' <$VEDIC_ssHalf4 0 0 0>;
+	pos sh-beng.half2 @SideExtensionBases @VedicMarks' <$VEDIC_shHalf2 0 0 0>;
 	pos ss-beng.half4 @SideExtensionBases @VedicMarks' <$VEDIC_ssHalf4 0 0 0>;
 	pos s-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_sHalf 0 0 0>;
 } BNG_dflt_vedic_extension_shift;
@@ -633,13 +635,18 @@ lookup BNG_dflt_vedic_extension_shift2 {
 	pos g-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_gHalf 0 0 0>;
 	pos g-beng.half2 @SideExtensionBases @VedicMarks' <$VEDIC_gHalf2 0 0 0>;
 	pos ng-beng.half [headline-beng.130 headline-beng.100] @SideExtensionBases @VedicMarks' <$VEDIC_ng 0 0 0>;
+	pos n-beng.headline [ddha-beng.side ddh-beng.side ttha-beng.side dda-beng.side] @VedicMarks' <$VEDIC_nHeadline 0 0 0>;
 	pos [b-beng.half dh-beng.half] @SideExtensionBases @VedicMarks' <$VEDIC_bHalf 0 0 0>;
+	pos ss-beng.half3 headline-beng.200 @VedicMarks' <$VEDIC_ssHalf3 0 0 0>;
+	pos s-beng.half2 @SideExtensionBases @VedicMarks' <$VEDIC_sHalf2 0 0 0>;
+	pos s-beng.half4 @SideExtensionBases @VedicMarks' <$VEDIC_sHalf4 0 0 0>;
 } BNG_dflt_vedic_extension_shift2;
 
 lookup BNG_dflt_vedic_extension_shift3{
 	lookupflag UseMarkFilteringSet [@VedicMarks @SideExtensionBases];
 	pos th-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_thHalf 0 0 0>;
 	pos bh-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_bhHalf 0 0 0>;
+	pos ramiddlediagonal-beng @SideExtensionBases @VedicMarks' <$VEDIC_ramiddlediagonal 0 0 0>;
 } BNG_dflt_vedic_extension_shift3;
 
 
@@ -728,15 +735,24 @@ numberValues = (
 -232,
 -287,
 -185,
+-247,
 -353,
+-312,
 -322,
 -276,
 -263,
 -266,
 -281,
+-286,
+-299,
 -297,
+-317,
+-305,
 -235,
--308
+-308,
+-298,
+-315,
+-276
 );
 userData = {
 GSSlanterCursivy = 0;
@@ -836,15 +852,24 @@ numberValues = (
 -265,
 -311,
 -216,
+-272,
 -369,
+-350,
 -308,
 -293,
 -287,
 -293,
 -293,
+-298,
+-334,
 -341,
+-363,
+-298,
 -258,
--320
+-320,
+-311,
+-333,
+-298
 );
 userData = {
 GSOffsetHorizontal = 10;
@@ -938,15 +963,24 @@ numberValues = (
 -337,
 -297,
 -249,
+-297,
 -385,
+-375,
 -376,
 -300,
 -287,
 -333,
 -316,
+-302,
+-360,
 -351,
+-399,
+-338,
 -281,
--341
+-341,
+-329,
+-360,
+-297
 );
 visible = 1;
 }
@@ -207765,10 +207799,10 @@ width = 1284;
 );
 },
 {
-color = 9;
+color = 5;
 export = 0;
 glyphname = "tt_tt_ra-beng";
-lastChange = "2024-12-19 18:38:33 +0000";
+lastChange = "2024-12-19 23:13:15 +0000";
 layers = (
 {
 layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
@@ -208457,10 +208491,10 @@ width = 594;
 metricWidth = dababeng;
 },
 {
-color = 2;
+color = 3;
 export = 0;
 glyphname = "n_k_ta-beng";
-lastChange = "2024-12-19 20:24:02 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
@@ -209067,10 +209101,10 @@ width = 1096;
 );
 },
 {
-color = 2;
+color = 3;
 export = 0;
 glyphname = "m_wa-beng";
-lastChange = "2024-12-19 20:43:50 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -209647,10 +209681,10 @@ width = 1103;
 );
 },
 {
-color = 2;
+color = 3;
 export = 0;
 glyphname = "s_k_la-beng";
-lastChange = "2024-12-19 20:43:57 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
@@ -210018,10 +210052,10 @@ width = 1145;
 );
 },
 {
-color = 2;
+color = 3;
 export = 0;
 glyphname = "s_wa-beng";
-lastChange = "2024-12-19 20:44:13 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -234577,10 +234611,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 8;
+color = 5;
 export = 0;
 glyphname = "tt_tta-beng";
-lastChange = "2024-11-28 20:05:30 +0000";
+lastChange = "2024-12-19 23:13:11 +0000";
 layers = (
 {
 background = {
@@ -234964,10 +234998,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 8;
+color = 5;
 export = 0;
 glyphname = "tt_ba-beng";
-lastChange = "2024-11-28 20:05:30 +0000";
+lastChange = "2024-12-19 23:13:11 +0000";
 layers = (
 {
 background = {
@@ -235597,10 +235631,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 8;
+color = 5;
 export = 0;
 glyphname = "tt_ra-beng";
-lastChange = "2024-11-28 20:05:30 +0000";
+lastChange = "2024-12-19 23:13:11 +0000";
 layers = (
 {
 background = {
@@ -235931,10 +235965,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 8;
+color = 5;
 export = 0;
 glyphname = "tt_wa-beng";
-lastChange = "2024-11-28 20:05:30 +0000";
+lastChange = "2024-12-19 23:13:11 +0000";
 layers = (
 {
 background = {
@@ -251023,10 +251057,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 8;
+color = 5;
 export = 0;
 glyphname = "d_ra_uMatra-beng";
-lastChange = "2024-12-19 19:15:08 +0000";
+lastChange = "2024-12-19 23:13:31 +0000";
 layers = (
 {
 background = {
@@ -251403,10 +251437,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 8;
+color = 5;
 export = 0;
 glyphname = "d_ra_uuMatra-beng";
-lastChange = "2024-12-19 19:15:37 +0000";
+lastChange = "2024-12-19 23:13:31 +0000";
 layers = (
 {
 background = {
@@ -254513,10 +254547,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "n_tta-beng";
-lastChange = "2024-12-19 18:42:30 +0000";
+lastChange = "2024-12-19 22:49:40 +0000";
 layers = (
 {
 background = {
@@ -254974,10 +255008,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "n_tt_ra-beng";
-lastChange = "2024-12-19 18:42:14 +0000";
+lastChange = "2024-12-19 22:49:40 +0000";
 layers = (
 {
 background = {
@@ -255546,10 +255580,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "n_ttha-beng";
-lastChange = "2024-12-19 18:49:24 +0000";
+lastChange = "2024-12-19 22:49:40 +0000";
 layers = (
 {
 background = {
@@ -255935,10 +255969,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "n_tth_ra-beng";
-lastChange = "2024-12-19 18:49:24 +0000";
+lastChange = "2024-12-19 22:49:40 +0000";
 layers = (
 {
 background = {
@@ -256336,10 +256370,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "n_dda-beng";
-lastChange = "2024-12-19 18:50:11 +0000";
+lastChange = "2024-12-19 22:49:40 +0000";
 layers = (
 {
 background = {
@@ -256686,10 +256720,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "n_dd_ra-beng";
-lastChange = "2024-12-19 18:50:11 +0000";
+lastChange = "2024-12-19 22:49:40 +0000";
 layers = (
 {
 background = {
@@ -256925,10 +256959,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "n_ddha-beng";
-lastChange = "2024-12-19 18:42:30 +0000";
+lastChange = "2024-12-19 22:49:40 +0000";
 layers = (
 {
 background = {
@@ -257392,10 +257426,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "n_ddh_ra-beng";
-lastChange = "2024-12-19 18:42:14 +0000";
+lastChange = "2024-12-19 22:49:40 +0000";
 layers = (
 {
 background = {
@@ -260600,7 +260634,7 @@ category = Letter;
 color = 3;
 export = 0;
 glyphname = "n_da-beng";
-lastChange = "2024-12-19 18:50:43 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -260923,7 +260957,7 @@ category = Letter;
 color = 3;
 export = 0;
 glyphname = "n_d_ba-beng";
-lastChange = "2024-12-19 18:50:44 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -261315,7 +261349,7 @@ category = Letter;
 color = 3;
 export = 0;
 glyphname = "n_d_ra-beng";
-lastChange = "2024-12-19 18:50:59 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -261734,7 +261768,7 @@ category = Letter;
 color = 3;
 export = 0;
 glyphname = "n_d_wa-beng";
-lastChange = "2024-12-19 18:50:44 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -262138,7 +262172,7 @@ category = Letter;
 color = 3;
 export = 0;
 glyphname = "n_dha-beng";
-lastChange = "2024-12-19 18:40:36 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -262578,7 +262612,7 @@ category = Letter;
 color = 3;
 export = 0;
 glyphname = "n_dh_ba-beng";
-lastChange = "2024-12-19 18:40:36 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -262913,7 +262947,7 @@ category = Letter;
 color = 3;
 export = 0;
 glyphname = "n_dh_ra-beng";
-lastChange = "2024-12-19 18:40:36 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -263467,7 +263501,7 @@ category = Letter;
 color = 3;
 export = 0;
 glyphname = "n_dh_wa-beng";
-lastChange = "2024-12-19 18:40:36 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -264481,7 +264515,7 @@ category = Letter;
 color = 3;
 export = 0;
 glyphname = "n_ma-beng";
-lastChange = "2024-12-19 18:46:04 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -269046,10 +269080,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "p_ma-beng";
-lastChange = "2024-12-19 18:46:04 +0000";
+lastChange = "2024-12-19 22:41:30 +0000";
 layers = (
 {
 background = {
@@ -272178,10 +272212,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 2;
+color = 3;
 export = 0;
 glyphname = "b_dha-beng";
-lastChange = "2024-12-19 20:23:58 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -275548,10 +275582,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 2;
+color = 3;
 export = 0;
 glyphname = "bh_ra_uuMatra-beng";
-lastChange = "2024-12-19 22:37:13 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -283743,10 +283777,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "ra_uMatra-beng";
-lastChange = "2024-12-19 18:46:20 +0000";
+lastChange = "2024-12-19 22:52:41 +0000";
 layers = (
 {
 background = {
@@ -284053,10 +284087,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 4;
+color = 5;
 export = 0;
 glyphname = "ra_uuMatra-beng";
-lastChange = "2024-11-28 20:13:12 +0000";
+lastChange = "2024-12-19 22:52:41 +0000";
 layers = (
 {
 background = {
@@ -284357,7 +284391,7 @@ category = Letter;
 color = 3;
 export = 0;
 glyphname = "l_ka-beng";
-lastChange = "2024-12-19 18:40:36 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -285246,10 +285280,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "l_tta-beng";
-lastChange = "2024-12-19 18:42:30 +0000";
+lastChange = "2024-12-19 22:57:48 +0000";
 layers = (
 {
 background = {
@@ -285746,10 +285780,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "l_tt_ra-beng";
-lastChange = "2024-12-19 18:42:14 +0000";
+lastChange = "2024-12-19 22:57:48 +0000";
 layers = (
 {
 background = {
@@ -286357,10 +286391,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "l_dda-beng";
-lastChange = "2024-12-19 18:50:11 +0000";
+lastChange = "2024-12-19 22:57:48 +0000";
 layers = (
 {
 background = {
@@ -286746,10 +286780,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "l_dd_ra-beng";
-lastChange = "2024-12-19 18:50:11 +0000";
+lastChange = "2024-12-19 22:57:48 +0000";
 layers = (
 {
 background = {
@@ -286972,10 +287006,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "l_ddha-beng";
-lastChange = "2024-12-19 18:42:30 +0000";
+lastChange = "2024-12-19 22:57:48 +0000";
 layers = (
 {
 background = {
@@ -287460,10 +287494,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "l_ddh_ra-beng";
-lastChange = "2024-12-19 18:42:14 +0000";
+lastChange = "2024-12-19 22:57:48 +0000";
 layers = (
 {
 background = {
@@ -288059,10 +288093,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "l_da-beng";
-lastChange = "2024-12-19 18:50:43 +0000";
+lastChange = "2024-12-19 22:57:48 +0000";
 layers = (
 {
 background = {
@@ -288412,10 +288446,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "l_d_ra-beng";
-lastChange = "2024-12-19 18:45:47 +0000";
+lastChange = "2024-12-19 22:57:48 +0000";
 layers = (
 {
 background = {
@@ -288762,7 +288796,7 @@ category = Letter;
 color = 3;
 export = 0;
 glyphname = "l_dha-beng";
-lastChange = "2024-12-19 18:40:36 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -290052,7 +290086,7 @@ category = Letter;
 color = 3;
 export = 0;
 glyphname = "l_ma-beng";
-lastChange = "2024-12-19 18:46:04 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -294389,7 +294423,7 @@ category = Letter;
 color = 3;
 export = 0;
 glyphname = "sh_ra_uMatra-beng";
-lastChange = "2024-12-19 18:46:20 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -294889,7 +294923,7 @@ category = Letter;
 color = 3;
 export = 0;
 glyphname = "sh_ra_uuMatra-beng";
-lastChange = "2024-12-19 18:47:02 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -296272,10 +296306,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 2;
+color = 3;
 export = 0;
 glyphname = "ss_ka-beng";
-lastChange = "2024-12-19 20:43:39 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -296757,10 +296791,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "ss_k_ra-beng";
-lastChange = "2024-12-19 18:43:37 +0000";
+lastChange = "2024-12-19 23:05:08 +0000";
 layers = (
 {
 background = {
@@ -297365,10 +297399,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 10;
+color = 5;
 export = 0;
 glyphname = "ss_tta-beng";
-lastChange = "2024-11-11 16:45:46 +0000";
+lastChange = "2024-12-19 23:13:11 +0000";
 layers = (
 {
 background = {
@@ -297874,10 +297908,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 10;
+color = 5;
 export = 0;
 glyphname = "ss_tt_ra-beng";
-lastChange = "2024-11-28 20:33:37 +0000";
+lastChange = "2024-12-19 23:13:11 +0000";
 layers = (
 {
 background = {
@@ -300127,10 +300161,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 2;
+color = 3;
 export = 0;
 glyphname = "ss_ba-beng";
-lastChange = "2024-12-19 20:43:39 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -301037,10 +301071,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 2;
+color = 3;
 export = 0;
 glyphname = "ss_wa-beng";
-lastChange = "2024-12-19 20:43:39 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -301169,10 +301203,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 2;
+color = 3;
 export = 0;
 glyphname = "s_ka-beng";
-lastChange = "2024-12-19 20:44:13 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -301615,7 +301649,7 @@ category = Letter;
 color = 3;
 export = 0;
 glyphname = "s_k_ra-beng";
-lastChange = "2024-12-19 18:43:37 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -302174,10 +302208,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "s_tta-beng";
-lastChange = "2024-12-19 18:42:30 +0000";
+lastChange = "2024-12-19 23:08:36 +0000";
 layers = (
 {
 background = {
@@ -302698,10 +302732,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "s_tt_ra-beng";
-lastChange = "2024-12-19 18:42:14 +0000";
+lastChange = "2024-12-19 23:08:36 +0000";
 layers = (
 {
 background = {
@@ -303345,10 +303379,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "s_ddha-beng";
-lastChange = "2024-12-19 18:42:30 +0000";
+lastChange = "2024-12-19 23:08:39 +0000";
 layers = (
 {
 background = {
@@ -303857,10 +303891,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "s_ddh_ra-beng";
-lastChange = "2024-12-19 18:42:14 +0000";
+lastChange = "2024-12-19 23:08:46 +0000";
 layers = (
 {
 background = {
@@ -307875,10 +307909,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 2;
+color = 3;
 export = 0;
 glyphname = "s_ba-beng";
-lastChange = "2024-12-19 20:44:18 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -308926,7 +308960,7 @@ category = Letter;
 color = 3;
 export = 0;
 glyphname = "s_ra_uMatra-beng";
-lastChange = "2024-12-19 18:46:20 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -309363,10 +309397,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "s_ra_uuMatra-beng";
-lastChange = "2024-12-19 18:40:36 +0000";
+lastChange = "2024-12-19 23:12:16 +0000";
 layers = (
 {
 background = {
@@ -310663,7 +310697,7 @@ category = Letter;
 color = 3;
 export = 0;
 glyphname = "s_la_uMatra-beng";
-lastChange = "2024-12-19 18:46:20 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -311193,7 +311227,7 @@ category = Letter;
 color = 3;
 export = 0;
 glyphname = "ha_rVocalicMatra-beng";
-lastChange = "2024-12-19 18:43:37 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -312001,7 +312035,7 @@ category = Letter;
 color = 3;
 export = 0;
 glyphname = "h_na-beng";
-lastChange = "2024-12-19 18:44:29 +0000";
+lastChange = "2024-12-19 23:17:45 +0000";
 layers = (
 {
 background = {
@@ -336615,10 +336649,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 3;
+color = 5;
 export = 0;
 glyphname = "ramiddlediagonal_uMatra-beng";
-lastChange = "2024-12-19 18:46:20 +0000";
+lastChange = "2024-12-19 23:17:15 +0000";
 layers = (
 {
 background = {
@@ -336950,10 +336984,10 @@ subCategory = Spacing;
 },
 {
 category = Letter;
-color = 4;
+color = 5;
 export = 0;
 glyphname = "ramiddlediagonal_uuMatra-beng";
-lastChange = "2024-11-28 20:13:12 +0000";
+lastChange = "2024-12-19 23:17:15 +0000";
 layers = (
 {
 background = {
@@ -344006,7 +344040,13 @@ name = VEDIC_dHalf3;
 name = VEDIC_dHalf4;
 },
 {
+name = VEDIC_nHeadline;
+},
+{
 name = VEDIC_nSHalf;
+},
+{
+name = VEDIC_pHalf;
 },
 {
 name = VEDIC_pHalf3;
@@ -344024,13 +344064,34 @@ name = VEDIC_bhHalf;
 name = VEDIC_mHalf;
 },
 {
+name = VEDIC_ra;
+},
+{
+name = VEDIC_lHalf3;
+},
+{
 name = VEDIC_shHalf;
+},
+{
+name = VEDIC_shHalf2;
+},
+{
+name = VEDIC_ssHalf3;
 },
 {
 name = VEDIC_ssHalf4;
 },
 {
 name = VEDIC_sHalf;
+},
+{
+name = VEDIC_sHalf4;
+},
+{
+name = VEDIC_sHalf2;
+},
+{
+name = VEDIC_ramiddlediagonal;
 }
 );
 properties = (
