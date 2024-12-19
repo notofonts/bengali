@@ -650,7 +650,12 @@ lookup BNG_dflt_vedic_extension_shift3{
 } BNG_dflt_vedic_extension_shift3;
 
 
-";
+@BNG_VEDIC_TOPCLASH = [tta-beng.flag tta-beng.flag2 tta-beng.flag3 ttha-beng.top ttha-beng.top2];
+
+lookup BNG_dflt_vedic_extension_shift_up {
+	lookupflag IgnoreBaseGlyphs UseMarkFilteringSet [@VedicMarks @BNG_VEDIC_TOPCLASH]; 
+	pos @BNG_VEDIC_TOPCLASH @VedicMarks' <0 200 0 0>;
+} BNG_dflt_vedic_extension_shift_up;";
 tag = abvm;
 }
 );
