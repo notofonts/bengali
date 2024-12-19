@@ -597,64 +597,64 @@ code = "# Automatic Code End
 @SideExtensionBases = [headline-beng.130 ma-beng.side1 ddh-beng.side ddha-beng.side pha-beng.side ka-beng.arm d-beng.side ma-beng.side uMatra-beng.side uuMatra-beng.side aaMatra-beng.float ga-beng.side ttha-beng.side ma-beng.side3 dda-beng.side ma-beng.side2 gh-beng.half ch-beng.half d-beng.half3 d-beng.half p-beng.half2 k_ssa-beng k_ss-beng.half p-beng.half pa-beng da-beng gha-beng ca-beng cha-beng gha-beng gh-beng.half ];
 
 
-@VedicMarks = [uni0951 uni1CD0 uni1CD2 crossbeng wavebeng];
+@BNG_VEDIC_TOP = [uni0951 uni1CD0 uni1CD2 crossbeng wavebeng];
 
 lookup BNG_dflt_vedic_extension_shift {
-	lookupflag UseMarkFilteringSet [@VedicMarks @SideExtensionBases headline-beng.200];
-	pos ng-beng.half2 @SideExtensionBases @VedicMarks' <$VEDIC_ngHalf2 0 0 0>;
-	pos c-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_cHalf 0 0 0>;
-	pos j-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_jHalf 0 0 0>;
-	pos dd-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_ddHalf 0 0 0>;
-	pos dd-beng.half1 @SideExtensionBases @VedicMarks' <$VEDIC_ddHalf1 0 0 0>;
-	pos ddh-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_ddhHalf 0 0 0>;
-	pos nn-beng.half3 @SideExtensionBases @VedicMarks' <$VEDIC_nnHalf3 0 0 0>;
-	pos nn-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_nnHalf 0 0 0>;
-	pos n_s-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_nSHalf 0 0 0>;
-	pos n_s-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_nSHalf 0 0 0>;
-	pos t-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_tHalf 0 0 0>;
-	pos t_ta-beng headline-beng.200 @VedicMarks' <$VEDIC_tTa 0 0 0>;
-	pos t_ra-beng [@SideExtensionBases headline-beng.200] @VedicMarks' <$VEDIC_tRa 0 0 0>;
-	pos d-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_dHalf 0 0 0>;
-	pos d-beng.half2 @SideExtensionBases @VedicMarks' <$VEDIC_dHalf2 0 0 0>;
-	pos d-beng.half3 @SideExtensionBases @VedicMarks' <$VEDIC_dHalf3 0 0 0>;
-	pos d-beng.half4 @SideExtensionBases @VedicMarks' <$VEDIC_dHalf4 0 0 0>;
-	pos p-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_pHalf 0 0 0>;
-	pos p-beng.half3 @SideExtensionBases @VedicMarks' <$VEDIC_pHalf3 0 0 0>;
-	pos b-beng.half2 ka-beng.arm @VedicMarks' <$VEDIC_bHalf2 0 0 0>;
-	pos m-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_mHalf 0 0 0>;
-	pos ra-beng @SideExtensionBases @VedicMarks' <$VEDIC_ra 0 0 0>;
-	pos l-beng.half3 @SideExtensionBases @VedicMarks' <$VEDIC_lHalf3 0 0 0>;
-	pos sh-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_shHalf 0 0 0>;
-	pos sh-beng.half2 @SideExtensionBases @VedicMarks' <$VEDIC_shHalf2 0 0 0>;
-	pos ss-beng.half4 @SideExtensionBases @VedicMarks' <$VEDIC_ssHalf4 0 0 0>;
-	pos s-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_sHalf 0 0 0>;
+	lookupflag UseMarkFilteringSet [@BNG_VEDIC_TOP @SideExtensionBases headline-beng.200];
+	pos ng-beng.half2 @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_ngHalf2 0 0 0>;
+	pos c-beng.half @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_cHalf 0 0 0>;
+	pos j-beng.half @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_jHalf 0 0 0>;
+	pos dd-beng.half @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_ddHalf 0 0 0>;
+	pos dd-beng.half1 @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_ddHalf1 0 0 0>;
+	pos ddh-beng.half @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_ddhHalf 0 0 0>;
+	pos nn-beng.half3 @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_nnHalf3 0 0 0>;
+	pos nn-beng.half @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_nnHalf 0 0 0>;
+	pos n_s-beng.half @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_nSHalf 0 0 0>;
+	pos n_s-beng.half @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_nSHalf 0 0 0>;
+	pos t-beng.half @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_tHalf 0 0 0>;
+	pos t_ta-beng headline-beng.200 @BNG_VEDIC_TOP' <$VEDIC_tTa 0 0 0>;
+	pos t_ra-beng [@SideExtensionBases headline-beng.200] @BNG_VEDIC_TOP' <$VEDIC_tRa 0 0 0>;
+	pos d-beng.half @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_dHalf 0 0 0>;
+	pos d-beng.half2 @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_dHalf2 0 0 0>;
+	pos d-beng.half3 @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_dHalf3 0 0 0>;
+	pos d-beng.half4 @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_dHalf4 0 0 0>;
+	pos p-beng.half @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_pHalf 0 0 0>;
+	pos p-beng.half3 @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_pHalf3 0 0 0>;
+	pos b-beng.half2 ka-beng.arm @BNG_VEDIC_TOP' <$VEDIC_bHalf2 0 0 0>;
+	pos m-beng.half @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_mHalf 0 0 0>;
+	pos ra-beng @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_ra 0 0 0>;
+	pos l-beng.half3 @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_lHalf3 0 0 0>;
+	pos sh-beng.half @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_shHalf 0 0 0>;
+	pos sh-beng.half2 @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_shHalf2 0 0 0>;
+	pos ss-beng.half4 @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_ssHalf4 0 0 0>;
+	pos s-beng.half @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_sHalf 0 0 0>;
 } BNG_dflt_vedic_extension_shift;
 
 lookup BNG_dflt_vedic_extension_shift2 {
-	lookupflag UseMarkFilteringSet [@VedicMarks @SideExtensionBases headline-beng.200 headline-beng.130 headline-beng.100];
-	pos g-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_gHalf 0 0 0>;
-	pos g-beng.half2 @SideExtensionBases @VedicMarks' <$VEDIC_gHalf2 0 0 0>;
-	pos ng-beng.half [headline-beng.130 headline-beng.100] @SideExtensionBases @VedicMarks' <$VEDIC_ng 0 0 0>;
-	pos n-beng.headline [ddha-beng.side ddh-beng.side ttha-beng.side dda-beng.side] @VedicMarks' <$VEDIC_nHeadline 0 0 0>;
-	pos [b-beng.half dh-beng.half] @SideExtensionBases @VedicMarks' <$VEDIC_bHalf 0 0 0>;
-	pos ss-beng.half3 headline-beng.200 @VedicMarks' <$VEDIC_ssHalf3 0 0 0>;
-	pos s-beng.half2 @SideExtensionBases @VedicMarks' <$VEDIC_sHalf2 0 0 0>;
-	pos s-beng.half4 @SideExtensionBases @VedicMarks' <$VEDIC_sHalf4 0 0 0>;
+	lookupflag UseMarkFilteringSet [@BNG_VEDIC_TOP @SideExtensionBases headline-beng.200 headline-beng.130 headline-beng.100];
+	pos g-beng.half @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_gHalf 0 0 0>;
+	pos g-beng.half2 @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_gHalf2 0 0 0>;
+	pos ng-beng.half [headline-beng.130 headline-beng.100] @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_ng 0 0 0>;
+	pos n-beng.headline [ddha-beng.side ddh-beng.side ttha-beng.side dda-beng.side] @BNG_VEDIC_TOP' <$VEDIC_nHeadline 0 0 0>;
+	pos [b-beng.half dh-beng.half] @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_bHalf 0 0 0>;
+	pos ss-beng.half3 headline-beng.200 @BNG_VEDIC_TOP' <$VEDIC_ssHalf3 0 0 0>;
+	pos s-beng.half2 @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_sHalf2 0 0 0>;
+	pos s-beng.half4 @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_sHalf4 0 0 0>;
 } BNG_dflt_vedic_extension_shift2;
 
 lookup BNG_dflt_vedic_extension_shift3{
-	lookupflag UseMarkFilteringSet [@VedicMarks @SideExtensionBases];
-	pos th-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_thHalf 0 0 0>;
-	pos bh-beng.half @SideExtensionBases @VedicMarks' <$VEDIC_bhHalf 0 0 0>;
-	pos ramiddlediagonal-beng @SideExtensionBases @VedicMarks' <$VEDIC_ramiddlediagonal 0 0 0>;
+	lookupflag UseMarkFilteringSet [@BNG_VEDIC_TOP @SideExtensionBases];
+	pos th-beng.half @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_thHalf 0 0 0>;
+	pos bh-beng.half @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_bhHalf 0 0 0>;
+	pos ramiddlediagonal-beng @SideExtensionBases @BNG_VEDIC_TOP' <$VEDIC_ramiddlediagonal 0 0 0>;
 } BNG_dflt_vedic_extension_shift3;
 
 
 @BNG_VEDIC_TOPCLASH = [tta-beng.flag tta-beng.flag2 tta-beng.flag3 ttha-beng.top ttha-beng.top2];
 
 lookup BNG_dflt_vedic_extension_shift_up {
-	lookupflag IgnoreBaseGlyphs UseMarkFilteringSet [@VedicMarks @BNG_VEDIC_TOPCLASH]; 
-	pos @BNG_VEDIC_TOPCLASH @VedicMarks' <0 200 0 0>;
+	lookupflag IgnoreBaseGlyphs UseMarkFilteringSet [@BNG_VEDIC_TOP @BNG_VEDIC_TOPCLASH]; 
+	pos @BNG_VEDIC_TOPCLASH @BNG_VEDIC_TOP' <0 200 0 0>;
 } BNG_dflt_vedic_extension_shift_up;";
 tag = abvm;
 }
