@@ -654,7 +654,7 @@ lookup BNG_dflt_vedic_extension_shift3{
 
 lookup BNG_dflt_vedic_extension_shift_up {
 	lookupflag IgnoreBaseGlyphs UseMarkFilteringSet [@BNG_VEDIC_TOP @BNG_VEDIC_TOPCLASH]; 
-	pos @BNG_VEDIC_TOPCLASH @BNG_VEDIC_TOP' <0 200 0 0>;
+	pos @BNG_VEDIC_TOPCLASH @BNG_VEDIC_TOP' <0 220 0 0>;
 } BNG_dflt_vedic_extension_shift_up;";
 tag = abvm;
 }
@@ -208499,7 +208499,7 @@ metricWidth = dababeng;
 color = 3;
 export = 0;
 glyphname = "n_k_ta-beng";
-lastChange = "2024-12-19 23:17:45 +0000";
+lastChange = "2024-12-19 23:30:33 +0000";
 layers = (
 {
 layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
