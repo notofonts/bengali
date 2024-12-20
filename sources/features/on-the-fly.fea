@@ -687,6 +687,7 @@ lookup BNG_dflt_pres_onTheFly_middle_triconsonant{
     sub [n-beng.half2] th-beng.half' by tha-beng.blws;
     # sub da
     sub [g-beng.half l-beng.half3] da-beng' raphala-beng by d-beng.side;
+    sub n-beng.headline da-beng' raphala-beng by d-beng.half;
     # sub pha
     sub [m-beng.half ss-beng.half4 s-beng.half] ph-beng.half' raphala-beng by pha-beng.side;
 } BNG_dflt_pres_onTheFly_middle_triconsonant;
@@ -809,6 +810,7 @@ lookup BNG_dflt_pres_onTheFly_raphala{
     # sub raphala
     # triconsonant
     sub [m-beng.half ss-beng.half4 s-beng.half] p-beng.half2 raphala-beng' by raphala-beng.alt12;
+    sub n-beng.headline d-beng.half raphala-beng' by raphala-beng.alt09;
     sub d-beng.half3 dh_ba-beng.blws raphala-beng' by raphala-beng.alt15;
     # biconsonant
     sub [kh-beng.half th-beng.half t_tha-beng l_pha-beng pha-beng.side s_kha-beng l_gha-beng] raphala-beng' by raphala-beng.alt01;
