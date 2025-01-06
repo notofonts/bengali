@@ -2,9 +2,7 @@
 .appVersion = "3309";
 .formatVersion = 3;
 DisplayStrings = (
-"/s_la_uMatra-beng",
-"/ha_rVocalicMatra-beng",
-"/h_na-beng"
+"/ttha-beng.topIiMatra2"
 );
 axes = (
 {
@@ -2540,7 +2538,7 @@ unicode = 2434;
 {
 color = 5;
 glyphname = "visarga-beng";
-lastChange = "2024-11-28 18:19:52 +0000";
+lastChange = "2025-01-06 04:33:13 +0000";
 layers = (
 {
 anchors = (
@@ -2626,6 +2624,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(299,349,o),
+(360,403,o),
+(360,486,cs),
+(360,569,o),
+(299,622,o),
+(219,622,cs),
+(139,622,o),
+(78,568,o),
+(78,486,cs),
+(78,403,o),
+(139,349,o),
+(219,349,cs)
+);
+},
+{
+closed = 1;
+nodes = (
 (299,0,o),
 (360,54,o),
 (360,137,cs),
@@ -2655,23 +2670,6 @@ nodes = (
 (291,93,o),
 (261,65,o),
 (219,65,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(299,349,o),
-(360,403,o),
-(360,486,cs),
-(360,569,o),
-(299,622,o),
-(219,622,cs),
-(139,622,o),
-(78,568,o),
-(78,486,cs),
-(78,403,o),
-(139,349,o),
-(219,349,cs)
 );
 },
 {
@@ -176184,7 +176182,7 @@ subCategory = Nonspacing;
 category = Mark;
 color = 3;
 glyphname = "ttha-beng.topIiMatra2";
-lastChange = "2024-11-11 15:15:36 +0000";
+lastChange = "2025-01-06 04:34:22 +0000";
 layers = (
 {
 anchors = (
@@ -176340,20 +176338,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(94,903,l),
-(50,862,o),
-(30,824,o),
-(30,773,cs),
-(30,716,o),
-(56,669,o),
-(103,604,c),
 (198,604,l),
 (139,670,o),
 (101,716,o),
 (101,769,cs),
 (101,806,o),
 (116,830,o),
-(143,856,c)
+(143,856,c),
+(94,903,l),
+(50,862,o),
+(30,824,o),
+(30,773,cs),
+(30,716,o),
+(56,669,o),
+(103,604,c)
 );
 }
 );
@@ -310809,7 +310807,7 @@ category = Letter;
 color = 5;
 export = 0;
 glyphname = "s_la_uMatra-beng";
-lastChange = "2024-12-20 19:16:56 +0000";
+lastChange = "2024-12-23 10:57:35 +0000";
 layers = (
 {
 anchors = (
@@ -311170,12 +311168,6 @@ ref = "uMatra-beng.side";
 width = 808;
 },
 {
-anchors = (
-{
-name = TEST_DELETE;
-pos = (482,635);
-}
-);
 background = {
 anchors = (
 {
