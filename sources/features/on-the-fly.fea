@@ -160,6 +160,21 @@ sub wa-beng.part by headline-beng.130;
 } BNG_PAL_pres_chain_swapDhBa;
 
 
+lookup BNG_dflt_pres_chain_SwapVedic_1 {
+    sub uni1CF5.stack by ka-beng;
+    sub ka-beng by uni1CF5.stack;
+    sub uni1CF6.stack by pa-beng;
+    sub pa-beng by uni1CF6.stack;
+} BNG_dflt_pres_chain_SwapVedic_1;
+
+
+lookup BNG_dflt_pres_chain_SwapVedic_2 {
+    sub uni1CF5.stack by kha-beng;
+    sub kha-beng by uni1CF5.stack;
+    sub uni1CF6.stack by pha-beng;
+    sub pha-beng by uni1CF6.stack;
+} BNG_dflt_pres_chain_SwapVedic_2;
+
 # End Chain Contextual Sub
 
 
@@ -195,6 +210,7 @@ lookup BNG_dflt_abvs_AddiMatraCandrabindu {
     sub iMatra-beng' by iMatra-beng candrabindu-beng.altIMatra;
 } BNG_dflt_abvs_AddiMatraCandrabindu;
 
+
 # End Chain Contextual Sub
 
 
@@ -209,7 +225,8 @@ lookup BNG_dflt_abvs_AddiMatraCandrabindu {
 # Features
 # ---------
 
-# ccmp
+
+
 
 
 # locl
@@ -309,6 +326,7 @@ lookup BNG_dflt_akhn_conjuncts{
     sub ja-beng halant-beng nya-beng by j_nya-beng;
 }BNG_dflt_akhn_conjuncts;
 
+
 language PAL;
 
 } akhn;
@@ -329,17 +347,6 @@ language PAL;
 
 } rphf;
 
-# abvf
-
-feature abvf {
-
-    lookup BNG_dflt_abvf_vedic {
-        lookupflag 0;
-        sub uni1CF5 [ka-beng kha-beng] by jihvamuliya-beng;
-        sub uni1CF6 [pa-beng pha-beng] by upadhmaniya-beng;
-    } BNG_dflt_abvf_vedic;
-
-} abvf;
 
 # blwf
 
@@ -551,7 +558,7 @@ feature cjct {
 
 script bng2;
 lookup BNG_dflt_cjct_precomposedConjuncts {
-    lookupflag 0;
+    lookupflag UseMarkFilteringSet [halant-beng];
 #    ignore sub [ja-beng nya-beng na-beng ba-beng]' halant-beng' ja-beng' raphala-beng;
 # akhand
     sub k_ssa-beng halant-beng ma-beng by k_ss_ma-beng;
@@ -593,6 +600,7 @@ lookup BNG_dflt_cjct_precomposedConjuncts {
 } BNG_dflt_cjct_precomposedConjuncts;
 
 lookup BNG_dflt_cjct_ttaConjuncts {
+    lookupflag UseMarkFilteringSet [halant-beng tta-beng.flag];
     sub ka-beng' halant-beng' ddha-beng' tta-beng.flag by k_tta-beng.noflag;
     sub ddha-beng' tta-beng.flag' halant-beng' ddha-beng' tta-beng.flag by tt_tta-beng.noflag;
     sub pha-beng' halant-beng' ddha-beng' tta-beng.flag by ph_tta-beng.noflag;
@@ -600,6 +608,7 @@ lookup BNG_dflt_cjct_ttaConjuncts {
 } BNG_dflt_cjct_ttaConjuncts;
 
 lookup BNG_dflt_cjct_onTheFly {
+    lookupflag UseMarkFilteringSet [halant-beng raphala-beng ka-beng.arm2];
     sub ka-beng' halant-beng' ta-beng' ka-beng.arm2 by t_ta-beng;
     sub ka-beng' raphala-beng' ka-beng.arm2 by t_ra-beng;
 } BNG_dflt_cjct_onTheFly;
@@ -633,6 +642,9 @@ language PAL;
 feature pres {
 
 script bng2;
+
+
+# SWAP IMATRA
 
 @BNG_BASE_IMATRAREPH_SWAP = [n-beng.headline ka-beng gha-beng nga-beng ca-beng cha-beng ja-beng jha-beng nya-beng tta-beng ttha-beng dda-beng ddha-beng ta-beng da-beng dha-beng na-beng pha-beng ba-beng bha-beng ma-beng ya-beng ra-beng la-beng ssa-beng sa-beng ha-beng rra-beng rha-beng yya-beng ramiddlediagonal-beng ralowerdiagonal-beng k_ma-beng k_ssa-beng k_ss_ma-beng k_sa-beng ga_uMatra-beng ng_ka-beng ng_ga-beng c_nya-beng j_ja-beng j_j_ba-beng j_nya-beng j_ra-beng ny_cha-beng ny_ja-beng dd_dda-beng nn_dda-beng t_ta-beng t_t_ra-beng t_ra-beng d_da-beng d_bha-beng d_bh_ra-beng n_ra-beng n_sa-beng p_sa-beng b_ja-beng b_da-beng b_d_ra-beng b_bha-beng m_da-beng m_bh_ra-beng l_ga_uMatra-beng l_ta-beng l_pha-beng l_ra-beng l_sa-beng sha_uMatra-beng ss_nna-beng ha_uMatra-beng h_ma-beng rr_ra-beng rh_ba-beng rh_ra-beng yy_ba-beng yy_ra-beng k_tta-beng.noflag tt_tta-beng.noflag ph_tta-beng.noflag ss_tta-beng.noflag ttha-beng.notop ss_ttha-beng.notop k_ss-beng.half gh-beng.half ng-beng.half c-beng.half c-beng.half1 c-beng.half2 ch-beng.half j-beng.half ny-beng.half tth-beng.half dd-beng.half dd-beng.half1 ddh-beng.half ddh-beng.half2 t-beng.half t_t-beng.half th-beng.half d-beng.half d-beng.half2 d-beng.half3 d-beng.half4 d_d-beng.half dh-beng.half n-beng.half2 n-beng.half3 p-beng.half3 ph-beng.half b-beng.half b-beng.half2 bh-beng.half m-beng.half m-beng.half2 m-beng.half3 l-beng.half3 y-beng.half ss-beng.half ss-beng.half3 ss-beng.half4 s-beng.half s-beng.half2 s-beng.half3 s-beng.half4 h-beng.half h-beng.half2 rlowerdiagonal-beng.half rmiddlediagonal-beng.half];
 @BNG_BASE_SIDE = [ma-beng da-beng ddha-beng ca-beng cha-beng];
@@ -1231,7 +1243,30 @@ language PAL;
 
 } psts;
 
-# dist
+# rclt
+
+feature rclt {
+
+script bng2;
+lookup BNG_dflt_abvf_vedic {
+    lookupflag 0;
+    sub uni1CF5' [ka-beng kha-beng] by uni1CF5.stack;
+    sub uni1CF6' [pa-beng pha-beng] by uni1CF6.stack;
+} BNG_dflt_abvf_vedic;
+
+#SWAP VEDIC STACKS
+# needs to be done for all half forms and conjuncts. If swapping with half forms, it should go to the end of the entire cluster. Eg for ka conjuncts, vedic mark should come after ka-beng.arm, so it attaches to the right anchor and remains centered.
+
+lookup BNG_dflt_abvs_swapVedicStacks {
+    sub uni1CF5.stack' lookup BNG_dflt_pres_chain_SwapVedic_1 ka-beng' lookup BNG_dflt_pres_chain_SwapVedic_1;
+    sub uni1CF5.stack' lookup BNG_dflt_pres_chain_SwapVedic_2 kha-beng' lookup BNG_dflt_pres_chain_SwapVedic_2;
+    sub uni1CF6.stack' lookup BNG_dflt_pres_chain_SwapVedic_1 pa-beng' lookup BNG_dflt_pres_chain_SwapVedic_1;
+    sub uni1CF6.stack' lookup BNG_dflt_pres_chain_SwapVedic_2 pha-beng' lookup BNG_dflt_pres_chain_SwapVedic_2;
+} BNG_dflt_abvs_swapVedicStacks;
+
+language PAL;
+
+} rclt;
 
 # ss01
 
