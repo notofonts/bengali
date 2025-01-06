@@ -329,6 +329,17 @@ language PAL;
 
 } rphf;
 
+# abvf
+
+feature abvf {
+
+    lookup BNG_dflt_abvf_vedic {
+        lookupflag 0;
+        sub uni1CF5 [ka-beng kha-beng] by jihvamuliya-beng;
+        sub uni1CF6 [pa-beng pha-beng] by upadhmaniya-beng;
+    } BNG_dflt_abvf_vedic;
+
+} abvf;
 
 # blwf
 
@@ -1044,7 +1055,6 @@ lookup BNG_PAL_pres_onTheFly_lastBaRa {
 feature abvs {
 
 script bng2;
-
 
 lookup BNG_dflt_abvs_SwapTopIMatra {
     lookupflag 0;
