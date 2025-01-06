@@ -3,7 +3,8 @@
 .formatVersion = 3;
 DisplayStrings = (
 "/baphala-beng/baphala-beng.alt1/baphala-beng.alt2/baphala-beng.alt3/baphala-beng.alt4/dh_ba-beng.blws 
-়/baphala-beng/kh_ba-beng/g_dh_ba-beng/k_t_ba-beng/c_ch_ba-beng/k_ba-beng"
+়/baphala-beng/kh_ba-beng/g_dh_ba-beng/k_t_ba-beng/c_ch_ba-beng/k_ba-beng",
+"/wa-beng.part/k_wa-beng"
 );
 axes = (
 {
@@ -142364,7 +142365,7 @@ subCategory = Spacing;
 category = Letter;
 color = 7;
 glyphname = "ba-beng.side";
-lastChange = "2024-11-28 20:16:02 +0000";
+lastChange = "2025-01-06 05:36:41 +0000";
 layers = (
 {
 anchors = (
@@ -142378,7 +142379,7 @@ pos = (45,93);
 },
 {
 name = nukta;
-pos = (1,54);
+pos = (31,44);
 },
 {
 name = top_candrabindu;
@@ -142506,7 +142507,7 @@ pos = (55,121);
 },
 {
 name = nukta;
-pos = (8,79);
+pos = (38,69);
 },
 {
 name = top_candrabindu;
@@ -142634,7 +142635,7 @@ pos = (45,43);
 },
 {
 name = nukta;
-pos = (7,15);
+pos = (47,-5);
 },
 {
 name = top_candrabindu;
@@ -166829,13 +166830,17 @@ subCategory = Nonspacing;
 category = Mark;
 color = 6;
 glyphname = "wa-beng.part";
-lastChange = "2024-10-24 11:30:26 +0000";
+lastChange = "2025-01-06 05:39:56 +0000";
 layers = (
 {
 anchors = (
 {
 name = _bottom.Wa;
 pos = (121,-45);
+},
+{
+name = nukta;
+pos = (70,-159);
 }
 );
 background = {
@@ -166896,6 +166901,10 @@ anchors = (
 {
 name = _bottom.Wa;
 pos = (112,-10);
+},
+{
+name = nukta;
+pos = (70,-89);
 }
 );
 background = {
@@ -166957,6 +166966,10 @@ anchors = (
 {
 name = _bottom.Wa;
 pos = (125,-118);
+},
+{
+name = nukta;
+pos = (83,-257);
 }
 );
 background = {
@@ -207366,7 +207379,7 @@ width = 595;
 color = 5;
 export = 0;
 glyphname = "k_wa-beng";
-lastChange = "2024-12-19 20:09:13 +0000";
+lastChange = "2025-01-06 05:39:56 +0000";
 layers = (
 {
 background = {
@@ -207420,6 +207433,10 @@ ref = "wa-beng.part";
 {
 pos = (574,0);
 ref = "ka-beng.arm";
+},
+{
+pos = (206,-55);
+ref = "nukta-beng";
 }
 );
 width = 789;
@@ -207477,6 +207494,10 @@ ref = "wa-beng.part";
 {
 pos = (527,0);
 ref = "ka-beng.arm";
+},
+{
+pos = (210,17);
+ref = "nukta-beng";
 }
 );
 width = 733;
@@ -207534,6 +207555,10 @@ ref = "wa-beng.part";
 {
 pos = (589,0);
 ref = "ka-beng.arm";
+},
+{
+pos = (177,-131);
+ref = "nukta-beng";
 }
 );
 width = 802;
@@ -273436,7 +273461,7 @@ category = Letter;
 color = 4;
 export = 0;
 glyphname = "b_ba-beng";
-lastChange = "2024-11-28 20:16:08 +0000";
+lastChange = "2025-01-06 05:36:48 +0000";
 layers = (
 {
 background = {
