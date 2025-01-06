@@ -1,11 +1,6 @@
 {
 .appVersion = "3309";
 .formatVersion = 3;
-DisplayStrings = (
-"/baphala-beng/baphala-beng.alt1/baphala-beng.alt2/baphala-beng.alt3/baphala-beng.alt4/dh_ba-beng.blws 
-়/baphala-beng/kh_ba-beng/g_dh_ba-beng/k_t_ba-beng/c_ch_ba-beng/k_ba-beng",
-"/wa-beng.part/k_wa-beng"
-);
 axes = (
 {
 name = Weight;
@@ -14928,7 +14923,7 @@ unicode = 2456;
 category = Letter;
 color = 5;
 glyphname = "nga-beng";
-lastChange = "2024-11-28 18:19:52 +0000";
+lastChange = "2025-01-06 05:47:55 +0000";
 layers = (
 {
 anchors = (
