@@ -93,6 +93,11 @@ languagesystem bng2 PAL;
 @BNG_EMATRA_SHORT = [eMatra-beng.short eMatra-beng.short.init aiMatra-beng.short aiMatra-beng.short.init];
 @BNG_BASE_EMATRA_SHORT = [t_ra-beng j_ra-beng t_t_ra-beng l_ra-beng rr_ra-beng rh_ba-beng yy_ra-beng ];
 
+
+@BNG_RCLT_BASES_VEDIC1CF5 = [ka-beng k_ma-beng k_ssa-beng k_ss_ma-beng k_sa-beng k_tta-beng.noflag k_ss-beng.half kha-beng kh-beng.half];
+@BNG_RCLT_BASES_VEDIC1CF6 = [pa-beng p_sa-beng p-beng.half p-beng.half2 p-beng.half3 pha-beng ph_tta-beng.noflag ph-beng.half];
+@BNG_RCLT_BASES_KA_ARM = [ka-beng.arm ka-beng.arm1 ka-beng.arm2];
+
 #table GDEF { GlyphClassDef @BASE, , @MARKS, ;} GDEF;
 
 # --------
@@ -220,6 +225,53 @@ lookup BNG_dflt_abvs_AddiMatraCandrabindu {
 
 # ss01
 
+# rclt
+
+# SWAP VEDIC STACK
+
+# Start Chain Contextual Sub
+lookup BNG_dflt_rclt_swapVedicStacks_removeMark {
+    sub uni1CF5' by zerowidthnonjoiner;
+    sub uni1CF6' by zerowidthnonjoiner;
+} BNG_dflt_rclt_swapVedicStacks_removeMark;
+
+
+lookup BNG_dflt_rclt_swapVedicStacks_addMark {
+    #ka
+    sub ka-beng' by ka-beng uni1CF5.stack;
+    sub k_ma-beng' by k_ma-beng uni1CF5.stack;
+    sub k_ssa-beng' by k_ssa-beng uni1CF5.stack;
+    sub k_ss_ma-beng' by k_ss_ma-beng uni1CF5.stack;
+    sub k_sa-beng' by k_sa-beng uni1CF5.stack;
+    sub k_tta-beng.noflag' by k_tta-beng.noflag uni1CF5.stack;
+    sub k_ss-beng.half' by k_ss-beng.half uni1CF5.stack;
+    #ka multipart
+    sub ka-beng.arm' by ka-beng.arm uni1CF5.stack;
+    sub ka-beng.arm1' by ka-beng.arm1 uni1CF5.stack;
+    sub ka-beng.arm2' by ka-beng.arm2 uni1CF5.stack;
+    #kha
+    sub kha-beng' by kha-beng uni1CF5.stack;
+    sub kh-beng.half' by kh-beng.half uni1CF5.stack;
+
+    #pa
+    sub pa-beng' by pa-beng uni1CF6.stack;
+    sub p_sa-beng' by p_sa-beng uni1CF6.stack;
+    sub p-beng.half' by p-beng.half uni1CF6.stack;
+    sub p-beng.half2' by p-beng.half2 uni1CF6.stack;
+    sub p-beng.half3' by p-beng.half3 uni1CF6.stack;
+    #pha
+    sub pha-beng' by pha-beng uni1CF6.stack;
+    sub ph_tta-beng.noflag' by ph_tta-beng.noflag uni1CF6.stack;
+    sub ph-beng.half' by ph-beng.half uni1CF6.stack;
+} BNG_dflt_rclt_swapVedicStacks_addMark;
+
+
+# lookup BNG_dflt_rclt_swapVedicStacks_addMark_context {
+#     sub [b-beng.half b-beng.half2] ka-beng.arm' by ka-beng.arm uni1CF5.stack;
+#     sub [b-beng.half2] ka-beng.arm1' by ka-beng.arm1 uni1CF5.stack;
+#     sub [t_ra-beng t_ta-beng t_t-beng.half] ka-beng.arm2' by ka-beng.arm2 uni1CF5.stack;
+# } BNG_dflt_rclt_swapVedicStacks_addMark_context;
+# End Chain Contextual Sub
 
 # ---------
 # Features
@@ -1248,21 +1300,21 @@ language PAL;
 feature rclt {
 
 script bng2;
-lookup BNG_dflt_abvf_vedic {
-    lookupflag 0;
-    sub uni1CF5' [ka-beng kha-beng] by uni1CF5.stack;
-    sub uni1CF6' [pa-beng pha-beng] by uni1CF6.stack;
-} BNG_dflt_abvf_vedic;
 
 #SWAP VEDIC STACKS
-# needs to be done for all half forms and conjuncts. If swapping with half forms, it should go to the end of the entire cluster. Eg for ka conjuncts, vedic mark should come after ka-beng.arm, so it attaches to the right anchor and remains centered.
 
 lookup BNG_dflt_abvs_swapVedicStacks {
-    sub uni1CF5.stack' lookup BNG_dflt_pres_chain_SwapVedic_1 ka-beng' lookup BNG_dflt_pres_chain_SwapVedic_1;
-    sub uni1CF5.stack' lookup BNG_dflt_pres_chain_SwapVedic_2 kha-beng' lookup BNG_dflt_pres_chain_SwapVedic_2;
-    sub uni1CF6.stack' lookup BNG_dflt_pres_chain_SwapVedic_1 pa-beng' lookup BNG_dflt_pres_chain_SwapVedic_1;
-    sub uni1CF6.stack' lookup BNG_dflt_pres_chain_SwapVedic_2 pha-beng' lookup BNG_dflt_pres_chain_SwapVedic_2;
+    sub uni1CF5' lookup BNG_dflt_rclt_swapVedicStacks_removeMark @BNG_RCLT_BASES_VEDIC1CF5' lookup BNG_dflt_rclt_swapVedicStacks_addMark;
+    sub uni1CF6' lookup BNG_dflt_rclt_swapVedicStacks_removeMark @BNG_RCLT_BASES_VEDIC1CF6' lookup BNG_dflt_rclt_swapVedicStacks_addMark;
 } BNG_dflt_abvs_swapVedicStacks;
+
+lookup BNG_dflt_rclt_swapVedicStacks_context {
+    sub uni1CF5' lookup BNG_dflt_rclt_swapVedicStacks_removeMark [b-beng.half b-beng.half2 t_ta-beng t_t-beng.half t_ra-beng] @BNG_RCLT_BASES_KA_ARM' lookup BNG_dflt_rclt_swapVedicStacks_addMark;
+} BNG_dflt_rclt_swapVedicStacks_context;
+
+# lookup BNG_dflt_rclt_swapVedicStacks_context {
+#     sub uni1CF5' lookup BNG_dflt_rclt_swapVedicStacks_removeMark [b-beng.half b-beng.half2 t_ta-beng t_t-beng.half t_ra-beng] @BNG_RCLT_BASES_KA_ARM' lookup BNG_dflt_rclt_swapVedicStacks_addMark_context;
+# } BNG_dflt_rclt_swapVedicStacks_context;
 
 language PAL;
 
