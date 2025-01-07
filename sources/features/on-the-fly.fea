@@ -1343,13 +1343,15 @@ script bng2;
 #SWAP VEDIC STACKS
 
 lookup BNG_dflt_abvs_swapVedicStacks {
+    lookupflag 0;
     sub uni1CF5' lookup BNG_dflt_rclt_swapVedicStacks_removeMark @BNG_RCLT_BASES_VEDIC1CF5' lookup BNG_dflt_rclt_swapVedicStacks_addMark;
     sub uni1CF6' lookup BNG_dflt_rclt_swapVedicStacks_removeMark @BNG_RCLT_BASES_VEDIC1CF6' lookup BNG_dflt_rclt_swapVedicStacks_addMark;
 } BNG_dflt_abvs_swapVedicStacks;
 
-lookup BNG_dflt_rclt_swapVedicStacks_context {
-    sub uni1CF5' lookup BNG_dflt_rclt_swapVedicStacks_removeMark [b-beng.half b-beng.half2 t_ta-beng t_t-beng.half t_ra-beng] @BNG_RCLT_BASES_KA_ARM' lookup BNG_dflt_rclt_swapVedicStacks_addMark;
-} BNG_dflt_rclt_swapVedicStacks_context;
+#lookup BNG_dflt_rclt_swapVedicStacks_context {
+#    lookupflag 0;
+#    sub uni1CF5' lookup BNG_dflt_rclt_swapVedicStacks_removeMark [b-beng.half b-beng.half2 t_ta-beng t_t-beng.half t_ra-beng] @BNG_RCLT_BASES_KA_ARM' lookup BNG_dflt_rclt_swapVedicStacks_addMark;
+#} BNG_dflt_rclt_swapVedicStacks_context;
 
 
 # lookup BNG_dflt_rclt_swapVedicStacks_kaPart { # Not ideal, the mark stays on top of the first half of the shape, so it's not centered on te cluster. It would be better if we could make lookup BNG_dflt_rclt_swapVedicStacks_context work.
