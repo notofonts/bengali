@@ -266,6 +266,14 @@ lookup BNG_dflt_rclt_swapVedicStacks_addMark {
 } BNG_dflt_rclt_swapVedicStacks_addMark;
 
 
+
+lookup BNG_dflt_rclt_swapVedicStacks_addMark_kaPart {
+    sub b-beng.half' by b-beng.half uni1CF6.stack;
+    sub b-beng.half2' by b-beng.half2 uni1CF6.stack;
+    sub t_ta-beng' by t_ta-beng uni1CF6.stack;
+    sub t_t-beng.half' by t_t-beng.half uni1CF6.stack;
+    sub t_ra-beng' by t_ra-beng uni1CF6.stack;
+} BNG_dflt_rclt_swapVedicStacks_addMark_kaPart;
 # lookup BNG_dflt_rclt_swapVedicStacks_addMark_context {
 #     sub [b-beng.half b-beng.half2] ka-beng.arm' by ka-beng.arm uni1CF5.stack;
 #     sub [b-beng.half2] ka-beng.arm1' by ka-beng.arm1 uni1CF5.stack;
@@ -1312,9 +1320,11 @@ lookup BNG_dflt_rclt_swapVedicStacks_context {
     sub uni1CF5' lookup BNG_dflt_rclt_swapVedicStacks_removeMark [b-beng.half b-beng.half2 t_ta-beng t_t-beng.half t_ra-beng] @BNG_RCLT_BASES_KA_ARM' lookup BNG_dflt_rclt_swapVedicStacks_addMark;
 } BNG_dflt_rclt_swapVedicStacks_context;
 
-# lookup BNG_dflt_rclt_swapVedicStacks_context {
-#     sub uni1CF5' lookup BNG_dflt_rclt_swapVedicStacks_removeMark [b-beng.half b-beng.half2 t_ta-beng t_t-beng.half t_ra-beng] @BNG_RCLT_BASES_KA_ARM' lookup BNG_dflt_rclt_swapVedicStacks_addMark_context;
-# } BNG_dflt_rclt_swapVedicStacks_context;
+
+# lookup BNG_dflt_rclt_swapVedicStacks_kaPart { # Not ideal, the mark stays on top of the first half of the shape, so it's not centered on te cluster. It would be better if we could make lookup BNG_dflt_rclt_swapVedicStacks_context work.
+#     sub uni1CF5' lookup BNG_dflt_rclt_swapVedicStacks_removeMark [b-beng.half b-beng.half2 t_ta-beng t_t-beng.half t_ra-beng]' lookup BNG_dflt_rclt_swapVedicStacks_addMark_kaPart;
+# } BNG_dflt_rclt_swapVedicStacks_kaPart;
+
 
 language PAL;
 
