@@ -467,15 +467,15 @@ lookup BNG_dflt_half_onTheFly_withHalant_biconsonant {
     lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng];
     # ignore half-form formation before precomposed conjuncts
     ignore sub @BNG_ALL_BASES' halant-beng' b_ja-beng;
-    ignore sub @BNG_ALL_BASES' halant-beng' ca-beng halant-beng [nya-beng];
-    ignore sub @BNG_ALL_BASES' halant-beng' dda-beng halant-beng [dda-beng];
-    ignore sub @BNG_ALL_BASES' halant-beng' nna-beng halant-beng [dda-beng];
-    ignore sub @BNG_ALL_BASES' halant-beng' ta-beng halant-beng [ta-beng tha-beng];
-    ignore sub @BNG_ALL_BASES' halant-beng' da-beng halant-beng [da-beng bha-beng];
-    ignore sub @BNG_ALL_BASES' halant-beng' na-beng halant-beng [ja-beng sa-beng];
-    ignore sub @BNG_ALL_BASES' halant-beng' pa-beng halant-beng [sa-beng];
-    ignore sub @BNG_ALL_BASES' halant-beng' ma-beng halant-beng [da-beng bha-beng];
-    ignore sub @BNG_ALL_BASES' halant-beng' la-beng halant-beng [gha-beng ta-beng pha-beng bha-beng sa-beng];
+    ignore sub @BNG_ALL_BASES' halant-beng' ca-beng halant-beng nya-beng;
+    ignore sub @BNG_ALL_BASES' halant-beng' dda-beng halant-beng dda-beng;
+    ignore sub @BNG_ALL_BASES' halant-beng' nna-beng halant-beng dda-beng;
+    ignore sub @BNG_ALL_BASES' halant-beng' ta-beng halant-beng ta-beng tha-beng;
+    ignore sub @BNG_ALL_BASES' halant-beng' da-beng halant-beng da-beng bha-beng;
+    ignore sub @BNG_ALL_BASES' halant-beng' na-beng halant-beng ja-beng sa-beng;
+    ignore sub @BNG_ALL_BASES' halant-beng' pa-beng halant-beng sa-beng;
+    ignore sub @BNG_ALL_BASES' halant-beng' ma-beng halant-beng da-beng bha-beng;
+    ignore sub @BNG_ALL_BASES' halant-beng' la-beng halant-beng gha-beng ta-beng pha-beng bha-beng sa-beng;
     ignore sub @BNG_ALL_BASES' halant-beng' pha-beng halant-beng ddha-beng;
     # ignore half-form formation to avoid bad floating half-forms
     ignore sub @BNG_ALL_HALFS @BNG_ALL_UNICODE_BASES' halant-beng';
@@ -563,6 +563,7 @@ lookup BNG_dflt_half_onTheFly_withHalant_biconsonant {
 lookup BNG_dflt_half_onTheFly_wHalantNukta_biconsonant {
     lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng nukta-beng];
     ignore sub @BNG_ALL_HALFS @BNG_ALL_UNICODE_BASES' halant-beng';
+    ignore sub @BNG_ALL_BASES' halant-beng' ddha-beng halant-beng ddha-beng;
     ignore sub @BNG_ALL_BASES' halant-beng' [dda-beng ddha-beng] nukta-beng [raphala-beng baphala-beng];
     ignore sub @BNG_ALL_BASES' halant-beng' dda-beng halant-beng [dda-beng];
     #no nukta
