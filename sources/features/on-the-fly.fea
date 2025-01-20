@@ -283,6 +283,7 @@ lookup BNG_dflt_rclt_swapVedicStacks_addMark_kaPart {
     sub t_t-beng.half' by t_t-beng.half uni1CF6.stack;
     sub t_ra-beng' by t_ra-beng uni1CF6.stack;
 } BNG_dflt_rclt_swapVedicStacks_addMark_kaPart;
+
 # lookup BNG_dflt_rclt_swapVedicStacks_addMark_context {
 #     sub [b-beng.half b-beng.half2] ka-beng.arm' by ka-beng.arm uni1CF5.stack;
 #     sub [b-beng.half2] ka-beng.arm1' by ka-beng.arm1 uni1CF5.stack;
