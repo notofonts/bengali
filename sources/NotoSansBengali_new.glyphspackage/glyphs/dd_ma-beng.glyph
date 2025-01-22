@@ -1,0 +1,85 @@
+{
+color = 5;
+export = 0;
+glyphname = "dd_ma-beng";
+layers = (
+{
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+ref = "dd-beng.half1";
+},
+{
+pos = (617,0);
+ref = "ma-beng.side1";
+}
+);
+width = 807;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+ref = "dd-beng.half1";
+},
+{
+pos = (677,0);
+ref = "ma-beng.side1";
+}
+);
+width = 874;
+},
+{
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+ref = "dd-beng.half1";
+},
+{
+pos = (680,0);
+ref = "ma-beng.side1";
+}
+);
+width = 942;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = "dd-beng.half1";
+},
+{
+pos = (462,0);
+ref = "ma-beng.side1";
+}
+);
+width = 604;
+},
+{
+layerId = m005;
+shapes = (
+{
+ref = "dd-beng.half1";
+},
+{
+pos = (518,0);
+ref = "ma-beng.side1";
+}
+);
+width = 679;
+},
+{
+layerId = m006;
+shapes = (
+{
+ref = "dd-beng.half1";
+},
+{
+pos = (542,0);
+ref = "ma-beng.side1";
+}
+);
+width = 766;
+}
+);
+}

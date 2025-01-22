@@ -1,0 +1,187 @@
+{
+color = 5;
+export = 0;
+glyphname = "g_dh_ra-beng";
+layers = (
+{
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+alignment = -1;
+ref = "g-beng.half";
+},
+{
+pos = (178,0);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (82,-173);
+ref = "raphala-beng.alt11";
+},
+{
+pos = (452,-40);
+ref = "dha-beng.part";
+},
+{
+pos = (435,0);
+ref = "aaMatra-beng.side";
+},
+{
+pos = (582,0);
+ref = "headline-beng.130";
+}
+);
+width = 672;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+ref = "g-beng.half";
+},
+{
+pos = (173,0);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (72,-240);
+ref = "raphala-beng.alt11";
+},
+{
+pos = (498,-27);
+ref = "dha-beng.part";
+},
+{
+pos = (443,0);
+ref = "aaMatra-beng.side";
+},
+{
+pos = (635,0);
+ref = "headline-beng.130";
+}
+);
+width = 750;
+},
+{
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+alignment = -1;
+ref = "g-beng.half";
+},
+{
+pos = (171,20);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (86,-325);
+ref = "raphala-beng.alt11";
+},
+{
+pos = (532,2);
+ref = "dha-beng.part";
+},
+{
+pos = (443,0);
+ref = "aaMatra-beng.side";
+},
+{
+pos = (689,0);
+ref = "headline-beng.130";
+}
+);
+width = 879;
+},
+{
+layerId = m004;
+shapes = (
+{
+alignment = -1;
+ref = "g-beng.half";
+},
+{
+pos = (133,0);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (61,-168);
+ref = "raphala-beng.alt11";
+},
+{
+pos = (339,-41);
+ref = "dha-beng.part";
+},
+{
+pos = (326,0);
+ref = "aaMatra-beng.side";
+},
+{
+pos = (437,0);
+ref = "headline-beng.130";
+}
+);
+width = 672;
+},
+{
+layerId = m005;
+shapes = (
+{
+alignment = -1;
+ref = "g-beng.half";
+},
+{
+pos = (130,0);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (58,-235);
+ref = "raphala-beng.alt11";
+},
+{
+pos = (381,-28);
+ref = "dha-beng.part";
+},
+{
+pos = (333,0);
+ref = "aaMatra-beng.side";
+},
+{
+pos = (488,0);
+ref = "headline-beng.130";
+}
+);
+width = 750;
+},
+{
+layerId = m006;
+shapes = (
+{
+alignment = -1;
+ref = "g-beng.half";
+},
+{
+pos = (131,18);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (72,-315);
+ref = "raphala-beng.alt11";
+},
+{
+pos = (422,-1);
+ref = "dha-beng.part";
+},
+{
+pos = (342,0);
+ref = "aaMatra-beng.side";
+},
+{
+pos = (550,0);
+ref = "headline-beng.130";
+}
+);
+width = 879;
+}
+);
+}

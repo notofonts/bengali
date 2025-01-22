@@ -1,0 +1,222 @@
+{
+category = Letter;
+color = 5;
+glyphname = "auMatra-beng";
+layers = (
+{
+background = {
+shapes = (
+{
+ref = "eMatra-beng";
+},
+{
+alignment = 1;
+pos = (346,0);
+ref = uni25CC;
+},
+{
+pos = (856,0);
+ref = "auLength-beng";
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+ref = "eMatra-beng";
+},
+{
+alignment = 1;
+pos = (361,0);
+ref = uni25CC;
+},
+{
+pos = (871,0);
+ref = "auLength-beng";
+}
+);
+width = 1137;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "eMatra-beng";
+},
+{
+alignment = -1;
+pos = (305,0);
+ref = uni25CC;
+},
+{
+alignment = -1;
+pos = (815,0);
+ref = "auLength-beng";
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+alignment = -1;
+ref = "eMatra-beng";
+},
+{
+alignment = -1;
+pos = (305,0);
+ref = uni25CC;
+},
+{
+alignment = -1;
+pos = (815,0);
+ref = "auLength-beng";
+}
+);
+width = 1048;
+},
+{
+background = {
+shapes = (
+{
+ref = "eMatra-beng";
+},
+{
+alignment = 1;
+pos = (407,0);
+ref = uni25CC;
+},
+{
+pos = (917,0);
+ref = "auLength-beng";
+}
+);
+};
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+ref = "eMatra-beng";
+},
+{
+alignment = 1;
+pos = (417,0);
+ref = uni25CC;
+},
+{
+pos = (927,0);
+ref = "auLength-beng";
+}
+);
+width = 1217;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "eMatra-beng";
+},
+{
+alignment = -1;
+pos = (305,0);
+ref = uni25CC;
+},
+{
+alignment = -1;
+pos = (815,0);
+ref = "auLength-beng";
+}
+);
+};
+layerId = m004;
+shapes = (
+{
+alignment = -1;
+ref = "eMatra-beng";
+},
+{
+alignment = -1;
+pos = (305,0);
+ref = uni25CC;
+},
+{
+alignment = -1;
+pos = (815,0);
+ref = "auLength-beng";
+}
+);
+width = 786;
+},
+{
+background = {
+shapes = (
+{
+ref = "eMatra-beng";
+},
+{
+alignment = 1;
+pos = (361,0);
+ref = uni25CC;
+},
+{
+pos = (871,0);
+ref = "auLength-beng";
+}
+);
+};
+layerId = m005;
+shapes = (
+{
+ref = "eMatra-beng";
+},
+{
+alignment = 1;
+pos = (361,0);
+ref = uni25CC;
+},
+{
+pos = (744,0);
+ref = "auLength-beng";
+}
+);
+width = 948;
+},
+{
+background = {
+shapes = (
+{
+ref = "eMatra-beng";
+},
+{
+alignment = 1;
+pos = (417,0);
+ref = uni25CC;
+},
+{
+pos = (927,0);
+ref = "auLength-beng";
+}
+);
+};
+layerId = m006;
+shapes = (
+{
+ref = "eMatra-beng";
+},
+{
+alignment = 1;
+pos = (417,0);
+ref = uni25CC;
+},
+{
+pos = (810,0);
+ref = "auLength-beng";
+}
+);
+width = 1041;
+}
+);
+script = bengali;
+subCategory = Spacing;
+unicode = 2508;
+}

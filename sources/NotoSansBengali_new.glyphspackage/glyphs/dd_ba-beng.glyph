@@ -1,0 +1,222 @@
+{
+category = Letter;
+color = 5;
+export = 0;
+glyphname = "dd_ba-beng";
+layers = (
+{
+background = {
+shapes = (
+{
+pos = (492,0);
+ref = "headline-beng.200";
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+ref = "dd-beng.half";
+},
+{
+pos = (218,-94);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (492,0);
+ref = "headline-beng.200";
+}
+);
+width = 692;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (347,622);
+},
+{
+name = top_candrabindu;
+pos = (373,622);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = "dda-beng";
+},
+{
+alignment = -1;
+pos = (612,65);
+ref = basubscriptbeng;
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+ref = "dd-beng.half";
+},
+{
+pos = (239,-91);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (497,0);
+ref = "headline-beng.200";
+}
+);
+width = 657;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (385,622);
+},
+{
+name = top_candrabindu;
+pos = (381,622);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = "dda-beng";
+},
+{
+alignment = -1;
+pos = (705,45);
+ref = basubscriptbeng;
+}
+);
+};
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+alignment = -1;
+ref = "dd-beng.half";
+},
+{
+pos = (149,-32);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (480,0);
+ref = "headline-beng.200";
+}
+);
+width = 710;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (347,622);
+},
+{
+name = top_candrabindu;
+pos = (373,622);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = "dda-beng";
+},
+{
+alignment = -1;
+pos = (612,65);
+ref = basubscriptbeng;
+}
+);
+};
+layerId = m004;
+shapes = (
+{
+ref = "dd-beng.half";
+},
+{
+pos = (179,-91);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (373,0);
+ref = "headline-beng.200";
+}
+);
+width = 492;
+},
+{
+background = {
+shapes = (
+{
+pos = (492,0);
+ref = "headline-beng.200";
+}
+);
+};
+layerId = m005;
+shapes = (
+{
+ref = "dd-beng.half";
+},
+{
+pos = (149,-94);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (367,0);
+ref = "headline-beng.200";
+}
+);
+width = 520;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (385,622);
+},
+{
+name = top_candrabindu;
+pos = (381,622);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = "dda-beng";
+},
+{
+alignment = -1;
+pos = (705,45);
+ref = basubscriptbeng;
+}
+);
+};
+layerId = m006;
+shapes = (
+{
+alignment = -1;
+ref = "dd-beng.half";
+},
+{
+pos = (91,-39);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (366,0);
+ref = "headline-beng.200";
+}
+);
+width = 710;
+}
+);
+script = bengali;
+subCategory = Spacing;
+}

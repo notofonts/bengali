@@ -1,0 +1,211 @@
+{
+category = Mark;
+color = 3;
+glyphname = uni1CED;
+layers = (
+{
+anchors = (
+{
+name = _top_vedic;
+pos = (-1,622);
+}
+);
+background = {
+anchors = (
+{
+name = _Anchor8;
+pos = (-255,985);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(-84,-271,l),
+(-39,-211,l),
+(-267,-46,l),
+(-312,-106,l)
+);
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(170,-634,l),
+(215,-574,l),
+(-13,-409,l),
+(-58,-469,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top_vedic;
+pos = (0,607);
+}
+);
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+closed = 1;
+nodes = (
+(164,-624,l),
+(179,-604,l),
+(-31,-448,l),
+(-47,-468,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top_vedic;
+pos = (-3,635);
+}
+);
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+closed = 1;
+nodes = (
+(151,-631,l),
+(227,-531,l),
+(-2,-381,l),
+(-77,-482,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top_vedic;
+pos = (0,606);
+}
+);
+background = {
+anchors = (
+{
+name = _top_vedic;
+pos = (0,606);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(123,-623,l),
+(135,-606,l),
+(-23,-451,l),
+(-35,-468,l)
+);
+}
+);
+};
+layerId = m004;
+shapes = (
+{
+closed = 1;
+nodes = (
+(123,-623,l),
+(135,-606,l),
+(-23,-451,l),
+(-35,-468,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top_vedic;
+pos = (-1,621);
+}
+);
+background = {
+anchors = (
+{
+name = _top_vedic;
+pos = (-1,621);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(124,-633,l),
+(164,-576,l),
+(-7,-412,l),
+(-47,-469,l)
+);
+}
+);
+};
+layerId = m005;
+shapes = (
+{
+closed = 1;
+nodes = (
+(124,-633,l),
+(164,-576,l),
+(-7,-412,l),
+(-47,-469,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top_vedic;
+pos = (-3,634);
+}
+);
+background = {
+anchors = (
+{
+name = _top_vedic;
+pos = (-3,634);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(110,-631,l),
+(179,-536,l),
+(2,-384,l),
+(-66,-481,l)
+);
+}
+);
+};
+layerId = m006;
+shapes = (
+{
+closed = 1;
+nodes = (
+(110,-631,l),
+(179,-536,l),
+(2,-384,l),
+(-66,-481,l)
+);
+}
+);
+width = 0;
+}
+);
+subCategory = Nonspacing;
+unicode = 7405;
+}

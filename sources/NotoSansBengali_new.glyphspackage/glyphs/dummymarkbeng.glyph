@@ -1,0 +1,31 @@
+{
+category = Mark;
+glyphname = dummymarkbeng;
+layers = (
+{
+layerId = UUID0;
+width = 0;
+},
+{
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+width = 0;
+},
+{
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+width = 0;
+},
+{
+layerId = m004;
+width = 0;
+},
+{
+layerId = m005;
+width = 0;
+},
+{
+layerId = m006;
+width = 0;
+}
+);
+subCategory = Nonspacing;
+}

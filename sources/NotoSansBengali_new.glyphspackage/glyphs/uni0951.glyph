@@ -1,0 +1,211 @@
+{
+category = Mark;
+color = 3;
+glyphname = uni0951;
+layers = (
+{
+anchors = (
+{
+name = _top_vedic;
+pos = (0,622);
+}
+);
+background = {
+anchors = (
+{
+name = _Anchor8;
+pos = (-255,299);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(-290,917,l),
+(-290,626,l),
+(-219,626,l),
+(-219,917,l)
+);
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-35,1228,l),
+(-35,937,l),
+(36,937,l),
+(36,1228,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top_vedic;
+pos = (0,607);
+}
+);
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-13,1228,l),
+(-13,937,l),
+(13,937,l),
+(13,1228,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top_vedic;
+pos = (0,635);
+}
+);
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-55,1231,l),
+(-55,937,l),
+(55,937,l),
+(55,1231,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top_vedic;
+pos = (0,606);
+}
+);
+background = {
+anchors = (
+{
+name = _top_vedic;
+pos = (0,606);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(-10,1228,l),
+(-10,937,l),
+(10,937,l),
+(10,1228,l)
+);
+}
+);
+};
+layerId = m004;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-10,1228,l),
+(-10,937,l),
+(10,937,l),
+(10,1228,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top_vedic;
+pos = (0,621);
+}
+);
+background = {
+anchors = (
+{
+name = _top_vedic;
+pos = (0,621);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(-30,1228,l),
+(-30,937,l),
+(31,937,l),
+(31,1228,l)
+);
+}
+);
+};
+layerId = m005;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-30,1228,l),
+(-30,937,l),
+(31,937,l),
+(31,1228,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top_vedic;
+pos = (0,634);
+}
+);
+background = {
+anchors = (
+{
+name = _top_vedic;
+pos = (0,634);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(-49,1231,l),
+(-49,937,l),
+(49,937,l),
+(49,1231,l)
+);
+}
+);
+};
+layerId = m006;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-49,1231,l),
+(-49,937,l),
+(49,937,l),
+(49,1231,l)
+);
+}
+);
+width = 0;
+}
+);
+subCategory = Nonspacing;
+unicode = 2385;
+}

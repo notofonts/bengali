@@ -1,0 +1,238 @@
+{
+category = Letter;
+color = 5;
+glyphname = "rha-beng";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (332,-270);
+}
+);
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (283,622);
+},
+{
+name = top_candrabindu;
+pos = (255,622);
+}
+);
+shapes = (
+{
+ref = "ddha-beng";
+},
+{
+pos = (263,45);
+ref = "nukta-beng";
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+ref = "ddha-beng";
+},
+{
+pos = (263,0);
+ref = "nukta-beng";
+}
+);
+width = 547;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (302,-230);
+}
+);
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (274,622);
+},
+{
+name = top_candrabindu;
+pos = (260,622);
+}
+);
+shapes = (
+{
+ref = "ddha-beng";
+},
+{
+pos = (237,49);
+ref = "nukta-beng";
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+ref = "ddha-beng";
+},
+{
+pos = (237,0);
+ref = "nukta-beng";
+}
+);
+width = 517;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (272,-308);
+}
+);
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (303,622);
+},
+{
+name = top_candrabindu;
+pos = (237,622);
+}
+);
+shapes = (
+{
+ref = "ddha-beng";
+},
+{
+pos = (279,11);
+ref = "nukta-beng";
+}
+);
+};
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+ref = "ddha-beng";
+},
+{
+pos = (274,0);
+ref = "nukta-beng";
+}
+);
+width = 564;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (227,-227);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (227,-227);
+}
+);
+shapes = (
+{
+ref = "ddha-beng";
+},
+{
+pos = (177,0);
+ref = "nukta-beng";
+}
+);
+};
+layerId = m004;
+shapes = (
+{
+ref = "ddha-beng";
+},
+{
+pos = (177,0);
+ref = "nukta-beng";
+}
+);
+width = 387;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (237,-267);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (237,-267);
+}
+);
+shapes = (
+{
+ref = "ddha-beng";
+},
+{
+pos = (199,0);
+ref = "nukta-beng";
+}
+);
+};
+layerId = m005;
+shapes = (
+{
+ref = "ddha-beng";
+},
+{
+pos = (199,0);
+ref = "nukta-beng";
+}
+);
+width = 413;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (188,-304);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (188,-304);
+}
+);
+shapes = (
+{
+ref = "ddha-beng";
+},
+{
+pos = (215,0);
+ref = "nukta-beng";
+}
+);
+};
+layerId = m006;
+shapes = (
+{
+ref = "ddha-beng";
+},
+{
+pos = (215,0);
+ref = "nukta-beng";
+}
+);
+width = 440;
+}
+);
+script = bengali;
+subCategory = Spacing;
+unicode = 2525;
+}

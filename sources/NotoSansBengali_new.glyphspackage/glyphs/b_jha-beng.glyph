@@ -1,0 +1,204 @@
+{
+color = 5;
+export = 0;
+glyphname = "b_jha-beng";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(572,206,l),
+(572,596,l),
+(551,596,l),
+(551,206,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(687,586,l),
+(687,607,l),
+(551,607,l),
+(551,586,l)
+);
+}
+);
+};
+guides = (
+{
+angle = 11.2369;
+pos = (421,-7);
+}
+);
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+alignment = -1;
+ref = "b-beng.half2";
+},
+{
+pos = (123,76);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (388,136);
+ref = "jha-beng.part";
+},
+{
+pos = (531,0);
+ref = "aaMatra-beng.side2";
+}
+);
+width = 678;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+ref = "b-beng.half2";
+},
+{
+alignment = 1;
+pos = (112,76);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (403,86);
+ref = "jha-beng.part";
+},
+{
+alignment = -1;
+pos = (554,0);
+ref = "aaMatra-beng.side2";
+}
+);
+width = 746;
+},
+{
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+alignment = -1;
+ref = "b-beng.half2";
+},
+{
+alignment = 1;
+pos = (71,60);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (459,57);
+ref = "jha-beng.part";
+},
+{
+alignment = -1;
+pos = (578,0);
+ref = "aaMatra-beng.side2";
+}
+);
+width = 825;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(572,206,l),
+(572,596,l),
+(551,596,l),
+(551,206,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(687,586,l),
+(687,607,l),
+(551,607,l),
+(551,586,l)
+);
+}
+);
+};
+guides = (
+{
+angle = 11.2369;
+pos = (421,-7);
+}
+);
+layerId = m004;
+shapes = (
+{
+alignment = -1;
+ref = "b-beng.half2";
+},
+{
+pos = (92,76);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (291,139);
+ref = "jha-beng.part";
+},
+{
+alignment = -1;
+pos = (398,1);
+ref = "aaMatra-beng.side2";
+}
+);
+width = 678;
+},
+{
+layerId = m005;
+shapes = (
+{
+alignment = -1;
+ref = "b-beng.half2";
+},
+{
+alignment = 1;
+pos = (75,76);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (313,90);
+ref = "jha-beng.part";
+},
+{
+alignment = -1;
+pos = (420,1);
+ref = "aaMatra-beng.side2";
+}
+);
+width = 746;
+},
+{
+layerId = m006;
+shapes = (
+{
+alignment = -1;
+ref = "b-beng.half2";
+},
+{
+alignment = 1;
+pos = (39,62);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (373,60);
+ref = "jha-beng.part";
+},
+{
+alignment = -1;
+pos = (453,1);
+ref = "aaMatra-beng.side2";
+}
+);
+width = 825;
+}
+);
+}

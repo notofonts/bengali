@@ -1,0 +1,195 @@
+{
+color = 5;
+export = 0;
+glyphname = "n_k_ta-beng";
+layers = (
+{
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+alignment = -1;
+ref = "n-beng.headline";
+},
+{
+pos = (393,0);
+ref = "aaMatra-beng.part.short";
+},
+{
+pos = (108,38);
+ref = "n-beng.float";
+},
+{
+pos = (-14,-34);
+ref = "ta_uMatra-beng.blws";
+},
+{
+pos = (502,-199);
+ref = "ka-beng.arm2";
+},
+{
+alignment = 1;
+pos = (613,0);
+ref = "headline-beng.200";
+}
+);
+width = 777;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+ref = "n-beng.headline";
+},
+{
+pos = (423,0);
+ref = "aaMatra-beng.part.short";
+},
+{
+pos = (125,37);
+ref = "n-beng.float";
+},
+{
+pos = (-23,-46);
+ref = "ta_uMatra-beng.blws";
+},
+{
+pos = (547,-182);
+ref = "ka-beng.arm2";
+},
+{
+alignment = 1;
+pos = (683,0);
+ref = "headline-beng.200";
+}
+);
+width = 883;
+},
+{
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+alignment = -1;
+pos = (7,0);
+ref = "n-beng.headline";
+},
+{
+pos = (492,0);
+ref = "aaMatra-beng.part.short";
+},
+{
+pos = (203,0);
+ref = "n-beng.float";
+},
+{
+pos = (-30,-53);
+ref = "ta_uMatra-beng.blws";
+},
+{
+pos = (660,-187);
+ref = "ka-beng.arm2";
+},
+{
+alignment = 1;
+pos = (797,0);
+ref = "headline-beng.200";
+}
+);
+width = 1027;
+},
+{
+layerId = m004;
+shapes = (
+{
+alignment = -1;
+ref = "n-beng.headline";
+},
+{
+pos = (393,0);
+ref = "aaMatra-beng.part.short";
+},
+{
+pos = (178,38);
+ref = "n-beng.float";
+},
+{
+pos = (88,-33);
+ref = "ta_uMatra-beng.blws";
+},
+{
+pos = (475,-200);
+ref = "ka-beng.arm2";
+},
+{
+alignment = 1;
+pos = (558,0);
+ref = "headline-beng.200";
+}
+);
+width = 777;
+},
+{
+layerId = m005;
+shapes = (
+{
+alignment = -1;
+ref = "n-beng.headline";
+},
+{
+pos = (423,0);
+ref = "aaMatra-beng.part.short";
+},
+{
+pos = (201,37);
+ref = "n-beng.float";
+},
+{
+pos = (73,-45);
+ref = "ta_uMatra-beng.blws";
+},
+{
+pos = (525,-183);
+ref = "ka-beng.arm2";
+},
+{
+alignment = 1;
+pos = (627,0);
+ref = "headline-beng.200";
+}
+);
+width = 883;
+},
+{
+layerId = m006;
+shapes = (
+{
+alignment = -1;
+pos = (7,0);
+ref = "n-beng.headline";
+},
+{
+pos = (492,0);
+ref = "aaMatra-beng.part.short";
+},
+{
+pos = (273,4);
+ref = "n-beng.float";
+},
+{
+pos = (63,-52);
+ref = "ta_uMatra-beng.blws";
+},
+{
+pos = (636,-186);
+ref = "ka-beng.arm2";
+},
+{
+alignment = 1;
+pos = (743,0);
+ref = "headline-beng.200";
+}
+);
+width = 1027;
+}
+);
+}

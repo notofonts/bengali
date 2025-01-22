@@ -1,0 +1,85 @@
+{
+color = 5;
+export = 0;
+glyphname = "t_th_ra-beng";
+layers = (
+{
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+ref = "t_tha-beng";
+},
+{
+pos = (79,-44);
+ref = "raphala-beng.alt01";
+}
+);
+width = 658;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+ref = "t_tha-beng";
+},
+{
+pos = (92,-90);
+ref = "raphala-beng.alt01";
+}
+);
+width = 735;
+},
+{
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+ref = "t_tha-beng";
+},
+{
+pos = (110,-138);
+ref = "raphala-beng.alt01";
+}
+);
+width = 822;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = "t_tha-beng";
+},
+{
+pos = (60,-41);
+ref = "raphala-beng.alt01";
+}
+);
+width = 494;
+},
+{
+layerId = m005;
+shapes = (
+{
+ref = "t_tha-beng";
+},
+{
+pos = (73,-87);
+ref = "raphala-beng.alt01";
+}
+);
+width = 568;
+},
+{
+layerId = m006;
+shapes = (
+{
+ref = "t_tha-beng";
+},
+{
+pos = (91,-132);
+ref = "raphala-beng.alt01";
+}
+);
+width = 663;
+}
+);
+}

@@ -1,0 +1,109 @@
+{
+color = 5;
+export = 0;
+glyphname = "g_nna-beng";
+layers = (
+{
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (92,-35);
+ref = "nna-beng.blws1";
+},
+{
+pos = (435,0);
+ref = "aaMatra-beng.side";
+}
+);
+width = 582;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (90,-88);
+ref = "nna-beng.blws1";
+},
+{
+pos = (443,0);
+ref = "aaMatra-beng.side";
+}
+);
+width = 635;
+},
+{
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (75,-58);
+ref = "nna-beng.blws1";
+},
+{
+pos = (443,0);
+ref = "aaMatra-beng.side";
+}
+);
+width = 689;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (69,-32);
+ref = "nna-beng.blws1";
+},
+{
+pos = (326,0);
+ref = "aaMatra-beng.side";
+}
+);
+width = 437;
+},
+{
+layerId = m005;
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (65,-85);
+ref = "nna-beng.blws1";
+},
+{
+pos = (333,0);
+ref = "aaMatra-beng.side";
+}
+);
+width = 487;
+},
+{
+layerId = m006;
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (53,-61);
+ref = "nna-beng.blws1";
+},
+{
+pos = (342,0);
+ref = "aaMatra-beng.side";
+}
+);
+width = 550;
+}
+);
+}

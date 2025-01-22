@@ -1,0 +1,222 @@
+{
+category = Letter;
+color = 5;
+export = 0;
+glyphname = "ng_ba-beng";
+layers = (
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (361,622);
+},
+{
+name = top_candrabindu;
+pos = (390,622);
+}
+);
+shapes = (
+{
+ref = "nga-beng";
+},
+{
+pos = (661,20);
+ref = basubscriptbeng;
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+ref = "ng-beng.half";
+},
+{
+pos = (231,-94);
+ref = "baphala-beng.alt2";
+}
+);
+width = 699;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (350,622);
+},
+{
+name = top_candrabindu;
+pos = (392,622);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = "nga-beng";
+},
+{
+alignment = -1;
+pos = (610,47);
+ref = basubscriptbeng;
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+ref = "ng-beng.half";
+},
+{
+pos = (256,-89);
+ref = "baphala-beng.alt2";
+}
+);
+width = 644;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (390,622);
+},
+{
+name = top_candrabindu;
+pos = (377,622);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = "nga-beng";
+},
+{
+alignment = -1;
+pos = (709,30);
+ref = basubscriptbeng;
+}
+);
+};
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+ref = "ng-beng.half";
+},
+{
+pos = (139,-33);
+ref = "baphala-beng.alt2";
+}
+);
+width = 692;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (350,622);
+},
+{
+name = top_candrabindu;
+pos = (392,622);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = "nga-beng";
+},
+{
+alignment = -1;
+pos = (610,47);
+ref = basubscriptbeng;
+}
+);
+};
+layerId = m004;
+shapes = (
+{
+ref = "ng-beng.half";
+},
+{
+pos = (193,-89);
+ref = "baphala-beng.alt2";
+}
+);
+width = 484;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (361,622);
+},
+{
+name = top_candrabindu;
+pos = (390,622);
+}
+);
+shapes = (
+{
+ref = "nga-beng";
+},
+{
+pos = (661,20);
+ref = basubscriptbeng;
+}
+);
+};
+layerId = m005;
+shapes = (
+{
+ref = "ng-beng.half";
+},
+{
+pos = (155,-94);
+ref = "baphala-beng.alt2";
+}
+);
+width = 523;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (390,622);
+},
+{
+name = top_candrabindu;
+pos = (377,622);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = "nga-beng";
+},
+{
+alignment = -1;
+pos = (709,30);
+ref = basubscriptbeng;
+}
+);
+};
+layerId = m006;
+shapes = (
+{
+ref = "ng-beng.half";
+},
+{
+pos = (75,-40);
+ref = "baphala-beng.alt2";
+}
+);
+width = 531;
+}
+);
+script = bengali;
+subCategory = Spacing;
+}

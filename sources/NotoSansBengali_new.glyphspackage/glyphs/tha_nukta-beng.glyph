@@ -1,0 +1,211 @@
+{
+color = 5;
+export = 0;
+glyphname = "tha_nukta-beng";
+layers = (
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (322,622);
+},
+{
+name = top_candrabindu;
+pos = (412,622);
+}
+);
+shapes = (
+{
+ref = "tha-beng";
+},
+{
+pos = (235,179);
+ref = "nukta-beng";
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+ref = "tha-beng";
+},
+{
+pos = (235,134);
+ref = "nukta-beng";
+}
+);
+width = 645;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (304,622);
+},
+{
+name = top_candrabindu;
+pos = (416,622);
+}
+);
+shapes = (
+{
+ref = "tha-beng";
+},
+{
+pos = (195,196);
+ref = "nukta-beng";
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+ref = "tha-beng";
+},
+{
+pos = (195,147);
+ref = "nukta-beng";
+}
+);
+width = 574;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (380,622);
+},
+{
+name = top_candrabindu;
+pos = (463,622);
+}
+);
+shapes = (
+{
+ref = "tha-beng";
+},
+{
+pos = (283,150);
+ref = "nukta-beng";
+}
+);
+};
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+ref = "tha-beng";
+},
+{
+pos = (283,139);
+ref = "nukta-beng";
+}
+);
+width = 723;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (304,622);
+},
+{
+name = top_candrabindu;
+pos = (416,622);
+}
+);
+shapes = (
+{
+ref = "tha-beng";
+},
+{
+pos = (195,196);
+ref = "nukta-beng";
+}
+);
+};
+layerId = m004;
+shapes = (
+{
+ref = "tha-beng";
+},
+{
+pos = (146,148);
+ref = "nukta-beng";
+}
+);
+width = 430;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (322,622);
+},
+{
+name = top_candrabindu;
+pos = (412,622);
+}
+);
+shapes = (
+{
+ref = "tha-beng";
+},
+{
+pos = (235,179);
+ref = "nukta-beng";
+}
+);
+};
+layerId = m005;
+shapes = (
+{
+ref = "tha-beng";
+},
+{
+pos = (186,135);
+ref = "nukta-beng";
+}
+);
+width = 500;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (380,622);
+},
+{
+name = top_candrabindu;
+pos = (463,622);
+}
+);
+shapes = (
+{
+ref = "tha-beng";
+},
+{
+pos = (283,150);
+ref = "nukta-beng";
+}
+);
+};
+layerId = m006;
+shapes = (
+{
+ref = "tha-beng";
+},
+{
+pos = (228,138);
+ref = "nukta-beng";
+}
+);
+width = 577;
+}
+);
+}

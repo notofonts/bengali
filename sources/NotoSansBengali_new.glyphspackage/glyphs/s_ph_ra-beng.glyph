@@ -1,0 +1,109 @@
+{
+color = 5;
+export = 0;
+glyphname = "s_ph_ra-beng";
+layers = (
+{
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+ref = "s-beng.half";
+},
+{
+pos = (616,0);
+ref = "pha-beng.side";
+},
+{
+pos = (234,-142);
+ref = "raphala-beng.alt01";
+}
+);
+width = 1027;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+ref = "s-beng.half";
+},
+{
+pos = (640,0);
+ref = "pha-beng.side";
+},
+{
+pos = (206,-184);
+ref = "raphala-beng.alt01";
+}
+);
+width = 1070;
+},
+{
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+ref = "s-beng.half";
+},
+{
+pos = (682,0);
+ref = "pha-beng.side";
+},
+{
+pos = (209,-267);
+ref = "raphala-beng.alt01";
+}
+);
+width = 1145;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = "s-beng.half";
+},
+{
+pos = (462,0);
+ref = "pha-beng.side";
+},
+{
+pos = (175,-139);
+ref = "raphala-beng.alt01";
+}
+);
+width = 770;
+},
+{
+layerId = m005;
+shapes = (
+{
+ref = "s-beng.half";
+},
+{
+pos = (487,0);
+ref = "pha-beng.side";
+},
+{
+pos = (154,-181);
+ref = "raphala-beng.alt01";
+}
+);
+width = 816;
+},
+{
+layerId = m006;
+shapes = (
+{
+ref = "s-beng.half";
+},
+{
+pos = (540,0);
+ref = "pha-beng.side";
+},
+{
+pos = (162,-257);
+ref = "raphala-beng.alt01";
+}
+);
+width = 907;
+}
+);
+}

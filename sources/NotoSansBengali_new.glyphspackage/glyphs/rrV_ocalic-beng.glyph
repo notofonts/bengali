@@ -1,0 +1,185 @@
+{
+category = Letter;
+color = 8;
+glyphname = "rrVocalic-beng";
+layers = (
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (426,622);
+}
+);
+shapes = (
+{
+ref = "rVocalic-beng";
+},
+{
+alignment = -1;
+pos = (374,112);
+ref = "rVocalicMatra-beng";
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+ref = "rVocalic-beng";
+},
+{
+alignment = -1;
+pos = (374,112);
+ref = "rVocalicMatra-beng";
+}
+);
+width = 846;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (405,622);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = "rVocalic-beng";
+},
+{
+alignment = -1;
+pos = (389,106);
+ref = "rVocalicMatra-beng";
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+ref = "rVocalic-beng";
+},
+{
+alignment = -1;
+pos = (389,106);
+ref = "rVocalicMatra-beng";
+}
+);
+width = 764;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (492,622);
+}
+);
+shapes = (
+{
+ref = "rVocalic-beng";
+},
+{
+alignment = -1;
+pos = (314,103);
+ref = "rVocalicMatra-beng";
+}
+);
+};
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+ref = "rVocalic-beng";
+},
+{
+alignment = -1;
+pos = (314,103);
+ref = "rVocalicMatra-beng";
+}
+);
+width = 927;
+},
+{
+background = {
+shapes = (
+{
+ref = "rVocalic-beng";
+},
+{
+alignment = -1;
+pos = (389,106);
+ref = "rVocalicMatra-beng";
+}
+);
+};
+layerId = m004;
+shapes = (
+{
+ref = "rVocalic-beng";
+},
+{
+alignment = -1;
+pos = (295,106);
+ref = "rVocalicMatra-beng";
+}
+);
+width = 573;
+},
+{
+background = {
+shapes = (
+{
+ref = "rVocalic-beng";
+},
+{
+alignment = -1;
+pos = (374,112);
+ref = "rVocalicMatra-beng";
+}
+);
+};
+layerId = m005;
+shapes = (
+{
+ref = "rVocalic-beng";
+},
+{
+alignment = -1;
+pos = (266,112);
+ref = "rVocalicMatra-beng";
+}
+);
+width = 652;
+},
+{
+background = {
+shapes = (
+{
+ref = "rVocalic-beng";
+},
+{
+alignment = -1;
+pos = (314,103);
+ref = "rVocalicMatra-beng";
+}
+);
+};
+layerId = m006;
+shapes = (
+{
+ref = "rVocalic-beng";
+},
+{
+alignment = -1;
+pos = (226,103);
+ref = "rVocalicMatra-beng";
+}
+);
+width = 749;
+}
+);
+script = bengali;
+subCategory = Spacing;
+unicode = 2528;
+}

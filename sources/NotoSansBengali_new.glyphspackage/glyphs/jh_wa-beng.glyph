@@ -1,0 +1,272 @@
+{
+category = Letter;
+color = 5;
+export = 0;
+glyphname = "jh_wa-beng";
+layers = (
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (453,622);
+},
+{
+name = top_candrabindu;
+pos = (561,622);
+}
+);
+shapes = (
+{
+ref = "jha-beng";
+},
+{
+pos = (587,0);
+ref = basubscriptbeng;
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+ref = "b-beng.half";
+},
+{
+pos = (114,-98);
+ref = "baphala-beng.alt1";
+},
+{
+pos = (153,-108);
+ref = "wa-beng.part";
+},
+{
+pos = (586,0);
+ref = "jh-beng.side";
+}
+);
+width = 787;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (439,622);
+},
+{
+name = top_candrabindu;
+pos = (570,622);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = "jha-beng";
+},
+{
+alignment = -1;
+pos = (541,0);
+ref = basubscriptbeng;
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+alignment = -1;
+ref = "b-beng.half";
+},
+{
+pos = (163,10);
+ref = "baphala-beng.alt1";
+},
+{
+pos = (172,-68);
+ref = "wa-beng.part";
+},
+{
+pos = (552,0);
+ref = "jh-beng.side";
+}
+);
+width = 733;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (443,622);
+},
+{
+name = top_candrabindu;
+pos = (578,622);
+}
+);
+shapes = (
+{
+ref = "jha-beng";
+},
+{
+pos = (630,0);
+ref = basubscriptbeng;
+}
+);
+};
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+alignment = -1;
+ref = "b-beng.half";
+},
+{
+pos = (66,-42);
+ref = "baphala-beng.alt1";
+},
+{
+pos = (106,-66);
+ref = "wa-beng.part";
+},
+{
+pos = (600,0);
+ref = "jh-beng.side";
+}
+);
+width = 833;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (439,622);
+},
+{
+name = top_candrabindu;
+pos = (570,622);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = "jha-beng";
+},
+{
+alignment = -1;
+pos = (541,0);
+ref = basubscriptbeng;
+}
+);
+};
+layerId = m004;
+shapes = (
+{
+alignment = -1;
+ref = "b-beng.half";
+},
+{
+pos = (121,18);
+ref = "baphala-beng.alt1";
+},
+{
+pos = (128,-65);
+ref = "wa-beng.part";
+},
+{
+pos = (414,0);
+ref = "jh-beng.side";
+}
+);
+width = 733;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (453,622);
+},
+{
+name = top_candrabindu;
+pos = (561,622);
+}
+);
+shapes = (
+{
+ref = "jha-beng";
+},
+{
+pos = (587,0);
+ref = basubscriptbeng;
+}
+);
+};
+layerId = m005;
+shapes = (
+{
+alignment = -1;
+ref = "b-beng.half";
+},
+{
+pos = (76,-90);
+ref = "baphala-beng.alt1";
+},
+{
+pos = (105,-104);
+ref = "wa-beng.part";
+},
+{
+pos = (442,0);
+ref = "jh-beng.side";
+}
+);
+width = 787;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (443,622);
+},
+{
+name = top_candrabindu;
+pos = (578,622);
+}
+);
+shapes = (
+{
+ref = "jha-beng";
+},
+{
+pos = (630,0);
+ref = basubscriptbeng;
+}
+);
+};
+layerId = m006;
+shapes = (
+{
+alignment = -1;
+ref = "b-beng.half";
+},
+{
+pos = (34,-48);
+ref = "baphala-beng.alt1";
+},
+{
+pos = (65,-70);
+ref = "wa-beng.part";
+},
+{
+pos = (467,0);
+ref = "jh-beng.side";
+}
+);
+width = 833;
+}
+);
+script = bengali;
+subCategory = Spacing;
+}
