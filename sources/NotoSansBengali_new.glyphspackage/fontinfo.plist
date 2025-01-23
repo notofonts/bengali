@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3309";
 .formatVersion = 3;
 axes = (
 {
@@ -1318,7 +1318,6 @@ userData = {
 GSOffsetHorizontal = 10;
 GSOffsetVertical = 7;
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -1447,13 +1446,6 @@ numberValues = (
 );
 instances = (
 {
-axesValues = (
-0,
-0
-);
-instanceInterpolations = {
-"28FB090A-653E-4199-B7BE-FAE23D31B682" = 1;
-};
 name = Regular;
 type = variable;
 },
