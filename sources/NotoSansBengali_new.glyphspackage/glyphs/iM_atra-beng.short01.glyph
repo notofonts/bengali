@@ -413,7 +413,7 @@ Length = 140;
 ref = "_smart-iMatra-beng";
 }
 );
-width = 241;
+width = 231;
 },
 {
 associatedMasterId = m006;
