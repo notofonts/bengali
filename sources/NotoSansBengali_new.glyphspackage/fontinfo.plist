@@ -1446,16 +1446,6 @@ numberValues = (
 );
 instances = (
 {
-axesValues = (
-0,
-0
-);
-instanceInterpolations = {
-"28FB090A-653E-4199-B7BE-FAE23D31B682" = -2.33333;
-m004 = 3.53948;
-m005 = -0.14286;
-m006 = -0.06329;
-};
 name = Regular;
 type = variable;
 },
