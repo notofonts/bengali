@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 5;
+color = 1;
 glyphname = "oMatra-beng";
 layers = (
 {
@@ -145,7 +145,7 @@ pos = (815,0);
 ref = "aaMatra-beng";
 }
 );
-width = 786;
+width = 989;
 },
 {
 background = {
@@ -171,15 +171,15 @@ ref = "eMatra-beng";
 },
 {
 alignment = 1;
-pos = (361,0);
+pos = (281,0);
 ref = uni25CC;
 },
 {
-pos = (744,0);
+pos = (664,0);
 ref = "aaMatra-beng";
 }
 );
-width = 947;
+width = 867;
 },
 {
 background = {
@@ -205,17 +205,19 @@ ref = "eMatra-beng";
 },
 {
 alignment = 1;
-pos = (417,0);
+pos = (340,0);
 ref = uni25CC;
 },
 {
-pos = (810,0);
+pos = (733,0);
 ref = "aaMatra-beng";
 }
 );
-width = 1041;
+width = 964;
 }
 );
+metricLeft = "eMatra-beng";
+metricRight = "aaMatra-beng";
 script = bengali;
 subCategory = Spacing;
 unicode = 2507;
