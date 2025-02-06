@@ -1,6 +1,6 @@
 {
 color = 4;
-glyphname = "twoNumr-beng";
+glyphname = "twoNumr-beng.001";
 layers = (
 {
 background = {
@@ -604,5 +604,4 @@ width = 562;
 }
 );
 script = bengali;
-unicode = 2549;
 }
