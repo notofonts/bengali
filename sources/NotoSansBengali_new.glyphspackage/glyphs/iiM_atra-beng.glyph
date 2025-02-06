@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 1;
+color = 4;
 glyphname = "iiMatra-beng";
 layers = (
 {
@@ -450,8 +450,8 @@ closed = 1;
 nodes = (
 (96,0,l),
 (96,590,l),
-(182,590,l),
-(182,606,l),
+(183,590,l),
+(183,606,l),
 (96,606,l),
 (96,774,o),
 (-18,875,o),
@@ -493,7 +493,7 @@ nodes = (
 );
 }
 );
-width = 174;
+width = 175;
 },
 {
 anchors = (

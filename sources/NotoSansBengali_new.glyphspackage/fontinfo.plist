@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3309";
 .formatVersion = 3;
 axes = (
 {
@@ -526,9 +526,11 @@ date = "2017-07-06 08:51:49 +0000";
 familyName = "Noto Sans Bengali OnTheFly";
 featurePrefixes = (
 {
-code = "include(features/on-the-fly.fea);
+code = "# link modified after the change to .glyphspackage. Glyphs3 marks an error, but this is the correct path for fontmake.
+include(../features/on-the-fly.fea);
 #include(features/static.fea);
 ";
+disabled = 1;
 name = Include;
 }
 );
@@ -1446,16 +1448,6 @@ numberValues = (
 );
 instances = (
 {
-axesValues = (
-0,
-0
-);
-instanceInterpolations = {
-"28FB090A-653E-4199-B7BE-FAE23D31B682" = -2.33333;
-m004 = 3.53948;
-m005 = -0.14286;
-m006 = -0.06329;
-};
 name = Regular;
 type = variable;
 },
@@ -3735,6 +3727,9 @@ settings = {
 disablesNiceNames = 1;
 };
 unitsPerEm = 1000;
+userData = {
+GSDontShowVersionAlert = 1;
+};
 versionMajor = 3;
 versionMinor = 0;
 }

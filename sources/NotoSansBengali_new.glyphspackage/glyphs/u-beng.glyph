@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 1;
+color = 4;
 glyphname = "u-beng";
 layers = (
 {
@@ -332,7 +332,7 @@ nodes = (
 (301,736,cs),
 (181,736,ls),
 (110,736,o),
-(74,759,o),
+(75,755,o),
 (75,843,cs),
 (75,857,o),
 (76,876,o),
