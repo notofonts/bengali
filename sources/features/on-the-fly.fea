@@ -1411,7 +1411,8 @@ lookup BNG_dflt_abvs_swapVedicStacks {
 #} BNG_dflt_rclt_swapVedicStacks_context;
 
 
-# lookup BNG_dflt_rclt_swapVedicStacks_kaPart { # Not ideal, the mark stays on top of the first half of the shape, so it's not centered on te cluster. It would be better if we could make lookup BNG_dflt_rclt_swapVedicStacks_context work.
+# lookup BNG_dflt_rclt_swapVedicStacks_kaPart {
+## Not ideal, the mark stays on top of the first half of the shape, so it's not centered on te cluster. It would be better if we could make lookup BNG_dflt_rclt_swapVedicStacks_context work.
 #     sub uni1CF5' lookup BNG_dflt_rclt_swapVedicStacks_removeMark [b-beng.half b-beng.half2 t_ta-beng t_t-beng.half t_ra-beng]' lookup BNG_dflt_rclt_swapVedicStacks_addMark_kaPart;
 # } BNG_dflt_rclt_swapVedicStacks_kaPart;
 

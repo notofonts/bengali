@@ -1,5 +1,5 @@
 {
-color = 4;
+color = 5;
 glyphname = "zero-beng";
 layers = (
 {
@@ -188,7 +188,7 @@ nodes = (
 );
 }
 );
-width = 594;
+width = 592;
 },
 {
 anchors = (

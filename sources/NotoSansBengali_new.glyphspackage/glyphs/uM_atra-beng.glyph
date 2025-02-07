@@ -1,6 +1,6 @@
 {
 category = Mark;
-color = 4;
+color = 5;
 glyphname = "uMatra-beng";
 layers = (
 {
@@ -490,7 +490,6 @@ nodes = (
 }
 );
 };
-color = 1;
 layerId = m004;
 shapes = (
 {
