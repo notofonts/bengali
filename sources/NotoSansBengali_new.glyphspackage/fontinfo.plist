@@ -523,11 +523,12 @@ value = 0;
 }
 );
 date = "2017-07-06 08:51:49 +0000";
-familyName = "Noto Sans Bengali OnTheFly";
+familyName = "Noto Sans Bengali OnTheFly 3";
 featurePrefixes = (
 {
 code = "# link modified after the change to .glyphspackage. Glyphs3 marks an error, but this is the correct path for fontmake.
-include(../features/on-the-fly.fea);
+include(../features/unicode_on-the-fly.fea);
+#include(../features/on-the-fly.fea);
 #include(features/static.fea);
 ";
 name = Include;
@@ -1065,7 +1066,7 @@ numberValues = (
 {
 axesValues = (
 20,
-70
+63
 );
 id = m004;
 metricValues = (
@@ -1194,7 +1195,7 @@ GSSlanterRotate = 0;
 {
 axesValues = (
 90,
-70
+63
 );
 customParameters = (
 {
@@ -1323,7 +1324,7 @@ GSOffsetVertical = 7;
 {
 axesValues = (
 178,
-70
+63
 );
 customParameters = (
 {
@@ -1442,6 +1443,506 @@ numberValues = (
 -368,
 -272,
 -220
+);
+},
+{
+axesValues = (
+20,
+50
+);
+id = m007;
+metricValues = (
+{
+pos = 917;
+},
+{
+over = 10;
+pos = 606;
+},
+{
+pos = 536;
+},
+{
+},
+{
+pos = -408;
+},
+{
+},
+{
+over = 10;
+pos = 713;
+},
+{
+over = 10;
+pos = -10;
+}
+);
+name = "ExtraCondensed Thin";
+numberValues = (
+90,
+75,
+160,
+0,
+-10,
+140,
+-23,
+150,
+130,
+50,
+175,
+80,
+206,
+181,
+151,
+161,
+-40,
+-215,
+-175,
+-117,
+-160,
+-120,
+-159,
+-170,
+-120,
+-120,
+-291,
+-313,
+-322,
+-314,
+-154,
+-365,
+-301,
+-328,
+-252,
+-276,
+-238,
+-326,
+-332,
+-322,
+-325,
+-287,
+-255,
+-232,
+-287,
+-185,
+-247,
+-353,
+-307,
+-312,
+-322,
+-276,
+-263,
+-266,
+-281,
+-286,
+-299,
+-297,
+-317,
+-305,
+-235,
+-308,
+-298,
+-315,
+-276,
+-197,
+-220,
+-223,
+-140,
+-247,
+-241,
+-181,
+-256,
+-299,
+-294,
+-148,
+-144,
+-311,
+-321,
+-235,
+-209
+);
+userData = {
+GSSlanterCursivy = 0;
+GSSlanterCursivyContrastFactor = 0.5;
+GSSlanterCursivyDoContrast = 1;
+GSSlanterCursivyDoShape = 1;
+GSSlanterCursivyDoThickness = 1;
+GSSlanterCursivyShapeFactor = 0.5;
+GSSlanterCursivyThicknessFactor = 1;
+GSSlanterGeometric = 0;
+GSSlanterRotate = 0;
+};
+},
+{
+axesValues = (
+90,
+50
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = kabeng;
+}
+);
+iconName = Condensed;
+id = m008;
+metricValues = (
+{
+pos = 917;
+},
+{
+over = 10;
+pos = 622;
+},
+{
+pos = 536;
+},
+{
+},
+{
+pos = -408;
+},
+{
+},
+{
+over = 10;
+pos = 713;
+},
+{
+over = 10;
+pos = -10;
+}
+);
+name = ExtraCondensed;
+numberValues = (
+115,
+100,
+200,
+0,
+-5,
+155,
+-8,
+180,
+140,
+70,
+210,
+105,
+215,
+201,
+172,
+178,
+-58,
+-254,
+-168,
+-150,
+-225,
+-162,
+-229,
+-180,
+-170,
+-166,
+-317,
+-347,
+-349,
+-317,
+-181,
+-408,
+-313,
+-346,
+-263,
+-296,
+-284,
+-344,
+-355,
+-345,
+-331,
+-317,
+-281,
+-265,
+-311,
+-216,
+-272,
+-369,
+-343,
+-350,
+-308,
+-293,
+-287,
+-293,
+-293,
+-298,
+-334,
+-341,
+-363,
+-298,
+-258,
+-320,
+-311,
+-333,
+-298,
+-196,
+-248,
+-223,
+-143,
+-271,
+-271,
+-220,
+-271,
+-333,
+-334,
+-183,
+-155,
+-324,
+-339,
+-237,
+-247
+);
+userData = {
+GSOffsetHorizontal = 10;
+GSOffsetVertical = 7;
+};
+},
+{
+axesValues = (
+178,
+50
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = kabeng;
+}
+);
+id = m009;
+metricValues = (
+{
+pos = 917;
+},
+{
+over = 10;
+pos = 635;
+},
+{
+pos = 536;
+},
+{
+},
+{
+pos = -408;
+},
+{
+},
+{
+over = 10;
+pos = 713;
+},
+{
+over = 10;
+pos = -10;
+}
+);
+name = "ExtraCondensed Black";
+numberValues = (
+190,
+190,
+230,
+10,
+0,
+225,
+5,
+210,
+220,
+10,
+230,
+150,
+213,
+242,
+236,
+231,
+-48,
+-290,
+-140,
+-184,
+-253,
+-192,
+-257,
+-190,
+-230,
+-210,
+-344,
+-370,
+-346,
+-322,
+-209,
+-445,
+-340,
+-350,
+-282,
+-323,
+-306,
+-338,
+-370,
+-375,
+-353,
+-354,
+-294,
+-337,
+-297,
+-249,
+-297,
+-385,
+-395,
+-375,
+-376,
+-300,
+-287,
+-333,
+-316,
+-302,
+-360,
+-351,
+-399,
+-338,
+-281,
+-341,
+-329,
+-360,
+-297,
+-201,
+-253,
+-225,
+-153,
+-295,
+-291,
+-227,
+-330,
+-360,
+-356,
+-193,
+-168,
+-345,
+-368,
+-272,
+-220
+);
+},
+{
+axesValues = (
+24,
+58
+);
+id = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+metricValues = (
+{
+pos = 917;
+},
+{
+over = 10;
+pos = 607;
+},
+{
+pos = 536;
+},
+{
+},
+{
+pos = -408;
+},
+{
+},
+{
+over = 10;
+pos = 713;
+},
+{
+over = 10;
+pos = -10;
+}
+);
+name = "MoreCondensed Thin";
+numberValues = (
+91.429,
+76.429,
+162.286,
+0,
+-9.714,
+140.857,
+-22.143,
+151.714,
+130.571,
+51.143,
+177,
+81.429,
+206.514,
+182.143,
+152.2,
+161.971,
+-41.029,
+-217.229,
+-174.6,
+-118.886,
+-163.714,
+-122.4,
+-163,
+-170.571,
+-122.857,
+-122.629,
+-292.486,
+-314.943,
+-323.543,
+-314.171,
+-155.543,
+-367.457,
+-301.686,
+-329.029,
+-252.629,
+-277.143,
+-240.629,
+-327.029,
+-333.314,
+-323.314,
+-325.343,
+-288.714,
+-256.486,
+-233.886,
+-288.371,
+-186.771,
+-248.429,
+-353.914,
+-309.057,
+-314.171,
+-321.2,
+-276.971,
+-264.371,
+-267.543,
+-281.686,
+-286.686,
+-301,
+-299.514,
+-319.629,
+-304.6,
+-236.314,
+-308.686,
+-298.743,
+-316.029,
+-277.257,
+-196.943,
+-221.6,
+-223,
+-140.171,
+-248.371,
+-242.714,
+-183.229,
+-256.857,
+-300.943,
+-296.286,
+-150,
+-144.629,
+-311.743,
+-322.029,
+-235.114,
+-211.171
 );
 }
 );
@@ -1759,7 +2260,7 @@ weightClass = 900;
 {
 axesValues = (
 90,
-89
+87
 );
 customParameters = (
 {
@@ -1787,8 +2288,8 @@ value = "536";
 }
 );
 instanceInterpolations = {
-UUID0 = 0.63333;
-m005 = 0.36667;
+UUID0 = 0.64865;
+m005 = 0.35135;
 };
 name = SemiCondensed;
 widthClass = 4;
@@ -1796,7 +2297,7 @@ widthClass = 4;
 {
 axesValues = (
 90,
-79
+75
 );
 customParameters = (
 {
@@ -1824,8 +2325,8 @@ value = "536";
 }
 );
 instanceInterpolations = {
-UUID0 = 0.3;
-m005 = 0.7;
+UUID0 = 0.32432;
+m005 = 0.67568;
 };
 name = Condensed;
 widthClass = 3;
@@ -1833,7 +2334,7 @@ widthClass = 3;
 {
 axesValues = (
 90,
-70
+63
 );
 customParameters = (
 {
@@ -2760,8 +3261,8 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-UUID0 = 0.63333;
-m005 = 0.36667;
+UUID0 = 0.7027;
+m005 = 0.2973;
 };
 name = SemiCondensed;
 properties = (
@@ -2851,8 +3352,8 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-UUID0 = 0.3;
-m005 = 0.7;
+UUID0 = 0.43243;
+m005 = 0.56757;
 };
 name = Condensed;
 properties = (
@@ -2942,7 +3443,8 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-m005 = 1;
+UUID0 = 0.18919;
+m005 = 0.81081;
 };
 name = ExtraCondensed;
 properties = (
@@ -2956,6 +3458,18 @@ value = "Noto Sans Bengali UI";
 );
 }
 );
+widthClass = 2;
+},
+{
+axesValues = (
+24,
+58
+);
+instanceInterpolations = {
+"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = 1;
+};
+name = "MoreCondensed Thin";
+weightClass = 100;
 widthClass = 2;
 }
 );
@@ -3373,6 +3887,289 @@ m006 = {
 };
 "rVocalic-beng" = {
 "rrVocalic-beng" = 0;
+};
+};
+m007 = {
+"@MMK_L_BNG_R_ng_half" = {
+"gha-beng" = -250;
+};
+"@MMK_L_R_BNG_aaMatra_part" = {
+"@MMK_R_L_BNG_ma_side" = -5;
+};
+"@MMK_L_R_BNG_bha_half" = {
+"@MMK_R_L_BNG_headline_200" = -9;
+"@MMK_R_L_BNG_uMatra_side" = 12;
+};
+"@MMK_L_R_BNG_ca_half" = {
+"@MMK_R_L_BNG_cha_half" = 2;
+};
+"@MMK_L_R_BNG_da_half" = {
+"@MMK_R_L_BNG_ga" = -5;
+"@MMK_R_L_BNG_ga_side" = -5;
+"@MMK_R_L_BNG_headline130" = -34;
+"@MMK_R_L_BNG_ma_half" = -4;
+};
+"@MMK_L_R_BNG_dd_half1" = {
+"@MMK_R_L_BNG_ma_side1" = 6;
+};
+"@MMK_L_R_BNG_dda_half" = {
+"@MMK_R_L_BNG_ga_side" = -74;
+"@MMK_R_L_BNG_headline_200" = -67;
+};
+"@MMK_L_R_BNG_ddh_half" = {
+"@MMK_R_L_BNG_ma_side1" = 9;
+};
+"@MMK_L_R_BNG_headline130" = {
+"@MMK_R_L_BNG_k_ssa" = -9;
+};
+"@MMK_L_R_BNG_j-beng_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -25;
+};
+"@MMK_L_R_BNG_la_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -93;
+"@MMK_R_L_BNG_aaMatra_partShort" = -93;
+};
+"@MMK_L_R_BNG_ma_half" = {
+"@MMK_R_L_BNG_headline_200" = -72;
+"@MMK_R_L_BNG_headline_250" = -76;
+};
+"@MMK_L_R_BNG_nHeadline_part" = {
+"@MMK_R_L_BNG_aaMatra_part" = -93;
+"@MMK_R_L_BNG_aaMatra_partShort" = -42;
+"@MMK_R_L_BNG_da" = -90;
+"@MMK_R_L_d-beng_half" = -90;
+"@MMK_R_L_d-beng_half2" = -115;
+"@MMK_R_L_d-beng_half3" = -90;
+};
+"@MMK_L_R_BNG_ng_half2" = {
+"@MMK_R_L_BNG_ma_side1" = -5;
+};
+"@MMK_L_R_BNG_nga_half" = {
+"@MMK_R_L_BNG_headline-100" = -31;
+"@MMK_R_L_BNG_kSsa_half" = -26;
+"@MMK_R_L_BNG_k_ssa" = -22;
+};
+"@MMK_L_R_BNG_sa_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 5;
+};
+"@MMK_L_R_BNG_ss_half" = {
+"@MMK_R_L_BNG_headline_200" = -78;
+"@MMK_R_L_BNG_headline_250" = -74;
+};
+"@MMK_L_R_BNG_uni1CE1" = {
+"@MMK_R_L_BNG_aiMatra" = 30;
+};
+};
+m008 = {
+"@MMK_L_R_BNG_aaMatra_part" = {
+"@MMK_R_L_BNG_ma_side" = 0;
+};
+"@MMK_L_R_BNG_bha_half" = {
+"@MMK_R_L_BNG_headline_200" = -34;
+"@MMK_R_L_BNG_uMatra_side" = 9;
+};
+"@MMK_L_R_BNG_da_half" = {
+"@MMK_R_L_BNG_ga" = -43;
+"@MMK_R_L_BNG_ga_side" = -45;
+"@MMK_R_L_BNG_headline130" = -79;
+"@MMK_R_L_BNG_ma_half" = 0;
+};
+"@MMK_L_R_BNG_dd_half1" = {
+"@MMK_R_L_BNG_ma_side1" = 38;
+};
+"@MMK_L_R_BNG_dda_half" = {
+"@MMK_R_L_BNG_ga_side" = -126;
+"@MMK_R_L_BNG_headline_200" = -150;
+};
+"@MMK_L_R_BNG_ddh_half" = {
+"@MMK_R_L_BNG_ma_side1" = 23;
+};
+"@MMK_L_R_BNG_headline130" = {
+"@MMK_R_L_BNG_k_ssa" = -26;
+};
+"@MMK_L_R_BNG_j-beng_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -65;
+};
+"@MMK_L_R_BNG_la_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -199;
+"@MMK_R_L_BNG_aaMatra_partShort" = -200;
+};
+"@MMK_L_R_BNG_ma_half" = {
+"@MMK_R_L_BNG_headline_200" = -146;
+"@MMK_R_L_BNG_headline_250" = -105;
+};
+"@MMK_L_R_BNG_nHeadline_part" = {
+"@MMK_R_L_BNG_aaMatra_part" = -200;
+"@MMK_R_L_BNG_aaMatra_partShort" = -92;
+"@MMK_R_L_BNG_da" = -194;
+"@MMK_R_L_d-beng_half" = -195;
+"@MMK_R_L_d-beng_half2" = -255;
+"@MMK_R_L_d-beng_half3" = -195;
+};
+"@MMK_L_R_BNG_nga_half" = {
+"@MMK_R_L_BNG_headline-100" = -59;
+"@MMK_R_L_BNG_kSsa_half" = -41;
+"@MMK_R_L_BNG_k_ssa" = -30;
+};
+"@MMK_L_R_BNG_sa_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 8;
+};
+"@MMK_L_R_BNG_ss_half" = {
+"@MMK_R_L_BNG_headline_200" = -158;
+"@MMK_R_L_BNG_headline_250" = -109;
+};
+"@MMK_L_R_BNG_t_half" = {
+"@MMK_R_L_BNG_ma_side1" = 26;
+};
+"@MMK_L_R_BNG_uni1CE1" = {
+"@MMK_R_L_BNG_aiMatra" = 53;
+};
+};
+m009 = {
+"@MMK_L_R_BNG_aaMatra_part" = {
+"@MMK_R_L_BNG_ma_side" = -5;
+};
+"@MMK_L_R_BNG_bha_half" = {
+"@MMK_R_L_BNG_headline_200" = -4;
+"@MMK_R_L_BNG_uMatra_side" = 10;
+};
+"@MMK_L_R_BNG_da_half" = {
+"@MMK_R_L_BNG_ga" = -83;
+"@MMK_R_L_BNG_ga_side" = -85;
+"@MMK_R_L_BNG_headline130" = -146;
+};
+"@MMK_L_R_BNG_da_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 19;
+};
+"@MMK_L_R_BNG_dda_half" = {
+"@MMK_R_L_BNG_ga_side" = -108;
+"@MMK_R_L_BNG_headline_200" = -169;
+};
+"@MMK_L_R_BNG_ddh_half" = {
+"@MMK_R_L_BNG_ma_side1" = 12;
+};
+"@MMK_L_R_BNG_headline130" = {
+"@MMK_R_L_BNG_k_ssa" = -8;
+};
+"@MMK_L_R_BNG_j-beng_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -57;
+};
+"@MMK_L_R_BNG_la_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -236;
+"@MMK_R_L_BNG_aaMatra_partShort" = -237;
+};
+"@MMK_L_R_BNG_ma_half" = {
+"@MMK_R_L_BNG_headline_200" = -177;
+"@MMK_R_L_BNG_headline_250" = -131;
+};
+"@MMK_L_R_BNG_nHeadline_part" = {
+"@MMK_R_L_BNG_aaMatra_part" = -239;
+"@MMK_R_L_BNG_aaMatra_partShort" = -85;
+"@MMK_R_L_BNG_da" = -223;
+"@MMK_R_L_BNG_dda_side" = -37;
+"@MMK_R_L_d-beng_half" = -224;
+"@MMK_R_L_d-beng_half2" = -324;
+"@MMK_R_L_d-beng_half3" = -224;
+};
+"@MMK_L_R_BNG_ng_half2" = {
+"@MMK_R_L_BNG_ma_side1" = 12;
+};
+"@MMK_L_R_BNG_nga_half" = {
+"@MMK_R_L_BNG_gha" = -33;
+"@MMK_R_L_BNG_headline-100" = -27;
+};
+"@MMK_L_R_BNG_sa_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 19;
+};
+"@MMK_L_R_BNG_ss_half" = {
+"@MMK_R_L_BNG_headline_200" = -173;
+"@MMK_R_L_BNG_headline_250" = -135;
+};
+"@MMK_L_R_BNG_t_half" = {
+"@MMK_R_L_BNG_ma_side1" = 39;
+};
+"@MMK_L_R_BNG_t_ra" = {
+"@MMK_R_L_BNG_uMatra_side" = -8;
+};
+"@MMK_L_R_BNG_uni1CE1" = {
+"@MMK_R_L_BNG_aiMatra" = 54;
+};
+"rVocalic-beng" = {
+"rrVocalic-beng" = 0;
+};
+};
+"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = {
+"@MMK_L_BNG_R_ng_half" = {
+"gha-beng" = -236;
+};
+"@MMK_L_R_BNG_aaMatra_part" = {
+"@MMK_R_L_BNG_ma_side" = -6;
+};
+"@MMK_L_R_BNG_bha_half" = {
+"@MMK_R_L_BNG_headline_200" = -14;
+"@MMK_R_L_BNG_uMatra_side" = 18;
+};
+"@MMK_L_R_BNG_ca_half" = {
+"@MMK_R_L_BNG_cha_half" = 3;
+};
+"@MMK_L_R_BNG_da_half" = {
+"@MMK_R_L_BNG_ga" = -9;
+"@MMK_R_L_BNG_ga_side" = -10;
+"@MMK_R_L_BNG_headline130" = -52;
+"@MMK_R_L_BNG_ma_half" = -6;
+};
+"@MMK_L_R_BNG_dd_half1" = {
+"@MMK_R_L_BNG_ma_side1" = 11;
+};
+"@MMK_L_R_BNG_dda_half" = {
+"@MMK_R_L_BNG_ga_side" = -110;
+"@MMK_R_L_BNG_headline_200" = -102;
+};
+"@MMK_L_R_BNG_ddh_half" = {
+"@MMK_R_L_BNG_ma_side1" = 14;
+};
+"@MMK_L_R_BNG_headline130" = {
+"@MMK_R_L_BNG_k_ssa" = -13;
+};
+"@MMK_L_R_BNG_j-beng_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -38;
+};
+"@MMK_L_R_BNG_la_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -141;
+"@MMK_R_L_BNG_aaMatra_partShort" = -141;
+};
+"@MMK_L_R_BNG_ma_half" = {
+"@MMK_R_L_BNG_headline_200" = -109;
+"@MMK_R_L_BNG_headline_250" = -112;
+};
+"@MMK_L_R_BNG_nHeadline_part" = {
+"@MMK_R_L_BNG_aaMatra_part" = -141;
+"@MMK_R_L_BNG_aaMatra_partShort" = -65;
+"@MMK_R_L_BNG_da" = -138;
+"@MMK_R_L_d-beng_half" = -137;
+"@MMK_R_L_d-beng_half2" = -176;
+"@MMK_R_L_d-beng_half3" = -137;
+};
+"@MMK_L_R_BNG_ng_half2" = {
+"@MMK_R_L_BNG_ma_side1" = -6;
+};
+"@MMK_L_R_BNG_nga_half" = {
+"@MMK_R_L_BNG_headline-100" = -47;
+"@MMK_R_L_BNG_kSsa_half" = -38;
+"@MMK_R_L_BNG_k_ssa" = -32;
+};
+"@MMK_L_R_BNG_sa_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 7;
+};
+"@MMK_L_R_BNG_ss_half" = {
+"@MMK_R_L_BNG_headline_200" = -118;
+"@MMK_R_L_BNG_headline_250" = -109;
+};
+"@MMK_L_R_BNG_t_half" = {
+"@MMK_R_L_BNG_ma_side1" = 1;
+};
+"@MMK_L_R_BNG_uni1CE1" = {
+"@MMK_R_L_BNG_aiMatra" = 45;
 };
 };
 };

@@ -206,6 +206,121 @@ ref = "nukta-beng";
 }
 );
 width = 552;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (352,622);
+},
+{
+name = top_candrabindu;
+pos = (389,622);
+}
+);
+shapes = (
+{
+ref = "bha-beng";
+},
+{
+pos = (404,74);
+ref = "nukta-beng";
+}
+);
+};
+layerId = m007;
+shapes = (
+{
+ref = "bha-beng";
+},
+{
+pos = (252,26);
+ref = "nukta-beng";
+}
+);
+width = 403;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (360,622);
+},
+{
+name = top_candrabindu;
+pos = (384,622);
+}
+);
+shapes = (
+{
+ref = "bha-beng";
+},
+{
+pos = (407,53);
+ref = "nukta-beng";
+}
+);
+};
+layerId = m008;
+shapes = (
+{
+ref = "bha-beng";
+},
+{
+pos = (304,9);
+ref = "nukta-beng";
+}
+);
+width = 526;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (386,622);
+},
+{
+name = top_candrabindu;
+pos = (377,622);
+}
+);
+shapes = (
+{
+ref = "bha-beng";
+},
+{
+pos = (405,11);
+ref = "nukta-beng";
+}
+);
+};
+layerId = m009;
+shapes = (
+{
+ref = "bha-beng";
+},
+{
+pos = (316,1);
+ref = "nukta-beng";
+}
+);
+width = 552;
+},
+{
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+ref = "bha-beng";
+},
+{
+pos = (293,25);
+ref = "nukta-beng";
+}
+);
+width = 469;
 }
 );
 }

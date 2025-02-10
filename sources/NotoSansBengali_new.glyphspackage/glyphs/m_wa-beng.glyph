@@ -316,6 +316,188 @@ ref = "headline-beng.200";
 }
 );
 width = 633;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (294,622);
+},
+{
+name = bottom;
+pos = (434,0);
+},
+{
+name = top_candrabindu;
+pos = (350,622);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(152,115,l),
+(230,86,o),
+(289,44,o),
+(336,-8,c),
+(354,5,l),
+(301,65,o),
+(237,107,o),
+(161,136,c)
+);
+},
+{
+alignment = -1;
+ref = "m_ba-beng";
+}
+);
+};
+layerId = m007;
+shapes = (
+{
+alignment = -1;
+ref = "m-beng.half";
+},
+{
+pos = (75,94);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (86,56);
+ref = "wa-beng.part";
+},
+{
+pos = (235,0);
+ref = "headline-beng.200";
+}
+);
+width = 553;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (306,622);
+},
+{
+name = bottom;
+pos = (437,0);
+},
+{
+name = top_candrabindu;
+pos = (350,622);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(166,48,l),
+(227,35,o),
+(283,12,o),
+(329,-23,c),
+(368,18,l),
+(327,58,o),
+(260,92,o),
+(177,108,c)
+);
+},
+{
+ref = "m_ba-beng";
+}
+);
+};
+layerId = m008;
+shapes = (
+{
+alignment = -1;
+ref = "m-beng.half";
+},
+{
+pos = (81,124);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (99,73);
+ref = "wa-beng.part";
+},
+{
+pos = (296,0);
+ref = "headline-beng.200";
+}
+);
+width = 591;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (347,622);
+},
+{
+name = bottom;
+pos = (446,0);
+},
+{
+name = top_candrabindu;
+pos = (367,622);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = "m_ba-beng";
+}
+);
+};
+layerId = m009;
+shapes = (
+{
+alignment = -1;
+ref = "m-beng.half";
+},
+{
+pos = (66,124);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (84,67);
+ref = "wa-beng.part";
+},
+{
+pos = (315,0);
+ref = "headline-beng.200";
+}
+);
+width = 633;
+},
+{
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+alignment = -1;
+ref = "m-beng.half";
+},
+{
+alignment = -1;
+pos = (87,96);
+ref = "baphala-beng.alt4";
+},
+{
+alignment = -1;
+pos = (100,57);
+ref = "wa-beng.part";
+},
+{
+alignment = -1;
+pos = (273,0);
+ref = "headline-beng.200";
+}
+);
+width = 555;
 }
 );
 metricWidth = mababeng;

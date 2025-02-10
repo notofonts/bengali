@@ -82,6 +82,64 @@ ref = quoteright.beng;
 }
 );
 width = 287;
+},
+{
+background = {
+shapes = (
+{
+ref = quoteright.beng;
+}
+);
+};
+layerId = m007;
+shapes = (
+{
+ref = quoteright.beng;
+}
+);
+width = 153;
+},
+{
+background = {
+shapes = (
+{
+ref = quoteright.beng;
+}
+);
+};
+layerId = m008;
+shapes = (
+{
+ref = quoteright.beng;
+}
+);
+width = 242;
+},
+{
+background = {
+shapes = (
+{
+ref = quoteright.beng;
+}
+);
+};
+layerId = m009;
+shapes = (
+{
+ref = quoteright.beng;
+}
+);
+width = 287;
+},
+{
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+alignment = -1;
+ref = quoteright.beng;
+}
+);
+width = 178;
 }
 );
 unicode = 700;

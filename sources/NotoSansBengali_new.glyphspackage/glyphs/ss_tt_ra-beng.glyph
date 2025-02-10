@@ -411,6 +411,227 @@ ref = "raphala-beng.alt06";
 }
 );
 width = 449;
+},
+{
+background = {
+anchors = (
+{
+name = _top_flag;
+pos = (361,607);
+},
+{
+name = top_candrabindu;
+pos = (183,625);
+},
+{
+name = top_reph;
+pos = (100,607);
+},
+{
+name = top_vedic;
+pos = (243,607);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(382,602,ls),
+(382,701,o),
+(331,739,o),
+(245,739,cs),
+(161,739,ls),
+(70,739,o),
+(27,758,o),
+(27,847,cs),
+(27,862,o),
+(29,881,o),
+(31,895,c),
+(10,897,l),
+(8,883,o),
+(6,863,o),
+(6,847,cs),
+(6,742,o),
+(61,718,o),
+(162,718,cs),
+(245,718,ls),
+(334,718,o),
+(361,679,o),
+(361,602,cs),
+(361,563,l),
+(382,543,l)
+);
+}
+);
+};
+layerId = m007;
+shapes = (
+{
+ref = "ss_tta-beng.noflag";
+},
+{
+pos = (114,0);
+ref = "tta-beng.flag3";
+},
+{
+pos = (8,-217);
+ref = "raphala-beng.alt06";
+}
+);
+width = 286;
+},
+{
+background = {
+anchors = (
+{
+name = _top_flag;
+pos = (365,622);
+},
+{
+name = top_candrabindu;
+pos = (249,638);
+},
+{
+name = top_reph;
+pos = (108,622);
+},
+{
+name = top_vedic;
+pos = (247,622);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(437,617,ls),
+(437,728,o),
+(373,776,o),
+(263,776,cs),
+(199,776,ls),
+(119,776,o),
+(74,802,o),
+(74,869,cs),
+(74,879,o),
+(75,891,o),
+(78,907,c),
+(4,912,l),
+(1,893,o),
+(-1,876,o),
+(-1,859,cs),
+(-1,749,o),
+(84,704,o),
+(215,704,cs),
+(283,704,ls),
+(344,704,o),
+(365,682,o),
+(365,617,cs),
+(365,561,l),
+(437,505,l)
+);
+}
+);
+};
+layerId = m008;
+shapes = (
+{
+ref = "ss_tta-beng.noflag";
+},
+{
+pos = (191,0);
+ref = "tta-beng.flag3";
+},
+{
+pos = (-12,-234);
+ref = "raphala-beng.alt06";
+}
+);
+width = 404;
+},
+{
+background = {
+anchors = (
+{
+name = _top_flag;
+pos = (374,635);
+},
+{
+name = top_candrabindu;
+pos = (401,684);
+},
+{
+name = top_reph;
+pos = (182,635);
+},
+{
+name = top_vedic;
+pos = (324,622);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(530,626,l),
+(530,763,o),
+(442,823,o),
+(323,823,cs),
+(233,823,ls),
+(185,823,o),
+(160,838,o),
+(160,879,cs),
+(160,885,o),
+(161,895,o),
+(163,905,c),
+(9,915,l),
+(5,897,o),
+(3,882,o),
+(3,863,cs),
+(3,742,o),
+(92,685,o),
+(251,685,cs),
+(312,685,ls),
+(358,685,o),
+(374,667,o),
+(374,626,c),
+(374,552,l),
+(530,541,l)
+);
+}
+);
+};
+layerId = m009;
+shapes = (
+{
+ref = "ss_tta-beng.noflag";
+},
+{
+pos = (277,0);
+ref = "tta-beng.flag3";
+},
+{
+pos = (-26,-314);
+ref = "raphala-beng.alt06";
+}
+);
+width = 449;
+},
+{
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+ref = "ss_tta-beng.noflag";
+},
+{
+pos = (133,0);
+ref = "tta-beng.flag3";
+},
+{
+pos = (9,-218);
+ref = "raphala-beng.alt06";
+}
+);
+width = 333;
 }
 );
 script = bengali;

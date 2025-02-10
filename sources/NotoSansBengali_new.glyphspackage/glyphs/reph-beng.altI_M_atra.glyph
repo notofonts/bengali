@@ -314,6 +314,203 @@ nodes = (
 }
 );
 width = 0;
+},
+{
+anchors = (
+{
+name = _top_candrabindu;
+pos = (-91,622);
+},
+{
+name = _top_iMatra;
+pos = (-91,676);
+},
+{
+name = top_candrabindu_iMatra;
+pos = (-125,648);
+}
+);
+background = {
+anchors = (
+{
+name = _top_candrabindu;
+pos = (-112,622);
+},
+{
+name = _top_iMatra;
+pos = (-113,676);
+},
+{
+name = top_candrabindu_iMatra;
+pos = (-154,648);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(57,863,l),
+(48,874,l),
+(-125,691,l),
+(-113,676,l)
+);
+}
+);
+};
+layerId = m007;
+shapes = (
+{
+closed = 1;
+nodes = (
+(46,863,l),
+(37,874,l),
+(-102,691,l),
+(-91,676,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top_candrabindu;
+pos = (-144,622);
+},
+{
+name = _top_iMatra;
+pos = (-137,646);
+},
+{
+name = top_candrabindu_iMatra;
+pos = (-211,699);
+}
+);
+background = {
+anchors = (
+{
+name = _top_candrabindu;
+pos = (-144,622);
+},
+{
+name = _top_iMatra;
+pos = (-137,646);
+},
+{
+name = top_candrabindu_iMatra;
+pos = (-211,699);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(55,840,l),
+(25,884,l),
+(-177,706,l),
+(-137,646,l)
+);
+}
+);
+};
+layerId = m008;
+shapes = (
+{
+closed = 1;
+nodes = (
+(55,840,l),
+(25,884,l),
+(-177,706,l),
+(-137,646,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top_candrabindu;
+pos = (-215,622);
+},
+{
+name = _top_iMatra;
+pos = (-186,636);
+},
+{
+name = top_candrabindu_iMatra;
+pos = (-295,738);
+}
+);
+background = {
+anchors = (
+{
+name = _top_candrabindu;
+pos = (-215,622);
+},
+{
+name = _top_iMatra;
+pos = (-186,636);
+},
+{
+name = top_candrabindu_iMatra;
+pos = (-295,738);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(36,816,l),
+(-18,909,l),
+(-257,758,l),
+(-186,636,l)
+);
+}
+);
+};
+layerId = m009;
+shapes = (
+{
+closed = 1;
+nodes = (
+(36,816,l),
+(-18,909,l),
+(-257,758,l),
+(-186,636,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top_candrabindu;
+pos = (-106,622);
+},
+{
+name = _top_iMatra;
+pos = (-106,674);
+},
+{
+name = top_candrabindu_iMatra;
+pos = (-147,651);
+}
+);
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+closed = 1;
+nodes = (
+(53,862,l),
+(43,875,l),
+(-120,692,l),
+(-106,674,l)
+);
+}
+);
+width = 0;
 }
 );
 subCategory = Nonspacing;

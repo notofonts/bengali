@@ -312,6 +312,182 @@ ref = "wa-beng.part";
 }
 );
 width = 685;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (353,622);
+},
+{
+name = top_candrabindu;
+pos = (466,622);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(238,-166,l),
+(309,-182,o),
+(359,-206,o),
+(417,-247,c),
+(431,-231,l),
+(375,-186,o),
+(314,-160,o),
+(245,-144,c)
+);
+},
+{
+alignment = -1;
+ref = "s_t_ba-beng";
+}
+);
+};
+layerId = m007;
+shapes = (
+{
+ref = "s-beng.half3";
+},
+{
+pos = (30,89);
+ref = "ta-beng.blws";
+},
+{
+pos = (184,-124);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (185,-133);
+ref = "wa-beng.part";
+}
+);
+width = 439;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (363,622);
+},
+{
+name = top_candrabindu;
+pos = (465,622);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(244,-249,l),
+(314,-258,o),
+(369,-279,o),
+(413,-310,c),
+(447,-265,l),
+(399,-228,o),
+(334,-199,o),
+(254,-189,c)
+);
+},
+{
+ref = "s_t_ba-beng";
+}
+);
+};
+layerId = m008;
+shapes = (
+{
+ref = "s-beng.half3";
+},
+{
+pos = (-3,55);
+ref = "ta-beng.blws";
+},
+{
+pos = (204,-167);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (224,-199);
+ref = "wa-beng.part";
+}
+);
+width = 600;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (384,622);
+},
+{
+name = top_candrabindu;
+pos = (458,622);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(231,-285,l),
+(295,-294,o),
+(357,-311,o),
+(410,-342,c),
+(449,-281,l),
+(395,-242,o),
+(325,-216,o),
+(246,-205,c)
+);
+},
+{
+alignment = -1;
+ref = "s_t_ba-beng";
+}
+);
+};
+layerId = m009;
+shapes = (
+{
+ref = "s-beng.half3";
+},
+{
+pos = (-18,0);
+ref = "ta-beng.blws";
+},
+{
+pos = (183,-213);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (219,-260);
+ref = "wa-beng.part";
+}
+);
+width = 685;
+},
+{
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+ref = "s-beng.half3";
+},
+{
+pos = (34,87);
+ref = "ta-beng.blws";
+},
+{
+pos = (213,-127);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (215,-137);
+ref = "wa-beng.part";
+}
+);
+width = 511;
 }
 );
 metricWidth = satababeng;

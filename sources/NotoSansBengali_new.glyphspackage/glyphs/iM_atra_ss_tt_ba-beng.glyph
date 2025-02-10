@@ -149,6 +149,100 @@ ref = "baphala-beng.alt3";
 }
 );
 width = 681;
+},
+{
+layerId = m007;
+shapes = (
+{
+ref = "iMatra-beng.ttaAlt1";
+},
+{
+pos = (141,0);
+ref = "ss_tta-beng.noflag";
+},
+{
+pos = (254,0);
+ref = "tta-beng.flagIMatra3";
+},
+{
+pos = (201,-188);
+ref = "baphala-beng.alt3";
+}
+);
+width = 427;
+},
+{
+layerId = m008;
+shapes = (
+{
+ref = "iMatra-beng.ttaAlt1";
+},
+{
+pos = (204,0);
+ref = "ss_tta-beng.noflag";
+},
+{
+pos = (394,0);
+ref = "tta-beng.flagIMatra3";
+},
+{
+pos = (264,-189);
+ref = "baphala-beng.alt3";
+}
+);
+width = 608;
+},
+{
+annotations = (
+{
+pos = (-254.695,-223.759);
+type = Text;
+},
+{
+pos = (-337.286,-39.188);
+type = Text;
+}
+);
+layerId = m009;
+shapes = (
+{
+ref = "iMatra-beng.ttaAlt1";
+},
+{
+pos = (232,0);
+ref = "ss_tta-beng.noflag";
+},
+{
+pos = (509,0);
+ref = "tta-beng.flagIMatra3";
+},
+{
+pos = (273,-151);
+ref = "baphala-beng.alt3";
+}
+);
+width = 681;
+},
+{
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+ref = "iMatra-beng.ttaAlt1";
+},
+{
+pos = (164,0);
+ref = "ss_tta-beng.noflag";
+},
+{
+pos = (296,0);
+ref = "tta-beng.flagIMatra3";
+},
+{
+pos = (234,-188);
+ref = "baphala-beng.alt3";
+}
+);
+width = 497;
 }
 );
 subCategory = Spacing;

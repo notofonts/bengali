@@ -255,7 +255,7 @@ width = 441;
 anchors = (
 {
 name = bottom;
-pos = (275,0);
+pos = (270,0);
 },
 {
 name = top_candrabindu;
@@ -301,7 +301,192 @@ pos = (135,138);
 ref = "nukta-beng";
 }
 );
-width = 459;
+width = 464;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (264,0);
+},
+{
+name = top_candrabindu;
+pos = (271,606);
+},
+{
+name = top_vedic;
+pos = (171,606);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (334,0);
+},
+{
+name = top_candrabindu;
+pos = (341,606);
+},
+{
+name = top_vedic;
+pos = (215,606);
+}
+);
+shapes = (
+{
+ref = "ba-beng";
+},
+{
+pos = (146,149);
+ref = "nukta-beng";
+}
+);
+};
+layerId = m007;
+shapes = (
+{
+ref = "ba-beng";
+},
+{
+pos = (116,148);
+ref = "nukta-beng";
+}
+);
+width = 334;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (309,0);
+},
+{
+name = top_candrabindu;
+pos = (341,621);
+},
+{
+name = top_vedic;
+pos = (224,621);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (309,0);
+},
+{
+name = top_candrabindu;
+pos = (341,621);
+},
+{
+name = top_vedic;
+pos = (224,621);
+}
+);
+shapes = (
+{
+ref = "ba-beng";
+},
+{
+pos = (143,136);
+ref = "nukta-beng";
+}
+);
+};
+layerId = m008;
+shapes = (
+{
+ref = "ba-beng";
+},
+{
+pos = (143,135);
+ref = "nukta-beng";
+}
+);
+width = 441;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (270,0);
+},
+{
+name = top_candrabindu;
+pos = (339,634);
+},
+{
+name = top_vedic;
+pos = (234,634);
+}
+);
+background = {
+anchors = (
+{
+name = bottom;
+pos = (275,0);
+},
+{
+name = top_candrabindu;
+pos = (339,634);
+},
+{
+name = top_vedic;
+pos = (234,634);
+}
+);
+shapes = (
+{
+ref = "ba-beng";
+},
+{
+pos = (135,143);
+ref = "nukta-beng";
+}
+);
+};
+layerId = m009;
+shapes = (
+{
+ref = "ba-beng";
+},
+{
+pos = (135,138);
+ref = "nukta-beng";
+}
+);
+width = 464;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (307,0);
+},
+{
+name = top_candrabindu;
+pos = (316,607);
+},
+{
+name = top_vedic;
+pos = (200,607);
+}
+);
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+alignment = -1;
+ref = "ba-beng";
+},
+{
+alignment = -1;
+pos = (135,147);
+ref = "nukta-beng";
+}
+);
+width = 389;
 }
 );
 script = bengali;

@@ -104,6 +104,74 @@ ref = "raphala-beng.alt01";
 }
 );
 width = 907;
+},
+{
+layerId = m007;
+shapes = (
+{
+ref = "s-beng.half";
+},
+{
+pos = (370,0);
+ref = "pha-beng.side";
+},
+{
+pos = (138,-139);
+ref = "raphala-beng.alt01";
+}
+);
+width = 616;
+},
+{
+layerId = m008;
+shapes = (
+{
+ref = "s-beng.half";
+},
+{
+pos = (487,0);
+ref = "pha-beng.side";
+},
+{
+pos = (154,-181);
+ref = "raphala-beng.alt01";
+}
+);
+width = 816;
+},
+{
+layerId = m009;
+shapes = (
+{
+ref = "s-beng.half";
+},
+{
+pos = (540,0);
+ref = "pha-beng.side";
+},
+{
+pos = (162,-257);
+ref = "raphala-beng.alt01";
+}
+);
+width = 907;
+},
+{
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+ref = "s-beng.half";
+},
+{
+pos = (430,0);
+ref = "pha-beng.side";
+},
+{
+pos = (161,-141);
+ref = "raphala-beng.alt01";
+}
+);
+width = 717;
 }
 );
 }

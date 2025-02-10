@@ -364,6 +364,203 @@ nodes = (
 }
 );
 width = 217;
+},
+{
+anchors = (
+{
+name = _bottom.Wa;
+pos = (67,-7);
+},
+{
+name = nukta;
+pos = (42,-84);
+}
+);
+background = {
+anchors = (
+{
+name = _bottom.Wa;
+pos = (84,-7);
+},
+{
+name = nukta;
+pos = (53,-84);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(15,28,l),
+(60,9,o),
+(101,-18,o),
+(142,-74,c),
+(151,-63,l),
+(112,-7,o),
+(67,24,o),
+(20,44,c)
+);
+}
+);
+};
+layerId = m007;
+shapes = (
+{
+closed = 1;
+nodes = (
+(12,28,l),
+(48,9,o),
+(80,-18,o),
+(112,-74,c),
+(121,-63,l),
+(90,-7,o),
+(54,24,o),
+(16,44,c)
+);
+}
+);
+width = 133;
+},
+{
+anchors = (
+{
+name = _bottom.Wa;
+pos = (92,-43);
+},
+{
+name = nukta;
+pos = (55,-154);
+}
+);
+background = {
+anchors = (
+{
+name = _bottom.Wa;
+pos = (92,-43);
+},
+{
+name = nukta;
+pos = (55,-154);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(18,-39,l),
+(61,-55,o),
+(100,-78,o),
+(134,-119,c),
+(162,-79,l),
+(128,-33,o),
+(84,0,o),
+(29,17,c)
+);
+}
+);
+};
+layerId = m008;
+shapes = (
+{
+closed = 1;
+nodes = (
+(18,-39,l),
+(61,-55,o),
+(100,-78,o),
+(134,-119,c),
+(162,-79,l),
+(128,-33,o),
+(84,0,o),
+(29,17,c)
+);
+}
+);
+width = 179;
+},
+{
+anchors = (
+{
+name = _bottom.Wa;
+pos = (97,-110);
+},
+{
+name = nukta;
+pos = (68,-246);
+}
+);
+background = {
+anchors = (
+{
+name = _bottom.Wa;
+pos = (97,-110);
+},
+{
+name = nukta;
+pos = (68,-246);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(32,-118,l),
+(78,-132,o),
+(122,-151,o),
+(160,-185,c),
+(190,-126,l),
+(146,-82,o),
+(98,-56,o),
+(44,-42,c)
+);
+}
+);
+};
+layerId = m009;
+shapes = (
+{
+closed = 1;
+nodes = (
+(32,-118,l),
+(78,-132,o),
+(122,-151,o),
+(160,-185,c),
+(190,-126,l),
+(146,-82,o),
+(98,-56,o),
+(44,-42,c)
+);
+}
+);
+width = 217;
+},
+{
+anchors = (
+{
+name = _bottom.Wa;
+pos = (78,-9);
+},
+{
+name = nukta;
+pos = (49,-88);
+}
+);
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+closed = 1;
+nodes = (
+(14,24,l),
+(56,5,o),
+(93,-21,o),
+(131,-77,c),
+(141,-64,l),
+(105,-8,o),
+(63,23,o),
+(19,42,c)
+);
+}
+);
+width = 155;
 }
 );
 subCategory = Nonspacing;
