@@ -150,11 +150,11 @@ pos = (159,0);
 ref = "tta-beng.flag";
 },
 {
-pos = (52,-76);
+pos = (52,-78);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (52,-85);
+pos = (52,-87);
 ref = "wa-beng.part";
 }
 );
@@ -188,11 +188,11 @@ pos = (205,0);
 ref = "tta-beng.flag";
 },
 {
-pos = (29,-60);
+pos = (29,-62);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (49,-92);
+pos = (49,-94);
 ref = "wa-beng.part";
 }
 );
@@ -226,11 +226,11 @@ pos = (230,0);
 ref = "tta-beng.flag";
 },
 {
-pos = (-18,-32);
+pos = (-18,-37);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (18,-79);
+pos = (18,-84);
 ref = "wa-beng.part";
 }
 );
