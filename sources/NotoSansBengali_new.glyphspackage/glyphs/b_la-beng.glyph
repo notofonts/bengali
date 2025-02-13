@@ -478,7 +478,7 @@ shapes = (
 ref = "b-beng.half";
 },
 {
-pos = (22,11);
+pos = (18,2);
 ref = "la-beng.blws";
 },
 {
@@ -486,7 +486,7 @@ pos = (552,0);
 ref = "headline-beng.ba";
 }
 );
-width = 414;
+width = 406;
 },
 {
 background = {
@@ -599,7 +599,7 @@ shapes = (
 ref = "b-beng.half";
 },
 {
-pos = (5,-147);
+pos = (5,-134);
 ref = "la-beng.blws";
 },
 {

@@ -466,11 +466,11 @@ alignment = -1;
 ref = "b-beng.half";
 },
 {
-pos = (85,18);
+pos = (81,9);
 ref = "na-beng.blws";
 },
 {
-pos = (414,0);
+pos = (412,-3);
 ref = "ka-beng.arm";
 }
 );
@@ -603,7 +603,7 @@ alignment = -1;
 ref = "b-beng.half";
 },
 {
-pos = (59,-90);
+pos = (59,-77);
 ref = "na-beng.blws";
 },
 {
