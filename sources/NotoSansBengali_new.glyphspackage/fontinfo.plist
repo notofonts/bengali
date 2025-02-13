@@ -1953,7 +1953,13 @@ axesValues = (
 0
 );
 instanceInterpolations = {
-"28FB090A-653E-4199-B7BE-FAE23D31B682" = 1;
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = -1.27249;
+"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = 0.52197;
+m004 = 0.81387;
+m005 = -0.08703;
+m007 = 1.17274;
+m008 = -0.08586;
+m009 = -0.0632;
 };
 name = Regular;
 type = variable;
