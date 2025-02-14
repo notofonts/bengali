@@ -112,7 +112,7 @@ pos = (142,-14);
 ref = "baphala-beng.alt1";
 }
 );
-width = 595;
+width = 581;
 },
 {
 background = {
@@ -176,11 +176,11 @@ shapes = (
 ref = "ph-beng.half";
 },
 {
-pos = (49,-44);
+pos = (33,-44);
 ref = "baphala-beng.alt1";
 }
 );
-width = 649;
+width = 638;
 },
 {
 background = {

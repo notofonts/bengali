@@ -562,7 +562,7 @@ pos = (43,-21);
 ref = "la-beng.blws";
 }
 );
-width = 595;
+width = 581;
 },
 {
 background = {
@@ -838,11 +838,11 @@ shapes = (
 ref = "ph-beng.half";
 },
 {
-pos = (-24,-103);
+pos = (-41,-103);
 ref = "la-beng.blws";
 }
 );
-width = 649;
+width = 638;
 },
 {
 background = {

@@ -857,7 +857,7 @@ width = 386;
 anchors = (
 {
 name = _bottomVattu;
-pos = (306,181);
+pos = (307,181);
 },
 {
 name = bottom;

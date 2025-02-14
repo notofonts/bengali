@@ -434,7 +434,7 @@ pos = (17,-17);
 ref = "raphala-beng.alt14";
 }
 );
-width = 423;
+width = 421;
 },
 {
 background = {
@@ -646,7 +646,7 @@ shapes = (
 ref = "y-beng.half";
 },
 {
-pos = (-19,-124);
+pos = (-20,-124);
 ref = "raphala-beng.alt14";
 }
 );

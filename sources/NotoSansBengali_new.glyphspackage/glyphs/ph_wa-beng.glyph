@@ -128,7 +128,7 @@ pos = (149,-97);
 ref = "wa-beng.part";
 }
 );
-width = 595;
+width = 581;
 },
 {
 background = {
@@ -196,15 +196,15 @@ shapes = (
 ref = "ph-beng.half";
 },
 {
-pos = (49,-44);
+pos = (33,-44);
 ref = "baphala-beng.alt1";
 },
 {
-pos = (80,-66);
+pos = (64,-66);
 ref = "wa-beng.part";
 }
 );
-width = 649;
+width = 638;
 },
 {
 background = {
