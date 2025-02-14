@@ -133,11 +133,11 @@ shapes = (
 ref = "nga-beng";
 },
 {
-pos = (309,-9);
+pos = (308,-9);
 ref = "nukta-beng";
 }
 );
-width = 541;
+width = 542;
 },
 {
 background = {

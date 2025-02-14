@@ -121,7 +121,7 @@ pos = (163,108);
 ref = "nukta-beng";
 }
 );
-width = 466;
+width = 456;
 },
 {
 background = {
@@ -147,11 +147,11 @@ shapes = (
 ref = "ssa-beng";
 },
 {
-pos = (130,126);
+pos = (145,126);
 ref = "nukta-beng";
 }
 );
-width = 469;
+width = 488;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -164,7 +164,7 @@ pos = (143,139);
 ref = "nukta-beng";
 }
 );
-width = 406;
+width = 404;
 }
 );
 }

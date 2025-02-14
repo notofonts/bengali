@@ -245,7 +245,7 @@ shapes = (
 ref = "ba-beng";
 },
 {
-pos = (130,138);
+pos = (126,138);
 ref = "nukta-beng";
 }
 );

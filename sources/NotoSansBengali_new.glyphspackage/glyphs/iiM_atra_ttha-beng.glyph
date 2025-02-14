@@ -566,11 +566,11 @@ pos = (60,0);
 ref = "ttha-beng.topIiMatra";
 },
 {
-pos = (415,0);
+pos = (420,0);
 ref = "iiMatra-beng.tthaAlt1";
 }
 );
-width = 619;
+width = 624;
 },
 {
 anchors = (

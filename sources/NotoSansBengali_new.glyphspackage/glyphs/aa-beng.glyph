@@ -207,11 +207,11 @@ shapes = (
 ref = "a-beng";
 },
 {
-pos = (732,0);
+pos = (736,0);
 ref = "aaMatra-beng";
 }
 );
-width = 963;
+width = 975;
 },
 {
 anchors = (
@@ -227,16 +227,14 @@ pos = (370,607);
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
-alignment = -1;
 ref = "a-beng";
 },
 {
-alignment = -1;
 pos = (575,0);
 ref = "aaMatra-beng";
 }
 );
-width = 744;
+width = 739;
 }
 );
 script = bengali;

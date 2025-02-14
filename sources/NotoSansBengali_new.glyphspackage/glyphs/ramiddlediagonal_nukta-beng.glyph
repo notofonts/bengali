@@ -147,7 +147,7 @@ shapes = (
 ref = "ramiddlediagonal-beng";
 },
 {
-pos = (134,138);
+pos = (130,138);
 ref = "nukta-beng";
 }
 );

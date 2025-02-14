@@ -151,7 +151,7 @@ pos = (199,109);
 ref = "nukta-beng";
 }
 );
-width = 488;
+width = 492;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -164,7 +164,7 @@ pos = (145,94);
 ref = "nukta-beng";
 }
 );
-width = 402;
+width = 401;
 }
 );
 }

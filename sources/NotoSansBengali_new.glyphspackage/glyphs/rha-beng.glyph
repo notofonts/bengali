@@ -157,7 +157,7 @@ pos = (199,0);
 ref = "nukta-beng";
 }
 );
-width = 413;
+width = 418;
 },
 {
 anchors = (
@@ -189,11 +189,11 @@ shapes = (
 ref = "ddha-beng";
 },
 {
-pos = (215,0);
+pos = (219,0);
 ref = "nukta-beng";
 }
 );
-width = 443;
+width = 449;
 },
 {
 anchors = (
@@ -205,11 +205,9 @@ pos = (211,-229);
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
-alignment = -1;
 ref = "ddha-beng";
 },
 {
-alignment = -1;
 pos = (166,0);
 ref = "nukta-beng";
 }

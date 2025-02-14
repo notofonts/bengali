@@ -613,7 +613,7 @@ pos = (57,0);
 ref = "ttha-beng.top";
 }
 );
-width = 415;
+width = 420;
 },
 {
 anchors = (
@@ -883,12 +883,10 @@ pos = (177,607);
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
-alignment = -1;
 ref = "ttha-beng.notop";
 },
 {
-alignment = -1;
-pos = (61,0);
+pos = (62,0);
 ref = "ttha-beng.top";
 }
 );

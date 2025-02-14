@@ -489,11 +489,11 @@ pos = (206,0);
 ref = "tta-beng.flagIiMatra";
 },
 {
-pos = (413,0);
+pos = (418,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 616;
+width = 621;
 },
 {
 anchors = (
@@ -780,15 +780,15 @@ shapes = (
 ref = "ddha-beng";
 },
 {
-pos = (241,0);
+pos = (245,0);
 ref = "tta-beng.flagIiMatra";
 },
 {
-pos = (443,0);
+pos = (449,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 674;
+width = 680;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

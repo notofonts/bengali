@@ -178,7 +178,7 @@ pos = (504,0);
 ref = "gha-beng";
 }
 );
-width = 988;
+width = 992;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -195,7 +195,7 @@ pos = (404,0);
 ref = "gha-beng";
 }
 );
-width = 811;
+width = 810;
 }
 );
 script = bengali;

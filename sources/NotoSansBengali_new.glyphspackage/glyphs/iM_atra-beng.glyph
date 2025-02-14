@@ -367,7 +367,7 @@ Length = 125;
 ref = "_smart-iMatra-beng";
 }
 );
-width = 231;
+width = 239;
 },
 {
 associatedMasterId = m006;
@@ -454,6 +454,36 @@ name = top_iMatra;
 pos = (485,700);
 }
 );
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(91,607,l),
+(88,660,l),
+(72,660,l),
+(72,598,ls),
+(72,567,o),
+(73,549,o),
+(74,534,c),
+(57,592,o),
+(37,607,o),
+(5,607,cs),
+(-8,607,l),
+(-8,589,l),
+(0,589,ls),
+(37,589,o),
+(51,567,o),
+(72,505,c),
+(72,0,l),
+(92,0,l),
+(92,589,l),
+(172,589,l),
+(172,607,l)
+);
+}
+);
+};
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
@@ -463,7 +493,7 @@ Length = 150;
 ref = "_smart-iMatra-beng";
 }
 );
-width = 177;
+width = 164;
 }
 );
 partsSettings = (
