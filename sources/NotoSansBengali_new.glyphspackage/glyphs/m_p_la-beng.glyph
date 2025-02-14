@@ -58,24 +58,6 @@ ref = "la-beng.blws1";
 width = 1154;
 },
 {
-layerId = m004;
-shapes = (
-{
-ref = "m-beng.half";
-},
-{
-alignment = -1;
-pos = (443,0);
-ref = "p-beng.half";
-},
-{
-pos = (516,0);
-ref = "la-beng.blws1";
-}
-);
-width = 1067;
-},
-{
 layerId = m005;
 shapes = (
 {
@@ -95,60 +77,6 @@ width = 1120;
 },
 {
 layerId = m006;
-shapes = (
-{
-ref = "m-beng.half";
-},
-{
-alignment = -1;
-pos = (403,0);
-ref = "p-beng.half";
-},
-{
-pos = (484,-16);
-ref = "la-beng.blws1";
-}
-);
-width = 1154;
-},
-{
-layerId = m007;
-shapes = (
-{
-ref = "m-beng.half";
-},
-{
-alignment = -1;
-pos = (443,0);
-ref = "p-beng.half";
-},
-{
-pos = (501,0);
-ref = "la-beng.blws1";
-}
-);
-width = 1067;
-},
-{
-layerId = m008;
-shapes = (
-{
-ref = "m-beng.half";
-},
-{
-alignment = -1;
-pos = (419,0);
-ref = "p-beng.half";
-},
-{
-pos = (503,1);
-ref = "la-beng.blws1";
-}
-);
-width = 1120;
-},
-{
-layerId = m009;
 shapes = (
 {
 ref = "m-beng.half";

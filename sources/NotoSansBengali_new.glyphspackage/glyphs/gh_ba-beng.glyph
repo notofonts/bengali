@@ -101,38 +101,6 @@ background = {
 anchors = (
 {
 name = Anchor8;
-pos = (305,622);
-}
-);
-shapes = (
-{
-alignment = -1;
-ref = "gha-beng";
-},
-{
-alignment = -1;
-pos = (592,0);
-ref = basubscriptbeng;
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-ref = "gh-beng.half";
-},
-{
-pos = (136,-20);
-ref = "baphala-beng.alt1";
-}
-);
-width = 428;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
 pos = (315,622);
 }
 );
@@ -177,98 +145,6 @@ ref = basubscriptbeng;
 );
 };
 layerId = m006;
-shapes = (
-{
-ref = "gh-beng.half";
-},
-{
-pos = (57,-51);
-ref = "baphala-beng.alt1";
-}
-);
-width = 484;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
-pos = (305,622);
-}
-);
-shapes = (
-{
-alignment = -1;
-ref = "gha-beng";
-},
-{
-alignment = -1;
-pos = (592,0);
-ref = basubscriptbeng;
-}
-);
-};
-layerId = m007;
-shapes = (
-{
-ref = "gh-beng.half";
-},
-{
-pos = (107,-20);
-ref = "baphala-beng.alt1";
-}
-);
-width = 343;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
-pos = (315,622);
-}
-);
-shapes = (
-{
-ref = "gha-beng";
-},
-{
-pos = (631,0);
-ref = basubscriptbeng;
-}
-);
-};
-layerId = m008;
-shapes = (
-{
-ref = "gh-beng.half";
-},
-{
-pos = (102,-92);
-ref = "baphala-beng.alt1";
-}
-);
-width = 466;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
-pos = (341,622);
-}
-);
-shapes = (
-{
-ref = "gha-beng";
-},
-{
-pos = (682,0);
-ref = basubscriptbeng;
-}
-);
-};
-layerId = m009;
 shapes = (
 {
 ref = "gh-beng.half";

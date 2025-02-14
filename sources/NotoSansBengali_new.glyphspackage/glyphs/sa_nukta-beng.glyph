@@ -98,36 +98,6 @@ background = {
 anchors = (
 {
 name = Anchor8;
-pos = (332,622);
-}
-);
-shapes = (
-{
-ref = "sa-beng";
-},
-{
-pos = (275,143);
-ref = "nukta-beng";
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-ref = "sa-beng";
-},
-{
-pos = (206,94);
-ref = "nukta-beng";
-}
-);
-width = 447;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
 pos = (341,622);
 }
 );
@@ -147,11 +117,11 @@ shapes = (
 ref = "sa-beng";
 },
 {
-pos = (220,95);
+pos = (225,95);
 ref = "nukta-beng";
 }
 );
-width = 472;
+width = 477;
 },
 {
 background = {
@@ -177,101 +147,11 @@ shapes = (
 ref = "sa-beng";
 },
 {
-pos = (235,107);
+pos = (240,107);
 ref = "nukta-beng";
 }
 );
-width = 513;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
-pos = (332,622);
-}
-);
-shapes = (
-{
-ref = "sa-beng";
-},
-{
-pos = (275,143);
-ref = "nukta-beng";
-}
-);
-};
-layerId = m007;
-shapes = (
-{
-ref = "sa-beng";
-},
-{
-pos = (165,94);
-ref = "nukta-beng";
-}
-);
-width = 358;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
-pos = (341,622);
-}
-);
-shapes = (
-{
-ref = "sa-beng";
-},
-{
-pos = (291,140);
-ref = "nukta-beng";
-}
-);
-};
-layerId = m008;
-shapes = (
-{
-ref = "sa-beng";
-},
-{
-pos = (220,95);
-ref = "nukta-beng";
-}
-);
-width = 472;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
-pos = (359,622);
-}
-);
-shapes = (
-{
-ref = "sa-beng";
-},
-{
-pos = (301,120);
-ref = "nukta-beng";
-}
-);
-};
-layerId = m009;
-shapes = (
-{
-ref = "sa-beng";
-},
-{
-pos = (235,107);
-ref = "nukta-beng";
-}
-);
-width = 513;
+width = 522;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

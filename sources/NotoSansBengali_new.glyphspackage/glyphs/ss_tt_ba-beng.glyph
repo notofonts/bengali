@@ -65,23 +65,6 @@ ref = "baphala-beng.alt3";
 width = 567;
 },
 {
-layerId = m004;
-shapes = (
-{
-ref = "ss_tta-beng.noflag";
-},
-{
-pos = (139,0);
-ref = "tta-beng.flag3";
-},
-{
-pos = (77,-188);
-ref = "baphala-beng.alt3";
-}
-);
-width = 355;
-},
-{
 layerId = m005;
 shapes = (
 {
@@ -110,67 +93,6 @@ type = Text;
 }
 );
 layerId = m006;
-shapes = (
-{
-ref = "ss_tta-beng.noflag";
-},
-{
-pos = (277,0);
-ref = "tta-beng.flag3";
-},
-{
-pos = (41,-151);
-ref = "baphala-beng.alt3";
-}
-);
-width = 449;
-},
-{
-layerId = m007;
-shapes = (
-{
-ref = "ss_tta-beng.noflag";
-},
-{
-pos = (114,0);
-ref = "tta-beng.flag3";
-},
-{
-pos = (60,-188);
-ref = "baphala-beng.alt3";
-}
-);
-width = 286;
-},
-{
-layerId = m008;
-shapes = (
-{
-ref = "ss_tta-beng.noflag";
-},
-{
-pos = (191,0);
-ref = "tta-beng.flag3";
-},
-{
-pos = (60,-189);
-ref = "baphala-beng.alt3";
-}
-);
-width = 404;
-},
-{
-annotations = (
-{
-pos = (-254.695,-223.759);
-type = Text;
-},
-{
-pos = (-337.286,-39.188);
-type = Text;
-}
-);
-layerId = m009;
 shapes = (
 {
 ref = "ss_tta-beng.noflag";

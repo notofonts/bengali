@@ -115,42 +115,6 @@ background = {
 anchors = (
 {
 name = Anchor8;
-pos = (572,622);
-},
-{
-name = bottom;
-pos = (995,0);
-}
-);
-shapes = (
-{
-alignment = -1;
-pos = (585,0);
-ref = "gha-beng";
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-ref = "ng-beng.half";
-},
-{
-pos = (428,0);
-ref = "headline-beng.100";
-},
-{
-pos = (428,0);
-ref = "gha-beng";
-}
-);
-width = 865;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
 pos = (588,622);
 },
 {
@@ -214,113 +178,7 @@ pos = (504,0);
 ref = "gha-beng";
 }
 );
-width = 988;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
-pos = (572,622);
-},
-{
-name = bottom;
-pos = (995,0);
-}
-);
-shapes = (
-{
-alignment = -1;
-pos = (585,0);
-ref = "gha-beng";
-}
-);
-};
-layerId = m007;
-shapes = (
-{
-ref = "ng-beng.half";
-},
-{
-pos = (355,0);
-ref = "headline-beng.100";
-},
-{
-pos = (355,0);
-ref = "gha-beng";
-}
-);
-width = 704;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
-pos = (588,622);
-},
-{
-name = bottom;
-pos = (1005,0);
-}
-);
-shapes = (
-{
-ref = "gha-beng";
-}
-);
-};
-layerId = m008;
-shapes = (
-{
-ref = "ng-beng.half";
-},
-{
-pos = (464,0);
-ref = "headline-beng.100";
-},
-{
-pos = (464,0);
-ref = "gha-beng";
-}
-);
-width = 930;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
-pos = (668,622);
-},
-{
-name = bottom;
-pos = (1097,0);
-}
-);
-shapes = (
-{
-alignment = -1;
-pos = (714,0);
-ref = "gha-beng";
-}
-);
-};
-layerId = m009;
-shapes = (
-{
-ref = "ng-beng.half";
-},
-{
-pos = (504,0);
-ref = "headline-beng.100";
-},
-{
-pos = (504,0);
-ref = "gha-beng";
-}
-);
-width = 988;
+width = 992;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -337,7 +195,7 @@ pos = (404,0);
 ref = "gha-beng";
 }
 );
-width = 811;
+width = 810;
 }
 );
 script = bengali;

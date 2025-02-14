@@ -43,22 +43,6 @@ ref = quoteright.beng;
 }
 );
 };
-layerId = m004;
-shapes = (
-{
-ref = quoteright.beng;
-}
-);
-width = 188;
-},
-{
-background = {
-shapes = (
-{
-ref = quoteright.beng;
-}
-);
-};
 layerId = m005;
 shapes = (
 {
@@ -76,54 +60,6 @@ ref = quoteright.beng;
 );
 };
 layerId = m006;
-shapes = (
-{
-ref = quoteright.beng;
-}
-);
-width = 287;
-},
-{
-background = {
-shapes = (
-{
-ref = quoteright.beng;
-}
-);
-};
-layerId = m007;
-shapes = (
-{
-ref = quoteright.beng;
-}
-);
-width = 153;
-},
-{
-background = {
-shapes = (
-{
-ref = quoteright.beng;
-}
-);
-};
-layerId = m008;
-shapes = (
-{
-ref = quoteright.beng;
-}
-);
-width = 242;
-},
-{
-background = {
-shapes = (
-{
-ref = quoteright.beng;
-}
-);
-};
-layerId = m009;
 shapes = (
 {
 ref = quoteright.beng;

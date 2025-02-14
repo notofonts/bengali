@@ -55,23 +55,6 @@ ref = "tta-beng.flag";
 width = 1040;
 },
 {
-layerId = m004;
-shapes = (
-{
-ref = "n_s-beng.half";
-},
-{
-pos = (530,0);
-ref = "ddha-beng.side";
-},
-{
-pos = (530,0);
-ref = "tta-beng.flag";
-}
-);
-width = 743;
-},
-{
 layerId = m005;
 shapes = (
 {
@@ -90,57 +73,6 @@ width = 767;
 },
 {
 layerId = m006;
-shapes = (
-{
-ref = "n_s-beng.half";
-},
-{
-pos = (604,0);
-ref = "ddha-beng.side";
-},
-{
-pos = (604,0);
-ref = "tta-beng.flag";
-}
-);
-width = 808;
-},
-{
-layerId = m007;
-shapes = (
-{
-ref = "n_s-beng.half";
-},
-{
-pos = (423,0);
-ref = "ddha-beng.side";
-},
-{
-pos = (423,0);
-ref = "tta-beng.flag";
-}
-);
-width = 593;
-},
-{
-layerId = m008;
-shapes = (
-{
-ref = "n_s-beng.half";
-},
-{
-pos = (559,0);
-ref = "ddha-beng.side";
-},
-{
-pos = (560,0);
-ref = "tta-beng.flag";
-}
-);
-width = 767;
-},
-{
-layerId = m009;
 shapes = (
 {
 ref = "n_s-beng.half";

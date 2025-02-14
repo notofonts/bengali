@@ -43,22 +43,6 @@ ref = hyphen.beng;
 }
 );
 };
-layerId = m004;
-shapes = (
-{
-ref = hyphen.beng;
-}
-);
-width = 237;
-},
-{
-background = {
-shapes = (
-{
-ref = hyphen.beng;
-}
-);
-};
 layerId = m005;
 shapes = (
 {
@@ -76,54 +60,6 @@ ref = hyphen.beng;
 );
 };
 layerId = m006;
-shapes = (
-{
-ref = hyphen.beng;
-}
-);
-width = 315;
-},
-{
-background = {
-shapes = (
-{
-ref = hyphen.beng;
-}
-);
-};
-layerId = m007;
-shapes = (
-{
-ref = hyphen.beng;
-}
-);
-width = 190;
-},
-{
-background = {
-shapes = (
-{
-ref = hyphen.beng;
-}
-);
-};
-layerId = m008;
-shapes = (
-{
-ref = hyphen.beng;
-}
-);
-width = 264;
-},
-{
-background = {
-shapes = (
-{
-ref = hyphen.beng;
-}
-);
-};
-layerId = m009;
 shapes = (
 {
 ref = hyphen.beng;

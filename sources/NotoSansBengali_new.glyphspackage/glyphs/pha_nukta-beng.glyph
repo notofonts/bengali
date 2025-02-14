@@ -122,44 +122,6 @@ background = {
 anchors = (
 {
 name = Anchor8;
-pos = (407,622);
-},
-{
-name = bottom;
-pos = (448,0);
-},
-{
-name = top_candrabindu;
-pos = (448,622);
-}
-);
-shapes = (
-{
-ref = "pha-beng";
-},
-{
-pos = (195,189);
-ref = "nukta-beng";
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-ref = "pha-beng";
-},
-{
-pos = (153,141);
-ref = "nukta-beng";
-}
-);
-width = 587;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
 pos = (419,622);
 },
 {
@@ -225,125 +187,11 @@ shapes = (
 ref = "pha-beng";
 },
 {
-pos = (131,138);
+pos = (146,138);
 ref = "nukta-beng";
 }
 );
-width = 630;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
-pos = (407,622);
-},
-{
-name = bottom;
-pos = (448,0);
-},
-{
-name = top_candrabindu;
-pos = (448,622);
-}
-);
-shapes = (
-{
-ref = "pha-beng";
-},
-{
-pos = (195,189);
-ref = "nukta-beng";
-}
-);
-};
-layerId = m007;
-shapes = (
-{
-ref = "pha-beng";
-},
-{
-pos = (122,141);
-ref = "nukta-beng";
-}
-);
-width = 470;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
-pos = (419,622);
-},
-{
-name = bottom;
-pos = (445,0);
-},
-{
-name = top_candrabindu;
-pos = (445,622);
-}
-);
-shapes = (
-{
-ref = "pha-beng";
-},
-{
-pos = (209,171);
-ref = "nukta-beng";
-}
-);
-};
-layerId = m008;
-shapes = (
-{
-ref = "pha-beng";
-},
-{
-pos = (151,127);
-ref = "nukta-beng";
-}
-);
-width = 622;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
-pos = (449,622);
-},
-{
-name = bottom;
-pos = (419,0);
-},
-{
-name = top_candrabindu;
-pos = (419,622);
-}
-);
-shapes = (
-{
-ref = "pha-beng";
-},
-{
-pos = (183,150);
-ref = "nukta-beng";
-}
-);
-};
-layerId = m009;
-shapes = (
-{
-ref = "pha-beng";
-},
-{
-pos = (131,138);
-ref = "nukta-beng";
-}
-);
-width = 630;
+width = 648;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

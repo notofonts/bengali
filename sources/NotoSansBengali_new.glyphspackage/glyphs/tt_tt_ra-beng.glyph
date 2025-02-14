@@ -55,23 +55,6 @@ ref = "tta-beng.flag";
 width = 635;
 },
 {
-layerId = m004;
-shapes = (
-{
-ref = "tt_tta-beng.noflag";
-},
-{
-pos = (-1,-252);
-ref = "raphala-beng.alt03";
-},
-{
-pos = (167,0);
-ref = "tta-beng.flag";
-}
-);
-width = 385;
-},
-{
 layerId = m005;
 shapes = (
 {
@@ -90,57 +73,6 @@ width = 435;
 },
 {
 layerId = m006;
-shapes = (
-{
-ref = "tt_tta-beng.noflag";
-},
-{
-pos = (-11,-393);
-ref = "raphala-beng.alt03";
-},
-{
-pos = (304,0);
-ref = "tta-beng.flag";
-}
-);
-width = 514;
-},
-{
-layerId = m007;
-shapes = (
-{
-ref = "tt_tta-beng.noflag";
-},
-{
-pos = (-1,-252);
-ref = "raphala-beng.alt03";
-},
-{
-pos = (136,0);
-ref = "tta-beng.flag";
-}
-);
-width = 310;
-},
-{
-layerId = m008;
-shapes = (
-{
-ref = "tt_tta-beng.noflag";
-},
-{
-pos = (-18,-283);
-ref = "raphala-beng.alt03";
-},
-{
-pos = (209,0);
-ref = "tta-beng.flag";
-}
-);
-width = 435;
-},
-{
-layerId = m009;
 shapes = (
 {
 ref = "tt_tta-beng.noflag";
