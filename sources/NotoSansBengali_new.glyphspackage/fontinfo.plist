@@ -1096,7 +1096,7 @@ over = 10;
 pos = -10;
 }
 );
-name = "MoreCondensed Thin";
+name = "Condensed Thin";
 numberValues = (
 91.429,
 76.429,
