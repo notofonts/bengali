@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 9;
+color = 8;
 glyphname = "rlowerdiagonal-beng.half";
 layers = (
 {
@@ -555,8 +555,12 @@ width = 419;
 {
 anchors = (
 {
+name = bottomJhaSide;
+pos = (351,316);
+},
+{
 name = bottomVattu;
-pos = (306,3);
+pos = (301,64);
 },
 {
 name = top_candrabindu;
