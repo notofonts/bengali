@@ -619,7 +619,7 @@ pos = (136,-93);
 ref = "wa-beng.part";
 }
 );
-width = 403;
+width = 402;
 }
 );
 script = bengali;
