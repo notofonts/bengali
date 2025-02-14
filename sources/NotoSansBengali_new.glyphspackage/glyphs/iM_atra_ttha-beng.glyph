@@ -846,11 +846,11 @@ pos = (231,0);
 ref = "ttha-beng.notop";
 },
 {
-pos = (271,0);
+pos = (268,0);
 ref = "ttha-beng.topIMatra";
 }
 );
-width = 690;
+width = 687;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

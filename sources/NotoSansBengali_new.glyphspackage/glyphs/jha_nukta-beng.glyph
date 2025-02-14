@@ -187,7 +187,7 @@ shapes = (
 ref = "jha-beng";
 },
 {
-pos = (135,138);
+pos = (130,138);
 ref = "nukta-beng";
 }
 );

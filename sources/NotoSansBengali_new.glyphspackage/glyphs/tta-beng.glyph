@@ -820,7 +820,7 @@ pos = (242,0);
 ref = "tta-beng.flag";
 }
 );
-width = 440;
+width = 443;
 },
 {
 anchors = (

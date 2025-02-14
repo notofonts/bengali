@@ -529,15 +529,15 @@ shapes = (
 ref = "ba-beng";
 },
 {
-pos = (464,0);
+pos = (459,0);
 ref = "ba-beng.side";
 },
 {
-pos = (401,159);
+pos = (396,159);
 ref = "wa-beng.part";
 }
 );
-width = 804;
+width = 799;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
