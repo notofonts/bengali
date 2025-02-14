@@ -354,7 +354,7 @@ pos = (149,-14);
 ref = "baphala-beng.alt1";
 }
 );
-width = 425;
+width = 424;
 }
 );
 script = bengali;
