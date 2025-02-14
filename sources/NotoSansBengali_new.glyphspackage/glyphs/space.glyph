@@ -28,19 +28,6 @@ layerId = m006;
 width = 180;
 },
 {
-layerId = m007;
-width = 180;
-},
-{
-layerId = m008;
-width = 180;
-},
-{
-color = 5;
-layerId = m009;
-width = 180;
-},
-{
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 width = 180;
 }

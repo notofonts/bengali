@@ -26,18 +26,6 @@ layerId = m006;
 width = 200;
 },
 {
-layerId = m007;
-width = 155;
-},
-{
-layerId = m008;
-width = 195;
-},
-{
-layerId = m009;
-width = 200;
-},
-{
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 width = 180;
 }

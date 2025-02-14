@@ -82,45 +82,6 @@ ref = "ma-beng.side1";
 width = 766;
 },
 {
-layerId = m007;
-shapes = (
-{
-ref = "dd-beng.half1";
-},
-{
-pos = (367,0);
-ref = "ma-beng.side1";
-}
-);
-width = 481;
-},
-{
-layerId = m008;
-shapes = (
-{
-ref = "dd-beng.half1";
-},
-{
-pos = (518,0);
-ref = "ma-beng.side1";
-}
-);
-width = 679;
-},
-{
-layerId = m009;
-shapes = (
-{
-ref = "dd-beng.half1";
-},
-{
-pos = (542,0);
-ref = "ma-beng.side1";
-}
-);
-width = 766;
-},
-{
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {

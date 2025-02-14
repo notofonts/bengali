@@ -107,57 +107,6 @@ ref = "aaMatra-beng.side";
 width = 550;
 },
 {
-layerId = m007;
-shapes = (
-{
-ref = "g-beng.half";
-},
-{
-pos = (82,0);
-ref = "na-beng.blws1";
-},
-{
-pos = (259,0);
-ref = "aaMatra-beng.side";
-}
-);
-width = 350;
-},
-{
-layerId = m008;
-shapes = (
-{
-ref = "g-beng.half";
-},
-{
-pos = (87,0);
-ref = "na-beng.blws1";
-},
-{
-pos = (333,0);
-ref = "aaMatra-beng.side";
-}
-);
-width = 487;
-},
-{
-layerId = m009;
-shapes = (
-{
-ref = "g-beng.half";
-},
-{
-pos = (86,8);
-ref = "na-beng.blws1";
-},
-{
-pos = (342,0);
-ref = "aaMatra-beng.side";
-}
-);
-width = 550;
-},
-{
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
