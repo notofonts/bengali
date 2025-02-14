@@ -340,27 +340,6 @@ ref = "tta-beng.flagIMatra1";
 width = 894;
 },
 {
-layerId = m004;
-shapes = (
-{
-ref = "iMatra-beng.ttaAlt1";
-},
-{
-pos = (175,0);
-ref = "ddh-beng.half2";
-},
-{
-pos = (185,-81);
-ref = "raphala-beng.alt06";
-},
-{
-pos = (342,0);
-ref = "tta-beng.flagIMatra1";
-}
-);
-width = 556;
-},
-{
 background = {
 anchors = (
 {

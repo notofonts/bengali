@@ -65,23 +65,6 @@ ref = "baphala-beng.alt3";
 width = 567;
 },
 {
-layerId = m004;
-shapes = (
-{
-ref = "ss_tta-beng.noflag";
-},
-{
-pos = (139,0);
-ref = "tta-beng.flag3";
-},
-{
-pos = (77,-188);
-ref = "baphala-beng.alt3";
-}
-);
-width = 355;
-},
-{
 layerId = m005;
 shapes = (
 {

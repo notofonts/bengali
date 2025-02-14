@@ -114,40 +114,6 @@ nodes = (
 width = 578;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(126,0,l),
-(149,0,l),
-(368,696,l),
-(368,714,l),
-(42,714,l),
-(42,692,l),
-(346,692,l)
-);
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-closed = 1;
-nodes = (
-(126,0,l),
-(149,0,l),
-(368,696,l),
-(368,714,l),
-(42,714,l),
-(42,692,l),
-(346,692,l)
-);
-}
-);
-width = 413;
-},
-{
 associatedMasterId = m005;
 attr = {
 coordinates = (

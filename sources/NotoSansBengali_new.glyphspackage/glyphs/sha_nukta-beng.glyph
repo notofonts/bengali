@@ -110,40 +110,6 @@ background = {
 anchors = (
 {
 name = Anchor8;
-pos = (323,622);
-},
-{
-name = top_candrabindu;
-pos = (456,622);
-}
-);
-shapes = (
-{
-ref = "sha-beng";
-},
-{
-pos = (220,143);
-ref = "nukta-beng";
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-ref = "sha-beng";
-},
-{
-pos = (157,91);
-ref = "nukta-beng";
-}
-);
-width = 457;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
 pos = (338,622);
 },
 {

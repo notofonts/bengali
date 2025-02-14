@@ -151,58 +151,6 @@ width = 605;
 anchors = (
 {
 name = bottom;
-pos = (334,0);
-},
-{
-name = top_candrabindu;
-pos = (341,606);
-},
-{
-name = top_vedic;
-pos = (215,606);
-}
-);
-background = {
-anchors = (
-{
-name = bottom;
-pos = (334,0);
-},
-{
-name = top_candrabindu;
-pos = (341,606);
-},
-{
-name = top_vedic;
-pos = (215,606);
-}
-);
-shapes = (
-{
-ref = "ba-beng";
-},
-{
-pos = (146,149);
-ref = "nukta-beng";
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-ref = "ba-beng";
-},
-{
-pos = (146,148);
-ref = "nukta-beng";
-}
-);
-width = 419;
-},
-{
-anchors = (
-{
-name = bottom;
 pos = (309,0);
 },
 {

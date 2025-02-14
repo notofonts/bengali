@@ -98,36 +98,6 @@ background = {
 anchors = (
 {
 name = Anchor8;
-pos = (274,622);
-}
-);
-shapes = (
-{
-ref = "tta-beng";
-},
-{
-pos = (237,49);
-ref = "nukta-beng";
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-ref = "tta-beng";
-},
-{
-pos = (178,0);
-ref = "nukta-beng";
-}
-);
-width = 388;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
 pos = (283,622);
 }
 );

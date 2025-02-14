@@ -117,43 +117,6 @@ background = {
 anchors = (
 {
 name = Anchor8;
-pos = (304,622);
-}
-);
-shapes = (
-{
-alignment = -1;
-ref = "ya-beng";
-},
-{
-alignment = -1;
-pos = (590,0);
-ref = basubscriptbeng;
-},
-{
-alignment = -1;
-pos = (202,164);
-ref = "nukta-beng";
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-ref = "yy_ba-beng";
-},
-{
-pos = (153,-159);
-ref = "wa-beng.part";
-}
-);
-width = 423;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
 pos = (313,622);
 }
 );

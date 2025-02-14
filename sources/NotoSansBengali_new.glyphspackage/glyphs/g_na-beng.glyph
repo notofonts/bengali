@@ -56,23 +56,6 @@ ref = "aaMatra-beng.side";
 width = 689;
 },
 {
-layerId = m004;
-shapes = (
-{
-ref = "g-beng.half";
-},
-{
-pos = (105,0);
-ref = "na-beng.blws1";
-},
-{
-pos = (326,0);
-ref = "aaMatra-beng.side";
-}
-);
-width = 437;
-},
-{
 layerId = m005;
 shapes = (
 {

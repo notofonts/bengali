@@ -328,23 +328,6 @@ ref = "tta-beng.flag";
 width = 604;
 },
 {
-layerId = m004;
-shapes = (
-{
-ref = "ddh-beng.half2";
-},
-{
-pos = (10,-81);
-ref = "raphala-beng.alt06";
-},
-{
-pos = (167,0);
-ref = "tta-beng.flag";
-}
-);
-width = 381;
-},
-{
 background = {
 anchors = (
 {

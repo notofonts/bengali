@@ -102,57 +102,6 @@ ref = "aaMatra-beng.side2";
 width = 825;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(572,206,l),
-(572,596,l),
-(551,596,l),
-(551,206,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(687,586,l),
-(687,607,l),
-(551,607,l),
-(551,586,l)
-);
-}
-);
-};
-guides = (
-{
-angle = 11.2369;
-pos = (421,-7);
-}
-);
-layerId = m004;
-shapes = (
-{
-alignment = -1;
-ref = "b-beng.half2";
-},
-{
-pos = (92,76);
-ref = "baphala-beng.alt4";
-},
-{
-pos = (291,139);
-ref = "jha-beng.part";
-},
-{
-alignment = -1;
-pos = (398,1);
-ref = "aaMatra-beng.side2";
-}
-);
-width = 678;
-},
-{
 layerId = m005;
 shapes = (
 {

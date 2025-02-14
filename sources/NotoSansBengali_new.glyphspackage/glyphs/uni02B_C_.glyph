@@ -43,22 +43,6 @@ ref = quoteright.beng;
 }
 );
 };
-layerId = m004;
-shapes = (
-{
-ref = quoteright.beng;
-}
-);
-width = 188;
-},
-{
-background = {
-shapes = (
-{
-ref = quoteright.beng;
-}
-);
-};
 layerId = m005;
 shapes = (
 {

@@ -125,46 +125,6 @@ background = {
 anchors = (
 {
 name = Anchor8;
-pos = (493,622);
-},
-{
-name = top_candrabindu;
-pos = (593,622);
-}
-);
-shapes = (
-{
-alignment = -1;
-ref = "nya-beng";
-},
-{
-alignment = -1;
-pos = (723,0);
-ref = basubscriptbeng;
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-ref = "ny-beng.half";
-},
-{
-pos = (227,-104);
-ref = "baphala-beng.alt3";
-},
-{
-pos = (223,-111);
-ref = "wa-beng.part";
-}
-);
-width = 661;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
 pos = (509,622);
 },
 {

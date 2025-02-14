@@ -193,23 +193,6 @@ ref = "wa-beng.part";
 width = 708;
 },
 {
-layerId = m004;
-shapes = (
-{
-ref = "kh-beng.half";
-},
-{
-pos = (163,-9);
-ref = "baphala-beng.alt1";
-},
-{
-pos = (170,-92);
-ref = "wa-beng.part";
-}
-);
-width = 455;
-},
-{
 background = {
 anchors = (
 {

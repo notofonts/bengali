@@ -238,30 +238,6 @@ width = 666;
 },
 {
 background = {
-shapes = (
-{
-ref = "bh-beng.half";
-},
-{
-pos = (8,20);
-ref = "raphala-beng.alt09";
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-ref = "bh-beng.half";
-},
-{
-pos = (6,8);
-ref = "raphala-beng.alt09";
-}
-);
-width = 398;
-},
-{
-background = {
 anchors = (
 {
 name = Anchor8;

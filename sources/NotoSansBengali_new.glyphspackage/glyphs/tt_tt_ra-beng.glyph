@@ -55,23 +55,6 @@ ref = "tta-beng.flag";
 width = 635;
 },
 {
-layerId = m004;
-shapes = (
-{
-ref = "tt_tta-beng.noflag";
-},
-{
-pos = (-1,-252);
-ref = "raphala-beng.alt03";
-},
-{
-pos = (167,0);
-ref = "tta-beng.flag";
-}
-);
-width = 385;
-},
-{
 layerId = m005;
 shapes = (
 {

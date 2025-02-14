@@ -58,24 +58,6 @@ ref = "la-beng.blws1";
 width = 1203;
 },
 {
-layerId = m004;
-shapes = (
-{
-ref = "s-beng.half";
-},
-{
-alignment = -1;
-pos = (496,0);
-ref = "p-beng.half";
-},
-{
-pos = (569,0);
-ref = "la-beng.blws1";
-}
-);
-width = 1120;
-},
-{
 layerId = m005;
 shapes = (
 {

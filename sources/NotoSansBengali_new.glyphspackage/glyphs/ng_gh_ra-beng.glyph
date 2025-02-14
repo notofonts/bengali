@@ -55,23 +55,6 @@ ref = "gh_ra-beng";
 width = 1284;
 },
 {
-layerId = m004;
-shapes = (
-{
-ref = "ng-beng.half";
-},
-{
-pos = (428,0);
-ref = "headline-beng.100";
-},
-{
-pos = (428,0);
-ref = "gh_ra-beng";
-}
-);
-width = 856;
-},
-{
 layerId = m005;
 shapes = (
 {

@@ -139,54 +139,6 @@ width = 0;
 anchors = (
 {
 name = _top_candrabindu;
-pos = (-59,622);
-},
-{
-name = top_candrabindu;
-pos = (-64,739);
-}
-);
-background = {
-anchors = (
-{
-name = _top_candrabindu;
-pos = (-59,622);
-},
-{
-name = top_candrabindu;
-pos = (-64,739);
-}
-);
-shapes = (
-{
-closed = 1;
-nodes = (
-(71,847,l),
-(63,861,l),
-(-125,688,l),
-(-113,673,l)
-);
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-closed = 1;
-nodes = (
-(71,847,l),
-(63,861,l),
-(-125,688,l),
-(-113,673,l)
-);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top_candrabindu;
 pos = (-120,622);
 },
 {

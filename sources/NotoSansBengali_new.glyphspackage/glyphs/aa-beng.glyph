@@ -129,50 +129,6 @@ width = 1223;
 anchors = (
 {
 name = top_candrabindu;
-pos = (704,606);
-},
-{
-name = top_vedic;
-pos = (396,606);
-}
-);
-background = {
-anchors = (
-{
-name = top_candrabindu;
-pos = (704,606);
-},
-{
-name = top_vedic;
-pos = (396,606);
-}
-);
-shapes = (
-{
-ref = "a-beng";
-},
-{
-pos = (616,0);
-ref = "aaMatra-beng";
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-ref = "a-beng";
-},
-{
-pos = (616,0);
-ref = "aaMatra-beng";
-}
-);
-width = 796;
-},
-{
-anchors = (
-{
-name = top_candrabindu;
 pos = (771,621);
 },
 {

@@ -113,42 +113,6 @@ background = {
 anchors = (
 {
 name = Anchor8;
-pos = (274,622);
-}
-);
-shapes = (
-{
-alignment = -1;
-ref = "tta-beng";
-},
-{
-alignment = -1;
-pos = (486,79);
-ref = basubscriptbeng;
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-ref = "ddh-beng.half";
-},
-{
-pos = (159,0);
-ref = "tta-beng.flag";
-},
-{
-pos = (52,-78);
-ref = "baphala-beng.alt2";
-}
-);
-width = 377;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
 pos = (283,622);
 }
 );

@@ -246,31 +246,6 @@ width = 833;
 background = {
 shapes = (
 {
-ref = "b-beng.half";
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-alignment = -1;
-ref = "b-beng.half";
-},
-{
-pos = (3,6);
-ref = "raphala-beng.alt14";
-},
-{
-pos = (411,0);
-ref = "jh-beng.side";
-}
-);
-width = 733;
-},
-{
-background = {
-shapes = (
-{
 closed = 1;
 nodes = (
 (501,0,l),

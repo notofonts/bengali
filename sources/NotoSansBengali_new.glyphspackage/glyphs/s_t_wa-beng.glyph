@@ -163,58 +163,6 @@ background = {
 anchors = (
 {
 name = Anchor8;
-pos = (353,622);
-},
-{
-name = top_candrabindu;
-pos = (466,622);
-}
-);
-shapes = (
-{
-closed = 1;
-nodes = (
-(238,-166,l),
-(309,-182,o),
-(359,-206,o),
-(417,-247,c),
-(431,-231,l),
-(375,-186,o),
-(314,-160,o),
-(245,-144,c)
-);
-},
-{
-alignment = -1;
-ref = "s_t_ba-beng";
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-ref = "s-beng.half3";
-},
-{
-pos = (40,89);
-ref = "ta-beng.blws";
-},
-{
-pos = (233,-124);
-ref = "baphala-beng.alt2";
-},
-{
-pos = (233,-133);
-ref = "wa-beng.part";
-}
-);
-width = 547;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
 pos = (363,622);
 },
 {

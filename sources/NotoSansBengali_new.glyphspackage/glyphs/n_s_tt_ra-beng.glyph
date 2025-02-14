@@ -67,27 +67,6 @@ ref = "raphala-beng.alt03";
 width = 1041;
 },
 {
-layerId = m004;
-shapes = (
-{
-ref = "n_s-beng.half";
-},
-{
-pos = (530,0);
-ref = "ddh-beng.side";
-},
-{
-pos = (515,0);
-ref = "tta-beng.flag";
-},
-{
-pos = (318,-81);
-ref = "raphala-beng.alt03";
-}
-);
-width = 733;
-},
-{
 layerId = m005;
 shapes = (
 {

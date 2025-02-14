@@ -101,31 +101,6 @@ width = 611;
 },
 {
 background = {
-shapes = (
-{
-pos = (-41,0);
-ref = "kh-beng.half";
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-ref = "y-beng.half";
-},
-{
-pos = (131,-14);
-ref = "baphala-beng.alt1";
-},
-{
-pos = (138,-97);
-ref = "wa-beng.part";
-}
-);
-width = 421;
-},
-{
-background = {
 anchors = (
 {
 name = Anchor8;

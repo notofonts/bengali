@@ -363,54 +363,6 @@ width = 595;
 anchors = (
 {
 name = top_candrabindu;
-pos = (284,606);
-},
-{
-name = top_vedic;
-pos = (149,606);
-}
-);
-background = {
-anchors = (
-{
-name = top_candrabindu;
-pos = (284,606);
-},
-{
-name = top_vedic;
-pos = (149,606);
-}
-);
-shapes = (
-{
-closed = 1;
-nodes = (
-(289,589,l),
-(289,606,l),
-(-8,606,l),
-(-8,589,l)
-);
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-closed = 1;
-nodes = (
-(289,589,l),
-(289,606,l),
-(-8,606,l),
-(-8,589,l)
-);
-}
-);
-width = 371;
-},
-{
-anchors = (
-{
-name = top_candrabindu;
 pos = (309,621);
 },
 {

@@ -137,50 +137,6 @@ background = {
 anchors = (
 {
 name = Anchor8;
-pos = (274,622);
-}
-);
-shapes = (
-{
-alignment = -1;
-ref = "tta-beng";
-},
-{
-alignment = -1;
-pos = (486,79);
-ref = basubscriptbeng;
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-ref = "ddh-beng.half";
-},
-{
-pos = (52,-78);
-ref = "baphala-beng.alt2";
-},
-{
-pos = (52,-87);
-ref = "wa-beng.part";
-},
-{
-pos = (159,0);
-ref = "tta-beng.flagIiMatra";
-},
-{
-pos = (377,0);
-ref = "iiMatra-beng.ttaAlt1";
-}
-);
-width = 551;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
 pos = (283,622);
 }
 );

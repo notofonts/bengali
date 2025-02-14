@@ -83,30 +83,6 @@ shapes = (
 ref = "t-beng.half";
 },
 {
-pos = (126,43);
-ref = "na-beng.blws2";
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-ref = "t-beng.half";
-},
-{
-pos = (56,-4);
-ref = "la-beng.blws3";
-}
-);
-width = 488;
-},
-{
-background = {
-shapes = (
-{
-ref = "t-beng.half";
-},
-{
 pos = (118,-35);
 ref = "na-beng.blws2";
 }

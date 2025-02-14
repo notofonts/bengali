@@ -43,19 +43,6 @@ ref = "t_ra-beng.blws";
 width = 799;
 },
 {
-layerId = m004;
-shapes = (
-{
-ref = "p-beng.half2";
-},
-{
-pos = (88,-233);
-ref = "t_ra-beng.blws";
-}
-);
-width = 498;
-},
-{
 layerId = m005;
 shapes = (
 {

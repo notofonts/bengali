@@ -115,42 +115,6 @@ background = {
 anchors = (
 {
 name = Anchor8;
-pos = (572,622);
-},
-{
-name = bottom;
-pos = (995,0);
-}
-);
-shapes = (
-{
-alignment = -1;
-pos = (585,0);
-ref = "gha-beng";
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-ref = "ng-beng.half";
-},
-{
-pos = (428,0);
-ref = "headline-beng.100";
-},
-{
-pos = (428,0);
-ref = "gha-beng";
-}
-);
-width = 865;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
 pos = (588,622);
 },
 {

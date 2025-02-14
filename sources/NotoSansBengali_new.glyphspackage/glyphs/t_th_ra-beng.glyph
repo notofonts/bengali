@@ -43,19 +43,6 @@ ref = "raphala-beng.alt01";
 width = 822;
 },
 {
-layerId = m004;
-shapes = (
-{
-ref = "t_tha-beng";
-},
-{
-pos = (60,-41);
-ref = "raphala-beng.alt01";
-}
-);
-width = 494;
-},
-{
 layerId = m005;
 shapes = (
 {

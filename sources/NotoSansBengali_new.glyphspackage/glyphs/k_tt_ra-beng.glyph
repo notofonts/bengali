@@ -166,31 +166,6 @@ width = 746;
 },
 {
 background = {
-shapes = (
-{
-pos = (27,-240);
-ref = "raphala-beng.alt11";
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-ref = "k_tta-beng.noflag";
-},
-{
-pos = (224,0);
-ref = "tta-beng.flag2";
-},
-{
-pos = (31,-252);
-ref = "raphala-beng.alt03";
-}
-);
-width = 463;
-},
-{
-background = {
 anchors = (
 {
 name = Anchor8;

@@ -338,30 +338,6 @@ width = 833;
 },
 {
 background = {
-shapes = (
-{
-ref = "m-beng.half3";
-},
-{
-pos = (25,70);
-ref = "ta-beng.blws";
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-ref = "m-beng.half3";
-},
-{
-pos = (19,71);
-ref = "bha-beng.blws";
-}
-);
-width = 505;
-},
-{
-background = {
 anchors = (
 {
 name = Anchor8;

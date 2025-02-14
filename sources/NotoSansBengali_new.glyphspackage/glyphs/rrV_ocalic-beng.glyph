@@ -108,32 +108,6 @@ ref = "rVocalic-beng";
 },
 {
 alignment = -1;
-pos = (389,106);
-ref = "rVocalicMatra-beng";
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-ref = "rVocalic-beng";
-},
-{
-alignment = -1;
-pos = (290,106);
-ref = "rVocalicMatra-beng";
-}
-);
-width = 573;
-},
-{
-background = {
-shapes = (
-{
-ref = "rVocalic-beng";
-},
-{
-alignment = -1;
 pos = (374,112);
 ref = "rVocalicMatra-beng";
 }

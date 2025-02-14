@@ -43,22 +43,6 @@ ref = hyphen.beng;
 }
 );
 };
-layerId = m004;
-shapes = (
-{
-ref = hyphen.beng;
-}
-);
-width = 237;
-},
-{
-background = {
-shapes = (
-{
-ref = hyphen.beng;
-}
-);
-};
 layerId = m005;
 shapes = (
 {

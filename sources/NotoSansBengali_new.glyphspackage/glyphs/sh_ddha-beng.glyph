@@ -43,19 +43,6 @@ ref = "ddha-beng.side";
 width = 973;
 },
 {
-layerId = m004;
-shapes = (
-{
-ref = "sh-beng.half";
-},
-{
-pos = (446,0);
-ref = "ddha-beng.side";
-}
-);
-width = 659;
-},
-{
 layerId = m005;
 shapes = (
 {

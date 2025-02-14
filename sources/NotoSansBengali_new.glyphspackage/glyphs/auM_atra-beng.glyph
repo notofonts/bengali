@@ -113,44 +113,6 @@ width = 1217;
 background = {
 shapes = (
 {
-alignment = -1;
-ref = "eMatra-beng";
-},
-{
-alignment = -1;
-pos = (305,0);
-ref = uni25CC;
-},
-{
-alignment = -1;
-pos = (815,0);
-ref = "auLength-beng";
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-alignment = -1;
-ref = "eMatra-beng";
-},
-{
-alignment = -1;
-pos = (305,0);
-ref = uni25CC;
-},
-{
-alignment = -1;
-pos = (815,0);
-ref = "auLength-beng";
-}
-);
-width = 989;
-},
-{
-background = {
-shapes = (
-{
 ref = "eMatra-beng";
 },
 {

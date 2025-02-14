@@ -201,62 +201,6 @@ width = 265;
 anchors = (
 {
 name = _bottom.Wa;
-pos = (84,-7);
-},
-{
-name = nukta;
-pos = (53,-84);
-}
-);
-background = {
-anchors = (
-{
-name = _bottom.Wa;
-pos = (84,-7);
-},
-{
-name = nukta;
-pos = (53,-84);
-}
-);
-shapes = (
-{
-closed = 1;
-nodes = (
-(15,28,l),
-(60,9,o),
-(101,-18,o),
-(142,-74,c),
-(151,-63,l),
-(112,-7,o),
-(67,24,o),
-(20,44,c)
-);
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-closed = 1;
-nodes = (
-(15,28,l),
-(60,9,o),
-(101,-18,o),
-(142,-74,c),
-(151,-63,l),
-(112,-7,o),
-(67,24,o),
-(20,44,c)
-);
-}
-);
-width = 166;
-},
-{
-anchors = (
-{
-name = _bottom.Wa;
 pos = (92,-43);
 },
 {

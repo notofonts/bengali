@@ -127,42 +127,6 @@ width = 564;
 anchors = (
 {
 name = bottom;
-pos = (227,-227);
-}
-);
-background = {
-anchors = (
-{
-name = bottom;
-pos = (227,-227);
-}
-);
-shapes = (
-{
-ref = "ddha-beng";
-},
-{
-pos = (177,0);
-ref = "nukta-beng";
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-ref = "ddha-beng";
-},
-{
-pos = (177,0);
-ref = "nukta-beng";
-}
-);
-width = 387;
-},
-{
-anchors = (
-{
-name = bottom;
 pos = (237,-267);
 }
 );

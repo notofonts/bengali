@@ -194,30 +194,6 @@ shapes = (
 ref = "n-beng.half3";
 },
 {
-pos = (17,70);
-ref = "ta-beng.blws";
-}
-);
-};
-layerId = m004;
-shapes = (
-{
-ref = "n-beng.half3";
-},
-{
-pos = (13,0);
-ref = "ta_uMatra-beng.blws";
-}
-);
-width = 496;
-},
-{
-background = {
-shapes = (
-{
-ref = "n-beng.half3";
-},
-{
 pos = (-13,52);
 ref = "ta-beng.blws";
 }
