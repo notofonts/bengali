@@ -558,15 +558,15 @@ shapes = (
 ref = "j-beng.half";
 },
 {
-pos = (296,-131);
+pos = (298,-131);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (316,-120);
+pos = (318,-120);
 ref = "wa-beng.part";
 }
 );
-width = 626;
+width = 628;
 },
 {
 background = {
@@ -699,15 +699,15 @@ shapes = (
 ref = "j-beng.half";
 },
 {
-pos = (294,-124);
+pos = (299,-124);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (326,-130);
+pos = (331,-130);
 ref = "wa-beng.part";
 }
 );
-width = 710;
+width = 715;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

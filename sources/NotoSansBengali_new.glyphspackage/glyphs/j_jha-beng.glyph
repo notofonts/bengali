@@ -528,15 +528,15 @@ alignment = -1;
 ref = "j-beng.half";
 },
 {
-pos = (296,-131);
+pos = (298,-131);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (511,-10);
+pos = (513,-10);
 ref = "jha-beng.part";
 },
 {
-pos = (565,0);
+pos = (567,0);
 ref = "aaMatra-beng.float";
 }
 );
@@ -574,15 +574,15 @@ alignment = -1;
 ref = "j-beng.half";
 },
 {
-pos = (294,-124);
+pos = (299,-124);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (617,-61);
+pos = (622,-61);
 ref = "jha-beng.part";
 },
 {
-pos = (658,0);
+pos = (663,0);
 ref = "aaMatra-beng.float";
 }
 );
