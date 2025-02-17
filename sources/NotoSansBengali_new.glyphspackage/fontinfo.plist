@@ -520,6 +520,10 @@ value = 1;
 {
 name = DisableAllAutomaticBehaviour;
 value = 0;
+},
+{
+name = "Write lastChange";
+value = 0;
 }
 );
 date = "2017-07-06 08:51:49 +0000";
