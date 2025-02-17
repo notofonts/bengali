@@ -609,7 +609,7 @@ shapes = (
 ref = "d-beng.half2";
 },
 {
-pos = (-10,-67);
+pos = (-11,-67);
 ref = "raphala-beng.alt09";
 },
 {
