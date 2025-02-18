@@ -471,11 +471,11 @@ shapes = (
 ref = "m-beng.half2";
 },
 {
-pos = (14,-137);
+pos = (13,-137);
 ref = "t_ra-beng.blws";
 }
 );
-width = 420;
+width = 418;
 }
 );
 script = bengali;

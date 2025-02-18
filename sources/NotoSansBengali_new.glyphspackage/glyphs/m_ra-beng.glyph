@@ -629,11 +629,11 @@ shapes = (
 ref = "m-beng.half2";
 },
 {
-pos = (41,0);
+pos = (40,0);
 ref = "raphala-beng.alt10";
 }
 );
-width = 420;
+width = 418;
 }
 );
 script = bengali;
