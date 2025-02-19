@@ -1437,6 +1437,7 @@ numberValues = (
 -272,
 -220
 );
+visible = 1;
 }
 );
 instances = (
