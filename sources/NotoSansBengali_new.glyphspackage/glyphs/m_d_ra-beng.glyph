@@ -1,5 +1,5 @@
 {
-color = 2;
+color = 5;
 glyphname = "m_d_ra-beng";
 layers = (
 {
@@ -372,7 +372,7 @@ width = 849;
 anchors = (
 {
 name = bottom;
-pos = (468,-166);
+pos = (467,-169);
 },
 {
 name = nukta;
@@ -512,7 +512,7 @@ StemHeight = 100;
 TailHeight = 180;
 TailLength = 470;
 };
-pos = (544,-179);
+pos = (542,-179);
 ref = "_smart-raphala-beng";
 },
 {
@@ -584,7 +584,7 @@ width = 613;
 anchors = (
 {
 name = bottom;
-pos = (478,-233);
+pos = (477,-234);
 },
 {
 name = nukta;
@@ -751,7 +751,7 @@ StemHeight = 100;
 TailHeight = 180;
 TailLength = 470;
 };
-pos = (634,-241);
+pos = (634,-234);
 ref = "_smart-raphala-beng";
 },
 {
@@ -823,7 +823,7 @@ width = 668;
 anchors = (
 {
 name = bottom;
-pos = (439,-119);
+pos = (440,-91);
 },
 {
 name = nukta;
@@ -912,9 +912,9 @@ nodes = (
 piece = {
 StemHeight = 100;
 TailHeight = 180;
-TailLength = 470;
+TailLength = 480;
 };
-pos = (463,-100);
+pos = (459,-110);
 ref = "_smart-raphala-beng";
 },
 {
