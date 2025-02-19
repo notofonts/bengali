@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 5;
+color = 10;
 export = 0;
 glyphname = "g_ra_uuMatra-beng";
 layers = (
