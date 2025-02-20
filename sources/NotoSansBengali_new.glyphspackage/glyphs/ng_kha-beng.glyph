@@ -955,11 +955,11 @@ shapes = (
 ref = "ng-beng.half2";
 },
 {
-pos = (437,0);
+pos = (436,0);
 ref = "kha-beng.side";
 }
 );
-width = 615;
+width = 614;
 }
 );
 script = bengali;

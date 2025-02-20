@@ -131,11 +131,11 @@ shapes = (
 ref = "t-beng.half";
 },
 {
-pos = (52,-4);
+pos = (51,-4);
 ref = "la-beng.blws3";
 }
 );
-width = 454;
+width = 452;
 }
 );
 script = bengali;

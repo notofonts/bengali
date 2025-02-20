@@ -1041,11 +1041,11 @@ shapes = (
 ref = "k_ss-beng.half";
 },
 {
-pos = (28,-24);
+pos = (27,-24);
 ref = "raphala-beng.alt04";
 }
 );
-width = 563;
+width = 561;
 }
 );
 script = bengali;
