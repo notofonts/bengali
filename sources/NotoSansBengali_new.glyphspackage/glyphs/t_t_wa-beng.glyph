@@ -183,15 +183,15 @@ shapes = (
 ref = "t_t-beng.half";
 },
 {
-pos = (166,-101);
+pos = (162,-104);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (186,-133);
+pos = (182,-136);
 ref = "wa-beng.part";
 }
 );
-width = 528;
+width = 524;
 },
 {
 background = {
@@ -248,15 +248,15 @@ shapes = (
 ref = "t_t-beng.half";
 },
 {
-pos = (175,-117);
+pos = (174,-117);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (177,-127);
+pos = (176,-127);
 ref = "wa-beng.part";
 }
 );
-width = 450;
+width = 448;
 }
 );
 metricWidth = tatababeng;

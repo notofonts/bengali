@@ -666,11 +666,11 @@ shapes = (
 ref = "dh-beng.half";
 },
 {
-pos = (386,0);
+pos = (385,0);
 ref = "ma-beng.side3";
 }
 );
-width = 546;
+width = 545;
 }
 );
 script = bengali;

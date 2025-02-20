@@ -235,11 +235,11 @@ pos = (413,0);
 ref = "k_ss-beng.half";
 },
 {
-pos = (441,-24);
+pos = (440,-24);
 ref = "raphala-beng.alt04";
 }
 );
-width = 976;
+width = 974;
 }
 );
 script = bengali;

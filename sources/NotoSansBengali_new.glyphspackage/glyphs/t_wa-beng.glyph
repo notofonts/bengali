@@ -268,15 +268,15 @@ shapes = (
 ref = "t-beng.half";
 },
 {
-pos = (140,-47);
+pos = (139,-47);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (142,-57);
+pos = (141,-57);
 ref = "wa-beng.part";
 }
 );
-width = 454;
+width = 452;
 }
 );
 metricWidth = tababeng;

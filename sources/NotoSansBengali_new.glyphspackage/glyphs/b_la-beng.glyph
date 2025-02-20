@@ -616,7 +616,7 @@ shapes = (
 ref = "b-beng.half";
 },
 {
-pos = (19,2);
+pos = (18,2);
 ref = "la-beng.blws";
 },
 {
@@ -624,7 +624,7 @@ pos = (554,0);
 ref = "headline-beng.ba";
 }
 );
-width = 386;
+width = 387;
 }
 );
 script = bengali;
