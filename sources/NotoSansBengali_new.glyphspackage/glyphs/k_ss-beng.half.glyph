@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 8;
+color = 5;
 glyphname = "k_ss-beng.half";
 kernLeft = L_BNG_kSsa_half;
 layers = (
