@@ -87,7 +87,7 @@ pos = (403,0);
 ref = "p-beng.half";
 },
 {
-pos = (484,-16);
+pos = (486,-16);
 ref = "la-beng.blws1";
 }
 );

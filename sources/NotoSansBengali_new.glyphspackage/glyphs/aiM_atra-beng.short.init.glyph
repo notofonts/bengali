@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "aiMatra-beng.short.init";
 kernLeft = L_BNG_aiMatra;
 layers = (
