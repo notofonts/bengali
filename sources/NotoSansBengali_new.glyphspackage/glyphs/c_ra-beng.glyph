@@ -666,11 +666,11 @@ shapes = (
 ref = "c-beng.half2";
 },
 {
-pos = (9,-83);
+pos = (8,-83);
 ref = "raphala-beng.alt06";
 }
 );
-width = 347;
+width = 345;
 }
 );
 script = bengali;

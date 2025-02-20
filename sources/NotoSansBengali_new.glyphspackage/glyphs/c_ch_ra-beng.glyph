@@ -404,15 +404,15 @@ shapes = (
 ref = "c-beng.half";
 },
 {
-pos = (221,0);
+pos = (220,0);
 ref = "ch-beng.half";
 },
 {
-pos = (239,-87);
+pos = (238,-87);
 ref = "raphala-beng.alt07";
 }
 );
-width = 588;
+width = 587;
 }
 );
 script = bengali;

@@ -329,7 +329,7 @@ pos = (6,-20);
 ref = "raphala-beng.alt14";
 }
 );
-width = 386;
+width = 385;
 }
 );
 script = bengali;

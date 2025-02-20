@@ -711,11 +711,11 @@ shapes = (
 ref = "ph-beng.half";
 },
 {
-pos = (39,-29);
+pos = (38,-29);
 ref = "la-beng.blws";
 }
 );
-width = 554;
+width = 552;
 }
 );
 script = bengali;

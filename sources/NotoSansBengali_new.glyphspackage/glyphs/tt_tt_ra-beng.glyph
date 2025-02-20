@@ -95,15 +95,15 @@ shapes = (
 ref = "tt_tta-beng.noflag";
 },
 {
-pos = (-2,-254);
+pos = (-3,-254);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (158,0);
+pos = (157,0);
 ref = "tta-beng.flag";
 }
 );
-width = 361;
+width = 359;
 }
 );
 }

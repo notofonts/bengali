@@ -207,15 +207,15 @@ pos = (164,0);
 ref = "ddh-beng.half";
 },
 {
-pos = (210,-75);
+pos = (209,-75);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (315,0);
+pos = (314,0);
 ref = "tta-beng.flagIMatra1";
 }
 );
-width = 515;
+width = 514;
 }
 );
 script = bengali;

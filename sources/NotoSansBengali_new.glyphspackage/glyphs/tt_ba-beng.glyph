@@ -183,15 +183,15 @@ shapes = (
 ref = "ddh-beng.half";
 },
 {
-pos = (151,0);
+pos = (150,0);
 ref = "tta-beng.flag";
 },
 {
-pos = (46,-75);
+pos = (45,-75);
 ref = "baphala-beng.alt2";
 }
 );
-width = 351;
+width = 350;
 }
 );
 script = bengali;

@@ -120,15 +120,15 @@ pos = (164,0);
 ref = "tt_tta-beng.noflag";
 },
 {
-pos = (162,-254);
+pos = (161,-254);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (322,0);
+pos = (321,0);
 ref = "tta-beng.flagIMatra1";
 }
 );
-width = 525;
+width = 523;
 }
 );
 subCategory = Spacing;

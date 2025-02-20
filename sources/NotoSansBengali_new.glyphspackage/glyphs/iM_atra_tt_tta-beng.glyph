@@ -657,11 +657,11 @@ pos = (164,0);
 ref = "tt_tta-beng.noflag";
 },
 {
-pos = (322,0);
+pos = (321,0);
 ref = "tta-beng.flagIMatra1";
 }
 );
-width = 525;
+width = 523;
 }
 );
 script = bengali;

@@ -660,19 +660,19 @@ shapes = (
 ref = "ddh-beng.half2";
 },
 {
-pos = (8,-84);
+pos = (7,-84);
 ref = "raphala-beng.alt06";
 },
 {
-pos = (159,0);
+pos = (158,0);
 ref = "tta-beng.flagIiMatra";
 },
 {
-pos = (356,0);
+pos = (354,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 519;
+width = 517;
 }
 );
 script = bengali;
