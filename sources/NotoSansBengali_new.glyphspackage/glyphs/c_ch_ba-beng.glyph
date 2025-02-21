@@ -1100,7 +1100,7 @@ pos = (220,0);
 ref = "ch-beng.half";
 },
 {
-pos = (330,-118);
+pos = (329,-118);
 ref = "baphala-beng.alt3";
 }
 );
