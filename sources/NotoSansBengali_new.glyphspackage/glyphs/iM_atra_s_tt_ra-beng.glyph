@@ -854,19 +854,19 @@ pos = (204,0);
 ref = "s-beng.half4";
 },
 {
-pos = (678,0);
+pos = (684,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (413,-131);
+pos = (419,-131);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (677,0);
+pos = (683,0);
 ref = "tta-beng.flagIMatra2";
 }
 );
-width = 875;
+width = 881;
 },
 {
 background = {

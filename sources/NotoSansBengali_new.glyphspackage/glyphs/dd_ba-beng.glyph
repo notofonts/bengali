@@ -187,7 +187,7 @@ pos = (163,-91);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (345,2);
+pos = (345,0);
 ref = "headline-beng.200";
 }
 );

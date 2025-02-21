@@ -678,15 +678,15 @@ shapes = (
 ref = "s-beng.half4";
 },
 {
-pos = (474,0);
+pos = (480,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (475,0);
+pos = (481,0);
 ref = "tta-beng.flag";
 }
 );
-width = 687;
+width = 693;
 },
 {
 background = {

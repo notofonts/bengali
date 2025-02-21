@@ -1,6 +1,6 @@
 {
 category = Mark;
-color = 6;
+color = 4;
 glyphname = "headline-beng.130";
 kernLeft = L_BNG_headline130;
 kernRight = R_BNG_headline130;
@@ -456,10 +456,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(72,587,l),
+(72,589,l),
 (72,607,l),
 (-7,607,l),
-(-7,587,l)
+(-7,589,l)
 );
 }
 );

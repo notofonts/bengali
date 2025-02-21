@@ -481,21 +481,36 @@ width = 239;
 anchors = (
 {
 name = bottomMainForm;
-pos = (72,288);
+pos = (63,288);
 },
 {
 name = bottomVattu;
-pos = (72,195);
+pos = (63,195);
 },
 {
 name = top_headline130;
-pos = (156,589);
+pos = (147,589);
 }
 );
 background = {
 shapes = (
 {
-ref = "aaMatra-beng";
+closed = 1;
+nodes = (
+(83,207,l),
+(83,597,l),
+(64,597,l),
+(64,207,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(161,587,l),
+(161,607,l),
+(-8,607,l),
+(-8,587,l)
+);
 }
 );
 };
@@ -504,23 +519,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(92,206,l),
-(92,597,l),
-(72,597,l),
-(72,206,l)
+(83,206,l),
+(83,597,l),
+(63,597,l),
+(63,206,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(172,589,l),
-(172,607,l),
+(161,589,l),
+(161,607,l),
 (-8,607,l),
 (-8,589,l)
 );
 }
 );
-width = 164;
+width = 153;
 }
 );
 script = bengali;

@@ -826,15 +826,15 @@ shapes = (
 ref = "s-beng.half4";
 },
 {
-pos = (474,0);
+pos = (480,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (209,-131);
+pos = (215,-131);
 ref = "raphala-beng.alt03";
 }
 );
-width = 671;
+width = 677;
 },
 {
 background = {

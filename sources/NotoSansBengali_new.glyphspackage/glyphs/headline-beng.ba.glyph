@@ -1,6 +1,6 @@
 {
 category = Mark;
-color = 6;
+color = 4;
 glyphname = "headline-beng.ba";
 layers = (
 {
@@ -421,7 +421,7 @@ width = 0;
 anchors = (
 {
 name = _top_headlineBa;
-pos = (-79,587);
+pos = (-79,589);
 },
 {
 name = top_vedic;
@@ -433,10 +433,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(8,587,l),
+(8,589,l),
 (8,607,l),
 (-79,607,l),
-(-79,587,l)
+(-79,589,l)
 );
 }
 );

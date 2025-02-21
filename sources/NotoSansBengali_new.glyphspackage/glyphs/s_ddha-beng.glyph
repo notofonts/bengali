@@ -666,11 +666,11 @@ shapes = (
 ref = "s-beng.half4";
 },
 {
-pos = (474,0);
+pos = (480,0);
 ref = "ddha-beng.side";
 }
 );
-width = 687;
+width = 693;
 },
 {
 background = {

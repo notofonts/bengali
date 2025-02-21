@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 9;
+color = 4;
 glyphname = "n-beng.headline";
 kernRight = R_BNG_nHeadline_part;
 layers = (
@@ -579,10 +579,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(270,587,l),
+(270,589,l),
 (270,607,l),
 (-7,607,l),
-(-7,587,l)
+(-7,589,l)
 );
 }
 );

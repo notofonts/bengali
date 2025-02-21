@@ -735,11 +735,11 @@ pos = (23,0);
 ref = "raphala-beng.alt04";
 },
 {
-pos = (440,0);
+pos = (439,0);
 ref = "uuMatra-beng.side";
 }
 );
-width = 541;
+width = 540;
 }
 );
 script = bengali;

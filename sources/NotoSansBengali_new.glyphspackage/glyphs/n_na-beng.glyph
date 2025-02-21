@@ -575,15 +575,15 @@ pos = (206,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (14,-12);
+pos = (5,-12);
 ref = "n-beng.float";
 },
 {
-pos = (58,35);
+pos = (49,35);
 ref = "na-beng.blws1";
 }
 );
-width = 370;
+width = 359;
 }
 );
 script = bengali;

@@ -645,15 +645,15 @@ pos = (280,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (159,35);
+pos = (150,35);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (172,-4);
+pos = (163,-4);
 ref = "wa-beng.part";
 }
 );
-width = 444;
+width = 433;
 }
 );
 script = bengali;
