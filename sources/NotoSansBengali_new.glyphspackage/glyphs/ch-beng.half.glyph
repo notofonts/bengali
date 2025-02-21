@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 8;
+color = 5;
 glyphname = "ch-beng.half";
 kernLeft = L_BNG_cha_half;
 layers = (
