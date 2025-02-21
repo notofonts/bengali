@@ -700,15 +700,15 @@ pos = (163,0);
 ref = "tth-beng.half";
 },
 {
-pos = (179,-135);
+pos = (178,-135);
 ref = "raphala-beng.alt06";
 },
 {
-pos = (218,0);
+pos = (217,0);
 ref = "ttha-beng.topIMatra";
 }
 );
-width = 504;
+width = 502;
 }
 );
 script = bengali;

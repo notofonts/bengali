@@ -1029,15 +1029,15 @@ shapes = (
 ref = "ny-beng.half";
 },
 {
-pos = (142,-70);
+pos = (156,-70);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (465,-7);
+pos = (479,-7);
 ref = "jha-beng.part";
 }
 );
-width = 782;
+width = 793;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
