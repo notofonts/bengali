@@ -542,7 +542,7 @@ pos = (312,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (76,-75);
+pos = (74,-75);
 ref = "la-beng.blws2";
 }
 );
@@ -678,11 +678,11 @@ pos = (337,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (64,-25);
+pos = (51,-25);
 ref = "la-beng.blws2";
 }
 );
-width = 586;
+width = 576;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -695,11 +695,11 @@ pos = (280,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (78,-62);
+pos = (85,-62);
 ref = "la-beng.blws2";
 }
 );
-width = 435;
+width = 444;
 }
 );
 script = bengali;

@@ -86,7 +86,7 @@ pos = (719,0);
 ref = "tta-beng.flagIMatra2";
 }
 );
-width = 927;
+width = 932;
 },
 {
 layerId = m006;
@@ -107,7 +107,7 @@ pos = (780,0);
 ref = "tta-beng.flagIMatra2";
 }
 );
-width = 985;
+width = 990;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -128,7 +128,7 @@ pos = (581,0);
 ref = "tta-beng.flagIMatra2";
 }
 );
-width = 778;
+width = 779;
 }
 );
 subCategory = Spacing;

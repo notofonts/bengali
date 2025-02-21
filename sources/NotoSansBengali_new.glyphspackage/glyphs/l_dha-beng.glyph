@@ -602,15 +602,15 @@ pos = (403,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (252,45);
+pos = (250,45);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (503,17);
+pos = (501,17);
 ref = "dha-beng.part";
 },
 {
-pos = (609,0);
+pos = (607,0);
 ref = "headline-beng.130";
 }
 );
@@ -755,15 +755,15 @@ pos = (414,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (242,41);
+pos = (229,41);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (533,22);
+pos = (520,22);
 ref = "dha-beng.part";
 },
 {
-pos = (663,0);
+pos = (650,0);
 ref = "headline-beng.130";
 }
 );

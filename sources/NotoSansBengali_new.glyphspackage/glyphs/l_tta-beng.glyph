@@ -654,7 +654,7 @@ pos = (512,0);
 ref = "tta-beng.flag";
 }
 );
-width = 719;
+width = 724;
 },
 {
 background = {
@@ -817,7 +817,7 @@ pos = (573,0);
 ref = "tta-beng.flag";
 }
 );
-width = 777;
+width = 782;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -834,7 +834,7 @@ pos = (421,0);
 ref = "tta-beng.flag";
 }
 );
-width = 618;
+width = 619;
 }
 );
 script = bengali;

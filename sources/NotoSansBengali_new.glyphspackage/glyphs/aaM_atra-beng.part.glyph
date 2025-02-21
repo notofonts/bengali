@@ -391,50 +391,21 @@ width = 305;
 anchors = (
 {
 name = bottomMainForm;
-pos = (67,291);
+pos = (65,291);
 },
 {
 name = bottomVattu;
-pos = (67,186);
+pos = (65,186);
 },
 {
 name = top_headline130;
-pos = (198,554);
+pos = (196,554);
 }
 );
 background = {
-anchors = (
-{
-name = bottomVattu;
-pos = (67,186);
-},
-{
-name = center;
-pos = (67,291);
-},
-{
-name = top_headline130;
-pos = (198,554);
-}
-);
 shapes = (
 {
-closed = 1;
-nodes = (
-(142,191,l),
-(142,573,l),
-(67,573,l),
-(67,191,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(213,554,l),
-(213,621,l),
-(-8,621,l),
-(-8,554,l)
-);
+ref = "aaMatra-beng";
 }
 );
 };
@@ -443,10 +414,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(142,191,l),
-(142,573,l),
-(67,573,l),
-(67,191,l)
+(140,191,l),
+(140,573,l),
+(65,573,l),
+(65,191,l)
 );
 },
 {
@@ -465,50 +436,21 @@ width = 205;
 anchors = (
 {
 name = bottomMainForm;
-pos = (54,299);
+pos = (41,299);
 },
 {
 name = bottomVattu;
-pos = (54,163);
+pos = (41,163);
 },
 {
 name = top_headline130;
-pos = (241,510);
+pos = (228,510);
 }
 );
 background = {
-anchors = (
-{
-name = bottomVattu;
-pos = (54,163);
-},
-{
-name = center;
-pos = (54,299);
-},
-{
-name = top_headline130;
-pos = (241,510);
-}
-);
 shapes = (
 {
-closed = 1;
-nodes = (
-(211,160,l),
-(211,530,l),
-(54,530,l),
-(54,160,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(257,510,l),
-(257,634,l),
-(-8,634,l),
-(-8,510,l)
-);
+ref = "aaMatra-beng";
 }
 );
 };
@@ -517,61 +459,68 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(211,160,l),
-(211,530,l),
-(54,530,l),
-(54,160,l)
+(198,160,l),
+(198,530,l),
+(41,530,l),
+(41,160,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(257,510,l),
-(257,634,l),
+(247,510,l),
+(247,634,l),
 (-8,634,l),
 (-8,510,l)
 );
 }
 );
-width = 249;
+width = 239;
 },
 {
 anchors = (
 {
 name = bottomMainForm;
-pos = (65,288);
+pos = (72,288);
 },
 {
 name = bottomVattu;
-pos = (65,195);
+pos = (72,195);
 },
 {
 name = top_headline130;
-pos = (149,587);
+pos = (156,589);
 }
 );
+background = {
+shapes = (
+{
+ref = "aaMatra-beng";
+}
+);
+};
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
 closed = 1;
 nodes = (
-(84,206,l),
-(84,597,l),
-(65,597,l),
-(65,206,l)
+(92,206,l),
+(92,597,l),
+(72,597,l),
+(72,206,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(162,587,l),
-(162,607,l),
-(-7,607,l),
-(-7,587,l)
+(172,589,l),
+(172,607,l),
+(-8,607,l),
+(-8,589,l)
 );
 }
 );
-width = 155;
+width = 164;
 }
 );
 script = bengali;

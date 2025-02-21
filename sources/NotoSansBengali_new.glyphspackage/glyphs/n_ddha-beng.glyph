@@ -610,7 +610,7 @@ pos = (-12,-8);
 ref = "n-beng.float";
 }
 );
-width = 626;
+width = 631;
 },
 {
 background = {
@@ -762,7 +762,7 @@ pos = (1,-9);
 ref = "n-beng.float";
 }
 );
-width = 679;
+width = 684;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -779,7 +779,7 @@ pos = (-8,-25);
 ref = "n-beng.float";
 }
 );
-width = 544;
+width = 545;
 }
 );
 script = bengali;
