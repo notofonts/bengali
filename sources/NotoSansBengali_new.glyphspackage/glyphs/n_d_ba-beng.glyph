@@ -635,7 +635,7 @@ pos = (3,1);
 ref = "n-beng.float";
 },
 {
-pos = (323,8);
+pos = (329,8);
 ref = "baphala-beng.alt4";
 }
 );
@@ -652,15 +652,15 @@ pos = (210,0);
 ref = "d-beng.half3";
 },
 {
-pos = (-1,17);
+pos = (-2,17);
 ref = "n-beng.float";
 },
 {
-pos = (271,51);
+pos = (270,51);
 ref = "baphala-beng.alt4";
 }
 );
-width = 537;
+width = 536;
 }
 );
 script = bengali;

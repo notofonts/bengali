@@ -251,11 +251,11 @@ shapes = (
 ref = "d-beng.half3";
 },
 {
-pos = (72,8);
+pos = (78,8);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (90,-49);
+pos = (96,-49);
 ref = "wa-beng.part";
 }
 );
@@ -268,15 +268,15 @@ shapes = (
 ref = "d-beng.half3";
 },
 {
-pos = (61,51);
+pos = (60,51);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (74,12);
+pos = (73,12);
 ref = "wa-beng.part";
 }
 );
-width = 327;
+width = 326;
 }
 );
 metricWidth = dababeng;

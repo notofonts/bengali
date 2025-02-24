@@ -95,15 +95,15 @@ shapes = (
 ref = "n_s-beng.half";
 },
 {
-pos = (493,0);
+pos = (492,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (493,0);
+pos = (492,0);
 ref = "tta-beng.flag";
 }
 );
-width = 691;
+width = 690;
 }
 );
 }

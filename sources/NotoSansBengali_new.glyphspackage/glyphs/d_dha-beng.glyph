@@ -560,11 +560,11 @@ alignment = -1;
 ref = "d-beng.half3";
 },
 {
-pos = (72,8);
+pos = (78,8);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (363,-11);
+pos = (369,-11);
 ref = "dha-beng.part";
 },
 {

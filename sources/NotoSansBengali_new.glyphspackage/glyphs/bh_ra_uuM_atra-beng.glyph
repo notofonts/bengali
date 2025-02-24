@@ -534,7 +534,7 @@ alignment = -1;
 ref = "bh-beng.half";
 },
 {
-pos = (-6,6);
+pos = (-7,6);
 ref = "raphala-beng.alt09";
 },
 {
@@ -670,7 +670,7 @@ alignment = -1;
 ref = "bh-beng.half";
 },
 {
-pos = (1,-20);
+pos = (6,-20);
 ref = "raphala-beng.alt09";
 },
 {
