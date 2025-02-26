@@ -1053,7 +1053,7 @@ shapes = (
 ref = "k_ss-beng.half";
 },
 {
-pos = (134,-69);
+pos = (132,-59);
 ref = "na-beng.blws";
 }
 );

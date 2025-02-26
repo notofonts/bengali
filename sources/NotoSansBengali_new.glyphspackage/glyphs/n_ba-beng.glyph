@@ -513,7 +513,7 @@ pos = (4,1);
 ref = "n-beng.float";
 },
 {
-pos = (51,41);
+pos = (51,56);
 ref = "baphala-beng.alt4";
 }
 );

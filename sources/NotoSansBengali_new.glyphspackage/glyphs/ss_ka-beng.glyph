@@ -798,26 +798,22 @@ width = 712;
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
-alignment = -1;
 ref = "ss-beng.half4";
 },
 {
-alignment = -1;
-pos = (30,96);
+pos = (31,96);
 ref = "baphala-beng.alt4";
 },
 {
-alignment = -1;
-pos = (224,51);
+pos = (225,51);
 ref = "ka-beng.part";
 },
 {
-alignment = -1;
-pos = (210,0);
+pos = (210,2);
 ref = "headline-beng.250";
 }
 );
-width = 555;
+width = 330;
 }
 );
 script = bengali;

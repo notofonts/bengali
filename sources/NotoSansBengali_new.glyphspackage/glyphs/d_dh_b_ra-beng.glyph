@@ -889,11 +889,11 @@ shapes = (
 ref = "d-beng.half3";
 },
 {
-pos = (69,19);
+pos = (63,17);
 ref = "dh_ba-beng.blws";
 },
 {
-pos = (21,-463);
+pos = (15,-465);
 ref = "raphala-beng.alt15";
 },
 {

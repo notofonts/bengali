@@ -530,11 +530,11 @@ shapes = (
 ref = "h-beng.half";
 },
 {
-pos = (68,-106);
+pos = (68,-101);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (88,-95);
+pos = (88,-90);
 ref = "wa-beng.part";
 }
 );
@@ -664,11 +664,11 @@ shapes = (
 ref = "h-beng.half";
 },
 {
-pos = (32,-70);
+pos = (30,-70);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (64,-76);
+pos = (62,-76);
 ref = "wa-beng.part";
 }
 );
@@ -681,11 +681,11 @@ shapes = (
 ref = "h-beng.half";
 },
 {
-pos = (82,-83);
+pos = (82,-86);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (81,-89);
+pos = (81,-92);
 ref = "wa-beng.part";
 }
 );

@@ -199,11 +199,11 @@ shapes = (
 ref = "t-beng.half";
 },
 {
-pos = (132,-45);
+pos = (132,-50);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (152,-77);
+pos = (152,-82);
 ref = "wa-beng.part";
 }
 );
@@ -251,15 +251,15 @@ shapes = (
 ref = "t-beng.half";
 },
 {
-pos = (59,-34);
+pos = (70,-44);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (95,-81);
+pos = (106,-91);
 ref = "wa-beng.part";
 }
 );
-width = 516;
+width = 522;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -268,11 +268,11 @@ shapes = (
 ref = "t-beng.half";
 },
 {
-pos = (139,-47);
+pos = (139,-46);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (141,-57);
+pos = (141,-56);
 ref = "wa-beng.part";
 }
 );

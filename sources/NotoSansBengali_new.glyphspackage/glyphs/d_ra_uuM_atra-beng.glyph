@@ -669,7 +669,7 @@ pos = (302,63);
 ref = "dha-beng.part";
 },
 {
-pos = (402,0);
+pos = (402,-2);
 ref = "headline-beng.130";
 }
 );

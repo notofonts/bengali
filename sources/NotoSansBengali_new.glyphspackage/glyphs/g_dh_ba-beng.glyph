@@ -611,7 +611,7 @@ alignment = -1;
 ref = "g-beng.half";
 },
 {
-pos = (122,29);
+pos = (122,24);
 ref = "dh_ba-beng.blws";
 },
 {

@@ -444,7 +444,7 @@ width = 172;
 anchors = (
 {
 name = _top_headline130;
-pos = (-7,587);
+pos = (-7,589);
 },
 {
 name = top_vedic;

@@ -614,11 +614,11 @@ pos = (-12,53);
 ref = "ta-beng.blws";
 },
 {
-pos = (195,-169);
+pos = (195,-174);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (215,-201);
+pos = (215,-206);
 ref = "wa-beng.part";
 }
 );
@@ -769,11 +769,11 @@ pos = (-21,0);
 ref = "ta-beng.blws";
 },
 {
-pos = (180,-213);
+pos = (178,-217);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (216,-260);
+pos = (214,-264);
 ref = "wa-beng.part";
 }
 );
@@ -790,11 +790,11 @@ pos = (10,70);
 ref = "ta-beng.blws";
 },
 {
-pos = (189,-144);
+pos = (189,-145);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (191,-154);
+pos = (191,-155);
 ref = "wa-beng.part";
 }
 );

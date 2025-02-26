@@ -214,7 +214,7 @@ pos = (531,0);
 ref = "k_ss-beng.half";
 },
 {
-pos = (523,-111);
+pos = (523,-101);
 ref = "raphala-beng.alt04";
 }
 );
@@ -227,7 +227,7 @@ shapes = (
 ref = "ng-beng.half";
 },
 {
-pos = (335,0);
+pos = (335,-2);
 ref = "headline-beng.130";
 },
 {

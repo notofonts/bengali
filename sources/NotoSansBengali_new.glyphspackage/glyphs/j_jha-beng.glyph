@@ -528,11 +528,11 @@ alignment = -1;
 ref = "j-beng.half";
 },
 {
-pos = (298,-131);
+pos = (298,-126);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (513,-10);
+pos = (513,-5);
 ref = "jha-beng.part";
 },
 {
@@ -574,11 +574,11 @@ alignment = -1;
 ref = "j-beng.half";
 },
 {
-pos = (299,-124);
+pos = (297,-124);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (622,-61);
+pos = (620,-61);
 ref = "jha-beng.part";
 },
 {

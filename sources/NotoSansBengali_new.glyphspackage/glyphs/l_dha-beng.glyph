@@ -755,11 +755,11 @@ pos = (414,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (229,41);
+pos = (229,56);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (520,22);
+pos = (520,37);
 ref = "dha-beng.part";
 },
 {
@@ -776,23 +776,23 @@ shapes = (
 ref = "l-beng.half3";
 },
 {
-pos = (280,0);
+pos = (266,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (150,35);
+pos = (136,35);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (344,-5);
+pos = (330,-5);
 ref = "dha-beng.part";
 },
 {
-pos = (434,2);
+pos = (420,0);
 ref = "headline-beng.130";
 }
 );
-width = 433;
+width = 419;
 }
 );
 script = bengali;

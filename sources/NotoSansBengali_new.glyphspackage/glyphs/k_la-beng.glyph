@@ -736,7 +736,7 @@ alignment = -1;
 ref = "b-beng.half";
 },
 {
-pos = (-40,-107);
+pos = (-37,-107);
 ref = "la-beng.blws";
 },
 {
@@ -750,21 +750,18 @@ width = 813;
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
-alignment = -1;
 ref = "b-beng.half";
 },
 {
-alignment = -1;
-pos = (19,2);
+pos = (17,2);
 ref = "la-beng.blws";
 },
 {
-alignment = -1;
 pos = (386,0);
 ref = "ka-beng.arm";
 }
 );
-width = 760;
+width = 387;
 }
 );
 script = bengali;

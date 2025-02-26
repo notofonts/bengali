@@ -534,7 +534,7 @@ pos = (52,1);
 ref = "n-beng.float";
 },
 {
-pos = (90,52);
+pos = (90,67);
 ref = "dh_ba-beng.blws";
 },
 {

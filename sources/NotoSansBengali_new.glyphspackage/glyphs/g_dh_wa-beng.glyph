@@ -627,11 +627,11 @@ alignment = -1;
 ref = "g-beng.half";
 },
 {
-pos = (122,29);
+pos = (122,24);
 ref = "dh_ba-beng.blws";
 },
 {
-pos = (163,-187);
+pos = (163,-192);
 ref = "wa-beng.part";
 },
 {
