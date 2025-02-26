@@ -643,7 +643,7 @@ pos = (232,0);
 ref = "ddh-beng.half2";
 },
 {
-pos = (207,-194);
+pos = (207,-191);
 ref = "raphala-beng.alt06";
 },
 {
@@ -664,7 +664,7 @@ pos = (164,0);
 ref = "ddh-beng.half2";
 },
 {
-pos = (171,-84);
+pos = (171,-74);
 ref = "raphala-beng.alt06";
 },
 {

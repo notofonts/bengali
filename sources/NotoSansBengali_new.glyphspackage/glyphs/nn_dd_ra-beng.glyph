@@ -673,7 +673,7 @@ shapes = (
 ref = "nn_dda-beng";
 },
 {
-pos = (50,-245);
+pos = (50,-240);
 ref = "raphala-beng.alt05";
 }
 );

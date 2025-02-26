@@ -979,7 +979,7 @@ pos = (232,0);
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (206,-314);
+pos = (206,-311);
 ref = "raphala-beng.alt06";
 },
 {
@@ -1000,7 +1000,7 @@ pos = (164,0);
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (173,-218);
+pos = (173,-208);
 ref = "raphala-beng.alt06";
 },
 {

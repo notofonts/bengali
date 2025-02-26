@@ -643,7 +643,7 @@ pos = (385,0);
 },
 {
 name = bottomVattu;
-pos = (570,68);
+pos = (585,68);
 },
 {
 name = nukta;

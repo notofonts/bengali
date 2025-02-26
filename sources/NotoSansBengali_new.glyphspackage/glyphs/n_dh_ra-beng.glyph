@@ -714,7 +714,7 @@ pos = (125,45);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (53,-190);
+pos = (51,-190);
 ref = "raphala-beng.alt11";
 },
 {
@@ -895,7 +895,7 @@ pos = (99,41);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (40,-292);
+pos = (31,-292);
 ref = "raphala-beng.alt11";
 },
 {

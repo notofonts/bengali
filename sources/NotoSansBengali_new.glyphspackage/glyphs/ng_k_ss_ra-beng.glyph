@@ -214,11 +214,11 @@ pos = (531,0);
 ref = "k_ss-beng.half";
 },
 {
-pos = (504,-116);
+pos = (523,-111);
 ref = "raphala-beng.alt04";
 }
 );
-width = 1251;
+width = 1271;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

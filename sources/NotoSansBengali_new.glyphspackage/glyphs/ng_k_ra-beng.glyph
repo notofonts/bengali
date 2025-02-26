@@ -794,7 +794,7 @@ shapes = (
 ref = "ng_ka-beng";
 },
 {
-pos = (-22,-198);
+pos = (-24,-198);
 ref = "raphala-beng.alt11";
 }
 );
@@ -993,7 +993,7 @@ shapes = (
 ref = "ng_ka-beng";
 },
 {
-pos = (-29,-257);
+pos = (-38,-257);
 ref = "raphala-beng.alt11";
 }
 );

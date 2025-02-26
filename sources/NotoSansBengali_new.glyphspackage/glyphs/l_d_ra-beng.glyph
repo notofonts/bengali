@@ -446,7 +446,7 @@ pos = (511,0);
 ref = "d-beng.side";
 },
 {
-pos = (250,-36);
+pos = (248,-36);
 ref = "raphala-beng.alt09";
 }
 );

@@ -658,7 +658,7 @@ shapes = (
 ref = "ng-beng.half";
 },
 {
-pos = (-33,-199);
+pos = (-33,-194);
 ref = "raphala-beng.alt05";
 }
 );

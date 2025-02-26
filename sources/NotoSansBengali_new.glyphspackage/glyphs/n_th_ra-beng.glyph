@@ -840,7 +840,7 @@ pos = (91,-156);
 ref = "tha-beng.blws";
 },
 {
-pos = (41,-180);
+pos = (41,-178);
 ref = "raphala-beng.alt07";
 }
 );
