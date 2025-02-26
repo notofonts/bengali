@@ -384,7 +384,7 @@ pos = (766,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 998;
+width = 1001;
 },
 {
 background = {
@@ -766,7 +766,7 @@ pos = (615,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 818;
+width = 820;
 },
 {
 background = {
