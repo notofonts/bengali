@@ -586,7 +586,7 @@ pos = (-3,55);
 ref = "ta-beng.blws";
 },
 {
-pos = (204,-167);
+pos = (204,-172);
 ref = "baphala-beng.alt2";
 }
 );
@@ -733,7 +733,7 @@ pos = (-18,0);
 ref = "ta-beng.blws";
 },
 {
-pos = (183,-213);
+pos = (181,-217);
 ref = "baphala-beng.alt2";
 }
 );
@@ -750,7 +750,7 @@ pos = (34,87);
 ref = "ta-beng.blws";
 },
 {
-pos = (213,-127);
+pos = (213,-128);
 ref = "baphala-beng.alt2";
 }
 );

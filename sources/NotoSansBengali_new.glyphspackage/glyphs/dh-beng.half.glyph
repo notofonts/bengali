@@ -929,7 +929,7 @@ width = 596;
 anchors = (
 {
 name = bottomVattu;
-pos = (270,74);
+pos = (272,74);
 },
 {
 name = top_candrabindu;

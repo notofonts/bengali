@@ -65,15 +65,15 @@ ref = "s-beng.half";
 },
 {
 alignment = -1;
-pos = (473,0);
+pos = (361,0);
 ref = "p-beng.half";
 },
 {
-pos = (557,1);
+pos = (445,11);
 ref = "la-beng.blws1";
 }
 );
-width = 1174;
+width = 896;
 },
 {
 layerId = m006;

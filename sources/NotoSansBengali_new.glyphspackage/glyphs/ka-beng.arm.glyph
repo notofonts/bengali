@@ -1095,7 +1095,7 @@ width = 163;
 anchors = (
 {
 name = _top_headlineKaArm;
-pos = (-85,587);
+pos = (-85,589);
 },
 {
 name = top_candrabindu;
@@ -1142,10 +1142,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(150,587,l),
+(150,589,l),
 (150,607,l),
 (-85,607,l),
-(-85,587,l)
+(-85,589,l)
 );
 }
 );

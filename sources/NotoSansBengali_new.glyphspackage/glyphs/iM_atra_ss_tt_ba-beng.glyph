@@ -92,7 +92,7 @@ pos = (394,0);
 ref = "tta-beng.flagIMatra3";
 },
 {
-pos = (264,-189);
+pos = (264,-184);
 ref = "baphala-beng.alt3";
 }
 );
@@ -123,7 +123,7 @@ pos = (509,0);
 ref = "tta-beng.flagIMatra3";
 },
 {
-pos = (273,-151);
+pos = (271,-151);
 ref = "baphala-beng.alt3";
 }
 );
@@ -144,7 +144,7 @@ pos = (296,0);
 ref = "tta-beng.flagIMatra3";
 },
 {
-pos = (234,-188);
+pos = (233,-188);
 ref = "baphala-beng.alt3";
 }
 );

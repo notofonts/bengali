@@ -698,7 +698,7 @@ shapes = (
 ref = "ph-beng.half";
 },
 {
-pos = (-41,-103);
+pos = (-39,-103);
 ref = "la-beng.blws";
 }
 );

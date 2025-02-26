@@ -603,7 +603,7 @@ width = 458;
 anchors = (
 {
 name = bottomVattu;
-pos = (276,236);
+pos = (277,236);
 },
 {
 name = top_candrabindu;
@@ -668,8 +668,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(295,148,l),
-(295,607,l),
+(297,148,l),
+(297,607,l),
 (-8,607,l),
 (-8,589,l),
 (277,589,l),

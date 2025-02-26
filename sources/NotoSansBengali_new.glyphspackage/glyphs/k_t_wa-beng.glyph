@@ -630,11 +630,11 @@ alignment = -1;
 ref = "t_t-beng.half";
 },
 {
-pos = (162,-104);
+pos = (162,-109);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (182,-136);
+pos = (182,-141);
 ref = "wa-beng.part";
 },
 {
@@ -791,11 +791,11 @@ alignment = -1;
 ref = "t_t-beng.half";
 },
 {
-pos = (129,-88);
+pos = (127,-92);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (165,-135);
+pos = (163,-139);
 ref = "wa-beng.part";
 },
 {

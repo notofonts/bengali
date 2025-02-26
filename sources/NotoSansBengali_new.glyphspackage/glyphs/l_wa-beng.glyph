@@ -624,11 +624,11 @@ pos = (337,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (152,41);
+pos = (152,56);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (170,-16);
+pos = (170,-1);
 ref = "wa-beng.part";
 }
 );
@@ -641,19 +641,19 @@ shapes = (
 ref = "l-beng.half3";
 },
 {
-pos = (280,0);
+pos = (266,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (150,35);
+pos = (136,35);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (163,-4);
+pos = (149,-4);
 ref = "wa-beng.part";
 }
 );
-width = 433;
+width = 419;
 }
 );
 script = bengali;

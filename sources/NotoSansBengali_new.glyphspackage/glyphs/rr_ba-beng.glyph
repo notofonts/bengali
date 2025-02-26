@@ -182,7 +182,7 @@ shapes = (
 ref = "dd-beng.half";
 },
 {
-pos = (149,-94);
+pos = (149,-99);
 ref = "baphala-beng.alt2";
 },
 {
@@ -232,7 +232,7 @@ alignment = -1;
 ref = "dd-beng.half";
 },
 {
-pos = (91,-39);
+pos = (89,-43);
 ref = "baphala-beng.alt2";
 },
 {

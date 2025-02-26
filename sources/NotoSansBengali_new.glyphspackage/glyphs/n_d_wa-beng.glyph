@@ -651,11 +651,11 @@ pos = (3,1);
 ref = "n-beng.float";
 },
 {
-pos = (329,8);
+pos = (323,6);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (347,-49);
+pos = (341,-51);
 ref = "wa-beng.part";
 }
 );

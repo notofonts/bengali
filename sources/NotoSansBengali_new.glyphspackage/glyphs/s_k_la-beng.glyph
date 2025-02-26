@@ -101,7 +101,7 @@ pos = (374,0);
 ref = "headline-beng.250";
 },
 {
-pos = (36,-207);
+pos = (36,-197);
 ref = "la-beng.blws";
 }
 );
@@ -127,7 +127,7 @@ pos = (394,0);
 ref = "headline-beng.250";
 },
 {
-pos = (12,-209);
+pos = (15,-199);
 ref = "la-beng.blws";
 }
 );
@@ -137,31 +137,26 @@ width = 832;
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
-alignment = -1;
 ref = "s-beng.half";
 },
 {
-alignment = -1;
 pos = (126,108);
 ref = "baphala-beng.alt4";
 },
 {
-alignment = -1;
 pos = (320,63);
 ref = "ka-beng.part";
 },
 {
-alignment = -1;
 pos = (309,0);
 ref = "headline-beng.250";
 },
 {
-alignment = -1;
-pos = (45,-117);
+pos = (45,-98);
 ref = "la-beng.blws";
 }
 );
-width = 699;
+width = 430;
 }
 );
 }

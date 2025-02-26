@@ -638,7 +638,7 @@ shapes = (
 ref = "ph-beng.half";
 },
 {
-pos = (-25,-124);
+pos = (-26,-124);
 ref = "raphala-beng.alt14";
 }
 );
