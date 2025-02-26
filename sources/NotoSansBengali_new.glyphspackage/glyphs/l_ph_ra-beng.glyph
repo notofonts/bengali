@@ -49,7 +49,7 @@ shapes = (
 ref = "l_pha-beng";
 },
 {
-pos = (161,-127);
+pos = (160,-127);
 ref = "raphala-beng.alt01";
 }
 );
@@ -75,7 +75,7 @@ shapes = (
 ref = "l_pha-beng";
 },
 {
-pos = (118,-76);
+pos = (117,-76);
 ref = "raphala-beng.alt01";
 }
 );

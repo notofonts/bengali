@@ -635,7 +635,7 @@ pos = (479,0);
 ref = "kha-beng.side";
 }
 );
-width = 715;
+width = 677;
 },
 {
 associatedMasterId = m005;
@@ -805,7 +805,7 @@ pos = (499,0);
 ref = "kha-beng.side";
 }
 );
-width = 819;
+width = 786;
 },
 {
 associatedMasterId = m006;
@@ -959,7 +959,7 @@ pos = (436,0);
 ref = "kha-beng.side";
 }
 );
-width = 614;
+width = 562;
 }
 );
 script = bengali;

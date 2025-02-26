@@ -699,7 +699,7 @@ pos = (5,-2);
 ref = "n-beng.float";
 },
 {
-pos = (167,-5);
+pos = (165,-5);
 ref = "raphala-beng.alt09";
 }
 );

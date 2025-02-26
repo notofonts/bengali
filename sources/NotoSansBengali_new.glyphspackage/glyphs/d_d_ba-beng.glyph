@@ -556,7 +556,7 @@ shapes = (
 ref = "d_d-beng.half";
 },
 {
-pos = (290,-59);
+pos = (293,-59);
 ref = "baphala-beng.alt3";
 }
 );

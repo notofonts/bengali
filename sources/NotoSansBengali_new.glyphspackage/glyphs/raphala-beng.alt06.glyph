@@ -326,6 +326,15 @@ nodes = (
 (267,41,o),
 (278,0,c)
 );
+},
+{
+piece = {
+StemHeight = 311;
+TailHeight = 139;
+TailLength = 352;
+};
+pos = (348,-26);
+ref = "_smart-raphala-beng";
 }
 );
 width = 365;
@@ -432,6 +441,15 @@ nodes = (
 (282,26,o),
 (287,0,c)
 );
+},
+{
+piece = {
+StemHeight = 326;
+TailHeight = 146;
+TailLength = 311;
+};
+pos = (441,-13);
+ref = "_smart-raphala-beng";
 }
 );
 width = 448;
@@ -451,7 +469,7 @@ name = nukta;
 pos = (116,-41);
 }
 );
-layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+background = {
 shapes = (
 {
 closed = 1;
@@ -486,6 +504,19 @@ nodes = (
 (221,43,o),
 (240,0,c)
 );
+}
+);
+};
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+piece = {
+StemHeight = 310;
+TailHeight = 149;
+TailLength = 345;
+};
+pos = (260,-44);
+ref = "_smart-raphala-beng";
 }
 );
 width = 272;
