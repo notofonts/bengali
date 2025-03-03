@@ -1,6 +1,6 @@
 {
 category = Mark;
-color = 6;
+color = 5;
 glyphname = "aaMatra-beng.float";
 kernLeft = L_BNG_aaMatra_part;
 layers = (
@@ -600,8 +600,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(211,131,l),
-(211,530,l),
+(209,131,l),
+(209,530,l),
 (54,530,l),
 (54,131,l)
 );
@@ -609,8 +609,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(257,510,l),
-(257,634,l),
+(255,510,l),
+(255,634,l),
 (-8,634,l),
 (-8,510,l)
 );
@@ -622,7 +622,7 @@ width = 249;
 anchors = (
 {
 name = _top_headline_aaMatra;
-pos = (-7,587);
+pos = (-7,589);
 },
 {
 name = bottomMainForm;
@@ -638,7 +638,7 @@ pos = (74,607);
 },
 {
 name = top_headline130;
-pos = (149,587);
+pos = (149,589);
 },
 {
 name = top_vedic;
@@ -659,10 +659,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(162,587,l),
+(162,589,l),
 (162,607,l),
 (-7,607,l),
-(-7,587,l)
+(-7,589,l)
 );
 }
 );

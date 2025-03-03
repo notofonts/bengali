@@ -1,7 +1,8 @@
 {
 category = Mark;
-color = 6;
-glyphname = "dha-beng.part2";
+color = 11;
+export = 0;
+glyphname = "dha-beng.part2_DEPRECATED";
 layers = (
 {
 anchors = (

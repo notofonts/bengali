@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 7;
+color = 5;
 glyphname = "aaMatra-beng.part2";
 kernLeft = L_BNG_aaMatra_part;
 layers = (
@@ -522,8 +522,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(84,207,l),
-(84,597,l),
+(85,207,l),
+(85,597,l),
 (65,597,l),
 (65,207,l)
 );

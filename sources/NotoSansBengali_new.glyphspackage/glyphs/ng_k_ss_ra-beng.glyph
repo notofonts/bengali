@@ -227,7 +227,7 @@ shapes = (
 ref = "ng-beng.half";
 },
 {
-pos = (335,-2);
+pos = (333,0);
 ref = "headline-beng.130";
 },
 {

@@ -957,7 +957,7 @@ pos = (687,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 918;
+width = 922;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -966,23 +966,23 @@ shapes = (
 ref = "n-beng.headline";
 },
 {
-pos = (347,0);
+pos = (346,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (146,-84);
+pos = (145,-84);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (-8,0);
+pos = (-9,0);
 ref = "n-beng.float";
 },
 {
-pos = (335,0);
+pos = (334,0);
 ref = "tta-beng.flagIiMatra";
 },
 {
-pos = (535,0);
+pos = (534,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );

@@ -514,7 +514,7 @@ shapes = (
 ref = "nn-beng.half";
 },
 {
-pos = (96,38);
+pos = (94,38);
 ref = "baphala-beng.alt4";
 },
 {

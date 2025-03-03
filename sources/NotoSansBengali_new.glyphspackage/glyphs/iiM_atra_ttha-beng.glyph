@@ -570,7 +570,7 @@ pos = (420,0);
 ref = "iiMatra-beng.tthaAlt1";
 }
 );
-width = 624;
+width = 625;
 },
 {
 anchors = (
@@ -838,7 +838,7 @@ pos = (456,0);
 ref = "iiMatra-beng.tthaAlt1";
 }
 );
-width = 688;
+width = 691;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -855,7 +855,7 @@ pos = (354,0);
 ref = "iiMatra-beng.tthaAlt1";
 }
 );
-width = 517;
+width = 518;
 }
 );
 script = bengali;

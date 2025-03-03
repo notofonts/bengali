@@ -1,6 +1,6 @@
 {
 category = Mark;
-color = 4;
+color = 5;
 glyphname = "headline-beng.250";
 kernLeft = L_BNG_headline_250;
 layers = (

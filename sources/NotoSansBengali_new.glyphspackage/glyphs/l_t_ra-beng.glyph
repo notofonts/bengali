@@ -608,11 +608,11 @@ pos = (311,0);
 ref = "aaMatra-beng.part.short";
 },
 {
-pos = (77,-205);
+pos = (77,-208);
 ref = "t_ra-beng.blws";
 }
 );
-width = 516;
+width = 518;
 },
 {
 annotations = (
@@ -769,7 +769,7 @@ pos = (51,-232);
 ref = "t_ra-beng.blws";
 }
 );
-width = 585;
+width = 588;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -778,15 +778,15 @@ shapes = (
 ref = "l-beng.half3";
 },
 {
-pos = (280,0);
+pos = (265,0);
 ref = "aaMatra-beng.part.short";
 },
 {
-pos = (58,-168);
+pos = (42,-164);
 ref = "t_ra-beng.blws";
 }
 );
-width = 435;
+width = 421;
 }
 );
 script = bengali;

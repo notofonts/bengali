@@ -142,8 +142,7 @@ pos = (373,60);
 ref = "jha-beng.part";
 },
 {
-alignment = -1;
-pos = (453,1);
+pos = (453,0);
 ref = "aaMatra-beng.side2";
 }
 );
@@ -160,11 +159,11 @@ pos = (84,76);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (271,136);
+pos = (272,136);
 ref = "jha-beng.part";
 },
 {
-pos = (370,-1);
+pos = (371,-1);
 ref = "aaMatra-beng.side2";
 }
 );

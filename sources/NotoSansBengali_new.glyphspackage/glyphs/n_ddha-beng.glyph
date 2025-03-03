@@ -771,15 +771,15 @@ shapes = (
 ref = "n-beng.headline";
 },
 {
-pos = (347,0);
+pos = (346,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (-8,-25);
+pos = (-9,-25);
 ref = "n-beng.float";
 }
 );
-width = 545;
+width = 544;
 }
 );
 script = bengali;

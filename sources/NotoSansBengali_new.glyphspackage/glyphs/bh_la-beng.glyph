@@ -703,7 +703,7 @@ shapes = (
 ref = "bh-beng.half";
 },
 {
-pos = (33,-45);
+pos = (31,-45);
 ref = "la-beng.blws1";
 }
 );

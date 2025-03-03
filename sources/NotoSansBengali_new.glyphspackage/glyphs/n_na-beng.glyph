@@ -558,11 +558,11 @@ pos = (4,1);
 ref = "n-beng.float";
 },
 {
-pos = (6,46);
+pos = (6,41);
 ref = "na-beng.blws1";
 }
 );
-width = 475;
+width = 473;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -571,19 +571,19 @@ shapes = (
 ref = "n-beng.headline";
 },
 {
-pos = (206,0);
+pos = (205,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (5,-12);
+pos = (4,-12);
 ref = "n-beng.float";
 },
 {
-pos = (49,35);
+pos = (48,35);
 ref = "na-beng.blws1";
 }
 );
-width = 359;
+width = 358;
 }
 );
 script = bengali;

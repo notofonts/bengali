@@ -970,23 +970,23 @@ pos = (163,0);
 ref = "n-beng.headline";
 },
 {
-pos = (510,0);
+pos = (509,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (309,-84);
+pos = (308,-84);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (155,0);
+pos = (154,0);
 ref = "n-beng.float";
 },
 {
-pos = (498,0);
+pos = (497,0);
 ref = "tta-beng.flagIMatra2";
 }
 );
-width = 698;
+width = 697;
 }
 );
 script = bengali;

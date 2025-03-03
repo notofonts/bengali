@@ -638,7 +638,7 @@ pos = (326,48);
 ref = "ka-beng.part";
 },
 {
-pos = (433,0);
+pos = (438,0);
 ref = "ka-beng.arm1";
 }
 );
@@ -798,16 +798,17 @@ pos = (330,43);
 ref = "ka-beng.part";
 },
 {
-pos = (459,0);
+pos = (468,0);
 ref = "ka-beng.arm1";
 }
 );
-width = 802;
+width = 631;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
+alignment = -1;
 ref = "b-beng.half2";
 },
 {
@@ -819,11 +820,11 @@ pos = (278,31);
 ref = "ka-beng.part";
 },
 {
-pos = (371,0);
+pos = (372,0);
 ref = "ka-beng.arm1";
 }
 );
-width = 375;
+width = 514;
 }
 );
 script = bengali;

@@ -227,9 +227,15 @@ pos = (335,0);
 ref = "headline-beng.200";
 }
 );
-width = 645;
+width = 490;
 },
 {
+annotations = (
+{
+pos = (287,580);
+type = Text;
+}
+);
 background = {
 anchors = (
 {
@@ -268,15 +274,14 @@ ref = "s_ba-beng";
 layerId = m006;
 shapes = (
 {
-alignment = -1;
 ref = "s-beng.half";
 },
 {
-pos = (93,132);
+pos = (91,132);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (111,75);
+pos = (109,75);
 ref = "wa-beng.part";
 },
 {
@@ -284,12 +289,13 @@ pos = (351,0);
 ref = "headline-beng.200";
 }
 );
-width = 682;
+width = 540;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
+alignment = -1;
 ref = "s-beng.half";
 },
 {
@@ -301,11 +307,11 @@ pos = (139,69);
 ref = "wa-beng.part";
 },
 {
-pos = (310,0);
+pos = (311,0);
 ref = "headline-beng.200";
 }
 );
-width = 430;
+width = 422;
 }
 );
 metricWidth = sababeng;

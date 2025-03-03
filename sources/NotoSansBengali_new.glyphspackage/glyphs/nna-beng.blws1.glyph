@@ -625,7 +625,7 @@ width = 373;
 anchors = (
 {
 name = _bottomVattu;
-pos = (304,201);
+pos = (306,201);
 },
 {
 name = bottom;
@@ -707,6 +707,12 @@ nodes = (
 }
 );
 };
+guides = (
+{
+angle = 270;
+pos = (306,355);
+}
+);
 layerId = m006;
 shapes = (
 {

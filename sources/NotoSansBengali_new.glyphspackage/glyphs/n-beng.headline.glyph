@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 4;
+color = 5;
 glyphname = "n-beng.headline";
 kernRight = R_BNG_nHeadline_part;
 layers = (
@@ -567,11 +567,11 @@ width = 475;
 anchors = (
 {
 name = top_candrabindu;
-pos = (265,607);
+pos = (264,607);
 },
 {
 name = top_vedic;
-pos = (141,607);
+pos = (140,607);
 }
 );
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -579,14 +579,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(270,589,l),
-(270,607,l),
-(-7,607,l),
-(-7,589,l)
+(269,589,l),
+(269,607,l),
+(-8,607,l),
+(-8,589,l)
 );
 }
 );
-width = 347;
+width = 346;
 }
 );
 script = bengali;

@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3309";
 .formatVersion = 3;
 axes = (
 {
@@ -1441,13 +1441,6 @@ numberValues = (
 );
 instances = (
 {
-axesValues = (
-0,
-0
-);
-instanceInterpolations = {
-"28FB090A-653E-4199-B7BE-FAE23D31B682" = 1;
-};
 name = Regular;
 type = variable;
 },
@@ -3222,7 +3215,7 @@ UUID0 = {
 };
 "@MMK_L_R_BNG_la_half" = {
 "@MMK_R_L_BNG_aaMatra_part" = -155;
-"@MMK_R_L_BNG_aaMatra_partShort" = -141;
+"@MMK_R_L_BNG_aaMatra_partShort" = -156;
 };
 "@MMK_L_R_BNG_ma_half" = {
 "@MMK_R_L_BNG_headline_200" = -109;
@@ -3230,7 +3223,7 @@ UUID0 = {
 };
 "@MMK_L_R_BNG_nHeadline_part" = {
 "@MMK_R_L_BNG_aaMatra_part" = -141;
-"@MMK_R_L_BNG_aaMatra_partShort" = -65;
+"@MMK_R_L_BNG_aaMatra_partShort" = -75;
 "@MMK_R_L_BNG_da" = -138;
 "@MMK_R_L_d-beng_half" = -137;
 "@MMK_R_L_d-beng_half2" = -176;
@@ -3240,7 +3233,7 @@ UUID0 = {
 "@MMK_R_L_BNG_ma_side1" = -6;
 };
 "@MMK_L_R_BNG_nga_half" = {
-"@MMK_R_L_BNG_headline-100" = -47;
+"@MMK_R_L_BNG_headline-100" = -54;
 "@MMK_R_L_BNG_kSsa_half" = -38;
 "@MMK_R_L_BNG_k_ssa" = -32;
 };
@@ -3305,7 +3298,7 @@ m005 = {
 "@MMK_R_L_d-beng_half3" = -195;
 };
 "@MMK_L_R_BNG_nga_half" = {
-"@MMK_R_L_BNG_headline-100" = -59;
+"@MMK_R_L_BNG_headline-100" = -40;
 "@MMK_R_L_BNG_kSsa_half" = -41;
 "@MMK_R_L_BNG_k_ssa" = -30;
 };
@@ -3374,7 +3367,7 @@ m006 = {
 };
 "@MMK_L_R_BNG_nga_half" = {
 "@MMK_R_L_BNG_gha" = -33;
-"@MMK_R_L_BNG_headline-100" = -27;
+"@MMK_R_L_BNG_headline-100" = -5;
 };
 "@MMK_L_R_BNG_sa_half2" = {
 "@MMK_R_L_BNG_uMatra_side" = 19;

@@ -624,15 +624,15 @@ pos = (337,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (152,56);
+pos = (150,51);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (170,-1);
+pos = (168,-6);
 ref = "wa-beng.part";
 }
 );
-width = 576;
+width = 574;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

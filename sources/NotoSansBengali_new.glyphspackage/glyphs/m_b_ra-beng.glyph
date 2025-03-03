@@ -854,11 +854,11 @@ shapes = (
 ref = "m-beng.half2";
 },
 {
-pos = (104,119);
+pos = (102,119);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (36,-204);
+pos = (34,-204);
 ref = "raphala-beng.alt11";
 }
 );

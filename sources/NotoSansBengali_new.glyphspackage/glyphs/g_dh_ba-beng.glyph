@@ -500,7 +500,7 @@ pos = (488,0);
 ref = "headline-beng.130";
 }
 );
-width = 750;
+width = 588;
 },
 {
 background = {
@@ -623,7 +623,7 @@ pos = (550,0);
 ref = "headline-beng.130";
 }
 );
-width = 879;
+width = 722;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

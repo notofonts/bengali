@@ -1022,7 +1022,7 @@ pos = (785,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 1016;
+width = 1020;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -1047,7 +1047,7 @@ pos = (609,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 772;
+width = 773;
 }
 );
 script = bengali;

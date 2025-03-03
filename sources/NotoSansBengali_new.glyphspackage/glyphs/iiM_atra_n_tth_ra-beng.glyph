@@ -665,7 +665,7 @@ pos = (38,-322);
 ref = "raphala-beng.alt05";
 },
 {
-pos = (205,2);
+pos = (217,2);
 ref = "ttha-beng.topIiMatra";
 },
 {
@@ -682,27 +682,27 @@ shapes = (
 ref = "n-beng.headline";
 },
 {
-pos = (347,0);
+pos = (346,0);
 ref = "ttha-beng.side";
 },
 {
-pos = (5,0);
+pos = (4,0);
 ref = "n-beng.float";
 },
 {
-pos = (50,-169);
+pos = (49,-169);
 ref = "raphala-beng.alt05";
 },
 {
-pos = (190,-8);
+pos = (189,-8);
 ref = "ttha-beng.topIiMatra";
 },
 {
-pos = (481,0);
+pos = (480,0);
 ref = "iiMatra-beng.tthaAlt1";
 }
 );
-width = 645;
+width = 644;
 }
 );
 script = bengali;

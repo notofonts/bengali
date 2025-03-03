@@ -691,19 +691,19 @@ shapes = (
 ref = "n-beng.headline";
 },
 {
-pos = (210,0);
+pos = (209,0);
 ref = "d-beng.half";
 },
 {
-pos = (5,-2);
+pos = (4,-2);
 ref = "n-beng.float";
 },
 {
-pos = (165,-5);
+pos = (164,-5);
 ref = "raphala-beng.alt09";
 }
 );
-width = 566;
+width = 565;
 }
 );
 script = bengali;

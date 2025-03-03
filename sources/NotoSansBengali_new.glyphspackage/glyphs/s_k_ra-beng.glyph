@@ -735,7 +735,7 @@ pos = (494,0);
 ref = "headline-beng.200";
 }
 );
-width = 847;
+width = 649;
 },
 {
 background = {
@@ -922,32 +922,30 @@ pos = (548,0);
 ref = "headline-beng.200";
 }
 );
-width = 921;
+width = 735;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
 alignment = -1;
+pos = (-1,0);
 ref = "s-beng.half2";
 },
 {
-alignment = -1;
-pos = (36,-136);
+pos = (35,-136);
 ref = "t_ra-beng.blws";
 },
 {
-alignment = -1;
-pos = (343,-177);
+pos = (342,-176);
 ref = "ka-beng.arm2";
 },
 {
-alignment = -1;
-pos = (434,0);
+pos = (433,0);
 ref = "headline-beng.200";
 }
 );
-width = 785;
+width = 545;
 }
 );
 script = bengali;

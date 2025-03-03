@@ -1029,11 +1029,11 @@ shapes = (
 ref = "ny-beng.half";
 },
 {
-pos = (154,-70);
+pos = (156,-70);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (477,-7);
+pos = (479,-7);
 ref = "jha-beng.part";
 }
 );
@@ -1050,7 +1050,7 @@ pos = (205,-104);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (358,1);
+pos = (359,1);
 ref = "jha-beng.part";
 }
 );

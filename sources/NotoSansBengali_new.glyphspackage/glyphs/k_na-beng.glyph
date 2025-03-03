@@ -474,7 +474,7 @@ pos = (455,0);
 ref = "ka-beng.arm";
 }
 );
-width = 801;
+width = 615;
 },
 {
 background = {
@@ -523,6 +523,7 @@ nodes = (
 layerId = m006;
 shapes = (
 {
+alignment = -1;
 ref = "b-beng.half";
 },
 {
@@ -534,12 +535,13 @@ pos = (467,0);
 ref = "ka-beng.arm";
 }
 );
-width = 467;
+width = 630;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
+alignment = -1;
 ref = "b-beng.half";
 },
 {
@@ -551,7 +553,7 @@ pos = (386,0);
 ref = "ka-beng.arm";
 }
 );
-width = 387;
+width = 528;
 }
 );
 script = bengali;

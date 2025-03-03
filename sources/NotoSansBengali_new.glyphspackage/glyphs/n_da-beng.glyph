@@ -535,15 +535,15 @@ shapes = (
 ref = "n-beng.headline";
 },
 {
-pos = (209,0);
+pos = (208,0);
 ref = "da-beng";
 },
 {
-pos = (7,-4);
+pos = (6,-4);
 ref = "n-beng.float";
 }
 );
-width = 561;
+width = 560;
 }
 );
 script = bengali;

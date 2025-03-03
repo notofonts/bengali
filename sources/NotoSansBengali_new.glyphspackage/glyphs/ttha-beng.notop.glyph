@@ -1095,7 +1095,6 @@ nodes = (
 }
 );
 };
-color = 1;
 layerId = m006;
 shapes = (
 {

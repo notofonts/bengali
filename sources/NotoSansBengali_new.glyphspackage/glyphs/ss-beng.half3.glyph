@@ -779,7 +779,7 @@ width = 462;
 anchors = (
 {
 name = bottomVattu;
-pos = (314,254);
+pos = (316,249);
 },
 {
 name = top_candrabindu;
@@ -787,7 +787,7 @@ pos = (308,634);
 },
 {
 name = top_headline200;
-pos = (564,510);
+pos = (566,510);
 },
 {
 name = top_vedic;
@@ -949,7 +949,7 @@ width = 549;
 anchors = (
 {
 name = bottomVattu;
-pos = (314,268);
+pos = (315,268);
 },
 {
 name = top_candrabindu;
@@ -957,7 +957,7 @@ pos = (259,607);
 },
 {
 name = top_headline200;
-pos = (417,589);
+pos = (422,589);
 },
 {
 name = top_vedic;

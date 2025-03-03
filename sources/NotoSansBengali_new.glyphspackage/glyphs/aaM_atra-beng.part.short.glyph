@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 7;
+color = 5;
 glyphname = "aaMatra-beng.part.short";
 kernLeft = L_BNG_aaMatra_partShort;
 kernRight = R_BNG_aaMatra_part;
@@ -407,7 +407,7 @@ pos = (67,322);
 },
 {
 name = bottomVattu;
-pos = (84,197);
+pos = (84,194);
 },
 {
 name = top_candrabindu;
@@ -472,14 +472,14 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(213,554,l),
-(213,621,l),
+(215,554,l),
+(215,621,l),
 (-8,621,l),
 (-8,554,l)
 );
 }
 );
-width = 205;
+width = 207;
 },
 {
 anchors = (
@@ -545,41 +545,41 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(211,203,l),
+(211,193,l),
 (211,530,l),
 (54,530,l),
-(54,203,l)
+(54,193,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(257,510,l),
-(257,634,l),
+(260,510,l),
+(260,634,l),
 (-8,634,l),
 (-8,510,l)
 );
 }
 );
-width = 249;
+width = 252;
 },
 {
 anchors = (
 {
 name = bottomMainForm;
-pos = (65,338);
+pos = (64,338);
 },
 {
 name = bottomVattu;
-pos = (70,226);
+pos = (69,230);
 },
 {
 name = top_candrabindu;
-pos = (74,607);
+pos = (73,607);
 },
 {
 name = top_headline200;
-pos = (149,589);
+pos = (148,589);
 }
 );
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -589,21 +589,21 @@ closed = 1;
 nodes = (
 (84,291,l),
 (84,597,l),
-(65,597,l),
-(65,291,l)
+(64,597,l),
+(64,291,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(162,589,l),
-(162,607,l),
-(-7,607,l),
-(-7,589,l)
+(164,589,l),
+(164,607,l),
+(-8,607,l),
+(-8,589,l)
 );
 }
 );
-width = 155;
+width = 156;
 }
 );
 script = bengali;

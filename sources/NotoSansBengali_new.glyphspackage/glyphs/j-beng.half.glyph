@@ -769,7 +769,7 @@ width = 628;
 anchors = (
 {
 name = bottomVattu;
-pos = (514,2);
+pos = (516,2);
 },
 {
 name = top_candrabindu;
@@ -989,7 +989,7 @@ pos = (281,607);
 },
 {
 name = top_headline_aaMatra;
-pos = (463,587);
+pos = (463,589);
 },
 {
 name = top_vedic;
