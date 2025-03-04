@@ -849,15 +849,15 @@ shapes = (
 ref = "s-beng.half4";
 },
 {
-pos = (519,0);
+pos = (520,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (519,0);
+pos = (520,0);
 ref = "tta-beng.flag";
 }
 );
-width = 728;
+width = 729;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

@@ -175,11 +175,11 @@ alignment = -1;
 ref = "ss-beng.half4";
 },
 {
-pos = (5,132);
+pos = (10,132);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (270,0);
+pos = (265,0);
 ref = "headline-beng.200";
 }
 );

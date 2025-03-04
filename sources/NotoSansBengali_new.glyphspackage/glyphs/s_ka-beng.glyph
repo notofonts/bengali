@@ -710,15 +710,15 @@ alignment = -1;
 ref = "s-beng.half";
 },
 {
-pos = (91,132);
+pos = (86,132);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (382,113);
+pos = (377,113);
 ref = "ka-beng.part";
 },
 {
-pos = (394,0);
+pos = (389,0);
 ref = "headline-beng.250";
 }
 );

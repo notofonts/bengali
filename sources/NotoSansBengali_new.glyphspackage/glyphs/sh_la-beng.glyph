@@ -759,15 +759,15 @@ shapes = (
 ref = "sh-beng.half";
 },
 {
-pos = (32,2);
+pos = (51,2);
 ref = "la-beng.blws1";
 },
 {
-pos = (340,0);
+pos = (359,0);
 ref = "aaMatra-beng.side";
 }
 );
-width = 549;
+width = 575;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

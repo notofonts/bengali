@@ -616,11 +616,11 @@ shapes = (
 ref = "m-beng.half2";
 },
 {
-pos = (7,-43);
+pos = (6,-43);
 ref = "raphala-beng.alt10";
 }
 );
-width = 554;
+width = 551;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

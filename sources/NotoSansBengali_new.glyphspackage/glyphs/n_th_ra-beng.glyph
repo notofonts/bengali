@@ -819,11 +819,11 @@ shapes = (
 ref = "n-beng.half2";
 },
 {
-pos = (118,-188);
+pos = (113,-198);
 ref = "tha-beng.blws";
 },
 {
-pos = (-10,-313);
+pos = (-15,-323);
 ref = "raphala-beng.alt07";
 }
 );

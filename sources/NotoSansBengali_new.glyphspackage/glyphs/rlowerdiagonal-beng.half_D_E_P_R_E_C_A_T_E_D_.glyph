@@ -1,7 +1,7 @@
 {
 category = Letter;
-color = 5;
-glyphname = "rlowerdiagonal-beng.half";
+color = 11;
+glyphname = "rlowerdiagonal-beng.half_DEPRECATED";
 layers = (
 {
 anchors = (

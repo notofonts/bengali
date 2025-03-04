@@ -869,15 +869,15 @@ pos = (232,0);
 ref = "s-beng.half4";
 },
 {
-pos = (751,0);
+pos = (752,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (750,0);
+pos = (751,0);
 ref = "tta-beng.flagIMatra2";
 }
 );
-width = 960;
+width = 961;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

@@ -659,15 +659,15 @@ shapes = (
 ref = "b-beng.half";
 },
 {
-pos = (-19,-128);
+pos = (-9,-128);
 ref = "raphala-beng.alt14";
 },
 {
-pos = (476,0);
+pos = (486,0);
 ref = "uMatra-beng.side";
 }
 );
-width = 673;
+width = 683;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

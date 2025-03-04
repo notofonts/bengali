@@ -1311,11 +1311,11 @@ shapes = (
 ref = "s-beng.half2";
 },
 {
-pos = (24,81);
+pos = (20,76);
 ref = "la-beng.blws2";
 }
 );
-width = 562;
+width = 567;
 },
 {
 anchors = (

@@ -149,14 +149,6 @@ nodes = (
 }
 );
 };
-hints = (
-{
-horizontal = 1;
-place = (550,-20);
-target = down;
-type = TopGhost;
-}
-);
 layerId = UUID0;
 shapes = (
 {
@@ -473,14 +465,6 @@ nodes = (
 }
 );
 };
-hints = (
-{
-horizontal = 1;
-place = (502,-20);
-target = down;
-type = TopGhost;
-}
-);
 layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
 shapes = (
 {
@@ -639,14 +623,6 @@ nodes = (
 }
 );
 };
-hints = (
-{
-horizontal = 1;
-place = (550,-20);
-target = down;
-type = TopGhost;
-}
-);
 layerId = m005;
 shapes = (
 {
@@ -654,11 +630,11 @@ ref = "m-beng.half";
 },
 {
 alignment = -1;
-pos = (406,0);
+pos = (299,0);
 ref = "sa-beng";
 }
 );
-width = 1029;
+width = 776;
 },
 {
 background = {
@@ -805,14 +781,6 @@ nodes = (
 }
 );
 };
-hints = (
-{
-horizontal = 1;
-place = (502,-20);
-target = down;
-type = TopGhost;
-}
-);
 layerId = m006;
 shapes = (
 {
@@ -820,34 +788,25 @@ ref = "m-beng.half";
 },
 {
 alignment = -1;
-pos = (443,0);
+pos = (363,0);
 ref = "sa-beng";
 }
 );
-width = 1096;
+width = 890;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = (31,-20);
-target = down;
-type = TopGhost;
-}
-);
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
-alignment = -1;
 ref = "m-beng.half";
 },
 {
 alignment = -1;
-pos = (394,0);
+pos = (267,0);
 ref = "sa-beng";
 }
 );
-width = 992;
+width = 683;
 }
 );
 script = bengali;

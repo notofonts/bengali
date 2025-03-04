@@ -736,11 +736,11 @@ alignment = -1;
 ref = "b-beng.half";
 },
 {
-pos = (-32,-107);
+pos = (-22,-107);
 ref = "la-beng.blws";
 },
 {
-pos = (472,0);
+pos = (482,0);
 ref = "ka-beng.arm";
 }
 );

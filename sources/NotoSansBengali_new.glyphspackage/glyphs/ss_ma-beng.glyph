@@ -723,11 +723,11 @@ shapes = (
 ref = "ss-beng.half4";
 },
 {
-pos = (448,0);
+pos = (451,0);
 ref = "ma-beng.side2";
 }
 );
-width = 670;
+width = 673;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

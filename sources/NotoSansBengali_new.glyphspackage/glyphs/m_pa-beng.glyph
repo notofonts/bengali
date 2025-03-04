@@ -666,11 +666,11 @@ ref = "m-beng.half";
 },
 {
 alignment = -1;
-pos = (436,0);
+pos = (327,0);
 ref = "pa-beng";
 }
 );
-width = 1152;
+width = 871;
 },
 {
 background = {
@@ -833,26 +833,25 @@ ref = "m-beng.half";
 },
 {
 alignment = -1;
-pos = (449,0);
+pos = (347,0);
 ref = "pa-beng";
 }
 );
-width = 1200;
+width = 947;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
-alignment = -1;
 ref = "m-beng.half";
 },
 {
 alignment = -1;
-pos = (445,0);
+pos = (311,0);
 ref = "pa-beng";
 }
 );
-width = 1094;
+width = 762;
 }
 );
 script = bengali;

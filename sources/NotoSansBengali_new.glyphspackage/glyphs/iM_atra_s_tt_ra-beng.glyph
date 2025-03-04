@@ -1070,19 +1070,19 @@ pos = (232,0);
 ref = "s-beng.half4";
 },
 {
-pos = (751,0);
+pos = (752,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (419,-205);
+pos = (420,-205);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (746,0);
+pos = (747,0);
 ref = "tta-beng.flagIMatra2";
 }
 );
-width = 963;
+width = 964;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

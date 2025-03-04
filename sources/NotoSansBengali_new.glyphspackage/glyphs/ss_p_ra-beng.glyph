@@ -799,15 +799,15 @@ ref = "ss-beng.half4";
 },
 {
 alignment = -1;
-pos = (309,0);
+pos = (259,0);
 ref = "p-beng.half2";
 },
 {
-pos = (173,-69);
+pos = (123,-69);
 ref = "raphala-beng.alt12";
 }
 );
-width = 928;
+width = 878;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

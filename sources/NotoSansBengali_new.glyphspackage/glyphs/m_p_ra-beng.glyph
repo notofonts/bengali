@@ -814,15 +814,15 @@ ref = "m-beng.half";
 },
 {
 alignment = -1;
-pos = (361,0);
+pos = (276,0);
 ref = "p-beng.half2";
 },
 {
-pos = (298,-24);
+pos = (213,-24);
 ref = "raphala-beng.alt12";
 }
 );
-width = 1125;
+width = 856;
 },
 {
 background = {
@@ -1019,15 +1019,15 @@ ref = "m-beng.half";
 },
 {
 alignment = -1;
-pos = (380,0);
+pos = (313,0);
 ref = "p-beng.half2";
 },
 {
-pos = (244,-69);
+pos = (177,-69);
 ref = "raphala-beng.alt12";
 }
 );
-width = 999;
+width = 932;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

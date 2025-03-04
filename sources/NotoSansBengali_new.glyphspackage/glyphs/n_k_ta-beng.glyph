@@ -142,19 +142,19 @@ pos = (164,4);
 ref = "n-beng.float";
 },
 {
-pos = (-39,-52);
+pos = (-33,-63);
 ref = "ta_uMatra-beng.blws";
 },
 {
-pos = (534,-186);
+pos = (540,-197);
 ref = "ka-beng.arm2";
 },
 {
-pos = (641,0);
+pos = (644,0);
 ref = "headline-beng.200";
 }
 );
-width = 830;
+width = 831;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

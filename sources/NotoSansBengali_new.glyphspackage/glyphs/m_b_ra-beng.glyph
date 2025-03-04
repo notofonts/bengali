@@ -854,15 +854,15 @@ shapes = (
 ref = "m-beng.half2";
 },
 {
-pos = (102,119);
+pos = (101,119);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (34,-204);
+pos = (33,-204);
 ref = "raphala-beng.alt11";
 }
 );
-width = 554;
+width = 551;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

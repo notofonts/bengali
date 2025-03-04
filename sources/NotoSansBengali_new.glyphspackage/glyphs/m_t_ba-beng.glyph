@@ -714,15 +714,15 @@ shapes = (
 ref = "m-beng.half3";
 },
 {
-pos = (-9,-9);
+pos = (-19,-9);
 ref = "ta-beng.blws";
 },
 {
-pos = (190,-226);
+pos = (180,-226);
 ref = "baphala-beng.alt2";
 }
 );
-width = 673;
+width = 689;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

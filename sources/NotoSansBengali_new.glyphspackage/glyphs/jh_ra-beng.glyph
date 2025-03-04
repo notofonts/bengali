@@ -445,11 +445,11 @@ alignment = -1;
 ref = "b-beng.half";
 },
 {
-pos = (-19,-128);
+pos = (-9,-128);
 ref = "raphala-beng.alt14";
 },
 {
-pos = (495,0);
+pos = (505,0);
 ref = "jh-beng.side";
 }
 );

@@ -805,7 +805,7 @@ pos = (493,0);
 ref = "kha-beng.side";
 }
 );
-width = 780;
+width = 791;
 },
 {
 associatedMasterId = m006;

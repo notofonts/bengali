@@ -662,15 +662,15 @@ pos = (204,0);
 ref = "l-beng.half3";
 },
 {
-pos = (715,0);
+pos = (714,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (715,0);
+pos = (714,0);
 ref = "tta-beng.flagIMatra2";
 }
 );
-width = 928;
+width = 927;
 },
 {
 background = {
@@ -829,15 +829,15 @@ pos = (232,0);
 ref = "l-beng.half3";
 },
 {
-pos = (805,0);
+pos = (807,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (804,0);
+pos = (806,0);
 ref = "tta-beng.flagIMatra2";
 }
 );
-width = 1014;
+width = 1016;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

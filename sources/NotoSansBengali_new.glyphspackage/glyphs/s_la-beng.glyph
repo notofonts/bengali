@@ -1257,11 +1257,11 @@ shapes = (
 ref = "s-beng.half2";
 },
 {
-pos = (24,81);
+pos = (20,76);
 ref = "la-beng.blws2";
 }
 );
-width = 562;
+width = 567;
 },
 {
 associatedMasterId = m006;
@@ -1398,11 +1398,11 @@ shapes = (
 ref = "s-beng.half2";
 },
 {
-pos = (4,81);
+pos = (20,76);
 ref = "la-beng.blws2";
 }
 );
-width = 562;
+width = 567;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
