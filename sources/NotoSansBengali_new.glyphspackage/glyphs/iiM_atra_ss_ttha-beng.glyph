@@ -173,11 +173,11 @@ pos = (157,2);
 ref = "ttha-beng.topIiMatra";
 },
 {
-pos = (568,0);
+pos = (572,0);
 ref = "iiMatra-beng.tthaAlt1";
 }
 );
-width = 803;
+width = 815;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

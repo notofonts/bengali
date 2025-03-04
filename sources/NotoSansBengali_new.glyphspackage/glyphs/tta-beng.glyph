@@ -816,11 +816,11 @@ shapes = (
 ref = "ddha-beng";
 },
 {
-pos = (246,0);
+pos = (251,0);
 ref = "tta-beng.flag";
 }
 );
-width = 449;
+width = 454;
 },
 {
 anchors = (

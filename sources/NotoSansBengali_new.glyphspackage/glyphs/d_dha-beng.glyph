@@ -560,15 +560,15 @@ alignment = -1;
 ref = "d-beng.half3";
 },
 {
-pos = (72,6);
+pos = (82,6);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (363,-13);
+pos = (378,-13);
 ref = "dha-beng.part";
 },
 {
-pos = (480,0);
+pos = (490,0);
 ref = "headline-beng.130";
 }
 );

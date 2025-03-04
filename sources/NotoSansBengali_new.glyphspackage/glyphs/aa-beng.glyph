@@ -207,11 +207,11 @@ shapes = (
 ref = "a-beng";
 },
 {
-pos = (736,0);
+pos = (741,0);
 ref = "aaMatra-beng";
 }
 );
-width = 975;
+width = 989;
 },
 {
 anchors = (

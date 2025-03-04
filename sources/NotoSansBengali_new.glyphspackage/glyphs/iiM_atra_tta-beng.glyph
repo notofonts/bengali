@@ -780,15 +780,15 @@ shapes = (
 ref = "ddha-beng";
 },
 {
-pos = (245,0);
+pos = (250,0);
 ref = "tta-beng.flagIiMatra";
 },
 {
-pos = (449,0);
+pos = (454,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 684;
+width = 698;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

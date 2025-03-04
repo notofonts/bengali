@@ -198,23 +198,23 @@ shapes = (
 ref = "ddh-beng.half";
 },
 {
-pos = (-20,-41);
+pos = (-11,-41);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (16,-88);
+pos = (25,-88);
 ref = "wa-beng.part";
 },
 {
-pos = (229,0);
+pos = (238,0);
 ref = "tta-beng.flagIiMatra";
 },
 {
-pos = (447,0);
+pos = (454,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 682;
+width = 698;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

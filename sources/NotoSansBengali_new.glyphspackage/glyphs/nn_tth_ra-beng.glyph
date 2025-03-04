@@ -610,19 +610,19 @@ shapes = (
 ref = "nn-beng.half3";
 },
 {
-pos = (487,0);
+pos = (485,0);
 ref = "ttha-beng.side";
 },
 {
-pos = (50,-322);
+pos = (48,-322);
 ref = "raphala-beng.alt05";
 },
 {
-pos = (227,0);
+pos = (225,0);
 ref = "ttha-beng.top2";
 }
 );
-width = 628;
+width = 626;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

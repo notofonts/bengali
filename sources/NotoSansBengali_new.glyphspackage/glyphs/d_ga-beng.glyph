@@ -588,11 +588,11 @@ shapes = (
 ref = "d-beng.half4";
 },
 {
-pos = (323,0);
+pos = (327,0);
 ref = "ga-beng.side";
 }
 );
-width = 887;
+width = 899;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

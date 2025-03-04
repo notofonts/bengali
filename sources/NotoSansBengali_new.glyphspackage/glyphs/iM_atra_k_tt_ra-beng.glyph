@@ -309,15 +309,15 @@ pos = (232,0);
 ref = "k_tta-beng.noflag";
 },
 {
-pos = (243,-385);
+pos = (246,-385);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (592,0);
+pos = (595,0);
 ref = "tta-beng.flagIMatra1";
 }
 );
-width = 813;
+width = 820;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

@@ -678,11 +678,11 @@ shapes = (
 ref = "t_ra-beng";
 },
 {
-pos = (550,0);
+pos = (558,0);
 ref = "uMatra-beng.side";
 }
 );
-width = 737;
+width = 755;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

@@ -690,19 +690,19 @@ alignment = -1;
 ref = "b-beng.half2";
 },
 {
-pos = (39,62);
+pos = (42,62);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (330,43);
+pos = (338,43);
 ref = "dha-beng.part";
 },
 {
-pos = (355,0);
+pos = (358,0);
 ref = "headline-beng.250";
 }
 );
-width = 779;
+width = 631;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

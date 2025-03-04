@@ -638,11 +638,11 @@ shapes = (
 ref = "ph-beng.half";
 },
 {
-pos = (-26,-124);
+pos = (-2,-124);
 ref = "raphala-beng.alt14";
 }
 );
-width = 638;
+width = 655;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

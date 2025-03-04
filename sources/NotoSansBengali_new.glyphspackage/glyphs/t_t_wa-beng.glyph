@@ -231,15 +231,15 @@ shapes = (
 ref = "t_t-beng.half";
 },
 {
-pos = (127,-92);
+pos = (113,-92);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (163,-139);
+pos = (149,-139);
 ref = "wa-beng.part";
 }
 );
-width = 599;
+width = 581;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

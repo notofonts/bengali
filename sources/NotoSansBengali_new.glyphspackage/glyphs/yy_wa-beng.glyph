@@ -177,11 +177,11 @@ shapes = (
 ref = "yy_ba-beng";
 },
 {
-pos = (62,-176);
+pos = (71,-176);
 ref = "wa-beng.part";
 }
 );
-width = 465;
+width = 483;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

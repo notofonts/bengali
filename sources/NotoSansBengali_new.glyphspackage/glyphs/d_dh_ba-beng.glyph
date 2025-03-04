@@ -669,11 +669,11 @@ alignment = -1;
 ref = "d-beng.half3";
 },
 {
-pos = (65,17);
+pos = (75,17);
 ref = "dh_ba-beng.blws";
 },
 {
-pos = (480,0);
+pos = (490,0);
 ref = "headline-beng.130";
 }
 );

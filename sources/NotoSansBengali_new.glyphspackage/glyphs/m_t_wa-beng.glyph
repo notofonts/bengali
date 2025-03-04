@@ -730,15 +730,15 @@ shapes = (
 ref = "m-beng.half3";
 },
 {
-pos = (-19,-9);
+pos = (-9,-9);
 ref = "ta-beng.blws";
 },
 {
-pos = (180,-226);
+pos = (190,-226);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (216,-273);
+pos = (226,-273);
 ref = "wa-beng.part";
 }
 );

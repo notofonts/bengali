@@ -993,11 +993,11 @@ shapes = (
 ref = "ng_ka-beng";
 },
 {
-pos = (-38,-257);
+pos = (-33,-257);
 ref = "raphala-beng.alt11";
 }
 );
-width = 616;
+width = 621;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

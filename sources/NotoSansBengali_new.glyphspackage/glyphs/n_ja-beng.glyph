@@ -933,7 +933,7 @@ nodes = (
 );
 },
 {
-pos = (3,15);
+pos = (0,15);
 ref = "n-beng.float";
 },
 {

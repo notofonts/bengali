@@ -377,7 +377,7 @@ pos = (19,-223);
 ref = "raphala-beng.alt05";
 },
 {
-pos = (17,20);
+pos = (10,20);
 ref = "n-beng.float";
 }
 );

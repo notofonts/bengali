@@ -232,15 +232,15 @@ alignment = -1;
 ref = "dd-beng.half";
 },
 {
-pos = (89,-43);
+pos = (104,-43);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (36,177);
+pos = (44,177);
 ref = "nukta-beng.alt";
 },
 {
-pos = (366,0);
+pos = (371,0);
 ref = "headline-beng.200";
 }
 );

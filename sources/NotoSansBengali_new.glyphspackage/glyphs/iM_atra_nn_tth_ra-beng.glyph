@@ -630,19 +630,19 @@ pos = (231,0);
 ref = "nn-beng.half3";
 },
 {
-pos = (718,0);
+pos = (716,0);
 ref = "ttha-beng.side";
 },
 {
-pos = (281,-322);
+pos = (279,-322);
 ref = "raphala-beng.alt05";
 },
 {
-pos = (458,0);
+pos = (456,0);
 ref = "ttha-beng.topIMatra2";
 }
 );
-width = 859;
+width = 857;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

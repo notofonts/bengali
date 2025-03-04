@@ -347,15 +347,15 @@ shapes = (
 ref = "d-beng.half4";
 },
 {
-pos = (408,0);
+pos = (412,0);
 ref = "headline-beng.100";
 },
 {
-pos = (408,0);
+pos = (412,0);
 ref = "gha-beng";
 }
 );
-width = 896;
+width = 909;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

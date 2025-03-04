@@ -3178,6 +3178,9 @@ UUID0 = {
 };
 };
 "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = {
+"@MMK_L_BNG_R_eMatra" = {
+"@MMK_R_BNG_L_ba" = -20;
+};
 "@MMK_L_BNG_R_ng_half" = {
 "gha-beng" = -236;
 };
@@ -3252,6 +3255,9 @@ UUID0 = {
 };
 };
 m005 = {
+"@MMK_L_BNG_R_eMatra" = {
+"@MMK_R_BNG_L_ba" = -20;
+};
 "@MMK_L_R_BNG_aaMatra_part" = {
 "@MMK_R_L_BNG_ma_side" = 0;
 };
@@ -3317,6 +3323,9 @@ m005 = {
 };
 };
 m006 = {
+"@MMK_L_BNG_R_eMatra" = {
+"@MMK_R_BNG_L_ba" = -20;
+};
 "@MMK_L_R_BNG_aaMatra_part" = {
 "@MMK_R_L_BNG_ma_side" = -5;
 };

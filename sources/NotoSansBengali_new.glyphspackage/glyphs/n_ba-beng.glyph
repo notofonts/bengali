@@ -509,7 +509,7 @@ pos = (236,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (4,1);
+pos = (-3,1);
 ref = "n-beng.float";
 },
 {

@@ -167,19 +167,20 @@ background = {
 anchors = (
 {
 name = Anchor8;
-pos = (443,622);
+pos = (448,622);
 },
 {
 name = top_candrabindu;
-pos = (578,622);
+pos = (583,622);
 }
 );
 shapes = (
 {
+pos = (5,0);
 ref = "jha-beng";
 },
 {
-pos = (630,0);
+pos = (635,0);
 ref = basubscriptbeng;
 }
 );
@@ -191,15 +192,15 @@ alignment = -1;
 ref = "b-beng.half";
 },
 {
-pos = (34,-48);
+pos = (39,-48);
 ref = "baphala-beng.alt1";
 },
 {
-pos = (467,0);
+pos = (495,0);
 ref = "jh-beng.side";
 }
 );
-width = 657;
+width = 690;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

@@ -910,11 +910,11 @@ alignment = -1;
 ref = "s-beng.half2";
 },
 {
-pos = (3,-142);
+pos = (23,-142);
 ref = "t_ra-beng.blws";
 },
 {
-pos = (437,-125);
+pos = (457,-125);
 ref = "ka-beng.arm2";
 },
 {

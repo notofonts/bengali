@@ -1869,11 +1869,11 @@ pos = (232,0);
 ref = "k_tta-beng.noflag";
 },
 {
-pos = (592,0);
+pos = (595,0);
 ref = "tta-beng.flagIMatra1";
 }
 );
-width = 813;
+width = 820;
 },
 {
 anchors = (

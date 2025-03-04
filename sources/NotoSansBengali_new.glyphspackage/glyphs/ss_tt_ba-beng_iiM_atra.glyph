@@ -115,19 +115,19 @@ shapes = (
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (39,-151);
+pos = (35,-151);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (277,0);
+pos = (273,0);
 ref = "tta-beng.flagIiMatra3";
 },
 {
-pos = (449,0);
+pos = (448,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 684;
+width = 692;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

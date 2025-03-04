@@ -62,11 +62,11 @@ shapes = (
 ref = "t_tha-beng";
 },
 {
-pos = (91,-132);
+pos = (93,-132);
 ref = "raphala-beng.alt01";
 }
 );
-width = 663;
+width = 676;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

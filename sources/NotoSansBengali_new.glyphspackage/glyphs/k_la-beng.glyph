@@ -736,15 +736,15 @@ alignment = -1;
 ref = "b-beng.half";
 },
 {
-pos = (-37,-107);
+pos = (-32,-107);
 ref = "la-beng.blws";
 },
 {
-pos = (467,0);
+pos = (472,0);
 ref = "ka-beng.arm";
 }
 );
-width = 630;
+width = 635;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

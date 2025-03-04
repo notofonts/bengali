@@ -367,19 +367,19 @@ alignment = -1;
 ref = "b-beng.half2";
 },
 {
-pos = (39,62);
+pos = (42,62);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (57,5);
+pos = (60,5);
 ref = "wa-beng.part";
 },
 {
-pos = (468,0);
+pos = (471,0);
 ref = "ka-beng.arm";
 },
 {
-pos = (125,-122);
+pos = (128,-122);
 ref = "nukta-beng";
 }
 );

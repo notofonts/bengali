@@ -626,7 +626,7 @@ pos = (236,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (4,1);
+pos = (-3,1);
 ref = "n-beng.float";
 },
 {
@@ -634,7 +634,7 @@ pos = (468,0);
 ref = "ma-beng.side";
 }
 );
-width = 680;
+width = 688;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

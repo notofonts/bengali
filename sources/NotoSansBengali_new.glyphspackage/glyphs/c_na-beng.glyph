@@ -658,11 +658,11 @@ shapes = (
 ref = "c-beng.half2";
 },
 {
-pos = (-30,-26);
+pos = (-32,-26);
 ref = "na-beng.blws2";
 }
 );
-width = 443;
+width = 445;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

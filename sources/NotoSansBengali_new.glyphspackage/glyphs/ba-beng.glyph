@@ -2,6 +2,7 @@
 category = Letter;
 color = 5;
 glyphname = "ba-beng";
+kernLeft = BNG_L_ba;
 layers = (
 {
 anchors = (
@@ -550,8 +551,8 @@ closed = 1;
 nodes = (
 (418,0,l),
 (418,510,l),
-(467,510,l),
-(467,634,l),
+(472,510,l),
+(472,634,l),
 (-8,634,l),
 (-8,510,l),
 (268,510,l),
@@ -585,7 +586,7 @@ nodes = (
 );
 }
 );
-width = 459;
+width = 464;
 },
 {
 anchors = (

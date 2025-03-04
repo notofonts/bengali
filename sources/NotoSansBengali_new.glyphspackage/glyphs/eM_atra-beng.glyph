@@ -2,6 +2,7 @@
 category = Letter;
 color = 5;
 glyphname = "eMatra-beng";
+kernRight = BNG_R_eMatra;
 layers = (
 {
 background = {

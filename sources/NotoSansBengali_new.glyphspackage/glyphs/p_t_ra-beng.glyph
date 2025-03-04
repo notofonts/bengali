@@ -62,11 +62,11 @@ shapes = (
 ref = "p-beng.half2";
 },
 {
-pos = (105,-265);
+pos = (90,-265);
 ref = "t_ra-beng.blws";
 }
 );
-width = 627;
+width = 619;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

@@ -658,11 +658,11 @@ shapes = (
 ref = "ng-beng.half";
 },
 {
-pos = (-33,-194);
+pos = (-14,-194);
 ref = "raphala-beng.alt05";
 }
 );
-width = 531;
+width = 535;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

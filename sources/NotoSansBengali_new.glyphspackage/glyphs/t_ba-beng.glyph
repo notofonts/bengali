@@ -538,11 +538,11 @@ shapes = (
 ref = "t-beng.half";
 },
 {
-pos = (70,-44);
+pos = (79,-44);
 ref = "baphala-beng.alt2";
 }
 );
-width = 522;
+width = 540;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

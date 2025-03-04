@@ -847,7 +847,7 @@ width = 520;
 anchors = (
 {
 name = bottomVattu;
-pos = (335,88);
+pos = (350,88);
 },
 {
 name = nukta;
@@ -855,7 +855,7 @@ pos = (307,-79);
 },
 {
 name = nukta.alt;
-pos = (36,43);
+pos = (44,43);
 },
 {
 name = top_candrabindu;
@@ -863,7 +863,7 @@ pos = (280,634);
 },
 {
 name = top_headline200;
-pos = (380,510);
+pos = (385,510);
 },
 {
 name = top_vedic;
@@ -993,7 +993,7 @@ nodes = (
 );
 }
 );
-width = 542;
+width = 552;
 },
 {
 anchors = (

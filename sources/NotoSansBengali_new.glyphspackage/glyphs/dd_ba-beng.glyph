@@ -166,15 +166,15 @@ alignment = -1;
 ref = "dd-beng.half";
 },
 {
-pos = (89,-43);
+pos = (104,-43);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (366,0);
+pos = (371,0);
 ref = "headline-beng.200";
 }
 );
-width = 553;
+width = 558;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

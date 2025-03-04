@@ -701,7 +701,7 @@ pos = (284,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (52,1);
+pos = (45,1);
 ref = "n-beng.float";
 },
 {
@@ -709,7 +709,7 @@ pos = (97,51);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (388,32);
+pos = (393,32);
 ref = "dha-beng.part";
 },
 {

@@ -625,7 +625,7 @@ pos = (475,0);
 ref = "ttha-beng.side";
 },
 {
-pos = (-1,10);
+pos = (-8,10);
 ref = "n-beng.float";
 },
 {

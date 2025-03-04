@@ -641,7 +641,7 @@ pos = (475,0);
 ref = "ttha-beng.side";
 },
 {
-pos = (-1,10);
+pos = (-8,10);
 ref = "n-beng.float";
 },
 {
@@ -653,7 +653,7 @@ pos = (616,0);
 ref = "iiMatra-beng.tthaAlt1";
 }
 );
-width = 851;
+width = 859;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
