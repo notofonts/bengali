@@ -633,7 +633,7 @@ nodes = (
 ref = "e-beng";
 }
 );
-width = 759;
+width = 751;
 },
 {
 anchors = (

@@ -128,11 +128,11 @@ shapes = (
 ref = "j_j_ba-beng";
 },
 {
-pos = (565,-177);
+pos = (566,-177);
 ref = "wa-beng.part";
 }
 );
-width = 901;
+width = 897;
 },
 {
 layerId = m006;
