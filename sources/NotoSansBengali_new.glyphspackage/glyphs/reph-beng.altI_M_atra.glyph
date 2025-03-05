@@ -1,6 +1,6 @@
 {
 category = Mark;
-color = 8;
+color = 5;
 glyphname = "reph-beng.altIMatra";
 layers = (
 {
@@ -155,7 +155,7 @@ pos = (-144,622);
 },
 {
 name = _top_iMatra;
-pos = (-137,646);
+pos = (-140,650);
 },
 {
 name = top_candrabindu_iMatra;
@@ -194,7 +194,7 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(55,840,l),
+(61,844,l),
 (25,884,l),
 (-177,706,l),
 (-137,646,l)
@@ -211,7 +211,7 @@ pos = (-215,622);
 },
 {
 name = _top_iMatra;
-pos = (-186,636);
+pos = (-206,627);
 },
 {
 name = top_candrabindu_iMatra;
@@ -250,7 +250,7 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(36,816,l),
+(45,823,l),
 (-18,909,l),
 (-257,758,l),
 (-186,636,l)
@@ -267,7 +267,7 @@ pos = (-106,622);
 },
 {
 name = _top_iMatra;
-pos = (-106,674);
+pos = (-107,674);
 },
 {
 name = top_candrabindu_iMatra;
@@ -279,10 +279,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(53,862,l),
-(43,875,l),
-(-120,692,l),
-(-106,674,l)
+(58,861,l),
+(46,872,l),
+(-117,688,l),
+(-104,674,l)
 );
 }
 );
