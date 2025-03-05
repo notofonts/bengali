@@ -149,6 +149,14 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+place = (550,-20);
+target = down;
+type = TopGhost;
+}
+);
 layerId = UUID0;
 shapes = (
 {
@@ -465,6 +473,14 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+place = (502,-20);
+target = down;
+type = TopGhost;
+}
+);
 layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
 shapes = (
 {
@@ -623,6 +639,14 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+place = (550,-20);
+target = down;
+type = TopGhost;
+}
+);
 layerId = m005;
 shapes = (
 {
@@ -781,6 +805,14 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+place = (502,-20);
+target = down;
+type = TopGhost;
+}
+);
 layerId = m006;
 shapes = (
 {
@@ -795,6 +827,14 @@ ref = "sa-beng";
 width = 890;
 },
 {
+hints = (
+{
+horizontal = 1;
+place = (31,-20);
+target = down;
+type = TopGhost;
+}
+);
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {

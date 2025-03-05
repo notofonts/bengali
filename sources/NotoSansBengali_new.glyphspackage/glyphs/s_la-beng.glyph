@@ -1395,6 +1395,7 @@ layerId = "8F7B9D6C-17FA-4D56-B9C1-7AC4914E6F96";
 name = "15 Aug 24 at 16:09";
 shapes = (
 {
+alignment = -1;
 ref = "s-beng.half2";
 },
 {
