@@ -688,11 +688,11 @@ pos = (204,0);
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (394,0);
+pos = (402,0);
 ref = "tta-beng.flagIMatra3";
 }
 );
-width = 608;
+width = 618;
 },
 {
 background = {
@@ -867,11 +867,11 @@ pos = (164,0);
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (296,0);
+pos = (300,0);
 ref = "tta-beng.flagIMatra3";
 }
 );
-width = 497;
+width = 505;
 }
 );
 script = bengali;

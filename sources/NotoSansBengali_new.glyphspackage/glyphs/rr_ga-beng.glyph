@@ -420,11 +420,11 @@ ref = "nukta-beng";
 },
 {
 alignment = -1;
-pos = (524,0);
+pos = (400,0);
 ref = "ga-beng.side";
 }
 );
-width = 1170;
+width = 897;
 },
 {
 background = {

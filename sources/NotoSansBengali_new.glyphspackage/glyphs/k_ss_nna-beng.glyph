@@ -842,11 +842,11 @@ shapes = (
 ref = "k_ss-beng.half";
 },
 {
-pos = (134,-46);
+pos = (137,-46);
 ref = "na-beng.blws";
 }
 );
-width = 657;
+width = 664;
 },
 {
 background = {

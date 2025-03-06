@@ -523,11 +523,11 @@ shapes = (
 ref = "c-beng.half2";
 },
 {
-pos = (-6,-114);
+pos = (-7,-114);
 ref = "raphala-beng.alt06";
 }
 );
-width = 418;
+width = 411;
 },
 {
 background = {

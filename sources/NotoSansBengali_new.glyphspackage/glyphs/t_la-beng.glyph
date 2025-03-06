@@ -94,11 +94,11 @@ shapes = (
 ref = "t-beng.half";
 },
 {
-pos = (48,-9);
+pos = (44,-9);
 ref = "la-beng.blws3";
 }
 );
-width = 515;
+width = 520;
 },
 {
 background = {

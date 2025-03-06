@@ -306,15 +306,15 @@ shapes = (
 ref = "k_tta-beng.noflag";
 },
 {
-pos = (216,0);
+pos = (231,0);
 ref = "tta-beng.flag2";
 },
 {
-pos = (30,-256);
+pos = (45,-256);
 ref = "raphala-beng.alt03";
 }
 );
-width = 436;
+width = 451;
 }
 );
 script = bengali;

@@ -485,15 +485,15 @@ shapes = (
 ref = "ddha-beng";
 },
 {
-pos = (206,0);
+pos = (202,0);
 ref = "tta-beng.flagIiMatra";
 },
 {
-pos = (418,0);
+pos = (415,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 623;
+width = 620;
 },
 {
 anchors = (
@@ -797,15 +797,15 @@ shapes = (
 ref = "ddha-beng";
 },
 {
-pos = (164,0);
+pos = (159,0);
 ref = "tta-beng.flagIiMatra";
 },
 {
-pos = (361,0);
+pos = (358,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 525;
+width = 522;
 }
 );
 script = bengali;

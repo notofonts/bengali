@@ -528,7 +528,7 @@ pos = (622,0);
 ref = "ttha-beng.side";
 },
 {
-pos = (189,23);
+pos = (188,23);
 ref = "n-beng.float";
 },
 {
@@ -540,7 +540,7 @@ pos = (387,0);
 ref = "ttha-beng.topIMatra2";
 }
 );
-width = 733;
+width = 738;
 },
 {
 background = {
@@ -661,7 +661,7 @@ pos = (706,0);
 ref = "ttha-beng.side";
 },
 {
-pos = (223,10);
+pos = (222,10);
 ref = "n-beng.float";
 },
 {

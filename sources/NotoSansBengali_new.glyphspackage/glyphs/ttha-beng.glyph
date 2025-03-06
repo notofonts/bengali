@@ -613,7 +613,7 @@ pos = (57,0);
 ref = "ttha-beng.top";
 }
 );
-width = 420;
+width = 421;
 },
 {
 anchors = (
@@ -890,7 +890,7 @@ pos = (62,0);
 ref = "ttha-beng.top";
 }
 );
-width = 354;
+width = 357;
 }
 );
 script = bengali;

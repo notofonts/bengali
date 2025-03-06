@@ -699,7 +699,7 @@ pos = (61,-62);
 ref = "la-beng.blws2";
 }
 );
-width = 418;
+width = 420;
 }
 );
 script = bengali;

@@ -474,15 +474,15 @@ shapes = (
 ref = "th-beng.half";
 },
 {
-pos = (126,-92);
+pos = (131,-92);
 ref = "baphala-beng.alt1";
 },
 {
-pos = (155,-106);
+pos = (160,-106);
 ref = "wa-beng.part";
 }
 );
-width = 490;
+width = 496;
 },
 {
 background = {
@@ -619,7 +619,7 @@ pos = (137,-93);
 ref = "wa-beng.part";
 }
 );
-width = 402;
+width = 403;
 }
 );
 script = bengali;

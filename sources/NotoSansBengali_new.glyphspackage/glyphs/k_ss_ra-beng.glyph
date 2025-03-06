@@ -822,11 +822,11 @@ shapes = (
 ref = "k_ss-beng.half";
 },
 {
-pos = (-13,-79);
+pos = (-10,-79);
 ref = "raphala-beng.alt04";
 }
 );
-width = 657;
+width = 664;
 },
 {
 background = {

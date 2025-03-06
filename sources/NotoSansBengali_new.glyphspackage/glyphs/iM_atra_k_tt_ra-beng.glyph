@@ -330,15 +330,15 @@ pos = (164,0);
 ref = "k_tta-beng.noflag";
 },
 {
-pos = (194,-256);
+pos = (209,-256);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (380,0);
+pos = (395,0);
 ref = "tta-beng.flagIMatra1";
 }
 );
-width = 600;
+width = 615;
 }
 );
 script = bengali;

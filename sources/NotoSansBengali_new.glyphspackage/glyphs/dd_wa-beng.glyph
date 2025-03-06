@@ -145,11 +145,11 @@ pos = (169,-131);
 ref = "wa-beng.part";
 },
 {
-pos = (367,0);
+pos = (372,0);
 ref = "headline-beng.200";
 }
 );
-width = 520;
+width = 527;
 },
 {
 background = {

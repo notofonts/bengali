@@ -150,15 +150,15 @@ shapes = (
 ref = "k_ss-beng.half";
 },
 {
-pos = (162,-58);
+pos = (165,-58);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (182,-90);
+pos = (185,-90);
 ref = "wa-beng.part";
 }
 );
-width = 657;
+width = 664;
 },
 {
 background = {

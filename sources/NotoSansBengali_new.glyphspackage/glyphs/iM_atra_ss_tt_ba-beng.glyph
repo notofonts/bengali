@@ -88,15 +88,15 @@ pos = (204,0);
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (394,0);
+pos = (402,0);
 ref = "tta-beng.flagIMatra3";
 },
 {
-pos = (264,-184);
+pos = (272,-184);
 ref = "baphala-beng.alt3";
 }
 );
-width = 608;
+width = 618;
 },
 {
 annotations = (
@@ -140,15 +140,15 @@ pos = (164,0);
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (296,0);
+pos = (300,0);
 ref = "tta-beng.flagIMatra3";
 },
 {
-pos = (233,-188);
+pos = (237,-188);
 ref = "baphala-beng.alt3";
 }
 );
-width = 497;
+width = 505;
 }
 );
 subCategory = Spacing;

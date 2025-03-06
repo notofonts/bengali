@@ -442,15 +442,15 @@ shapes = (
 ref = "g-beng.half";
 },
 {
-pos = (487,0);
+pos = (483,0);
 ref = "d-beng.side";
 },
 {
-pos = (224,-36);
+pos = (220,-36);
 ref = "raphala-beng.alt09";
 }
 );
-width = 716;
+width = 712;
 },
 {
 background = {

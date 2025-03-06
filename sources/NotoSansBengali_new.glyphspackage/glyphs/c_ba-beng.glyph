@@ -136,11 +136,11 @@ shapes = (
 ref = "c-beng.half1";
 },
 {
-pos = (34,-53);
+pos = (36,-53);
 ref = "baphala-beng.alt2";
 }
 );
-width = 403;
+width = 402;
 },
 {
 background = {

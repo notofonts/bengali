@@ -686,15 +686,15 @@ pos = (204,0);
 ref = "ddh-beng.half";
 },
 {
-pos = (408,0);
+pos = (410,0);
 ref = "tta-beng.flagIMatra1";
 },
 {
-pos = (629,0);
+pos = (633,0);
 ref = "ma-beng.side1";
 }
 );
-width = 790;
+width = 794;
 },
 {
 background = {

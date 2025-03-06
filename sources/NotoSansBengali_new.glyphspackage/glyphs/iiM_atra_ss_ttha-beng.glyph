@@ -152,15 +152,15 @@ shapes = (
 ref = "ss_ttha-beng.notop";
 },
 {
-pos = (139,-3);
+pos = (141,-3);
 ref = "ttha-beng.topIiMatra";
 },
 {
-pos = (482,0);
+pos = (489,0);
 ref = "iiMatra-beng.tthaAlt1";
 }
 );
-width = 687;
+width = 694;
 },
 {
 layerId = m006;
@@ -186,15 +186,15 @@ shapes = (
 ref = "ss_ttha-beng.notop";
 },
 {
-pos = (136,-8);
+pos = (146,-8);
 ref = "ttha-beng.topIiMatra";
 },
 {
-pos = (404,0);
+pos = (414,0);
 ref = "iiMatra-beng.tthaAlt1";
 }
 );
-width = 568;
+width = 578;
 }
 );
 script = bengali;

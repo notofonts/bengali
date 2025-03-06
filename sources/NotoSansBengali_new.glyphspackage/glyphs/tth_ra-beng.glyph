@@ -526,15 +526,15 @@ shapes = (
 ref = "tth-beng.half";
 },
 {
-pos = (-6,-172);
+pos = (0,-172);
 ref = "raphala-beng.alt06";
 },
 {
-pos = (52,0);
+pos = (58,0);
 ref = "ttha-beng.top";
 }
 );
-width = 409;
+width = 424;
 },
 {
 background = {

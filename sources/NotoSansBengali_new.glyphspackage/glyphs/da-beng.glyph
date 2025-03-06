@@ -886,7 +886,7 @@ pos = (290,-22);
 },
 {
 name = bottomMainForm;
-pos = (34,273);
+pos = (40,273);
 },
 {
 name = nukta;

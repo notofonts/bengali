@@ -78,15 +78,15 @@ pos = (204,0);
 ref = "tt_tta-beng.noflag";
 },
 {
-pos = (186,-293);
+pos = (181,-293);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (412,0);
+pos = (407,0);
 ref = "tta-beng.flagIMatra1";
 }
 );
-width = 639;
+width = 634;
 },
 {
 layerId = m006;
@@ -120,15 +120,15 @@ pos = (164,0);
 ref = "tt_tta-beng.noflag";
 },
 {
-pos = (161,-254);
+pos = (166,-254);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (321,0);
+pos = (326,0);
 ref = "tta-beng.flagIMatra1";
 }
 );
-width = 523;
+width = 533;
 }
 );
 subCategory = Spacing;

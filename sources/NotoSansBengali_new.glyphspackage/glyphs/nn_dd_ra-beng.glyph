@@ -686,11 +686,11 @@ shapes = (
 ref = "nn_dda-beng";
 },
 {
-pos = (56,-165);
+pos = (66,-165);
 ref = "raphala-beng.alt05";
 }
 );
-width = 496;
+width = 506;
 }
 );
 script = bengali;

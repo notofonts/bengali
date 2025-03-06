@@ -585,11 +585,11 @@ shapes = (
 ref = "ph_tta-beng.noflag";
 },
 {
-pos = (363,0);
+pos = (368,0);
 ref = "tta-beng.flag2";
 }
 );
-width = 620;
+width = 625;
 },
 {
 background = {

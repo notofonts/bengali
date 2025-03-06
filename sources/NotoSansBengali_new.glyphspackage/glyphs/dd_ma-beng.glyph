@@ -49,11 +49,11 @@ shapes = (
 ref = "dd-beng.half1";
 },
 {
-pos = (512,0);
+pos = (511,0);
 ref = "ma-beng.side1";
 }
 );
-width = 673;
+width = 672;
 },
 {
 layerId = m006;

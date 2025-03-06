@@ -129,11 +129,11 @@ pos = (149,-99);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (367,0);
+pos = (372,0);
 ref = "headline-beng.200";
 }
 );
-width = 520;
+width = 527;
 },
 {
 background = {

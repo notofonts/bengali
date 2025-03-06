@@ -101,23 +101,23 @@ alignment = -1;
 ref = "g-beng.half";
 },
 {
-pos = (130,0);
+pos = (126,0);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (56,-225);
+pos = (52,-225);
 ref = "raphala-beng.alt11";
 },
 {
-pos = (381,-28);
+pos = (377,-28);
 ref = "dha-beng.part";
 },
 {
-pos = (333,0);
+pos = (329,0);
 ref = "aaMatra-beng.side";
 },
 {
-pos = (488,0);
+pos = (484,0);
 ref = "headline-beng.130";
 }
 );

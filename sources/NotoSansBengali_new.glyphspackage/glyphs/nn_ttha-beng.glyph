@@ -365,15 +365,15 @@ shapes = (
 ref = "nn-beng.half3";
 },
 {
-pos = (435,0);
+pos = (438,0);
 ref = "ttha-beng.side";
 },
 {
-pos = (200,0);
+pos = (203,0);
 ref = "ttha-beng.top2";
 }
 );
-width = 546;
+width = 554;
 },
 {
 layerId = m006;

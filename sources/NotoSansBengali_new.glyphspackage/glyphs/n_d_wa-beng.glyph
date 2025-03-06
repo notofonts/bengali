@@ -512,7 +512,7 @@ pos = (223,0);
 ref = "d-beng.half3";
 },
 {
-pos = (-15,11);
+pos = (-16,11);
 ref = "n-beng.float";
 },
 {
@@ -647,7 +647,7 @@ pos = (251,0);
 ref = "d-beng.half3";
 },
 {
-pos = (6,1);
+pos = (5,1);
 ref = "n-beng.float";
 },
 {

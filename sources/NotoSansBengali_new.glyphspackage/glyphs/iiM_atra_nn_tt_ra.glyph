@@ -726,23 +726,23 @@ shapes = (
 ref = "nn-beng.half";
 },
 {
-pos = (455,0);
+pos = (465,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (190,-131);
+pos = (200,-131);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (454,0);
+pos = (464,0);
 ref = "tta-beng.flagIiMatra";
 },
 {
-pos = (652,0);
+pos = (662,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 857;
+width = 867;
 },
 {
 background = {

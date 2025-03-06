@@ -498,11 +498,11 @@ shapes = (
 ref = "gh-beng.half";
 },
 {
-pos = (31,-149);
+pos = (41,-149);
 ref = "la-beng.blws";
 }
 );
-width = 466;
+width = 477;
 },
 {
 background = {

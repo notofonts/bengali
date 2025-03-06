@@ -247,11 +247,11 @@ pos = (204,0);
 ref = "ddha-beng";
 },
 {
-pos = (410,0);
+pos = (406,0);
 ref = "tta-beng.flagIMatra1";
 }
 );
-width = 622;
+width = 619;
 },
 {
 associatedMasterId = m005;
@@ -400,11 +400,11 @@ pos = (164,0);
 ref = "ddha-beng";
 },
 {
-pos = (328,0);
+pos = (323,0);
 ref = "tta-beng.flagIMatra1";
 }
 );
-width = 525;
+width = 522;
 }
 );
 partsSettings = (

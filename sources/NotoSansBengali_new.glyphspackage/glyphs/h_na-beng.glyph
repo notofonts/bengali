@@ -498,11 +498,11 @@ alignment = -1;
 ref = "ha-beng";
 },
 {
-pos = (293,12);
+pos = (290,12);
 ref = "ka-beng.arm2";
 },
 {
-pos = (364,0);
+pos = (359,0);
 ref = "headline-beng.250";
 }
 );

@@ -578,7 +578,7 @@ pos = (30,-78);
 ref = "pa-beng.blws";
 }
 );
-width = 509;
+width = 511;
 },
 {
 background = {
@@ -739,7 +739,7 @@ pos = (23,-55);
 ref = "pa-beng.blws";
 }
 );
-width = 420;
+width = 422;
 }
 );
 script = bengali;

@@ -1451,7 +1451,7 @@ nodes = (
 );
 }
 );
-width = 504;
+width = 505;
 },
 {
 anchors = (

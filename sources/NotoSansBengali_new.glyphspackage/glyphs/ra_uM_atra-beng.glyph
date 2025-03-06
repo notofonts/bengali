@@ -396,11 +396,11 @@ shapes = (
 ref = "ra-beng";
 },
 {
-pos = (441,0);
+pos = (446,0);
 ref = "uMatra-beng.side";
 }
 );
-width = 593;
+width = 608;
 },
 {
 background = {

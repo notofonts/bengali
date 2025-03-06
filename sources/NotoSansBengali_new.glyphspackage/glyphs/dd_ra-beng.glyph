@@ -479,11 +479,11 @@ pos = (4,-166);
 ref = "raphala-beng.alt05";
 },
 {
-pos = (367,0);
+pos = (372,0);
 ref = "headline-beng.200";
 }
 );
-width = 520;
+width = 527;
 },
 {
 background = {

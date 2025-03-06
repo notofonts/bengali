@@ -778,19 +778,19 @@ shapes = (
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (-12,-234);
+pos = (-4,-234);
 ref = "raphala-beng.alt06";
 },
 {
-pos = (191,0);
+pos = (199,0);
 ref = "tta-beng.flagIiMatra3";
 },
 {
-pos = (404,0);
+pos = (414,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 609;
+width = 619;
 },
 {
 background = {
@@ -996,19 +996,19 @@ shapes = (
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (8,-208);
+pos = (12,-208);
 ref = "raphala-beng.alt06";
 },
 {
-pos = (132,0);
+pos = (136,0);
 ref = "tta-beng.flagIiMatra3";
 },
 {
-pos = (333,0);
+pos = (341,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 497;
+width = 505;
 }
 );
 script = bengali;

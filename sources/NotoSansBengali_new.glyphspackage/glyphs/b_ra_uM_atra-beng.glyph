@@ -534,7 +534,7 @@ pos = (442,0);
 ref = "uMatra-beng.side";
 }
 );
-width = 594;
+width = 604;
 },
 {
 background = {

@@ -406,15 +406,15 @@ shapes = (
 ref = "nn-beng.half";
 },
 {
-pos = (300,0);
+pos = (310,0);
 ref = "aaMatra-beng.side";
 },
 {
-pos = (32,-31);
+pos = (42,-31);
 ref = "nna-beng.blws1";
 }
 );
-width = 455;
+width = 465;
 },
 {
 background = {

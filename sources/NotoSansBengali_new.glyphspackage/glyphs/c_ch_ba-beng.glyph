@@ -862,7 +862,7 @@ shapes = (
 ref = "c-beng.half";
 },
 {
-pos = (282,0);
+pos = (278,0);
 ref = "ch-beng.half";
 },
 {

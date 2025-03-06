@@ -508,11 +508,11 @@ shapes = (
 ref = "tt_tta-beng.noflag";
 },
 {
-pos = (209,0);
+pos = (204,0);
 ref = "tta-beng.flag";
 }
 );
-width = 435;
+width = 430;
 },
 {
 background = {
@@ -633,11 +633,11 @@ shapes = (
 ref = "tt_tta-beng.noflag";
 },
 {
-pos = (157,0);
+pos = (162,0);
 ref = "tta-beng.flag";
 }
 );
-width = 359;
+width = 369;
 }
 );
 script = bengali;

@@ -61,15 +61,15 @@ shapes = (
 ref = "ng-beng.half";
 },
 {
-pos = (483,0);
+pos = (492,0);
 ref = "headline-beng.100";
 },
 {
-pos = (483,0);
+pos = (492,0);
 ref = "gh_ra-beng";
 }
 );
-width = 949;
+width = 969;
 },
 {
 layerId = m006;

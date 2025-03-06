@@ -606,11 +606,11 @@ shapes = (
 ref = "ch-beng.half";
 },
 {
-pos = (98,-131);
+pos = (102,-131);
 ref = "baphala-beng.alt3";
 }
 );
-width = 450;
+width = 454;
 },
 {
 background = {

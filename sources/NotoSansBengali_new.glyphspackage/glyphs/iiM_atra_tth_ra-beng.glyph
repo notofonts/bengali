@@ -538,19 +538,19 @@ shapes = (
 ref = "tth-beng.half";
 },
 {
-pos = (-6,-172);
+pos = (0,-172);
 ref = "raphala-beng.alt06";
 },
 {
-pos = (55,0);
+pos = (61,0);
 ref = "ttha-beng.topIiMatra";
 },
 {
-pos = (409,0);
+pos = (424,0);
 ref = "iiMatra-beng.tthaAlt1";
 }
 );
-width = 614;
+width = 629;
 },
 {
 background = {

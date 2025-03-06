@@ -410,15 +410,15 @@ shapes = (
 ref = "nn-beng.half";
 },
 {
-pos = (97,54);
+pos = (104,54);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (300,0);
+pos = (310,0);
 ref = "aaMatra-beng.side";
 }
 );
-width = 455;
+width = 465;
 },
 {
 background = {

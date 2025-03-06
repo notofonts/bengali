@@ -474,11 +474,11 @@ shapes = (
 ref = "t-beng.half";
 },
 {
-pos = (93,-38);
+pos = (89,-38);
 ref = "na-beng.blws2";
 }
 );
-width = 515;
+width = 520;
 },
 {
 background = {

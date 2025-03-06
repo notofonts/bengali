@@ -638,11 +638,11 @@ pos = (11,-24);
 ref = "raphala-beng.alt02";
 },
 {
-pos = (558,0);
+pos = (559,0);
 ref = "uuMatra-beng.side";
 }
 );
-width = 689;
+width = 690;
 },
 {
 background = {

@@ -542,15 +542,15 @@ pos = (204,0);
 ref = "tth-beng.half";
 },
 {
-pos = (198,-172);
+pos = (204,-172);
 ref = "raphala-beng.alt06";
 },
 {
-pos = (256,0);
+pos = (262,0);
 ref = "ttha-beng.topIMatra";
 }
 );
-width = 613;
+width = 628;
 },
 {
 background = {

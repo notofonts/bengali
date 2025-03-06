@@ -426,73 +426,73 @@ width = 305;
 anchors = (
 {
 name = _top_headline_aaMatra;
-pos = (-8,554);
+pos = (-3,554);
 },
 {
 name = bottomMainForm;
-pos = (67,291);
+pos = (72,291);
 },
 {
 name = bottomVattu;
-pos = (67,186);
+pos = (72,186);
 },
 {
 name = top_candrabindu;
-pos = (102,621);
+pos = (107,621);
 },
 {
 name = top_headline130;
-pos = (198,554);
+pos = (203,554);
 },
 {
 name = top_vedic;
-pos = (102,621);
+pos = (107,621);
 }
 );
 background = {
 anchors = (
 {
 name = _top_headline_aaMatra;
-pos = (-8,554);
+pos = (-3,554);
 },
 {
 name = bottomVattu;
-pos = (67,186);
+pos = (72,186);
 },
 {
 name = center;
-pos = (67,291);
+pos = (72,291);
 },
 {
 name = top_candrabindu;
-pos = (102,621);
+pos = (107,621);
 },
 {
 name = top_headline130;
-pos = (198,554);
+pos = (203,554);
 },
 {
 name = top_vedic;
-pos = (102,621);
+pos = (107,621);
 }
 );
 shapes = (
 {
 closed = 1;
 nodes = (
-(142,173,l),
-(142,573,l),
-(67,573,l),
-(67,173,l)
+(147,173,l),
+(147,573,l),
+(72,573,l),
+(72,173,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(213,554,l),
-(213,621,l),
-(-8,621,l),
-(-8,554,l)
+(218,554,l),
+(218,621,l),
+(-3,621,l),
+(-3,554,l)
 );
 }
 );
@@ -502,23 +502,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(142,173,l),
-(142,573,l),
-(67,573,l),
-(67,173,l)
+(147,173,l),
+(147,573,l),
+(72,573,l),
+(72,173,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(213,554,l),
-(213,621,l),
+(220,554,l),
+(220,621,l),
 (-8,621,l),
 (-8,554,l)
 );
 }
 );
-width = 205;
+width = 212;
 },
 {
 anchors = (
@@ -659,14 +659,14 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(162,589,l),
-(162,607,l),
+(164,589,l),
+(164,607,l),
 (-7,607,l),
 (-7,589,l)
 );
 }
 );
-width = 155;
+width = 156;
 }
 );
 script = bengali;

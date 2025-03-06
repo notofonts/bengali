@@ -416,7 +416,7 @@ pos = (224,0);
 ref = "da-beng";
 },
 {
-pos = (-10,-22);
+pos = (-11,-22);
 ref = "n-beng.float";
 }
 );
@@ -522,7 +522,7 @@ pos = (252,0);
 ref = "da-beng";
 },
 {
-pos = (6,-25);
+pos = (11,-25);
 ref = "n-beng.float";
 }
 );

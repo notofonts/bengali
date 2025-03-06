@@ -138,11 +138,11 @@ shapes = (
 ref = "ng-beng.half";
 },
 {
-pos = (155,-99);
+pos = (159,-99);
 ref = "baphala-beng.alt2";
 }
 );
-width = 523;
+width = 532;
 },
 {
 background = {

@@ -153,11 +153,11 @@ shapes = (
 ref = "ddha-beng";
 },
 {
-pos = (199,0);
+pos = (195,0);
 ref = "nukta-beng";
 }
 );
-width = 418;
+width = 415;
 },
 {
 anchors = (
@@ -208,11 +208,11 @@ shapes = (
 ref = "ddha-beng";
 },
 {
-pos = (166,0);
+pos = (161,0);
 ref = "nukta-beng";
 }
 );
-width = 361;
+width = 358;
 }
 );
 script = bengali;

@@ -742,11 +742,11 @@ shapes = (
 ref = "c-beng.half";
 },
 {
-pos = (282,0);
+pos = (278,0);
 ref = "cha-beng";
 }
 );
-width = 748;
+width = 746;
 },
 {
 background = {
@@ -945,7 +945,7 @@ pos = (217,0);
 ref = "cha-beng";
 }
 );
-width = 615;
+width = 621;
 }
 );
 script = bengali;

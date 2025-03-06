@@ -154,11 +154,11 @@ shapes = (
 ref = "j_j_ba-beng";
 },
 {
-pos = (479,-141);
+pos = (492,-141);
 ref = "wa-beng.part";
 }
 );
-width = 736;
+width = 750;
 }
 );
 script = bengali;

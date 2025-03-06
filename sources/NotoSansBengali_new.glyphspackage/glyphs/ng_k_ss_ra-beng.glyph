@@ -162,19 +162,19 @@ shapes = (
 ref = "ng-beng.half";
 },
 {
-pos = (387,0);
+pos = (391,0);
 ref = "headline-beng.130";
 },
 {
-pos = (482,0);
+pos = (491,0);
 ref = "k_ss-beng.half";
 },
 {
-pos = (469,-79);
+pos = (481,-79);
 ref = "raphala-beng.alt04";
 }
 );
-width = 1139;
+width = 1155;
 },
 {
 background = {

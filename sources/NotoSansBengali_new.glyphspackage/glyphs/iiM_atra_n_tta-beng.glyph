@@ -606,7 +606,7 @@ pos = (418,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (-12,-8);
+pos = (-13,-8);
 ref = "n-beng.float";
 },
 {
@@ -760,7 +760,7 @@ pos = (475,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (-6,-9);
+pos = (-7,-9);
 ref = "n-beng.float";
 },
 {

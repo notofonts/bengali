@@ -129,30 +129,31 @@ width = 1223;
 anchors = (
 {
 name = top_candrabindu;
-pos = (771,621);
+pos = (772,621);
 },
 {
 name = top_vedic;
-pos = (441,621);
+pos = (442,621);
 }
 );
 background = {
 anchors = (
 {
 name = top_candrabindu;
-pos = (771,621);
+pos = (772,621);
 },
 {
 name = top_vedic;
-pos = (441,621);
+pos = (442,621);
 }
 );
 shapes = (
 {
+pos = (1,0);
 ref = "a-beng";
 },
 {
-pos = (677,0);
+pos = (678,0);
 ref = "aaMatra-beng";
 }
 );

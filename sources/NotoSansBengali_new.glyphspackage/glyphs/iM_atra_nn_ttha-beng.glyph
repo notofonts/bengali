@@ -381,15 +381,15 @@ pos = (204,0);
 ref = "nn-beng.half3";
 },
 {
-pos = (639,0);
+pos = (642,0);
 ref = "ttha-beng.side";
 },
 {
-pos = (404,0);
+pos = (407,0);
 ref = "ttha-beng.topIMatra2";
 }
 );
-width = 750;
+width = 758;
 },
 {
 layerId = m006;

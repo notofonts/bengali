@@ -490,11 +490,11 @@ alignment = -1;
 ref = "ha-beng";
 },
 {
-pos = (305,161);
+pos = (300,161);
 ref = "dha-beng.part";
 },
 {
-pos = (372,0);
+pos = (367,0);
 ref = "headline-beng.200";
 }
 );

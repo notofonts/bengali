@@ -418,11 +418,11 @@ shapes = (
 ref = "d-beng.half";
 },
 {
-pos = (426,0);
+pos = (425,0);
 ref = "ma-beng.side3";
 }
 );
-width = 606;
+width = 605;
 },
 {
 background = {

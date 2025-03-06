@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3309";
 .formatVersion = 3;
 axes = (
 {
@@ -1441,13 +1441,6 @@ numberValues = (
 );
 instances = (
 {
-axesValues = (
-0,
-0
-);
-instanceInterpolations = {
-"28FB090A-653E-4199-B7BE-FAE23D31B682" = 1;
-};
 name = Regular;
 type = variable;
 },
@@ -3306,7 +3299,7 @@ m005 = {
 "@MMK_R_L_BNG_aaMatra_part" = -200;
 "@MMK_R_L_BNG_aaMatra_partShort" = -92;
 "@MMK_R_L_BNG_da" = -194;
-"@MMK_R_L_d-beng_half" = -195;
+"@MMK_R_L_d-beng_half" = -187;
 "@MMK_R_L_d-beng_half2" = -255;
 "@MMK_R_L_d-beng_half3" = -195;
 };
@@ -3374,7 +3367,7 @@ m006 = {
 "@MMK_R_L_BNG_aaMatra_partShort" = -85;
 "@MMK_R_L_BNG_da" = -223;
 "@MMK_R_L_BNG_dda_side" = -37;
-"@MMK_R_L_d-beng_half" = -224;
+"@MMK_R_L_d-beng_half" = -232;
 "@MMK_R_L_d-beng_half2" = -324;
 "@MMK_R_L_d-beng_half3" = -224;
 };

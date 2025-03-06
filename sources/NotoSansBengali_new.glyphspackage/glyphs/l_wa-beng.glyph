@@ -653,7 +653,7 @@ pos = (148,-4);
 ref = "wa-beng.part";
 }
 );
-width = 418;
+width = 420;
 }
 );
 script = bengali;

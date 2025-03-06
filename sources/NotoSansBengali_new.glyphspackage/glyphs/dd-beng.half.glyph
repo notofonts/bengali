@@ -724,7 +724,7 @@ pos = (299,-58);
 },
 {
 name = nukta.alt;
-pos = (67,39);
+pos = (60,39);
 },
 {
 name = top_candrabindu;
@@ -732,7 +732,7 @@ pos = (241,621);
 },
 {
 name = top_headline200;
-pos = (363,554);
+pos = (368,554);
 },
 {
 name = top_vedic;
@@ -841,7 +841,7 @@ nodes = (
 );
 }
 );
-width = 520;
+width = 527;
 },
 {
 anchors = (

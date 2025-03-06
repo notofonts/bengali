@@ -156,11 +156,11 @@ pos = (204,0);
 ref = "ss_ttha-beng.notop";
 },
 {
-pos = (342,0);
+pos = (344,0);
 ref = "ttha-beng.topIMatra2";
 }
 );
-width = 686;
+width = 693;
 },
 {
 layerId = m006;
@@ -190,11 +190,11 @@ pos = (164,0);
 ref = "ss_ttha-beng.notop";
 },
 {
-pos = (312,0);
+pos = (322,0);
 ref = "ttha-beng.topIMatra2";
 }
 );
-width = 568;
+width = 578;
 }
 );
 script = bengali;

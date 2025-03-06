@@ -514,15 +514,15 @@ shapes = (
 ref = "dha-beng";
 },
 {
-pos = (440,0);
+pos = (450,0);
 ref = "ba-beng.side";
 },
 {
-pos = (382,138);
+pos = (392,138);
 ref = "wa-beng.part";
 }
 );
-width = 748;
+width = 758;
 },
 {
 background = {
@@ -661,15 +661,15 @@ shapes = (
 ref = "dha-beng";
 },
 {
-pos = (398,0);
+pos = (393,0);
 ref = "ba-beng.side";
 },
 {
-pos = (357,130);
+pos = (352,130);
 ref = "wa-beng.part";
 }
 );
-width = 666;
+width = 661;
 }
 );
 script = bengali;

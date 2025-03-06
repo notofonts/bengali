@@ -582,19 +582,19 @@ shapes = (
 ref = "nn-beng.half";
 },
 {
-pos = (455,0);
+pos = (465,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (455,0);
+pos = (465,0);
 ref = "tta-beng.flagIiMatra";
 },
 {
-pos = (668,0);
+pos = (678,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 873;
+width = 883;
 },
 {
 background = {

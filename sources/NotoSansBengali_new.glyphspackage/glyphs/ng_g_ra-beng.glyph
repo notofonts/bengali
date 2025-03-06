@@ -1662,11 +1662,11 @@ shapes = (
 ref = "ng_g-beng.half";
 },
 {
-pos = (-18,-144);
+pos = (2,-144);
 ref = "raphala-beng.alt02";
 }
 );
-width = 555;
+width = 570;
 },
 {
 anchors = (

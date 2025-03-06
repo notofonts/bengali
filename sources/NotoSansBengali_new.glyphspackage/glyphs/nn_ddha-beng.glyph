@@ -430,11 +430,11 @@ shapes = (
 ref = "nn-beng.half";
 },
 {
-pos = (455,0);
+pos = (465,0);
 ref = "ddha-beng.side";
 }
 );
-width = 668;
+width = 678;
 },
 {
 background = {

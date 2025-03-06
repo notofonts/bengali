@@ -1,7 +1,7 @@
 {
 category = Letter;
 color = 5;
-glyphname = "t_ta-beng";
+glyphname = "t_ta-beng.001";
 layers = (
 {
 anchors = (
@@ -588,7 +588,7 @@ pos = (347,621);
 },
 {
 name = top_headline200;
-pos = (535,554);
+pos = (550,554);
 },
 {
 name = top_vedic;
@@ -668,14 +668,14 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(546,554,l),
-(546,621,l),
+(556,554,l),
+(556,621,l),
 (-8,621,l),
 (-8,554,l)
 );
 }
 );
-width = 538;
+width = 548;
 },
 {
 anchors = (

@@ -478,7 +478,7 @@ pos = (225,0);
 ref = "tta-beng.flag";
 }
 );
-width = 423;
+width = 425;
 },
 {
 background = {

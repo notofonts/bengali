@@ -158,7 +158,7 @@ pos = (151,-131);
 ref = "wa-beng.part";
 }
 );
-width = 526;
+width = 524;
 },
 {
 background = {
@@ -215,7 +215,7 @@ pos = (171,-109);
 ref = "wa-beng.part";
 }
 );
-width = 469;
+width = 465;
 }
 );
 script = bengali;

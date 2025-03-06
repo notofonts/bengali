@@ -488,15 +488,15 @@ alignment = -1;
 ref = "g-beng.half";
 },
 {
-pos = (128,19);
+pos = (124,19);
 ref = "dh_ba-beng.blws";
 },
 {
-pos = (333,0);
+pos = (329,0);
 ref = "aaMatra-beng.side";
 },
 {
-pos = (488,0);
+pos = (484,0);
 ref = "headline-beng.130";
 }
 );

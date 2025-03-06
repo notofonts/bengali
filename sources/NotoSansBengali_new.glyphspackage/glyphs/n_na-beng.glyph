@@ -442,7 +442,7 @@ pos = (218,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (-6,6);
+pos = (-7,6);
 ref = "n-beng.float";
 },
 {
@@ -554,7 +554,7 @@ pos = (236,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (-3,1);
+pos = (-4,1);
 ref = "n-beng.float";
 },
 {
@@ -583,7 +583,7 @@ pos = (48,35);
 ref = "na-beng.blws1";
 }
 );
-width = 358;
+width = 360;
 }
 );
 script = bengali;

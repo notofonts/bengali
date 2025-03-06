@@ -730,19 +730,19 @@ pos = (204,0);
 ref = "nn-beng.half";
 },
 {
-pos = (659,0);
+pos = (669,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (394,-131);
+pos = (404,-131);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (658,0);
+pos = (668,0);
 ref = "tta-beng.flagIMatra2";
 }
 );
-width = 856;
+width = 866;
 },
 {
 background = {

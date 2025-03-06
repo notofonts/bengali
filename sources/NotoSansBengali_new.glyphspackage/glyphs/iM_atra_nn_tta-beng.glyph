@@ -586,15 +586,15 @@ pos = (204,0);
 ref = "nn-beng.half";
 },
 {
-pos = (659,0);
+pos = (669,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (659,0);
+pos = (669,0);
 ref = "tta-beng.flagIMatra2";
 }
 );
-width = 872;
+width = 882;
 },
 {
 background = {

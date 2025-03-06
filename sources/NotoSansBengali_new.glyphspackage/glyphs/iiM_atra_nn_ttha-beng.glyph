@@ -377,19 +377,19 @@ shapes = (
 ref = "nn-beng.half3";
 },
 {
-pos = (435,0);
+pos = (438,0);
 ref = "ttha-beng.side";
 },
 {
-pos = (198,0);
+pos = (201,0);
 ref = "ttha-beng.topIiMatra2";
 },
 {
-pos = (546,0);
+pos = (554,0);
 ref = "iiMatra-beng.tthaAlt1";
 }
 );
-width = 751;
+width = 759;
 },
 {
 layerId = m006;

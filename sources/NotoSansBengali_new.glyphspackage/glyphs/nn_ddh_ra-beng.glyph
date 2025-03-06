@@ -61,15 +61,15 @@ shapes = (
 ref = "nn-beng.half";
 },
 {
-pos = (455,0);
+pos = (465,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (190,-131);
+pos = (200,-131);
 ref = "raphala-beng.alt03";
 }
 );
-width = 652;
+width = 662;
 },
 {
 layerId = m006;

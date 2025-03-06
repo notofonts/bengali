@@ -619,19 +619,19 @@ alignment = -1;
 ref = "t_t-beng.half";
 },
 {
-pos = (162,-109);
+pos = (156,-109);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (402,41);
+pos = (403,41);
 ref = "ka-beng.arm2";
 },
 {
-pos = (525,0);
+pos = (539,0);
 ref = "headline-beng.200";
 }
 );
-width = 680;
+width = 694;
 },
 {
 background = {

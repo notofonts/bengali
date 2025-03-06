@@ -132,15 +132,15 @@ shapes = (
 ref = "gh-beng.half";
 },
 {
-pos = (102,-92);
+pos = (112,-92);
 ref = "baphala-beng.alt1";
 },
 {
-pos = (131,-106);
+pos = (141,-106);
 ref = "wa-beng.part";
 }
 );
-width = 466;
+width = 477;
 },
 {
 background = {

@@ -799,11 +799,11 @@ shapes = (
 ref = "ng-beng.half2";
 },
 {
-pos = (479,0);
+pos = (486,0);
 ref = "ma-beng.side1";
 }
 );
-width = 640;
+width = 647;
 },
 {
 associatedMasterId = m005;

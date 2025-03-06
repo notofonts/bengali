@@ -450,7 +450,7 @@ pos = (418,0);
 ref = "dda-beng.side";
 },
 {
-pos = (15,57);
+pos = (14,57);
 ref = "n-beng.float";
 }
 );
@@ -563,7 +563,7 @@ pos = (438,0);
 ref = "dda-beng.side";
 },
 {
-pos = (10,20);
+pos = (9,20);
 ref = "n-beng.float";
 }
 );
