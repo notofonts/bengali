@@ -571,19 +571,19 @@ shapes = (
 ref = "n-beng.headline";
 },
 {
-pos = (205,0);
+pos = (195,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (4,-12);
+pos = (-6,-12);
 ref = "n-beng.float";
 },
 {
-pos = (48,35);
+pos = (38,35);
 ref = "na-beng.blws1";
 }
 );
-width = 360;
+width = 350;
 }
 );
 script = bengali;

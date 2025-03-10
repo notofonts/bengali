@@ -546,11 +546,11 @@ ref = "nukta-beng";
 },
 {
 alignment = -1;
-pos = (484,0);
+pos = (347,0);
 ref = "ga-beng.side";
 }
 );
-width = 1070;
+width = 756;
 }
 );
 script = bengali;

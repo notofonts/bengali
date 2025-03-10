@@ -696,15 +696,15 @@ shapes = (
 ref = "g-beng.half";
 },
 {
-pos = (37,-10);
+pos = (34,-10);
 ref = "la-beng.blws1";
 },
 {
-pos = (302,0);
+pos = (299,0);
 ref = "aaMatra-beng.side";
 }
 );
-width = 408;
+width = 405;
 }
 );
 script = bengali;

@@ -65,17 +65,15 @@ alignment = -1;
 ref = "m-beng.half";
 },
 {
-alignment = -1;
-pos = (323,0);
+pos = (325,0);
 ref = "p-beng.half";
 },
 {
-alignment = -1;
-pos = (407,11);
+pos = (405,11);
 ref = "la-beng.blws1";
 }
 );
-width = 858;
+width = 856;
 },
 {
 layerId = m006;
@@ -103,17 +101,15 @@ alignment = -1;
 ref = "m-beng.half";
 },
 {
-alignment = -1;
-pos = (442,0);
+pos = (306,0);
 ref = "p-beng.half";
 },
 {
-alignment = -1;
-pos = (510,0);
+pos = (373,0);
 ref = "la-beng.blws1";
 }
 );
-width = 1070;
+width = 744;
 }
 );
 }

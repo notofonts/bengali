@@ -606,11 +606,11 @@ shapes = (
 ref = "t-beng.half";
 },
 {
-pos = (99,42);
+pos = (108,42);
 ref = "na-beng.blws2";
 }
 );
-width = 452;
+width = 455;
 }
 );
 script = bengali;

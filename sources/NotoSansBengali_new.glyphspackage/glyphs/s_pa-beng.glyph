@@ -162,11 +162,11 @@ ref = "s-beng.half";
 },
 {
 alignment = -1;
-pos = (490,0);
+pos = (367,0);
 ref = "pa-beng";
 }
 );
-width = 1206;
+width = 914;
 },
 {
 background = {
@@ -218,11 +218,11 @@ ref = "s-beng.half";
 },
 {
 alignment = -1;
-pos = (494,0);
+pos = (346,0);
 ref = "pa-beng";
 }
 );
-width = 1142;
+width = 797;
 }
 );
 script = bengali;

@@ -406,15 +406,15 @@ shapes = (
 ref = "b-beng.half";
 },
 {
-pos = (-11,-51);
+pos = (-6,-51);
 ref = "raphala-beng.alt14";
 },
 {
-pos = (586,0);
+pos = (446,0);
 ref = "headline-beng.ba";
 }
 );
-width = 442;
+width = 446;
 },
 {
 background = {
@@ -509,12 +509,12 @@ shapes = (
 ref = "b-beng.half";
 },
 {
-pos = (477,0);
-ref = "headline-beng.ba";
-},
-{
 pos = (-9,-128);
 ref = "raphala-beng.alt14";
+},
+{
+pos = (486,0);
+ref = "headline-beng.ba";
 }
 );
 width = 486;
@@ -530,11 +530,11 @@ pos = (3,11);
 ref = "raphala-beng.alt14";
 },
 {
-pos = (554,0);
+pos = (383,0);
 ref = "headline-beng.ba";
 }
 );
-width = 382;
+width = 383;
 }
 );
 script = bengali;

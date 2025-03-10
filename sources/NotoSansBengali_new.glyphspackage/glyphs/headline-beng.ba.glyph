@@ -421,7 +421,7 @@ width = 0;
 anchors = (
 {
 name = _top_headlineBa;
-pos = (-79,589);
+pos = (-88,589);
 },
 {
 name = top_vedic;
@@ -435,8 +435,8 @@ closed = 1;
 nodes = (
 (8,589,l),
 (8,607,l),
-(-79,607,l),
-(-79,589,l)
+(-88,607,l),
+(-88,589,l)
 );
 }
 );

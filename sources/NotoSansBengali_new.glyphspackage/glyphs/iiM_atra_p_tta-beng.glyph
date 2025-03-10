@@ -694,19 +694,19 @@ shapes = (
 ref = "p-beng.half3";
 },
 {
-pos = (544,0);
+pos = (547,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (544,0);
+pos = (547,0);
 ref = "tta-beng.flagIiMatra";
 },
 {
-pos = (757,0);
+pos = (761,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 962;
+width = 966;
 },
 {
 background = {
@@ -899,11 +899,11 @@ pos = (452,0);
 ref = "tta-beng.flagIiMatra";
 },
 {
-pos = (650,0);
+pos = (652,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 814;
+width = 816;
 }
 );
 script = bengali;

@@ -190,11 +190,11 @@ pos = (146,-8);
 ref = "ttha-beng.topIiMatra";
 },
 {
-pos = (414,0);
+pos = (417,0);
 ref = "iiMatra-beng.tthaAlt1";
 }
 );
-width = 578;
+width = 581;
 }
 );
 script = bengali;

@@ -596,15 +596,15 @@ alignment = -1;
 ref = "j-beng.half";
 },
 {
-pos = (268,-86);
+pos = (281,-86);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (422,19);
+pos = (435,19);
 ref = "jha-beng.part";
 },
 {
-pos = (470,0);
+pos = (484,0);
 ref = "aaMatra-beng.float";
 }
 );

@@ -585,19 +585,19 @@ shapes = (
 ref = "n-beng.headline";
 },
 {
-pos = (209,0);
+pos = (199,0);
 ref = "d-beng.half";
 },
 {
-pos = (6,-2);
+pos = (-3,-2);
 ref = "n-beng.float";
 },
 {
-pos = (164,-5);
+pos = (155,-5);
 ref = "raphala-beng.alt09";
 }
 );
-width = 565;
+width = 551;
 }
 );
 script = bengali;

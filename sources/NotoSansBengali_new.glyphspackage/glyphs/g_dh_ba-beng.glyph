@@ -633,22 +633,19 @@ alignment = -1;
 ref = "g-beng.half";
 },
 {
-alignment = -1;
-pos = (123,14);
+pos = (120,14);
 ref = "dh_ba-beng.blws";
 },
 {
-alignment = -1;
-pos = (302,0);
+pos = (299,0);
 ref = "aaMatra-beng.side";
 },
 {
-alignment = -1;
-pos = (408,0);
+pos = (410,0);
 ref = "headline-beng.130";
 }
 );
-width = 676;
+width = 477;
 }
 );
 script = bengali;

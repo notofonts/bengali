@@ -315,11 +315,11 @@ alignment = -1;
 ref = "b-beng.half";
 },
 {
-pos = (-11,-51);
+pos = (-6,-51);
 ref = "raphala-beng.alt14";
 },
 {
-pos = (442,0);
+pos = (447,0);
 ref = "jh-beng.side";
 }
 );
@@ -471,7 +471,7 @@ pos = (384,0);
 ref = "jh-beng.side";
 }
 );
-width = 511;
+width = 512;
 }
 );
 script = bengali;

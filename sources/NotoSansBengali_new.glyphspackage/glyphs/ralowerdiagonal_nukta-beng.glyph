@@ -160,11 +160,11 @@ shapes = (
 ref = "ralowerdiagonal-beng";
 },
 {
-pos = (76,98);
+pos = (71,98);
 ref = "nukta-beng";
 }
 );
-width = 390;
+width = 385;
 }
 );
 }

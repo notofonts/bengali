@@ -670,11 +670,11 @@ shapes = (
 ref = "p-beng.half3";
 },
 {
-pos = (544,0);
+pos = (547,0);
 ref = "ddha-beng.side";
 }
 );
-width = 757;
+width = 761;
 },
 {
 background = {
@@ -855,7 +855,7 @@ pos = (452,0);
 ref = "ddha-beng.side";
 }
 );
-width = 650;
+width = 652;
 }
 );
 script = bengali;

@@ -1301,11 +1301,11 @@ shapes = (
 ref = "ng-beng.half2";
 },
 {
-pos = (430,0);
+pos = (435,0);
 ref = "ma-beng.side1";
 }
 );
-width = 563;
+width = 568;
 }
 );
 script = bengali;

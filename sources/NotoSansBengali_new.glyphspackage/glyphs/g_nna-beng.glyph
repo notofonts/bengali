@@ -95,15 +95,15 @@ shapes = (
 ref = "g-beng.half";
 },
 {
-pos = (63,-35);
+pos = (60,-35);
 ref = "nna-beng.blws1";
 },
 {
-pos = (302,0);
+pos = (299,0);
 ref = "aaMatra-beng.side";
 }
 );
-width = 408;
+width = 405;
 }
 );
 }

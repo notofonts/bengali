@@ -638,7 +638,7 @@ pos = (510,0);
 ref = "ddha-beng.side";
 }
 );
-width = 723;
+width = 724;
 },
 {
 background = {
@@ -810,7 +810,7 @@ pos = (421,0);
 ref = "ddha-beng.side";
 }
 );
-width = 619;
+width = 621;
 }
 );
 script = bengali;

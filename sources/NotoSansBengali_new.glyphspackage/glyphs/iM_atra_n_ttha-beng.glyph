@@ -666,19 +666,19 @@ pos = (163,0);
 ref = "n-beng.headline";
 },
 {
-pos = (509,0);
+pos = (499,0);
 ref = "ttha-beng.side";
 },
 {
-pos = (167,0);
+pos = (157,0);
 ref = "n-beng.float";
 },
 {
-pos = (364,0);
+pos = (354,0);
 ref = "ttha-beng.topIMatra2";
 }
 );
-width = 643;
+width = 633;
 }
 );
 script = bengali;

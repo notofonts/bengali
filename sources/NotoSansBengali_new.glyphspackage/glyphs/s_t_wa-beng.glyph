@@ -195,19 +195,19 @@ shapes = (
 ref = "s-beng.half3";
 },
 {
-pos = (-3,55);
+pos = (0,55);
 ref = "ta-beng.blws";
 },
 {
-pos = (204,-172);
+pos = (207,-172);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (224,-204);
+pos = (227,-204);
 ref = "wa-beng.part";
 }
 );
-width = 600;
+width = 606;
 },
 {
 background = {
@@ -268,19 +268,19 @@ shapes = (
 ref = "s-beng.half3";
 },
 {
-pos = (34,87);
+pos = (29,80);
 ref = "ta-beng.blws";
 },
 {
-pos = (213,-128);
+pos = (208,-135);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (215,-138);
+pos = (210,-145);
 ref = "wa-beng.part";
 }
 );
-width = 511;
+width = 503;
 }
 );
 metricWidth = satababeng;

@@ -690,7 +690,7 @@ pos = (66,-165);
 ref = "raphala-beng.alt05";
 }
 );
-width = 506;
+width = 507;
 }
 );
 script = bengali;

@@ -776,11 +776,11 @@ shapes = (
 ref = "m-beng.half2";
 },
 {
-pos = (38,0);
+pos = (43,0);
 ref = "la-beng.blws2";
 }
 );
-width = 418;
+width = 423;
 }
 );
 script = bengali;

@@ -694,19 +694,19 @@ shapes = (
 ref = "p-beng.half3";
 },
 {
-pos = (544,0);
+pos = (547,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (279,-131);
+pos = (282,-131);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (544,0);
+pos = (547,0);
 ref = "tta-beng.flag";
 }
 );
-width = 741;
+width = 746;
 },
 {
 background = {

@@ -602,7 +602,7 @@ pos = (397,0);
 ref = "pha-beng.side";
 }
 );
-width = 726;
+width = 725;
 },
 {
 background = {
@@ -761,11 +761,11 @@ shapes = (
 ref = "ss-beng.half4";
 },
 {
-pos = (330,0);
+pos = (335,0);
 ref = "pha-beng.side";
 }
 );
-width = 617;
+width = 622;
 }
 );
 script = bengali;

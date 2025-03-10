@@ -509,11 +509,11 @@ shapes = (
 ref = "ra-beng";
 },
 {
-pos = (389,0);
+pos = (385,0);
 ref = "uMatra-beng.side";
 }
 );
-width = 505;
+width = 500;
 }
 );
 script = bengali;

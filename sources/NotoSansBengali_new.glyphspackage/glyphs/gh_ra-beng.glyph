@@ -571,11 +571,11 @@ shapes = (
 ref = "gh-beng.half";
 },
 {
-pos = (18,-25);
+pos = (25,-25);
 ref = "raphala-beng.alt14";
 }
 );
-width = 398;
+width = 405;
 }
 );
 script = bengali;

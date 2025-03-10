@@ -502,11 +502,11 @@ shapes = (
 ref = "p-beng.half";
 },
 {
-pos = (178,62);
+pos = (174,62);
 ref = "baphala-beng.alt4";
 }
 );
-width = 535;
+width = 531;
 },
 {
 background = {

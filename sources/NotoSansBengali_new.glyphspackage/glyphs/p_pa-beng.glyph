@@ -638,11 +638,11 @@ shapes = (
 ref = "p-beng.half";
 },
 {
-pos = (55,15);
+pos = (51,15);
 ref = "pa-beng.blws";
 }
 );
-width = 535;
+width = 531;
 },
 {
 background = {

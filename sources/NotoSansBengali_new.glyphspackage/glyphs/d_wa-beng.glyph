@@ -207,7 +207,7 @@ pos = (87,-28);
 ref = "wa-beng.part";
 }
 );
-width = 410;
+width = 408;
 },
 {
 background = {
@@ -268,15 +268,15 @@ shapes = (
 ref = "d-beng.half3";
 },
 {
-pos = (60,51);
+pos = (69,51);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (73,12);
+pos = (82,12);
 ref = "wa-beng.part";
 }
 );
-width = 326;
+width = 335;
 }
 );
 metricWidth = dababeng;

@@ -187,11 +187,11 @@ shapes = (
 ref = "bha-beng";
 },
 {
-pos = (169,-99);
+pos = (166,-99);
 ref = "baphala-beng.alt2";
 }
 );
-width = 465;
+width = 462;
 }
 );
 script = bengali;

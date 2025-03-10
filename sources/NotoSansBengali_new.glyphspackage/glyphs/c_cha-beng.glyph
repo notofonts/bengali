@@ -941,11 +941,11 @@ shapes = (
 ref = "c-beng.half";
 },
 {
-pos = (217,0);
+pos = (213,0);
 ref = "cha-beng";
 }
 );
-width = 621;
+width = 617;
 }
 );
 script = bengali;

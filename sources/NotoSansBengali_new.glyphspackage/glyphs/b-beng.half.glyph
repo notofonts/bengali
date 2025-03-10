@@ -6,10 +6,6 @@ layers = (
 {
 anchors = (
 {
-name = _top_headlineBa;
-pos = (481,551);
-},
-{
 name = bottomJhaSide;
 pos = (475,316);
 },
@@ -20,6 +16,10 @@ pos = (414,42);
 {
 name = top_candrabindu;
 pos = (448,622);
+},
+{
+name = top_headlineBa;
+pos = (481,551);
 },
 {
 name = top_headlineKaArm;
@@ -157,10 +157,6 @@ width = 586;
 {
 anchors = (
 {
-name = _top_headlineBa;
-pos = (436,586);
-},
-{
 name = bottomJhaSide;
 pos = (439,310);
 },
@@ -171,6 +167,10 @@ pos = (425,170);
 {
 name = top_candrabindu;
 pos = (435,607);
+},
+{
+name = top_headlineBa;
+pos = (436,586);
 },
 {
 name = top_headlineKaArm;
@@ -304,10 +304,6 @@ width = 552;
 {
 anchors = (
 {
-name = _top_headlineBa;
-pos = (522,505);
-},
-{
 name = bottomJhaSide;
 pos = (452,349);
 },
@@ -318,6 +314,10 @@ pos = (368,78);
 {
 name = top_candrabindu;
 pos = (436,635);
+},
+{
+name = top_headlineBa;
+pos = (522,505);
 },
 {
 name = top_headlineKaArm;
@@ -451,78 +451,37 @@ width = 600;
 {
 anchors = (
 {
-name = _top_headlineBa;
-pos = (368,554);
-},
-{
 name = bottomJhaSide;
-pos = (351,316);
+pos = (356,316);
 },
 {
 name = bottomVattu;
-pos = (301,64);
+pos = (306,64);
 },
 {
 name = top_candrabindu;
-pos = (333,621);
+pos = (338,621);
+},
+{
+name = top_headlineBa;
+pos = (373,554);
 },
 {
 name = top_headlineKaArm;
-pos = (339,554);
+pos = (344,554);
 },
 {
 name = top_vedic;
-pos = (221,621);
+pos = (226,621);
 }
 );
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(376,29,l),
-(376,621,l),
-(-8,621,l),
-(-8,554,l),
-(302,554,l),
-(302,485,l),
-(318,530,l),
-(215,485,o),
-(118,423,o),
-(23,350,c),
-(57,259,l),
-(165,233,o),
-(255,128,o),
-(302,29,c)
-);
-},
-{
-closed = 1;
-nodes = (
-(314,107,l),
-(272,213,o),
-(165,301,o),
-(92,321,c),
-(92,306,l),
-(156,361,o),
-(243,420,o),
-(317,456,c),
-(302,477,l),
-(302,207,ls),
-(302,163,o),
-(304,134,o),
-(306,107,c)
-);
-}
-);
-};
 guides = (
 {
 angle = 90;
-pos = (414,243);
+pos = (419,243);
 },
 {
-pos = (453,25);
+pos = (458,25);
 }
 );
 layerId = m005;
@@ -530,49 +489,45 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(376,25,l),
-(376,621,l),
+(381,25,l),
+(381,621,l),
 (-8,621,l),
 (-8,554,l),
-(302,554,l),
-(302,507,l),
-(318,534,l),
-(219,488,o),
-(119,423,o),
-(23,347,c),
-(57,256,l),
-(171,230,o),
-(260,143,o),
-(302,25,c)
+(307,554,l),
+(307,507,l),
+(323,534,l),
+(224,488,o),
+(124,423,o),
+(28,347,c),
+(62,256,l),
+(176,230,o),
+(265,143,o),
+(307,25,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(317,108,l),
-(279,231,o),
-(170,297,o),
-(92,318,c),
-(88,300,l),
-(159,361,o),
-(249,417,o),
-(317,450,c),
-(301,470,l),
-(301,212,ls),
-(301,166,o),
-(303,135,o),
-(305,108,c)
+(322,108,l),
+(284,231,o),
+(175,297,o),
+(97,318,c),
+(93,300,l),
+(164,361,o),
+(254,417,o),
+(322,450,c),
+(306,470,l),
+(306,212,ls),
+(306,166,o),
+(308,135,o),
+(310,108,c)
 );
 }
 );
-width = 442;
+width = 446;
 },
 {
 anchors = (
-{
-name = _top_headlineBa;
-pos = (431,510);
-},
 {
 name = bottomJhaSide;
 pos = (378,345);
@@ -584,6 +539,10 @@ pos = (284,74);
 {
 name = top_candrabindu;
 pos = (346,634);
+},
+{
+name = top_headlineBa;
+pos = (435,510);
 },
 {
 name = top_headlineKaArm;
@@ -689,10 +648,6 @@ width = 486;
 {
 anchors = (
 {
-name = _top_headlineBa;
-pos = (305,589);
-},
-{
 name = bottomJhaSide;
 pos = (305,310);
 },
@@ -703,6 +658,10 @@ pos = (291,172);
 {
 name = top_candrabindu;
 pos = (301,607);
+},
+{
+name = top_headlineBa;
+pos = (295,589);
 },
 {
 name = top_headlineKaArm;
@@ -825,7 +784,7 @@ nodes = (
 );
 }
 );
-width = 382;
+width = 383;
 }
 );
 script = bengali;

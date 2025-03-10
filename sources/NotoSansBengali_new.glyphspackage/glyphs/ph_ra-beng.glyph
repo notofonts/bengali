@@ -510,11 +510,11 @@ shapes = (
 ref = "ph-beng.half";
 },
 {
-pos = (14,-66);
+pos = (17,-66);
 ref = "raphala-beng.alt14";
 }
 );
-width = 630;
+width = 633;
 },
 {
 background = {
@@ -651,11 +651,11 @@ shapes = (
 ref = "ph-beng.half";
 },
 {
-pos = (23,-20);
+pos = (28,-20);
 ref = "raphala-beng.alt14";
 }
 );
-width = 552;
+width = 559;
 }
 );
 script = bengali;

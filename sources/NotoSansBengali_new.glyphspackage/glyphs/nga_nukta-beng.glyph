@@ -180,11 +180,11 @@ shapes = (
 ref = "nga-beng";
 },
 {
-pos = (290,1);
+pos = (285,1);
 ref = "nukta-beng";
 }
 );
-width = 478;
+width = 477;
 }
 );
 }

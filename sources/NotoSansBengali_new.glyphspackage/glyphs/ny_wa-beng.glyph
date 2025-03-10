@@ -203,15 +203,15 @@ shapes = (
 ref = "ny-beng.half";
 },
 {
-pos = (205,-104);
+pos = (204,-104);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (204,-110);
+pos = (203,-110);
 ref = "wa-beng.part";
 }
 );
-width = 615;
+width = 610;
 }
 );
 script = bengali;

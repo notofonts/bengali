@@ -671,11 +671,11 @@ shapes = (
 ref = "ng-beng.half";
 },
 {
-pos = (31,-123);
+pos = (32,-123);
 ref = "raphala-beng.alt05";
 }
 );
-width = 451;
+width = 464;
 }
 );
 script = bengali;

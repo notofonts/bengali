@@ -438,7 +438,7 @@ pos = (282,-92);
 ref = "baphala-beng.alt3";
 }
 );
-width = 611;
+width = 616;
 },
 {
 background = {
@@ -560,7 +560,7 @@ pos = (293,-59);
 ref = "baphala-beng.alt3";
 }
 );
-width = 538;
+width = 539;
 }
 );
 script = bengali;

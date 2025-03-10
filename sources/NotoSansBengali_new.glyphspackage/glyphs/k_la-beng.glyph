@@ -587,7 +587,7 @@ ref = "b-beng.half";
 },
 {
 alignment = -1;
-pos = (5,-134);
+pos = (10,-134);
 ref = "la-beng.blws";
 },
 {

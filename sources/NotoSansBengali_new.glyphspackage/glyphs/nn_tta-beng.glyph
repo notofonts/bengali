@@ -578,7 +578,7 @@ pos = (466,0);
 ref = "tta-beng.flag";
 }
 );
-width = 678;
+width = 679;
 },
 {
 background = {
@@ -739,7 +739,7 @@ pos = (387,0);
 ref = "tta-beng.flag";
 }
 );
-width = 585;
+width = 587;
 }
 );
 script = bengali;

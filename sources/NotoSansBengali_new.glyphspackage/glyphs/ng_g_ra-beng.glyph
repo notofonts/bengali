@@ -2749,11 +2749,11 @@ shapes = (
 ref = "ng_g-beng.half";
 },
 {
-pos = (1,-127);
+pos = (6,-127);
 ref = "raphala-beng.alt02";
 }
 );
-width = 457;
+width = 462;
 }
 );
 script = bengali;

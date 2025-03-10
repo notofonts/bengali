@@ -867,7 +867,7 @@ pos = (225,0);
 ref = "ttha-beng.topIMatra";
 }
 );
-width = 520;
+width = 521;
 }
 );
 script = bengali;

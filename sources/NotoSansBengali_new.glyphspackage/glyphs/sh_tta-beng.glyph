@@ -69,7 +69,7 @@ pos = (516,0);
 ref = "tta-beng.flag";
 }
 );
-width = 728;
+width = 729;
 },
 {
 layerId = m006;
@@ -103,7 +103,7 @@ pos = (418,0);
 ref = "tta-beng.flag";
 }
 );
-width = 616;
+width = 618;
 }
 );
 }

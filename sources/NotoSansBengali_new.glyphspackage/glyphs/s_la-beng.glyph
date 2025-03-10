@@ -977,11 +977,11 @@ shapes = (
 ref = "s-beng.half2";
 },
 {
-pos = (48,4);
+pos = (45,4);
 ref = "la-beng.blws2";
 }
 );
-width = 508;
+width = 505;
 },
 {
 associatedMasterId = m005;
@@ -1118,11 +1118,11 @@ shapes = (
 ref = "s-beng.half2";
 },
 {
-pos = (48,4);
+pos = (45,4);
 ref = "la-beng.blws2";
 }
 );
-width = 508;
+width = 505;
 },
 {
 background = {
@@ -1412,11 +1412,11 @@ shapes = (
 ref = "s-beng.half2";
 },
 {
-pos = (61,1);
+pos = (60,1);
 ref = "la-beng.blws2";
 }
 );
-width = 440;
+width = 438;
 }
 );
 script = bengali;

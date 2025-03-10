@@ -754,7 +754,7 @@ pos = (440,0);
 ref = "uMatra-beng.side";
 }
 );
-width = 556;
+width = 555;
 }
 );
 script = bengali;

@@ -890,7 +890,7 @@ pos = (62,0);
 ref = "ttha-beng.top";
 }
 );
-width = 357;
+width = 358;
 }
 );
 script = bengali;

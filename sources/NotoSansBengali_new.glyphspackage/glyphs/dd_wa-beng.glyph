@@ -203,19 +203,19 @@ shapes = (
 ref = "dd-beng.half";
 },
 {
-pos = (162,-92);
+pos = (174,-92);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (164,-102);
+pos = (176,-102);
 ref = "wa-beng.part";
 },
 {
-pos = (345,0);
+pos = (357,0);
 ref = "headline-beng.200";
 }
 );
-width = 457;
+width = 470;
 }
 );
 script = bengali;

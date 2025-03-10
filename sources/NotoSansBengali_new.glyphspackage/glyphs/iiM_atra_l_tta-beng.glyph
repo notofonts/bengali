@@ -666,11 +666,11 @@ pos = (510,0);
 ref = "tta-beng.flagIiMatra";
 },
 {
-pos = (723,0);
+pos = (724,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 928;
+width = 929;
 },
 {
 background = {
@@ -854,11 +854,11 @@ pos = (421,0);
 ref = "tta-beng.flagIiMatra";
 },
 {
-pos = (619,0);
+pos = (621,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 783;
+width = 785;
 }
 );
 script = bengali;

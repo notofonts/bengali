@@ -676,15 +676,15 @@ shapes = (
 ref = "tth-beng.half";
 },
 {
-pos = (15,-125);
+pos = (17,-127);
 ref = "raphala-beng.alt06";
 },
 {
-pos = (54,0);
+pos = (60,0);
 ref = "ttha-beng.top";
 }
 );
-width = 339;
+width = 349;
 }
 );
 script = bengali;

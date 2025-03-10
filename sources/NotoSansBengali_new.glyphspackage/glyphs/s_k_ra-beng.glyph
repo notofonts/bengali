@@ -556,6 +556,12 @@ ref = "headline-beng.200";
 width = 921;
 },
 {
+annotations = (
+{
+pos = (81.295,369.189);
+type = Text;
+}
+);
 background = {
 anchors = (
 {
@@ -723,15 +729,15 @@ alignment = -1;
 ref = "s-beng.half2";
 },
 {
-pos = (33,-137);
+pos = (30,-146);
 ref = "t_ra-beng.blws";
 },
 {
-pos = (391,-136);
+pos = (388,-145);
 ref = "ka-beng.arm2";
 },
 {
-pos = (494,0);
+pos = (491,0);
 ref = "headline-beng.200";
 }
 );
@@ -910,11 +916,11 @@ alignment = -1;
 ref = "s-beng.half2";
 },
 {
-pos = (19,-147);
+pos = (19,-157);
 ref = "t_ra-beng.blws";
 },
 {
-pos = (453,-130);
+pos = (453,-140);
 ref = "ka-beng.arm2";
 },
 {
@@ -933,15 +939,15 @@ pos = (-1,0);
 ref = "s-beng.half2";
 },
 {
-pos = (35,-136);
+pos = (34,-136);
 ref = "t_ra-beng.blws";
 },
 {
-pos = (342,-176);
+pos = (341,-176);
 ref = "ka-beng.arm2";
 },
 {
-pos = (433,0);
+pos = (432,0);
 ref = "headline-beng.200";
 }
 );

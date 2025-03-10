@@ -638,15 +638,15 @@ ref = "ss-beng.half4";
 },
 {
 alignment = -1;
-pos = (288,0);
+pos = (230,0);
 ref = "p-beng.half2";
 },
 {
-pos = (225,-24);
+pos = (157,-24);
 ref = "raphala-beng.alt12";
 }
 );
-width = 1052;
+width = 801;
 },
 {
 background = {
@@ -817,7 +817,7 @@ ref = "ss-beng.half4";
 },
 {
 alignment = -1;
-pos = (216,0);
+pos = (206,0);
 ref = "p-beng.half2";
 },
 {

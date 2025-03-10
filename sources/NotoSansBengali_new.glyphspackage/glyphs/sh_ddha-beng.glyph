@@ -53,7 +53,7 @@ pos = (515,0);
 ref = "ddha-beng.side";
 }
 );
-width = 728;
+width = 729;
 },
 {
 layerId = m006;
@@ -79,7 +79,7 @@ pos = (418,0);
 ref = "ddha-beng.side";
 }
 );
-width = 616;
+width = 618;
 }
 );
 }

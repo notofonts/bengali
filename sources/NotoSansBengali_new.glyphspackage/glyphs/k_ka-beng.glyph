@@ -642,7 +642,7 @@ pos = (438,0);
 ref = "ka-beng.arm1";
 }
 );
-width = 789;
+width = 598;
 },
 {
 background = {
@@ -812,19 +812,19 @@ alignment = -1;
 ref = "b-beng.half2";
 },
 {
-pos = (84,76);
+pos = (79,76);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (278,31);
+pos = (273,31);
 ref = "ka-beng.part";
 },
 {
-pos = (372,0);
+pos = (367,0);
 ref = "ka-beng.arm1";
 }
 );
-width = 514;
+width = 515;
 }
 );
 script = bengali;

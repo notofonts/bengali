@@ -227,19 +227,19 @@ shapes = (
 ref = "ng-beng.half";
 },
 {
-pos = (333,0);
+pos = (334,0);
 ref = "headline-beng.130";
 },
 {
-pos = (413,0);
+pos = (414,0);
 ref = "k_ss-beng.half";
 },
 {
-pos = (440,-24);
+pos = (438,-24);
 ref = "raphala-beng.alt04";
 }
 );
-width = 974;
+width = 972;
 }
 );
 script = bengali;

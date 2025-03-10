@@ -691,11 +691,11 @@ shapes = (
 ref = "t_ra-beng";
 },
 {
-pos = (452,0);
+pos = (451,0);
 ref = "uMatra-beng.side";
 }
 );
-width = 568;
+width = 566;
 }
 );
 script = bengali;

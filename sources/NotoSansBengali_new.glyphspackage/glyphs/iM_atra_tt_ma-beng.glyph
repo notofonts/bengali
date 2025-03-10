@@ -880,15 +880,15 @@ pos = (164,0);
 ref = "ddh-beng.half";
 },
 {
-pos = (314,0);
+pos = (312,0);
 ref = "tta-beng.flagIMatra1";
 },
 {
-pos = (528,0);
+pos = (521,0);
 ref = "ma-beng.side1";
 }
 );
-width = 661;
+width = 654;
 }
 );
 script = bengali;

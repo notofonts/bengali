@@ -664,15 +664,15 @@ pos = (164,0);
 ref = "ddh-beng.half2";
 },
 {
-pos = (171,-74);
+pos = (176,-74);
 ref = "raphala-beng.alt06";
 },
 {
-pos = (322,0);
+pos = (327,0);
 ref = "tta-beng.flagIMatra1";
 }
 );
-width = 518;
+width = 522;
 }
 );
 script = bengali;

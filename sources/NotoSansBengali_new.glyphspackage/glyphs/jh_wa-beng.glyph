@@ -164,15 +164,15 @@ alignment = -1;
 ref = "b-beng.half";
 },
 {
-pos = (76,-77);
+pos = (81,-77);
 ref = "baphala-beng.alt1";
 },
 {
-pos = (105,-91);
+pos = (110,-91);
 ref = "wa-beng.part";
 },
 {
-pos = (442,0);
+pos = (447,0);
 ref = "jh-beng.side";
 }
 );

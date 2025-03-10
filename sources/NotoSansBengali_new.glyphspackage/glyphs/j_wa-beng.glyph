@@ -716,15 +716,15 @@ shapes = (
 ref = "j-beng.half";
 },
 {
-pos = (268,-86);
+pos = (281,-86);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (267,-92);
+pos = (280,-92);
 ref = "wa-beng.part";
 }
 );
-width = 513;
+width = 535;
 }
 );
 script = bengali;

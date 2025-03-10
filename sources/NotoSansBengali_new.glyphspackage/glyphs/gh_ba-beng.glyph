@@ -163,11 +163,11 @@ shapes = (
 ref = "gh-beng.half";
 },
 {
-pos = (123,-24);
+pos = (130,-24);
 ref = "baphala-beng.alt1";
 }
 );
-width = 398;
+width = 405;
 }
 );
 script = bengali;

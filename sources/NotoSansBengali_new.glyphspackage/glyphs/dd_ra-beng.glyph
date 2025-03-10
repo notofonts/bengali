@@ -613,15 +613,15 @@ shapes = (
 ref = "dd-beng.half";
 },
 {
-pos = (18,-125);
+pos = (30,-125);
 ref = "raphala-beng.alt05";
 },
 {
-pos = (345,0);
+pos = (357,0);
 ref = "headline-beng.200";
 }
 );
-width = 457;
+width = 470;
 }
 );
 script = bengali;

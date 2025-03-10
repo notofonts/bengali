@@ -799,7 +799,7 @@ pos = (108,-126);
 ref = "wa-beng.part";
 }
 );
-width = 367;
+width = 377;
 }
 );
 script = bengali;

@@ -682,15 +682,15 @@ shapes = (
 ref = "p-beng.half3";
 },
 {
-pos = (544,0);
+pos = (547,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (545,0);
+pos = (548,0);
 ref = "tta-beng.flag";
 }
 );
-width = 757;
+width = 761;
 },
 {
 background = {
@@ -879,7 +879,7 @@ pos = (452,0);
 ref = "tta-beng.flag";
 }
 );
-width = 650;
+width = 652;
 }
 );
 script = bengali;

@@ -376,11 +376,11 @@ alignment = -1;
 ref = "b-beng.half2";
 },
 {
-pos = (84,76);
+pos = (79,76);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (372,0);
+pos = (367,0);
 ref = "ka-beng.arm";
 }
 );

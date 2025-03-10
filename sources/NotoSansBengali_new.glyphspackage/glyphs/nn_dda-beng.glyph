@@ -1003,7 +1003,7 @@ nodes = (
 );
 }
 );
-width = 506;
+width = 507;
 }
 );
 script = bengali;

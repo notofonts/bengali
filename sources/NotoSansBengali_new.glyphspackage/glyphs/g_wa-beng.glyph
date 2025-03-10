@@ -288,19 +288,19 @@ shapes = (
 ref = "g-beng.half";
 },
 {
-pos = (123,0);
+pos = (120,0);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (136,-39);
+pos = (133,-39);
 ref = "wa-beng.part";
 },
 {
-pos = (302,0);
+pos = (299,0);
 ref = "aaMatra-beng.side";
 }
 );
-width = 408;
+width = 405;
 }
 );
 metricWidth = gababeng;

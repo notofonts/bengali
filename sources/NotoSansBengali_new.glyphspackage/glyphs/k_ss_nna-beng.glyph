@@ -842,7 +842,7 @@ shapes = (
 ref = "k_ss-beng.half";
 },
 {
-pos = (137,-46);
+pos = (137,-41);
 ref = "na-beng.blws";
 }
 );
@@ -1066,11 +1066,11 @@ shapes = (
 ref = "k_ss-beng.half";
 },
 {
-pos = (136,-24);
+pos = (133,-24);
 ref = "na-beng.blws";
 }
 );
-width = 561;
+width = 558;
 }
 );
 script = bengali;

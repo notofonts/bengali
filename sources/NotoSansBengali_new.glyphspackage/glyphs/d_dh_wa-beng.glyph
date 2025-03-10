@@ -554,11 +554,11 @@ pos = (107,-163);
 ref = "wa-beng.part";
 },
 {
-pos = (411,0);
+pos = (421,0);
 ref = "headline-beng.130";
 }
 );
-width = 511;
+width = 521;
 },
 {
 background = {
@@ -707,19 +707,19 @@ alignment = -1;
 ref = "d-beng.half3";
 },
 {
-pos = (60,65);
+pos = (69,65);
 ref = "dh_ba-beng.blws";
 },
 {
-pos = (92,-95);
+pos = (101,-95);
 ref = "wa-beng.part";
 },
 {
-pos = (327,0);
+pos = (350,0);
 ref = "headline-beng.130";
 }
 );
-width = 391;
+width = 414;
 }
 );
 script = bengali;

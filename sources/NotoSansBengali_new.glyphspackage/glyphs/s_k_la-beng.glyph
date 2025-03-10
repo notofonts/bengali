@@ -97,7 +97,7 @@ pos = (365,96);
 ref = "ka-beng.part";
 },
 {
-pos = (374,0);
+pos = (375,0);
 ref = "headline-beng.250";
 },
 {
@@ -105,7 +105,7 @@ pos = (36,-197);
 ref = "la-beng.blws";
 }
 );
-width = 745;
+width = 576;
 },
 {
 layerId = m006;
@@ -137,6 +137,7 @@ width = 670;
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
+alignment = -1;
 ref = "s-beng.half";
 },
 {
@@ -156,7 +157,7 @@ pos = (45,-98);
 ref = "la-beng.blws";
 }
 );
-width = 430;
+width = 486;
 }
 );
 }

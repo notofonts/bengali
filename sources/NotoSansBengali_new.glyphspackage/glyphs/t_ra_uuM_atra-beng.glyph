@@ -718,11 +718,11 @@ pos = (-1,0);
 ref = "t_ra-beng";
 },
 {
-pos = (362,97);
+pos = (361,97);
 ref = "dha-beng.part";
 },
 {
-pos = (462,0);
+pos = (461,0);
 ref = "headline-beng.130";
 }
 );

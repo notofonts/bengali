@@ -642,19 +642,19 @@ shapes = (
 ref = "n-beng.headline";
 },
 {
-pos = (346,0);
+pos = (336,0);
 ref = "ttha-beng.side";
 },
 {
-pos = (4,0);
+pos = (-6,0);
 ref = "n-beng.float";
 },
 {
-pos = (201,0);
+pos = (191,0);
 ref = "ttha-beng.top2";
 }
 );
-width = 480;
+width = 470;
 }
 );
 script = bengali;

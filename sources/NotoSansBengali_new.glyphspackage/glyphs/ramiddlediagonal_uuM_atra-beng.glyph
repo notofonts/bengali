@@ -536,11 +536,11 @@ shapes = (
 ref = "ramiddlediagonal-beng";
 },
 {
-pos = (390,0);
+pos = (385,0);
 ref = "uuMatra-beng.side2";
 }
 );
-width = 491;
+width = 486;
 }
 );
 script = bengali;

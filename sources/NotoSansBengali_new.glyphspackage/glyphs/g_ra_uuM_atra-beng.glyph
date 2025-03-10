@@ -578,7 +578,7 @@ pos = (522,0);
 ref = "uuMatra-beng.side";
 }
 );
-width = 653;
+width = 658;
 },
 {
 background = {
@@ -739,7 +739,7 @@ pos = (440,0);
 ref = "uuMatra-beng.side";
 }
 );
-width = 541;
+width = 560;
 }
 );
 script = bengali;
