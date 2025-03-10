@@ -353,7 +353,7 @@ shapes = (
 ref = "n-beng.half3";
 },
 {
-pos = (17,0);
+pos = (17,-1);
 ref = "ta_uMatra-beng.blws";
 }
 );

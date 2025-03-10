@@ -408,7 +408,7 @@ pos = (216,0);
 ref = "ch-beng.half";
 },
 {
-pos = (233,-87);
+pos = (232,-87);
 ref = "raphala-beng.alt07";
 }
 );

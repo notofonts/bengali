@@ -1213,7 +1213,7 @@ pos = (255,-38);
 },
 {
 name = bottomVattu;
-pos = (255,-15);
+pos = (254,-15);
 },
 {
 name = nukta;
@@ -1302,6 +1302,12 @@ nodes = (
 }
 );
 };
+guides = (
+{
+angle = 270;
+pos = (254,208);
+}
+);
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {

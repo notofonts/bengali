@@ -556,11 +556,11 @@ pos = (205,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (4,-12);
+pos = (4,-7);
 ref = "n-beng.float";
 },
 {
-pos = (75,49);
+pos = (75,46);
 ref = "dh_ba-beng.blws";
 },
 {

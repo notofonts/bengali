@@ -183,7 +183,7 @@ shapes = (
 ref = "j_nya-beng";
 },
 {
-pos = (161,-122);
+pos = (161,-119);
 ref = "baphala-beng.alt2";
 }
 );

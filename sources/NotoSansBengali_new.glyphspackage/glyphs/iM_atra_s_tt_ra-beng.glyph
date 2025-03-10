@@ -850,23 +850,23 @@ shapes = (
 ref = "iMatra-beng.ttaAlt3";
 },
 {
-pos = (204,0);
+pos = (205,0);
 ref = "s-beng.half4";
 },
 {
-pos = (684,0);
+pos = (685,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (419,-131);
+pos = (420,-131);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (683,0);
+pos = (684,0);
 ref = "tta-beng.flagIMatra2";
 }
 );
-width = 883;
+width = 884;
 },
 {
 background = {
@@ -1066,23 +1066,23 @@ shapes = (
 ref = "iMatra-beng.ttaAlt3";
 },
 {
-pos = (232,0);
+pos = (247,0);
 ref = "s-beng.half4";
 },
 {
-pos = (752,0);
+pos = (767,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (420,-205);
+pos = (435,-205);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (747,0);
+pos = (762,0);
 ref = "tta-beng.flagIMatra2";
 }
 );
-width = 964;
+width = 979;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -1091,23 +1091,23 @@ shapes = (
 ref = "iMatra-beng.ttaAlt3";
 },
 {
-pos = (163,0);
+pos = (164,0);
 ref = "s-beng.half4";
 },
 {
-pos = (580,0);
+pos = (581,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (379,-84);
+pos = (380,-84);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (568,0);
+pos = (569,0);
 ref = "tta-beng.flagIMatra2";
 }
 );
-width = 768;
+width = 769;
 }
 );
 script = bengali;

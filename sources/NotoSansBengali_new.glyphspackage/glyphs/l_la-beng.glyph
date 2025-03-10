@@ -695,7 +695,7 @@ pos = (265,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (61,-62);
+pos = (61,-65);
 ref = "la-beng.blws2";
 }
 );

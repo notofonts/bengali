@@ -1396,15 +1396,15 @@ shapes = (
 ref = "iMatra-beng.ttaAlt2";
 },
 {
-pos = (204,0);
+pos = (205,0);
 ref = "k_tta-beng.noflag";
 },
 {
-pos = (527,0);
+pos = (528,0);
 ref = "tta-beng.flagIMatra1";
 }
 );
-width = 752;
+width = 753;
 },
 {
 anchors = (
@@ -1865,15 +1865,15 @@ shapes = (
 ref = "iMatra-beng.ttaAlt2";
 },
 {
-pos = (232,0);
+pos = (247,0);
 ref = "k_tta-beng.noflag";
 },
 {
-pos = (595,0);
+pos = (610,0);
 ref = "tta-beng.flagIMatra1";
 }
 );
-width = 830;
+width = 845;
 },
 {
 anchors = (

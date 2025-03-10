@@ -1293,7 +1293,7 @@ pos = (433,0);
 },
 {
 name = bottomVattu;
-pos = (433,64);
+pos = (432,66);
 },
 {
 name = nukta;
@@ -1306,6 +1306,12 @@ pos = (444,607);
 {
 name = top_vedic;
 pos = (337,607);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (432,151);
 }
 );
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

@@ -243,15 +243,15 @@ shapes = (
 ref = "iMatra-beng.ttaAlt1";
 },
 {
-pos = (204,0);
+pos = (205,0);
 ref = "ddha-beng";
 },
 {
-pos = (406,0);
+pos = (407,0);
 ref = "tta-beng.flagIMatra1";
 }
 );
-width = 619;
+width = 620;
 },
 {
 associatedMasterId = m005;
@@ -301,15 +301,15 @@ shapes = (
 ref = "iMatra-beng.ttaAlt1";
 },
 {
-pos = (232,0);
+pos = (247,0);
 ref = "ddha-beng";
 },
 {
-pos = (483,0);
+pos = (498,0);
 ref = "tta-beng.flagIMatra1";
 }
 );
-width = 686;
+width = 701;
 },
 {
 associatedMasterId = m006;

@@ -987,7 +987,7 @@ pos = (460,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 704;
+width = 707;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -996,7 +996,7 @@ shapes = (
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (12,-208);
+pos = (12,-209);
 ref = "raphala-beng.alt06";
 },
 {

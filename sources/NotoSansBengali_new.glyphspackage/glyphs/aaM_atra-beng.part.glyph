@@ -481,11 +481,11 @@ width = 242;
 anchors = (
 {
 name = bottomMainForm;
-pos = (63,288);
+pos = (63,293);
 },
 {
 name = bottomVattu;
-pos = (63,195);
+pos = (63,192);
 },
 {
 name = top_headline130;

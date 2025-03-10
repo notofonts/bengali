@@ -905,7 +905,7 @@ pos = (-10,43);
 },
 {
 name = bottomMainForm;
-pos = (-78,300);
+pos = (-78,305);
 },
 {
 name = bottomVattu;

@@ -731,11 +731,11 @@ shapes = (
 ref = "m-beng.half3";
 },
 {
-pos = (19,70);
+pos = (18,71);
 ref = "ta-beng.blws";
 },
 {
-pos = (198,-145);
+pos = (197,-144);
 ref = "baphala-beng.alt2";
 }
 );

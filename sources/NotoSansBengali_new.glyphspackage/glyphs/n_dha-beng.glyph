@@ -732,15 +732,15 @@ pos = (205,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (4,-12);
+pos = (4,-7);
 ref = "n-beng.float";
 },
 {
-pos = (75,35);
+pos = (75,32);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (269,-5);
+pos = (269,-8);
 ref = "dha-beng.part";
 },
 {

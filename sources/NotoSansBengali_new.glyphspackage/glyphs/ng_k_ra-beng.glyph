@@ -1006,7 +1006,7 @@ shapes = (
 ref = "ng_ka-beng";
 },
 {
-pos = (-5,-131);
+pos = (-6,-131);
 ref = "raphala-beng.alt11";
 }
 );

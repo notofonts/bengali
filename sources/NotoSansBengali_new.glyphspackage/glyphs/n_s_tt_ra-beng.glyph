@@ -115,19 +115,19 @@ shapes = (
 ref = "n_s-beng.half";
 },
 {
-pos = (507,0);
+pos = (494,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (495,0);
+pos = (482,0);
 ref = "tta-beng.flag";
 },
 {
-pos = (306,-84);
+pos = (293,-84);
 ref = "raphala-beng.alt03";
 }
 );
-width = 695;
+width = 682;
 }
 );
 }

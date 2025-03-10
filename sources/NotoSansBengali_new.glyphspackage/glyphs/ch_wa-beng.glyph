@@ -791,11 +791,11 @@ shapes = (
 ref = "ch-beng.half";
 },
 {
-pos = (109,-120);
+pos = (108,-120);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (108,-126);
+pos = (107,-126);
 ref = "wa-beng.part";
 }
 );

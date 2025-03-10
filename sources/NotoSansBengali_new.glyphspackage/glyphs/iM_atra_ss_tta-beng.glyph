@@ -684,15 +684,15 @@ shapes = (
 ref = "iMatra-beng.ttaAlt1";
 },
 {
-pos = (204,0);
+pos = (205,0);
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (402,0);
+pos = (403,0);
 ref = "tta-beng.flagIMatra3";
 }
 );
-width = 618;
+width = 619;
 },
 {
 background = {
@@ -846,15 +846,15 @@ shapes = (
 ref = "iMatra-beng.ttaAlt1";
 },
 {
-pos = (232,0);
+pos = (247,0);
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (512,0);
+pos = (527,0);
 ref = "tta-beng.flagIMatra3";
 }
 );
-width = 692;
+width = 707;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
