@@ -160,7 +160,7 @@ shapes = (
 ref = "tta-beng";
 },
 {
-pos = (159,3);
+pos = (159,12);
 ref = "nukta-beng";
 }
 );

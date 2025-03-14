@@ -880,11 +880,11 @@ pos = (164,0);
 ref = "ph_tta-beng.noflag";
 },
 {
-pos = (457,0);
+pos = (456,0);
 ref = "tta-beng.flagIMatra1";
 }
 );
-width = 702;
+width = 700;
 }
 );
 script = bengali;

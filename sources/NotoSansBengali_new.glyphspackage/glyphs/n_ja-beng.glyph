@@ -937,7 +937,6 @@ pos = (0,15);
 ref = "n-beng.float";
 },
 {
-pos = (0,1);
 ref = "n-beng.headline";
 },
 {

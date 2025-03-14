@@ -682,11 +682,11 @@ pos = (426,-117);
 },
 {
 name = top_candrabindu;
-pos = (533,635);
+pos = (523,635);
 },
 {
 name = top_vedic;
-pos = (335,635);
+pos = (325,635);
 }
 );
 background = {
