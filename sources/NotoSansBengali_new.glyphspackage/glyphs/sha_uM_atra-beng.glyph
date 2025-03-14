@@ -593,7 +593,7 @@ pos = (467,622);
 },
 {
 name = top_vedic;
-pos = (295,621);
+pos = (294,622);
 }
 );
 guides = (
@@ -719,11 +719,11 @@ pos = (439,-117);
 },
 {
 name = top_candrabindu;
-pos = (558,634);
+pos = (558,635);
 },
 {
 name = top_vedic;
-pos = (356,634);
+pos = (353,635);
 }
 );
 background = {
@@ -863,7 +863,7 @@ pos = (348,622);
 },
 {
 name = top_vedic;
-pos = (267,607);
+pos = (263,607);
 }
 );
 guides = (

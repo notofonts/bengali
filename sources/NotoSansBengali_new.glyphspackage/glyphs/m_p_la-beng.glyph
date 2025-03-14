@@ -83,11 +83,11 @@ ref = "m-beng.half";
 },
 {
 alignment = -1;
-pos = (403,0);
+pos = (353,0);
 ref = "p-beng.half";
 },
 {
-pos = (460,-16);
+pos = (410,-16);
 ref = "la-beng.blws1";
 }
 );

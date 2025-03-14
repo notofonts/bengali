@@ -481,6 +481,12 @@ ref = "headline-beng.250";
 width = 576;
 },
 {
+annotations = (
+{
+pos = (-1342.185,656.094);
+type = Text;
+}
+);
 background = {
 anchors = (
 {
@@ -618,7 +624,7 @@ pos = (377,113);
 ref = "ka-beng.part";
 },
 {
-pos = (389,0);
+pos = (394,0);
 ref = "headline-beng.250";
 }
 );

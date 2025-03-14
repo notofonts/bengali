@@ -169,7 +169,7 @@ shapes = (
 ref = "ss_ttha-beng.notop";
 },
 {
-pos = (157,2);
+pos = (157,3);
 ref = "ttha-beng.topIiMatra";
 },
 {

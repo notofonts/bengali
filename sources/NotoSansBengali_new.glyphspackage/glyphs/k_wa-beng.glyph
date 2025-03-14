@@ -275,7 +275,7 @@ pos = (93,25);
 ref = "wa-beng.part";
 },
 {
-pos = (438,0);
+pos = (438,1);
 ref = "ka-beng.arm";
 },
 {
@@ -375,7 +375,7 @@ pos = (60,5);
 ref = "wa-beng.part";
 },
 {
-pos = (471,0);
+pos = (471,1);
 ref = "ka-beng.arm";
 },
 {

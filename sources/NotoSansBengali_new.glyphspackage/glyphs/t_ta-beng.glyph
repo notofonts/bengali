@@ -576,7 +576,7 @@ pos = (343,3);
 },
 {
 name = bottomMainForm;
-pos = (473,256);
+pos = (476,256);
 },
 {
 name = nukta;
@@ -584,15 +584,15 @@ pos = (98,-19);
 },
 {
 name = top_candrabindu;
-pos = (347,621);
+pos = (347,622);
 },
 {
 name = top_headline200;
-pos = (535,554);
+pos = (530,555);
 },
 {
 name = top_vedic;
-pos = (270,621);
+pos = (269,622);
 }
 );
 layerId = m005;
@@ -668,10 +668,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(546,554,l),
-(546,621,l),
-(-8,621,l),
-(-8,554,l)
+(546,555,l),
+(546,622,l),
+(-8,622,l),
+(-8,555,l)
 );
 }
 );
@@ -693,15 +693,15 @@ pos = (97,-86);
 },
 {
 name = top_candrabindu;
-pos = (399,634);
+pos = (399,635);
 },
 {
 name = top_headline200;
-pos = (601,510);
+pos = (594,511);
 },
 {
 name = top_vedic;
-pos = (296,634);
+pos = (293,635);
 }
 );
 background = {
@@ -805,10 +805,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(594,510,l),
-(594,634,l),
-(-8,634,l),
-(-8,510,l)
+(594,511,l),
+(594,635,l),
+(-8,635,l),
+(-8,511,l)
 );
 }
 );
@@ -834,11 +834,11 @@ pos = (307,607);
 },
 {
 name = top_headline200;
-pos = (470,589);
+pos = (468,589);
 },
 {
 name = top_vedic;
-pos = (245,607);
+pos = (238,607);
 }
 );
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

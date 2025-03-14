@@ -617,7 +617,7 @@ pos = (30,-125);
 ref = "raphala-beng.alt05";
 },
 {
-pos = (357,0);
+pos = (359,0);
 ref = "headline-beng.200";
 }
 );

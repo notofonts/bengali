@@ -561,7 +561,7 @@ pos = (217,606);
 },
 {
 name = top_vedic;
-pos = (206,621);
+pos = (210,622);
 }
 );
 background = {
@@ -803,7 +803,7 @@ pos = (274,618);
 },
 {
 name = top_vedic;
-pos = (227,634);
+pos = (230,635);
 }
 );
 annotations = (
@@ -851,7 +851,7 @@ shapes = (
 ref = "ttha-beng.notop";
 },
 {
-pos = (37,0);
+pos = (37,1);
 ref = "ttha-beng.top";
 }
 );
@@ -877,7 +877,7 @@ pos = (159,598);
 },
 {
 name = top_vedic;
-pos = (177,607);
+pos = (179,607);
 }
 );
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

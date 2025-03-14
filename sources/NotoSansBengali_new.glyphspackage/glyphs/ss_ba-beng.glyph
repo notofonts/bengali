@@ -171,7 +171,6 @@ ref = basubscriptbeng;
 layerId = m006;
 shapes = (
 {
-alignment = -1;
 ref = "ss-beng.half4";
 },
 {
@@ -179,17 +178,16 @@ pos = (10,132);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (265,0);
+pos = (270,0);
 ref = "headline-beng.200";
 }
 );
-width = 457;
+width = 456;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
-alignment = -1;
 ref = "ss-beng.half4";
 },
 {
@@ -197,11 +195,11 @@ pos = (30,94);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (203,0);
+pos = (208,0);
 ref = "headline-beng.200";
 }
 );
-width = 314;
+width = 319;
 }
 );
 script = bengali;

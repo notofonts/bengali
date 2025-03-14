@@ -582,7 +582,7 @@ width = 270;
 anchors = (
 {
 name = _top_flag;
-pos = (85,621);
+pos = (85,622);
 },
 {
 name = top_candrabindu;
@@ -590,7 +590,7 @@ pos = (39,646);
 },
 {
 name = top_vedic;
-pos = (10,621);
+pos = (104,622);
 }
 );
 background = {
@@ -894,7 +894,7 @@ pos = (88,672);
 },
 {
 name = top_vedic;
-pos = (-2,622);
+pos = (102,635);
 }
 );
 background = {
@@ -992,7 +992,7 @@ pos = (40,635);
 },
 {
 name = top_vedic;
-pos = (38,607);
+pos = (99,607);
 }
 );
 background = {

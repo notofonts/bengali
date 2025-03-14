@@ -372,7 +372,7 @@ width = 616;
 anchors = (
 {
 name = top_vedic;
-pos = (234,621);
+pos = (224,622);
 }
 );
 background = {
@@ -498,7 +498,7 @@ width = 449;
 anchors = (
 {
 name = top_vedic;
-pos = (242,634);
+pos = (241,635);
 }
 );
 background = {
@@ -612,7 +612,7 @@ width = 483;
 anchors = (
 {
 name = top_vedic;
-pos = (206,607);
+pos = (224,607);
 }
 );
 background = {

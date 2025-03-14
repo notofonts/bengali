@@ -925,7 +925,7 @@ pos = (475,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (471,0);
+pos = (471,1);
 ref = "tta-beng.flag";
 },
 {

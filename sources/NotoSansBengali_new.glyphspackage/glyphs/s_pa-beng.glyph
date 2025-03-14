@@ -203,11 +203,11 @@ ref = "s-beng.half";
 },
 {
 alignment = -1;
-pos = (389,0);
+pos = (384,0);
 ref = "pa-beng";
 }
 );
-width = 989;
+width = 984;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

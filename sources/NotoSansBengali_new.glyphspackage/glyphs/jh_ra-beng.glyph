@@ -319,7 +319,7 @@ pos = (-6,-51);
 ref = "raphala-beng.alt14";
 },
 {
-pos = (447,0);
+pos = (446,0);
 ref = "jh-beng.side";
 }
 );
@@ -449,11 +449,11 @@ pos = (-9,-128);
 ref = "raphala-beng.alt14";
 },
 {
-pos = (505,0);
+pos = (486,0);
 ref = "jh-beng.side";
 }
 );
-width = 690;
+width = 691;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -467,7 +467,7 @@ pos = (3,11);
 ref = "raphala-beng.alt14";
 },
 {
-pos = (384,0);
+pos = (383,0);
 ref = "jh-beng.side";
 }
 );

@@ -510,11 +510,11 @@ pos = (360,-81);
 },
 {
 name = top_candrabindu;
-pos = (462,621);
+pos = (462,622);
 },
 {
 name = top_vedic;
-pos = (292,621);
+pos = (292,622);
 }
 );
 background = {
@@ -682,11 +682,11 @@ pos = (426,-117);
 },
 {
 name = top_candrabindu;
-pos = (533,634);
+pos = (533,635);
 },
 {
 name = top_vedic;
-pos = (337,634);
+pos = (335,635);
 }
 );
 background = {
@@ -892,7 +892,7 @@ pos = (429,607);
 },
 {
 name = top_vedic;
-pos = (266,607);
+pos = (261,607);
 }
 );
 background = {

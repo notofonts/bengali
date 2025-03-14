@@ -299,19 +299,14 @@ pos = (59,607);
 background = {
 anchors = (
 {
-name = top_candrabindu;
-pos = (-1,625);
-},
-{
-name = top_reph;
-pos = (-84,607);
-},
-{
 name = top_vedic;
-pos = (59,607);
+pos = (25,607);
 }
 );
 shapes = (
+{
+ref = "tta-beng.flag";
+},
 {
 ref = "tta-beng.flag";
 }
@@ -365,7 +360,7 @@ pos = (-138,635);
 },
 {
 name = top_vedic;
-pos = (4,622);
+pos = (4,635);
 }
 );
 background = {
@@ -437,7 +432,7 @@ width = 270;
 anchors = (
 {
 name = _top_flag;
-pos = (84,621);
+pos = (84,622);
 },
 {
 name = top_candrabindu;
@@ -449,7 +444,7 @@ pos = (-95,621);
 },
 {
 name = top_vedic;
-pos = (9,621);
+pos = (21,622);
 }
 );
 background = {
@@ -751,7 +746,7 @@ pos = (-112,634);
 },
 {
 name = top_vedic;
-pos = (-1,622);
+pos = (23,635);
 }
 );
 background = {

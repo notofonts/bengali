@@ -768,7 +768,7 @@ pos = (240,-9);
 ref = "n-beng.float";
 },
 {
-pos = (721,0);
+pos = (721,1);
 ref = "tta-beng.flagIMatra2";
 }
 );

@@ -578,11 +578,11 @@ shapes = (
 ref = "ss-beng.half4";
 },
 {
-pos = (397,0);
+pos = (392,0);
 ref = "ma-beng.side2";
 }
 );
-width = 574;
+width = 569;
 },
 {
 background = {
@@ -723,11 +723,11 @@ shapes = (
 ref = "ss-beng.half4";
 },
 {
-pos = (451,0);
+pos = (456,0);
 ref = "ma-beng.side2";
 }
 );
-width = 673;
+width = 678;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -736,11 +736,11 @@ shapes = (
 ref = "ss-beng.half4";
 },
 {
-pos = (335,0);
+pos = (319,0);
 ref = "ma-beng.side2";
 }
 );
-width = 485;
+width = 475;
 }
 );
 script = bengali;

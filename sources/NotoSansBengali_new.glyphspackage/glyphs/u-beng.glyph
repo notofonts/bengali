@@ -273,7 +273,7 @@ pos = (318,646);
 },
 {
 name = top_vedic;
-pos = (268,621);
+pos = (269,622);
 }
 );
 background = {
@@ -359,11 +359,11 @@ width = 538;
 anchors = (
 {
 name = top_candrabindu;
-pos = (391,679);
+pos = (390,681);
 },
 {
 name = top_vedic;
-pos = (281,634);
+pos = (281,635);
 }
 );
 background = {
@@ -455,7 +455,7 @@ pos = (224,635);
 },
 {
 name = top_vedic;
-pos = (235,607);
+pos = (239,607);
 }
 );
 background = {

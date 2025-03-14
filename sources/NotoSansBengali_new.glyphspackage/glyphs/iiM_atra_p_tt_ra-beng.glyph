@@ -894,7 +894,7 @@ pos = (260,-205);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (587,0);
+pos = (587,1);
 ref = "tta-beng.flagIiMatra";
 },
 {

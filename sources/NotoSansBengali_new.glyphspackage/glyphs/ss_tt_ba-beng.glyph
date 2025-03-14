@@ -71,7 +71,7 @@ shapes = (
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (199,0);
+pos = (199,1);
 ref = "tta-beng.flag3";
 },
 {
@@ -98,7 +98,7 @@ shapes = (
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (280,0);
+pos = (280,1);
 ref = "tta-beng.flag3";
 },
 {

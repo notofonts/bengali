@@ -304,11 +304,11 @@ pos = (403,41);
 ref = "ka-beng.arm2";
 },
 {
-pos = (539,0);
+pos = (533,0);
 ref = "headline-beng.200";
 }
 );
-width = 680;
+width = 688;
 },
 {
 background = {
@@ -381,7 +381,7 @@ pos = (452,66);
 ref = "ka-beng.arm2";
 },
 {
-pos = (574,0);
+pos = (575,0);
 ref = "headline-beng.200";
 }
 );
@@ -403,11 +403,11 @@ pos = (350,10);
 ref = "ka-beng.arm2";
 },
 {
-pos = (459,0);
+pos = (452,0);
 ref = "headline-beng.200";
 }
 );
-width = 570;
+width = 563;
 }
 );
 script = bengali;

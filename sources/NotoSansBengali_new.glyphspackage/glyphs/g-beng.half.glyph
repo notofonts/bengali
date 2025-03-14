@@ -471,7 +471,7 @@ pos = (344,440);
 },
 {
 name = top_vedic;
-pos = (240,621);
+pos = (241,622);
 }
 );
 background = {
@@ -573,7 +573,7 @@ pos = (348,440);
 },
 {
 name = top_vedic;
-pos = (265,634);
+pos = (270,635);
 }
 );
 background = {
@@ -675,7 +675,7 @@ pos = (313,440);
 },
 {
 name = top_vedic;
-pos = (201,607);
+pos = (202,607);
 }
 );
 background = {

@@ -476,7 +476,7 @@ pos = (126,0);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (377,-28);
+pos = (378,-28);
 ref = "dha-beng.part";
 },
 {
@@ -488,7 +488,7 @@ pos = (484,0);
 ref = "headline-beng.130";
 }
 );
-width = 588;
+width = 594;
 },
 {
 background = {
@@ -527,7 +527,7 @@ pos = (120,13);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (416,-6);
+pos = (411,-6);
 ref = "dha-beng.part";
 },
 {
@@ -535,13 +535,21 @@ pos = (333,0);
 ref = "aaMatra-beng.side";
 },
 {
-pos = (541,0);
+pos = (549,0);
 ref = "headline-beng.130";
 }
 );
-width = 722;
+width = 721;
 },
 {
+background = {
+shapes = (
+{
+pos = (120,-2);
+ref = "dh_ba-beng.blws";
+}
+);
+};
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
@@ -553,7 +561,7 @@ pos = (120,0);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (314,-40);
+pos = (313,-43);
 ref = "dha-beng.part";
 },
 {
@@ -561,11 +569,11 @@ pos = (299,0);
 ref = "aaMatra-beng.side";
 },
 {
-pos = (410,0);
+pos = (405,0);
 ref = "headline-beng.130";
 }
 );
-width = 477;
+width = 478;
 }
 );
 script = bengali;

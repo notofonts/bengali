@@ -740,7 +740,7 @@ pos = (-22,-107);
 ref = "la-beng.blws";
 },
 {
-pos = (482,0);
+pos = (482,1);
 ref = "ka-beng.arm";
 }
 );

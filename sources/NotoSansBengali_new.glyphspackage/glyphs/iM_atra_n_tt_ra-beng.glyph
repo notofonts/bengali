@@ -953,7 +953,7 @@ pos = (241,1);
 ref = "n-beng.float";
 },
 {
-pos = (717,0);
+pos = (717,1);
 ref = "tta-beng.flagIMatra2";
 }
 );

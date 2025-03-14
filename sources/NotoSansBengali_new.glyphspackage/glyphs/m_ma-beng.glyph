@@ -745,7 +745,7 @@ pos = (392,0);
 ref = "ma-beng.side2";
 }
 );
-width = 542;
+width = 548;
 }
 );
 script = bengali;

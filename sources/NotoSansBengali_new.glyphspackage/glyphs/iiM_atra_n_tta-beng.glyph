@@ -764,7 +764,7 @@ pos = (-7,-9);
 ref = "n-beng.float";
 },
 {
-pos = (474,0);
+pos = (474,1);
 ref = "tta-beng.flagIiMatra";
 },
 {

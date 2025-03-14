@@ -386,7 +386,7 @@ pos = (485,0);
 ref = "ttha-beng.side";
 },
 {
-pos = (225,0);
+pos = (225,1);
 ref = "ttha-beng.top2";
 }
 );

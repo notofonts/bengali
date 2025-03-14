@@ -385,23 +385,23 @@ pos = (348,265);
 },
 {
 name = bottomVattuPart;
-pos = (439,343);
+pos = (435,343);
 },
 {
 name = top_candrabindu;
-pos = (366,612);
+pos = (366,622);
 },
 {
 name = top_headline130;
-pos = (503,554);
+pos = (497,555);
 },
 {
 name = top_headline200;
-pos = (487,554);
+pos = (486,555);
 },
 {
 name = top_vedic;
-pos = (251,621);
+pos = (252,622);
 }
 );
 background = {
@@ -525,10 +525,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(513,554,l),
-(513,621,l),
-(-8,621,l),
-(-8,554,l)
+(513,555,l),
+(513,622,l),
+(-8,622,l),
+(-8,555,l)
 );
 }
 );
@@ -542,23 +542,23 @@ pos = (347,249);
 },
 {
 name = bottomVattuPart;
-pos = (489,321);
+pos = (486,321);
 },
 {
 name = top_candrabindu;
-pos = (362,632);
+pos = (362,635);
 },
 {
 name = top_headline130;
-pos = (555,510);
+pos = (555,511);
 },
 {
 name = top_headline200;
-pos = (562,510);
+pos = (562,511);
 },
 {
 name = top_vedic;
-pos = (281,634);
+pos = (283,635);
 }
 );
 background = {
@@ -651,10 +651,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(570,510,l),
-(570,634,l),
-(-8,634,l),
-(-8,510,l)
+(570,511,l),
+(570,635,l),
+(-8,635,l),
+(-8,511,l)
 );
 }
 );
@@ -668,7 +668,7 @@ pos = (327,258);
 },
 {
 name = bottomVattuPart;
-pos = (354,341);
+pos = (350,341);
 },
 {
 name = top_candrabindu;
@@ -676,7 +676,7 @@ pos = (313,607);
 },
 {
 name = top_headline130;
-pos = (442,589);
+pos = (430,589);
 },
 {
 name = top_headline200;

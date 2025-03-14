@@ -99,11 +99,11 @@ pos = (392,0);
 ref = "pha-beng.side";
 },
 {
-pos = (122,-141);
+pos = (130,-141);
 ref = "raphala-beng.alt01";
 }
 );
-width = 679;
+width = 687;
 }
 );
 }

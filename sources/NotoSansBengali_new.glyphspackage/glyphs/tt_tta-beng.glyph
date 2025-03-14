@@ -620,7 +620,7 @@ shapes = (
 ref = "tt_tta-beng.noflag";
 },
 {
-pos = (304,0);
+pos = (304,1);
 ref = "tta-beng.flag";
 }
 );

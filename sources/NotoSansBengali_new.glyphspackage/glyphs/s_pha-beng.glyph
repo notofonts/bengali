@@ -542,11 +542,11 @@ shapes = (
 ref = "s-beng.half";
 },
 {
-pos = (487,0);
+pos = (490,0);
 ref = "pha-beng.side";
 }
 );
-width = 815;
+width = 818;
 },
 {
 background = {
@@ -691,7 +691,7 @@ shapes = (
 ref = "s-beng.half";
 },
 {
-pos = (430,0);
+pos = (422,0);
 ref = "pha-beng.side";
 }
 );

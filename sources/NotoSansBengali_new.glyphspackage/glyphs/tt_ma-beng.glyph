@@ -839,7 +839,7 @@ shapes = (
 ref = "ddh-beng.half";
 },
 {
-pos = (239,0);
+pos = (239,1);
 ref = "tta-beng.flag";
 },
 {

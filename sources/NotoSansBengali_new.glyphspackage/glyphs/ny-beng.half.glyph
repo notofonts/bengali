@@ -645,11 +645,11 @@ pos = (368,67);
 },
 {
 name = top_candrabindu;
-pos = (333,621);
+pos = (333,622);
 },
 {
 name = top_vedic;
-pos = (347,621);
+pos = (347,622);
 }
 );
 background = {
@@ -912,11 +912,11 @@ pos = (373,56);
 },
 {
 name = top_candrabindu;
-pos = (414,634);
+pos = (414,635);
 },
 {
 name = top_vedic;
-pos = (404,634);
+pos = (396,635);
 }
 );
 background = {
@@ -1183,7 +1183,7 @@ pos = (305,607);
 },
 {
 name = top_vedic;
-pos = (307,607);
+pos = (305,607);
 }
 );
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

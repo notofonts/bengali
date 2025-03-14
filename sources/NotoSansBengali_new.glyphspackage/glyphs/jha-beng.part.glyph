@@ -724,7 +724,7 @@ width = 318;
 anchors = (
 {
 name = _bottomJhaVattuSide;
-pos = (49,21);
+pos = (44,21);
 },
 {
 name = bottomJhaVattuSide;
@@ -889,7 +889,7 @@ width = 263;
 anchors = (
 {
 name = _bottomJhaVattuSide;
-pos = (25,7);
+pos = (15,7);
 },
 {
 name = bottomJhaVattuSide;

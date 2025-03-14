@@ -859,7 +859,7 @@ width = 846;
 anchors = (
 {
 name = top_candrabindu;
-pos = (472,617);
+pos = (472,607);
 },
 {
 name = top_vedic;
@@ -1509,7 +1509,7 @@ pos = (381,622);
 },
 {
 name = top_vedic;
-pos = (325,621);
+pos = (326,622);
 }
 );
 background = {
@@ -1628,9 +1628,9 @@ shapes = (
 closed = 1;
 nodes = (
 (431,0,l),
-(431,621,l),
-(413,686,l),
-(357,686,l),
+(431,622,l),
+(413,687,l),
+(357,687,l),
 (357,474,l),
 (373,511,l),
 (274,465,o),
@@ -1703,9 +1703,9 @@ nodes = (
 closed = 1;
 nodes = (
 (588,72,l),
-(588,621,l),
-(569,686,l),
-(513,686,l),
+(588,622,l),
+(569,687,l),
+(513,687,l),
 (513,255,ls),
 (513,208,o),
 (514,183,o),
@@ -2145,11 +2145,11 @@ width = 846;
 anchors = (
 {
 name = top_candrabindu;
-pos = (397,634);
+pos = (397,635);
 },
 {
 name = top_vedic;
-pos = (412,586);
+pos = (375,635);
 }
 );
 background = {
@@ -2496,11 +2496,11 @@ width = 745;
 anchors = (
 {
 name = top_candrabindu;
-pos = (330,617);
+pos = (330,607);
 },
 {
 name = top_vedic;
-pos = (269,607);
+pos = (270,607);
 }
 );
 background = {

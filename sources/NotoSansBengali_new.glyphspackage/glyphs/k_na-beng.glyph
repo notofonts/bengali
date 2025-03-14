@@ -470,7 +470,7 @@ pos = (64,-72);
 ref = "na-beng.blws";
 },
 {
-pos = (460,0);
+pos = (460,1);
 ref = "ka-beng.arm";
 }
 );
@@ -531,7 +531,7 @@ pos = (28,-58);
 ref = "na-beng.blws";
 },
 {
-pos = (482,0);
+pos = (482,1);
 ref = "ka-beng.arm";
 }
 );

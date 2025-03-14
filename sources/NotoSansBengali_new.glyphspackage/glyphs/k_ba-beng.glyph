@@ -231,7 +231,7 @@ pos = (75,76);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (438,0);
+pos = (438,1);
 ref = "ka-beng.arm";
 }
 );
@@ -362,7 +362,7 @@ pos = (42,62);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (471,0);
+pos = (471,1);
 ref = "ka-beng.arm";
 }
 );

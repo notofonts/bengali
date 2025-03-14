@@ -190,7 +190,7 @@ pos = (236,-41);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (486,0);
+pos = (486,1);
 ref = "tta-beng.flagIMatra1";
 }
 );

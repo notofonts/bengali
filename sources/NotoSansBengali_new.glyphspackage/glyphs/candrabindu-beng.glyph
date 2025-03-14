@@ -289,7 +289,7 @@ width = 0;
 anchors = (
 {
 name = _top_candrabindu;
-pos = (0,621);
+pos = (0,622);
 }
 );
 background = {
@@ -383,7 +383,7 @@ width = 0;
 anchors = (
 {
 name = _top_candrabindu;
-pos = (0,634);
+pos = (0,635);
 }
 );
 background = {

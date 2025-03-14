@@ -826,7 +826,7 @@ pos = (173,-102);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (394,19);
+pos = (399,19);
 ref = "jha-beng.part";
 }
 );
@@ -1050,7 +1050,7 @@ pos = (204,-104);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (358,1);
+pos = (368,1);
 ref = "jha-beng.part";
 }
 );

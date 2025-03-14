@@ -210,7 +210,7 @@ pos = (272,-88);
 ref = "wa-beng.part";
 },
 {
-pos = (486,0);
+pos = (486,1);
 ref = "tta-beng.flagIMatra1";
 }
 );

@@ -846,7 +846,7 @@ shapes = (
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (280,0);
+pos = (280,1);
 ref = "tta-beng.flagIiMatra3";
 },
 {

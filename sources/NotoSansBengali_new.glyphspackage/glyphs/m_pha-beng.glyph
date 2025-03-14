@@ -684,7 +684,7 @@ pos = (392,0);
 ref = "pha-beng.side";
 }
 );
-width = 679;
+width = 687;
 }
 );
 script = bengali;

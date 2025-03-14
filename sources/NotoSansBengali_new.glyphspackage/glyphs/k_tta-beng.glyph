@@ -1849,7 +1849,7 @@ shapes = (
 ref = "k_tta-beng.noflag";
 },
 {
-pos = (362,0);
+pos = (362,1);
 ref = "tta-beng.flag2";
 }
 );

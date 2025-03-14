@@ -363,11 +363,11 @@ width = 595;
 anchors = (
 {
 name = top_candrabindu;
-pos = (309,621);
+pos = (309,622);
 },
 {
 name = top_vedic;
-pos = (188,621);
+pos = (209,622);
 }
 );
 background = {
@@ -398,10 +398,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(325,554,l),
-(325,621,l),
-(-8,621,l),
-(-8,554,l)
+(325,555,l),
+(325,622,l),
+(-8,622,l),
+(-8,555,l)
 );
 }
 );
@@ -519,11 +519,11 @@ width = 604;
 anchors = (
 {
 name = top_candrabindu;
-pos = (342,634);
+pos = (342,635);
 },
 {
 name = top_vedic;
-pos = (224,634);
+pos = (237,635);
 }
 );
 background = {
@@ -554,10 +554,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(391,510,l),
-(391,634,l),
-(-8,634,l),
-(-8,510,l)
+(391,511,l),
+(391,635,l),
+(-8,635,l),
+(-8,511,l)
 );
 }
 );
@@ -571,7 +571,7 @@ pos = (264,607);
 },
 {
 name = top_vedic;
-pos = (140,607);
+pos = (168,607);
 }
 );
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

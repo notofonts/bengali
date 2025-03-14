@@ -61,15 +61,15 @@ shapes = (
 ref = "s-beng.half";
 },
 {
-pos = (487,0);
+pos = (490,0);
 ref = "pha-beng.side";
 },
 {
-pos = (153,-181);
+pos = (156,-181);
 ref = "raphala-beng.alt01";
 }
 );
-width = 815;
+width = 818;
 },
 {
 layerId = m006;
@@ -95,7 +95,7 @@ shapes = (
 ref = "s-beng.half";
 },
 {
-pos = (430,0);
+pos = (422,0);
 ref = "pha-beng.side";
 },
 {

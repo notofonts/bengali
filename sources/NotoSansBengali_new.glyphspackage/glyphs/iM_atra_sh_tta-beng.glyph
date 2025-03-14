@@ -103,7 +103,7 @@ pos = (822,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (821,0);
+pos = (821,1);
 ref = "tta-beng.flagIMatra2";
 }
 );
