@@ -456,7 +456,7 @@ pos = (434,189);
 },
 {
 name = bottom;
-pos = (377,-98);
+pos = (377,-95);
 },
 {
 name = bottomVattu;
@@ -596,7 +596,7 @@ pos = (472,216);
 },
 {
 name = bottom;
-pos = (378,-146);
+pos = (397,-136);
 },
 {
 name = bottomVattu;
@@ -736,7 +736,7 @@ pos = (356,190);
 },
 {
 name = bottom;
-pos = (303,-31);
+pos = (303,-19);
 },
 {
 name = bottomVattu;

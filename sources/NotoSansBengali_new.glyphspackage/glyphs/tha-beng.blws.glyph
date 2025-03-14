@@ -1179,7 +1179,7 @@ pos = (215,413);
 },
 {
 name = bottom;
-pos = (138,93);
+pos = (138,105);
 },
 {
 name = bottomMainForm;
@@ -1703,7 +1703,7 @@ pos = (211,444);
 },
 {
 name = bottom;
-pos = (93,99);
+pos = (103,111);
 },
 {
 name = bottomMainForm;
@@ -1853,7 +1853,7 @@ pos = (204,413);
 },
 {
 name = bottom;
-pos = (147,169);
+pos = (147,174);
 },
 {
 name = bottomMainForm;

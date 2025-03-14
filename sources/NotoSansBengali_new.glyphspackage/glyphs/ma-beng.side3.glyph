@@ -614,7 +614,7 @@ width = 180;
 anchors = (
 {
 name = bottom;
-pos = (19,-152);
+pos = (18,-152);
 },
 {
 name = bottomMainForm;

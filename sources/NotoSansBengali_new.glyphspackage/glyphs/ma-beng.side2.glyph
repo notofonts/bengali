@@ -658,7 +658,7 @@ width = 177;
 anchors = (
 {
 name = bottom;
-pos = (20,-102);
+pos = (19,-102);
 },
 {
 name = nukta;
@@ -810,7 +810,7 @@ width = 222;
 anchors = (
 {
 name = bottom;
-pos = (65,1);
+pos = (64,1);
 },
 {
 name = nukta;
@@ -847,8 +847,8 @@ nodes = (
 (65,138,o),
 (65,112,o),
 (67,81,c),
-(65,81,l),
-(65,1,l)
+(64,81,l),
+(64,1,l)
 );
 },
 {

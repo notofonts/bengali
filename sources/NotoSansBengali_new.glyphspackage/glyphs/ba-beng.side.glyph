@@ -391,7 +391,7 @@ width = 430;
 anchors = (
 {
 name = bottom;
-pos = (167,0);
+pos = (168,0);
 },
 {
 name = bottom.Wa;
@@ -489,7 +489,7 @@ width = 308;
 anchors = (
 {
 name = bottom;
-pos = (147,0);
+pos = (146,0);
 },
 {
 name = bottom.Wa;
@@ -605,7 +605,7 @@ width = 349;
 anchors = (
 {
 name = bottom;
-pos = (178,0);
+pos = (176,0);
 },
 {
 name = bottom.Wa;
@@ -675,7 +675,7 @@ nodes = (
 (-74,294,l),
 (37,255,o),
 (128,159,o),
-(177,0,c)
+(176,0,c)
 );
 },
 {

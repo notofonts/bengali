@@ -826,23 +826,23 @@ width = 454;
 anchors = (
 {
 name = bottom;
-pos = (216,72);
+pos = (208,75);
 },
 {
 name = nukta;
-pos = (167,-68);
+pos = (159,-65);
 },
 {
 name = top_candrabindu;
-pos = (178,625);
+pos = (170,628);
 },
 {
 name = top_reph;
-pos = (136,607);
+pos = (128,610);
 },
 {
 name = top_vedic;
-pos = (179,607);
+pos = (171,610);
 }
 );
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

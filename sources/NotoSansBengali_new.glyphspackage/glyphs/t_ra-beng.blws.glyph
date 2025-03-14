@@ -2067,7 +2067,7 @@ pos = (328,406);
 },
 {
 name = bottom;
-pos = (364,0);
+pos = (362,0);
 },
 {
 name = bottomMainForm;
@@ -2641,7 +2641,7 @@ pos = (292,394);
 },
 {
 name = bottom;
-pos = (318,0);
+pos = (318,-3);
 },
 {
 name = bottomMainForm;
@@ -2785,7 +2785,7 @@ nodes = (
 (239,86,cs),
 (289,86,o),
 (307,42,o),
-(319,-3,c)
+(318,-3,c)
 );
 }
 );

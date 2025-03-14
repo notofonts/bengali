@@ -652,7 +652,7 @@ width = 161;
 anchors = (
 {
 name = bottom;
-pos = (31,-251);
+pos = (30,-251);
 },
 {
 name = nukta;

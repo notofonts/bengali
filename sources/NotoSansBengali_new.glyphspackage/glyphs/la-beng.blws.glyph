@@ -696,7 +696,7 @@ pos = (306,181);
 },
 {
 name = bottom;
-pos = (306,-74);
+pos = (304,-74);
 },
 {
 name = nukta;

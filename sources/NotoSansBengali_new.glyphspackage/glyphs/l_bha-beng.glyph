@@ -632,7 +632,7 @@ width = 726;
 anchors = (
 {
 name = bottom;
-pos = (349,-154);
+pos = (349,-143);
 },
 {
 name = bottomVattu;
@@ -860,7 +860,7 @@ width = 524;
 anchors = (
 {
 name = bottom;
-pos = (345,-231);
+pos = (325,-237);
 },
 {
 name = bottomVattu;
@@ -1152,7 +1152,7 @@ width = 579;
 anchors = (
 {
 name = bottom;
-pos = (321,-57);
+pos = (316,-51);
 },
 {
 name = bottomVattu;

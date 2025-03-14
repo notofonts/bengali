@@ -423,7 +423,7 @@ width = 825;
 anchors = (
 {
 name = bottom;
-pos = (490,-29);
+pos = (493,-17);
 },
 {
 name = bottom_vedic;
@@ -549,7 +549,7 @@ width = 609;
 anchors = (
 {
 name = bottom;
-pos = (473,-68);
+pos = (482,-66);
 },
 {
 name = bottom_vedic;
@@ -669,7 +669,7 @@ width = 651;
 anchors = (
 {
 name = bottom;
-pos = (481,-19);
+pos = (484,-18);
 },
 {
 name = bottom_vedic;

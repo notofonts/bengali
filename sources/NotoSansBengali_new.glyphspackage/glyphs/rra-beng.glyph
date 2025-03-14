@@ -129,7 +129,7 @@ width = 725;
 anchors = (
 {
 name = bottom;
-pos = (298,-256);
+pos = (321,-235);
 }
 );
 background = {
@@ -201,7 +201,7 @@ width = 568;
 anchors = (
 {
 name = bottom;
-pos = (311,-230);
+pos = (321,-214);
 }
 );
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

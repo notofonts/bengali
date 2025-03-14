@@ -916,7 +916,7 @@ width = 522;
 anchors = (
 {
 name = bottom;
-pos = (362,-256);
+pos = (341,-256);
 },
 {
 name = top_candrabindu;
@@ -1075,7 +1075,7 @@ width = 557;
 anchors = (
 {
 name = bottom;
-pos = (358,-145);
+pos = (356,-145);
 },
 {
 name = top_candrabindu;
@@ -1247,7 +1247,7 @@ nodes = (
 (265,-67,cs),
 (308,-67,o),
 (334,-94,o),
-(357,-145,c)
+(356,-145,c)
 );
 },
 {

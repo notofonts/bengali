@@ -703,7 +703,7 @@ width = 634;
 anchors = (
 {
 name = bottom;
-pos = (281,-177);
+pos = (298,-151);
 },
 {
 name = bottom.Wa;
@@ -893,7 +893,7 @@ width = 442;
 anchors = (
 {
 name = bottom;
-pos = (284,-230);
+pos = (295,-211);
 },
 {
 name = bottom.Wa;
@@ -1133,7 +1133,7 @@ width = 516;
 anchors = (
 {
 name = bottom;
-pos = (232,-133);
+pos = (239,-117);
 },
 {
 name = bottom.Wa;
