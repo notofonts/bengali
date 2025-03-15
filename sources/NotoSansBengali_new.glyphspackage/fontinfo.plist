@@ -586,11 +586,6 @@ lookup BNG_dflt_dist_floatingPart{
 	# aaMatra-beng.float
 	pos j-beng.half' aaMatra-beng.float <0 0 $NUM_RSB_aaMatraFloat 0>;
 }BNG_dflt_dist_floatingPart;
-
-lookup BNG_dflt_dist_LSB{
-	lookupflag 0;
-	pos p-beng.half2' t_ra-beng.blws <$NUM_LSB_pTRa 0 $NUM_LSB_pTRa 0>;
-} BNG_dflt_dist_LSB;
 ";
 tag = dist;
 },
