@@ -566,7 +566,7 @@ alignment = -1;
 ref = "s-beng.half";
 },
 {
-pos = (86,132);
+pos = (86,112);
 ref = "baphala-beng.alt4";
 },
 {
@@ -574,7 +574,7 @@ pos = (354,0);
 ref = "headline-beng.200";
 }
 );
-width = 540;
+width = 550;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

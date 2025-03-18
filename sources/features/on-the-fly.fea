@@ -847,7 +847,7 @@ lookup BNG_dflt_pres_onTheFly_triconsonant {
     lookupflag UseMarkFilteringSet [raphala-beng t_ra-beng.blws];
     sub [ss-beng.half3 s-beng.half2] ka-beng' raphala-beng' by t_ra-beng.blws;
     # sub t_ra
-    sub [n-beng.half2 p-beng.half2 m-beng.half2 s-beng.half2] ta-beng' raphala-beng' by t_ra-beng.blws;
+    sub [n-beng.half2 p-beng.half m-beng.half2 s-beng.half2] ta-beng' raphala-beng' by t_ra-beng.blws;
 
 } BNG_dflt_pres_onTheFly_triconsonant;
 
@@ -1294,7 +1294,7 @@ lookup BNG_dflt_blws_ligatures_onTheFly_1 {
     lookupflag UseMarkFilteringSet [uMatra-beng uMatra-beng.side uuMatra-beng uuMatra-beng.side @BNG_RAPHALAS la-beng.blws2 ka-beng.arm2];
     ignore sub t_ra-beng ka-beng.arm2 uMatra-beng';
     sub [ra-beng ramiddlediagonal-beng ralowerdiagonal-beng t_ra-beng] uMatra-beng' by uMatra-beng.side;
-    sub [ra-beng ramiddlediagonal-beng ralowerdiagonal-beng ] uuMatra-beng' by uuMatra-beng.side;
+    sub [ra-beng ramiddlediagonal-beng ralowerdiagonal-beng ] uuMatra-beng' by uuMatra-beng.side2;
     sub [@BNG_BLWS_SIDEUMATRA_BASE d-beng.half2 bh-beng.half s-beng.half2] [@BNG_RAPHALAS la-beng.blws2] [uMatra-beng]' by uMatra-beng.side;
     sub @BNG_BLWS_SIDEUMATRA_BASE @BNG_RAPHALAS uuMatra-beng' by uuMatra-beng.side;
 } BNG_dflt_blws_ligatures_onTheFly_1;
