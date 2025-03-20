@@ -429,7 +429,7 @@ layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
 piece = {
-Length = 560;
+Length = 480;
 };
 ref = "_smart-iMatra-beng";
 }

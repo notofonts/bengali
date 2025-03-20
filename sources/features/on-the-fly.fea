@@ -73,7 +73,7 @@ languagesystem bng2 PAL;
 @BNG_BASE_IMATRA_LONG03 = [l_ra-beng n_sa-beng d_bha-beng d_da-beng c_nya-beng nn_dda-beng la-beng s-beng.half3 ];
 @BNG_BASE_IMATRA_LONG04 = [j_ra-beng s_kha-beng b_d_ra-beng b_da-beng m_da-beng j-beng.half d_d-beng.half];
 @BNG_BASE_IMATRA_LONG05 = [l_pha-beng dd_dda-beng k_sa-beng k_ma-beng l_sa-beng n_ja-beng];
-@BNG_BASE_IMATRA_LONG06 = [b_ja-beng p_sa-beng ];
+@BNG_BASE_IMATRA_LONG06 = [b_ja-beng p_sa-beng l_gha-beng];
 @BNG_BASE_IMATRA_LONG07 = [j_ja-beng j_j_ba-beng k_ss_ma-beng];
 # @BNG_BASE_IMATRA_LONG08 = [];
 # @BNG_BASE_IMATRA_LONG09 = [];
@@ -1036,7 +1036,7 @@ lookup BNG_dflt_pres_addHeadlineStem {
     sub [ss-beng.half4 s-beng.half] baphala-beng.alt4 ka-beng.part' by ka-beng.part headline-beng.250;
     sub [ha-beng h-beng.half h-beng.half2] ka-beng.arm2' by ka-beng.arm2 headline-beng.250;
     # Add ba headline
-    ignore sub b-beng.half [raphala-beng la-beng.blws]' jh-beng.side;
+    ignore sub b-beng.half [raphala-beng.alt14 la-beng.blws]' jh-beng.side;
     ignore sub b-beng.half raphala-beng' [uMatra-beng uuMatra-beng];
     sub b-beng.half [raphala-beng.alt14 la-beng.blws]' by [raphala-beng.alt14 la-beng.blws] headline-beng.ba;
     sub b-beng.half2 baphala-beng.alt4 dha-beng.part' by dha-beng.part headline-beng.250;
@@ -1266,8 +1266,8 @@ lookup BNG_dflt_abvs_shorterIMatraReph { # For glyphs with nubs where the reph a
     sub iMatra-beng' [kh-beng.half ga-beng tha-beng th-beng.half] reph-beng by iMatra-beng.short02;
     sub iMatra-beng' [nna-beng] reph-beng by iMatra-beng.short03;
     # sub iMatra.short02
-    sub iMatra-beng.short02' ny_ca-beng by iMatra-beng.short03;
-    sub iMatra-beng.short02' nn-beng.half aaMatra-beng.side by iMatra-beng.short03;
+    sub iMatra-beng.short02' ny_ca-beng reph-beng by iMatra-beng.short03;
+    sub iMatra-beng.short02' nn-beng.half aaMatra-beng.side reph-beng by iMatra-beng.short03;
 } BNG_dflt_abvs_shorterIMatraReph;
 
 language PAL;

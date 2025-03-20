@@ -425,11 +425,17 @@ name = top_iMatra;
 pos = (839,697);
 }
 );
+annotations = (
+{
+pos = (178.157,3678.944);
+type = Text;
+}
+);
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
 piece = {
-Length = 650;
+Length = 590;
 };
 ref = "_smart-iMatra-beng";
 }
