@@ -236,7 +236,7 @@ shapes = (
 ref = "t-beng.half";
 },
 {
-pos = (146,39);
+pos = (146,38);
 ref = "na-beng.blws2";
 }
 );

@@ -559,7 +559,7 @@ pos = (418,0);
 ref = "ca-beng.side";
 }
 );
-width = 601;
+width = 581;
 }
 );
 script = bengali;

@@ -1258,7 +1258,7 @@ numberValues = (
 158,
 -195,
 -127,
--121,
+-124,
 -160,
 -126,
 -162,
@@ -1384,7 +1384,7 @@ numberValues = (
 208,
 -239,
 -119,
--152,
+-162,
 -188,
 -169,
 -197,
@@ -3285,7 +3285,7 @@ m005 = {
 };
 "@MMK_L_R_BNG_da_half" = {
 "@MMK_R_L_BNG_ga" = -43;
-"@MMK_R_L_BNG_ga_side" = -45;
+"@MMK_R_L_BNG_ga_side" = -68;
 "@MMK_R_L_BNG_headline130" = -79;
 "@MMK_R_L_BNG_ma_half" = 0;
 };
@@ -3356,7 +3356,7 @@ m006 = {
 };
 "@MMK_L_R_BNG_da_half" = {
 "@MMK_R_L_BNG_ga" = -83;
-"@MMK_R_L_BNG_ga_side" = -85;
+"@MMK_R_L_BNG_ga_side" = -123;
 "@MMK_R_L_BNG_headline130" = -146;
 };
 "@MMK_L_R_BNG_da_half2" = {

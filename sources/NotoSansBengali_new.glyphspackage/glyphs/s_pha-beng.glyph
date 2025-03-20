@@ -691,11 +691,11 @@ shapes = (
 ref = "s-beng.half";
 },
 {
-pos = (422,0);
+pos = (426,0);
 ref = "pha-beng.side";
 }
 );
-width = 717;
+width = 721;
 }
 );
 script = bengali;

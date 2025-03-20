@@ -166,7 +166,7 @@ shapes = (
 ref = "ddh-beng.half";
 },
 {
-pos = (239,1);
+pos = (259,1);
 ref = "tta-beng.flag";
 },
 {
