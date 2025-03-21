@@ -235,7 +235,7 @@ width = 290;
 anchors = (
 {
 name = top_iMatra;
-pos = (544,682);
+pos = (533,685);
 }
 );
 background = {
@@ -310,7 +310,7 @@ width = 266;
 anchors = (
 {
 name = top_iMatra;
-pos = (578,671);
+pos = (578,677);
 }
 );
 background = {
@@ -422,7 +422,7 @@ width = 290;
 anchors = (
 {
 name = top_iMatra;
-pos = (503,700);
+pos = (478,703);
 }
 );
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

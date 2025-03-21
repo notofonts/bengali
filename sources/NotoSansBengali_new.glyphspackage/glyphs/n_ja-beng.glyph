@@ -507,7 +507,7 @@ width = 989;
 anchors = (
 {
 name = bottom;
-pos = (603,-15);
+pos = (604,-15);
 },
 {
 name = bottomMainForm;
@@ -742,7 +742,7 @@ width = 724;
 anchors = (
 {
 name = bottom;
-pos = (641,-92);
+pos = (641,-94);
 },
 {
 name = bottomMainForm;
@@ -976,7 +976,7 @@ width = 802;
 anchors = (
 {
 name = bottom;
-pos = (526,1);
+pos = (525,2);
 },
 {
 name = bottomMainForm;

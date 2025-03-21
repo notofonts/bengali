@@ -379,7 +379,7 @@ pos = (96,676);
 },
 {
 name = top_reph;
-pos = (-83,647);
+pos = (-83,650);
 }
 );
 background = {
@@ -497,7 +497,7 @@ pos = (160,685);
 },
 {
 name = top_reph;
-pos = (-112,652);
+pos = (-122,643);
 }
 );
 background = {

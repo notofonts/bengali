@@ -863,7 +863,7 @@ pos = (247,0);
 ref = "ph_tta-beng.noflag";
 },
 {
-pos = (653,1);
+pos = (643,1);
 ref = "tta-beng.flagIMatra1";
 }
 );

@@ -980,11 +980,11 @@ pos = (218,-253);
 },
 {
 name = top_candrabindu;
-pos = (513,669);
+pos = (503,669);
 },
 {
 name = top_flag;
-pos = (419,635);
+pos = (409,635);
 },
 {
 name = top_vedic;

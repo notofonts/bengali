@@ -447,7 +447,7 @@ width = 290;
 anchors = (
 {
 name = top_candrabindu;
-pos = (86,621);
+pos = (92,621);
 },
 {
 name = top_reph;

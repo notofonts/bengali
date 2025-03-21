@@ -316,7 +316,7 @@ width = 290;
 anchors = (
 {
 name = top_iMatra;
-pos = (473,707);
+pos = (473,704);
 }
 );
 background = {
@@ -439,7 +439,7 @@ width = 266;
 anchors = (
 {
 name = top_iMatra;
-pos = (537,692);
+pos = (552,696);
 }
 );
 background = {
@@ -599,7 +599,7 @@ width = 290;
 anchors = (
 {
 name = top_iMatra;
-pos = (408,690);
+pos = (409,695);
 }
 );
 background = {
