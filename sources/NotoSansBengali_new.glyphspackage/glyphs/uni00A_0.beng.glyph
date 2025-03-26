@@ -1,4 +1,5 @@
 {
+color = 0;
 glyphname = uni00A0.beng;
 layers = (
 {
@@ -15,11 +16,11 @@ width = 260;
 },
 {
 layerId = m005;
-width = 195;
+width = 180;
 },
 {
 layerId = m006;
-width = 200;
+width = 180;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

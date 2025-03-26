@@ -83,7 +83,7 @@ alignment = -1;
 ref = "eMatra-beng.short.init";
 }
 );
-width = 346;
+width = 361;
 },
 {
 background = {
@@ -319,7 +319,7 @@ alignment = -1;
 ref = "eMatra-beng.short.init";
 }
 );
-width = 273;
+width = 286;
 },
 {
 background = {
@@ -391,7 +391,7 @@ alignment = -1;
 ref = "eMatra-beng.short.init";
 }
 );
-width = 347;
+width = 340;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -428,7 +428,7 @@ alignment = -1;
 ref = "eMatra-beng.short.init";
 }
 );
-width = 231;
+width = 241;
 }
 );
 script = bengali;

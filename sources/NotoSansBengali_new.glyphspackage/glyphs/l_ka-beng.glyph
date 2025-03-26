@@ -636,6 +636,7 @@ nodes = (
 layerId = m006;
 shapes = (
 {
+alignment = -1;
 ref = "l-beng.half3";
 },
 {
@@ -655,7 +656,7 @@ pos = (577,0);
 ref = "headline-beng.130";
 }
 );
-width = 577;
+width = 749;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";

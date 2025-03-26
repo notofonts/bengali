@@ -693,7 +693,7 @@ pos = (116,-199);
 ref = "wa-beng.part";
 },
 {
-pos = (490,0);
+pos = (507,0);
 ref = "headline-beng.130";
 }
 );

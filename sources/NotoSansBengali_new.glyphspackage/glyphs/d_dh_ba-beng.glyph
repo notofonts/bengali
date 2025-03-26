@@ -673,7 +673,7 @@ pos = (75,17);
 ref = "dh_ba-beng.blws";
 },
 {
-pos = (490,0);
+pos = (507,0);
 ref = "headline-beng.130";
 }
 );
