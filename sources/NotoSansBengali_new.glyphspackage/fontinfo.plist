@@ -601,6 +601,7 @@ lookup BNG_dflt_dist_floatingPart{
 	# aaMatra-beng.float
 	pos j-beng.half' aaMatra-beng.float <0 0 $NUM_RSB_aaMatraFloat 0>;
 }BNG_dflt_dist_floatingPart;
+
 ";
 tag = dist;
 },
@@ -704,6 +705,12 @@ lookup BNG_dflt_vedic_extension_shift_up {
 	lookupflag IgnoreBaseGlyphs UseMarkFilteringSet [@BNG_VEDIC_TOP @BNG_VEDIC_TOPCLASH];
 	pos @BNG_VEDIC_TOPCLASH @BNG_VEDIC_TOP' <0 220 0 0>;
 } BNG_dflt_vedic_extension_shift_up;
+
+
+#lookup BNG_dflt_dist_rephIMatra {
+#	lookupflag 0;
+#	pos reph-beng' iMatra-beng <-50 0 0 0>;
+#}BNG_dflt_dist_rephIMatra;
 ";
 tag = abvm;
 }
@@ -714,6 +721,12 @@ axesValues = (
 20,
 100
 );
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "ka-beng";
+}
+);
 id = "28FB090A-653E-4199-B7BE-FAE23D31B682";
 metricValues = (
 {
@@ -721,7 +734,7 @@ pos = 917;
 },
 {
 over = 10;
-pos = 607;
+pos = 622;
 },
 {
 pos = 536;
@@ -850,7 +863,7 @@ axesValues = (
 customParameters = (
 {
 name = "Master Icon Glyph Name";
-value = kabeng;
+value = "ka-beng";
 }
 );
 id = UUID0;
@@ -982,7 +995,7 @@ axesValues = (
 customParameters = (
 {
 name = "Master Icon Glyph Name";
-value = kabeng;
+value = "ka-beng";
 }
 );
 id = "F455777D-7EDD-47E2-866A-D8A5173CE243";
@@ -992,7 +1005,7 @@ pos = 917;
 },
 {
 over = 10;
-pos = 635;
+pos = 622;
 },
 {
 pos = 536;
@@ -1107,6 +1120,12 @@ axesValues = (
 20,
 63
 );
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "ka-beng";
+}
+);
 id = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 metricValues = (
 {
@@ -1114,7 +1133,7 @@ pos = 917;
 },
 {
 over = 10;
-pos = 607;
+pos = 622;
 },
 {
 pos = 536;
@@ -1232,7 +1251,7 @@ axesValues = (
 customParameters = (
 {
 name = "Master Icon Glyph Name";
-value = kabeng;
+value = "ka-beng";
 }
 );
 iconName = Condensed;
@@ -1365,7 +1384,7 @@ axesValues = (
 customParameters = (
 {
 name = "Master Icon Glyph Name";
-value = kabeng;
+value = "ka-beng";
 }
 );
 id = m006;
@@ -1375,7 +1394,7 @@ pos = 917;
 },
 {
 over = 10;
-pos = 635;
+pos = 622;
 },
 {
 pos = 536;
@@ -2998,22 +3017,6 @@ value = "Noto Sans Bengali UI";
 );
 }
 );
-widthClass = 2;
-},
-{
-axesValues = (
-24,
-58
-);
-instanceInterpolations = {
-"28FB090A-653E-4199-B7BE-FAE23D31B682" = -0.12968;
-"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = 1.08934;
-UUID0 = -0.00545;
-m005 = 0.03243;
-m006 = 0.01336;
-};
-name = "MoreCondensed Thin";
-weightClass = 100;
 widthClass = 2;
 }
 );

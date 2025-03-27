@@ -381,7 +381,6 @@ nodes = (
 }
 );
 };
-color = 1;
 layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
 shapes = (
 {
@@ -672,7 +671,6 @@ nodes = (
 }
 );
 };
-color = 1;
 guides = (
 {
 angle = 254.4385;
