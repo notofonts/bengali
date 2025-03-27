@@ -824,6 +824,12 @@ numberValues = (
 -235,
 -209
 );
+stemValues = (
+21,
+22,
+21,
+22
+);
 userData = {
 GSSlanterCursivy = 0;
 GSSlanterCursivyContrastFactor = 0.5;
@@ -957,6 +963,12 @@ numberValues = (
 -237,
 -247
 );
+stemValues = (
+77,
+73,
+76,
+71
+);
 userData = {
 GSOffsetHorizontal = 10;
 GSOffsetVertical = 7;
@@ -1083,6 +1095,12 @@ numberValues = (
 -272,
 -220
 );
+stemValues = (
+164,
+158,
+154,
+130
+);
 },
 {
 axesValues = (
@@ -1198,6 +1216,12 @@ numberValues = (
 -223,
 -164,
 -147
+);
+stemValues = (
+20,
+19,
+19,
+18
 );
 },
 {
@@ -1321,6 +1345,12 @@ numberValues = (
 -259,
 -186,
 -182
+);
+stemValues = (
+75,
+72,
+72,
+67
 );
 userData = {
 GSOffsetHorizontal = 10;
@@ -1447,6 +1477,12 @@ numberValues = (
 -291,
 -219,
 -175
+);
+stemValues = (
+155,
+143,
+147,
+124
 );
 }
 );
@@ -3760,6 +3796,22 @@ value = "Version 3.000";
 settings = {
 disablesNiceNames = 1;
 };
+stems = (
+{
+name = hStem0;
+},
+{
+name = hStem1;
+},
+{
+horizontal = 1;
+name = vStem0;
+},
+{
+horizontal = 1;
+name = vStem1;
+}
+);
 unitsPerEm = 1000;
 userData = {
 GSDontShowVersionAlert = 1;
