@@ -1,5 +1,5 @@
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "baphala-beng.alt1";
 layers = (
@@ -587,5 +587,5 @@ width = 399;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 }

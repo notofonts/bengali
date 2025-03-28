@@ -1,5 +1,5 @@
 {
-category = Letter;
+category = Mark;
 color = 6;
 glyphname = "ta_uMatra-beng.blws";
 layers = (
@@ -811,5 +811,5 @@ width = 692;
 }
 );
 script = bengali;
-subCategory = Spacing;
+subCategory = Nonspacing;
 }
