@@ -129,6 +129,50 @@ ref = "tta-beng.flagIMatra1";
 }
 );
 width = 533;
+},
+{
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+piece = {
+};
+ref = "iMatra-beng.ttaAlt1";
+},
+{
+pos = (202,0);
+ref = "tt_tta-beng.noflag";
+},
+{
+pos = (181,-289);
+ref = "raphala-beng.alt03";
+},
+{
+pos = (401,0);
+ref = "tta-beng.flagIMatra1";
+}
+);
+width = 627;
+},
+{
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "iMatra-beng.ttaAlt1";
+},
+{
+pos = (244,0);
+ref = "tt_tta-beng.noflag";
+},
+{
+pos = (232,-390);
+ref = "raphala-beng.alt03";
+},
+{
+pos = (541,1);
+ref = "tta-beng.flagIMatra1";
+}
+);
+width = 752;
 }
 );
 subCategory = Spacing;

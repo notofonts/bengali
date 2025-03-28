@@ -216,6 +216,54 @@ nodes = (
 }
 );
 width = 0;
+},
+{
+anchors = (
+{
+name = _top_vedic;
+pos = (1,620);
+}
+);
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-79,940,l),
+(1,1152,l),
+(87,940,l),
+(138,962,l),
+(27,1209,l),
+(-31,1209,l),
+(-135,960,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top_vedic;
+pos = (1,633);
+}
+);
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-56,939,l),
+(3,1109,l),
+(75,939,l),
+(175,982,l),
+(63,1213,l),
+(-70,1213,l),
+(-172,982,l)
+);
+}
+);
+width = 0;
 }
 );
 subCategory = Nonspacing;

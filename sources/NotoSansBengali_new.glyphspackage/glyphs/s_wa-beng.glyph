@@ -313,6 +313,50 @@ ref = "headline-beng.200";
 }
 );
 width = 422;
+},
+{
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+alignment = -1;
+ref = "s-beng.half";
+},
+{
+pos = (115,122);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (132,72);
+ref = "wa-beng.part";
+},
+{
+pos = (333,0);
+ref = "headline-beng.200";
+}
+);
+width = 484;
+},
+{
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+alignment = -1;
+ref = "s-beng.half";
+},
+{
+pos = (87,113);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (105,56);
+ref = "wa-beng.part";
+},
+{
+pos = (352,0);
+ref = "headline-beng.200";
+}
+);
+width = 546;
 }
 );
 }

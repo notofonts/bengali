@@ -494,6 +494,42 @@ ref = "_smart-iMatra-beng";
 }
 );
 width = 164;
+},
+{
+anchors = (
+{
+name = top_iMatra;
+pos = (505,687);
+}
+);
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+piece = {
+Length = 132;
+};
+ref = "_smart-iMatra-beng";
+}
+);
+width = 202;
+},
+{
+anchors = (
+{
+name = top_iMatra;
+pos = (545,678);
+}
+);
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+piece = {
+Length = 127;
+};
+ref = "_smart-iMatra-beng";
+}
+);
+width = 244;
 }
 );
 partsSettings = (

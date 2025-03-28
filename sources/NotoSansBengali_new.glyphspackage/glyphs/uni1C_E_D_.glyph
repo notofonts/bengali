@@ -185,6 +185,48 @@ nodes = (
 }
 );
 width = 0;
+},
+{
+anchors = (
+{
+name = _top_vedic;
+pos = (-1,620);
+}
+);
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(123,-632,l),
+(168,-584,l),
+(-8,-415,l),
+(-52,-462,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top_vedic;
+pos = (-3,633);
+}
+);
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(105,-625,l),
+(179,-539,l),
+(1,-386,l),
+(-71,-473,l)
+);
+}
+);
+width = 0;
 }
 );
 subCategory = Nonspacing;

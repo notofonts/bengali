@@ -587,6 +587,56 @@ nodes = (
 }
 );
 width = 336;
+},
+{
+anchors = (
+{
+name = top_candrabindu;
+pos = (305,621);
+},
+{
+name = top_vedic;
+pos = (205,621);
+}
+);
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(320,558,l),
+(320,621,l),
+(-8,621,l),
+(-8,558,l)
+);
+}
+);
+width = 411;
+},
+{
+anchors = (
+{
+name = top_candrabindu;
+pos = (340,634);
+},
+{
+name = top_vedic;
+pos = (235,634);
+}
+);
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(387,514,l),
+(387,634,l),
+(-8,634,l),
+(-8,514,l)
+);
+}
+);
+width = 471;
 }
 );
 script = bengali;

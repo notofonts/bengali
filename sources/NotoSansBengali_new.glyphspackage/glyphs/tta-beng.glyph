@@ -856,6 +856,76 @@ ref = "tta-beng.flag";
 }
 );
 width = 358;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (219,48);
+},
+{
+name = nukta;
+pos = (196,-77);
+},
+{
+name = top_candrabindu;
+pos = (228,637);
+},
+{
+name = top_reph;
+pos = (119,622);
+},
+{
+name = top_vedic;
+pos = (204,622);
+}
+);
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "ddha-beng";
+},
+{
+pos = (199,0);
+ref = "tta-beng.flag";
+}
+);
+width = 410;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (200,11);
+},
+{
+name = nukta;
+pos = (219,-116);
+},
+{
+name = top_candrabindu;
+pos = (320,676);
+},
+{
+name = top_reph;
+pos = (125,633);
+},
+{
+name = top_vedic;
+pos = (226,634);
+}
+);
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "ddha-beng";
+},
+{
+pos = (248,1);
+ref = "tta-beng.flag";
+}
+);
+width = 451;
 }
 );
 script = bengali;

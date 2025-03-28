@@ -255,6 +255,56 @@ nodes = (
 }
 );
 width = 0;
+},
+{
+anchors = (
+{
+name = _top_candrabindu;
+pos = (-115,622);
+},
+{
+name = top_candrabindu;
+pos = (-192,772);
+}
+);
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,913,l),
+(-43,944,l),
+(-209,727,l),
+(-157,683,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top_candrabindu;
+pos = (-87,622);
+},
+{
+name = top_candrabindu;
+pos = (-216,772);
+}
+);
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,850,l),
+(24,933,l),
+(-223,756,l),
+(-143,642,l)
+);
+}
+);
+width = 0;
 }
 );
 subCategory = Nonspacing;

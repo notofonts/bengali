@@ -279,6 +279,60 @@ ref = "nukta-beng";
 }
 );
 width = 385;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (272,0);
+},
+{
+name = top_candrabindu;
+pos = (339,633);
+},
+{
+name = top_vedic;
+pos = (231,634);
+}
+);
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "ba-beng";
+},
+{
+pos = (127,138);
+ref = "nukta-beng";
+}
+);
+width = 463;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (305,0);
+},
+{
+name = top_candrabindu;
+pos = (339,621);
+},
+{
+name = top_vedic;
+pos = (220,621);
+}
+);
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "ba-beng";
+},
+{
+pos = (142,136);
+ref = "nukta-beng";
+}
+);
+width = 441;
 }
 );
 script = bengali;

@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 10;
+color = 0;
 export = 0;
 glyphname = "s_k_ra-beng";
 layers = (
@@ -907,6 +907,10 @@ nodes = (
 guides = (
 {
 pos = (643,-142);
+},
+{
+angle = 90;
+pos = (758,511);
 }
 );
 layerId = m006;
@@ -924,11 +928,11 @@ pos = (453,-140);
 ref = "ka-beng.arm2";
 },
 {
-pos = (548,0);
+pos = (564,0);
 ref = "headline-beng.200";
 }
 );
-width = 749;
+width = 750;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -951,6 +955,50 @@ ref = "headline-beng.200";
 }
 );
 width = 544;
+},
+{
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+alignment = -1;
+ref = "s-beng.half2";
+},
+{
+pos = (30,-146);
+ref = "t_ra-beng.blws";
+},
+{
+pos = (383,-149);
+ref = "ka-beng.arm2";
+},
+{
+pos = (489,0);
+ref = "headline-beng.200";
+}
+);
+width = 640;
+},
+{
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+alignment = -1;
+ref = "s-beng.half2";
+},
+{
+pos = (20,-156);
+ref = "t_ra-beng.blws";
+},
+{
+pos = (448,-140);
+ref = "ka-beng.arm2";
+},
+{
+pos = (558,0);
+ref = "headline-beng.200";
+}
+);
+width = 742;
 }
 );
 script = bengali;

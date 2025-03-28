@@ -609,6 +609,53 @@ ref = "aaMatra-beng.float";
 }
 );
 width = 650;
+},
+{
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+alignment = -1;
+ref = "j-beng.half";
+},
+{
+pos = (296,-123);
+ref = "baphala-beng.alt3";
+},
+{
+pos = (517,-4);
+ref = "jha-beng.part";
+},
+{
+pos = (567,0);
+ref = "aaMatra-beng.float";
+}
+);
+width = 774;
+},
+{
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+alignment = -1;
+ref = "j-beng.half";
+},
+{
+alignment = -1;
+pos = (299,-124);
+ref = "baphala-beng.alt3";
+},
+{
+alignment = -1;
+pos = (625,-57);
+ref = "jha-beng.part";
+},
+{
+alignment = -1;
+pos = (666,0);
+ref = "aaMatra-beng.float";
+}
+);
+width = 911;
 }
 );
 script = bengali;

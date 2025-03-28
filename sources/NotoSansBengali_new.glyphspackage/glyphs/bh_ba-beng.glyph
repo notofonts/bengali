@@ -192,6 +192,32 @@ ref = "baphala-beng.alt2";
 }
 );
 width = 462;
+},
+{
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "bha-beng";
+},
+{
+pos = (134,-99);
+ref = "baphala-beng.alt2";
+}
+);
+width = 519;
+},
+{
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "bha-beng";
+},
+{
+pos = (80,-82);
+ref = "baphala-beng.alt2";
+}
+);
+width = 553;
 }
 );
 script = bengali;

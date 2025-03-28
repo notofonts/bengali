@@ -110,6 +110,42 @@ ref = "la-beng.blws1";
 }
 );
 width = 778;
+},
+{
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+alignment = -1;
+ref = "s-beng.half";
+},
+{
+pos = (359,0);
+ref = "p-beng.half";
+},
+{
+pos = (438,10);
+ref = "la-beng.blws1";
+}
+);
+width = 886;
+},
+{
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+alignment = -1;
+ref = "s-beng.half";
+},
+{
+pos = (391,0);
+ref = "p-beng.half";
+},
+{
+pos = (450,-14);
+ref = "la-beng.blws1";
+}
+);
+width = 969;
 }
 );
 }

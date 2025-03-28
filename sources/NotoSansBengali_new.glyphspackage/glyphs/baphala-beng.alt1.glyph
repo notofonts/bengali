@@ -1,6 +1,6 @@
 {
-category = Mark;
-color = 5;
+category = Letter;
+color = 6;
 glyphname = "baphala-beng.alt1";
 layers = (
 {
@@ -776,8 +776,120 @@ nodes = (
 }
 );
 width = 217;
+},
+{
+anchors = (
+{
+name = _bottomVattu;
+pos = (221,143);
+},
+{
+name = bottom;
+pos = (221,-87);
+},
+{
+name = bottom.Wa;
+pos = (118,-60);
+},
+{
+name = bottomVattu;
+pos = (221,-92);
+},
+{
+name = nukta;
+pos = (109,-102);
+}
+);
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(239,-36,l),
+(201,48,o),
+(137,88,o),
+(73,111,c),
+(78,95,l),
+(111,126,o),
+(165,165,o),
+(214,195,c),
+(181,255,l),
+(120,217,o),
+(62,174,o),
+(14,135,c),
+(45,51,l),
+(116,34,o),
+(177,-7,o),
+(224,-87,c),
+(291,-87,l),
+(291,180,l),
+(221,180,l),
+(221,64,ls),
+(221,29,o),
+(225,-14,o),
+(231,-39,c)
+);
+}
+);
+width = 307;
+},
+{
+anchors = (
+{
+name = _bottomVattu;
+pos = (235,123);
+},
+{
+name = bottom;
+pos = (235,-136);
+},
+{
+name = bottom.Wa;
+pos = (128,-127);
+},
+{
+name = bottomVattu;
+pos = (235,-126);
+},
+{
+name = nukta;
+pos = (136,-165);
+}
+);
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(248,-40,l),
+(239,12,o),
+(188,73,o),
+(134,81,c),
+(119,42,l),
+(161,82,o),
+(202,115,o),
+(244,138,c),
+(185,250,l),
+(123,216,o),
+(67,174,o),
+(13,130,c),
+(60,-13,l),
+(148,-33,o),
+(202,-66,o),
+(249,-136,c),
+(384,-136,l),
+(384,185,l),
+(236,195,l),
+(236,48,ls),
+(236,12,o),
+(239,-14,o),
+(244,-41,c)
+);
+}
+);
+width = 399;
 }
 );
 script = bengali;
-subCategory = Nonspacing;
+subCategory = Spacing;
 }

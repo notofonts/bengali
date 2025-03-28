@@ -203,6 +203,52 @@ nodes = (
 }
 );
 width = 0;
+},
+{
+anchors = (
+{
+name = _top_vedic;
+pos = (1,620);
+}
+);
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-133,-592,l),
+(137,-592,l),
+(137,-530,l),
+(-69,-530,l),
+(-69,-420,l),
+(-133,-420,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top_vedic;
+pos = (1,633);
+}
+);
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-175,-586,l),
+(174,-586,l),
+(174,-489,l),
+(-72,-489,l),
+(-72,-394,l),
+(-175,-394,l)
+);
+}
+);
+width = 0;
 }
 );
 subCategory = Nonspacing;

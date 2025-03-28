@@ -539,6 +539,74 @@ nodes = (
 }
 );
 width = 157;
+},
+{
+anchors = (
+{
+name = bottomMainForm;
+pos = (66,291);
+},
+{
+name = bottomVattu;
+pos = (66,110);
+}
+);
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(136,159,l),
+(136,576,l),
+(66,576,l),
+(66,159,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(210,558,l),
+(210,621,l),
+(-8,621,l),
+(-8,558,l)
+);
+}
+);
+width = 202;
+},
+{
+anchors = (
+{
+name = bottomMainForm;
+pos = (55,298);
+},
+{
+name = bottomVattu;
+pos = (55,58);
+}
+);
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(204,114,l),
+(204,534,l),
+(55,534,l),
+(55,114,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(260,514,l),
+(260,634,l),
+(-8,634,l),
+(-8,514,l)
+);
+}
+);
+width = 252;
 }
 );
 script = bengali;

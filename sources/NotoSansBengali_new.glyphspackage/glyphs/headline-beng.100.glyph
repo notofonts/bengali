@@ -383,6 +383,36 @@ nodes = (
 }
 );
 width = 0;
+},
+{
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(8,558,l),
+(8,621,l),
+(-96,621,l),
+(-96,558,l)
+);
+}
+);
+width = 0;
+},
+{
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(8,514,l),
+(8,634,l),
+(-154,634,l),
+(-154,514,l)
+);
+}
+);
+width = 0;
 }
 );
 script = bengali;

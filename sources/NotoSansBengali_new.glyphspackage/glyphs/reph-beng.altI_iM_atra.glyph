@@ -273,6 +273,56 @@ nodes = (
 }
 );
 width = 0;
+},
+{
+anchors = (
+{
+name = _top_reph;
+pos = (-141,622);
+},
+{
+name = top_candrabindu;
+pos = (-140,730);
+}
+);
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(71,883,l),
+(31,915,l),
+(-171,668,l),
+(-116,627,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top_reph;
+pos = (-209,622);
+},
+{
+name = top_candrabindu;
+pos = (-203,755);
+}
+);
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(105,877,l),
+(35,943,l),
+(-284,650,l),
+(-140,610,l)
+);
+}
+);
+width = 0;
 }
 );
 subCategory = Nonspacing;

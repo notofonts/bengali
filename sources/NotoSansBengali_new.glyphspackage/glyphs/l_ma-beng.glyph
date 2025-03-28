@@ -690,6 +690,40 @@ ref = "ma-beng.side";
 }
 );
 width = 574;
+},
+{
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "l-beng.half3";
+},
+{
+pos = (300,0);
+ref = "aaMatra-beng.part";
+},
+{
+pos = (501,0);
+ref = "ma-beng.side";
+}
+);
+width = 679;
+},
+{
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "l-beng.half3";
+},
+{
+pos = (333,0);
+ref = "aaMatra-beng.part";
+},
+{
+pos = (567,0);
+ref = "ma-beng.side";
+}
+);
+width = 786;
 }
 );
 script = bengali;

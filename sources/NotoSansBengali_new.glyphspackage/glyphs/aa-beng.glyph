@@ -236,6 +236,52 @@ ref = "aaMatra-beng";
 }
 );
 width = 750;
+},
+{
+anchors = (
+{
+name = top_candrabindu;
+pos = (762,620);
+},
+{
+name = top_vedic;
+pos = (435,621);
+}
+);
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "a-beng";
+},
+{
+pos = (669,0);
+ref = "aaMatra-beng";
+}
+);
+width = 871;
+},
+{
+anchors = (
+{
+name = top_candrabindu;
+pos = (847,634);
+},
+{
+name = top_vedic;
+pos = (490,634);
+}
+);
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "a-beng";
+},
+{
+pos = (737,0);
+ref = "aaMatra-beng";
+}
+);
+width = 981;
 }
 );
 script = bengali;

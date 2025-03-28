@@ -158,6 +158,58 @@ ref = "la-beng.blws";
 }
 );
 width = 486;
+},
+{
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+alignment = -1;
+ref = "s-beng.half";
+},
+{
+pos = (115,122);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (361,92);
+ref = "ka-beng.part";
+},
+{
+pos = (370,0);
+ref = "headline-beng.250";
+},
+{
+pos = (37,-190);
+ref = "la-beng.blws";
+}
+);
+width = 568;
+},
+{
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+alignment = -1;
+ref = "s-beng.half";
+},
+{
+pos = (87,113);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (375,93);
+ref = "ka-beng.part";
+},
+{
+pos = (393,0);
+ref = "headline-beng.250";
+},
+{
+pos = (10,-217);
+ref = "la-beng.blws";
+}
+);
+width = 664;
 }
 );
 }

@@ -197,6 +197,40 @@ ref = "tta-beng.flag";
 }
 );
 width = 696;
+},
+{
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "n_s-beng.half";
+},
+{
+pos = (554,0);
+ref = "ddha-beng.side";
+},
+{
+pos = (555,0);
+ref = "tta-beng.flag";
+}
+);
+width = 767;
+},
+{
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "n_s-beng.half";
+},
+{
+pos = (610,0);
+ref = "ddha-beng.side";
+},
+{
+pos = (610,1);
+ref = "tta-beng.flag";
+}
+);
+width = 819;
 }
 );
 }

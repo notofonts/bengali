@@ -110,6 +110,44 @@ ref = "la-beng.blws1";
 }
 );
 width = 744;
+},
+{
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+alignment = -1;
+ref = "m-beng.half";
+},
+{
+alignment = -1;
+pos = (323,0);
+ref = "p-beng.half";
+},
+{
+alignment = -1;
+pos = (402,10);
+ref = "la-beng.blws1";
+}
+);
+width = 846;
+},
+{
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+alignment = -1;
+ref = "m-beng.half";
+},
+{
+pos = (351,0);
+ref = "p-beng.half";
+},
+{
+pos = (410,-14);
+ref = "la-beng.blws1";
+}
+);
+width = 929;
 }
 );
 }

@@ -667,6 +667,106 @@ nodes = (
 }
 );
 width = 156;
+},
+{
+anchors = (
+{
+name = _top_headline_aaMatra;
+pos = (-3,558);
+},
+{
+name = bottomMainForm;
+pos = (71,291);
+},
+{
+name = bottomVattu;
+pos = (71,187);
+},
+{
+name = top_candrabindu;
+pos = (104,621);
+},
+{
+name = top_headline130;
+pos = (198,558);
+},
+{
+name = top_vedic;
+pos = (104,621);
+}
+);
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(141,176,l),
+(141,575,l),
+(71,575,l),
+(71,176,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(215,558,l),
+(215,621,l),
+(-8,621,l),
+(-8,558,l)
+);
+}
+);
+width = 207;
+},
+{
+anchors = (
+{
+name = _top_headline_aaMatra;
+pos = (-11,514);
+},
+{
+name = bottomMainForm;
+pos = (55,298);
+},
+{
+name = bottomVattu;
+pos = (55,165);
+},
+{
+name = top_candrabindu;
+pos = (128,634);
+},
+{
+name = top_headline130;
+pos = (238,514);
+},
+{
+name = top_vedic;
+pos = (123,634);
+}
+);
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(205,134,l),
+(205,534,l),
+(55,534,l),
+(55,134,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(253,514,l),
+(253,634,l),
+(-8,634,l),
+(-8,514,l)
+);
+}
+);
+width = 246;
 }
 );
 script = bengali;

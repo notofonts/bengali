@@ -215,6 +215,44 @@ ref = "nukta-beng";
 }
 );
 width = 404;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (328,10);
+}
+);
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "ya-beng";
+},
+{
+pos = (160,109);
+ref = "nukta-beng";
+}
+);
+width = 459;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (291,31);
+}
+);
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "ya-beng";
+},
+{
+pos = (146,125);
+ref = "nukta-beng";
+}
+);
+width = 491;
 }
 );
 script = bengali;

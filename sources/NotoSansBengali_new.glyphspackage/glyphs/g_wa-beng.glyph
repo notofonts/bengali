@@ -301,6 +301,48 @@ ref = "aaMatra-beng.side";
 }
 );
 width = 405;
+},
+{
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (125,0);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (142,-50);
+ref = "wa-beng.part";
+},
+{
+pos = (326,0);
+ref = "aaMatra-beng.side";
+}
+);
+width = 476;
+},
+{
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (120,12);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (138,-45);
+ref = "wa-beng.part";
+},
+{
+pos = (333,0);
+ref = "aaMatra-beng.side";
+}
+);
+width = 537;
 }
 );
 metricWidth = gababeng;

@@ -80,6 +80,32 @@ ref = "raphala-beng.alt01";
 }
 );
 width = 673;
+},
+{
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "l_pha-beng";
+},
+{
+pos = (158,-122);
+ref = "raphala-beng.alt01";
+}
+);
+width = 815;
+},
+{
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "l_pha-beng";
+},
+{
+pos = (174,-217);
+ref = "raphala-beng.alt01";
+}
+);
+width = 912;
 }
 );
 }

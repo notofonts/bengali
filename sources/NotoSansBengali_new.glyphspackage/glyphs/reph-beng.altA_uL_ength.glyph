@@ -332,6 +332,72 @@ nodes = (
 }
 );
 width = 0;
+},
+{
+anchors = (
+{
+name = _top_iMatra;
+pos = (-88,695);
+},
+{
+name = _top_reph;
+pos = (-140,622);
+},
+{
+name = top_candrabindu;
+pos = (-147,743);
+},
+{
+name = top_candrabindu_iMatra;
+pos = (-147,743);
+}
+);
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(76,894,l),
+(38,927,l),
+(-140,718,l),
+(-53,731,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top_iMatra;
+pos = (-126,676);
+},
+{
+name = _top_reph;
+pos = (-209,622);
+},
+{
+name = top_candrabindu;
+pos = (-227,785);
+},
+{
+name = top_candrabindu_iMatra;
+pos = (-227,744);
+}
+);
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(70,883,l),
+(2,956,l),
+(-262,733,l),
+(-123,682,l)
+);
+}
+);
+width = 0;
 }
 );
 subCategory = Nonspacing;

@@ -185,6 +185,32 @@ ref = "nukta-beng";
 }
 );
 width = 431;
+},
+{
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "kha-beng";
+},
+{
+pos = (186,136);
+ref = "nukta-beng";
+}
+);
+width = 502;
+},
+{
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "kha-beng";
+},
+{
+pos = (217,138);
+ref = "nukta-beng";
+}
+);
+width = 588;
 }
 );
 }

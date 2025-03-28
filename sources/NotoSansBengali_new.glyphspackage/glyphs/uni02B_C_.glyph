@@ -64,6 +64,26 @@ ref = quoteright.beng;
 }
 );
 width = 244;
+},
+{
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+alignment = -1;
+ref = quoteright.beng;
+}
+);
+width = 286;
+},
+{
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+alignment = -1;
+ref = quoteright.beng;
+}
+);
+width = 357;
 }
 );
 unicode = 700;

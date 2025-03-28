@@ -636,6 +636,32 @@ ref = "wa-beng.part";
 }
 );
 width = 364;
+},
+{
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "rh_ba-beng";
+},
+{
+pos = (85,-109);
+ref = "wa-beng.part";
+}
+);
+width = 435;
+},
+{
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "rh_ba-beng";
+},
+{
+pos = (78,-119);
+ref = "wa-beng.part";
+}
+);
+width = 511;
 }
 );
 script = bengali;
