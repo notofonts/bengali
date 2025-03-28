@@ -65,50 +65,6 @@ ref = "baphala-beng.alt3";
 width = 567;
 },
 {
-layerId = m005;
-shapes = (
-{
-ref = "ss_tta-beng.noflag";
-},
-{
-pos = (199,1);
-ref = "tta-beng.flag3";
-},
-{
-pos = (68,-184);
-ref = "baphala-beng.alt3";
-}
-);
-width = 414;
-},
-{
-annotations = (
-{
-pos = (-254.695,-223.759);
-type = Text;
-},
-{
-pos = (-337.286,-39.188);
-type = Text;
-}
-);
-layerId = m006;
-shapes = (
-{
-ref = "ss_tta-beng.noflag";
-},
-{
-pos = (280,1);
-ref = "tta-beng.flag3";
-},
-{
-pos = (42,-151);
-ref = "baphala-beng.alt3";
-}
-);
-width = 460;
-},
-{
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {

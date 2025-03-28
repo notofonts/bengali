@@ -67,48 +67,6 @@ ref = "raphala-beng.alt03";
 width = 1041;
 },
 {
-layerId = m005;
-shapes = (
-{
-ref = "n_s-beng.half";
-},
-{
-pos = (559,0);
-ref = "ddh-beng.side";
-},
-{
-pos = (559,0);
-ref = "tta-beng.flag";
-},
-{
-pos = (294,-131);
-ref = "raphala-beng.alt03";
-}
-);
-width = 758;
-},
-{
-layerId = m006;
-shapes = (
-{
-ref = "n_s-beng.half";
-},
-{
-pos = (614,0);
-ref = "ddh-beng.side";
-},
-{
-pos = (610,1);
-ref = "tta-beng.flag";
-},
-{
-pos = (282,-205);
-ref = "raphala-beng.alt03";
-}
-);
-width = 826;
-},
-{
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {

@@ -314,62 +314,6 @@ nodes = (
 width = 0;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(2,554,l),
-(2,621,l),
-(-98,621,l),
-(-98,554,l)
-);
-}
-);
-};
-layerId = m005;
-shapes = (
-{
-closed = 1;
-nodes = (
-(8,555,l),
-(8,622,l),
-(-98,622,l),
-(-98,555,l)
-);
-}
-);
-width = 0;
-},
-{
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(11,510,l),
-(11,634,l),
-(-137,634,l),
-(-137,510,l)
-);
-}
-);
-};
-layerId = m006;
-shapes = (
-{
-closed = 1;
-nodes = (
-(8,511,l),
-(8,635,l),
-(-158,635,l),
-(-158,511,l)
-);
-}
-);
-width = 0;
-},
-{
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {

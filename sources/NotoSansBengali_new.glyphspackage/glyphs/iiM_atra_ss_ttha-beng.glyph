@@ -134,52 +134,6 @@ ref = "iiMatra-beng.tthaAlt1";
 width = 992;
 },
 {
-background = {
-anchors = (
-{
-name = Anchor8;
-pos = (302,622);
-},
-{
-name = bottom;
-pos = (404,0);
-}
-);
-};
-layerId = m005;
-shapes = (
-{
-ref = "ss_ttha-beng.notop";
-},
-{
-pos = (141,-3);
-ref = "ttha-beng.topIiMatra";
-},
-{
-pos = (489,0);
-ref = "iiMatra-beng.tthaAlt1";
-}
-);
-width = 694;
-},
-{
-layerId = m006;
-shapes = (
-{
-ref = "ss_ttha-beng.notop";
-},
-{
-pos = (157,3);
-ref = "ttha-beng.topIiMatra";
-},
-{
-pos = (572,0);
-ref = "iiMatra-beng.tthaAlt1";
-}
-);
-width = 819;
-},
-{
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {

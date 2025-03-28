@@ -101,61 +101,6 @@ ref = "rVocalicMatra-beng";
 width = 927;
 },
 {
-background = {
-shapes = (
-{
-pos = (20,0);
-ref = "rVocalic-beng";
-},
-{
-alignment = -1;
-pos = (394,112);
-ref = "rVocalicMatra-beng";
-}
-);
-};
-layerId = m005;
-shapes = (
-{
-alignment = -1;
-pos = (10,0);
-ref = "rVocalic-beng";
-},
-{
-alignment = -1;
-pos = (264,142);
-ref = "rVocalicMatra-beng";
-}
-);
-width = 663;
-},
-{
-background = {
-shapes = (
-{
-ref = "rVocalic-beng";
-},
-{
-alignment = -1;
-pos = (314,103);
-ref = "rVocalicMatra-beng";
-}
-);
-};
-layerId = m006;
-shapes = (
-{
-ref = "rVocalic-beng";
-},
-{
-alignment = -1;
-pos = (187,112);
-ref = "rVocalicMatra-beng";
-}
-);
-width = 750;
-},
-{
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {

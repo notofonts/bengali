@@ -68,48 +68,6 @@ ref = "tta-beng.flagIMatra2";
 width = 1263;
 },
 {
-layerId = m005;
-shapes = (
-{
-ref = "iMatra-beng.ttaAlt4";
-},
-{
-pos = (205,0);
-ref = "sh-beng.half";
-},
-{
-pos = (720,0);
-ref = "ddha-beng.side";
-},
-{
-pos = (720,0);
-ref = "tta-beng.flagIMatra2";
-}
-);
-width = 934;
-},
-{
-layerId = m006;
-shapes = (
-{
-ref = "iMatra-beng.ttaAlt4";
-},
-{
-pos = (247,0);
-ref = "sh-beng.half";
-},
-{
-pos = (822,0);
-ref = "ddha-beng.side";
-},
-{
-pos = (821,1);
-ref = "tta-beng.flagIMatra2";
-}
-);
-width = 1031;
-},
-{
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {

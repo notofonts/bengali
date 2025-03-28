@@ -88,68 +88,6 @@ ref = "baphala-beng.alt1";
 width = 611;
 },
 {
-background = {
-anchors = (
-{
-name = Anchor8;
-pos = (313,622);
-}
-);
-shapes = (
-{
-ref = "ya-beng";
-},
-{
-pos = (626,0);
-ref = basubscriptbeng;
-}
-);
-};
-layerId = m005;
-shapes = (
-{
-ref = "y-beng.half";
-},
-{
-pos = (103,-94);
-ref = "baphala-beng.alt1";
-}
-);
-width = 468;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
-pos = (335,622);
-}
-);
-shapes = (
-{
-alignment = -1;
-ref = "ya-beng";
-},
-{
-alignment = -1;
-pos = (670,0);
-ref = basubscriptbeng;
-}
-);
-};
-layerId = m006;
-shapes = (
-{
-ref = "y-beng.half";
-},
-{
-pos = (44,-44);
-ref = "baphala-beng.alt1";
-}
-);
-width = 480;
-},
-{
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {

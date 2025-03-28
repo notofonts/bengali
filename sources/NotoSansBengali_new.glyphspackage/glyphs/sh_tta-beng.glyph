@@ -55,40 +55,6 @@ ref = "tta-beng.flag";
 width = 973;
 },
 {
-layerId = m005;
-shapes = (
-{
-ref = "sh-beng.half";
-},
-{
-pos = (515,0);
-ref = "ddha-beng.side";
-},
-{
-pos = (516,0);
-ref = "tta-beng.flag";
-}
-);
-width = 729;
-},
-{
-layerId = m006;
-shapes = (
-{
-ref = "sh-beng.half";
-},
-{
-pos = (575,0);
-ref = "ddha-beng.side";
-},
-{
-pos = (575,1);
-ref = "tta-beng.flag";
-}
-);
-width = 784;
-},
-{
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {

@@ -82,58 +82,6 @@ ref = "la-beng.blws";
 width = 832;
 },
 {
-layerId = m005;
-shapes = (
-{
-alignment = -1;
-ref = "s-beng.half";
-},
-{
-pos = (114,124);
-ref = "baphala-beng.alt4";
-},
-{
-pos = (365,96);
-ref = "ka-beng.part";
-},
-{
-pos = (375,0);
-ref = "headline-beng.250";
-},
-{
-pos = (36,-197);
-ref = "la-beng.blws";
-}
-);
-width = 576;
-},
-{
-layerId = m006;
-shapes = (
-{
-alignment = -1;
-ref = "s-beng.half";
-},
-{
-pos = (86,112);
-ref = "baphala-beng.alt4";
-},
-{
-pos = (377,93);
-ref = "ka-beng.part";
-},
-{
-pos = (394,0);
-ref = "headline-beng.250";
-},
-{
-pos = (8,-219);
-ref = "la-beng.blws";
-}
-);
-width = 670;
-},
-{
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {

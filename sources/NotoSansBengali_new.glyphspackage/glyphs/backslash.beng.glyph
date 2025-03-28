@@ -61,36 +61,6 @@ nodes = (
 width = 555;
 },
 {
-layerId = m005;
-shapes = (
-{
-closed = 1;
-nodes = (
-(296,-135,l),
-(372,-135,l),
-(123,792,l),
-(47,792,l)
-);
-}
-);
-width = 419;
-},
-{
-layerId = m006;
-shapes = (
-{
-closed = 1;
-nodes = (
-(302,-129,l),
-(460,-129,l),
-(201,792,l),
-(44,792,l)
-);
-}
-);
-width = 503;
-},
-{
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {

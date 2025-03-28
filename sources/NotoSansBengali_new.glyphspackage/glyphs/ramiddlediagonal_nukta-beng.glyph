@@ -94,66 +94,6 @@ ref = "nukta-beng";
 width = 595;
 },
 {
-background = {
-anchors = (
-{
-name = Anchor8;
-pos = (298,622);
-}
-);
-shapes = (
-{
-ref = "ramiddlediagonal-beng";
-},
-{
-pos = (195,179);
-ref = "nukta-beng";
-}
-);
-};
-layerId = m005;
-shapes = (
-{
-ref = "ramiddlediagonal-beng";
-},
-{
-pos = (141,135);
-ref = "nukta-beng";
-}
-);
-width = 446;
-},
-{
-background = {
-anchors = (
-{
-name = Anchor8;
-pos = (326,622);
-}
-);
-shapes = (
-{
-ref = "ramiddlediagonal-beng";
-},
-{
-pos = (172,150);
-ref = "nukta-beng";
-}
-);
-};
-layerId = m006;
-shapes = (
-{
-ref = "ramiddlediagonal-beng";
-},
-{
-pos = (130,138);
-ref = "nukta-beng";
-}
-);
-width = 474;
-},
-{
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
