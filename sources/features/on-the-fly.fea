@@ -23,7 +23,7 @@ languagesystem bng2 PAL;
 @BNG_ALL_PRECOMPOSED = [k_ma-beng k_ss_ma-beng k_sa-beng ng_ka-beng ng_ga-beng c_nya-beng j_ja-beng j_j_ba-beng j_nya-beng j_ra-beng ny_ca-beng ny_c_ba-beng ny_cha-beng ny_ja-beng dd_dda-beng nn_dda-beng t_ta-beng t_t_ra-beng t_tha-beng t_ra-beng d_da-beng d_bha-beng d_bh_ra-beng n_ja-beng n_ra-beng n_sa-beng p_sa-beng b_ja-beng b_dda-beng b_ddha-beng b_da-beng b_d_ra-beng b_bha-beng b_bh_ra-beng m_da-beng m_d_ra-beng m_bh_ra-beng l_gha-beng l_ta-beng l_pha-beng l_bha-beng l_ra-beng l_sa-beng ss_nna-beng s_kha-beng h_ma-beng rr_ra-beng rh_ba-beng rh_ra-beng yy_ba-beng yy_ra-beng ga_uMatra-beng l_ga_uMatra-beng sha_uMatra-beng ha_uMatra-beng ];
 
 
-@BNG_IMATRAS = [iMatra-beng iMatra-beng.long01 iMatra-beng.long02 iMatra-beng.long03 iMatra-beng.long04 iMatra-beng.long05 iMatra-beng.long06 iMatra-beng.long07 iMatra-beng.long08 iMatra-beng.long09 iMatra-beng.short01 iMatra-beng.short02 iMatra-beng.short03 iMatra-beng.ttaAlt1 iMatra-beng.ttaAlt2 iMatra-beng.ttaAlt3 iMatra-beng.ttaAlt4 iMatra-beng.ttaAlt5 iMatra-beng.tthaAlt1 iMatra-beng.tthaAlt2 iMatra-beng.tthaAlt3];
+@BNG_IMATRAS = [iMatra-beng iMatra-beng.long01 iMatra-beng.long02 iMatra-beng.long03 iMatra-beng.long04 iMatra-beng.long05 iMatra-beng.long06 iMatra-beng.long07 iMatra-beng.long08 iMatra-beng.long09 iMatra-beng.short01 iMatra-beng.short02 iMatra-beng.short03 iMatra-beng.ttaAlt1 iMatra-beng.ttaAlt2 iMatra-beng.ttaAlt3 iMatra-beng.ttaAlt4 iMatra-beng.ttaAlt5 iMatra-beng.tthaAlt1 iMatra-beng.tthaAlt2 iMatra-beng.tthaAlt3];
 
 @BNG_BLWS_VOWELS = [ uMatra-beng uuMatra-beng];
 
