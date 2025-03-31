@@ -423,8 +423,6 @@ width = 634;
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
-piece = {
-};
 ref = "iMatra-beng.tthaAlt3";
 },
 {
@@ -450,8 +448,6 @@ width = 731;
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {
-piece = {
-};
 ref = "iMatra-beng.tthaAlt3";
 },
 {

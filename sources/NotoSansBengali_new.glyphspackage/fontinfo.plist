@@ -639,32 +639,38 @@ lookup BNG_dflt_vedic_extension_shift1 {
 	pos n-beng.headline [da-beng d-beng.half d-beng.half3] @BNG_VEDIC_ALL' <$VEDIC_nDa 0 0 0>;
 	pos n-beng.headline aaMatra-beng.part headline-beng.130 @BNG_VEDIC_ALL' <$VEDIC_nDha 0 0 0>;
 	pos t-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_tHalf 0 0 0>;
-	pos t_ta-beng headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_tTa 0 0 0>;
-	pos t_ra-beng [@SideExtensionBases headline-beng.200] @BNG_VEDIC_ALL' <$VEDIC_tRa 0 0 0>;
-	pos d-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf 0 0 0>;
+	pos t_ta-beng @BNG_VEDIC_ALL' <$VEDIC_kTa 0 0 0>;
 } BNG_dflt_vedic_extension_shift1;
 
 lookup BNG_dflt_vedic_extension_shift2 {
-	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
-	pos n-beng.headline aaMatra-beng.part.short headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_nKTa 0 0 0>;
-	pos d-beng.half2 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf2 0 0 0>;
-	pos d-beng.half3 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf3 0 0 0>;
-	pos d-beng.half4 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf4 0 0 0>;
+ 	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
+	pos t_t-beng.half @BNG_VEDIC_ALL' <$VEDIC_kTaHalf 0 0 0>;
 } BNG_dflt_vedic_extension_shift2;
 
 lookup BNG_dflt_vedic_extension_shift3 {
+ 	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
+	pos t_ra-beng @BNG_VEDIC_ALL' <$VEDIC_kRa 0 0 0>;
+	pos d-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf 0 0 0>;
+ 	pos n-beng.headline aaMatra-beng.part.short headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_nKTa 0 0 0>;
+ 	pos d-beng.half2 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf2 0 0 0>;
+ 	pos d-beng.half3 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf3 0 0 0>;
+	pos d-beng.half4 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf4 0 0 0>;
+} BNG_dflt_vedic_extension_shift3;
+
+lookup BNG_dflt_vedic_extension_shift4 {
 	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
 	pos p-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_pHalf 0 0 0>;
-	pos p-beng.half3 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_pHalf3 0 0 0>;
+	pos p-beng.half3 @BNG_VEDIC_ALL' <$VEDIC_ddhaSide 0 0 0> ddha-beng.side;
+	pos p-beng.half3 @BNG_VEDIC_ALL' <$VEDIC_ddhaHalfSide 0 0 0> ddh-beng.side;
 	pos b-beng.half2 ka-beng.arm @BNG_VEDIC_ALL' <$VEDIC_bHalf2 0 0 0>;
 	pos b-beng.half2 headline-beng.250 @BNG_VEDIC_ALL' <$VEDIC_bDha 0 0 0>;
 	pos m-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_mHalf 0 0 0>;
 	pos m-beng.half headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_mBa 0 0 0>;
 	pos ra-beng @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ra 0 0 0>;
 	pos l-beng.half3 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_lHalf3 0 0 0>;
-} BNG_dflt_vedic_extension_shift3;
+} BNG_dflt_vedic_extension_shift4;
 
-lookup BNG_dflt_vedic_extension_shift4 {
+lookup BNG_dflt_vedic_extension_shift5 {
  	pos sh-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_shHalf 0 0 0>;
  	pos sh-beng.half2 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_shHalf2 0 0 0>;
  	pos ss-beng.half4 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ssHalf4 0 0 0>;
@@ -675,9 +681,9 @@ lookup BNG_dflt_vedic_extension_shift4 {
  	pos s-beng.half headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_sBa 0 0 0>;
  	pos s-beng.half2 headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_sKRa 0 0 0>;
  	pos s-beng.half2 uMatra-beng.side @BNG_VEDIC_ALL' <$VEDIC_sRU 0 0 0>;
-} BNG_dflt_vedic_extension_shift4;
+} BNG_dflt_vedic_extension_shift5;
 
-lookup BNG_dflt_vedic_extension_shift5 {
+lookup BNG_dflt_vedic_extension_shift6 {
 	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.250 headline-beng.200 headline-beng.130 headline-beng.100];
  	ignore pos s-beng.half2 uMatra-beng.side @BNG_VEDIC_ALL';
  	pos g-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_gHalf 0 0 0>;
@@ -686,43 +692,37 @@ lookup BNG_dflt_vedic_extension_shift5 {
  	pos n-beng.headline [ddha-beng.side ddh-beng.side ttha-beng.side dda-beng.side] @BNG_VEDIC_ALL' <$VEDIC_nHeadline 0 0 0>;
  	pos n-beng.headline aaMatra-beng.part ma-beng.side @BNG_VEDIC_ALL' <$VEDIC_nMa 0 0 0>;
  	pos [b-beng.half dh-beng.half] @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_bHalf 0 0 0>;
-} BNG_dflt_vedic_extension_shift5;
+} BNG_dflt_vedic_extension_shift6;
 	
-lookup BNG_dflt_vedic_extension_shift6 {
+lookup BNG_dflt_vedic_extension_shift7 {
 	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.250 headline-beng.200 headline-beng.130 headline-beng.100];
  	pos ss-beng.half3 headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_ssHalf3 0 0 0>;
  	pos s-beng.half2 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_sHalf2 0 0 0>;
  	pos s-beng.half4 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_sHalf4 0 0 0>;
  	pos ha-beng headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_hRvoc 0 0 0>;
  	pos ha-beng headline-beng.250 @BNG_VEDIC_ALL' <$VEDIC_hNa 0 0 0>;
-} BNG_dflt_vedic_extension_shift6;
+} BNG_dflt_vedic_extension_shift7;
 
-lookup BNG_dflt_vedic_extension_shift7{
+lookup BNG_dflt_vedic_extension_shift8{
 	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200];
  	pos th-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_thHalf 0 0 0>;
  	pos bh-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_bhHalf 0 0 0>;
  	pos bh-beng.half headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_bhRUu 0 0 0>;
  	pos ramiddlediagonal-beng @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ramiddlediagonal 0 0 0>;
  	pos l-beng.half3 aaMatra-beng.part headline-beng.130 @BNG_VEDIC_ALL' <$VEDIC_lKa 0 0 0>;
-} BNG_dflt_vedic_extension_shift7;
-
-lookup BNG_dflt_vedic_extension_shift8{
-	pos l-beng.half3 aaMatra-beng.part ma-beng.side @BNG_VEDIC_ALL' <$VEDIC_lMa 0 0 0>;
 } BNG_dflt_vedic_extension_shift8;
+
+lookup BNG_dflt_vedic_extension_shift9{
+	pos l-beng.half3 aaMatra-beng.part ma-beng.side @BNG_VEDIC_ALL' <$VEDIC_lMa 0 0 0>;
+} BNG_dflt_vedic_extension_shift9;
 
 
 @BNG_VEDIC_TOPCLASH = [tta-beng.flag tta-beng.flag2 tta-beng.flag3 ttha-beng.top ttha-beng.top2];
 
 lookup BNG_dflt_vedic_extension_shift_up {
 	lookupflag IgnoreBaseGlyphs UseMarkFilteringSet [@BNG_VEDIC_TOP @BNG_VEDIC_TOPCLASH];
- 	pos @BNG_VEDIC_TOPCLASH @BNG_VEDIC_TOP' <0 220 0 0>;
+ 	pos @BNG_VEDIC_TOP' @BNG_VEDIC_TOPCLASH <0 200 0 0>;
 } BNG_dflt_vedic_extension_shift_up;
-
-
-# lookup BNG_dflt_dist_rephIMatra {
-# 	lookupflag 0;
-# 	pos reph-beng' iMatra-beng <-50 0 0 0>;
-# }BNG_dflt_dist_rephIMatra;
 ";
 tag = abvm;
 }
@@ -805,15 +805,15 @@ numberValues = (
 -276,
 -238,
 -326,
--332,
--322,
--325,
+80,
+80,
+80,
 -287,
 -255,
 -232,
 -287,
--185,
 -247,
+-185,
 -353,
 -307,
 -312,
@@ -847,7 +847,9 @@ numberValues = (
 -311,
 -321,
 -235,
--209
+-209,
+142,
+136
 );
 stemValues = (
 21,
@@ -944,15 +946,15 @@ numberValues = (
 -296,
 -284,
 -344,
--355,
--345,
--331,
+100,
+100,
+100,
 -317,
 -281,
 -265,
 -311,
--216,
 -272,
+-216,
 -369,
 -343,
 -350,
@@ -986,7 +988,9 @@ numberValues = (
 -324,
 -339,
 -237,
--247
+-247,
+140,
+130
 );
 stemValues = (
 77,
@@ -1076,15 +1080,15 @@ numberValues = (
 -323,
 -306,
 -338,
--370,
--375,
--353,
+115,
+105,
+120,
 -354,
 -294,
 -337,
 -297,
--249,
 -297,
+-249,
 -385,
 -395,
 -375,
@@ -1118,7 +1122,9 @@ numberValues = (
 -345,
 -368,
 -272,
--220
+-220,
+135,
+136
 );
 stemValues = (
 164,
@@ -1204,15 +1210,15 @@ numberValues = (
 -193,
 -215,
 -227,
--238,
--226,
--225,
+56,
+56,
+56,
 -206,
 -176,
 -194,
 -167,
--130,
 -168,
+-130,
 -247,
 -208,
 -219,
@@ -1246,7 +1252,9 @@ numberValues = (
 -217,
 -223,
 -164,
--147
+-147,
+100,
+144
 );
 stemValues = (
 20,
@@ -1266,6 +1274,7 @@ name = "Master Icon Glyph Name";
 value = "ka-beng";
 }
 );
+iconName = Condensed;
 id = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 metricValues = (
 {
@@ -1332,15 +1341,15 @@ numberValues = (
 -229,
 -219,
 -257,
--266,
--263,
--250,
+76,
+76,
+76,
 -244,
 -209,
 -241,
 -201,
--166,
 -205,
+-166,
 -276,
 -261,
 -261,
@@ -1374,7 +1383,9 @@ numberValues = (
 -244,
 -256,
 -184,
--179
+-179,
+107,
+130
 );
 stemValues = (
 70,
@@ -1460,15 +1471,15 @@ numberValues = (
 -256,
 -240,
 -269,
--291,
--288,
--281,
+89,
+89,
+89,
 -291,
 -235,
 -266,
 -246,
--203,
 -235,
+-203,
 -302,
 -321,
 -288,
@@ -1502,7 +1513,9 @@ numberValues = (
 -192,
 -289,
 -217,
--175
+-175,
+105,
+106
 );
 stemValues = (
 150,
@@ -3445,6 +3458,9 @@ UUID0 = {
 "@MMK_R_L_BNG_headline130" = -141;
 "@MMK_R_L_BNG_ma_half" = 0;
 };
+"@MMK_L_R_BNG_da_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 18;
+};
 "@MMK_L_R_BNG_dd_half1" = {
 "@MMK_R_L_BNG_ma_side1" = 3;
 };
@@ -3473,10 +3489,13 @@ UUID0 = {
 "@MMK_R_L_BNG_aaMatra_part" = -236;
 "@MMK_R_L_BNG_aaMatra_partShort" = -85;
 "@MMK_R_L_BNG_da" = -221;
+"@MMK_R_L_BNG_dda_side" = -34;
 "@MMK_R_L_d-beng_half" = -229;
 "@MMK_R_L_d-beng_half2" = -319;
 "@MMK_R_L_d-beng_half3" = -222;
-"@MMK_R_L_BNG_dda_side" = -34;
+};
+"@MMK_L_R_BNG_ng_half2" = {
+"@MMK_R_L_BNG_ma_side1" = 11;
 };
 "@MMK_L_R_BNG_nga_half" = {
 "@MMK_R_L_BNG_headline-100" = -13;
@@ -3493,17 +3512,11 @@ UUID0 = {
 "@MMK_L_R_BNG_t_half" = {
 "@MMK_R_L_BNG_ma_side1" = 38;
 };
-"@MMK_L_R_BNG_uni1CE1" = {
-"@MMK_R_L_BNG_aiMatra" = 54;
-};
-"@MMK_L_R_BNG_da_half2" = {
-"@MMK_R_L_BNG_uMatra_side" = 18;
-};
-"@MMK_L_R_BNG_ng_half2" = {
-"@MMK_R_L_BNG_ma_side1" = 11;
-};
 "@MMK_L_R_BNG_t_ra" = {
 "@MMK_R_L_BNG_uMatra_side" = -7;
+};
+"@MMK_L_R_BNG_uni1CE1" = {
+"@MMK_R_L_BNG_aiMatra" = 54;
 };
 };
 };
@@ -3646,13 +3659,13 @@ name = VEDIC_nnHalf3;
 name = VEDIC_tHalf;
 },
 {
-name = VEDIC_tTa;
+name = VEDIC_kTa;
 },
 {
-name = VEDIC_tTaHalf;
+name = VEDIC_kTaHalf;
 },
 {
-name = VEDIC_tRa;
+name = VEDIC_kRa;
 },
 {
 name = VEDIC_thHalf;
@@ -3667,10 +3680,10 @@ name = VEDIC_dHalf2;
 name = VEDIC_dHalf3;
 },
 {
-name = VEDIC_dHalf4;
+name = VEDIC_nHeadline;
 },
 {
-name = VEDIC_nHeadline;
+name = VEDIC_dHalf4;
 },
 {
 name = VEDIC_nSHalf;
@@ -3773,6 +3786,12 @@ name = VEDIC_hRvoc;
 },
 {
 name = VEDIC_hNa;
+},
+{
+name = VEDIC_ddhaSide;
+},
+{
+name = VEDIC_ddhaHalfSide;
 }
 );
 properties = (

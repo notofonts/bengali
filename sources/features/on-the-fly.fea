@@ -1436,10 +1436,10 @@ lookup BNG_dflt_abvs_swapVedicStacks {
     sub uni1CF6' lookup BNG_dflt_rclt_swapVedicStacks_removeMark @BNG_RCLT_BASES_VEDIC1CF6' lookup BNG_dflt_rclt_swapVedicStacks_addMark;
 } BNG_dflt_abvs_swapVedicStacks;
 
-#lookup BNG_dflt_rclt_swapVedicStacks_context {
-#    lookupflag 0;
-#    sub uni1CF5' lookup BNG_dflt_rclt_swapVedicStacks_removeMark [b-beng.half b-beng.half2 t_ta-beng t_t-beng.half t_ra-beng] @BNG_RCLT_BASES_KA_ARM' lookup BNG_dflt_rclt_swapVedicStacks_addMark;
-#} BNG_dflt_rclt_swapVedicStacks_context;
+lookup BNG_dflt_rclt_swapVedicStacks_context {
+    lookupflag UseMarkFilteringSet [@BNG_RCLT_BASES_KA_ARM uni1CF5.stack uni1CF6.stack];
+    sub uni1CF5' lookup BNG_dflt_rclt_swapVedicStacks_removeMark [b-beng.half b-beng.half2 t_ta-beng t_t-beng.half t_ra-beng]' @BNG_RCLT_BASES_KA_ARM' lookup BNG_dflt_rclt_swapVedicStacks_addMark;
+} BNG_dflt_rclt_swapVedicStacks_context;
 
 
 # lookup BNG_dflt_rclt_swapVedicStacks_kaPart {
