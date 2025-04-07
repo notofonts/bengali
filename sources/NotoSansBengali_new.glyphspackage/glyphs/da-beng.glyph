@@ -338,7 +338,7 @@ pos = (403,-1);
 },
 {
 name = bottomMainForm;
-pos = (89,295);
+pos = (89,285);
 },
 {
 name = nukta;
@@ -641,7 +641,7 @@ pos = (294,2);
 },
 {
 name = bottomMainForm;
-pos = (56,266);
+pos = (56,261);
 },
 {
 name = nukta;

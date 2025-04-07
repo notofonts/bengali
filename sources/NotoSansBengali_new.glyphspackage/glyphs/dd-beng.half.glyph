@@ -754,7 +754,7 @@ nodes = (
 );
 }
 );
-width = 522;
+width = 526;
 },
 {
 anchors = (
@@ -831,7 +831,7 @@ nodes = (
 );
 }
 );
-width = 550;
+width = 556;
 }
 );
 script = bengali;

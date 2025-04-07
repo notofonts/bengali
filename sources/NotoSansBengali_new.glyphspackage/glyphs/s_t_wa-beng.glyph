@@ -211,11 +211,11 @@ pos = (-18,-4);
 ref = "ta-beng.blws";
 },
 {
-pos = (181,-222);
+pos = (191,-222);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (216,-268);
+pos = (226,-268);
 ref = "wa-beng.part";
 }
 );

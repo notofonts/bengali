@@ -629,11 +629,11 @@ pos = (409,0);
 ref = "tta-beng.flagIiMatra";
 },
 {
-pos = (609,0);
+pos = (613,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 811;
+width = 815;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
@@ -658,11 +658,11 @@ pos = (466,1);
 ref = "tta-beng.flagIiMatra";
 },
 {
-pos = (682,0);
+pos = (692,0);
 ref = "iiMatra-beng.ttaAlt1";
 }
 );
-width = 926;
+width = 936;
 }
 );
 script = bengali;

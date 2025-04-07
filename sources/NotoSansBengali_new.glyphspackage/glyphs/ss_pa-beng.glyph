@@ -483,7 +483,7 @@ ref = "ss-beng.half4";
 },
 {
 alignment = -1;
-pos = (248,0);
+pos = (238,0);
 ref = "pa-beng";
 }
 );
@@ -498,11 +498,11 @@ ref = "ss-beng.half4";
 },
 {
 alignment = -1;
-pos = (265,0);
+pos = (245,0);
 ref = "pa-beng";
 }
 );
-width = 804;
+width = 784;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
@@ -513,11 +513,11 @@ ref = "ss-beng.half4";
 },
 {
 alignment = -1;
-pos = (286,0);
+pos = (276,0);
 ref = "pa-beng";
 }
 );
-width = 881;
+width = 872;
 }
 );
 script = bengali;

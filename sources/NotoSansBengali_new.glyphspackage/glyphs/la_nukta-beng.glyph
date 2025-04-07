@@ -113,11 +113,11 @@ shapes = (
 ref = "la-beng";
 },
 {
-pos = (291,124);
+pos = (292,124);
 ref = "nukta-beng";
 }
 );
-width = 547;
+width = 548;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
@@ -126,11 +126,11 @@ shapes = (
 ref = "la-beng";
 },
 {
-pos = (317,153);
+pos = (326,153);
 ref = "nukta-beng";
 }
 );
-width = 610;
+width = 619;
 }
 );
 }

@@ -309,7 +309,7 @@ pos = (-1,1);
 ref = "raphala-beng.alt09";
 }
 );
-width = 389;
+width = 395;
 },
 {
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
@@ -322,7 +322,7 @@ pos = (-1,-37);
 ref = "raphala-beng.alt09";
 }
 );
-width = 481;
+width = 483;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";

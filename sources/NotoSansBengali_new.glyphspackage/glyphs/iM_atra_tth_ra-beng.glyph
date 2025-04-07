@@ -434,7 +434,7 @@ pos = (224,0);
 ref = "ttha-beng.topIMatra";
 }
 );
-width = 513;
+width = 523;
 },
 {
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
@@ -455,7 +455,7 @@ pos = (260,0);
 ref = "ttha-beng.topIMatra";
 }
 );
-width = 620;
+width = 627;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
@@ -476,7 +476,7 @@ pos = (270,1);
 ref = "ttha-beng.topIMatra";
 }
 );
-width = 680;
+width = 694;
 }
 );
 script = bengali;

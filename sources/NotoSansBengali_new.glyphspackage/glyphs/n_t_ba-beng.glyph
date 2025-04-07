@@ -502,7 +502,7 @@ pos = (-20,4);
 ref = "ta-beng.blws";
 },
 {
-pos = (179,-214);
+pos = (189,-214);
 ref = "baphala-beng.alt2";
 }
 );

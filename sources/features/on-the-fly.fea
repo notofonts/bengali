@@ -958,6 +958,7 @@ lookup BNG_dflt_pres_onTheFly_last_dblBlwf {
     lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng];
     ignore sub [b-beng.half2 l-beng.half3] baphala-beng.alt4' dha-beng.part' baphala-beng';
     sub baphala-beng.alt4' dha-beng.part' baphala-beng' by dh_ba-beng.blws;
+    sub baphala-beng.alt4' dha-beng.part' ba-beng' raphala-beng by dh_ba-beng.blws;
 } BNG_dflt_pres_onTheFly_last_dblBlwf;
 
 # Below forms without half form

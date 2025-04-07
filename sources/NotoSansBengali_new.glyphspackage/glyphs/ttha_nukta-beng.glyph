@@ -100,11 +100,11 @@ shapes = (
 ref = "ttha-beng";
 },
 {
-pos = (192,-28);
+pos = (193,-28);
 ref = "nukta-beng";
 }
 );
-width = 358;
+width = 362;
 },
 {
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
@@ -117,7 +117,7 @@ pos = (212,-24);
 ref = "nukta-beng";
 }
 );
-width = 416;
+width = 420;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
@@ -130,7 +130,7 @@ pos = (234,-5);
 ref = "nukta-beng";
 }
 );
-width = 457;
+width = 463;
 }
 );
 }

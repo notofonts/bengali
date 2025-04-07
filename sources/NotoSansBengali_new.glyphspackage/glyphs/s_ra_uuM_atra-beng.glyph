@@ -477,15 +477,15 @@ alignment = -1;
 ref = "s-beng.half2";
 },
 {
-pos = (41,-4);
+pos = (36,-4);
 ref = "raphala-beng.alt10";
 },
 {
-pos = (389,121);
+pos = (384,121);
 ref = "dha-beng.part";
 },
 {
-pos = (499,0);
+pos = (494,0);
 ref = "headline-beng.130";
 }
 );

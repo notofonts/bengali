@@ -814,7 +814,7 @@ nodes = (
 );
 }
 );
-width = 526;
+width = 536;
 },
 {
 anchors = (
@@ -828,7 +828,7 @@ pos = (286,634);
 },
 {
 name = top_headline130;
-pos = (362,513);
+pos = (362,514);
 },
 {
 name = top_vedic;
@@ -905,7 +905,7 @@ nodes = (
 );
 }
 );
-width = 535;
+width = 545;
 }
 );
 script = bengali;

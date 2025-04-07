@@ -587,7 +587,7 @@ pos = (248,1);
 ref = "tta-beng.flag";
 }
 );
-width = 451;
+width = 461;
 }
 );
 script = bengali;

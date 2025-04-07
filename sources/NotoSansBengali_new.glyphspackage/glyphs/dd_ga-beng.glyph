@@ -281,11 +281,11 @@ ref = "dd-beng.half";
 },
 {
 alignment = -1;
-pos = (395,0);
+pos = (386,0);
 ref = "ga-beng.side";
 }
 );
-width = 886;
+width = 876;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";

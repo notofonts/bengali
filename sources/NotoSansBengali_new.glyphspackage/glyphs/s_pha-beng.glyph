@@ -436,7 +436,7 @@ pos = (485,0);
 ref = "pha-beng.side";
 }
 );
-width = 810;
+width = 816;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
@@ -449,7 +449,7 @@ pos = (542,0);
 ref = "pha-beng.side";
 }
 );
-width = 905;
+width = 914;
 }
 );
 script = bengali;

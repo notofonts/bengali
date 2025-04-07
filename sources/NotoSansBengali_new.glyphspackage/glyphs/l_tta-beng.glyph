@@ -517,15 +517,15 @@ shapes = (
 ref = "l-beng.half3";
 },
 {
-pos = (502,0);
+pos = (503,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (503,0);
+pos = (504,0);
 ref = "tta-beng.flag";
 }
 );
-width = 715;
+width = 720;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
@@ -534,15 +534,15 @@ shapes = (
 ref = "l-beng.half3";
 },
 {
-pos = (571,0);
+pos = (580,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (571,1);
+pos = (580,1);
 ref = "tta-beng.flag";
 }
 );
-width = 780;
+width = 799;
 }
 );
 script = bengali;

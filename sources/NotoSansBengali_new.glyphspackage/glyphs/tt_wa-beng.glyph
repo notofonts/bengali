@@ -139,7 +139,7 @@ pos = (43,-84);
 ref = "wa-beng.part";
 }
 );
-width = 343;
+width = 348;
 },
 {
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
@@ -160,7 +160,7 @@ pos = (49,-97);
 ref = "wa-beng.part";
 }
 );
-width = 401;
+width = 405;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";

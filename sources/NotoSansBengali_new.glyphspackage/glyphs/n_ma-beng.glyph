@@ -117,19 +117,19 @@ shapes = (
 ref = "n-beng.headline";
 },
 {
-pos = (278,0);
+pos = (291,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (-20,7);
+pos = (-7,7);
 ref = "n-beng.float";
 },
 {
-pos = (542,0);
+pos = (555,0);
 ref = "ma-beng.side";
 }
 );
-width = 774;
+width = 787;
 },
 {
 background = {
@@ -238,19 +238,19 @@ shapes = (
 ref = "n-beng.headline";
 },
 {
-pos = (274,0);
+pos = (292,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (-11,-12);
+pos = (7,-12);
 ref = "n-beng.float";
 },
 {
-pos = (484,0);
+pos = (502,0);
 ref = "ma-beng.side";
 }
 );
-width = 714;
+width = 732;
 },
 {
 background = {
@@ -365,19 +365,19 @@ shapes = (
 ref = "n-beng.headline";
 },
 {
-pos = (284,0);
+pos = (290,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (-5,0);
+pos = (1,0);
 ref = "n-beng.float";
 },
 {
-pos = (582,0);
+pos = (588,0);
 ref = "ma-beng.side";
 }
 );
-width = 844;
+width = 850;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -386,19 +386,19 @@ shapes = (
 ref = "n-beng.headline";
 },
 {
-pos = (195,0);
+pos = (196,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (-6,-7);
+pos = (-5,-7);
 ref = "n-beng.float";
 },
 {
-pos = (344,0);
+pos = (345,0);
 ref = "ma-beng.side";
 }
 );
-width = 504;
+width = 505;
 },
 {
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";

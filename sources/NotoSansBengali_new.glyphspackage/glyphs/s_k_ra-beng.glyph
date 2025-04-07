@@ -585,15 +585,15 @@ alignment = -1;
 ref = "s-beng.half2";
 },
 {
-pos = (30,-146);
+pos = (25,-146);
 ref = "t_ra-beng.blws";
 },
 {
-pos = (383,-149);
+pos = (378,-149);
 ref = "ka-beng.arm2";
 },
 {
-pos = (489,0);
+pos = (484,0);
 ref = "headline-beng.200";
 }
 );

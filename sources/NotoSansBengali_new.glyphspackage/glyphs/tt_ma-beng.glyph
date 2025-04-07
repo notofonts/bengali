@@ -522,11 +522,11 @@ pos = (148,0);
 ref = "tta-beng.flag";
 },
 {
-pos = (357,0);
+pos = (362,0);
 ref = "ma-beng.side1";
 }
 );
-width = 490;
+width = 495;
 },
 {
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
@@ -539,11 +539,11 @@ pos = (202,0);
 ref = "tta-beng.flag";
 },
 {
-pos = (423,0);
+pos = (427,0);
 ref = "ma-beng.side1";
 }
 );
-width = 582;
+width = 586;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";

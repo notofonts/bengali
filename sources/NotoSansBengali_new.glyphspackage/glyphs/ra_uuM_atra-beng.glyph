@@ -373,11 +373,11 @@ shapes = (
 ref = "ra-beng";
 },
 {
-pos = (463,0);
+pos = (466,0);
 ref = "uuMatra-beng.side2";
 }
 );
-width = 642;
+width = 645;
 }
 );
 script = bengali;

@@ -648,7 +648,7 @@ pos = (153,-118);
 ref = "nna-beng.blws";
 }
 );
-width = 558;
+width = 568;
 },
 {
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
@@ -661,7 +661,7 @@ pos = (155,-131);
 ref = "nna-beng.blws";
 }
 );
-width = 655;
+width = 665;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
@@ -670,11 +670,11 @@ shapes = (
 ref = "k_ss-beng.half";
 },
 {
-pos = (129,-196);
+pos = (124,-196);
 ref = "nna-beng.blws";
 }
 );
-width = 744;
+width = 749;
 }
 );
 script = bengali;

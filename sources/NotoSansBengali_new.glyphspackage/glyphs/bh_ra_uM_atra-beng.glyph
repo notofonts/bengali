@@ -438,7 +438,7 @@ pos = (467,0);
 ref = "uMatra-beng.side";
 }
 );
-width = 625;
+width = 630;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
@@ -455,7 +455,7 @@ pos = (538,0);
 ref = "uMatra-beng.side";
 }
 );
-width = 733;
+width = 738;
 }
 );
 script = bengali;

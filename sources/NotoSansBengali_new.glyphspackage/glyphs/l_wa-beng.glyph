@@ -410,19 +410,19 @@ shapes = (
 ref = "l-beng.half3";
 },
 {
-pos = (300,0);
+pos = (301,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (150,44);
+pos = (151,44);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (167,-6);
+pos = (168,-6);
 ref = "wa-beng.part";
 }
 );
-width = 502;
+width = 503;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
@@ -431,19 +431,19 @@ shapes = (
 ref = "l-beng.half3";
 },
 {
-pos = (333,0);
+pos = (342,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (148,51);
+pos = (157,51);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (166,-6);
+pos = (175,-6);
 ref = "wa-beng.part";
 }
 );
-width = 572;
+width = 581;
 }
 );
 script = bengali;

@@ -552,7 +552,7 @@ pos = (540,0);
 ref = "tta-beng.flag";
 }
 );
-width = 752;
+width = 756;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
@@ -569,7 +569,7 @@ pos = (589,1);
 ref = "tta-beng.flag";
 }
 );
-width = 798;
+width = 808;
 }
 );
 script = bengali;

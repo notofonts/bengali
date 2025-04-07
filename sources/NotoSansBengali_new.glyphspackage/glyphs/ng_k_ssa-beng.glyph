@@ -146,7 +146,7 @@ pos = (402,0);
 ref = "k_ssa-beng";
 }
 );
-width = 973;
+width = 983;
 },
 {
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
@@ -163,7 +163,7 @@ pos = (480,0);
 ref = "k_ssa-beng";
 }
 );
-width = 1131;
+width = 1141;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
@@ -172,7 +172,7 @@ shapes = (
 ref = "ng-beng.half";
 },
 {
-pos = (370,-1);
+pos = (370,0);
 ref = "headline-beng.130";
 },
 {
@@ -180,7 +180,7 @@ pos = (532,0);
 ref = "k_ssa-beng";
 }
 );
-width = 1271;
+width = 1281;
 }
 );
 script = bengali;

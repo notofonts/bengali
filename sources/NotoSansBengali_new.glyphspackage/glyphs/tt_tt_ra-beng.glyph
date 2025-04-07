@@ -1,5 +1,5 @@
 {
-color = 10;
+color = 0;
 export = 0;
 glyphname = "tt_tt_ra-beng";
 layers = (
@@ -86,7 +86,7 @@ pos = (200,0);
 ref = "tta-beng.flag";
 }
 );
-width = 425;
+width = 435;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
@@ -103,7 +103,7 @@ pos = (297,1);
 ref = "tta-beng.flag";
 }
 );
-width = 508;
+width = 518;
 }
 );
 }

@@ -501,11 +501,11 @@ pos = (-18,-5);
 ref = "ta-beng.blws";
 },
 {
-pos = (181,-223);
+pos = (191,-223);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (216,-269);
+pos = (226,-269);
 ref = "wa-beng.part";
 }
 );

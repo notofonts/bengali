@@ -132,7 +132,7 @@ pos = (158,0);
 ref = "ttha-beng.top2";
 }
 );
-width = 417;
+width = 421;
 },
 {
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
@@ -145,7 +145,7 @@ pos = (141,0);
 ref = "ttha-beng.top2";
 }
 );
-width = 483;
+width = 488;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
@@ -158,7 +158,7 @@ pos = (154,1);
 ref = "ttha-beng.top2";
 }
 );
-width = 566;
+width = 572;
 }
 );
 script = bengali;

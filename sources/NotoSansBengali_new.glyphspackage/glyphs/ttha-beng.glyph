@@ -545,23 +545,23 @@ width = 575;
 anchors = (
 {
 name = bottom;
-pos = (228,24);
+pos = (229,24);
 },
 {
 name = nukta;
-pos = (192,-96);
+pos = (193,-96);
 },
 {
 name = top_candrabindu;
-pos = (233,587);
+pos = (234,587);
 },
 {
 name = top_ttha;
-pos = (159,598);
+pos = (160,598);
 },
 {
 name = top_vedic;
-pos = (179,607);
+pos = (180,607);
 }
 );
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -574,7 +574,7 @@ pos = (62,0);
 ref = "ttha-beng.top";
 }
 );
-width = 358;
+width = 362;
 },
 {
 anchors = (
@@ -609,7 +609,7 @@ pos = (57,0);
 ref = "ttha-beng.top";
 }
 );
-width = 416;
+width = 420;
 },
 {
 anchors = (
@@ -644,7 +644,7 @@ pos = (38,1);
 ref = "ttha-beng.top";
 }
 );
-width = 457;
+width = 463;
 }
 );
 script = bengali;

@@ -451,15 +451,15 @@ alignment = -1;
 ref = "d-beng.half3";
 },
 {
-pos = (67,44);
+pos = (72,44);
 ref = "dh_ba-beng.blws";
 },
 {
-pos = (106,-157);
+pos = (111,-157);
 ref = "wa-beng.part";
 },
 {
-pos = (402,0);
+pos = (407,0);
 ref = "headline-beng.130";
 }
 );

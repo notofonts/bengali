@@ -404,23 +404,23 @@ shapes = (
 ref = "n-beng.headline";
 },
 {
-pos = (199,0);
+pos = (192,0);
 ref = "d-beng.half3";
 },
 {
-pos = (-3,19);
+pos = (-10,19);
 ref = "n-beng.float";
 },
 {
-pos = (268,51);
+pos = (261,51);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (281,12);
+pos = (274,12);
 ref = "wa-beng.part";
 }
 );
-width = 534;
+width = 529;
 },
 {
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
@@ -433,19 +433,19 @@ pos = (221,0);
 ref = "d-beng.half3";
 },
 {
-pos = (-15,14);
+pos = (-10,14);
 ref = "n-beng.float";
 },
 {
-pos = (290,25);
+pos = (295,25);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (307,-25);
+pos = (312,-25);
 ref = "wa-beng.part";
 }
 );
-width = 623;
+width = 628;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";

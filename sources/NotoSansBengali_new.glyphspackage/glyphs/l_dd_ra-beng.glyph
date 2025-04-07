@@ -243,15 +243,15 @@ shapes = (
 ref = "l-beng.half3";
 },
 {
-pos = (502,0);
+pos = (503,0);
 ref = "dda-beng.side";
 },
 {
-pos = (167,-189);
+pos = (168,-189);
 ref = "raphala-beng.alt05";
 }
 );
-width = 692;
+width = 704;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
@@ -260,15 +260,15 @@ shapes = (
 ref = "l-beng.half3";
 },
 {
-pos = (571,0);
+pos = (580,0);
 ref = "dda-beng.side";
 },
 {
-pos = (158,-221);
+pos = (167,-221);
 ref = "raphala-beng.alt05";
 }
 );
-width = 749;
+width = 763;
 }
 );
 script = bengali;

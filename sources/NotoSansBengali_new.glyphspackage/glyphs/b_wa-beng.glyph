@@ -366,15 +366,15 @@ shapes = (
 ref = "ba-beng";
 },
 {
-pos = (463,0);
+pos = (466,0);
 ref = "ba-beng.side";
 },
 {
-pos = (400,157);
+pos = (403,157);
 ref = "wa-beng.part";
 }
 );
-width = 809;
+width = 812;
 }
 );
 script = bengali;

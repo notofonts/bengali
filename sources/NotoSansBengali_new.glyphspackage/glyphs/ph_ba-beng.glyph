@@ -117,7 +117,7 @@ pos = (107,-86);
 ref = "baphala-beng.alt1";
 }
 );
-width = 627;
+width = 632;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
@@ -130,7 +130,7 @@ pos = (59,-47);
 ref = "baphala-beng.alt1";
 }
 );
-width = 654;
+width = 662;
 }
 );
 script = bengali;

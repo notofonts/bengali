@@ -613,7 +613,7 @@ pos = (-14,8);
 ref = "n-beng.float";
 }
 );
-width = 609;
+width = 613;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
@@ -638,7 +638,7 @@ pos = (-7,2);
 ref = "n-beng.float";
 }
 );
-width = 682;
+width = 692;
 }
 );
 script = bengali;

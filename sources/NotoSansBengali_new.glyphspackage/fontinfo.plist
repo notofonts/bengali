@@ -1405,6 +1405,11 @@ name = "Master Icon Glyph Name";
 value = "ka-beng";
 }
 );
+guides = (
+{
+pos = (451,-390);
+}
+);
 id = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 metricValues = (
 {
@@ -1912,6 +1917,43 @@ widthClass = 3;
 },
 {
 axesValues = (
+20,
+63
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+6,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = 1;
+};
+name = "Extra Condensed Thin";
+weightClass = 100;
+widthClass = 2;
+},
+{
+axesValues = (
 90,
 63
 );
@@ -1944,6 +1986,18 @@ instanceInterpolations = {
 "D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 1;
 };
 name = ExtraCondensed;
+widthClass = 2;
+},
+{
+axesValues = (
+178,
+63
+);
+instanceInterpolations = {
+"F138D99C-4E28-42C5-9F3E-22494052B08F" = 1;
+};
+name = "Extra Condensed Black";
+weightClass = 900;
 widthClass = 2;
 },
 {
@@ -3038,38 +3092,6 @@ value = "Noto Sans Bengali UI";
 }
 );
 widthClass = 2;
-},
-{
-axesValues = (
-20,
-63
-);
-instanceInterpolations = {
-"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = 1;
-};
-name = "Extra Condensed Thin";
-},
-{
-axesValues = (
-84,
-63
-);
-instanceInterpolations = {
-"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = 0.08571;
-"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.91429;
-};
-name = "Extra Condensed Regular";
-},
-{
-axesValues = (
-172,
-63
-);
-instanceInterpolations = {
-"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.06818;
-"F138D99C-4E28-42C5-9F3E-22494052B08F" = 0.93182;
-};
-name = "Extra Condensed Black";
 }
 );
 kerningLTR = {
@@ -3118,12 +3140,15 @@ kerningLTR = {
 "@MMK_R_L_BNG_headline_250" = -180;
 };
 "@MMK_L_R_BNG_nHeadline_part" = {
-"@MMK_R_L_BNG_aaMatra_part" = -221;
+"@MMK_R_L_BNG_aaMatra_part" = -203;
 "@MMK_R_L_BNG_aaMatra_partShort" = -101;
-"@MMK_R_L_BNG_da" = -216;
-"@MMK_R_L_d-beng_half" = -215;
+"@MMK_R_L_BNG_da" = -218;
+"@MMK_R_L_BNG_dda_side" = -1;
+"@MMK_R_L_BNG_ddhaSide" = 8;
+"@MMK_R_L_BNG_tthaSide" = -4;
+"@MMK_R_L_d-beng_half" = -207;
 "@MMK_R_L_d-beng_half2" = -275;
-"@MMK_R_L_d-beng_half3" = -215;
+"@MMK_R_L_d-beng_half3" = -207;
 };
 "@MMK_L_R_BNG_ng_half2" = {
 "@MMK_R_L_BNG_ma_side1" = -10;
@@ -3186,12 +3211,15 @@ UUID0 = {
 "@MMK_R_L_BNG_headline_250" = -140;
 };
 "@MMK_L_R_BNG_nHeadline_part" = {
-"@MMK_R_L_BNG_aaMatra_part" = -267;
+"@MMK_R_L_BNG_aaMatra_part" = -254;
 "@MMK_R_L_BNG_aaMatra_partShort" = -122;
-"@MMK_R_L_BNG_da" = -259;
-"@MMK_R_L_d-beng_half" = -260;
+"@MMK_R_L_BNG_da" = -246;
+"@MMK_R_L_BNG_dda_side" = -6;
+"@MMK_R_L_BNG_ddhaSide" = 8;
+"@MMK_R_L_BNG_tthaSide" = 22;
+"@MMK_R_L_d-beng_half" = -241;
 "@MMK_R_L_d-beng_half2" = -340;
-"@MMK_R_L_d-beng_half3" = -260;
+"@MMK_R_L_d-beng_half3" = -241;
 };
 "@MMK_L_R_BNG_nga_half" = {
 "@MMK_R_L_BNG_headline-100" = -79;
@@ -3253,13 +3281,15 @@ UUID0 = {
 "@MMK_R_L_BNG_headline_250" = -170;
 };
 "@MMK_L_R_BNG_nHeadline_part" = {
-"@MMK_R_L_BNG_aaMatra_part" = -311;
+"@MMK_R_L_BNG_aaMatra_part" = -305;
 "@MMK_R_L_BNG_aaMatra_partShort" = -110;
-"@MMK_R_L_BNG_da" = -290;
-"@MMK_R_L_BNG_dda_side" = -48;
-"@MMK_R_L_d-beng_half" = -291;
+"@MMK_R_L_BNG_da" = -279;
+"@MMK_R_L_BNG_dda_side" = -50;
+"@MMK_R_L_BNG_ddhaSide" = 6;
+"@MMK_R_L_BNG_tthaSide" = 9;
+"@MMK_R_L_d-beng_half" = -284;
 "@MMK_R_L_d-beng_half2" = -421;
-"@MMK_R_L_d-beng_half3" = -291;
+"@MMK_R_L_d-beng_half3" = -274;
 };
 "@MMK_L_R_BNG_ng_half2" = {
 "@MMK_R_L_BNG_ma_side1" = 15;
@@ -3332,12 +3362,15 @@ UUID0 = {
 "@MMK_R_L_BNG_headline_250" = -112;
 };
 "@MMK_L_R_BNG_nHeadline_part" = {
-"@MMK_R_L_BNG_aaMatra_part" = -141;
+"@MMK_R_L_BNG_aaMatra_part" = -140;
 "@MMK_R_L_BNG_aaMatra_partShort" = -75;
-"@MMK_R_L_BNG_da" = -138;
-"@MMK_R_L_d-beng_half" = -137;
+"@MMK_R_L_BNG_da" = -144;
+"@MMK_R_L_BNG_dda_side" = 5;
+"@MMK_R_L_BNG_ddhaSide" = 9;
+"@MMK_R_L_BNG_tthaSide" = 6;
+"@MMK_R_L_d-beng_half" = -144;
 "@MMK_R_L_d-beng_half2" = -176;
-"@MMK_R_L_d-beng_half3" = -137;
+"@MMK_R_L_d-beng_half3" = -144;
 };
 "@MMK_L_R_BNG_ng_half2" = {
 "@MMK_R_L_BNG_ma_side1" = -6;
@@ -3409,20 +3442,23 @@ UUID0 = {
 "@MMK_R_L_BNG_headline_250" = -106;
 };
 "@MMK_L_R_BNG_nHeadline_part" = {
-"@MMK_R_L_BNG_aaMatra_part" = -195;
+"@MMK_R_L_BNG_aaMatra_part" = -185;
 "@MMK_R_L_BNG_aaMatra_partShort" = -91;
-"@MMK_R_L_BNG_da" = -189;
-"@MMK_R_L_d-beng_half" = -183;
+"@MMK_R_L_BNG_da" = -185;
+"@MMK_R_L_BNG_dda_side" = -13;
+"@MMK_R_L_BNG_ddhaSide" = 8;
+"@MMK_R_L_BNG_tthaSide" = 14;
+"@MMK_R_L_d-beng_half" = -180;
 "@MMK_R_L_d-beng_half2" = -248;
-"@MMK_R_L_d-beng_half3" = -190;
+"@MMK_R_L_d-beng_half3" = -186;
 };
 "@MMK_L_R_BNG_ng_half2" = {
 "@MMK_R_L_BNG_ma_side1" = -1;
 };
 "@MMK_L_R_BNG_nga_half" = {
-"@MMK_R_L_BNG_headline-100" = -52;
-"@MMK_R_L_BNG_kSsa_half" = -42;
-"@MMK_R_L_BNG_k_ssa" = -46;
+"@MMK_R_L_BNG_headline-100" = -62;
+"@MMK_R_L_BNG_kSsa_half" = -52;
+"@MMK_R_L_BNG_k_ssa" = -56;
 };
 "@MMK_L_R_BNG_sa_half2" = {
 "@MMK_R_L_BNG_uMatra_side" = 13;
@@ -3486,21 +3522,23 @@ UUID0 = {
 "@MMK_R_L_BNG_headline_250" = -129;
 };
 "@MMK_L_R_BNG_nHeadline_part" = {
-"@MMK_R_L_BNG_aaMatra_part" = -236;
+"@MMK_R_L_BNG_aaMatra_part" = -227;
 "@MMK_R_L_BNG_aaMatra_partShort" = -85;
-"@MMK_R_L_BNG_da" = -221;
-"@MMK_R_L_BNG_dda_side" = -34;
-"@MMK_R_L_d-beng_half" = -229;
+"@MMK_R_L_BNG_da" = -225;
+"@MMK_R_L_BNG_dda_side" = -37;
+"@MMK_R_L_BNG_ddhaSide" = 13;
+"@MMK_R_L_BNG_tthaSide" = 15;
+"@MMK_R_L_d-beng_half" = -225;
 "@MMK_R_L_d-beng_half2" = -319;
-"@MMK_R_L_d-beng_half3" = -222;
+"@MMK_R_L_d-beng_half3" = -221;
 };
 "@MMK_L_R_BNG_ng_half2" = {
 "@MMK_R_L_BNG_ma_side1" = 11;
 };
 "@MMK_L_R_BNG_nga_half" = {
-"@MMK_R_L_BNG_headline-100" = -13;
-"@MMK_R_L_BNG_kSsa_half" = -3;
-"@MMK_R_L_BNG_k_ssa" = -3;
+"@MMK_R_L_BNG_headline-100" = -23;
+"@MMK_R_L_BNG_kSsa_half" = -13;
+"@MMK_R_L_BNG_k_ssa" = -13;
 };
 "@MMK_L_R_BNG_sa_half2" = {
 "@MMK_R_L_BNG_uMatra_side" = 14;

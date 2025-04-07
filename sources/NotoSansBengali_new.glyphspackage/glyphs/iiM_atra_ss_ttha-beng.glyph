@@ -144,11 +144,11 @@ pos = (146,-8);
 ref = "ttha-beng.topIiMatra";
 },
 {
-pos = (417,0);
+pos = (421,0);
 ref = "iiMatra-beng.tthaAlt1";
 }
 );
-width = 581;
+width = 585;
 },
 {
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
@@ -161,11 +161,11 @@ pos = (141,-3);
 ref = "ttha-beng.topIiMatra";
 },
 {
-pos = (483,0);
+pos = (488,0);
 ref = "iiMatra-beng.tthaAlt1";
 }
 );
-width = 685;
+width = 690;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
@@ -178,11 +178,11 @@ pos = (156,3);
 ref = "ttha-beng.topIiMatra";
 },
 {
-pos = (566,0);
+pos = (572,0);
 ref = "iiMatra-beng.tthaAlt1";
 }
 );
-width = 810;
+width = 816;
 }
 );
 script = bengali;

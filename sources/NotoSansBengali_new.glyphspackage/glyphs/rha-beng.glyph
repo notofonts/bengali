@@ -178,7 +178,7 @@ pos = (222,0);
 ref = "nukta-beng";
 }
 );
-width = 451;
+width = 461;
 }
 );
 script = bengali;

@@ -700,7 +700,7 @@ pos = (675,0);
 ref = "tta-beng.flagIMatra2";
 }
 );
-width = 875;
+width = 879;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
@@ -725,7 +725,7 @@ pos = (765,1);
 ref = "tta-beng.flagIMatra2";
 }
 );
-width = 981;
+width = 991;
 }
 );
 script = bengali;

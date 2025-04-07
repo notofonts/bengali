@@ -366,7 +366,7 @@ pos = (12,-74);
 ref = "raphala-beng.alt06";
 }
 );
-width = 358;
+width = 363;
 },
 {
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
@@ -379,7 +379,7 @@ pos = (-2,-126);
 ref = "raphala-beng.alt06";
 }
 );
-width = 419;
+width = 424;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
@@ -392,7 +392,7 @@ pos = (-24,-186);
 ref = "raphala-beng.alt06";
 }
 );
-width = 479;
+width = 489;
 }
 );
 script = bengali;
