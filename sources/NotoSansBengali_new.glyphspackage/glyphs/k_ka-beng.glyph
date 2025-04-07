@@ -568,15 +568,15 @@ alignment = -1;
 ref = "b-beng.half2";
 },
 {
-pos = (75,76);
+pos = (76,76);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (321,46);
+pos = (322,46);
 ref = "ka-beng.part";
 },
 {
-pos = (432,0);
+pos = (433,0);
 ref = "ka-beng.arm1";
 }
 );

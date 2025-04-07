@@ -157,19 +157,19 @@ shapes = (
 ref = "b-beng.half2";
 },
 {
-pos = (75,76);
+pos = (76,76);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (320,94);
+pos = (321,94);
 ref = "jha-beng.part";
 },
 {
-pos = (426,0);
+pos = (427,0);
 ref = "aaMatra-beng.side2";
 }
 );
-width = 427;
+width = 428;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
