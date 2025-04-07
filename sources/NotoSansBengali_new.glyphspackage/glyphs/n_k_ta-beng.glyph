@@ -120,11 +120,11 @@ pos = (337,-195);
 ref = "ka-beng.arm2";
 },
 {
-pos = (417,0);
+pos = (427,0);
 ref = "headline-beng.200";
 }
 );
-width = 532;
+width = 538;
 },
 {
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
@@ -179,11 +179,11 @@ pos = (532,-196);
 ref = "ka-beng.arm2";
 },
 {
-pos = (636,0);
+pos = (646,0);
 ref = "headline-beng.200";
 }
 );
-width = 825;
+width = 830;
 }
 );
 }

@@ -394,11 +394,11 @@ pos = (370,-8);
 ref = "ka-beng.arm2";
 },
 {
-pos = (476,0);
+pos = (486,0);
 ref = "headline-beng.200";
 }
 );
-width = 587;
+width = 597;
 },
 {
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
@@ -430,11 +430,11 @@ pos = (462,40);
 ref = "ka-beng.arm2";
 },
 {
-pos = (577,0);
+pos = (587,0);
 ref = "headline-beng.200";
 }
 );
-width = 761;
+width = 771;
 }
 );
 script = bengali;

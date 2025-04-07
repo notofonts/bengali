@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 5;
+color = 0;
 glyphname = "ss-beng.half3";
 layers = (
 {
@@ -612,7 +612,7 @@ pos = (269,607);
 },
 {
 name = top_headline200;
-pos = (432,589);
+pos = (442,589);
 },
 {
 name = top_vedic;
@@ -848,7 +848,7 @@ pos = (316,634);
 },
 {
 name = top_headline200;
-pos = (560,514);
+pos = (570,514);
 },
 {
 name = top_vedic;

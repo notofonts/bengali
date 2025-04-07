@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 10;
+color = 0;
 export = 0;
 glyphname = "ss_k_ra-beng";
 layers = (
@@ -617,11 +617,11 @@ pos = (340,-166);
 ref = "ka-beng.arm2";
 },
 {
-pos = (440,0);
+pos = (450,0);
 ref = "headline-beng.200";
 }
 );
-width = 551;
+width = 561;
 },
 {
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
@@ -653,22 +653,19 @@ alignment = -1;
 ref = "ss-beng.half3";
 },
 {
-alignment = -1;
 pos = (-1,-156);
 ref = "t_ra-beng.blws";
 },
 {
-alignment = -1;
-pos = (428,-140);
+pos = (427,-140);
 ref = "ka-beng.arm2";
 },
 {
-alignment = -1;
-pos = (547,0);
+pos = (557,0);
 ref = "headline-beng.200";
 }
 );
-width = 731;
+width = 741;
 }
 );
 script = bengali;
