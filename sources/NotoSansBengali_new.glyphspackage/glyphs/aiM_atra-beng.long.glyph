@@ -1,7 +1,7 @@
 {
 category = Letter;
 color = 5;
-glyphname = "eMatra-beng";
+glyphname = "aiMatra-beng.long";
 kernRight = BNG_R_eMatra;
 layers = (
 {
@@ -67,17 +67,17 @@ nodes = (
 (175,551,o),
 (202,552,o),
 (226,555,c),
-(371,551,l),
-(371,622,l),
+(331,551,l),
+(331,622,l),
 (-10,622,l),
 (-10,551,l)
 );
 },
 {
-ref = "eMatra-beng.init";
+ref = "aiMatra-beng.long.init";
 }
 );
-width = 361;
+width = 321;
 },
 {
 associatedMasterId = UUID0;
@@ -211,19 +211,19 @@ closed = 1;
 nodes = (
 (199,586,ls),
 (234,586,o),
-(272,587,o),
-(306,590,c),
-(340,586,l),
-(340,607,l),
+(242,587,o),
+(276,590,c),
+(310,586,l),
+(310,607,l),
 (-10,607,l),
 (-10,586,l)
 );
 },
 {
-ref = "eMatra-beng.init";
+ref = "aiMatra-beng.long.init";
 }
 );
-width = 333;
+width = 300;
 },
 {
 background = {
@@ -288,17 +288,17 @@ nodes = (
 (87,505,o),
 (111,506,o),
 (132,509,c),
-(427,505,l),
-(427,635,l),
+(377,505,l),
+(377,635,l),
 (-10,635,l),
 (-10,505,l)
 );
 },
 {
-ref = "eMatra-beng.init";
+ref = "aiMatra-beng.long.init";
 }
 );
-width = 417;
+width = 367;
 },
 {
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -308,19 +308,19 @@ closed = 1;
 nodes = (
 (115,589,ls),
 (138,589,o),
-(165,589,o),
+(164,589,o),
 (187,592,c),
-(249,589,l),
-(249,607,l),
+(229,589,l),
+(229,607,l),
 (-8,607,l),
 (-8,589,l)
 );
 },
 {
-ref = "eMatra-beng.init";
+ref = "aiMatra-beng.long.init";
 }
 );
-width = 241;
+width = 221;
 },
 {
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
@@ -332,18 +332,17 @@ nodes = (
 (108,558,o),
 (128,559,o),
 (146,562,c),
-(290,558,l),
-(290,621,l),
+(261,558,l),
+(261,621,l),
 (-8,621,l),
 (-8,558,l)
 );
 },
 {
-alignment = -1;
-ref = "eMatra-beng.init";
+ref = "aiMatra-beng.long.init";
 }
 );
-width = 282;
+width = 252;
 },
 {
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
@@ -351,25 +350,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(3,514,ls),
-(48,514,o),
-(75,516,o),
-(90,518,c),
-(344,514,l),
-(344,634,l),
-(-8,634,l),
-(-8,514,l)
+(8,514,ls),
+(53,514,o),
+(80,516,o),
+(95,518,c),
+(319,514,l),
+(319,634,l),
+(-7,634,l),
+(-7,514,l)
 );
 },
 {
-alignment = -1;
-ref = "eMatra-beng.init";
+ref = "aiMatra-beng.long.init";
 }
 );
-width = 336;
+width = 311;
 }
 );
 script = bengali;
 subCategory = Spacing;
-unicode = 2503;
 }

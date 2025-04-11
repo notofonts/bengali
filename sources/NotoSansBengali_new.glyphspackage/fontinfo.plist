@@ -609,6 +609,10 @@ lookup BNG_dflt_dist_floatingPart{
 	pos j-beng.half' aaMatra-beng.float <0 0 $NUM_RSB_aaMatraFloat 0>;
 }BNG_dflt_dist_floatingPart;
 
+
+lookup BNG_dflt_dist_onTheFly_kern_eMatra{
+	pos eMatra-beng.long' [m-beng.half s-beng.half] [p-beng.half pha-beng.side pa-beng ma-beng.side2 sa-beng] <0 0 0 0>;
+}BNG_dflt_dist_onTheFly_kern_eMatra;
 ";
 tag = dist;
 },
@@ -1132,6 +1136,7 @@ stemValues = (
 154,
 130
 );
+visible = 1;
 },
 {
 axesValues = (
@@ -3098,6 +3103,8 @@ kerningLTR = {
 "28FB090A-653E-4199-B7BE-FAE23D31B682" = {
 "@MMK_L_BNG_R_eMatra" = {
 "@MMK_R_BNG_L_ba" = -20;
+"@MMK_R_L_BNG_kTta" = -20;
+"@MMK_R_L_BNG_nga_half2" = -30;
 };
 "@MMK_L_R_BNG_aaMatra_part" = {
 "@MMK_R_L_BNG_ma_side" = -10;
@@ -3170,6 +3177,10 @@ kerningLTR = {
 };
 };
 UUID0 = {
+"@MMK_L_BNG_R_eMatra" = {
+"@MMK_R_L_BNG_kTta" = -35;
+"@MMK_R_L_BNG_nga_half2" = -40;
+};
 "@MMK_L_R_BNG_aaMatra_part" = {
 "@MMK_R_L_BNG_ma_side" = 0;
 };
@@ -3241,6 +3252,10 @@ UUID0 = {
 };
 };
 "F455777D-7EDD-47E2-866A-D8A5173CE243" = {
+"@MMK_L_BNG_R_eMatra" = {
+"@MMK_R_L_BNG_kTta" = -30;
+"@MMK_R_L_BNG_nga_half2" = -40;
+};
 "@MMK_L_R_BNG_aaMatra_part" = {
 "@MMK_R_L_BNG_ma_side" = -7;
 };
@@ -3317,6 +3332,7 @@ UUID0 = {
 "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = {
 "@MMK_L_BNG_R_eMatra" = {
 "@MMK_R_BNG_L_ba" = -10;
+"@MMK_R_L_BNG_nga_half2" = -20;
 };
 "@MMK_L_R_BNG_aaMatra_part" = {
 "@MMK_R_L_BNG_ma_side" = -6;
@@ -3397,6 +3413,8 @@ UUID0 = {
 "D7742CE6-1B18-47A0-AEB5-463D77EA217C" = {
 "@MMK_L_BNG_R_eMatra" = {
 "@MMK_R_BNG_L_ba" = -10;
+"@MMK_R_L_BNG_kTta" = -25;
+"@MMK_R_L_BNG_nga_half2" = -20;
 };
 "@MMK_L_R_BNG_aaMatra_part" = {
 "@MMK_R_L_BNG_ma_side" = -1;
@@ -3477,6 +3495,9 @@ UUID0 = {
 "F138D99C-4E28-42C5-9F3E-22494052B08F" = {
 "@MMK_L_BNG_R_eMatra" = {
 "@MMK_R_BNG_L_ba" = -10;
+"@MMK_R_L_BNG_kTta" = -20;
+"@MMK_R_L_BNG_nga_half2" = -20;
+"@MMK_R_L_BNG_sa_half" = 0;
 };
 "@MMK_L_R_BNG_aaMatra_part" = {
 "@MMK_R_L_BNG_ma_side" = -5;
@@ -3520,6 +3541,7 @@ UUID0 = {
 "@MMK_L_R_BNG_ma_half" = {
 "@MMK_R_L_BNG_headline_200" = -175;
 "@MMK_R_L_BNG_headline_250" = -129;
+"eMatra-beng.long" = 0;
 };
 "@MMK_L_R_BNG_nHeadline_part" = {
 "@MMK_R_L_BNG_aaMatra_part" = -227;

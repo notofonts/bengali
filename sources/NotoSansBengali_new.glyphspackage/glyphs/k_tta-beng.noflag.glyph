@@ -2,6 +2,7 @@
 category = Letter;
 color = 5;
 glyphname = "k_tta-beng.noflag";
+kernLeft = L_BNG_kTta;
 layers = (
 {
 anchors = (

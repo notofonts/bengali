@@ -91,7 +91,8 @@ languagesystem bng2 PAL;
 @BNG_EMATRA = [eMatra-beng eMatra-beng.init aiMatra-beng aiMatra-beng.init];
 @BNG_EMATRA_SHORT = [eMatra-beng.short eMatra-beng.short.init aiMatra-beng.short aiMatra-beng.short.init];
 @BNG_BASE_EMATRA_SHORT = [t_ra-beng j_ra-beng t_t_ra-beng l_ra-beng rr_ra-beng rh_ba-beng yy_ra-beng ];
-
+@BNG_EMATRA_LONG = [eMatra-beng.long eMatra-beng.long.init aiMatra-beng.long aiMatra-beng.long.init];
+@BNG_BASE_EMATRA_LONG = [kha-beng ga-beng sha-beng nna-beng tha-beng pa-beng k_ma-beng k_ssa-beng k_ss_ma-beng p_sa-beng b_da-beng m_da-beng j_ja-beng j_j_ba-beng dd_dda-beng dd-beng.half1 s_kha-beng];
 
 @BNG_RCLT_BASES_VEDIC1CF5 = [ka-beng k_ma-beng k_ssa-beng k_ss_ma-beng k_sa-beng k_tta-beng.noflag k_ss-beng.half kha-beng kh-beng.half];
 @BNG_RCLT_BASES_VEDIC1CF6 = [pa-beng p_sa-beng p-beng.half p-beng.half2 p-beng.half3 pha-beng ph_tta-beng.noflag ph-beng.half];
@@ -1211,13 +1212,33 @@ lookup BNG_dflt_pres_iMatra_other {
 
 lookup BNG_dflt_pres_eMAtra {
     lookupflag 0;
+    #short
     sub @BNG_EMATRA' @BNG_BASE_EMATRA_SHORT by @BNG_EMATRA_SHORT;
     sub @BNG_EMATRA' [gh-beng.half b-beng.half dh-beng.half y-beng.half] raphala-beng.alt14 by @BNG_EMATRA_SHORT;
-    sub @BNG_EMATRA' k_ss-beng.half raphala-beng.alt04 by @BNG_EMATRA_SHORT;
+    sub @BNG_EMATRA' [kh-beng.half] raphala-beng.alt01 by @BNG_EMATRA_SHORT;
+    sub @BNG_EMATRA' [k_ss-beng.half g-beng.half2] raphala-beng.alt04 by @BNG_EMATRA_SHORT;
     sub @BNG_EMATRA' ng-beng.half raphala-beng.alt05 by @BNG_EMATRA_SHORT;
-    sub @BNG_EMATRA' tth-beng.half raphala-beng.alt06 by @BNG_EMATRA_SHORT;
+    sub @BNG_EMATRA' ng_ka-beng raphala-beng.alt11 by @BNG_EMATRA_SHORT;
+    sub @BNG_EMATRA' tth-beng.half ttha-beng.top raphala-beng.alt06 by @BNG_EMATRA_SHORT;
+    sub @BNG_EMATRA' c-beng.half2 raphala-beng.alt06 by @BNG_EMATRA_SHORT;
     sub @BNG_EMATRA' d-beng.half2 raphala-beng.alt09 by @BNG_EMATRA_SHORT;
     sub @BNG_EMATRA' dd-beng.half nukta-beng.alt by @BNG_EMATRA_SHORT;
+    sub @BNG_EMATRA' [n-beng.half2 ss-beng.half3] t_ra-beng.blws by @BNG_EMATRA_SHORT;
+    #long
+    sub @BNG_EMATRA' @BNG_BASE_EMATRA_LONG by @BNG_EMATRA_LONG;
+    sub @BNG_EMATRA' k_ss-beng.half [na-beng.blws baphala-beng.alt2] by @BNG_EMATRA_LONG;
+    sub @BNG_EMATRA' [kh-beng.half th-beng.half] baphala-beng.alt1 by @BNG_EMATRA_LONG;
+    sub @BNG_EMATRA' g-beng.half [da-beng.side d-beng.side baphala-beng.alt4 dh_ba-beng.blws na-beng.blws1] by @BNG_EMATRA_LONG;
+    sub @BNG_EMATRA' [g-beng.half nn-beng.half sh-beng.half] [aaMatra-beng.side aaMatra-beng.part] ma-beng.side by @BNG_EMATRA_LONG;
+    sub @BNG_EMATRA' n-beng.headline aaMatra-beng.part n-beng.float ma-beng.side by @BNG_EMATRA_LONG;
+    sub @BNG_EMATRA' [nn-beng.half n-beng.headline p-beng.half3 sh-beng.half] [ddha-beng.side ddh-beng.side ca-beng.side cha-beng.side] by @BNG_EMATRA_LONG;
+    sub @BNG_EMATRA' nn-beng.half3 ttha-beng.side by @BNG_EMATRA_LONG;
+    sub @BNG_EMATRA' t-beng.half ma-beng.side1 by @BNG_EMATRA_LONG;
+    sub @BNG_EMATRA' n-beng.headline [da-beng d-beng.half3] by @BNG_EMATRA_LONG;
+    sub @BNG_EMATRA' p-beng.half [ma-beng.side baphala-beng.alt4 na-beng.blws1] by @BNG_EMATRA_LONG;
+    sub @BNG_EMATRA' sh-beng.half baphala-beng.alt4 by @BNG_EMATRA_LONG;
+    sub @BNG_EMATRA' [ss-beng.half4 s-beng.half m-beng.half] [pa-beng p-beng.half p-beng.half2 pha-beng.side ma-beng.side2 sa-beng] by @BNG_EMATRA_LONG;
+    sub @BNG_EMATRA' [s-beng.half] [baphala-beng.alt4] by @BNG_EMATRA_LONG;
 } BNG_dflt_pres_eMAtra;
 
 # --- End eMatra Alternates ---
