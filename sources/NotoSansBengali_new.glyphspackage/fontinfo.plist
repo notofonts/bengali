@@ -1136,7 +1136,6 @@ stemValues = (
 154,
 130
 );
-visible = 1;
 },
 {
 axesValues = (
@@ -1408,11 +1407,6 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = "ka-beng";
-}
-);
-guides = (
-{
-pos = (451,-390);
 }
 );
 id = "F138D99C-4E28-42C5-9F3E-22494052B08F";
