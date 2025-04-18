@@ -5,6 +5,14 @@ layers = (
 {
 anchors = (
 {
+name = bottom;
+pos = (255,63);
+},
+{
+name = bottomPart;
+pos = (431,220);
+},
+{
 name = bottom_JhaVattuSide;
 pos = (255,78);
 },
@@ -19,14 +27,6 @@ pos = (79,298);
 {
 name = bottom_nukta;
 pos = (255,-10);
-},
-{
-name = bottom_vattu;
-pos = (255,63);
-},
-{
-name = bottom_vattuPart;
-pos = (431,220);
 },
 {
 name = bottom_wa;
@@ -379,6 +379,14 @@ width = 510;
 {
 anchors = (
 {
+name = bottom;
+pos = (255,63);
+},
+{
+name = bottomPart;
+pos = (431,220);
+},
+{
 name = bottom_JhaVattuSide;
 pos = (255,78);
 },
@@ -393,14 +401,6 @@ pos = (79,298);
 {
 name = bottom_nukta;
 pos = (255,-10);
-},
-{
-name = bottom_vattu;
-pos = (255,63);
-},
-{
-name = bottom_vattuPart;
-pos = (431,220);
 },
 {
 name = bottom_wa;
@@ -817,6 +817,14 @@ width = 510;
 {
 anchors = (
 {
+name = bottom;
+pos = (255,63);
+},
+{
+name = bottomPart;
+pos = (431,220);
+},
+{
 name = bottom_JhaVattuSide;
 pos = (255,78);
 },
@@ -831,14 +839,6 @@ pos = (79,298);
 {
 name = bottom_nukta;
 pos = (255,-10);
-},
-{
-name = bottom_vattu;
-pos = (255,63);
-},
-{
-name = bottom_vattuPart;
-pos = (431,220);
 },
 {
 name = bottom_wa;
@@ -1037,6 +1037,14 @@ width = 510;
 {
 anchors = (
 {
+name = bottom;
+pos = (197,63);
+},
+{
+name = bottomPart;
+pos = (343,220);
+},
+{
 name = bottom_JhaVattuSide;
 pos = (197,78);
 },
@@ -1051,14 +1059,6 @@ pos = (51,298);
 {
 name = bottom_nukta;
 pos = (197,-10);
-},
-{
-name = bottom_vattu;
-pos = (197,63);
-},
-{
-name = bottom_vattuPart;
-pos = (343,220);
 },
 {
 name = bottom_wa;
@@ -1257,6 +1257,14 @@ width = 355;
 {
 anchors = (
 {
+name = bottom;
+pos = (197,63);
+},
+{
+name = bottomPart;
+pos = (343,220);
+},
+{
 name = bottom_JhaVattuSide;
 pos = (197,78);
 },
@@ -1271,14 +1279,6 @@ pos = (51,298);
 {
 name = bottom_nukta;
 pos = (197,-10);
-},
-{
-name = bottom_vattu;
-pos = (197,63);
-},
-{
-name = bottom_vattuPart;
-pos = (343,220);
 },
 {
 name = bottom_wa;
@@ -1477,6 +1477,14 @@ width = 381;
 {
 anchors = (
 {
+name = bottom;
+pos = (197,63);
+},
+{
+name = bottomPart;
+pos = (343,220);
+},
+{
 name = bottom_JhaVattuSide;
 pos = (197,78);
 },
@@ -1491,14 +1499,6 @@ pos = (51,298);
 {
 name = bottom_nukta;
 pos = (197,-10);
-},
-{
-name = bottom_vattu;
-pos = (197,63);
-},
-{
-name = bottom_vattuPart;
-pos = (343,220);
 },
 {
 name = bottom_wa;

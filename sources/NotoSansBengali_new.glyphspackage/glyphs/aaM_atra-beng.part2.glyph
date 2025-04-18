@@ -7,12 +7,12 @@ layers = (
 {
 anchors = (
 {
-name = bottom_markMainForm;
-pos = (95,291);
+name = bottom;
+pos = (95,110);
 },
 {
-name = bottom_vattu;
-pos = (95,110);
+name = bottom_markMainForm;
+pos = (95,291);
 }
 );
 background = {
@@ -150,12 +150,12 @@ width = 264;
 {
 anchors = (
 {
-name = bottom_markMainForm;
-pos = (94,288);
+name = bottom;
+pos = (94,111);
 },
 {
-name = bottom_vattu;
-pos = (94,111);
+name = bottom_markMainForm;
+pos = (94,288);
 }
 );
 background = {
@@ -293,12 +293,12 @@ width = 220;
 {
 anchors = (
 {
-name = bottom_markMainForm;
-pos = (78,300);
+name = bottom;
+pos = (78,47);
 },
 {
-name = bottom_vattu;
-pos = (78,47);
+name = bottom_markMainForm;
+pos = (78,300);
 }
 );
 background = {
@@ -377,12 +377,12 @@ width = 305;
 {
 anchors = (
 {
-name = bottom_markMainForm;
-pos = (65,288);
+name = bottom;
+pos = (65,111);
 },
 {
-name = bottom_vattu;
-pos = (65,111);
+name = bottom_markMainForm;
+pos = (65,288);
 }
 );
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -411,12 +411,12 @@ width = 157;
 {
 anchors = (
 {
-name = bottom_markMainForm;
-pos = (66,291);
+name = bottom;
+pos = (66,110);
 },
 {
-name = bottom_vattu;
-pos = (66,110);
+name = bottom_markMainForm;
+pos = (66,291);
 }
 );
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
@@ -445,12 +445,12 @@ width = 202;
 {
 anchors = (
 {
-name = bottom_markMainForm;
-pos = (55,298);
+name = bottom;
+pos = (55,58);
 },
 {
-name = bottom_vattu;
-pos = (55,58);
+name = bottom_markMainForm;
+pos = (55,298);
 }
 );
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";

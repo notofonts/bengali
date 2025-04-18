@@ -6,20 +6,20 @@ layers = (
 {
 anchors = (
 {
-name = _bottom_vattu;
+name = _bottom;
 pos = (278,140);
+},
+{
+name = bottom;
+pos = (278,-107);
+},
+{
+name = bottomPart;
+pos = (355,184);
 },
 {
 name = bottom_mark;
 pos = (278,-97);
-},
-{
-name = bottom_vattu;
-pos = (278,-107);
-},
-{
-name = bottom_vattuPart;
-pos = (355,184);
 },
 {
 name = bottom_wa;
@@ -120,20 +120,20 @@ width = 375;
 {
 anchors = (
 {
-name = _bottom_vattu;
+name = _bottom;
 pos = (247,245);
+},
+{
+name = bottom;
+pos = (247,-29);
+},
+{
+name = bottomPart;
+pos = (268,234);
 },
 {
 name = bottom_mark;
 pos = (247,-48);
-},
-{
-name = bottom_vattu;
-pos = (247,-29);
-},
-{
-name = bottom_vattuPart;
-pos = (268,234);
 },
 {
 name = bottom_wa;
@@ -201,20 +201,20 @@ width = 288;
 {
 anchors = (
 {
-name = _bottom_vattu;
+name = _bottom;
 pos = (305,125);
+},
+{
+name = bottom;
+pos = (305,-165);
+},
+{
+name = bottomPart;
+pos = (469,139);
 },
 {
 name = bottom_mark;
 pos = (305,-163);
-},
-{
-name = bottom_vattu;
-pos = (305,-165);
-},
-{
-name = bottom_vattuPart;
-pos = (469,139);
 },
 {
 name = bottom_wa;
@@ -367,20 +367,20 @@ width = 489;
 {
 anchors = (
 {
-name = _bottom_vattu;
+name = _bottom;
 pos = (174,248);
+},
+{
+name = bottom;
+pos = (174,-27);
+},
+{
+name = bottomPart;
+pos = (193,235);
 },
 {
 name = bottom_mark;
 pos = (174,-48);
-},
-{
-name = bottom_vattu;
-pos = (174,-27);
-},
-{
-name = bottom_vattuPart;
-pos = (193,235);
 },
 {
 name = bottom_wa;
@@ -440,20 +440,20 @@ width = 207;
 {
 anchors = (
 {
-name = _bottom_vattu;
+name = _bottom;
 pos = (211,161);
+},
+{
+name = bottom;
+pos = (211,-95);
+},
+{
+name = bottomPart;
+pos = (281,192);
 },
 {
 name = bottom_mark;
 pos = (211,-90);
-},
-{
-name = bottom_vattu;
-pos = (211,-95);
-},
-{
-name = bottom_vattuPart;
-pos = (281,192);
 },
 {
 name = bottom_wa;
@@ -505,20 +505,20 @@ width = 296;
 {
 anchors = (
 {
-name = _bottom_vattu;
+name = _bottom;
 pos = (244,133);
+},
+{
+name = bottom;
+pos = (244,-154);
+},
+{
+name = bottomPart;
+pos = (393,147);
 },
 {
 name = bottom_mark;
 pos = (244,-152);
-},
-{
-name = bottom_vattu;
-pos = (244,-154);
-},
-{
-name = bottom_vattuPart;
-pos = (393,147);
 },
 {
 name = bottom_wa;

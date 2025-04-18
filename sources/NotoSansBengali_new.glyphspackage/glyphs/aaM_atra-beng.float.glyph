@@ -11,12 +11,12 @@ name = _top_headline_aaMatra;
 pos = (-10,551);
 },
 {
-name = bottom_markMainForm;
-pos = (95,291);
+name = bottom;
+pos = (95,185);
 },
 {
-name = bottom_vattu;
-pos = (95,185);
+name = bottom_markMainForm;
+pos = (95,291);
 },
 {
 name = top_candrabindu;
@@ -170,12 +170,12 @@ name = _top_headline_aaMatra;
 pos = (-10,586);
 },
 {
-name = bottom_markMainForm;
-pos = (94,288);
+name = bottom;
+pos = (94,195);
 },
 {
-name = bottom_vattu;
-pos = (94,195);
+name = bottom_markMainForm;
+pos = (94,288);
 },
 {
 name = top_candrabindu;
@@ -329,12 +329,12 @@ name = _top_headline_aaMatra;
 pos = (-10,505);
 },
 {
-name = bottom_markMainForm;
-pos = (78,300);
+name = bottom;
+pos = (78,160);
 },
 {
-name = bottom_vattu;
-pos = (78,160);
+name = bottom_markMainForm;
+pos = (78,300);
 },
 {
 name = top_candrabindu;
@@ -429,12 +429,12 @@ name = _top_headline_aaMatra;
 pos = (-8,589);
 },
 {
-name = bottom_markMainForm;
-pos = (64,288);
+name = bottom;
+pos = (64,195);
 },
 {
-name = bottom_vattu;
-pos = (64,195);
+name = bottom_markMainForm;
+pos = (64,288);
 },
 {
 name = top_candrabindu;
@@ -479,12 +479,12 @@ name = _top_headline_aaMatra;
 pos = (-3,558);
 },
 {
-name = bottom_markMainForm;
-pos = (71,291);
+name = bottom;
+pos = (71,187);
 },
 {
-name = bottom_vattu;
-pos = (71,187);
+name = bottom_markMainForm;
+pos = (71,291);
 },
 {
 name = top_candrabindu;
@@ -529,12 +529,12 @@ name = _top_headline_aaMatra;
 pos = (-11,514);
 },
 {
-name = bottom_markMainForm;
-pos = (55,298);
+name = bottom;
+pos = (55,165);
 },
 {
-name = bottom_vattu;
-pos = (55,165);
+name = bottom_markMainForm;
+pos = (55,298);
 },
 {
 name = top_candrabindu;

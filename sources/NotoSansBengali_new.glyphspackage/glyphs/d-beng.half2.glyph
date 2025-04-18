@@ -104,16 +104,16 @@ width = 639;
 {
 anchors = (
 {
-name = bottom_markMainForm;
-pos = (142,284);
-},
-{
-name = bottom_vattu;
+name = bottom;
 pos = (430,130);
 },
 {
-name = bottom_vattuPart;
+name = bottomPart;
 pos = (508,290);
+},
+{
+name = bottom_markMainForm;
+pos = (142,284);
 },
 {
 name = top_candrabindu;
@@ -330,16 +330,16 @@ width = 603;
 {
 anchors = (
 {
-name = bottom_markMainForm;
-pos = (153,298);
-},
-{
-name = bottom_vattu;
+name = bottom;
 pos = (439,180);
 },
 {
-name = bottom_vattuPart;
+name = bottomPart;
 pos = (456,340);
+},
+{
+name = bottom_markMainForm;
+pos = (153,298);
 },
 {
 name = top_candrabindu;
@@ -451,16 +451,16 @@ width = 575;
 {
 anchors = (
 {
-name = bottom_markMainForm;
-pos = (142,295);
-},
-{
-name = bottom_vattu;
+name = bottom;
 pos = (436,85);
 },
 {
-name = bottom_vattuPart;
+name = bottomPart;
 pos = (605,199);
+},
+{
+name = bottom_markMainForm;
+pos = (142,295);
 },
 {
 name = top_candrabindu;
@@ -571,16 +571,16 @@ width = 674;
 {
 anchors = (
 {
-name = bottom_markMainForm;
-pos = (104,298);
-},
-{
-name = bottom_vattu;
+name = bottom;
 pos = (300,181);
 },
 {
-name = bottom_vattuPart;
+name = bottomPart;
 pos = (322,341);
+},
+{
+name = bottom_markMainForm;
+pos = (104,298);
 },
 {
 name = top_candrabindu;
@@ -669,16 +669,16 @@ width = 395;
 {
 anchors = (
 {
-name = bottom_markMainForm;
-pos = (120,286);
-},
-{
-name = bottom_vattu;
+name = bottom;
 pos = (333,138);
 },
 {
-name = bottom_vattuPart;
+name = bottomPart;
 pos = (403,298);
+},
+{
+name = bottom_markMainForm;
+pos = (120,286);
 },
 {
 name = top_candrabindu;
@@ -732,16 +732,16 @@ width = 483;
 {
 anchors = (
 {
-name = bottom_markMainForm;
-pos = (110,293);
-},
-{
-name = bottom_vattu;
+name = bottom;
 pos = (339,93);
 },
 {
-name = bottom_vattuPart;
+name = bottomPart;
 pos = (487,215);
+},
+{
+name = bottom_markMainForm;
+pos = (110,293);
 },
 {
 name = top_candrabindu;

@@ -448,16 +448,16 @@ width = 799;
 {
 anchors = (
 {
+name = bottom;
+pos = (561,70);
+},
+{
 name = bottom_mark;
 pos = (557,-131);
 },
 {
 name = bottom_markMainForm;
 pos = (267,295);
-},
-{
-name = bottom_vattu;
-pos = (561,70);
 },
 {
 name = top_candrabindu;
@@ -664,16 +664,16 @@ width = 799;
 {
 anchors = (
 {
+name = bottom;
+pos = (561,70);
+},
+{
 name = bottom_mark;
 pos = (557,-131);
 },
 {
 name = bottom_markMainForm;
 pos = (267,295);
-},
-{
-name = bottom_vattu;
-pos = (561,70);
 },
 {
 name = top_candrabindu;

@@ -7,12 +7,12 @@ layers = (
 {
 anchors = (
 {
-name = bottom_mark;
-pos = (453,-104);
+name = bottom;
+pos = (479,-103);
 },
 {
-name = bottom_vattu;
-pos = (479,-103);
+name = bottom_mark;
+pos = (453,-104);
 },
 {
 name = nukta;
@@ -284,12 +284,12 @@ width = 727;
 {
 anchors = (
 {
-name = bottom_mark;
-pos = (390,-52);
+name = bottom;
+pos = (409,-1);
 },
 {
-name = bottom_vattu;
-pos = (409,-1);
+name = bottom_mark;
+pos = (390,-52);
 },
 {
 name = nukta;
@@ -423,12 +423,12 @@ width = 618;
 {
 anchors = (
 {
-name = bottom_mark;
-pos = (428,-155);
+name = bottom;
+pos = (448,-83);
 },
 {
-name = bottom_vattu;
-pos = (448,-83);
+name = bottom_mark;
+pos = (428,-155);
 },
 {
 name = nukta;
@@ -710,12 +710,12 @@ width = 746;
 {
 anchors = (
 {
-name = bottom_mark;
-pos = (390,-52);
+name = bottom;
+pos = (409,-1);
 },
 {
-name = bottom_vattu;
-pos = (409,-1);
+name = bottom_mark;
+pos = (390,-52);
 },
 {
 name = top_candrabindu;
@@ -870,12 +870,12 @@ width = 618;
 {
 anchors = (
 {
-name = bottom_mark;
-pos = (453,-104);
+name = bottom;
+pos = (479,-103);
 },
 {
-name = bottom_vattu;
-pos = (479,-103);
+name = bottom_mark;
+pos = (453,-104);
 },
 {
 name = top_candrabindu;
@@ -1174,12 +1174,12 @@ width = 727;
 {
 anchors = (
 {
-name = bottom_mark;
-pos = (439,-155);
+name = bottom;
+pos = (459,-83);
 },
 {
-name = bottom_vattu;
-pos = (459,-83);
+name = bottom_mark;
+pos = (439,-155);
 },
 {
 name = top_candrabindu;
@@ -1482,12 +1482,12 @@ width = 757;
 {
 anchors = (
 {
-name = bottom_mark;
-pos = (281,-38);
+name = bottom;
+pos = (292,0);
 },
 {
-name = bottom_vattu;
-pos = (292,0);
+name = bottom_mark;
+pos = (281,-38);
 },
 {
 name = nukta;
@@ -1668,12 +1668,12 @@ width = 441;
 {
 anchors = (
 {
-name = bottom_mark;
-pos = (329,-90);
+name = bottom;
+pos = (348,-88);
 },
 {
-name = bottom_vattu;
-pos = (348,-88);
+name = bottom_mark;
+pos = (329,-90);
 },
 {
 name = nukta;
@@ -1807,12 +1807,12 @@ width = 539;
 {
 anchors = (
 {
-name = bottom_mark;
-pos = (296,-143);
+name = bottom;
+pos = (338,-86);
 },
 {
-name = bottom_vattu;
-pos = (338,-86);
+name = bottom_mark;
+pos = (296,-143);
 },
 {
 name = nukta;

@@ -6,16 +6,16 @@ layers = (
 {
 anchors = (
 {
-name = _bottom_vattu;
+name = _bottom;
 pos = (571,189);
+},
+{
+name = bottom;
+pos = (557,-82);
 },
 {
 name = bottom_mark;
 pos = (526,-77);
-},
-{
-name = bottom_vattu;
-pos = (557,-82);
 },
 {
 name = nukta;
@@ -199,16 +199,16 @@ width = 737;
 {
 anchors = (
 {
-name = _bottom_vattu;
+name = _bottom;
 pos = (507,190);
+},
+{
+name = bottom;
+pos = (504,32);
 },
 {
 name = bottom_mark;
 pos = (426,-26);
-},
-{
-name = bottom_vattu;
-pos = (504,32);
 },
 {
 name = nukta;
@@ -392,16 +392,16 @@ width = 600;
 {
 anchors = (
 {
-name = _bottom_vattu;
+name = _bottom;
 pos = (600,219);
+},
+{
+name = bottom;
+pos = (572,-87);
 },
 {
 name = bottom_mark;
 pos = (516,-142);
-},
-{
-name = bottom_vattu;
-pos = (572,-87);
 },
 {
 name = nukta;
@@ -585,16 +585,16 @@ width = 850;
 {
 anchors = (
 {
-name = _bottom_vattu;
+name = _bottom;
 pos = (356,190);
+},
+{
+name = bottom;
+pos = (353,33);
 },
 {
 name = bottom_mark;
 pos = (302,-14);
-},
-{
-name = bottom_vattu;
-pos = (353,33);
 },
 {
 name = nukta;
@@ -708,16 +708,16 @@ width = 426;
 {
 anchors = (
 {
-name = _bottom_vattu;
+name = _bottom;
 pos = (427,189);
+},
+{
+name = bottom;
+pos = (415,-65);
 },
 {
 name = bottom_mark;
 pos = (385,-60);
-},
-{
-name = bottom_vattu;
-pos = (415,-65);
 },
 {
 name = nukta;
@@ -775,16 +775,16 @@ width = 562;
 {
 anchors = (
 {
-name = _bottom_vattu;
+name = _bottom;
 pos = (469,214);
+},
+{
+name = bottom;
+pos = (453,-85);
 },
 {
 name = bottom_mark;
 pos = (403,-119);
-},
-{
-name = bottom_vattu;
-pos = (453,-85);
 },
 {
 name = nukta;
