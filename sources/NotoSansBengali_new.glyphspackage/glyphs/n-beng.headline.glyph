@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 5;
 glyphname = "n-beng.headline";
 kernRight = R_BNG_nHeadline_part;
 layers = (

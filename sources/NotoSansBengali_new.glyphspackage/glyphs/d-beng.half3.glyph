@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 5;
 glyphname = "d-beng.half3";
 kernLeft = "L_d-beng_half3";
 layers = (

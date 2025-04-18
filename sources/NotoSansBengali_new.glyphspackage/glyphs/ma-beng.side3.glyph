@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 5;
 glyphname = "ma-beng.side3";
 kernLeft = L_BNG_ma_half;
 layers = (

@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 5;
 glyphname = "dda-beng.side";
 kernLeft = L_BNG_dda_side;
 layers = (

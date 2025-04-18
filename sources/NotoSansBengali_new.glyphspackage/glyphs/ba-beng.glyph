@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 5;
 glyphname = "ba-beng";
 kernLeft = BNG_L_ba;
 layers = (

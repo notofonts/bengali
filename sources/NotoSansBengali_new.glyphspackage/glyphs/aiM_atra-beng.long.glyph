@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 5;
 glyphname = "aiMatra-beng.long";
 kernRight = BNG_R_eMatra;
 layers = (

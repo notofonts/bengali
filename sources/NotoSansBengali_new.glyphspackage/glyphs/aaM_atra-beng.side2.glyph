@@ -1,6 +1,5 @@
 {
 category = Mark;
-color = 5;
 glyphname = "aaMatra-beng.side2";
 kernLeft = "L_BNG_aaMatra-beng_side";
 layers = (

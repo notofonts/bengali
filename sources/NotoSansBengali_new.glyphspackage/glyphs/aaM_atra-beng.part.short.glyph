@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 5;
 glyphname = "aaMatra-beng.part.short";
 kernLeft = L_BNG_aaMatra_partShort;
 kernRight = R_BNG_aaMatra_part;

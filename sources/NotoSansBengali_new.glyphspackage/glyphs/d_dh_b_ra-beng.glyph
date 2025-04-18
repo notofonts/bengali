@@ -1,6 +1,7 @@
 {
 category = Letter;
 color = 11;
+export = 0;
 glyphname = "d_dh_b_ra-beng";
 kernLeft = "L_d-beng_half3";
 layers = (

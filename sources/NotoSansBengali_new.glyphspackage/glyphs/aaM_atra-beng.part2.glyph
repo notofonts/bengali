@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 5;
 glyphname = "aaMatra-beng.part2";
 kernLeft = L_BNG_aaMatra_part;
 layers = (

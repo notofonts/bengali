@@ -1,5 +1,4 @@
 {
-color = 5;
 glyphname = "b_ddha-beng";
 kernLeft = BNG_L_ba;
 layers = (

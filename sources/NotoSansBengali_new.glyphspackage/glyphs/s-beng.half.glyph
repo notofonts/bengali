@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 5;
 glyphname = "s-beng.half";
 kernLeft = L_BNG_sa_half;
 kernRight = R_BNG_ma_half;

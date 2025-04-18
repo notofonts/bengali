@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 5;
 glyphname = "t_ra-beng";
 kernRight = R_BNG_t_ra;
 layers = (

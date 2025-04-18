@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 5;
 glyphname = "ng-beng.half2";
 kernLeft = L_BNG_nga_half2;
 kernRight = R_BNG_ng_half2;
