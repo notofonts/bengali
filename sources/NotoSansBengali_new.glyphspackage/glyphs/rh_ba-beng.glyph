@@ -10,12 +10,12 @@ name = bottom;
 pos = (362,-180);
 },
 {
-name = bottom.Wa;
-pos = (228,-157);
-},
-{
 name = bottomVattu;
 pos = (362,-189);
+},
+{
+name = bottomWa;
+pos = (228,-157);
 },
 {
 name = top_candrabindu;
@@ -242,12 +242,12 @@ name = bottom;
 pos = (317,-133);
 },
 {
-name = bottom.Wa;
-pos = (182,-104);
-},
-{
 name = bottomVattu;
 pos = (327,-104);
+},
+{
+name = bottomWa;
+pos = (182,-104);
 },
 {
 name = top_candrabindu;
@@ -474,12 +474,12 @@ name = bottom;
 pos = (366,-236);
 },
 {
-name = bottom.Wa;
-pos = (227,-238);
-},
-{
 name = bottomVattu;
 pos = (366,-210);
+},
+{
+name = bottomWa;
+pos = (227,-238);
 },
 {
 name = top_candrabindu;
@@ -706,12 +706,12 @@ name = bottom;
 pos = (239,-117);
 },
 {
-name = bottom.Wa;
-pos = (139,-103);
-},
-{
 name = bottomVattu;
 pos = (239,-103);
+},
+{
+name = bottomWa;
+pos = (139,-103);
 },
 {
 name = top_candrabindu;
@@ -827,12 +827,12 @@ name = bottom;
 pos = (293,-148);
 },
 {
-name = bottom.Wa;
-pos = (176,-149);
-},
-{
 name = bottomVattu;
 pos = (277,-176);
+},
+{
+name = bottomWa;
+pos = (176,-149);
 },
 {
 name = top_candrabindu;
@@ -948,12 +948,12 @@ name = bottom;
 pos = (298,-207);
 },
 {
-name = bottom.Wa;
-pos = (175,-224);
-},
-{
 name = bottomVattu;
 pos = (298,-206);
+},
+{
+name = bottomWa;
+pos = (175,-224);
 },
 {
 name = top_candrabindu;

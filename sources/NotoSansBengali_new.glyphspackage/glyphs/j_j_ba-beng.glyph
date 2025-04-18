@@ -10,16 +10,16 @@ name = bottom;
 pos = (981,-230);
 },
 {
-name = bottom.Wa;
-pos = (861,-225);
-},
-{
 name = bottomVattu;
 pos = (981,-250);
 },
 {
 name = bottomVattuPart;
 pos = (1058,-8);
+},
+{
+name = bottomWa;
+pos = (861,-225);
 },
 {
 name = nukta;
@@ -345,16 +345,16 @@ name = bottom;
 pos = (916,-174);
 },
 {
-name = bottom.Wa;
-pos = (795,-151);
-},
-{
 name = bottomVattu;
 pos = (916,-150);
 },
 {
 name = bottomVattuPart;
 pos = (937,26);
+},
+{
+name = bottomWa;
+pos = (795,-151);
 },
 {
 name = nukta;
@@ -569,16 +569,16 @@ name = bottom;
 pos = (1062,-331);
 },
 {
-name = bottom.Wa;
-pos = (921,-329);
-},
-{
 name = bottomVattu;
 pos = (1062,-304);
 },
 {
 name = bottomVattuPart;
 pos = (1226,-24);
+},
+{
+name = bottomWa;
+pos = (921,-329);
 },
 {
 name = nukta;
@@ -767,16 +767,16 @@ name = bottom;
 pos = (653,-173);
 },
 {
-name = bottom.Wa;
-pos = (570,-150);
-},
-{
 name = bottomVattu;
 pos = (654,-149);
 },
 {
 name = bottomVattuPart;
 pos = (673,26);
+},
+{
+name = bottomWa;
+pos = (570,-150);
 },
 {
 name = nukta;
@@ -1102,16 +1102,16 @@ name = bottom;
 pos = (744,-221);
 },
 {
-name = bottom.Wa;
-pos = (650,-214);
-},
-{
 name = bottomVattu;
 pos = (744,-235);
 },
 {
 name = bottomVattuPart;
 pos = (814,-3);
+},
+{
+name = bottomWa;
+pos = (650,-214);
 },
 {
 name = nukta;
@@ -1300,16 +1300,16 @@ name = bottom;
 pos = (840,-314);
 },
 {
-name = bottom.Wa;
-pos = (724,-310);
-},
-{
 name = bottomVattu;
 pos = (839,-294);
 },
 {
 name = bottomVattuPart;
 pos = (989,-21);
+},
+{
+name = bottomWa;
+pos = (724,-310);
 },
 {
 name = nukta;

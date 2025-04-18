@@ -14,12 +14,12 @@ name = bottom;
 pos = (256,-34);
 },
 {
-name = bottom.Wa;
-pos = (146,-33);
-},
-{
 name = bottomVattu;
 pos = (256,-47);
+},
+{
+name = bottomWa;
+pos = (146,-33);
 }
 );
 background = {
@@ -120,12 +120,12 @@ name = bottom;
 pos = (227,-38);
 },
 {
-name = bottom.Wa;
-pos = (106,-15);
-},
-{
 name = bottomVattu;
 pos = (227,-13);
+},
+{
+name = bottomWa;
+pos = (106,-15);
 }
 );
 background = {
@@ -193,12 +193,12 @@ name = bottom;
 pos = (272,-118);
 },
 {
-name = bottom.Wa;
-pos = (161,-127);
-},
-{
 name = bottomVattu;
 pos = (272,-110);
+},
+{
+name = bottomWa;
+pos = (161,-127);
 }
 );
 background = {
@@ -351,12 +351,12 @@ name = bottom;
 pos = (159,-38);
 },
 {
-name = bottom.Wa;
-pos = (77,-15);
-},
-{
 name = bottomVattu;
 pos = (159,-13);
+},
+{
+name = bottomWa;
+pos = (77,-15);
 }
 );
 background = {
@@ -445,12 +445,12 @@ name = bottom;
 pos = (192,-34);
 },
 {
-name = bottom.Wa;
-pos = (109,-31);
-},
-{
 name = bottomVattu;
 pos = (192,-42);
+},
+{
+name = bottomWa;
+pos = (109,-31);
 }
 );
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
@@ -502,12 +502,12 @@ name = bottom;
 pos = (216,-103);
 },
 {
-name = bottom.Wa;
-pos = (128,-110);
-},
-{
 name = bottomVattu;
 pos = (216,-99);
+},
+{
+name = bottomWa;
+pos = (128,-110);
 }
 );
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";

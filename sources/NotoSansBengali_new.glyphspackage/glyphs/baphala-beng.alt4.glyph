@@ -14,10 +14,6 @@ name = bottom;
 pos = (290,-130);
 },
 {
-name = bottom.Wa;
-pos = (145,-97);
-},
-{
 name = bottomJhaVattuSide;
 pos = (367,32);
 },
@@ -28,6 +24,10 @@ pos = (290,-139);
 {
 name = bottomVattuPart;
 pos = (367,184);
+},
+{
+name = bottomWa;
+pos = (145,-97);
 },
 {
 name = nukta;
@@ -137,10 +137,6 @@ name = bottom;
 pos = (277,-83);
 },
 {
-name = bottom.Wa;
-pos = (129,-48);
-},
-{
 name = bottomJhaVattuSide;
 pos = (298,67);
 },
@@ -151,6 +147,10 @@ pos = (277,-57);
 {
 name = bottomVattuPart;
 pos = (298,237);
+},
+{
+name = bottomWa;
+pos = (129,-48);
 },
 {
 name = nukta;
@@ -227,10 +227,6 @@ name = bottom;
 pos = (292,-186);
 },
 {
-name = bottom.Wa;
-pos = (148,-176);
-},
-{
 name = bottomJhaVattuSide;
 pos = (456,11);
 },
@@ -241,6 +237,10 @@ pos = (292,-163);
 {
 name = bottomVattuPart;
 pos = (456,136);
+},
+{
+name = bottomWa;
+pos = (148,-176);
 },
 {
 name = nukta;
@@ -402,10 +402,6 @@ name = bottom;
 pos = (193,-83);
 },
 {
-name = bottom.Wa;
-pos = (91,-48);
-},
-{
 name = bottomJhaVattuSide;
 pos = (213,67);
 },
@@ -416,6 +412,10 @@ pos = (193,-36);
 {
 name = bottomVattuPart;
 pos = (213,238);
+},
+{
+name = bottomWa;
+pos = (91,-48);
 },
 {
 name = nukta;
@@ -479,10 +479,6 @@ name = bottom;
 pos = (216,-123);
 },
 {
-name = bottom.Wa;
-pos = (108,-90);
-},
-{
 name = bottomJhaVattuSide;
 pos = (286,38);
 },
@@ -493,6 +489,10 @@ pos = (216,-116);
 {
 name = bottomVattuPart;
 pos = (286,192);
+},
+{
+name = bottomWa;
+pos = (108,-90);
 },
 {
 name = nukta;
@@ -548,10 +548,6 @@ name = bottom;
 pos = (228,-176);
 },
 {
-name = bottom.Wa;
-pos = (115,-162);
-},
-{
 name = bottomJhaVattuSide;
 pos = (377,15);
 },
@@ -562,6 +558,10 @@ pos = (228,-148);
 {
 name = bottomVattuPart;
 pos = (377,144);
+},
+{
+name = bottomWa;
+pos = (115,-162);
 },
 {
 name = nukta;
