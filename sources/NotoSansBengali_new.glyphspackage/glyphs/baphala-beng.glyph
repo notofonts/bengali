@@ -6,11 +6,11 @@ layers = (
 {
 anchors = (
 {
-name = _bottom;
+name = _bottom_mark;
 pos = (256,181);
 },
 {
-name = bottom;
+name = bottom_mark;
 pos = (256,-34);
 },
 {
@@ -112,11 +112,11 @@ width = 353;
 {
 anchors = (
 {
-name = _bottom;
+name = _bottom_mark;
 pos = (227,201);
 },
 {
-name = bottom;
+name = bottom_mark;
 pos = (227,-38);
 },
 {
@@ -185,11 +185,11 @@ width = 268;
 {
 anchors = (
 {
-name = _bottom;
+name = _bottom_mark;
 pos = (272,120);
 },
 {
-name = bottom;
+name = bottom_mark;
 pos = (272,-118);
 },
 {
@@ -343,11 +343,11 @@ width = 456;
 {
 anchors = (
 {
-name = _bottom;
+name = _bottom_mark;
 pos = (159,201);
 },
 {
-name = bottom;
+name = bottom_mark;
 pos = (159,-38);
 },
 {
@@ -437,11 +437,11 @@ width = 193;
 {
 anchors = (
 {
-name = _bottom;
+name = _bottom_mark;
 pos = (192,184);
 },
 {
-name = bottom;
+name = bottom_mark;
 pos = (192,-34);
 },
 {
@@ -494,11 +494,11 @@ width = 277;
 {
 anchors = (
 {
-name = _bottom;
+name = _bottom_mark;
 pos = (214,131);
 },
 {
-name = bottom;
+name = bottom_mark;
 pos = (216,-103);
 },
 {

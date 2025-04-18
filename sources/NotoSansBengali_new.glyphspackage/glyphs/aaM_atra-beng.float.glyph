@@ -11,7 +11,7 @@ name = _top_headline_aaMatra;
 pos = (-10,551);
 },
 {
-name = bottomMainForm;
+name = bottom_markMainForm;
 pos = (95,291);
 },
 {
@@ -170,7 +170,7 @@ name = _top_headline_aaMatra;
 pos = (-10,586);
 },
 {
-name = bottomMainForm;
+name = bottom_markMainForm;
 pos = (94,288);
 },
 {
@@ -329,7 +329,7 @@ name = _top_headline_aaMatra;
 pos = (-10,505);
 },
 {
-name = bottomMainForm;
+name = bottom_markMainForm;
 pos = (78,300);
 },
 {
@@ -429,7 +429,7 @@ name = _top_headline_aaMatra;
 pos = (-8,589);
 },
 {
-name = bottomMainForm;
+name = bottom_markMainForm;
 pos = (64,288);
 },
 {
@@ -479,7 +479,7 @@ name = _top_headline_aaMatra;
 pos = (-3,558);
 },
 {
-name = bottomMainForm;
+name = bottom_markMainForm;
 pos = (71,291);
 },
 {
@@ -529,7 +529,7 @@ name = _top_headline_aaMatra;
 pos = (-11,514);
 },
 {
-name = bottomMainForm;
+name = bottom_markMainForm;
 pos = (55,298);
 },
 {

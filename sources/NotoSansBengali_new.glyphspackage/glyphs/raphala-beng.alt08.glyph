@@ -10,7 +10,7 @@ name = _bottom_vattu;
 pos = (592,235);
 },
 {
-name = bottom;
+name = bottom_mark;
 pos = (587,0);
 },
 {
@@ -76,7 +76,7 @@ name = _bottom_vattu;
 pos = (594,245);
 },
 {
-name = bottom;
+name = bottom_mark;
 pos = (594,0);
 },
 {
@@ -130,7 +130,7 @@ name = _bottom_vattu;
 pos = (589,331);
 },
 {
-name = bottom;
+name = bottom_mark;
 pos = (579,0);
 },
 {
@@ -197,7 +197,7 @@ name = _bottom_vattu;
 pos = (413,245);
 },
 {
-name = bottom;
+name = bottom_mark;
 pos = (413,0);
 },
 {
@@ -289,7 +289,7 @@ name = _bottom_vattu;
 pos = (440,237);
 },
 {
-name = bottom;
+name = bottom_mark;
 pos = (440,0);
 },
 {
@@ -343,7 +343,7 @@ name = _bottom_vattu;
 pos = (451,314);
 },
 {
-name = bottom;
+name = bottom_mark;
 pos = (447,0);
 },
 {

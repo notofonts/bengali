@@ -162,7 +162,7 @@ width = 623;
 {
 anchors = (
 {
-name = bottom;
+name = bottom_mark;
 pos = (460,0);
 },
 {

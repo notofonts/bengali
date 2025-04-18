@@ -6,7 +6,7 @@ layers = (
 {
 anchors = (
 {
-name = bottom;
+name = bottom_mark;
 pos = (844,29);
 },
 {
@@ -195,7 +195,7 @@ width = 1122;
 {
 anchors = (
 {
-name = bottom;
+name = bottom_mark;
 pos = (861,66);
 },
 {
@@ -380,7 +380,7 @@ width = 1080;
 {
 anchors = (
 {
-name = bottom;
+name = bottom_mark;
 pos = (823,5);
 },
 {
@@ -569,7 +569,7 @@ width = 1162;
 {
 anchors = (
 {
-name = bottom;
+name = bottom_mark;
 pos = (610,76);
 },
 {
@@ -732,7 +732,7 @@ width = 754;
 {
 anchors = (
 {
-name = bottom;
+name = bottom_mark;
 pos = (626,44);
 },
 {
@@ -846,7 +846,7 @@ width = 851;
 {
 anchors = (
 {
-name = bottom;
+name = bottom_mark;
 pos = (622,9);
 },
 {

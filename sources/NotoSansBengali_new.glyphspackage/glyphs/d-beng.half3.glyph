@@ -103,7 +103,7 @@ width = 639;
 {
 anchors = (
 {
-name = bottomMainForm;
+name = bottom_markMainForm;
 pos = (77,294);
 },
 {
@@ -290,7 +290,7 @@ width = 603;
 {
 anchors = (
 {
-name = bottomMainForm;
+name = bottom_markMainForm;
 pos = (78,316);
 },
 {
@@ -438,7 +438,7 @@ width = 465;
 {
 anchors = (
 {
-name = bottomMainForm;
+name = bottom_markMainForm;
 pos = (47,300);
 },
 {
@@ -548,7 +548,7 @@ width = 594;
 {
 anchors = (
 {
-name = bottomMainForm;
+name = bottom_markMainForm;
 pos = (62,319);
 },
 {
@@ -605,7 +605,7 @@ width = 337;
 {
 anchors = (
 {
-name = bottomMainForm;
+name = bottom_markMainForm;
 pos = (57,300);
 },
 {
@@ -662,7 +662,7 @@ width = 407;
 {
 anchors = (
 {
-name = bottomMainForm;
+name = bottom_markMainForm;
 pos = (37,305);
 },
 {
