@@ -1,0 +1,136 @@
+{
+color = 10;
+export = 0;
+glyphname = "ssa_nukta-beng";
+layers = (
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (316,622);
+}
+);
+shapes = (
+{
+ref = "ssa-beng";
+},
+{
+pos = (215,169);
+ref = "nukta-beng";
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+ref = "ssa-beng";
+},
+{
+pos = (215,124);
+ref = "nukta-beng";
+}
+);
+width = 626;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (305,622);
+}
+);
+shapes = (
+{
+ref = "ssa-beng";
+},
+{
+pos = (195,189);
+ref = "nukta-beng";
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+ref = "ssa-beng";
+},
+{
+pos = (205,140);
+ref = "nukta-beng";
+}
+);
+width = 585;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (339,622);
+}
+);
+shapes = (
+{
+ref = "ssa-beng";
+},
+{
+pos = (184,150);
+ref = "nukta-beng";
+}
+);
+};
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+ref = "ssa-beng";
+},
+{
+pos = (184,139);
+ref = "nukta-beng";
+}
+);
+width = 611;
+},
+{
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+ref = "ssa-beng";
+},
+{
+pos = (143,139);
+ref = "nukta-beng";
+}
+);
+width = 404;
+},
+{
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "ssa-beng";
+},
+{
+pos = (169,111);
+ref = "nukta-beng";
+}
+);
+width = 459;
+},
+{
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "ssa-beng";
+},
+{
+pos = (147,125);
+ref = "nukta-beng";
+}
+);
+width = 491;
+}
+);
+}

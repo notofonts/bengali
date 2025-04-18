@@ -6,11 +6,11 @@ layers = (
 {
 anchors = (
 {
-name = _bottomJhaVattuSide;
+name = _bottom_JhaVattuSide;
 pos = (76,22);
 },
 {
-name = bottomJhaVattuSide;
+name = bottom_JhaVattuSide;
 pos = (171,179);
 }
 );
@@ -244,11 +244,11 @@ width = 265;
 {
 anchors = (
 {
-name = _bottomJhaVattuSide;
+name = _bottom_JhaVattuSide;
 pos = (33,7);
 },
 {
-name = bottomJhaVattuSide;
+name = bottom_JhaVattuSide;
 pos = (163,182);
 }
 );
@@ -482,11 +482,11 @@ width = 203;
 {
 anchors = (
 {
-name = _bottomJhaVattuSide;
+name = _bottom_JhaVattuSide;
 pos = (68,14);
 },
 {
-name = bottomJhaVattuSide;
+name = bottom_JhaVattuSide;
 pos = (139,178);
 }
 );
@@ -723,11 +723,11 @@ width = 318;
 {
 anchors = (
 {
-name = _bottomJhaVattuSide;
+name = _bottom_JhaVattuSide;
 pos = (15,7);
 },
 {
-name = bottomJhaVattuSide;
+name = bottom_JhaVattuSide;
 pos = (113,182);
 }
 );
@@ -759,11 +759,11 @@ width = 145;
 {
 anchors = (
 {
-name = _bottomJhaVattuSide;
+name = _bottom_JhaVattuSide;
 pos = (41,20);
 },
 {
-name = bottomJhaVattuSide;
+name = bottom_JhaVattuSide;
 pos = (121,179);
 }
 );
@@ -795,11 +795,11 @@ width = 204;
 {
 anchors = (
 {
-name = _bottomJhaVattuSide;
+name = _bottom_JhaVattuSide;
 pos = (39,15);
 },
 {
-name = bottomJhaVattuSide;
+name = bottom_JhaVattuSide;
 pos = (97,177);
 }
 );

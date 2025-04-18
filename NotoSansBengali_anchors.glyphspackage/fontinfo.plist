@@ -1,0 +1,3948 @@
+{
+.appVersion = "3309";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+customParameters = (
+{
+name = openTypeOS2VendorID;
+value = GOOG;
+},
+{
+name = glyphOrder;
+value = (
+.notdef,
+NULL,
+CR,
+zerowidthnonjoiner,
+zerowidthjoiner,
+space,
+"anji-beng",
+"candrabindu-beng",
+"anusvara-beng",
+"visarga-beng",
+"a-beng",
+"aa-beng",
+"i-beng",
+"ii-beng",
+"u-beng",
+"uu-beng",
+"rVocalic-beng",
+"lVocalic-beng",
+"e-beng",
+"ai-beng",
+"o-beng",
+"au-beng",
+"ka-beng",
+"kha-beng",
+"ga-beng",
+"gha-beng",
+"nga-beng",
+"ca-beng",
+"cha-beng",
+"ja-beng",
+"jha-beng",
+"nya-beng",
+"tta-beng",
+"ttha-beng",
+"dda-beng",
+"ddha-beng",
+"nna-beng",
+"ta-beng",
+"tha-beng",
+"da-beng",
+"dha-beng",
+"na-beng",
+"pa-beng",
+"pha-beng",
+"ba-beng",
+"bha-beng",
+"ma-beng",
+"ya-beng",
+"ra-beng",
+"la-beng",
+"sha-beng",
+"ssa-beng",
+"sa-beng",
+"ha-beng",
+"nukta-beng",
+"avagraha-beng",
+"aaMatra-beng",
+"iMatra-beng",
+"iiMatra-beng",
+"uMatra-beng",
+"uuMatra-beng",
+"rVocalicMatra-beng",
+"rrVocalicMatra-beng",
+"eMatra-beng",
+"aiMatra-beng",
+"oMatra-beng",
+"auMatra-beng",
+"halant-beng",
+"taKhanda-beng",
+"auLength-beng",
+"rra-beng",
+"rha-beng",
+"yya-beng",
+"rrVocalic-beng",
+"llVocalic-beng",
+"lVocalicMatra-beng",
+"llVocalicMatra-beng",
+"zero-beng",
+"one-beng",
+"two-beng",
+"three-beng",
+"four-beng",
+"five-beng",
+"six-beng",
+"seven-beng",
+"eight-beng",
+"nine-beng",
+"ramiddlediagonal-beng",
+"ralowerdiagonal-beng",
+"rupeeMark-beng",
+"rupeeSign-beng",
+"oneNumr-beng",
+"twoNumr-beng",
+"threeNumr-beng",
+"fourNumr-beng",
+"oneLessNumr-beng",
+"sixteenDnom-beng",
+"isshar-beng",
+"ganda-beng",
+"vedicAnusvara-beng",
+"abbreviation-beng",
+"sandhi-beng",
+"sandhi-bengdummymarkbeng",
+"#non-unicodeMarks",
+"reph-beng",
+"ya-beng.pstf",
+"#PrecomposedConjuncts",
+"k_ma-beng",
+"k_ssa-beng",
+"k_ss_ma-beng",
+"k_sa-beng",
+"ng_ka-beng",
+"ng_ga-beng",
+"c_nya-beng",
+"j_ja-beng",
+"j_j_ba-beng",
+"j_nya-beng",
+"j_ra-beng",
+"ny_ca-beng",
+"ny_c_ba-beng",
+"ny_cha-beng",
+"ny_ja-beng",
+"dd_dda-beng",
+"nn_dda-beng",
+"t_ta-beng",
+"t_t_ra-beng",
+"t_tha-beng",
+"t_ra-beng",
+"d_da-beng",
+"d_bha-beng",
+"d_bh_ra-beng",
+"n_ja-beng",
+"n_ra-beng",
+"n_sa-beng",
+"p_sa-beng",
+"b_ja-beng",
+"b_dda-beng",
+"b_ddha-beng",
+"b_da-beng",
+"b_d_ra-beng",
+"b_bha-beng",
+"b_bh_ra-beng",
+"m_da-beng",
+"m_d_ra-beng",
+"m_bh_ra-beng",
+"l_gha-beng",
+"l_ta-beng",
+"l_pha-beng",
+"l_bha-beng",
+"l_ra-beng",
+"l_sa-beng",
+"ss_nna-beng",
+"s_kha-beng",
+"h_ma-beng",
+"rr_ra-beng",
+"rh_ba-beng",
+"rh_ra-beng",
+"yy_ba-beng",
+"yy_ra-beng",
+"#PrecomposedMatraLigatures",
+"ga_uMatra-beng",
+"l_ga_uMatra-beng",
+"sha_uMatra-beng",
+"ha_uMatra-beng",
+"#BaseNoFlag",
+"k_tta-beng.noflag",
+"tt_tta-beng.noflag",
+"ph_tta-beng.noflag",
+"ss_tta-beng.noflag",
+"ttha-beng.notop",
+"ss_ttha-beng.notop",
+"#BaseHalfs",
+"k_ss-beng.half",
+"kh-beng.half",
+"g-beng.half",
+"g-beng.half2",
+"gh-beng.half",
+"ng-beng.half",
+"ng-beng.half2",
+"ng_g-beng.half",
+"c-beng.half",
+"c-beng.half1",
+"c-beng.half2",
+"ch-beng.half",
+"j-beng.half",
+"ny-beng.half",
+"tth-beng.half",
+"dd-beng.half",
+"dd-beng.half1",
+"ddh-beng.half",
+"ddh-beng.half2",
+"nn-beng.half",
+"nn-beng.half2",
+"nn-beng.half3",
+"t-beng.half",
+"t_t-beng.half",
+"th-beng.half",
+"d-beng.half",
+"d-beng.half2",
+"d-beng.half3",
+"d-beng.half4",
+"d_d-beng.half",
+"dh-beng.half",
+"n-beng.half2",
+"n-beng.half3",
+"n_s-beng.half",
+"p-beng.half",
+"p-beng.half2",
+"p-beng.half3",
+"ph-beng.half",
+"b-beng.half",
+"b-beng.half2",
+"bh-beng.half",
+"m-beng.half",
+"m-beng.half2",
+"m-beng.half3",
+"l-beng.half3",
+"y-beng.half",
+"sh-beng.half",
+"sh-beng.half2",
+"ss-beng.half",
+"ss-beng.half3",
+"ss-beng.half4",
+"s-beng.half",
+"s-beng.half2",
+"s-beng.half3",
+"s-beng.half4",
+"h-beng.half",
+"h-beng.half2",
+"rlowerdiagonal-beng.half",
+"rmiddlediagonal-beng.half",
+"#SideForms",
+"kha-beng.side",
+"ga-beng.side",
+"ca-beng.side",
+"cha-beng.side",
+"jh-beng.side",
+"ttha-beng.side",
+"dda-beng.side",
+"ddha-beng.side",
+"ddh-beng.side",
+"da-beng.side",
+"d-beng.side",
+"pha-beng.side",
+"ba-beng.side",
+"ma-beng.side",
+"ma-beng.side1",
+"ma-beng.side2",
+"ma-beng.side3",
+"aaMatra-beng.part",
+"aaMatra-beng.part2",
+"aaMatra-beng.part.short",
+"uMatra-beng.side",
+"uuMatra-beng.side",
+"uuMatra-beng.side2",
+"#BelowForms",
+"raphala-beng",
+"raphala-beng.alt01",
+"raphala-beng.alt02",
+"raphala-beng.alt03",
+"raphala-beng.alt04",
+"raphala-beng.alt05",
+"raphala-beng.alt06",
+"raphala-beng.alt07",
+"raphala-beng.alt08",
+"raphala-beng.alt09",
+"raphala-beng.alt10",
+"raphala-beng.alt11",
+"raphala-beng.alt12",
+"raphala-beng.alt13",
+"raphala-beng.alt14",
+"raphala-beng.alt15",
+"baphala-beng",
+"baphala-beng.alt1",
+"baphala-beng.alt2",
+"baphala-beng.alt3",
+"baphala-beng.alt4",
+"ga-beng.blws",
+"nna-beng.blws",
+"nna-beng.blws1",
+"ta-beng.blws",
+"ta_uMatra-beng.blws",
+"t_ra-beng.blws",
+"tha-beng.blws",
+"dh_ba-beng.blws",
+"na-beng.blws",
+"na-beng.blws1",
+"na-beng.blws2",
+"na-beng.blws3",
+"pa-beng.blws",
+"bha-beng.blws",
+"la-beng.blws",
+"la-beng.blws1",
+"la-beng.blws2",
+"la-beng.blws3",
+"#Parts",
+"ka-beng.arm",
+"ka-beng.arm1",
+"ka-beng.arm2",
+"ka-beng.part",
+"jha-beng.part",
+"dha-beng.part",
+"dha-beng.part2",
+"n-beng.float",
+"wa-beng.part",
+"aaMatra-beng.float",
+"aaMatra-beng.side",
+"aaMatra-beng.side2",
+"tta-beng.flag",
+"tta-beng.flag2",
+"tta-beng.flag3",
+"tta-beng.flagIMatra1",
+"tta-beng.flagIMatra2",
+"tta-beng.flagIMatra3",
+"tta-beng.flagIiMatra",
+"tta-beng.flagIiMatra2",
+"tta-beng.flagIiMatra3",
+"ttha-beng.top",
+"ttha-beng.top2",
+"ttha-beng.topIMatra",
+"ttha-beng.topIMatra2",
+"ttha-beng.topIiMatra",
+"ttha-beng.topIiMatra2",
+"#Headline",
+"headline-beng.100",
+"headline-beng.130",
+"headline-beng.200",
+"headline-beng.250",
+"headline-beng.ba",
+"n-beng.headline",
+"#AlternateVowels",
+"candrabindu-beng.altIMatra",
+"candrabindu-beng.small",
+"nukta-beng.alt",
+"iMatra-beng.long01",
+"iMatra-beng.long02",
+"iMatra-beng.long03",
+"iMatra-beng.long04",
+"iMatra-beng.long05",
+"iMatra-beng.long06",
+"iMatra-beng.long07",
+"iMatra-beng.long08",
+"iMatra-beng.long09",
+"iMatra-beng.short01",
+"iMatra-beng.short02",
+"iMatra-beng.short03",
+"iMatra-beng.ttaAlt1",
+"iMatra-beng.ttaAlt2",
+"iMatra-beng.ttaAlt3",
+"iMatra-beng.ttaAlt4",
+"iMatra-beng.ttaAlt5",
+"iMatra-beng.tthaAlt1",
+"iMatra-beng.tthaAlt2",
+"iMatra-beng.tthaAlt3",
+"iiMatra-beng.nubAlt1",
+"iiMatra-beng.ttaAlt1",
+"iiMatra-beng.tthaAlt1",
+"iiMatra-beng.alt",
+"auLength-beng.short",
+"auLength-beng.long",
+"uMatra-beng.alt",
+"uMatra-beng.alt1",
+"uMatra-beng.round",
+"uMatra-beng.low",
+"uuMatra-beng.alt",
+"uuMatra-beng.alt1",
+"uuMatra-beng.alt2",
+"uuMatra-beng.round",
+"uuMatra-beng.low",
+"eMatra-beng.init",
+"aiMatra-beng.init",
+"eMatra-beng.short",
+"aiMatra-beng.short",
+"eMatra-beng.short.init",
+"aiMatra-beng.short.init",
+"reph-beng.altAuLength",
+"reph-beng.altIMatra",
+"reph-beng.altIiMatra",
+"reph-beng.altTtha",
+"ya-beng.pstf.short",
+"#Latin",
+exclam.beng,
+quotedbl.beng,
+numbersign.beng,
+percent.beng,
+quotesingle.beng,
+parenleft.beng,
+parenright.beng,
+asterisk.beng,
+plus.beng,
+comma.beng,
+hyphen.beng,
+period.beng,
+slash.beng,
+zero.beng,
+one.beng,
+two.beng,
+three.beng,
+four.beng,
+five.beng,
+six.beng,
+seven.beng,
+eight.beng,
+nine.beng,
+colon.beng,
+semicolon.beng,
+less.beng,
+equal.beng,
+greater.beng,
+question.beng,
+bracketleft.beng,
+backslash.beng,
+bracketright.beng,
+asciicircum.beng,
+underscore.beng,
+braceleft.beng,
+bar.beng,
+braceright.beng,
+asciitilde.beng,
+uni00A0.beng,
+sfthyphen.beng,
+endash.beng,
+emdash.beng,
+quoteleft.beng,
+quoteright.beng,
+quotedblleft.beng,
+quotedblright.beng,
+ellipsis.beng,
+multiply.beng,
+divide.beng,
+minus.beng,
+uni20B9.beng,
+uni0951,
+uni0952,
+dandadeva,
+dbldandadeva,
+uni02BC,
+uni1CD0,
+uni1CD2,
+uni1CD5,
+uni1CD6,
+uni1CD8,
+uni1CE1,
+uni1CEA,
+uni1CED,
+uni1CF2,
+uni1CF5,
+uni1CF6,
+uni1CF7,
+uniA8F1,
+uni200B,
+uni2010,
+uni25CC,
+uni1CF5.stack,
+uni1CF6.stack,
+ivowelcrossbeng,
+ivowelwavebeng,
+iivowelcrossbeng,
+iivowelwavebeng,
+auvowelcrossbeng,
+auvowelwavebeng,
+aulengthmarkshortbeng
+);
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = unicodeRanges;
+value = (
+0,
+1,
+5,
+15,
+16,
+31,
+33,
+38,
+45
+);
+},
+{
+name = "Has WWS Names";
+value = 1;
+},
+{
+name = "Propagate Anchors";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Enforce Compatibility Check";
+value = 1;
+},
+{
+name = DisableAllAutomaticBehaviour;
+value = 0;
+},
+{
+name = "Write lastChange";
+value = 0;
+},
+{
+name = "Axis Mappings";
+value = {
+wdth = {
+63 = 63;
+100 = 100;
+};
+wght = {
+100 = 20;
+400 = 90;
+900 = 178;
+};
+};
+}
+);
+date = "2017-07-06 08:51:49 +0000";
+familyName = "Noto Sans Bengali OnTheFly 4";
+featurePrefixes = (
+{
+code = "# link modified after the change to .glyphspackage. Glyphs3 marks an error, but this is the correct path for fontmake.
+#include(../features/unicode_on-the-fly.fea);
+include(../features/on-the-fly.fea);
+#include(features/static.fea);
+";
+name = Include;
+}
+);
+features = (
+{
+code = "# Automatic Code End
+
+lookup BNG_dflt_dist_onTheFly_kern{
+	lookupflag 0;
+	pos l-beng.half3' da-beng <0 0 $KERN_onTheFly_LDa 0>;
+	pos [m-beng.half s-beng.half]' pa-beng <0 0 $KERN_onTheFly_MPa 0>;
+	pos [m-beng.half s-beng.half]' p-beng.half2 <0 0 $KERN_onTheFly_MPRa 0>;
+	pos [m-beng.half s-beng.half]' p-beng.half2 <0 0 $KERN_onTheFly_MPRa 0>;
+	pos m-beng.half' sa-beng <0 0 $KERN_onTheFly_MSa 0>;
+	pos ss-beng.half4' pa-beng <0 0 $KERN_onTheFly_SsPa 0>;
+	pos ss-beng.half4' p-beng.half2 <0 0 $KERN_onTheFly_SsPRa 0>;
+	pos s-beng.half' sa-beng <0 0 $KERN_onTheFly_MSa 0>;
+} BNG_dflt_dist_onTheFly_kern;
+
+
+lookup BNG_dflt_dist_onTheFly_kern2{
+	lookupflag 0;
+	pos [m-beng.half s-beng.half]' p-beng.half <0 0 $KERN_onTheFly_MPLa 0>;
+} BNG_dflt_dist_onTheFly_kern2;
+
+
+lookup BNG_dflt_dist_floatingHeadline{
+	lookupflag UseMarkFilteringSet [headline-beng.130 headline-beng.200 headline-beng.250];
+	# headline130
+	pos [g-beng.half d-beng.half3 d-beng.half2 s-beng.half2 aaMatra-beng.part]' headline-beng.130 <0 0 $NUM_RSB_headline130 0>;
+	pos t_ra-beng' headline-beng.130 <0 0 $NUM_RSB_headline130_tRUu 0>;
+	# headline120
+	pos [t_ta-beng t_t-beng.half t_ra-beng ss-beng.half3 aaMatra-beng.part.short]' headline-beng.200 <0 0 $NUM_RSB_headline200 0>;
+	pos [dd-beng.half]' headline-beng.200 <0 0 $NUM_RSB_headline200_ddHalf 0>;
+	pos [m-beng.half s-beng.half]' headline-beng.200 <0 0 $NUM_RSB_headline200_mHalf 0>;
+	pos bh-beng.half' headline-beng.200 <0 0 $NUM_RSB_headline200_bhHalf 0>;
+	pos ss-beng.half4' headline-beng.200 <0 0 $NUM_RSB_headline200_ssHalf4 0>;
+	pos s-beng.half2' headline-beng.200 <0 0 $NUM_RSB_headline200_sHalf2 0>;
+	pos ha-beng' headline-beng.200 <0 0 $NUM_RSB_headline200_ha 0>;
+	# headline250
+	pos [ha-beng h-beng.half h-beng.half2]' headline-beng.250 <0 0 $NUM_RSB_headline250_ha 0>;
+	pos [ss-beng.half4 s-beng.half]' headline-beng.250 <0 0 $NUM_RSB_headline250_ssHalf 0>;
+	pos  b-beng.half2' headline-beng.250 <0 0 $NUM_RSB_headline130 0>; 
+	pos ss-beng.half4' p-beng.half <0 0 $KERN_onTheFly_SsPLa 0>;
+
+}BNG_dflt_dist_floatingHeadline;
+
+lookup BNG_dflt_dist_floatingPart{
+	lookupflag UseMarkFilteringSet [headline-beng.130 headline-beng.200 headline-beng.250 ka-beng.arm ka-beng.arm1 jh-beng.side aaMatra-beng.float aaMatra-beng.side2];
+	# kaArm
+	pos [b-beng.half2 b-beng.half]' [ka-beng.arm ka-beng.arm1] <0 0 $NUM_RSB_kaArm 0>;
+	# jhaSide
+	pos [b-beng.half]' jh-beng.side <0 0 $NUM_RSB_jhaSide 0>;
+	# b_jha
+	pos b-beng.half2' aaMatra-beng.side2 <0 0 $NUM_RSB_bJhaSide 0>;
+	# aaMatra-beng.float
+	pos j-beng.half' aaMatra-beng.float <0 0 $NUM_RSB_aaMatraFloat 0>;
+}BNG_dflt_dist_floatingPart;
+
+
+lookup BNG_dflt_dist_onTheFly_kern_eMatra{
+	pos eMatra-beng.long' [m-beng.half s-beng.half] [p-beng.half pha-beng.side pa-beng ma-beng.side2 sa-beng] <0 0 0 0>;
+}BNG_dflt_dist_onTheFly_kern_eMatra;
+";
+tag = dist;
+},
+{
+code = "# Automatic Code End
+
+# For all these glyphs, insert a top_vedic anchor at half of the advance width. This can
+# be done with MekkaBlue's Batch Insert Anchor script; set H Position to Center of Width
+# and V Position to BBox Top
+@SideExtensionBases = [headline-beng.130 ma-beng.side1 ddh-beng.side ddha-beng.side pha-beng.side ka-beng.arm d-beng.side ma-beng.side uMatra-beng.side uuMatra-beng.side aaMatra-beng.float ga-beng.side ttha-beng.side ma-beng.side3 dda-beng.side ma-beng.side2 gh-beng.half ch-beng.half d-beng.half3 d-beng.half p-beng.half2 k_ssa-beng k_ss-beng.half p-beng.half pa-beng da-beng gha-beng ca-beng cha-beng gha-beng gh-beng.half ];
+
+
+@BNG_VEDIC_ALL = [uni0951 uni1CD0 uni1CD2 uni1CF5.stack uni1CF6.stack uni0952 uni1CD5 uni1CD6 uni1CD8 uni1CED];
+@BNG_VEDIC_TOP = [uni0951 uni1CD0 uni1CD2 uni1CF5.stack uni1CF6.stack];
+
+lookup BNG_dflt_vedic_extension_shift1 {
+	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
+	pos ng-beng.half2 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ngHalf2 0 0 0>;
+	pos c-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_cHalf 0 0 0>;
+	pos j-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_jHalf 0 0 0>;
+	pos dd-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ddHalf 0 0 0>;
+	pos dd-beng.half1 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ddHalf1 0 0 0>;
+	pos ddh-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ddhHalf 0 0 0>;
+	pos nn-beng.half3 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_nnHalf3 0 0 0>;
+	pos nn-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_nnHalf 0 0 0>;
+	pos n_s-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_nSHalf 0 0 0>;
+	pos n_s-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_nSHalf 0 0 0>;
+	pos n-beng.headline [da-beng d-beng.half d-beng.half3] @BNG_VEDIC_ALL' <$VEDIC_nDa 0 0 0>;
+	pos n-beng.headline aaMatra-beng.part headline-beng.130 @BNG_VEDIC_ALL' <$VEDIC_nDha 0 0 0>;
+	pos t-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_tHalf 0 0 0>;
+	pos t_ta-beng @BNG_VEDIC_ALL' <$VEDIC_kTa 0 0 0>;
+} BNG_dflt_vedic_extension_shift1;
+
+lookup BNG_dflt_vedic_extension_shift2 {
+ 	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
+	pos t_t-beng.half @BNG_VEDIC_ALL' <$VEDIC_kTaHalf 0 0 0>;
+} BNG_dflt_vedic_extension_shift2;
+
+lookup BNG_dflt_vedic_extension_shift3 {
+ 	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
+	pos t_ra-beng @BNG_VEDIC_ALL' <$VEDIC_kRa 0 0 0>;
+	pos d-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf 0 0 0>;
+ 	pos n-beng.headline aaMatra-beng.part.short headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_nKTa 0 0 0>;
+ 	pos d-beng.half2 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf2 0 0 0>;
+ 	pos d-beng.half3 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf3 0 0 0>;
+	pos d-beng.half4 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf4 0 0 0>;
+} BNG_dflt_vedic_extension_shift3;
+
+lookup BNG_dflt_vedic_extension_shift4 {
+	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
+	pos p-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_pHalf 0 0 0>;
+	pos p-beng.half3 @BNG_VEDIC_ALL' <$VEDIC_ddhaSide 0 0 0> ddha-beng.side;
+	pos p-beng.half3 @BNG_VEDIC_ALL' <$VEDIC_ddhaHalfSide 0 0 0> ddh-beng.side;
+	pos b-beng.half2 ka-beng.arm @BNG_VEDIC_ALL' <$VEDIC_bHalf2 0 0 0>;
+	pos b-beng.half2 headline-beng.250 @BNG_VEDIC_ALL' <$VEDIC_bDha 0 0 0>;
+	pos m-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_mHalf 0 0 0>;
+	pos m-beng.half headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_mBa 0 0 0>;
+	pos ra-beng @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ra 0 0 0>;
+	pos l-beng.half3 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_lHalf3 0 0 0>;
+} BNG_dflt_vedic_extension_shift4;
+
+lookup BNG_dflt_vedic_extension_shift5 {
+ 	pos sh-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_shHalf 0 0 0>;
+ 	pos sh-beng.half2 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_shHalf2 0 0 0>;
+ 	pos ss-beng.half4 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ssHalf4 0 0 0>;
+ 	pos ss-beng.half4 headline-beng.250 @BNG_VEDIC_ALL' <$VEDIC_ssKa 0 0 0>;
+ 	pos ss-beng.half4 headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_ssBa 0 0 0>;
+ 	pos s-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_sHalf 0 0 0>;
+ 	pos s-beng.half headline-beng.250 @BNG_VEDIC_ALL' <$VEDIC_sKa 0 0 0>;
+ 	pos s-beng.half headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_sBa 0 0 0>;
+ 	pos s-beng.half2 headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_sKRa 0 0 0>;
+ 	pos s-beng.half2 uMatra-beng.side @BNG_VEDIC_ALL' <$VEDIC_sRU 0 0 0>;
+} BNG_dflt_vedic_extension_shift5;
+
+lookup BNG_dflt_vedic_extension_shift6 {
+	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.250 headline-beng.200 headline-beng.130 headline-beng.100];
+ 	ignore pos s-beng.half2 uMatra-beng.side @BNG_VEDIC_ALL';
+ 	pos g-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_gHalf 0 0 0>;
+ 	pos g-beng.half2 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_gHalf2 0 0 0>;
+ 	pos ng-beng.half [headline-beng.130 headline-beng.100] @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ng 0 0 0>;
+ 	pos n-beng.headline [ddha-beng.side ddh-beng.side ttha-beng.side dda-beng.side] @BNG_VEDIC_ALL' <$VEDIC_nHeadline 0 0 0>;
+ 	pos n-beng.headline aaMatra-beng.part ma-beng.side @BNG_VEDIC_ALL' <$VEDIC_nMa 0 0 0>;
+ 	pos [b-beng.half dh-beng.half] @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_bHalf 0 0 0>;
+} BNG_dflt_vedic_extension_shift6;
+	
+lookup BNG_dflt_vedic_extension_shift7 {
+	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.250 headline-beng.200 headline-beng.130 headline-beng.100];
+ 	pos ss-beng.half3 headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_ssHalf3 0 0 0>;
+ 	pos s-beng.half2 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_sHalf2 0 0 0>;
+ 	pos s-beng.half4 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_sHalf4 0 0 0>;
+ 	pos ha-beng headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_hRvoc 0 0 0>;
+ 	pos ha-beng headline-beng.250 @BNG_VEDIC_ALL' <$VEDIC_hNa 0 0 0>;
+} BNG_dflt_vedic_extension_shift7;
+
+lookup BNG_dflt_vedic_extension_shift8{
+	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200];
+ 	pos th-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_thHalf 0 0 0>;
+ 	pos bh-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_bhHalf 0 0 0>;
+ 	pos bh-beng.half headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_bhRUu 0 0 0>;
+ 	pos ramiddlediagonal-beng @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ramiddlediagonal 0 0 0>;
+ 	pos l-beng.half3 aaMatra-beng.part headline-beng.130 @BNG_VEDIC_ALL' <$VEDIC_lKa 0 0 0>;
+} BNG_dflt_vedic_extension_shift8;
+
+lookup BNG_dflt_vedic_extension_shift9{
+	pos l-beng.half3 aaMatra-beng.part ma-beng.side @BNG_VEDIC_ALL' <$VEDIC_lMa 0 0 0>;
+} BNG_dflt_vedic_extension_shift9;
+
+
+@BNG_VEDIC_TOPCLASH = [tta-beng.flag tta-beng.flag2 tta-beng.flag3 ttha-beng.top ttha-beng.top2];
+
+lookup BNG_dflt_vedic_extension_shift_up {
+	lookupflag IgnoreBaseGlyphs UseMarkFilteringSet [@BNG_VEDIC_TOP @BNG_VEDIC_TOPCLASH];
+ 	pos @BNG_VEDIC_TOP' @BNG_VEDIC_TOPCLASH <0 200 0 0>;
+} BNG_dflt_vedic_extension_shift_up;
+";
+tag = abvm;
+}
+);
+fontMaster = (
+{
+axesValues = (
+20,
+100
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "ka-beng";
+}
+);
+id = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+metricValues = (
+{
+pos = 917;
+},
+{
+over = 10;
+pos = 622;
+},
+{
+pos = 536;
+},
+{
+},
+{
+pos = -408;
+},
+{
+},
+{
+over = 10;
+pos = 713;
+},
+{
+over = 10;
+pos = -10;
+}
+);
+name = Thin;
+numberValues = (
+90,
+75,
+160,
+0,
+-10,
+140,
+-23,
+150,
+130,
+175,
+80,
+206,
+181,
+151,
+161,
+-215,
+-175,
+-117,
+-160,
+-120,
+-159,
+-170,
+-120,
+-120,
+-291,
+-313,
+-322,
+-314,
+-154,
+-365,
+-301,
+-328,
+-252,
+-276,
+-238,
+-326,
+80,
+80,
+80,
+-287,
+-255,
+-232,
+-287,
+-247,
+-185,
+-353,
+-307,
+-312,
+-322,
+-276,
+-263,
+-266,
+-281,
+-286,
+-299,
+-297,
+-317,
+-305,
+-235,
+-308,
+-298,
+-315,
+-276,
+-197,
+-220,
+-223,
+-140,
+-247,
+-241,
+-181,
+-256,
+-299,
+-294,
+-148,
+-144,
+-311,
+-321,
+-235,
+-209,
+142,
+136
+);
+stemValues = (
+21,
+22,
+21,
+22
+);
+userData = {
+GSSlanterCursivy = 0;
+GSSlanterCursivyContrastFactor = 0.5;
+GSSlanterCursivyDoContrast = 1;
+GSSlanterCursivyDoShape = 1;
+GSSlanterCursivyDoThickness = 1;
+GSSlanterCursivyShapeFactor = 0.5;
+GSSlanterCursivyThicknessFactor = 1;
+GSSlanterGeometric = 0;
+GSSlanterRotate = 0;
+};
+},
+{
+axesValues = (
+90,
+100
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "ka-beng";
+}
+);
+id = UUID0;
+metricValues = (
+{
+pos = 917;
+},
+{
+over = 10;
+pos = 622;
+},
+{
+pos = 536;
+},
+{
+},
+{
+pos = -408;
+},
+{
+},
+{
+over = 10;
+pos = 713;
+},
+{
+over = 10;
+pos = -10;
+}
+);
+name = Regular;
+numberValues = (
+115,
+100,
+200,
+0,
+-5,
+155,
+-8,
+180,
+140,
+210,
+105,
+215,
+201,
+172,
+178,
+-254,
+-168,
+-148,
+-225,
+-162,
+-229,
+-180,
+-170,
+-166,
+-317,
+-347,
+-349,
+-317,
+-181,
+-408,
+-313,
+-346,
+-263,
+-296,
+-284,
+-344,
+100,
+100,
+100,
+-317,
+-281,
+-265,
+-311,
+-272,
+-216,
+-369,
+-343,
+-350,
+-308,
+-293,
+-287,
+-293,
+-293,
+-298,
+-334,
+-341,
+-363,
+-298,
+-258,
+-320,
+-311,
+-333,
+-298,
+-196,
+-248,
+-223,
+-143,
+-271,
+-271,
+-220,
+-271,
+-333,
+-334,
+-183,
+-155,
+-324,
+-339,
+-237,
+-247,
+140,
+130
+);
+stemValues = (
+77,
+73,
+76,
+71
+);
+userData = {
+GSOffsetHorizontal = 10;
+GSOffsetVertical = 7;
+};
+},
+{
+axesValues = (
+178,
+100
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "ka-beng";
+}
+);
+id = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+metricValues = (
+{
+pos = 917;
+},
+{
+over = 10;
+pos = 622;
+},
+{
+pos = 536;
+},
+{
+},
+{
+pos = -408;
+},
+{
+},
+{
+over = 10;
+pos = 713;
+},
+{
+over = 10;
+pos = -10;
+}
+);
+name = Black;
+numberValues = (
+190,
+190,
+230,
+10,
+0,
+225,
+5,
+210,
+220,
+230,
+150,
+213,
+242,
+236,
+231,
+-290,
+-140,
+-184,
+-253,
+-192,
+-257,
+-190,
+-230,
+-210,
+-344,
+-370,
+-346,
+-322,
+-209,
+-445,
+-340,
+-350,
+-282,
+-323,
+-306,
+-338,
+115,
+105,
+120,
+-354,
+-294,
+-337,
+-297,
+-297,
+-249,
+-385,
+-395,
+-375,
+-376,
+-300,
+-287,
+-333,
+-316,
+-302,
+-360,
+-351,
+-399,
+-338,
+-281,
+-341,
+-329,
+-360,
+-297,
+-201,
+-253,
+-225,
+-153,
+-295,
+-291,
+-227,
+-330,
+-360,
+-356,
+-193,
+-168,
+-345,
+-368,
+-272,
+-220,
+135,
+136
+);
+stemValues = (
+164,
+158,
+154,
+130
+);
+},
+{
+axesValues = (
+20,
+63
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "ka-beng";
+}
+);
+id = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+metricValues = (
+{
+pos = 917;
+},
+{
+over = 10;
+pos = 622;
+},
+{
+pos = 536;
+},
+{
+},
+{
+pos = -408;
+},
+{
+},
+{
+over = 10;
+pos = 713;
+},
+{
+over = 10;
+pos = -10;
+}
+);
+name = "Condensed Thin";
+numberValues = (
+73,
+84,
+121,
+0,
+-8,
+98,
+0,
+106,
+90,
+123,
+64,
+143,
+127,
+116,
+115,
+-154,
+-123,
+-81,
+-124,
+-71,
+-113,
+-125,
+-86,
+-75,
+-202,
+-220,
+-232,
+-220,
+-106,
+-267,
+-214,
+-235,
+-171,
+-193,
+-215,
+-227,
+56,
+56,
+56,
+-206,
+-176,
+-194,
+-167,
+-168,
+-130,
+-247,
+-208,
+-219,
+-226,
+-191,
+-183,
+-186,
+-196,
+-192,
+-210,
+-209,
+-228,
+-220,
+-159,
+-211,
+-208,
+-219,
+-192,
+-137,
+-154,
+-156,
+-99,
+-175,
+-172,
+-129,
+-124,
+-210,
+-207,
+-148,
+-104,
+-217,
+-223,
+-164,
+-147,
+100,
+144
+);
+stemValues = (
+20,
+19,
+19,
+18
+);
+},
+{
+axesValues = (
+90,
+63
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "ka-beng";
+}
+);
+iconName = Condensed;
+id = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+metricValues = (
+{
+pos = 917;
+},
+{
+over = 10;
+pos = 622;
+},
+{
+pos = 536;
+},
+{
+},
+{
+pos = -408;
+},
+{
+},
+{
+over = 10;
+pos = 713;
+},
+{
+over = 10;
+pos = -10;
+}
+);
+name = "Condensed Regular";
+numberValues = (
+107,
+119,
+151,
+0,
+-3,
+132,
+-5,
+141,
+123,
+160,
+84,
+159,
+156,
+150,
+154,
+-191,
+-127,
+-120,
+-157,
+-121,
+-158,
+-147,
+-120,
+-119,
+-238,
+-257,
+-263,
+-241,
+-136,
+-310,
+-234,
+-261,
+-200,
+-229,
+-219,
+-257,
+76,
+76,
+76,
+-244,
+-209,
+-241,
+-201,
+-205,
+-166,
+-276,
+-261,
+-261,
+-269,
+-220,
+-213,
+-226,
+-222,
+-220,
+-251,
+-253,
+-276,
+-232,
+-193,
+-242,
+-237,
+-249,
+-220,
+-147,
+-185,
+-167,
+-111,
+-208,
+-208,
+-167,
+-212,
+-250,
+-250,
+-140,
+-118,
+-244,
+-256,
+-184,
+-179,
+107,
+130
+);
+stemValues = (
+70,
+67,
+67,
+63
+);
+},
+{
+axesValues = (
+178,
+63
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "ka-beng";
+}
+);
+id = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+metricValues = (
+{
+pos = 917;
+},
+{
+over = 10;
+pos = 622;
+},
+{
+pos = 536;
+},
+{
+},
+{
+pos = -408;
+},
+{
+},
+{
+over = 10;
+pos = 713;
+},
+{
+over = 10;
+pos = -10;
+}
+);
+name = "Condensed Black";
+numberValues = (
+168,
+180,
+188,
+9,
+2,
+185,
+5,
+179,
+187,
+191,
+127,
+173,
+210,
+199,
+205,
+-236,
+-120,
+-159,
+-186,
+-166,
+-195,
+-142,
+-149,
+-157,
+-268,
+-292,
+-267,
+-246,
+-174,
+-353,
+-263,
+-275,
+-225,
+-256,
+-240,
+-269,
+89,
+89,
+89,
+-291,
+-235,
+-266,
+-246,
+-235,
+-203,
+-302,
+-321,
+-288,
+-294,
+-242,
+-234,
+-265,
+-250,
+-231,
+-285,
+-285,
+-315,
+-276,
+-226,
+-268,
+-259,
+-281,
+-236,
+-159,
+-196,
+-176,
+-125,
+-237,
+-234,
+-182,
+-267,
+-286,
+-284,
+-154,
+-134,
+-192,
+-289,
+-217,
+-175,
+105,
+106
+);
+stemValues = (
+150,
+138,
+142,
+120
+);
+}
+);
+instances = (
+{
+name = Regular;
+type = variable;
+},
+{
+axesValues = (
+20,
+100
+);
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = 1;
+};
+name = Thin;
+weightClass = 100;
+},
+{
+axesValues = (
+32,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+3,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = 0.82857;
+UUID0 = 0.17143;
+};
+name = ExtraLight;
+weightClass = 200;
+},
+{
+axesValues = (
+58,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+4,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = 0.45714;
+UUID0 = 0.54286;
+};
+name = Light;
+weightClass = 300;
+},
+{
+axesValues = (
+90,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+UUID0 = 1;
+};
+name = Regular;
+},
+{
+axesValues = (
+108,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.20455;
+UUID0 = 0.79545;
+};
+name = Medium;
+weightClass = 500;
+},
+{
+axesValues = (
+128,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+7,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.43182;
+UUID0 = 0.56818;
+};
+name = SemiBold;
+weightClass = 600;
+},
+{
+axesValues = (
+151,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+8,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.69318;
+UUID0 = 0.30682;
+};
+isBold = 1;
+linkStyle = Regular;
+name = Bold;
+weightClass = 700;
+},
+{
+axesValues = (
+169,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+9,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.89773;
+UUID0 = 0.10227;
+};
+name = ExtraBold;
+weightClass = 800;
+},
+{
+axesValues = (
+178,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+10,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 1;
+};
+name = Black;
+weightClass = 900;
+},
+{
+axesValues = (
+90,
+87
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.35135;
+UUID0 = 0.64865;
+};
+name = SemiCondensed;
+widthClass = 4;
+},
+{
+axesValues = (
+90,
+75
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+6,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.67568;
+UUID0 = 0.32432;
+};
+name = Condensed;
+widthClass = 3;
+},
+{
+axesValues = (
+20,
+63
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+6,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = 1;
+};
+name = "Extra Condensed Thin";
+weightClass = 100;
+widthClass = 2;
+},
+{
+axesValues = (
+90,
+63
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+6,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 1;
+};
+name = ExtraCondensed;
+widthClass = 2;
+},
+{
+axesValues = (
+178,
+63
+);
+instanceInterpolations = {
+"F138D99C-4E28-42C5-9F3E-22494052B08F" = 1;
+};
+name = "Extra Condensed Black";
+weightClass = 900;
+widthClass = 2;
+},
+{
+axesValues = (
+26,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+2,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = 0.91429;
+UUID0 = 0.08571;
+};
+name = Thin;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+weightClass = 100;
+},
+{
+axesValues = (
+39,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+3,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = 0.72857;
+UUID0 = 0.27143;
+};
+name = ExtraLight;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+weightClass = 200;
+},
+{
+axesValues = (
+58,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+4,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = 0.45714;
+UUID0 = 0.54286;
+};
+name = Light;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+weightClass = 300;
+},
+{
+axesValues = (
+90,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+UUID0 = 1;
+};
+name = Regular;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+},
+{
+axesValues = (
+108,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.20455;
+UUID0 = 0.79545;
+};
+name = Medium;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+weightClass = 500;
+},
+{
+axesValues = (
+128,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+7,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.43182;
+UUID0 = 0.56818;
+};
+name = SemiBold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+weightClass = 600;
+},
+{
+axesValues = (
+151,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+8,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.69318;
+UUID0 = 0.30682;
+};
+isBold = 1;
+linkStyle = Regular;
+name = Bold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+weightClass = 700;
+},
+{
+axesValues = (
+169,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+9,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.89773;
+UUID0 = 0.10227;
+};
+name = ExtraBold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+weightClass = 800;
+},
+{
+axesValues = (
+190,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+10,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = -0.03797;
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 1.10616;
+UUID0 = -0.06818;
+};
+name = Black;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+weightClass = 900;
+},
+{
+axesValues = (
+90,
+89
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.2973;
+UUID0 = 0.7027;
+};
+name = SemiCondensed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+widthClass = 4;
+},
+{
+axesValues = (
+90,
+79
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+6,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.56757;
+UUID0 = 0.43243;
+};
+name = Condensed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+widthClass = 3;
+},
+{
+axesValues = (
+90,
+70
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+6,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.81081;
+UUID0 = 0.18919;
+};
+name = ExtraCondensed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+widthClass = 2;
+}
+);
+kerningLTR = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = {
+"@MMK_L_BNG_R_eMatra" = {
+"@MMK_R_BNG_L_ba" = -20;
+"@MMK_R_L_BNG_kTta" = -20;
+"@MMK_R_L_BNG_nga_half2" = -30;
+};
+"@MMK_L_R_BNG_aaMatra_part" = {
+"@MMK_R_L_BNG_ma_side" = -10;
+};
+"@MMK_L_R_BNG_bha_half" = {
+"@MMK_R_L_BNG_headline_200" = -20;
+"@MMK_R_L_BNG_uMatra_side" = 29;
+};
+"@MMK_L_R_BNG_ca_half" = {
+"@MMK_R_L_BNG_cha_half" = 5;
+};
+"@MMK_L_R_BNG_da_half" = {
+"@MMK_R_L_BNG_ga" = -12;
+"@MMK_R_L_BNG_ga_side" = -12;
+"@MMK_R_L_BNG_headline130" = -80;
+"@MMK_R_L_BNG_ma_half" = -9;
+};
+"@MMK_L_R_BNG_dd_half1" = {
+"@MMK_R_L_BNG_ma_side1" = 15;
+};
+"@MMK_L_R_BNG_dda_half" = {
+"@MMK_R_L_BNG_ga_side" = -175;
+"@MMK_R_L_BNG_headline_200" = -160;
+};
+"@MMK_L_R_BNG_ddh_half" = {
+"@MMK_R_L_BNG_ma_side1" = 21;
+};
+"@MMK_L_R_BNG_headline130" = {
+"@MMK_R_L_BNG_k_ssa" = -20;
+};
+"@MMK_L_R_BNG_j-beng_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -59;
+};
+"@MMK_L_R_BNG_la_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -221;
+"@MMK_R_L_BNG_aaMatra_partShort" = -221;
+};
+"@MMK_L_R_BNG_ma_half" = {
+"@MMK_R_L_BNG_headline_200" = -170;
+"@MMK_R_L_BNG_headline_250" = -180;
+};
+"@MMK_L_R_BNG_nHeadline_part" = {
+"@MMK_R_L_BNG_aaMatra_part" = -203;
+"@MMK_R_L_BNG_aaMatra_partShort" = -101;
+"@MMK_R_L_BNG_da" = -218;
+"@MMK_R_L_BNG_dda_side" = -1;
+"@MMK_R_L_BNG_ddhaSide" = 8;
+"@MMK_R_L_BNG_tthaSide" = -4;
+"@MMK_R_L_d-beng_half" = -207;
+"@MMK_R_L_d-beng_half2" = -275;
+"@MMK_R_L_d-beng_half3" = -207;
+};
+"@MMK_L_R_BNG_ng_half2" = {
+"@MMK_R_L_BNG_ma_side1" = -10;
+};
+"@MMK_L_R_BNG_nga_half" = {
+"@MMK_R_L_BNG_headline-100" = -75;
+"@MMK_R_L_BNG_kSsa_half" = -60;
+"@MMK_R_L_BNG_k_ssa" = -50;
+};
+"@MMK_L_R_BNG_sa_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 12;
+};
+"@MMK_L_R_BNG_ss_half" = {
+"@MMK_R_L_BNG_headline_200" = -185;
+"@MMK_R_L_BNG_headline_250" = -175;
+};
+"@MMK_L_R_BNG_uni1CE1" = {
+"@MMK_R_L_BNG_aiMatra" = 70;
+};
+};
+UUID0 = {
+"@MMK_L_BNG_R_eMatra" = {
+"@MMK_R_L_BNG_kTta" = -35;
+"@MMK_R_L_BNG_nga_half2" = -40;
+};
+"@MMK_L_R_BNG_aaMatra_part" = {
+"@MMK_R_L_BNG_ma_side" = 0;
+};
+"@MMK_L_R_BNG_bha_half" = {
+"@MMK_R_L_BNG_headline_200" = -45;
+"@MMK_R_L_BNG_uMatra_side" = 12;
+};
+"@MMK_L_R_BNG_ca_half" = {
+"@MMK_R_L_BNG_cha_half" = 0;
+};
+"@MMK_L_R_BNG_da_half" = {
+"@MMK_R_L_BNG_ga" = -57;
+"@MMK_R_L_BNG_ga_side" = -60;
+"@MMK_R_L_BNG_headline130" = -105;
+"@MMK_R_L_BNG_ma_half" = 0;
+};
+"@MMK_L_R_BNG_dd_half1" = {
+"@MMK_R_L_BNG_ma_side1" = 50;
+};
+"@MMK_L_R_BNG_dda_half" = {
+"@MMK_R_L_BNG_ga_side" = -176;
+"@MMK_R_L_BNG_headline_200" = -200;
+};
+"@MMK_L_R_BNG_ddh_half" = {
+"@MMK_R_L_BNG_ma_side1" = 30;
+};
+"@MMK_L_R_BNG_headline130" = {
+"@MMK_R_L_BNG_k_ssa" = -35;
+};
+"@MMK_L_R_BNG_j-beng_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -86;
+};
+"@MMK_L_R_BNG_la_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -265;
+"@MMK_R_L_BNG_aaMatra_partShort" = -266;
+};
+"@MMK_L_R_BNG_ma_half" = {
+"@MMK_R_L_BNG_headline_200" = -195;
+"@MMK_R_L_BNG_headline_250" = -140;
+};
+"@MMK_L_R_BNG_nHeadline_part" = {
+"@MMK_R_L_BNG_aaMatra_part" = -254;
+"@MMK_R_L_BNG_aaMatra_partShort" = -122;
+"@MMK_R_L_BNG_da" = -246;
+"@MMK_R_L_BNG_dda_side" = -6;
+"@MMK_R_L_BNG_ddhaSide" = 8;
+"@MMK_R_L_BNG_tthaSide" = 22;
+"@MMK_R_L_d-beng_half" = -241;
+"@MMK_R_L_d-beng_half2" = -340;
+"@MMK_R_L_d-beng_half3" = -241;
+};
+"@MMK_L_R_BNG_nga_half" = {
+"@MMK_R_L_BNG_headline-100" = -79;
+"@MMK_R_L_BNG_kSsa_half" = -55;
+"@MMK_R_L_BNG_k_ssa" = -40;
+};
+"@MMK_L_R_BNG_sa_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 10;
+};
+"@MMK_L_R_BNG_ss_half" = {
+"@MMK_R_L_BNG_headline_200" = -210;
+"@MMK_R_L_BNG_headline_250" = -145;
+};
+"@MMK_L_R_BNG_t_half" = {
+"@MMK_R_L_BNG_ma_side1" = 35;
+};
+"@MMK_L_R_BNG_uni1CE1" = {
+"@MMK_R_L_BNG_aiMatra" = 70;
+};
+};
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = {
+"@MMK_L_BNG_R_eMatra" = {
+"@MMK_R_L_BNG_kTta" = -30;
+"@MMK_R_L_BNG_nga_half2" = -40;
+};
+"@MMK_L_R_BNG_aaMatra_part" = {
+"@MMK_R_L_BNG_ma_side" = -7;
+};
+"@MMK_L_R_BNG_bha_half" = {
+"@MMK_R_L_BNG_headline_200" = -5;
+"@MMK_R_L_BNG_uMatra_side" = 13;
+};
+"@MMK_L_R_BNG_ca_half" = {
+"@MMK_R_L_BNG_cha_half" = 0;
+};
+"@MMK_L_R_BNG_da_half" = {
+"@MMK_R_L_BNG_ga" = -108;
+"@MMK_R_L_BNG_ga_side" = -110;
+"@MMK_R_L_BNG_headline130" = -190;
+};
+"@MMK_L_R_BNG_da_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 25;
+};
+"@MMK_L_R_BNG_dda_half" = {
+"@MMK_R_L_BNG_ga_side" = -154;
+"@MMK_R_L_BNG_headline_200" = -220;
+};
+"@MMK_L_R_BNG_ddh_half" = {
+"@MMK_R_L_BNG_ma_side1" = 15;
+};
+"@MMK_L_R_BNG_headline130" = {
+"@MMK_R_L_BNG_k_ssa" = -10;
+};
+"@MMK_L_R_BNG_j-beng_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -74;
+};
+"@MMK_L_R_BNG_la_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -307;
+"@MMK_R_L_BNG_aaMatra_partShort" = -308;
+};
+"@MMK_L_R_BNG_ma_half" = {
+"@MMK_R_L_BNG_headline_200" = -230;
+"@MMK_R_L_BNG_headline_250" = -170;
+};
+"@MMK_L_R_BNG_nHeadline_part" = {
+"@MMK_R_L_BNG_aaMatra_part" = -305;
+"@MMK_R_L_BNG_aaMatra_partShort" = -110;
+"@MMK_R_L_BNG_da" = -279;
+"@MMK_R_L_BNG_dda_side" = -50;
+"@MMK_R_L_BNG_ddhaSide" = 6;
+"@MMK_R_L_BNG_tthaSide" = 9;
+"@MMK_R_L_d-beng_half" = -284;
+"@MMK_R_L_d-beng_half2" = -421;
+"@MMK_R_L_d-beng_half3" = -274;
+};
+"@MMK_L_R_BNG_ng_half2" = {
+"@MMK_R_L_BNG_ma_side1" = 15;
+};
+"@MMK_L_R_BNG_nga_half" = {
+"@MMK_R_L_BNG_headline-100" = -35;
+};
+"@MMK_L_R_BNG_sa_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 25;
+};
+"@MMK_L_R_BNG_ss_half" = {
+"@MMK_R_L_BNG_headline_200" = -225;
+"@MMK_R_L_BNG_headline_250" = -175;
+};
+"@MMK_L_R_BNG_t_half" = {
+"@MMK_R_L_BNG_ma_side1" = 50;
+};
+"@MMK_L_R_BNG_t_ra" = {
+"@MMK_R_L_BNG_uMatra_side" = -10;
+};
+"@MMK_L_R_BNG_uni1CE1" = {
+"@MMK_R_L_BNG_aiMatra" = 70;
+};
+};
+"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = {
+"@MMK_L_BNG_R_eMatra" = {
+"@MMK_R_BNG_L_ba" = -10;
+"@MMK_R_L_BNG_nga_half2" = -20;
+};
+"@MMK_L_R_BNG_aaMatra_part" = {
+"@MMK_R_L_BNG_ma_side" = -6;
+};
+"@MMK_L_R_BNG_bha_half" = {
+"@MMK_R_L_BNG_headline_200" = -14;
+"@MMK_R_L_BNG_uMatra_side" = 19;
+};
+"@MMK_L_R_BNG_ca_half" = {
+"@MMK_R_L_BNG_cha_half" = 5;
+};
+"@MMK_L_R_BNG_da_half" = {
+"@MMK_R_L_BNG_ga" = -9;
+"@MMK_R_L_BNG_ga_side" = -10;
+"@MMK_R_L_BNG_headline130" = -52;
+"@MMK_R_L_BNG_ma_half" = -6;
+};
+"@MMK_L_R_BNG_da_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 9;
+};
+"@MMK_L_R_BNG_dd_half1" = {
+"@MMK_R_L_BNG_ma_side1" = 11;
+};
+"@MMK_L_R_BNG_dda_half" = {
+"@MMK_R_L_BNG_ga_side" = -123;
+"@MMK_R_L_BNG_headline_200" = -102;
+};
+"@MMK_L_R_BNG_ddh_half" = {
+"@MMK_R_L_BNG_ma_side1" = 14;
+};
+"@MMK_L_R_BNG_headline130" = {
+"@MMK_R_L_BNG_k_ssa" = -13;
+};
+"@MMK_L_R_BNG_j-beng_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -38;
+};
+"@MMK_L_R_BNG_la_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -156;
+"@MMK_R_L_BNG_aaMatra_partShort" = -156;
+};
+"@MMK_L_R_BNG_ma_half" = {
+"@MMK_R_L_BNG_headline_200" = -109;
+"@MMK_R_L_BNG_headline_250" = -112;
+};
+"@MMK_L_R_BNG_nHeadline_part" = {
+"@MMK_R_L_BNG_aaMatra_part" = -140;
+"@MMK_R_L_BNG_aaMatra_partShort" = -75;
+"@MMK_R_L_BNG_da" = -144;
+"@MMK_R_L_BNG_dda_side" = 5;
+"@MMK_R_L_BNG_ddhaSide" = 9;
+"@MMK_R_L_BNG_tthaSide" = 6;
+"@MMK_R_L_d-beng_half" = -144;
+"@MMK_R_L_d-beng_half2" = -176;
+"@MMK_R_L_d-beng_half3" = -144;
+};
+"@MMK_L_R_BNG_ng_half2" = {
+"@MMK_R_L_BNG_ma_side1" = -6;
+};
+"@MMK_L_R_BNG_nga_half" = {
+"@MMK_R_L_BNG_headline-100" = -70;
+"@MMK_R_L_BNG_kSsa_half" = -50;
+"@MMK_R_L_BNG_k_ssa" = -62;
+};
+"@MMK_L_R_BNG_sa_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 7;
+};
+"@MMK_L_R_BNG_ss_half" = {
+"@MMK_R_L_BNG_headline_200" = -118;
+"@MMK_R_L_BNG_headline_250" = -109;
+};
+"@MMK_L_R_BNG_t_half" = {
+"@MMK_R_L_BNG_ma_side1" = 1;
+};
+"@MMK_L_R_BNG_uni1CE1" = {
+"@MMK_R_L_BNG_aiMatra" = 45;
+};
+};
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = {
+"@MMK_L_BNG_R_eMatra" = {
+"@MMK_R_BNG_L_ba" = -10;
+"@MMK_R_L_BNG_kTta" = -25;
+"@MMK_R_L_BNG_nga_half2" = -20;
+};
+"@MMK_L_R_BNG_aaMatra_part" = {
+"@MMK_R_L_BNG_ma_side" = -1;
+};
+"@MMK_L_R_BNG_bha_half" = {
+"@MMK_R_L_BNG_headline_200" = -32;
+"@MMK_R_L_BNG_uMatra_side" = 14;
+};
+"@MMK_L_R_BNG_ca_half" = {
+"@MMK_R_L_BNG_cha_half" = 0;
+};
+"@MMK_L_R_BNG_da_half" = {
+"@MMK_R_L_BNG_ga" = -40;
+"@MMK_R_L_BNG_ga_side" = -63;
+"@MMK_R_L_BNG_headline130" = -77;
+"@MMK_R_L_BNG_ma_half" = -1;
+};
+"@MMK_L_R_BNG_da_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 1;
+};
+"@MMK_L_R_BNG_dd_half1" = {
+"@MMK_R_L_BNG_ma_side1" = 36;
+};
+"@MMK_L_R_BNG_dda_half" = {
+"@MMK_R_L_BNG_ga_side" = -132;
+"@MMK_R_L_BNG_headline_200" = -146;
+};
+"@MMK_L_R_BNG_ddh_half" = {
+"@MMK_R_L_BNG_ma_side1" = 22;
+};
+"@MMK_L_R_BNG_headline130" = {
+"@MMK_R_L_BNG_k_ssa" = -25;
+};
+"@MMK_L_R_BNG_j-beng_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -63;
+};
+"@MMK_L_R_BNG_la_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -202;
+"@MMK_R_L_BNG_aaMatra_partShort" = -196;
+};
+"@MMK_L_R_BNG_ma_half" = {
+"@MMK_R_L_BNG_headline_200" = -143;
+"@MMK_R_L_BNG_headline_250" = -106;
+};
+"@MMK_L_R_BNG_nHeadline_part" = {
+"@MMK_R_L_BNG_aaMatra_part" = -185;
+"@MMK_R_L_BNG_aaMatra_partShort" = -91;
+"@MMK_R_L_BNG_da" = -185;
+"@MMK_R_L_BNG_dda_side" = -13;
+"@MMK_R_L_BNG_ddhaSide" = 8;
+"@MMK_R_L_BNG_tthaSide" = 14;
+"@MMK_R_L_d-beng_half" = -180;
+"@MMK_R_L_d-beng_half2" = -248;
+"@MMK_R_L_d-beng_half3" = -186;
+};
+"@MMK_L_R_BNG_ng_half2" = {
+"@MMK_R_L_BNG_ma_side1" = -1;
+};
+"@MMK_L_R_BNG_nga_half" = {
+"@MMK_R_L_BNG_headline-100" = -62;
+"@MMK_R_L_BNG_kSsa_half" = -52;
+"@MMK_R_L_BNG_k_ssa" = -56;
+};
+"@MMK_L_R_BNG_sa_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 13;
+};
+"@MMK_L_R_BNG_ss_half" = {
+"@MMK_R_L_BNG_headline_200" = -155;
+"@MMK_R_L_BNG_headline_250" = -109;
+};
+"@MMK_L_R_BNG_t_half" = {
+"@MMK_R_L_BNG_ma_side1" = 24;
+};
+"@MMK_L_R_BNG_uni1CE1" = {
+"@MMK_R_L_BNG_aiMatra" = 52;
+};
+};
+"F138D99C-4E28-42C5-9F3E-22494052B08F" = {
+"@MMK_L_BNG_R_eMatra" = {
+"@MMK_R_BNG_L_ba" = -10;
+"@MMK_R_L_BNG_kTta" = -20;
+"@MMK_R_L_BNG_nga_half2" = -20;
+"@MMK_R_L_BNG_sa_half" = 0;
+};
+"@MMK_L_R_BNG_aaMatra_part" = {
+"@MMK_R_L_BNG_ma_side" = -5;
+};
+"@MMK_L_R_BNG_bha_half" = {
+"@MMK_R_L_BNG_headline_200" = -6;
+"@MMK_R_L_BNG_uMatra_side" = 6;
+};
+"@MMK_L_R_BNG_ca_half" = {
+"@MMK_R_L_BNG_cha_half" = 0;
+};
+"@MMK_L_R_BNG_da_half" = {
+"@MMK_R_L_BNG_ga" = -80;
+"@MMK_R_L_BNG_ga_side" = -119;
+"@MMK_R_L_BNG_headline130" = -141;
+"@MMK_R_L_BNG_ma_half" = 0;
+};
+"@MMK_L_R_BNG_da_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 18;
+};
+"@MMK_L_R_BNG_dd_half1" = {
+"@MMK_R_L_BNG_ma_side1" = 3;
+};
+"@MMK_L_R_BNG_dda_half" = {
+"@MMK_R_L_BNG_ga_side" = -126;
+"@MMK_R_L_BNG_headline_200" = -168;
+};
+"@MMK_L_R_BNG_ddh_half" = {
+"@MMK_R_L_BNG_ma_side1" = 13;
+};
+"@MMK_L_R_BNG_headline130" = {
+"@MMK_R_L_BNG_k_ssa" = -9;
+};
+"@MMK_L_R_BNG_j-beng_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -58;
+};
+"@MMK_L_R_BNG_la_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -238;
+"@MMK_R_L_BNG_aaMatra_partShort" = -248;
+};
+"@MMK_L_R_BNG_ma_half" = {
+"@MMK_R_L_BNG_headline_200" = -175;
+"@MMK_R_L_BNG_headline_250" = -129;
+"eMatra-beng.long" = 0;
+};
+"@MMK_L_R_BNG_nHeadline_part" = {
+"@MMK_R_L_BNG_aaMatra_part" = -227;
+"@MMK_R_L_BNG_aaMatra_partShort" = -85;
+"@MMK_R_L_BNG_da" = -225;
+"@MMK_R_L_BNG_dda_side" = -37;
+"@MMK_R_L_BNG_ddhaSide" = 13;
+"@MMK_R_L_BNG_tthaSide" = 15;
+"@MMK_R_L_d-beng_half" = -225;
+"@MMK_R_L_d-beng_half2" = -319;
+"@MMK_R_L_d-beng_half3" = -221;
+};
+"@MMK_L_R_BNG_ng_half2" = {
+"@MMK_R_L_BNG_ma_side1" = 11;
+};
+"@MMK_L_R_BNG_nga_half" = {
+"@MMK_R_L_BNG_headline-100" = -23;
+"@MMK_R_L_BNG_kSsa_half" = -13;
+"@MMK_R_L_BNG_k_ssa" = -13;
+};
+"@MMK_L_R_BNG_sa_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 14;
+};
+"@MMK_L_R_BNG_ss_half" = {
+"@MMK_R_L_BNG_headline_200" = -172;
+"@MMK_R_L_BNG_headline_250" = -133;
+};
+"@MMK_L_R_BNG_t_half" = {
+"@MMK_R_L_BNG_ma_side1" = 38;
+};
+"@MMK_L_R_BNG_t_ra" = {
+"@MMK_R_L_BNG_uMatra_side" = -7;
+};
+"@MMK_L_R_BNG_uni1CE1" = {
+"@MMK_R_L_BNG_aiMatra" = 54;
+};
+};
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+},
+{
+name = "zone 1";
+},
+{
+name = "zone 2";
+}
+);
+note = "iMatra combos
+
+/iMatra-beng.short03/ca-beng/iMatra-beng.short03/c_ba-beng/iMatra-beng.short03/c_wa-beng/iMatra-beng.short03/c_na-beng/iMatra-beng.short03/c_ra-beng/iMatra-beng.short03/ss_wa-beng/iMatra-beng.short03/ss_ka-beng/iMatra-beng.short02/nn_ba-beng/iMatra-beng.short02/nn_na-beng/iMatra-beng.short02/nn_nna-beng/iMatra-beng.short02/nn_wa-beng/iMatra-beng.short02/ny_ca-beng/iMatra-beng.short01/ny_cha-beng/iMatra-beng.short01/ddh_wa-beng/iMatra-beng.short01/ddh_ra-beng/iMatra-beng.short01/ddh_ba-beng/iMatra-beng.short01/rha-beng/iMatra-beng.short01/rh_ba-beng/iMatra-beng.short01/rh_ra-beng/iMatra-beng.short01/ha-beng/iMatra-beng.short01/h_nna-beng/iMatra-beng.short01/h_ba-beng/iMatra-beng.short01/h_wa-beng/iMatra-beng.short01/h_nna-beng.alt/iMatra-beng.short01/d_na-beng/iMatra-beng.short01/d_dh_wa-beng/iMatra-beng.short01/d_dh_ba-beng/iMatra-beng.short01/d_dha-beng/iMatra-beng.short01/d_dha-beng/iMatra-beng.short01/d_dha-beng/iMatra-beng.short01/cha-beng/iMatra-beng.short01/ch_wa-beng/iMatra-beng.short01/ch_ra-beng/iMatra-beng.short01/ch_ba-beng/iMatra-beng.short01/ng_k_ra-beng/iMatra-beng.short01/ha_uMatra-beng/iMatra-beng.short01/rh_wa-beng/iMatra-beng.short01/h_na-beng/iMatra-beng.short01/h_ra-beng/iMatra-beng.short01/h_la-beng/iMatra-beng.short01/m_ba-beng/iMatra-beng.short01/n_t_ra-beng/iMatra-beng.short01/n_tha-beng/iMatra-beng.short01/n_th_ra-beng/iMatra-beng.short01/n_wa-beng/iMatra-beng.short01/n_ba-beng/iMatra-beng.short01/n_na-beng/iMatra-beng.short01/n_dh_wa-beng/iMatra-beng.short01/n_dh_ra-beng/iMatra-beng.short01/n_dh_ba-beng/iMatra-beng.short01/n_dha-beng/iMatra-beng.short01/n_dd_ra-beng/iMatra-beng.short01/n_dda-beng/iMatra-beng.short01/b_dha-beng/iMatra-beng.short01/k_ba-beng/iMatra-beng.short01/k_ka-beng/iMatra-beng/ka-beng/iMatra-beng/ra-beng/iMatra-beng/dha-beng/iMatra-beng/jha-beng/iMatra-beng/ralowerdiagonal-beng/iMatra-beng/ramiddlediagonal-beng/iMatra-beng/k_la-beng/iMatra-beng/k_na-beng/iMatra-beng/b_la-beng/iMatra-beng/b_ra-beng/iMatra-beng/jh_ra-beng/iMatra-beng/jh_ba-beng/iMatra-beng/jh_wa-beng/iMatra-beng/dha-beng/iMatra-beng/dh_ra-beng/iMatra-beng/dh_na-beng/iMatra-beng/yy_wa-beng/iMatra-beng/y_wa-beng/iMatra-beng/y_ra-beng/iMatra-beng/y_ba-beng/iMatra-beng/yy_ra-beng/iMatra-beng/yy_ba-beng/iMatra-beng/yya-beng/iMatra-beng/ya-beng/iMatra-beng/ssa-beng/iMatra-beng/ss_nna-beng/iMatra-beng/s_ba-beng/iMatra-beng/s_ka-beng/iMatra-beng/m_la-beng/iMatra-beng/m_ra-beng/iMatra-beng/m_b_ra-beng/iMatra-beng/m_na-beng/iMatra-beng/m_tha-beng/iMatra-beng/m_t_ra-beng/iMatra-beng/sh_wa-beng/iMatra-beng/sh_la-beng/iMatra-beng/sh_ba-beng/iMatra-beng/sh_na-beng/iMatra-beng/bh_wa-beng/iMatra-beng/bh_la-beng/iMatra-beng/bh_ra-beng/iMatra-beng/th_wa-beng/iMatra-beng/th_ra-beng/iMatra-beng/th_ba-beng/iMatra-beng/t_la-beng/iMatra-beng/t_ba-beng/iMatra-beng/t_na-beng/iMatra-beng/j_ny_wa-beng/iMatra-beng/j_ny_ra-beng/iMatra-beng/j_ny_ba-beng/iMatra-beng/gh_wa-beng/iMatra-beng/gh_la-beng/iMatra-beng/gh_ra-beng/iMatra-beng/gh_ba-beng/iMatra-beng/gh_na-beng/iMatra-beng/g_ba-beng/iMatra-beng/g_na-beng/iMatra-beng/g_dh_wa-beng/iMatra-beng/g_dh_ba-beng/iMatra-beng/g_dh_ba-beng/iMatra-beng/g_dha-beng/iMatra-beng/g_d_ra-beng/iMatra-beng/g_ga-beng/iMatra-beng/kh_wa-beng/iMatra-beng/kh_ra-beng/iMatra-beng/kh_ba-beng/iMatra-beng/m_bh_ra-beng/iMatra-beng/d_bh_ra-beng/iMatra-beng/da-beng/iMatra-beng/j_nya-beng/iMatra-beng/ng_ka-beng/iMatra-beng/na-beng/iMatra-beng/tha-beng/iMatra-beng/ta-beng/iMatra-beng/nna-beng/iMatra-beng/ja-beng/iMatra-beng/gha-beng/iMatra-beng/ga-beng/iMatra-beng.long01/ng_wa-beng/iMatra-beng.long01/ng_wa-beng/iMatra-beng.long01/ng_ra-beng/iMatra-beng.long01/nga-beng/iMatra-beng.long01/ng_ba-beng/iMatra-beng.long01/ny_ja-beng/iMatra-beng.long01/rr_ra-beng/iMatra-beng.long01/dd_ba-beng/iMatra-beng.long01/dd_wa-beng/iMatra-beng.long01/dd_ra-beng/iMatra-beng.long01/rr_ba-beng/iMatra-beng.long01/rr_wa-beng/iMatra-beng.long01/s_la-beng.alt/iMatra-beng.long01/s_la-beng/iMatra-beng.long01/s_ra-beng/iMatra-beng.long01/s_na-beng/iMatra-beng.long01/s_tha-beng/iMatra-beng.long01/s_t_ra-beng/iMatra-beng.long01/s_k_ra-beng/iMatra-beng.long01/ss_ra-beng/iMatra-beng.long01/ph_wa-beng/iMatra-beng.long01/ph_la-beng/iMatra-beng.long01/ph_ra-beng/iMatra-beng.long01/ph_ba-beng/iMatra-beng.long01/p_wa-beng/iMatra-beng.long01/p_la-beng/iMatra-beng.long01/p_ba-beng/iMatra-beng.long01/p_pa-beng/iMatra-beng.long01/p_na-beng/iMatra-beng.long01/nn_ra-beng/iMatra-beng.long01/ny_wa-beng/iMatra-beng.long01/ny_ba-beng/iMatra-beng.long01/ny_jha-beng/iMatra-beng.long01/k_ra-beng/iMatra-beng.long01/t_ra-beng/iMatra-beng.long01/g_ra-beng/iMatra-beng.long01/n_ra-beng/iMatra-beng.long01/sa-beng/iMatra-beng.long01/sha-beng/iMatra-beng.long01/ma-beng/iMatra-beng.long01/bha-beng/iMatra-beng.long01/pha-beng/iMatra-beng.long01/pa-beng/iMatra-beng.long01/kha-beng/iMatra-beng.long02/ng_ga-beng/iMatra-beng.long02/g_da-beng/iMatra-beng.long02/ss_k_ra-beng/iMatra-beng.long02/sh_ra-beng/iMatra-beng.long02/sh_ta-beng/iMatra-beng.long02/l_wa-beng/iMatra-beng.long02/l_la-beng/iMatra-beng.long02/l_ba-beng/iMatra-beng.long02/l_pa-beng/iMatra-beng.long02/l_dha-beng/iMatra-beng.long02/l_dd_ra-beng/iMatra-beng.long02/l_dda-beng/iMatra-beng.long02/l_ga-beng/iMatra-beng.long02/l_ka-beng/iMatra-beng.long02/l_ta-beng/iMatra-beng.long02/p_ra-beng/iMatra-beng.long02/p_ta-beng/iMatra-beng.long02/m_bha-beng/iMatra-beng.long02/m_t_wa-beng/iMatra-beng.long02/m_t_ba-beng/iMatra-beng.long02/m_ta-beng/iMatra-beng.long02/bh_ba-beng/iMatra-beng.long02/n_t_wa-beng/iMatra-beng.long02/n_t_ba-beng/iMatra-beng.long02/n_ta_uMatra-beng/iMatra-beng.long02/n_ta-beng/iMatra-beng.long02/d_ra-beng/iMatra-beng.long02/t_t_ba-beng/iMatra-beng.long02/ny_ra-beng/iMatra-beng.long02/nya-beng/iMatra-beng.long02/h_ma-beng/iMatra-beng.long02/k_ss_nna-beng.alt/iMatra-beng.long02/k_ssa-beng/iMatra-beng.long02/k_ss_wa-beng/iMatra-beng.long02/k_ss_ra-beng/iMatra-beng.long02/k_ss_ba-beng/iMatra-beng.long02/k_ss_nna-beng/iMatra-beng.long02/k_t_wa-beng/iMatra-beng.long02/k_t_ra-beng/iMatra-beng.long02/k_t_ba-beng/iMatra-beng.long02/k_ta-beng/iMatra-beng.long02/t_ta-beng/iMatra-beng.long02/b_bha-beng/iMatra-beng.long02/t_tha-beng/iMatra-beng.long02/t_t_ra-beng/iMatra-beng.long02/dda-beng/iMatra-beng.long02/rra-beng/iMatra-beng.long03/s_t_ba-beng/iMatra-beng.long03/s_ta_uMatra-beng/iMatra-beng.long03/s_ta-beng/iMatra-beng.long03/ss_ma-beng/iMatra-beng.long03/n_ma-beng/iMatra-beng.long03/nn_dd_ra-beng/iMatra-beng.long03/l_ra-beng/iMatra-beng.long03/n_sa-beng/iMatra-beng.long03/d_bha-beng/iMatra-beng.long03/d_da-beng/iMatra-beng.long03/c_nya-beng/iMatra-beng.long03/nn_dda-beng/iMatra-beng.long03/ga_uMatra-beng/iMatra-beng.long03/la-beng/iMatra-beng.long04/j_ra-beng/iMatra-beng.long04/j_ba-beng/iMatra-beng.long04/j_wa-beng/iMatra-beng.long04/ss_pha-beng/iMatra-beng.long04/m_ma-beng/iMatra-beng.long04/m_pha-beng/iMatra-beng.long04/n_d_wa-beng/iMatra-beng.long04/n_d_ba-beng/iMatra-beng.long04/n_ddh_ra-beng/iMatra-beng.long04/n_ddha-beng/iMatra-beng.long04/dh_ma-beng/iMatra-beng.long04/d_ma-beng/iMatra-beng.long04/d_d_wa-beng/iMatra-beng.long04/d_d_ra-beng/iMatra-beng.long04/d_d_ba-beng/iMatra-beng.long04/c_ch_wa-beng/iMatra-beng.long04/c_ch_ra-beng/iMatra-beng.long04/c_ch_ba-beng/iMatra-beng.long04/c_ca-beng/iMatra-beng.long04/s_kha-beng/iMatra-beng.long04/sha_uMatra-beng/iMatra-beng.long04/b_d_ra-beng/iMatra-beng.long04/b_da-beng/iMatra-beng.long04/m_da-beng/iMatra-beng.long05/sh_ca-beng/iMatra-beng.long05/l_d_ra-beng/iMatra-beng.long05/l_da-beng/iMatra-beng.long05/l_ddha-beng/iMatra-beng.long05/n_d_ra-beng/iMatra-beng.long05/n_da-beng/iMatra-beng.long05/nn_ma-beng/iMatra-beng.long05/dd_ma-beng/iMatra-beng.long05/c_cha-beng/iMatra-beng.long05/ng_ma-beng/iMatra-beng.long05/g_ma-beng/iMatra-beng.long05/l_pha-beng/iMatra-beng.long05/dd_dda-beng/iMatra-beng.long05/k_sa-beng/iMatra-beng.long05/k_ma-beng/iMatra-beng.long06/ss_p_ra-beng/iMatra-beng.long06/ss_pa-beng/iMatra-beng.long06/b_ja-beng/iMatra-beng.long06/s_ma-beng/iMatra-beng.long06/s_pha-beng/iMatra-beng.long06/sh_ma-beng/iMatra-beng.long06/sh_cha-beng/iMatra-beng.long06/l_ma-beng/iMatra-beng.long06/nn_ddha-beng/iMatra-beng.long06/p_ma-beng/iMatra-beng.long06/p_ddh_ra-beng/iMatra-beng.long06/p_ddha-beng/iMatra-beng.long06/d_ga-beng/iMatra-beng.long06/p_sa-beng/iMatra-beng.long06/t_ma-beng/iMatra-beng.long07/b_ba-beng/iMatra-beng.long07/dh_ba-beng/iMatra-beng.long07/m_sa-beng/iMatra-beng.long07/d_gha-beng/iMatra-beng.long07/j_jha-beng/iMatra-beng.long07/j_j_wa-beng/iMatra-beng.long07/j_ja-beng/iMatra-beng.long07/k_ss_ma-beng/iMatra-beng.long08/m_p_ra-beng/iMatra-beng.long08/m_p_ra-beng/iMatra-beng.long09/s_p_ra-beng/iMatra-beng.long09/s_pa-beng/iMatra-beng.long09/rr_ga-beng/iMatra-beng.long09/dd_ga-beng/iMatra-beng.long10/ng_gha-beng/iMatra-beng.long11/ng_k_ssa-beng";
+numbers = (
+{
+name = NUM_RSB_headline130;
+},
+{
+name = NUM_RSB_headline130_tRUu;
+},
+{
+name = NUM_RSB_headline200;
+},
+{
+name = NUM_RSB_headline200_ddHalf;
+},
+{
+name = NUM_RSB_headline200_mHalf;
+},
+{
+name = NUM_RSB_headline200_bhHalf;
+},
+{
+name = NUM_RSB_headline200_ssHalf4;
+},
+{
+name = NUM_RSB_headline200_sHalf2;
+},
+{
+name = NUM_RSB_headline200_ha;
+},
+{
+name = NUM_RSB_headline250_ha;
+},
+{
+name = NUM_RSB_headline250_ssHalf;
+},
+{
+name = NUM_RSB_kaArm;
+},
+{
+name = NUM_RSB_jhaSide;
+},
+{
+name = NUM_RSB_bJhaSide;
+},
+{
+name = NUM_RSB_aaMatraFloat;
+},
+{
+name = KERN_onTheFly_LDa;
+},
+{
+name = KERN_onTheFly_DdGa;
+},
+{
+name = KERN_onTheFly_MPa;
+},
+{
+name = KERN_onTheFly_MPRa;
+},
+{
+name = KERN_onTheFly_SsPa;
+},
+{
+name = KERN_onTheFly_SsPRa;
+},
+{
+name = KERN_onTheFly_MSa;
+},
+{
+name = KERN_onTheFly_MPLa;
+},
+{
+name = KERN_onTheFly_SsPLa;
+},
+{
+name = VEDIC_gHalf;
+},
+{
+name = VEDIC_gHalf2;
+},
+{
+name = VEDIC_ng;
+},
+{
+name = VEDIC_ngHalf2;
+},
+{
+name = VEDIC_cHalf;
+},
+{
+name = VEDIC_jHalf;
+},
+{
+name = VEDIC_ddHalf1;
+},
+{
+name = VEDIC_ddHalf;
+},
+{
+name = VEDIC_ddhHalf;
+},
+{
+name = VEDIC_nnHalf;
+},
+{
+name = VEDIC_nnHalf3;
+},
+{
+name = VEDIC_tHalf;
+},
+{
+name = VEDIC_kTa;
+},
+{
+name = VEDIC_kTaHalf;
+},
+{
+name = VEDIC_kRa;
+},
+{
+name = VEDIC_thHalf;
+},
+{
+name = VEDIC_dHalf;
+},
+{
+name = VEDIC_dHalf2;
+},
+{
+name = VEDIC_dHalf3;
+},
+{
+name = VEDIC_nHeadline;
+},
+{
+name = VEDIC_dHalf4;
+},
+{
+name = VEDIC_nSHalf;
+},
+{
+name = VEDIC_nKTa;
+},
+{
+name = VEDIC_pHalf;
+},
+{
+name = VEDIC_pHalf3;
+},
+{
+name = VEDIC_bHalf;
+},
+{
+name = VEDIC_bHalf2;
+},
+{
+name = VEDIC_bhHalf;
+},
+{
+name = VEDIC_mHalf;
+},
+{
+name = VEDIC_ra;
+},
+{
+name = VEDIC_lHalf3;
+},
+{
+name = VEDIC_shHalf;
+},
+{
+name = VEDIC_shHalf2;
+},
+{
+name = VEDIC_ssHalf3;
+},
+{
+name = VEDIC_ssHalf4;
+},
+{
+name = VEDIC_sHalf;
+},
+{
+name = VEDIC_sHalf4;
+},
+{
+name = VEDIC_sHalf2;
+},
+{
+name = VEDIC_ramiddlediagonal;
+},
+{
+name = VEDIC_mBa;
+},
+{
+name = VEDIC_sKa;
+},
+{
+name = VEDIC_sBa;
+},
+{
+name = VEDIC_nDa;
+},
+{
+name = VEDIC_nDha;
+},
+{
+name = VEDIC_nMa;
+},
+{
+name = VEDIC_bDha;
+},
+{
+name = VEDIC_bhRUu;
+},
+{
+name = VEDIC_lKa;
+},
+{
+name = VEDIC_lMa;
+},
+{
+name = VEDIC_ssKa;
+},
+{
+name = VEDIC_ssBa;
+},
+{
+name = VEDIC_sKRa;
+},
+{
+name = VEDIC_sRU;
+},
+{
+name = VEDIC_hRvoc;
+},
+{
+name = VEDIC_hNa;
+},
+{
+name = VEDIC_ddhaSide;
+},
+{
+name = VEDIC_ddhaHalfSide;
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2023 The Noto Project Authors (https://github.com/notofonts/bengali)";
+}
+);
+},
+{
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "Designed by Universal Thirst";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Joana Ranito, Namrata Goyal - Universal Thirst; Jelle Bosma - Monotype Design Team";
+}
+);
+},
+{
+key = designerURL;
+value = "https://universalthirst.com/";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Universal Thirst ehf.";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "http://www.google.com/get/noto/";
+},
+{
+key = trademarks;
+values = (
+{
+language = dflt;
+value = "Noto is a trademark of Google Inc.";
+}
+);
+},
+{
+key = versionString;
+value = "Version 3.000";
+}
+);
+settings = {
+disablesNiceNames = 1;
+};
+stems = (
+{
+name = hStem0;
+},
+{
+name = hStem1;
+},
+{
+horizontal = 1;
+name = vStem0;
+},
+{
+horizontal = 1;
+name = vStem1;
+}
+);
+unitsPerEm = 1000;
+userData = {
+GSDontShowVersionAlert = 1;
+};
+versionMajor = 3;
+versionMinor = 0;
+}

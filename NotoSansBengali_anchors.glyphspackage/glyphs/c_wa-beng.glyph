@@ -1,0 +1,177 @@
+{
+category = Letter;
+color = 10;
+export = 0;
+glyphname = "c_wa-beng";
+layers = (
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (283,622);
+},
+{
+name = top_candrabindu;
+pos = (255,622);
+}
+);
+shapes = (
+{
+ref = "ca-beng";
+},
+{
+pos = (532,56);
+ref = basubscriptbeng;
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+ref = "c-beng.half1";
+},
+{
+pos = (63,-46);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (86,-80);
+ref = "wa-beng.part";
+}
+);
+width = 538;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (274,622);
+},
+{
+name = top_candrabindu;
+pos = (260,622);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = "ca-beng";
+},
+{
+alignment = -1;
+pos = (486,79);
+ref = basubscriptbeng;
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+ref = "c-beng.half1";
+},
+{
+pos = (67,-73);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (67,-83);
+ref = "wa-beng.part";
+}
+);
+width = 479;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (303,622);
+},
+{
+name = top_candrabindu;
+pos = (237,622);
+}
+);
+shapes = (
+{
+ref = "ca-beng";
+},
+{
+pos = (580,61);
+ref = basubscriptbeng;
+}
+);
+};
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+ref = "c-beng.half1";
+},
+{
+pos = (1,-28);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (40,-77);
+ref = "wa-beng.part";
+}
+);
+width = 543;
+},
+{
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+ref = "c-beng.half1";
+},
+{
+pos = (40,-73);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (42,-83);
+ref = "wa-beng.part";
+}
+);
+width = 331;
+},
+{
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "c-beng.half1";
+},
+{
+pos = (36,-55);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (54,-85);
+ref = "wa-beng.part";
+}
+);
+width = 396;
+},
+{
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "c-beng.half1";
+},
+{
+pos = (-9,-40);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (26,-86);
+ref = "wa-beng.part";
+}
+);
+width = 438;
+}
+);
+script = bengali;
+subCategory = Spacing;
+}

@@ -1,0 +1,188 @@
+{
+category = Letter;
+color = 10;
+export = 0;
+glyphname = "ng_k_ssa-beng";
+layers = (
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (741,622);
+},
+{
+name = bottom;
+pos = (1101,0);
+},
+{
+name = top_candrabindu;
+pos = (1101,622);
+}
+);
+shapes = (
+{
+ref = "k_ssa-beng";
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+ref = "ng-beng.half";
+},
+{
+alignment = -1;
+pos = (522,0);
+ref = "headline-beng.130";
+},
+{
+alignment = -1;
+pos = (624,0);
+ref = "k_ssa-beng";
+}
+);
+width = 1483;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (717,622);
+},
+{
+name = bottom;
+pos = (1079,0);
+},
+{
+name = top_candrabindu;
+pos = (1079,622);
+}
+);
+shapes = (
+{
+alignment = -1;
+pos = (585,0);
+ref = "k_ssa-beng";
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+alignment = -1;
+ref = "ng-beng.half";
+},
+{
+alignment = -1;
+pos = (479,0);
+ref = "headline-beng.130";
+},
+{
+alignment = -1;
+pos = (569,0);
+ref = "k_ssa-beng";
+}
+);
+width = 1379;
+},
+{
+background = {
+anchors = (
+{
+name = Anchor8;
+pos = (854,622);
+},
+{
+name = bottom;
+pos = (1241,0);
+},
+{
+name = top_candrabindu;
+pos = (1241,622);
+}
+);
+shapes = (
+{
+alignment = -1;
+pos = (700,0);
+ref = "k_ssa-beng";
+}
+);
+};
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+alignment = -1;
+ref = "ng-beng.half";
+},
+{
+alignment = -1;
+pos = (492,0);
+ref = "headline-beng.130";
+},
+{
+alignment = -1;
+pos = (692,0);
+ref = "k_ssa-beng";
+}
+);
+width = 1605;
+},
+{
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+ref = "ng-beng.half";
+},
+{
+pos = (330,0);
+ref = "headline-beng.130";
+},
+{
+pos = (402,0);
+ref = "k_ssa-beng";
+}
+);
+width = 983;
+},
+{
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "ng-beng.half";
+},
+{
+pos = (386,0);
+ref = "headline-beng.130";
+},
+{
+pos = (480,0);
+ref = "k_ssa-beng";
+}
+);
+width = 1141;
+},
+{
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "ng-beng.half";
+},
+{
+pos = (370,0);
+ref = "headline-beng.130";
+},
+{
+pos = (532,0);
+ref = "k_ssa-beng";
+}
+);
+width = 1281;
+}
+);
+script = bengali;
+subCategory = Spacing;
+}

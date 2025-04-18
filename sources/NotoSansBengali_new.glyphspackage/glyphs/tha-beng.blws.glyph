@@ -162,7 +162,7 @@ width = 573;
 {
 anchors = (
 {
-name = _bottomVattu;
+name = _bottom_vattu;
 pos = (291,413);
 },
 {
@@ -174,7 +174,7 @@ name = bottomMainForm;
 pos = (417,247);
 },
 {
-name = bottomVattu;
+name = bottom_vattu;
 pos = (283,49);
 },
 {
@@ -682,7 +682,7 @@ width = 530;
 {
 anchors = (
 {
-name = _bottomVattu;
+name = _bottom_vattu;
 pos = (295,413);
 },
 {
@@ -694,7 +694,7 @@ name = bottomMainForm;
 pos = (371,244);
 },
 {
-name = bottomVattu;
+name = bottom_vattu;
 pos = (292,169);
 },
 {
@@ -850,7 +850,7 @@ width = 439;
 {
 anchors = (
 {
-name = _bottomVattu;
+name = _bottom_vattu;
 pos = (275,437);
 },
 {
@@ -862,7 +862,7 @@ name = bottomMainForm;
 pos = (474,206);
 },
 {
-name = bottomVattu;
+name = bottom_vattu;
 pos = (238,111);
 },
 {
@@ -1018,7 +1018,7 @@ width = 536;
 {
 anchors = (
 {
-name = _bottomVattu;
+name = _bottom_vattu;
 pos = (204,413);
 },
 {
@@ -1030,7 +1030,7 @@ name = bottomMainForm;
 pos = (261,244);
 },
 {
-name = bottomVattu;
+name = bottom_vattu;
 pos = (201,171);
 },
 {
@@ -1094,7 +1094,7 @@ width = 309;
 {
 anchors = (
 {
-name = _bottomVattu;
+name = _bottom_vattu;
 pos = (214,413);
 },
 {
@@ -1106,7 +1106,7 @@ name = bottomMainForm;
 pos = (319,247);
 },
 {
-name = bottomVattu;
+name = bottom_vattu;
 pos = (203,68);
 },
 {
@@ -1170,7 +1170,7 @@ width = 373;
 {
 anchors = (
 {
-name = _bottomVattu;
+name = _bottom_vattu;
 pos = (211,442);
 },
 {
@@ -1182,7 +1182,7 @@ name = bottomMainForm;
 pos = (381,213);
 },
 {
-name = bottomVattu;
+name = bottom_vattu;
 pos = (169,101);
 },
 {

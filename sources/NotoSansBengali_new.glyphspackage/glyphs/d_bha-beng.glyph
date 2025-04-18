@@ -456,7 +456,7 @@ name = bottomMainForm;
 pos = (267,295);
 },
 {
-name = bottomVattu;
+name = bottom_vattu;
 pos = (561,70);
 },
 {
@@ -672,7 +672,7 @@ name = bottomMainForm;
 pos = (267,295);
 },
 {
-name = bottomVattu;
+name = bottom_vattu;
 pos = (561,70);
 },
 {

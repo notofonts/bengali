@@ -1,0 +1,109 @@
+{
+color = 10;
+export = 0;
+glyphname = "nn_ddh_ra-beng";
+layers = (
+{
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+ref = "nn-beng.half";
+},
+{
+pos = (552,0);
+ref = "ddh-beng.side";
+},
+{
+pos = (270,-84);
+ref = "raphala-beng.alt03";
+}
+);
+width = 823;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+ref = "nn-beng.half";
+},
+{
+pos = (592,0);
+ref = "ddh-beng.side";
+},
+{
+pos = (257,-134);
+ref = "raphala-beng.alt03";
+}
+);
+width = 852;
+},
+{
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+ref = "nn-beng.half";
+},
+{
+pos = (646,0);
+ref = "ddh-beng.side";
+},
+{
+pos = (245,-214);
+ref = "raphala-beng.alt03";
+}
+);
+width = 917;
+},
+{
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+ref = "nn-beng.half";
+},
+{
+pos = (387,0);
+ref = "ddh-beng.side";
+},
+{
+pos = (186,-84);
+ref = "raphala-beng.alt03";
+}
+);
+width = 575;
+},
+{
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "nn-beng.half";
+},
+{
+pos = (458,0);
+ref = "ddh-beng.side";
+},
+{
+pos = (199,-127);
+ref = "raphala-beng.alt03";
+}
+);
+width = 660;
+},
+{
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "nn-beng.half";
+},
+{
+pos = (513,0);
+ref = "ddh-beng.side";
+},
+{
+pos = (185,-199);
+ref = "raphala-beng.alt03";
+}
+);
+width = 734;
+}
+);
+}

@@ -6,7 +6,7 @@ layers = (
 {
 anchors = (
 {
-name = _bottomVattu;
+name = _bottom_vattu;
 pos = (662,165);
 },
 {
@@ -73,7 +73,7 @@ width = 759;
 {
 anchors = (
 {
-name = _bottomVattu;
+name = _bottom_vattu;
 pos = (620,160);
 },
 {
@@ -127,7 +127,7 @@ width = 661;
 {
 anchors = (
 {
-name = _bottomVattu;
+name = _bottom_vattu;
 pos = (702,205);
 },
 {
@@ -193,7 +193,7 @@ width = 886;
 {
 anchors = (
 {
-name = _bottomVattu;
+name = _bottom_vattu;
 pos = (434,160);
 },
 {
@@ -285,7 +285,7 @@ width = 467;
 {
 anchors = (
 {
-name = _bottomVattu;
+name = _bottom_vattu;
 pos = (498,165);
 },
 {
@@ -339,7 +339,7 @@ width = 584;
 {
 anchors = (
 {
-name = _bottomVattu;
+name = _bottom_vattu;
 pos = (551,198);
 },
 {

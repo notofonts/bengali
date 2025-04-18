@@ -474,7 +474,7 @@ name = bottom;
 pos = (390,-52);
 },
 {
-name = bottomVattu;
+name = bottom_vattu;
 pos = (409,-1);
 },
 {
@@ -634,7 +634,7 @@ name = bottom;
 pos = (453,-104);
 },
 {
-name = bottomVattu;
+name = bottom_vattu;
 pos = (479,-103);
 },
 {
@@ -938,7 +938,7 @@ name = bottom;
 pos = (439,-155);
 },
 {
-name = bottomVattu;
+name = bottom_vattu;
 pos = (459,-83);
 },
 {
