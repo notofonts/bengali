@@ -9,7 +9,7 @@ anchors = (
 name = _bottom;
 },
 {
-name = _bottom_nukta;
+name = _bottomNukta;
 pos = (-30,-5);
 }
 );
@@ -102,7 +102,7 @@ anchors = (
 name = _bottom;
 },
 {
-name = _bottom_nukta;
+name = _bottomNukta;
 pos = (-60,-5);
 }
 );
@@ -190,7 +190,7 @@ anchors = (
 name = _bottom;
 },
 {
-name = _bottom_nukta;
+name = _bottomNukta;
 pos = (0,-5);
 }
 );
@@ -256,7 +256,7 @@ name = _bottom;
 pos = (-1,0);
 },
 {
-name = _bottom_nukta;
+name = _bottomNukta;
 pos = (-40,-5);
 }
 );
@@ -309,7 +309,7 @@ anchors = (
 name = _bottom;
 },
 {
-name = _bottom_nukta;
+name = _bottomNukta;
 pos = (-19,-5);
 }
 );
@@ -362,7 +362,7 @@ anchors = (
 name = _bottom;
 },
 {
-name = _bottom_nukta;
+name = _bottomNukta;
 pos = (8,-5);
 }
 );
