@@ -302,5 +302,6 @@ nodes = (
 width = 412;
 }
 );
+subCategory = Spacing;
 unicode = 7393;
 }
