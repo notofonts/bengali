@@ -1478,8 +1478,9 @@ language PAL;
 
 feature ss01 {
 
-script bng2;
+featureNames { name "Alternate form of nna belowform for k_ssa conjunct";};
 
+script bng2;
 lookup BNG_dflt_ss01_alternateNna {
     lookupflag 0;
     sub [k_ss-beng.half h-beng.half] na-beng.blws' by nna-beng.blws;
