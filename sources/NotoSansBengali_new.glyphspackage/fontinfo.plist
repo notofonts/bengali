@@ -551,7 +551,7 @@ wght = {
 }
 );
 date = "2017-07-06 08:51:49 +0000";
-familyName = "Noto Sans Bengali OnTheFly 4";
+familyName = "Noto Sans Bengali";
 featurePrefixes = (
 {
 code = "# link modified after the change to .glyphspackage. Glyphs3 marks an error, but this is the correct path for fontmake.
