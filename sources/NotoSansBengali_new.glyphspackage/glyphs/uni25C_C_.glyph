@@ -32,6 +32,10 @@ name = bottom_wa;
 pos = (255,-20);
 },
 {
+name = nukta;
+pos = (255,43);
+},
+{
 name = side;
 pos = (79,440);
 },
@@ -404,6 +408,10 @@ pos = (255,-10);
 {
 name = bottom_wa;
 pos = (255,-20);
+},
+{
+name = nukta;
+pos = (255,43);
 },
 {
 name = side;
@@ -844,6 +852,10 @@ name = bottom_wa;
 pos = (255,-20);
 },
 {
+name = nukta;
+pos = (255,43);
+},
+{
 name = side;
 pos = (79,440);
 },
@@ -1062,6 +1074,10 @@ pos = (197,-10);
 {
 name = bottom_wa;
 pos = (197,-20);
+},
+{
+name = nukta;
+pos = (197,43);
 },
 {
 name = side;
@@ -1284,6 +1300,10 @@ name = bottom_wa;
 pos = (197,-20);
 },
 {
+name = nukta;
+pos = (197,43);
+},
+{
 name = side;
 pos = (51,440);
 },
@@ -1502,6 +1522,10 @@ pos = (197,-10);
 {
 name = bottom_wa;
 pos = (197,-20);
+},
+{
+name = nukta;
+pos = (197,43);
 },
 {
 name = side;
