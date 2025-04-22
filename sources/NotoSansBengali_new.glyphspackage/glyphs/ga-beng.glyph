@@ -908,6 +908,7 @@ name = top_vedic;
 pos = (281,634);
 }
 );
+color = 1;
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {

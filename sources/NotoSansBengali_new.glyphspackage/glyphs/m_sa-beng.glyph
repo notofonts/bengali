@@ -152,7 +152,7 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-place = (550,-20);
+place = (550, -20);
 target = down;
 type = TopGhost;
 }
@@ -476,7 +476,7 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-place = (502,-20);
+place = (502, -20);
 target = down;
 type = TopGhost;
 }
@@ -498,7 +498,7 @@ width = 1096;
 hints = (
 {
 horizontal = 1;
-place = (31,-20);
+place = (31, -20);
 target = down;
 type = TopGhost;
 }
@@ -534,7 +534,7 @@ width = 768;
 hints = (
 {
 horizontal = 1;
-place = (505,-20);
+place = (505, -20);
 target = down;
 type = TopGhost;
 }
