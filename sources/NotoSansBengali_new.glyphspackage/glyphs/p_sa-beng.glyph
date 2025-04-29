@@ -616,6 +616,7 @@ nodes = (
 }
 );
 };
+color = 1;
 guides = (
 {
 angle = 47.0953;

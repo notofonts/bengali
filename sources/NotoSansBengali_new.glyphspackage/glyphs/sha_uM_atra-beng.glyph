@@ -595,6 +595,7 @@ name = top_vedic;
 pos = (263,607);
 }
 );
+color = 1;
 guides = (
 {
 angle = 68.9932;

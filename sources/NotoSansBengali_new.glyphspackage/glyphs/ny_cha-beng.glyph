@@ -3114,6 +3114,7 @@ nodes = (
 }
 );
 };
+color = 1;
 guides = (
 {
 angle = 45.4511;
