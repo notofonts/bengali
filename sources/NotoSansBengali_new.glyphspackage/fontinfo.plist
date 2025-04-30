@@ -191,6 +191,7 @@ space,
 "ttha-beng.notop",
 "ss_ttha-beng.notop",
 "#BaseHalfs",
+"k-beng.half",
 "k_ss-beng.half",
 "kh-beng.half",
 "g-beng.half",
@@ -204,7 +205,9 @@ space,
 "c-beng.half2",
 "ch-beng.half",
 "j-beng.half",
+"jh-beng.half",
 "ny-beng.half",
+"tt-beng.half",
 "tth-beng.half",
 "dd-beng.half",
 "dd-beng.half1",
@@ -551,7 +554,7 @@ wght = {
 }
 );
 date = "2017-07-06 08:51:49 +0000";
-familyName = "Noto Sans Bengali NoDecomp";
+familyName = "Noto Sans Bengali";
 featurePrefixes = (
 {
 code = "# link modified after the change to .glyphspackage. Glyphs3 marks an error, but this is the correct path for fontmake.

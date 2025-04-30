@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 4;
 glyphname = "tt-beng.half";
 kernRight = R_BNG_ddh_half;
 layers = (
