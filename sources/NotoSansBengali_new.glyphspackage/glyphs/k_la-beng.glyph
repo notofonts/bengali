@@ -138,16 +138,11 @@ nodes = (
 layerId = UUID0;
 shapes = (
 {
-alignment = -1;
-ref = "b-beng.half";
+ref = "k-beng.half";
 },
 {
 pos = (20,-158);
 ref = "la-beng.blws";
-},
-{
-pos = (586,0);
-ref = "ka-beng.arm";
 }
 );
 width = 801;
@@ -286,16 +281,11 @@ nodes = (
 layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
 shapes = (
 {
-alignment = -1;
-ref = "b-beng.half";
+ref = "k-beng.half";
 },
 {
 pos = (30,0);
 ref = "la-beng.blws";
-},
-{
-pos = (552,0);
-ref = "ka-beng.arm";
 }
 );
 width = 758;
@@ -434,16 +424,11 @@ nodes = (
 layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
 shapes = (
 {
-alignment = -1;
-ref = "b-beng.half";
+ref = "k-beng.half";
 },
 {
 pos = (-28,-101);
 ref = "la-beng.blws";
-},
-{
-pos = (600,0);
-ref = "ka-beng.arm";
 }
 );
 width = 813;
@@ -452,16 +437,11 @@ width = 813;
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
-alignment = -1;
-ref = "b-beng.half";
+ref = "k-beng.half";
 },
 {
 pos = (17,2);
 ref = "la-beng.blws";
-},
-{
-pos = (386,0);
-ref = "ka-beng.arm";
 }
 );
 width = 528;
@@ -470,16 +450,11 @@ width = 528;
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
-alignment = -1;
-ref = "b-beng.half";
+ref = "k-beng.half";
 },
 {
 pos = (11,-123);
 ref = "la-beng.blws";
-},
-{
-pos = (453,1);
-ref = "ka-beng.arm";
 }
 );
 width = 611;
@@ -488,16 +463,11 @@ width = 611;
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {
-alignment = -1;
-ref = "b-beng.half";
+ref = "k-beng.half";
 },
 {
 pos = (-19,-109);
 ref = "la-beng.blws";
-},
-{
-pos = (481,0);
-ref = "ka-beng.arm";
 }
 );
 width = 654;

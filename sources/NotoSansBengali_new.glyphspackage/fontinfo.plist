@@ -551,7 +551,7 @@ wght = {
 }
 );
 date = "2017-07-06 08:51:49 +0000";
-familyName = "Noto Sans Bengali";
+familyName = "Noto Sans Bengali NoDecomp";
 featurePrefixes = (
 {
 code = "# link modified after the change to .glyphspackage. Glyphs3 marks an error, but this is the correct path for fontmake.
@@ -752,14 +752,6 @@ name = "Master Icon Glyph Name";
 value = "ka-beng";
 }
 );
-guides = (
-{
-pos = (-4,-477);
-},
-{
-pos = (4,-633);
-}
-);
 id = "28FB090A-653E-4199-B7BE-FAE23D31B682";
 metricValues = (
 {
@@ -899,17 +891,6 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = "ka-beng";
-}
-);
-guides = (
-{
-pos = (4,-622);
-},
-{
-pos = (4,-433);
-},
-{
-pos = (4,-633);
 }
 );
 id = UUID0;
@@ -1184,17 +1165,6 @@ name = "Master Icon Glyph Name";
 value = "ka-beng";
 }
 );
-guides = (
-{
-pos = (4,-633);
-},
-{
-pos = (4,-482);
-},
-{
-pos = (4,-633);
-}
-);
 id = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 metricValues = (
 {
@@ -1323,17 +1293,6 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = "ka-beng";
-}
-);
-guides = (
-{
-pos = (3,-624);
-},
-{
-pos = (4,-458);
-},
-{
-pos = (4,-633);
 }
 );
 iconName = Condensed;
@@ -1465,17 +1424,6 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = "ka-beng";
-}
-);
-guides = (
-{
-pos = (4,-633);
-},
-{
-pos = (4,-427);
-},
-{
-pos = (4,-633);
 }
 );
 id = "F138D99C-4E28-42C5-9F3E-22494052B08F";
