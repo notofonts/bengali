@@ -21,6 +21,7 @@ languagesystem beng dflt;
 @BNG_ALL_BASES = [ka-beng kha-beng ga-beng gha-beng nga-beng ca-beng cha-beng ja-beng jha-beng nya-beng tta-beng ttha-beng.notop dda-beng ddha-beng nna-beng ta-beng tha-beng da-beng dha-beng na-beng pa-beng pha-beng ba-beng bha-beng ma-beng ya-beng ra-beng la-beng sha-beng ssa-beng sa-beng ha-beng rra-beng rha-beng yya-beng ramiddlediagonal-beng ralowerdiagonal-beng k_ma-beng k_ssa-beng k_ss_ma-beng k_sa-beng ga_uMatra-beng ng_ka-beng ng_ga-beng c_nya-beng j_ja-beng j_j_ba-beng j_nya-beng j_ra-beng ny_ca-beng ny_cha-beng ny_ja-beng dd_dda-beng nn_dda-beng t_ta-beng t_t_ra-beng t_tha-beng t_ra-beng d_da-beng d_bha-beng d_bh_ra-beng n_ra-beng n_sa-beng p_sa-beng b_ja-beng b_da-beng b_d_ra-beng b_bha-beng m_da-beng m_bh_ra-beng l_ga_uMatra-beng l_ta-beng l_pha-beng l_ra-beng l_sa-beng sha_uMatra-beng ss_ttha-beng.notop ss_nna-beng s_kha-beng ha_uMatra-beng h_ma-beng rr_ra-beng rh_ba-beng rh_ra-beng yy_ba-beng yy_ra-beng k_tta-beng.noflag tt_tta-beng.noflag ph_tta-beng.noflag ss_tta-beng.noflag k_ss-beng.half kh-beng.half g-beng.half g-beng.half2 gh-beng.half ng-beng.half ng-beng.half2 c-beng.half c-beng.half1 c-beng.half2 ch-beng.half j-beng.half ny-beng.half tth-beng.half dd-beng.half dd-beng.half1 ddh-beng.half ddh-beng.half2 nn-beng.half nn-beng.half2 nn-beng.half3 t-beng.half t_t-beng.half th-beng.half d-beng.half d-beng.half2 d-beng.half3 d-beng.half4 d_d-beng.half dh-beng.half n-beng.half2 n-beng.half3 p-beng.half p-beng.half2 p-beng.half3 ph-beng.half b-beng.half b-beng.half2 bh-beng.half m-beng.half m-beng.half2 m-beng.half3 l-beng.half3 y-beng.half sh-beng.half sh-beng.half2 ss-beng.half ss-beng.half3 ss-beng.half4 s-beng.half s-beng.half2 s-beng.half3 s-beng.half4 h-beng.half h-beng.half2 kha-beng.side ga-beng.side ca-beng.side cha-beng.side jh-beng.side ttha-beng.side dda-beng.side ddha-beng.side ddh-beng.side da-beng.side d-beng.side pha-beng.side ba-beng.side ma-beng.side ma-beng.side1 ma-beng.side2 ma-beng.side3 aaMatra-beng.part aaMatra-beng.part2 uMatra-beng.side uuMatra-beng.side uuMatra-beng.side2 headline-beng.100 n-beng.headline ];
 @BNG_ALL_HALFS = [k-beng.half k_ss-beng.half kh-beng.half g-beng.half g-beng.half2 gh-beng.half ng-beng.half ng-beng.half2 c-beng.half c-beng.half1 c-beng.half2 ch-beng.half j-beng.half jh-beng.half ny-beng.half tt-beng.half tth-beng.half dd-beng.half dd-beng.half1 ddh-beng.half ddh-beng.half2 nn-beng.half nn-beng.half2 nn-beng.half3 t-beng.half t_t-beng.half th-beng.half d-beng.half d-beng.half2 d-beng.half3 d-beng.half4 d_d-beng.half dh-beng.half n-beng.half2 n-beng.half3 n-beng.headline p-beng.half p-beng.half2 p-beng.half3 ph-beng.half b-beng.half b-beng.half2 bh-beng.half m-beng.half m-beng.half2 m-beng.half3 l-beng.half3 y-beng.half sh-beng.half sh-beng.half2 ss-beng.half ss-beng.half3 ss-beng.half4 s-beng.half s-beng.half2 s-beng.half3 s-beng.half4 h-beng.half h-beng.half2];
 @BNG_ALL_UNICODE_BASES = [ka-beng kha-beng ga-beng gha-beng nga-beng ca-beng cha-beng ja-beng jha-beng nya-beng tta-beng ttha-beng dda-beng ddha-beng nna-beng ta-beng tha-beng da-beng dha-beng na-beng pa-beng pha-beng ba-beng bha-beng ma-beng ya-beng ra-beng la-beng sha-beng ssa-beng sa-beng ha-beng rra-beng rha-beng yya-beng ramiddlediagonal-beng ralowerdiagonal-beng ];
+@BNG_ALL_CONJUNCT_BASES = [ka-beng kha-beng ga-beng gha-beng nga-beng ca-beng cha-beng ja-beng jha-beng nya-beng tta-beng ttha-beng dda-beng ddha-beng nna-beng ta-beng tha-beng da-beng dha-beng na-beng pa-beng pha-beng bha-beng ma-beng ya-beng la-beng sha-beng ssa-beng sa-beng ha-beng rra-beng rha-beng yya-beng];
 @BNG_ALL_PRECOMPOSED = [k_ma-beng k_ss_ma-beng k_sa-beng ng_ka-beng ng_ga-beng c_nya-beng j_ja-beng j_j_ba-beng j_nya-beng j_ra-beng ny_ca-beng ny_c_ba-beng ny_cha-beng ny_ja-beng dd_dda-beng nn_dda-beng t_ta-beng t_t_ra-beng t_tha-beng t_ra-beng d_da-beng d_bha-beng d_bh_ra-beng n_ja-beng n_ra-beng n_sa-beng p_sa-beng b_ja-beng b_dda-beng b_ddha-beng b_da-beng b_d_ra-beng b_bha-beng b_bh_ra-beng m_da-beng m_d_ra-beng m_bh_ra-beng l_gha-beng l_ta-beng l_pha-beng l_bha-beng l_ra-beng l_sa-beng ss_nna-beng s_kha-beng h_ma-beng rr_ra-beng rh_ba-beng rh_ra-beng yy_ba-beng yy_ra-beng ga_uMatra-beng l_ga_uMatra-beng sha_uMatra-beng ha_uMatra-beng ];
 
 @BNG_HALF_DDHA_TTA = [ddha-beng tta-beng];
@@ -112,11 +113,11 @@ languagesystem beng dflt;
 # nukt
 # Chain Contextual Sub Lookups
 
-lookup BNG_dflt_nukt_swapNuktaHalant {
+lookup BNG_nukt_swapNuktaHalant {
     lookupflag 0;
     sub halant-beng by nukta-beng;
     sub nukta-beng by halant-beng;
-} BNG_dflt_nukt_swapNuktaHalant;
+} BNG_nukt_swapNuktaHalant;
 
 
 
@@ -180,11 +181,11 @@ lookup BNG_dft_pres_chain_swapDhaPartRa {
     sub dha-beng.part by raphala-beng;
 } BNG_dft_pres_chain_swapDhaPartRa;
 
-lookup BNG_dflt_pres_chain_swapHeadlineLa {
+lookup BNG_pres_chain_swapHeadlineLa {
     lookupflag 0;
     sub headline-beng.250 by la-beng.blws;
     sub la-beng.blws by headline-beng.250;
-} BNG_dflt_pres_chain_swapHeadlineLa;
+} BNG_pres_chain_swapHeadlineLa;
 
 # End Chain Contextual Sub
 
@@ -193,33 +194,33 @@ lookup BNG_dflt_pres_chain_swapHeadlineLa {
 
 # Start Chain Contextual Sub
 
-lookup BNG_dflt_abvs_SwapAaMatraCandrabindu {
+lookup BNG_abvs_SwapAaMatraCandrabindu {
     lookupflag 0;
     sub candrabindu-beng by aaMatra-beng;
     sub aaMatra-beng by candrabindu-beng;
-} BNG_dflt_abvs_SwapAaMatraCandrabindu;
+} BNG_abvs_SwapAaMatraCandrabindu;
 
-lookup BNG_dflt_abvs_SwapYaMatraCandrabindu {
+lookup BNG_abvs_SwapYaMatraCandrabindu {
     lookupflag 0;
     sub candrabindu-beng by ya-beng.pstf;
     sub ya-beng.pstf by candrabindu-beng;
-} BNG_dflt_abvs_SwapYaMatraCandrabindu;
+} BNG_abvs_SwapYaMatraCandrabindu;
 
-lookup BNG_dflt_abvs_SwapRephIiMatra {
+lookup BNG_abvs_SwapRephIiMatra {
     lookupflag 0;
     sub reph-beng by iiMatra-beng;
     sub iiMatra-beng by reph-beng;
-} BNG_dflt_abvs_SwapRephIiMatra;
+} BNG_abvs_SwapRephIiMatra;
 
-lookup BNG_dflt_abvs_SwapRephAuLength {
+lookup BNG_abvs_SwapRephAuLength {
     lookupflag 0;
     sub reph-beng by auLength-beng;
     sub auLength-beng by reph-beng;
-} BNG_dflt_abvs_SwapRephAuLength;
+} BNG_abvs_SwapRephAuLength;
 
-lookup BNG_dflt_abvs_AddiMatraCandrabindu {
+lookup BNG_abvs_AddiMatraCandrabindu {
     sub iMatra-beng' by iMatra-beng candrabindu-beng.altIMatra;
-} BNG_dflt_abvs_AddiMatraCandrabindu;
+} BNG_abvs_AddiMatraCandrabindu;
 
 
 # End Chain Contextual Sub
@@ -233,30 +234,30 @@ lookup BNG_dflt_abvs_AddiMatraCandrabindu {
 
 # rclt
 
-lookup BNG_dflt_rclt_chain_SwapVedic_1 {
+lookup BNG_rclt_chain_SwapVedic_1 {
     sub uni1CF5.stack by ka-beng;
     sub ka-beng by uni1CF5.stack;
     sub uni1CF6.stack by pa-beng;
     sub pa-beng by uni1CF6.stack;
-} BNG_dflt_rclt_chain_SwapVedic_1;
+} BNG_rclt_chain_SwapVedic_1;
 
 
-lookup BNG_dflt_rclt_chain_SwapVedic_2 {
+lookup BNG_rclt_chain_SwapVedic_2 {
     sub uni1CF5.stack by kha-beng;
     sub kha-beng by uni1CF5.stack;
     sub uni1CF6.stack by pha-beng;
     sub pha-beng by uni1CF6.stack;
-} BNG_dflt_rclt_chain_SwapVedic_2;
+} BNG_rclt_chain_SwapVedic_2;
 # SWAP VEDIC STACK
 
 # Start Chain Contextual Sub
-lookup BNG_dflt_rclt_swapVedicStacks_removeMark {
+lookup BNG_rclt_swapVedicStacks_removeMark {
     sub uni1CF5' by zerowidthnonjoiner;
     sub uni1CF6' by zerowidthnonjoiner;
-} BNG_dflt_rclt_swapVedicStacks_removeMark;
+} BNG_rclt_swapVedicStacks_removeMark;
 
 
-lookup BNG_dflt_rclt_swapVedicStacks_addMark {
+lookup BNG_rclt_swapVedicStacks_addMark {
     #ka
     sub ka-beng' by ka-beng uni1CF5.stack;
     sub k_ma-beng' by k_ma-beng uni1CF5.stack;
@@ -283,17 +284,17 @@ lookup BNG_dflt_rclt_swapVedicStacks_addMark {
     sub pha-beng' by pha-beng uni1CF6.stack;
     sub ph_tta-beng.noflag' by ph_tta-beng.noflag uni1CF6.stack;
     sub ph-beng.half' by ph-beng.half uni1CF6.stack;
-} BNG_dflt_rclt_swapVedicStacks_addMark;
+} BNG_rclt_swapVedicStacks_addMark;
 
 
 
-lookup BNG_dflt_rclt_swapVedicStacks_addMark_kaPart {
+lookup BNG_rclt_swapVedicStacks_addMark_kaPart {
     sub b-beng.half' by b-beng.half uni1CF6.stack;
     sub b-beng.half2' by b-beng.half2 uni1CF6.stack;
     sub t_ta-beng' by t_ta-beng uni1CF6.stack;
     sub t_t-beng.half' by t_t-beng.half uni1CF6.stack;
     sub t_ra-beng' by t_ra-beng uni1CF6.stack;
-} BNG_dflt_rclt_swapVedicStacks_addMark_kaPart;
+} BNG_rclt_swapVedicStacks_addMark_kaPart;
 
 
 # ---------
@@ -323,23 +324,23 @@ lookup BNG_bng2_PAL_locl_waBlwf {
 feature nukt {
 
 script bng2;
-lookup BNG_dflt_nukt_composition {
+lookup BNG_nukt_composition {
     lookupflag 0;
     sub rra-beng by dda-beng nukta-beng;
     sub rha-beng by ddha-beng nukta-beng;
     sub yya-beng by ya-beng nukta-beng;
-} BNG_dflt_nukt_composition ;
+} BNG_nukt_composition ;
 
-lookup BNG_dflt_nukt_onTheFlyComp {
+lookup BNG_nukt_onTheFlyComp {
     lookupflag 0;
     sub ba-beng' nukta-beng' by ra-beng;
-}BNG_dflt_nukt_onTheFlyComp;
+}BNG_nukt_onTheFlyComp;
 
-lookup BNG_dflt_nukt_onTheFly_swapNukta {
+lookup BNG_nukt_onTheFly_swapNukta {
     lookupflag 0;
-    sub [nna-beng pa-beng sha-beng sa-beng] nukta-beng' lookup BNG_dflt_nukt_swapNuktaHalant halant-beng' lookup BNG_dflt_nukt_swapNuktaHalant ddha-beng;
-    sub [la-beng na-beng] nukta-beng' lookup BNG_dflt_nukt_swapNuktaHalant halant-beng' lookup BNG_dflt_nukt_swapNuktaHalant [ddha-beng dda-beng];
-} BNG_dflt_nukt_onTheFly_swapNukta;
+    sub [nna-beng pa-beng sha-beng sa-beng] nukta-beng' lookup BNG_nukt_swapNuktaHalant halant-beng' lookup BNG_nukt_swapNuktaHalant ddha-beng;
+    sub [la-beng na-beng] nukta-beng' lookup BNG_nukt_swapNuktaHalant halant-beng' lookup BNG_nukt_swapNuktaHalant [ddha-beng dda-beng];
+} BNG_nukt_onTheFly_swapNukta;
 
 language PAL;
 
@@ -353,11 +354,11 @@ feature akhn {
 
 script bng2;
 
-lookup BNG_dflt_akhn_conjuncts{
+lookup BNG_akhn_conjuncts{
     lookupflag 0;
     sub ka-beng halant-beng ssa-beng by k_ssa-beng;
     sub ja-beng halant-beng nya-beng by j_nya-beng;
-}BNG_dflt_akhn_conjuncts;
+}BNG_akhn_conjuncts;
 
 lookup BNG_test {
     lookupflag 0;
@@ -365,19 +366,6 @@ lookup BNG_test {
     sub na-beng' halant-beng' @BNG_BA by n-beng.headline;
     sub la-beng' halant-beng' @BNG_BA by l-beng.half3;
 } BNG_test;
-
-
-# RE-WRITE: now we have a ka half-form!
-#
-# #backwards half
-# lookup BNG_dflt_blwf_la {
-# # Making this sub in pres would split the conjunct when iMatra is re-ordered.
-# # Semantically, the more appropriate place for this would be in blwf, along with baphala and raphala.
-# # But blwf doesn't allow context, and we don't want la-beng.blws to form in every single combination, unlike baphala and raphala.
-# # Since it's to prevent the conjunct from being split, we're adding this sub to akhn.
-#     lookupflag UseMarkFilteringSet [halant-beng la-beng.blws];
-#     sub sa-beng halant-beng ka-beng halant-beng' la-beng' by la-beng.blws;
-# } BNG_dflt_blwf_la;
 
 
 language PAL;
@@ -391,10 +379,10 @@ language PAL;
 feature rphf {
 
 script bng2;
-lookup BNG_dflt_rphf_reph {
+lookup BNG_rphf_reph {
     lookupflag 0;
     sub @BNG_RA halant-beng by reph-beng;
-} BNG_dflt_rphf_reph ;
+} BNG_rphf_reph ;
 
 language PAL;
 
@@ -428,22 +416,25 @@ feature half {
 script bng2;
 
 
-#khandaTa
-lookup BNG_dflt_half_khandaTa{
+# khandaTa
+lookup BNG_half_khandaTa{
     lookupflag 0;
     sub ta-beng' halant-beng' zerowidthjoiner by taKhanda-beng;
-} BNG_dflt_half_khandaTa;
+} BNG_half_khandaTa;
 
-#OnTheFly normal half
-lookup BMG_dflt_half_onTheFly_withHalant_triconsonant {
+# OnTheFly half-forms
+
+
+lookup BNG_half_onTheFly_triconsonant_middleHalf {
     lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng];
+    #sub middle ka
+    sub sa-beng halant-beng ka-beng' halant-beng' la-beng by k-beng.half;
     #sub middle pa
     sub [ma-beng sa-beng ssa-beng] halant-beng pa-beng' halant-beng' la-beng by p-beng.half;
-     sub sa-beng halant-beng ka-beng' halant-beng' la-beng by k-beng.half;
-} BMG_dflt_half_onTheFly_withHalant_triconsonant;
+} BNG_half_onTheFly_triconsonant_middleHalf;
 
 
-lookup BNG_dflt_half_onTheFly_withHalant_biconsonant {
+lookup BNG_half_onTheFly_biconsonant_firstHalf {
     lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng];
     # ignore half-form formation before precomposed conjuncts
     ignore sub @BNG_ALL_BASES' halant-beng' b_ja-beng;
@@ -458,7 +449,7 @@ lookup BNG_dflt_half_onTheFly_withHalant_biconsonant {
     ignore sub @BNG_ALL_BASES' halant-beng' la-beng halant-beng gha-beng ta-beng pha-beng bha-beng sa-beng;
     ignore sub @BNG_ALL_BASES' halant-beng' pha-beng halant-beng ddha-beng;
     # ignore half-form formation to avoid bad floating half-forms
-    ignore sub @BNG_ALL_HALFS @BNG_ALL_UNICODE_BASES' halant-beng';
+    ignore sub @BNG_ALL_HALFS @BNG_ALL_CONJUNCT_BASES' halant-beng';
     ignore sub da-beng' halant-beng' ga-beng raphala-beng;
     # sub ka
     sub ka-beng' halant-beng' [na-beng la-beng ka-beng] by k-beng.half;
@@ -525,21 +516,20 @@ lookup BNG_dflt_half_onTheFly_withHalant_biconsonant {
     sub sha-beng' halant-beng' [ca-beng cha-beng na-beng ma-beng la-beng] by sh-beng.half;
     sub sha-beng' halant-beng' [ta-beng] by sh-beng.half2;
     # sub ssa
-    sub ssa-beng' halant-beng' ka-beng ka-beng.part raphala-beng by ss-beng.half3;
+    sub ssa-beng' halant-beng' ka-beng raphala-beng by ss-beng.half3;
     sub ssa-beng' halant-beng' [ka-beng pa-beng p-beng.half pha-beng ma-beng ] by ss-beng.half4;
     # sub sa
-    sub sa-beng' halant-beng' ka-beng ka-beng.part raphala-beng by s-beng.half2;
+    sub sa-beng' halant-beng' [ka-beng ta-beng] raphala-beng by s-beng.half2;
     sub sa-beng' halant-beng' [k-beng.half ka-beng pa-beng p-beng.half pha-beng ma-beng] by s-beng.half;
     sub sa-beng' halant-beng' [tha-beng na-beng la-beng] by s-beng.half2;
-    sub sa-beng' halant-beng' ta-beng raphala-beng by s-beng.half2;
     sub sa-beng' halant-beng' [ta-beng] by s-beng.half3;
     # sub ha
     sub ha-beng' halant-beng' [nna-beng] by h-beng.half;
     sub ha-beng' halant-beng' [la-beng] by h-beng.half2;
     sub ha-beng' halant-beng' [na-beng] by ha-beng;
-} BNG_dflt_half_onTheFly_withHalant_biconsonant;
+} BNG_half_onTheFly_biconsonant_firstHalf;
 
-lookup BNG_dflt_half_onTheFly_wHalantNukta_biconsonant {
+lookup BNG_half_onTheFly_biconsonant_firstHalf_nukta {
     lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng nukta-beng];
     ignore sub @BNG_ALL_HALFS @BNG_ALL_UNICODE_BASES' halant-beng';
     ignore sub @BNG_ALL_BASES' halant-beng' @BNG_HALF_DDHA_TTA halant-beng @BNG_HALF_DDHA_TTA;
@@ -561,13 +551,7 @@ lookup BNG_dflt_half_onTheFly_wHalantNukta_biconsonant {
    sub sa-beng' halant-beng' nukta-beng ddha-beng by s-beng.half4;
    sub la-beng' halant-beng' nukta-beng [ddha-beng dda-beng] by l-beng.half3;
    sub na-beng' halant-beng' nukta-beng [ddha-beng dda-beng] by n-beng.headline;
-} BNG_dflt_half_onTheFly_wHalantNukta_biconsonant;
-
-
-lookup BNG_dflt_half_onTheFly_withHalant_nukta {
-    lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng nukta-beng];
-    ignore sub @BNG_ALL_BASES' halant-beng' [dda-beng ddha-beng] nukta-beng halant-beng [baphala-beng raphala-beng];
-}BNG_dflt_half_onTheFly_withHalant_nukta;
+} BNG_half_onTheFly_biconsonant_firstHalf_nukta;
 
 language PAL;
 
@@ -599,7 +583,7 @@ feature vatu {
 script bng2;
 
 
-lookup BNG_dflt_vatu_raphala{
+lookup BNG_vatu_raphala{
     lookupflag 0;
 # triConsonant precomposed raphala conjuncts
     sub ta-beng' halant-beng' ta-beng' raphala-beng' by t_t_ra-beng;
@@ -621,10 +605,10 @@ lookup BNG_dflt_vatu_raphala{
     sub ddha-beng' nukta-beng' raphala-beng' by rh_ra-beng;
     sub ya-beng' nukta-beng' raphala-beng' by yy_ra-beng;
 
-}BNG_dflt_vatu_raphala;
+}BNG_vatu_raphala;
 
 
-lookup BNG_dflt_vatu_baConjuncts{
+lookup BNG_vatu_baConjuncts{
     lookupflag 0;
 # triconsonant Precomposed
     sub ja-beng halant-beng ja-beng baphala-beng by j_j_ba-beng;
@@ -632,7 +616,7 @@ lookup BNG_dflt_vatu_baConjuncts{
 # biconsonant Precomposed
     sub ddha-beng nukta-beng baphala-beng by rh_ba-beng;
     sub ya-beng nukta-beng baphala-beng by yy_ba-beng;
-} BNG_dflt_vatu_baConjuncts;
+} BNG_vatu_baConjuncts;
 
 language PAL;
 
@@ -644,8 +628,10 @@ language PAL;
 
 feature cjct {
 
+# Precomposed conjuncts
+
 script bng2;
-lookup BNG_dflt_cjct_precomposedConjuncts {
+lookup BNG_cjct_precomposedConjuncts {
     lookupflag UseMarkFilteringSet [halant-beng];
 # akhand
     sub k_ssa-beng halant-beng ma-beng by k_ss_ma-beng;
@@ -688,7 +674,7 @@ lookup BNG_dflt_cjct_precomposedConjuncts {
     sub tta-beng halant-beng tta-beng by tt_tta-beng.noflag;
     sub pha-beng halant-beng tta-beng by ph_tta-beng.noflag;
     sub ssa-beng halant-beng tta-beng by ss_tta-beng.noflag;
-} BNG_dflt_cjct_precomposedConjuncts;
+} BNG_cjct_precomposedConjuncts;
 
 
 language PAL;
@@ -702,11 +688,11 @@ language PAL;
 feature init {
 
 script bng2;
-lookup BNG_dflt_init_eMatra{
+lookup BNG_init_eMatra{
     lookupflag 0;
     sub eMatra-beng by eMatra-beng.init;
     sub aiMatra-beng by aiMatra-beng.init;
-} BNG_dflt_init_eMatra;
+} BNG_init_eMatra;
 
 language PAL;
 
@@ -721,11 +707,13 @@ feature pres {
 script bng2;
 
 # --- IMatra + Marks ---
+# When iMatra is present, move candrabindu and reph to between the iMatra and the consonant/conjunt, so they can use the iMatra as a base and avoid clashes
+
 
 @BNG_BASE_IMATRAREPH_SWAP = [n-beng.headline ka-beng gha-beng nga-beng ca-beng cha-beng ja-beng jha-beng nya-beng tta-beng ttha-beng dda-beng ddha-beng ta-beng da-beng dha-beng na-beng pha-beng ba-beng bha-beng ma-beng ya-beng ra-beng la-beng ssa-beng sa-beng ha-beng rra-beng rha-beng yya-beng ramiddlediagonal-beng ralowerdiagonal-beng k_ma-beng k_ssa-beng k_ss_ma-beng k_sa-beng ga_uMatra-beng ng_ka-beng ng_ga-beng c_nya-beng j_ja-beng j_j_ba-beng j_nya-beng j_ra-beng ny_cha-beng ny_ja-beng dd_dda-beng nn_dda-beng t_ta-beng t_t_ra-beng t_ra-beng d_da-beng d_bha-beng d_bh_ra-beng n_ra-beng n_sa-beng p_sa-beng b_ja-beng b_da-beng b_d_ra-beng b_bha-beng m_da-beng m_bh_ra-beng l_ga_uMatra-beng l_ta-beng l_pha-beng l_ra-beng l_sa-beng sha_uMatra-beng ss_nna-beng ha_uMatra-beng h_ma-beng rr_ra-beng rh_ba-beng rh_ra-beng yy_ba-beng yy_ra-beng k_tta-beng.noflag tt_tta-beng.noflag ph_tta-beng.noflag ss_tta-beng.noflag ttha-beng.notop ss_ttha-beng.notop k_ss-beng.half gh-beng.half ng-beng.half c-beng.half c-beng.half1 c-beng.half2 ch-beng.half j-beng.half ny-beng.half tth-beng.half dd-beng.half dd-beng.half1 ddh-beng.half ddh-beng.half2 t-beng.half t_t-beng.half th-beng.half d-beng.half d-beng.half2 d-beng.half3 d-beng.half4 d_d-beng.half dh-beng.half n-beng.half2 n-beng.half3 p-beng.half3 ph-beng.half b-beng.half b-beng.half2 bh-beng.half m-beng.half m-beng.half2 m-beng.half3 l-beng.half3 y-beng.half ss-beng.half ss-beng.half3 ss-beng.half4 s-beng.half s-beng.half2 s-beng.half3 s-beng.half4 h-beng.half h-beng.half2];
 @BNG_BASE_SIDE = [ma-beng da-beng ddha-beng ca-beng cha-beng];
 
-lookup BNG_dflt_abvs_swapCandrabinduMarkIMatra_1 {
+lookup BNG_abvs_swapCandrabinduMarkIMatra_1 {
     lookupflag UseMarkFilteringSet [candrabindu-beng candrabindu-beng.altIMatra aaMatra-beng.side];
     ignore sub iMatra-beng' [dd-beng.half d-beng.half4] ga-beng candrabindu-beng;
     ignore sub iMatra-beng' [m-beng.half s-beng.half ss-beng.half4] pa-beng candrabindu-beng;
@@ -733,16 +721,16 @@ lookup BNG_dflt_abvs_swapCandrabinduMarkIMatra_1 {
     sub iMatra-beng' [g-beng.half nn-beng.half sh-beng.half] @BNG_BASE_SIDE candrabindu-beng by iMatra-beng candrabindu-beng.altIMatra;
     sub iMatra-beng' @BNG_BASE_IMATRAREPH_SWAP @BNG_ALL_BASES candrabindu-beng by iMatra-beng candrabindu-beng.altIMatra;
     sub iMatra-beng' @BNG_BASE_IMATRAREPH_SWAP candrabindu-beng by iMatra-beng candrabindu-beng.altIMatra;
-} BNG_dflt_abvs_swapCandrabinduMarkIMatra_1;
+} BNG_abvs_swapCandrabinduMarkIMatra_1;
 
-lookup BNG_dflt_abvs_swapCandrabinduMarkIMatra_2 {
+lookup BNG_abvs_swapCandrabinduMarkIMatra_2 {
     lookupflag UseMarkFilteringSet [candrabindu-beng candrabindu-beng.altIMatra aaMatra-beng.side];
     sub iMatra-beng candrabindu-beng.altIMatra [g-beng.half nn-beng.half sh-beng.half] @BNG_BASE_SIDE candrabindu-beng' by uni200B;
     sub iMatra-beng candrabindu-beng.altIMatra @BNG_ALL_BASES @BNG_ALL_BASES candrabindu-beng' by uni200B;
     sub iMatra-beng candrabindu-beng.altIMatra @BNG_ALL_BASES candrabindu-beng' by uni200B;
-} BNG_dflt_abvs_swapCandrabinduMarkIMatra_2;
+} BNG_abvs_swapCandrabinduMarkIMatra_2;
 
-lookup BNG_dflt_abvs_swapRephMarkIMatra_1 {
+lookup BNG_abvs_swapRephMarkIMatra_1 {
     lookupflag UseMarkFilteringSet [reph-beng aaMatra-beng.side];
     ignore sub iMatra-beng' [dd-beng.half d-beng.half4] ga-beng reph-beng;
     ignore sub iMatra-beng' [m-beng.half s-beng.half ss-beng.half4] pa-beng reph-beng;
@@ -750,21 +738,23 @@ lookup BNG_dflt_abvs_swapRephMarkIMatra_1 {
     sub iMatra-beng' [g-beng.half nn-beng.half sh-beng.half] @BNG_BASE_SIDE reph-beng by iMatra-beng reph-beng;
     sub iMatra-beng' @BNG_BASE_IMATRAREPH_SWAP @BNG_ALL_BASES reph-beng by iMatra-beng reph-beng;
     sub iMatra-beng' @BNG_BASE_IMATRAREPH_SWAP reph-beng by iMatra-beng reph-beng;
-} BNG_dflt_abvs_swapRephMarkIMatra_1;
+} BNG_abvs_swapRephMarkIMatra_1;
 
-lookup BNG_dflt_abvs_swapRephMarkIMatra_2 {
+lookup BNG_abvs_swapRephMarkIMatra_2 {
     lookupflag UseMarkFilteringSet [reph-beng aaMatra-beng.side];
     sub iMatra-beng reph-beng [g-beng.half nn-beng.half sh-beng.half] @BNG_BASE_SIDE reph-beng' by uni200B;
     sub iMatra-beng reph-beng @BNG_ALL_BASES @BNG_ALL_BASES reph-beng' by uni200B;
     sub iMatra-beng reph-beng @BNG_ALL_BASES reph-beng' by uni200B;
-} BNG_dflt_abvs_swapRephMarkIMatra_2;
+} BNG_abvs_swapRephMarkIMatra_2;
 
 
-# --- Begin onTheFly Conjunct Formation ---
 
 
-# REPLACE TTA FLAGS
-lookup BNG_dflt_pres_onTheFly_addTop {
+# --- OnTheFly Conjunct Formation ---
+
+# DECOMPOSITION
+
+lookup BNG_pres_onTheFly_addTop { # Full form decomposition (no context needed)
     lookupflag UseMarkFilteringSet @BNG_TTA_FLAGS;
     sub tt_tta-beng.noflag by tt_tta-beng.noflag tta-beng.flag;
     sub [k_tta-beng.noflag ph_tta-beng.noflag] by [k_tta-beng.noflag ph_tta-beng.noflag] tta-beng.flag2;
@@ -773,34 +763,33 @@ lookup BNG_dflt_pres_onTheFly_addTop {
 
     sub tth-beng.half by tth-beng.half ttha-beng.top;
     sub ss_ttha-beng.notop by ss_ttha-beng.notop ttha-beng.top;
-} BNG_dflt_pres_onTheFly_addTop;
+} BNG_pres_onTheFly_addTop;
 
-# ADD NA FLOATING
 
-lookup BNG_dflt_pres_onTheFly_halfDecomp {
+lookup BNG_pres_onTheFly_halfDecomp { # Half and side form decomposition (context needed)
     lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng ka-beng.arm1];
-    # ka
+    # Decompose ka into baphala + arm
     sub k-beng.half' ka-beng by b-beng.half2 ka-beng.arm1;
     sub s-beng.half k-beng.half' by baphala-beng.alt4 ka-beng.part;
-    # na
+    sub [ss-beng.half3 s-beng.half2] ka-beng' raphala-beng by ka-beng ka-beng.arm2;
+    # Decompose na headline into headline + stem + na body
     sub n-beng.headline' dh-beng.half raphala-beng by n-beng.headline aaMatra-beng.part n-beng.float;
     sub n-beng.headline' [@BNG_BA dha-beng na-beng ma-beng] by n-beng.headline aaMatra-beng.part n-beng.float;
-    # la
+    # Decompose la into la + stem
     sub l-beng.half3' @BNG_BA by l-beng.half3 aaMatra-beng.part;
-    # tta
+    # Decompose tta into ddha + top flag
     sub @BNG_HALFS_DDHASIDE tta-beng' by ddha-beng.side tta-beng.flag;
     sub @BNG_HALFS_DDHASIDE tta-beng' raphala-beng by ddh-beng.side tta-beng.flag;
-    # ttha
+    # Decompose ttha into ttha + top part
     sub [nn-beng.half3 n-beng.headline] ttha-beng' by ttha-beng.side ttha-beng.top2;
 
-} BNG_dflt_pres_onTheFly_halfDecomp;
+} BNG_pres_onTheFly_halfDecomp;
+
 
 
 # REPLACE BELOW AND SIDE CONSONANTS
 
-# Replace middle consonant in triconsonant conjunct
-
-lookup BNG_dflt_pres_onTheFly_middle_triconsonant{
+lookup BNG_pres_onTheFly_middle_triconsonant_single{ # Replace middle consonant in triconsonant conjunct
     lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng];
     # sub ttha
     sub [nn-beng.half3 n-beng.headline] tth-beng.half' raphala-beng by ttha-beng.side;
@@ -817,23 +806,20 @@ lookup BNG_dflt_pres_onTheFly_middle_triconsonant{
     sub n-beng.headline da-beng' raphala-beng by d-beng.half;
     # sub pha
     sub [m-beng.half ss-beng.half4 s-beng.half] ph-beng.half' raphala-beng by pha-beng.side;
-} BNG_dflt_pres_onTheFly_middle_triconsonant;
+} BNG_pres_onTheFly_middle_triconsonant_single;
 
 
-# Replace second and third consonant
-
-lookup BNG_dflt_pres_onTheFly_triconsonant {
-    lookupflag UseMarkFilteringSet [raphala-beng t_ra-beng.blws];
-    # k_ra FIX
+lookup BNG_pres_onTheFly_triconsonant_double { # Replace second AND third consonant
+    lookupflag UseMarkFilteringSet [raphala-beng baphala-beng.alt4 t_ra-beng.blws];
+    # k_ra
     sub [ss-beng.half3 s-beng.half2] ka-beng' raphala-beng' by t_ra-beng.blws;
     # t_ra
     sub [n-beng.half2 p-beng.half m-beng.half2 s-beng.half2] ta-beng' raphala-beng' by t_ra-beng.blws;
 
-} BNG_dflt_pres_onTheFly_triconsonant;
+} BNG_pres_onTheFly_triconsonant_double;
 
-# Replace second consonant
 
-lookup BNG_dflt_pres_onTheFly_last_biconsonant {
+lookup BNG_pres_onTheFly_last_biconsonant { # Replace last consonant
     lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng n-beng.float];
     # sub ka
     ignore sub n-beng.headline ka-beng' halant-beng ta-beng;
@@ -892,74 +878,78 @@ lookup BNG_dflt_pres_onTheFly_last_biconsonant {
     # sub ba
     sub n-beng.headline aaMatra-beng.part n-beng.float @BNG_BA' by baphala-beng.alt4;
     sub l-beng.half3 aaMatra-beng.part @BNG_BA' by baphala-beng.alt4;
-} BNG_dflt_pres_onTheFly_last_biconsonant;
+} BNG_pres_onTheFly_last_biconsonant;
 
 
-lookup BNG_dflt_pres_onTheFly_swapDhaPartRa {
+lookup BNG_pres_onTheFly_swapDhaPartRa { # Reorder parts
     lookupflag UseMarkFilteringSet [raphala-beng dha-beng.part ka-beng.part la-beng.blws];
     sub raphala-beng' lookup BNG_dft_pres_chain_swapDhaPartRa dha-beng.part' lookup BNG_dft_pres_chain_swapDhaPartRa;
-} BNG_dflt_pres_onTheFly_swapDhaPartRa;
+} BNG_pres_onTheFly_swapDhaPartRa;
 
 
-# Replace two blwfs for one blwf
-
-lookup BNG_dflt_pres_onTheFly_last_dblBlwf {
+lookup BNG_pres_onTheFly_last_dblBlwf { # Replace two blwfs for one blwf
     lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng];
     ignore sub [b-beng.half2 l-beng.half3] baphala-beng.alt4' dha-beng.part' baphala-beng';
-    # sub ka
     sub baphala-beng.alt4' dha-beng.part' baphala-beng' by dh_ba-beng.blws;
+    # for the case where b_ra comes at the end of a cluster
+    sub baphala-beng.alt4' dha-beng.part' halant-beng' ba-beng' by dh_ba-beng.blws;
     sub baphala-beng.alt4' dha-beng.part' ba-beng' raphala-beng by dh_ba-beng.blws;
     sub n-beng.headline ka-beng' halant-beng' ta-beng by ta_uMatra-beng.blws;
-} BNG_dflt_pres_onTheFly_last_dblBlwf;
+} BNG_pres_onTheFly_last_dblBlwf;
 
-# Below forms without half form
 
-lookup BNG_dflt_pres_onTheFly_side {
+lookup BNG_pres_onTheFly_armsAndParts { # Replace missing arms and parts
     lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng ttha-beng.top ttha-beng.top2];
     sub ha-beng na-beng' by ka-beng.arm2;
     sub t_ra-beng.blws ka-beng.part' by ka-beng.arm2;
     sub [ttha-beng.side ss_ttha-beng.notop] ttha-beng.top' by ttha-beng.top2;
     sub n-beng.headline ta_uMatra-beng.blws ta-beng' by ka-beng.arm2;
     sub t_ta-beng ta-beng' by ka-beng.arm2;
-} BNG_dflt_pres_onTheFly_side;
+} BNG_pres_onTheFly_armsAndParts;
 
 
-# REPLACE REMAINING HALF FORMS
+# REPLACE REMAINING HALF FORMS (WITHOUT HALANT)
 
-# Replace half form without halant
-
-lookup BNG_dflt_pres_onTheFly_half_baphalaRaphala {
+lookup BNG_pres_onTheFly_half_baphalaRaphala { # Replace single-part half-forms used with raphala and baphala
     lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng];
     ignore sub m-beng.half sa-beng' baphala-beng;
     sub [ma-beng]' baphala-beng raphala-beng by [m-beng.half2];
     sub [ga-beng ca-beng ja-beng nya-beng ddha-beng nna-beng ta-beng da-beng pa-beng ma-beng sha-beng ssa-beng sa-beng ha-beng ralowerdiagonal-beng]' baphala-beng by [g-beng.half c-beng.half1 j-beng.half ny-beng.half ddh-beng.half nn-beng.half t-beng.half d-beng.half3 p-beng.half m-beng.half sh-beng.half ss-beng.half4 s-beng.half h-beng.half ba-beng];
     sub [ga-beng ca-beng ddha-beng nna-beng da-beng dha-beng pa-beng @BNG_BA bha-beng ma-beng sha-beng ssa-beng sa-beng ha-beng]' raphala-beng by [g-beng.half2 c-beng.half2 ddh-beng.half2 nn-beng.half2 d-beng.half2 dh-beng.half p-beng.half2 b-beng.half b-beng.half bh-beng.half m-beng.half2 sh-beng.half2 ss-beng.half s-beng.half2 h-beng.half2];
     sub [ka-beng k_ssa-beng kha-beng gha-beng nga-beng cha-beng jha-beng dda-beng tha-beng d_da-beng pha-beng ya-beng t_ta-beng ng_ga-beng ddha-beng.side]' @BNG_BAPHALA_RAPHALA by [k-beng.half k_ss-beng.half kh-beng.half gh-beng.half ng-beng.half ch-beng.half jh-beng.half dd-beng.half th-beng.half d_d-beng.half ph-beng.half y-beng.half t_t-beng.half ng_g-beng.half ddh-beng.side];
-} BNG_dflt_pres_onTheFly_half_baphalaRaphala;
+} BNG_pres_onTheFly_half_baphalaRaphala;
 
-lookup BNG_dflt_pres_onTheFly_half_baphalaRaphala2 {
+lookup BNG_pres_onTheFly_half_baphalaRaphala2 { # Replace two-part half-forms used with raphala and baphala
     lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng];
     sub tta-beng' baphala-beng by ddh-beng.half tta-beng.flag;
     sub tta-beng' raphala-beng by ddh-beng.half2 tta-beng.flag;
     sub ttha-beng' @BNG_BAPHALA_RAPHALA by tth-beng.half ttha-beng.top;
-} BNG_dflt_pres_onTheFly_half_baphalaRaphala2;
+} BNG_pres_onTheFly_half_baphalaRaphala2;
 
 
-lookup BNG_dflt_pres_onTheFly_baphalaAlts{
-    # sub baphala
+lookup BNG_pres_onTheFly_baphalaAlts{ # Replace baphala alternates
+    lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng];
+    # baphala alt1
     sub [kh-beng.half gh-beng.half jh-beng.half b-beng.half th-beng.half ph-beng.half y-beng.half ny_ca-beng ss_nna-beng l_gha-beng ] baphala-beng' by baphala-beng.alt1;
+    # baphala alt2
     sub [t_t-beng.half k_ss-beng.half ng-beng.half c-beng.half1 j_nya-beng ddh-beng.half tth-beng.half dd-beng.half t-beng.half ta-beng.blws bha-beng dd_dda-beng b_ddha-beng ddh-beng.side] baphala-beng' by baphala-beng.alt2;
+    # baphala alt3
     sub [ch-beng.half j-beng.half ny-beng.half d_d-beng.half ss_tta-beng.noflag h-beng.half ny_cha-beng] baphala-beng' by baphala-beng.alt3;
+    # baphala alt4
     sub [k-beng.half g-beng.half jh-beng.half nn-beng.half d-beng.half3 p-beng.half m-beng.half m-beng.half2 l-beng.half3 sh-beng.half ss-beng.half4 s-beng.half] baphala-beng' by baphala-beng.alt4;
+    # baphala side
     sub [ba-beng dha-beng] baphala-beng' by ba-beng.side;
-} BNG_dflt_pres_onTheFly_baphalaAlts;
+} BNG_pres_onTheFly_baphalaAlts;
 
-lookup BNG_dflt_pres_onTheFly_raphalaAlts{
-    # sub raphala
+lookup BNG_pres_onTheFly_raphalaAlts{ # Replace raphala alternates
+    lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng];
     # triconsonant
     sub [m-beng.half ss-beng.half4 s-beng.half] p-beng.half2 raphala-beng' by raphala-beng.alt12;
     sub n-beng.headline d-beng.half raphala-beng' by raphala-beng.alt09;
-    sub d-beng.half3 dh_ba-beng.blws raphala-beng' by raphala-beng.alt15;
+    sub [g-beng.half d-beng.half3 nn-beng.half sh-beng.half] [dh_ba-beng.blws baphala-beng.alt4] raphala-beng' by raphala-beng.alt15;
+    sub n-beng.headline aaMatra-beng.part [dh_ba-beng.blws baphala-beng.alt4] raphala-beng' by raphala-beng.alt15;
+    # multipart
+    sub baphala-beng.alt3 jha-beng.part raphala-beng' by raphala-beng.alt15;
     # biconsonant
     sub k-beng.half raphala-beng' by ka-beng.arm2;
     sub [kh-beng.half th-beng.half t_tha-beng l_pha-beng pha-beng.side s_kha-beng l_gha-beng] raphala-beng' by raphala-beng.alt01;
@@ -972,21 +962,13 @@ lookup BNG_dflt_pres_onTheFly_raphalaAlts{
     sub [nya-beng c_nya-beng b_dda-beng] raphala-beng' by raphala-beng.alt08;
     sub [d-beng.side d_d-beng.half d-beng.half2 bh-beng.half] raphala-beng' by raphala-beng.alt09;
     sub [m-beng.half2 s-beng.half2] raphala-beng' by raphala-beng.alt10;
-    sub [ng_ka-beng @BNG_BAPHALAS dh_ba-beng.blws j_j_ba-beng ny_c_ba-beng rh_ba-beng yy_ba-beng] raphala-beng' by raphala-beng.alt11;
+    sub [ng_ka-beng @BNG_BAPHALAS j_j_ba-beng ny_c_ba-beng rh_ba-beng yy_ba-beng] raphala-beng' by raphala-beng.alt11;
     sub @BNG_BAPHALAS [dha-beng.part ka-beng.part] raphala-beng' by raphala-beng.alt11;
     sub [k_ma-beng k_ss_ma-beng k_sa-beng] raphala-beng' by raphala-beng.alt12;
     sub [gh-beng.half b-beng.half jh-beng.half dh-beng.half ph-beng.half y-beng.half ss-beng.half] raphala-beng' by raphala-beng.alt14;
-} BNG_dflt_pres_onTheFly_raphalaAlts;
+} BNG_pres_onTheFly_raphalaAlts;
 
-
-lookup BNG_dflt_pres_onTheFly_lastRaphala{
-    lookupflag 0;
-    sub [g-beng.half nn-beng.half sh-beng.half n-beng.headline] [baphala-beng.alt4 dh_ba-beng.blws] raphala-beng.alt11' by raphala-beng.alt15;
-    sub baphala-beng.alt3 jha-beng.part raphala-beng' by raphala-beng.alt15;
-} BNG_dflt_pres_onTheFly_lastRaphala;
-
-
-lookup BNG_dflt_pres_addHeadlineStem {
+lookup BNG_pres_addHeadlineStem { # Adding these at the end to avoid having to add them as context
     lookupflag 0;
     # ADD STEM + HEADLINE
     sub [g-beng.half] baphala-beng.alt4 dha-beng.part raphala-beng.alt11' by raphala-beng.alt11 aaMatra-beng.side headline-beng.130;
@@ -1001,7 +983,6 @@ lookup BNG_dflt_pres_addHeadlineStem {
 
     # Add headline 130
     sub ng-beng.half' [k_ssa-beng k_ss-beng.half] by ng-beng.half headline-beng.130;
-    sub n-beng.headline aaMatra-beng.part n-beng.float baphala-beng.alt4 ka-beng.part' by ka-beng.part headline-beng.130;
     sub n-beng.headline aaMatra-beng.part n-beng.float baphala-beng.alt4 dha-beng.part' by dha-beng.part headline-beng.130;
     sub [d-beng.half3 aaMatra-beng.part] baphala-beng.alt4 dha-beng.part' by dha-beng.part headline-beng.130;
 
@@ -1036,44 +1017,49 @@ lookup BNG_dflt_pres_addHeadlineStem {
     sub l-beng.half3' [ma-beng.side la-beng.blws2] by l-beng.half3 aaMatra-beng.part;
     sub l-beng.half3' baphala-beng.alt4 [ka-beng.part dha-beng.part] by l-beng.half3 aaMatra-beng.part;
     sub l-beng.half3' [ga-beng.blws pa-beng.blws] by l-beng.half3 aaMatra-beng.part2;
-} BNG_dflt_pres_addHeadlineStem;
+} BNG_pres_addHeadlineStem;
 
-lookup BNG_dflt_pres_onTheFly_nukta {
+
+lookup BNG_pres_onTheFly_nukta { # Swap nukta
+    lookupflag 0;
     sub dd-beng.half nukta-beng' baphala-beng.alt2 by nukta-beng.alt;
-} BNG_dflt_pres_onTheFly_nukta;
+} BNG_pres_onTheFly_nukta;
 
 
 # add extra glyph to string after the marks
 
-lookup BNG_dflt_pres_onTheFly_halfDecomp2 {
-    lookupflag UseMarkFilteringSet [@BNG_VATTUS n-beng.float ka-beng.arm ka-beng.arm2 headline-beng.200];
+lookup BNG_pres_onTheFly_halfDecomp2 {
+    lookupflag UseMarkFilteringSet [@BNG_VATTUS n-beng.float ka-beng.arm ka-beng.arm2 headline-beng.200 headline-beng.130 ka-beng.part];
     sub k-beng.half' baphala-beng.alt4 by b-beng.half2 ka-beng.arm;
     sub k-beng.half' ka-beng.arm2 by t_ra-beng headline-beng.200;
     # Add floating Na
     sub n-beng.headline [ddha-beng.side ddh-beng.side ttha-beng.side dda-beng.side da-beng d-beng.half d-beng.half2 d-beng.half3]' by [ddha-beng.side ddh-beng.side ttha-beng.side dda-beng.side da-beng d-beng.half d-beng.half2 d-beng.half3] n-beng.float;
     # Add floating Na + Stem
+    sub n-beng.headline' baphala-beng.alt4 ka-beng.part by n-beng.headline aaMatra-beng.part n-beng.float headline-beng.130;
     sub n-beng.headline' [na-beng.blws1 baphala-beng.alt4 ma-beng.side dh_ba-beng.blws] by n-beng.headline aaMatra-beng.part n-beng.float;
     sub n-beng.headline' [ta_uMatra-beng.blws] by n-beng.headline aaMatra-beng.part.short n-beng.float;
-} BNG_dflt_pres_onTheFly_halfDecomp2;
+} BNG_pres_onTheFly_halfDecomp2;
 
 
-lookup BNG_dflt_pres_onTheFly_swapKaPartLa {
-    lookupflag UseMarkFilteringSet [headline-beng.250 la-beng.blws];
-    sub headline-beng.250' lookup BNG_dflt_pres_chain_swapHeadlineLa la-beng.blws' lookup BNG_dflt_pres_chain_swapHeadlineLa;
-}BNG_dflt_pres_onTheFly_swapKaPartLa;
+# REMOVE AFTER QA
+#lookup BNG_pres_onTheFly_swapKaPartLa {
+#    lookupflag UseMarkFilteringSet [headline-beng.250 la-beng.blws];
+#    sub headline-beng.250' lookup BNG_pres_chain_swapHeadlineLa la-beng.blws' lookup BNG_pres_chain_swapHeadlineLa;
+#}BNG_pres_onTheFly_swapKaPartLa;
 
 # --- End onTheFly Conjunct Formation ---
 
 
+
 # --- Begin iMatra Alternates ---
 
-lookup BNG_dflt_pres_tta_ttha_top {
+lookup BNG_pres_tta_ttha_top {
     lookupflag UseMarkFilteringSet [@BNG_TTHA_TOP @BNG_TTA_FLAGS];
     sub iMatra-beng tta-beng' by ddha-beng tta-beng.flag;
     sub iMatra-beng ttha-beng' by ttha-beng.notop ttha-beng.top;
-} BNG_dflt_pres_tta_ttha_top;
+} BNG_pres_tta_ttha_top;
 
-lookup BNG_dflt_pres_iMatra_tta_ttha_topSwap {
+lookup BNG_pres_iMatra_tta_ttha_topSwap {
     lookupflag UseMarkFilteringSet [@BNG_TTA_FLAGS @BNG_TTHA_TOP];
     sub iMatra-beng [ddha-beng ddh-beng.half tt_tta-beng.noflag ddh-beng.half2] tta-beng.flag' by tta-beng.flagIMatra1;
     sub iMatra-beng [k_tta-beng.noflag ph_tta-beng.noflag] tta-beng.flag2' by tta-beng.flagIMatra1;
@@ -1083,25 +1069,25 @@ lookup BNG_dflt_pres_iMatra_tta_ttha_topSwap {
     sub iMatra-beng [ttha-beng.notop tth-beng.half] ttha-beng.top' by ttha-beng.topIMatra;
     sub iMatra-beng ss_ttha-beng.notop ttha-beng.top2' by ttha-beng.topIMatra2;
     sub iMatra-beng [n-beng.headline nn-beng.half3] ttha-beng.side ttha-beng.top2' by ttha-beng.topIMatra2;
-} BNG_dflt_pres_iMatra_tta_ttha_topSwap;
+} BNG_pres_iMatra_tta_ttha_topSwap;
 
-lookup BNG_dflt_pres_iMatra_tta {
+lookup BNG_pres_iMatra_tta {
     lookupflag UseMarkFilteringSet @BNG_TTA_FLAGS;
     sub iMatra-beng' @BNG_BASE_IMATRA_TTA5 @BNG_DDHA_HALF @BNG_TTA_FLAGS by iMatra-beng.ttaAlt5;
     sub iMatra-beng' @BNG_BASE_IMATRA_TTA4 @BNG_DDHA_HALF @BNG_TTA_FLAGS by iMatra-beng.ttaAlt4;
     sub iMatra-beng' @BNG_BASE_IMATRA_TTA3 @BNG_DDHA_HALF @BNG_TTA_FLAGS by iMatra-beng.ttaAlt3;
     sub iMatra-beng' @BNG_BASE_IMATRA_TTA2 @BNG_TTA_FLAGS by iMatra-beng.ttaAlt2;
     sub iMatra-beng' @BNG_BASE_IMATRA_TTA1 @BNG_TTA_FLAGS by iMatra-beng.ttaAlt1;
-} BNG_dflt_pres_iMatra_tta;
+} BNG_pres_iMatra_tta;
 
-lookup BNG_dflt_pres_iMatra_ttha {
+lookup BNG_pres_iMatra_ttha {
     lookupflag IgnoreMarks;
     sub iMatra-beng' @BNG_BASE_IMATRA_TTHA1 by iMatra-beng.tthaAlt1;
     sub iMatra-beng' @BNG_BASE_IMATRA_TTHA2 by iMatra-beng.tthaAlt2;
     sub iMatra-beng' @BNG_BASE_IMATRA_TTHA3 ttha-beng.side by iMatra-beng.tthaAlt3;
-} BNG_dflt_pres_iMatra_ttha;
+} BNG_pres_iMatra_ttha;
 
-lookup BNG_dflt_pres_iMatra_other {
+lookup BNG_pres_iMatra_other {
     lookupflag UseMarkFilteringSet [jha-beng.part];
     # iMatra Long 09
     sub iMatra-beng' ng-beng.half [k_ssa-beng k_ss-beng.half] by iMatra-beng.long09;
@@ -1166,7 +1152,7 @@ lookup BNG_dflt_pres_iMatra_other {
     # iMatra Short 03
     sub iMatra-beng' @BNG_BASE_IMATRA_SHORT03 by iMatra-beng.short03;
 
-} BNG_dflt_pres_iMatra_other;
+} BNG_pres_iMatra_other;
 
 
 # --- End iMatra Alternates ---
@@ -1174,7 +1160,7 @@ lookup BNG_dflt_pres_iMatra_other {
 
 # --- Begin eMatra Alternates ---
 
-lookup BNG_dflt_pres_eMAtra {
+lookup BNG_pres_eMAtra {
     lookupflag 0;
     #short
     sub @BNG_EMATRA' @BNG_BASE_EMATRA_SHORT by @BNG_EMATRA_SHORT;
@@ -1203,7 +1189,7 @@ lookup BNG_dflt_pres_eMAtra {
     sub @BNG_EMATRA' sh-beng.half baphala-beng.alt4 by @BNG_EMATRA_LONG;
     sub @BNG_EMATRA' [ss-beng.half4 s-beng.half m-beng.half] [pa-beng p-beng.half p-beng.half2 pha-beng.side ma-beng.side2 sa-beng] by @BNG_EMATRA_LONG;
     sub @BNG_EMATRA' [s-beng.half] [baphala-beng.alt4] by @BNG_EMATRA_LONG;
-} BNG_dflt_pres_eMAtra;
+} BNG_pres_eMAtra;
 
 # --- End eMatra Alternates ---
 
@@ -1233,25 +1219,25 @@ feature abvs {
 
 script bng2;
 
-lookup BNG_dflt_abvs_SwapTopIMatra {
+lookup BNG_abvs_SwapTopIMatra {
     lookupflag 0;
-    sub aaMatra-beng' lookup BNG_dflt_abvs_SwapAaMatraCandrabindu candrabindu-beng' lookup BNG_dflt_abvs_SwapAaMatraCandrabindu;
-    sub ya-beng.pstf' lookup BNG_dflt_abvs_SwapYaMatraCandrabindu candrabindu-beng' lookup BNG_dflt_abvs_SwapYaMatraCandrabindu;
-} BNG_dflt_abvs_SwapTopIMatra;
+    sub aaMatra-beng' lookup BNG_abvs_SwapAaMatraCandrabindu candrabindu-beng' lookup BNG_abvs_SwapAaMatraCandrabindu;
+    sub ya-beng.pstf' lookup BNG_abvs_SwapYaMatraCandrabindu candrabindu-beng' lookup BNG_abvs_SwapYaMatraCandrabindu;
+} BNG_abvs_SwapTopIMatra;
 
-lookup BNG_dflt_abvs_SwapReph{
+lookup BNG_abvs_SwapReph{
     lookupflag 0;
-    sub reph-beng' lookup BNG_dflt_abvs_SwapRephIiMatra iiMatra-beng' lookup BNG_dflt_abvs_SwapRephIiMatra;
-    sub reph-beng' lookup BNG_dflt_abvs_SwapRephAuLength auLength-beng' lookup BNG_dflt_abvs_SwapRephAuLength;
-} BNG_dflt_abvs_SwapReph;
+    sub reph-beng' lookup BNG_abvs_SwapRephIiMatra iiMatra-beng' lookup BNG_abvs_SwapRephIiMatra;
+    sub reph-beng' lookup BNG_abvs_SwapRephAuLength auLength-beng' lookup BNG_abvs_SwapRephAuLength;
+} BNG_abvs_SwapReph;
 
-lookup BNG_dflt_abvs_smallCandrabindu {
+lookup BNG_abvs_smallCandrabindu {
     lookupflag UseMarkFilteringSet [reph-beng candrabindu-beng candrabindu-beng.small tta-beng.flag tta-beng.flag2 tta-beng.flag3];
     sub [reph-beng iiMatra-beng auLength-beng tta-beng.flag tta-beng.flag2 tta-beng.flag3 tta-beng ttha-beng tth-beng.half ttha-beng.side ss_ttha-beng.notop] candrabindu-beng' by candrabindu-beng.small;
     sub @BNG_BASE_NUBS candrabindu-beng' @BNG_IMATRAS by candrabindu-beng.small;
-} BNG_dflt_abvs_smallCandrabindu;
+} BNG_abvs_smallCandrabindu;
 
-lookup BNG_dflt_abvs_altReph {
+lookup BNG_abvs_altReph {
     lookupflag UseMarkFilteringSet [reph-beng reph-beng.altIiMatra reph-beng.altAuLength reph-beng.altTtha tta-beng.flag tta-beng.flag2 tta-beng.flag tta-beng.flagIMatra1 tta-beng.flagIMatra2 tta-beng.flagIMatra3 ];
     sub iiMatra-beng reph-beng' by reph-beng.altIiMatra;
     sub [auLength-beng tta-beng tta-beng.flag tta-beng.flag2 tta-beng.flag3] reph-beng' by reph-beng.altAuLength;
@@ -1259,9 +1245,9 @@ lookup BNG_dflt_abvs_altReph {
     sub [ttha-beng ttha-beng.notop tth-beng.half ttha-beng.side ss_ttha-beng.notop] reph-beng' by reph-beng.altTtha;
     sub reph-beng' [ddha-beng ddh-beng.half k_tta-beng.noflag ph_tta-beng.noflag ss_tta-beng.noflag tt_tta-beng.noflag] [tta-beng.flagIMatra1 tta-beng.flagIMatra2 tta-beng.flagIMatra3 ] by reph-beng.altAuLength;
     sub reph-beng' [nn-beng.half n-beng.headline p-beng.half3 l-beng.half3 s-beng.half4] [ddha-beng.side ddh-beng.side] [tta-beng.flagIMatra1 tta-beng.flagIMatra2 tta-beng.flagIMatra3 ] by reph-beng.altAuLength;
-} BNG_dflt_abvs_altReph;
+} BNG_abvs_altReph;
 
-lookup BNG_dflt_abvs_shorterIMatraReph { # For glyphs with nubs where the reph attaching to iMatra does not work
+lookup BNG_abvs_shorterIMatraReph { # For glyphs with nubs where the reph attaching to iMatra does not work
     lookupflag UseMarkFilteringSet [reph-beng aaMatra-beng.side];
     # sub iMatra.long09
     sub iMatra-beng.long09' s-beng.half [pa-beng p-beng.half p-beng.half2] reph-beng by iMatra-beng.long08;
@@ -1286,7 +1272,7 @@ lookup BNG_dflt_abvs_shorterIMatraReph { # For glyphs with nubs where the reph a
     # sub iMatra.short02
     sub iMatra-beng.short02' ny_ca-beng reph-beng by iMatra-beng.short03;
     sub iMatra-beng.short02' nn-beng.half aaMatra-beng.side reph-beng by iMatra-beng.short03;
-} BNG_dflt_abvs_shorterIMatraReph;
+} BNG_abvs_shorterIMatraReph;
 
 language PAL;
 
@@ -1297,51 +1283,51 @@ language PAL;
 feature blws {
 
 script bng2;
-lookup BNG_dflt_blws_ligatures_precomposed{
+lookup BNG_blws_ligatures_precomposed{
     lookupflag 0;
 # uMatra
     sub l-beng.half3 aaMatra-beng.part2 ga-beng.blws uMatra-beng by l_ga_uMatra-beng;
     sub ga-beng uMatra-beng by ga_uMatra-beng;
     sub sha-beng uMatra-beng by sha_uMatra-beng;
     sub ha-beng uMatra-beng by ha_uMatra-beng;
-}BNG_dflt_blws_ligatures_precomposed;
+}BNG_blws_ligatures_precomposed;
 
 @BNG_BLWS_SIDEUMATRA_BASE = [g-beng.half2 th-beng.half dh-beng.half b-beng.half sh-beng.half2];
 
-lookup BNG_dflt_blws_ligatures_onTheFly_1 {
+lookup BNG_blws_ligatures_onTheFly_1 {
     lookupflag UseMarkFilteringSet [uMatra-beng uMatra-beng.side uuMatra-beng uuMatra-beng.side @BNG_RAPHALAS la-beng.blws2 ka-beng.arm2 jh-beng.side];
     ignore sub t_ra-beng ka-beng.arm2 uMatra-beng';
     sub [ra-beng ramiddlediagonal-beng ralowerdiagonal-beng t_ra-beng] uMatra-beng' by uMatra-beng.side;
     sub [ra-beng ramiddlediagonal-beng ralowerdiagonal-beng ] uuMatra-beng' by uuMatra-beng.side2;
     sub [@BNG_BLWS_SIDEUMATRA_BASE d-beng.half2 bh-beng.half s-beng.half2] [@BNG_RAPHALAS la-beng.blws2] [uMatra-beng]' by uMatra-beng.side;
     sub @BNG_BLWS_SIDEUMATRA_BASE @BNG_RAPHALAS uuMatra-beng' by uuMatra-beng.side;
-} BNG_dflt_blws_ligatures_onTheFly_1;
+} BNG_blws_ligatures_onTheFly_1;
 
-lookup BNG_dflt_blws_ligatures_onTheFly_2 {
+lookup BNG_blws_ligatures_onTheFly_2 {
     lookupflag 0;
     sub t_ra-beng uuMatra-beng' by dha-beng.part headline-beng.130;
     sub bh-beng.half raphala-beng.alt09 uuMatra-beng' by dha-beng.part headline-beng.200;
     sub [d-beng.half2 s-beng.half2] [raphala-beng.alt09 raphala-beng.alt10] uuMatra-beng' by dha-beng.part headline-beng.130;
     sub ha-beng rVocalicMatra-beng' by dha-beng.part headline-beng.200;
-} BNG_dflt_blws_ligatures_onTheFly_2;
+} BNG_blws_ligatures_onTheFly_2;
 
-lookup BNG_dflt_blws_onTheFly_uMatraLiga{
+lookup BNG_blws_onTheFly_uMatraLiga{
     lookupflag 0;
     sub [n-beng.half3 s-beng.half3] ta-beng.blws' uMatra-beng' by ta_uMatra-beng.blws;
-} BNG_dflt_blws_onTheFly_uMatraLiga;
+} BNG_blws_onTheFly_uMatraLiga;
 
-lookup BNG_dflt_blws_vowelAlternates_nukta{
+lookup BNG_blws_vowelAlternates_nukta{
     lookupflag UseMarkFilteringSet [nukta-beng @BNG_BLWS_VOWELS uMatra-beng.alt uuMatra-beng.alt uMatra-beng.low uuMatra-beng.low];
     sub [ddha-beng dda-beng] nukta-beng @BNG_BLWS_VOWELS' by [uMatra-beng.alt uuMatra-beng.alt];
     sub [ya-beng] nukta-beng @BNG_BLWS_VOWELS' by [uMatra-beng.low uuMatra-beng.low];
-} BNG_dflt_blws_vowelAlternates_nukta;
+} BNG_blws_vowelAlternates_nukta;
 
-lookup BNG_dflt_blws_vowelAlternates {
+lookup BNG_blws_vowelAlternates {
     lookupflag UseMarkFilteringSet [@BNG_BLWS_BASE_ALT1 @BNG_BLWS_BASE_ALT2 uMatra-beng.alt1 @BNG_BLWS_VOWELS @BNG_BLWS_ROUND @BNG_BLWS_ALT @BNG_BLWS_BASE_ROUND @BNG_BLWS_BASE_ALT @BNG_RAPHALAS @BNG_BAPHALAS];
     sub @BNG_BLWS_BASE_ROUND @BNG_BLWS_VOWELS' by @BNG_BLWS_ROUND;
     sub @BNG_BLWS_BASE_ALT1 @BNG_BLWS_VOWELS' by @BNG_BLWS_ALT1;
     sub @BNG_BLWS_BASE_ALT2 @BNG_BLWS_VOWELS' by @BNG_BLWS_ALT2;
-} BNG_dflt_blws_vowelAlternates;
+} BNG_blws_vowelAlternates;
 
 language PAL;
 
@@ -1360,13 +1346,13 @@ feature psts {
 script bng2;
 
 
-lookup BNG_dflt_psts_iiMatra_tthaBase {
+lookup BNG_psts_iiMatra_tthaBase {
     lookupflag UseMarkFilteringSet [ttha-beng.topIiMatra];
     sub ttha-beng' iiMatra-beng by ttha-beng.notop ttha-beng.topIiMatra;
-} BNG_dflt_psts_iiMatra_tthaBase;
+} BNG_psts_iiMatra_tthaBase;
 
 
-lookup BNG_dflt_psts_iiMatra_flagSwap {
+lookup BNG_psts_iiMatra_flagSwap {
     lookupflag UseMarkFilteringSet [@BNG_TTA_FLAGS ttha-beng.top ttha-beng.top ttha-beng.topIiMatra ttha-beng.top2 ttha-beng.topIiMatra2];
     # tta
     sub tta-beng.flag' iiMatra-beng by tta-beng.flagIiMatra;
@@ -1376,10 +1362,10 @@ lookup BNG_dflt_psts_iiMatra_flagSwap {
     # ttha
     sub ttha-beng.top' iiMatra-beng by ttha-beng.topIiMatra;
     sub ttha-beng.top2' iiMatra-beng by ttha-beng.topIiMatra2;
-} BNG_dflt_psts_iiMatra_flagSwap;
+} BNG_psts_iiMatra_flagSwap;
 
 
-lookup BNG_dflt_psts_iiMatra{
+lookup BNG_psts_iiMatra{
     lookupflag UseMarkFilteringSet [@BNG_TTA_FLAGS aaMatra-beng.side headline-beng.130 ];
     # nub
     sub g-beng.half aaMatra-beng.side headline-beng.130 iiMatra-beng' by iiMatra-beng.nubAlt1;
@@ -1389,22 +1375,22 @@ lookup BNG_dflt_psts_iiMatra{
     sub @BNG_BASE_IIMATRA_TTHA iiMatra-beng' by iiMatra-beng.tthaAlt1;
     # no headline
     sub @BNG_BASE_IIMATRA_NO_HEADLINE iiMatra-beng' by iiMatra-beng.alt;
-} BNG_dflt_psts_iiMatra;
+} BNG_psts_iiMatra;
 
-lookup BNG_dflt_psts_auLengthMatra {
+lookup BNG_psts_auLengthMatra {
     lookupflag UseMarkFilteringSet [@BNG_TTA_FLAGS];
     sub [ttha-beng ttha-beng.notop ss_ttha-beng.notop tth-beng.half ttha-beng.side] auLength-beng' by auLength-beng.long;
     sub tta-beng auLength-beng' by auLength-beng.short;
     sub [ddha-beng tt_tta-beng.noflag ddh-beng.half ddh-beng.half2 ddha-beng.side ddh-beng.side ss_tta-beng.noflag] @BNG_TTA_FLAGS auLength-beng' by auLength-beng.short;
-} BNG_dflt_psts_auLengthMatra;
+} BNG_psts_auLengthMatra;
 
-lookup BNG_dflt_psts_yaPstf {
+lookup BNG_psts_yaPstf {
     lookupflag UseMarkFilteringSet [ka-beng.arm2 ta-beng.blws ka-beng.part];
     sub [ha-beng cha-beng ch-beng.half cha-beng.side h-beng.half h-beng.half2] ya-beng.pstf' by ya-beng.pstf.short;
     sub sh-beng.half2 ta-beng.blws ya-beng.pstf' by ya-beng.pstf.short;
     sub [ss-beng.half4 s-beng.half] ka-beng.part ya-beng.pstf' by ya-beng.pstf.short;
     sub [ss-beng.half3 s-beng.half2] ka-beng.arm2 ya-beng.pstf' by ya-beng.pstf.short;
-} BNG_dflt_psts_yaPstf;
+} BNG_psts_yaPstf;
 
 language PAL;
 
@@ -1418,18 +1404,16 @@ script bng2;
 
 #SWAP VEDIC STACKS
 
-lookup BNG_dflt_abvs_swapVedicStacks {
+lookup BNG_abvs_swapVedicStacks {
     lookupflag 0;
-    sub uni1CF5' lookup BNG_dflt_rclt_swapVedicStacks_removeMark @BNG_RCLT_BASES_VEDIC1CF5' lookup BNG_dflt_rclt_swapVedicStacks_addMark;
-    sub uni1CF6' lookup BNG_dflt_rclt_swapVedicStacks_removeMark @BNG_RCLT_BASES_VEDIC1CF6' lookup BNG_dflt_rclt_swapVedicStacks_addMark;
-} BNG_dflt_abvs_swapVedicStacks;
+    sub uni1CF5' lookup BNG_rclt_swapVedicStacks_removeMark @BNG_RCLT_BASES_VEDIC1CF5' lookup BNG_rclt_swapVedicStacks_addMark;
+    sub uni1CF6' lookup BNG_rclt_swapVedicStacks_removeMark @BNG_RCLT_BASES_VEDIC1CF6' lookup BNG_rclt_swapVedicStacks_addMark;
+} BNG_abvs_swapVedicStacks;
 
-lookup BNG_dflt_rclt_swapVedicStacks_context {
+lookup BNG_rclt_swapVedicStacks_context {
     lookupflag UseMarkFilteringSet [@BNG_RCLT_BASES_KA_ARM uni1CF5.stack uni1CF6.stack];
-    sub uni1CF5' lookup BNG_dflt_rclt_swapVedicStacks_removeMark [b-beng.half b-beng.half2 t_ta-beng t_t-beng.half t_ra-beng]' @BNG_RCLT_BASES_KA_ARM' lookup BNG_dflt_rclt_swapVedicStacks_addMark;
-} BNG_dflt_rclt_swapVedicStacks_context;
-
-
+    sub uni1CF5' lookup BNG_rclt_swapVedicStacks_removeMark [b-beng.half b-beng.half2 t_ta-beng t_t-beng.half t_ra-beng]' @BNG_RCLT_BASES_KA_ARM' lookup BNG_rclt_swapVedicStacks_addMark;
+} BNG_rclt_swapVedicStacks_context;
 
 language PAL;
 
@@ -1442,10 +1426,10 @@ feature ss01 {
 featureNames { name "Alternate form of nna belowform for k_ssa conjunct";};
 
 script bng2;
-lookup BNG_dflt_ss01_alternateNna {
+lookup BNG_ss01_alternateNna {
     lookupflag 0;
     sub [k_ss-beng.half h-beng.half] na-beng.blws' by nna-beng.blws;
-} BNG_dflt_ss01_alternateNna;
+} BNG_ss01_alternateNna;
 
 language PAL;
 } ss01;
