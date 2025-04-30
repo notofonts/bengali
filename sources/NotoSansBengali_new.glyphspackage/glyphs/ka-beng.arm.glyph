@@ -627,7 +627,7 @@ width = 143;
 anchors = (
 {
 name = _top_headlineKaArm;
-pos = (-113,557);
+pos = (-113,558);
 },
 {
 name = top_candrabindu;
