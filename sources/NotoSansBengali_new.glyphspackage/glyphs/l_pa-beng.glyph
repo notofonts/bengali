@@ -62,7 +62,7 @@ pos = (378,0);
 ref = "aaMatra-beng.part2";
 },
 {
-pos = (31,-56);
+pos = (39,-56);
 ref = "pa-beng.blws";
 }
 );
@@ -94,7 +94,7 @@ pos = (414,0);
 ref = "aaMatra-beng.part2";
 },
 {
-pos = (10,-118);
+pos = (19,-118);
 ref = "pa-beng.blws";
 }
 );
@@ -126,7 +126,7 @@ pos = (265,0);
 ref = "aaMatra-beng.part2";
 },
 {
-pos = (23,-55);
+pos = (21,-55);
 ref = "pa-beng.blws";
 }
 );
@@ -158,7 +158,7 @@ pos = (301,0);
 ref = "aaMatra-beng.part2";
 },
 {
-pos = (29,-76);
+pos = (22,-76);
 ref = "pa-beng.blws";
 }
 );
@@ -190,7 +190,7 @@ pos = (342,0);
 ref = "aaMatra-beng.part2";
 },
 {
-pos = (16,-111);
+pos = (20,-111);
 ref = "pa-beng.blws";
 }
 );

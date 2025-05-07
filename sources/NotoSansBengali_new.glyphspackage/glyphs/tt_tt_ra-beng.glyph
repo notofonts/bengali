@@ -29,7 +29,7 @@ pos = (0,-254);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (223,0);
+pos = (-18,0);
 ref = "tta-beng.flag";
 }
 );
@@ -61,7 +61,7 @@ pos = (-24,-285);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (252,0);
+pos = (-29,0);
 ref = "tta-beng.flag";
 }
 );
@@ -93,7 +93,7 @@ pos = (-18,-407);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (350,0);
+pos = (13,0);
 ref = "tta-beng.flag";
 }
 );
@@ -121,11 +121,11 @@ shapes = (
 ref = "tt_tta-beng.noflag";
 },
 {
-pos = (2,-254);
+pos = (-4,-254);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (162,0);
+pos = (-16,0);
 ref = "tta-beng.flag";
 }
 );
@@ -153,11 +153,11 @@ shapes = (
 ref = "tt_tta-beng.noflag";
 },
 {
-pos = (-21,-289);
+pos = (-26,-289);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (200,0);
+pos = (-23,0);
 ref = "tta-beng.flag";
 }
 );
@@ -185,11 +185,11 @@ shapes = (
 ref = "tt_tta-beng.noflag";
 },
 {
-pos = (-12,-390);
+pos = (-17,-390);
 ref = "raphala-beng.alt03";
 },
 {
-pos = (297,1);
+pos = (17,1);
 ref = "tta-beng.flag";
 }
 );

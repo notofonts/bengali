@@ -42,7 +42,7 @@ pos = (833,0);
 ref = "ttha-beng.side";
 },
 {
-pos = (264,25);
+pos = (301,25);
 ref = "n-beng.float";
 },
 {
@@ -90,7 +90,7 @@ pos = (724,0);
 ref = "ttha-beng.side";
 },
 {
-pos = (240,0);
+pos = (293,0);
 ref = "n-beng.float";
 },
 {
@@ -138,7 +138,7 @@ pos = (894,0);
 ref = "ttha-beng.side";
 },
 {
-pos = (291,8);
+pos = (290,8);
 ref = "n-beng.float";
 },
 {
@@ -186,11 +186,11 @@ pos = (506,0);
 ref = "ttha-beng.side";
 },
 {
-pos = (164,5);
+pos = (194,5);
 ref = "n-beng.float";
 },
 {
-pos = (361,0);
+pos = (355,0);
 ref = "ttha-beng.topIMatra2";
 }
 );
@@ -234,11 +234,11 @@ pos = (627,0);
 ref = "ttha-beng.side";
 },
 {
-pos = (201,22);
+pos = (217,22);
 ref = "n-beng.float";
 },
 {
-pos = (399,0);
+pos = (394,0);
 ref = "ttha-beng.topIMatra2";
 }
 );
@@ -282,11 +282,11 @@ pos = (730,0);
 ref = "ttha-beng.side";
 },
 {
-pos = (249,11);
+pos = (234,11);
 ref = "n-beng.float";
 },
 {
-pos = (471,1);
+pos = (476,1);
 ref = "ttha-beng.topIMatra2";
 }
 );

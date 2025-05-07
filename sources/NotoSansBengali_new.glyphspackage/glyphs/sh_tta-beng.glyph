@@ -29,7 +29,7 @@ pos = (595,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (595,0);
+pos = (354,0);
 ref = "tta-beng.flag";
 }
 );
@@ -57,15 +57,15 @@ shapes = (
 ref = "sh-beng.half";
 },
 {
-pos = (682,0);
+pos = (681,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (682,0);
+pos = (400,0);
 ref = "tta-beng.flag";
 }
 );
-width = 962;
+width = 961;
 },
 {
 background = {
@@ -93,7 +93,7 @@ pos = (703,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (703,0);
+pos = (366,0);
 ref = "tta-beng.flag";
 }
 );
@@ -125,7 +125,7 @@ pos = (418,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (418,0);
+pos = (240,0);
 ref = "tta-beng.flag";
 }
 );
@@ -153,15 +153,15 @@ shapes = (
 ref = "sh-beng.half";
 },
 {
-pos = (507,0);
+pos = (508,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (508,0);
+pos = (286,0);
 ref = "tta-beng.flag";
 }
 );
-width = 724;
+width = 725;
 },
 {
 background = {
@@ -189,7 +189,7 @@ pos = (571,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (571,1);
+pos = (291,1);
 ref = "tta-beng.flag";
 }
 );

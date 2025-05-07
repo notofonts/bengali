@@ -31,7 +31,7 @@ pos = (443,0);
 ref = "p-beng.half";
 },
 {
-pos = (540,-1);
+pos = (552,-1);
 ref = "la-beng.blws1";
 }
 );
@@ -133,7 +133,7 @@ pos = (306,0);
 ref = "p-beng.half";
 },
 {
-pos = (373,0);
+pos = (375,0);
 ref = "la-beng.blws1";
 }
 );
@@ -165,17 +165,15 @@ alignment = -1;
 ref = "m-beng.half";
 },
 {
-alignment = -1;
 pos = (323,0);
 ref = "p-beng.half";
 },
 {
-alignment = -1;
-pos = (402,10);
+pos = (388,10);
 ref = "la-beng.blws1";
 }
 );
-width = 846;
+width = 847;
 },
 {
 background = {
@@ -205,7 +203,7 @@ pos = (351,0);
 ref = "p-beng.half";
 },
 {
-pos = (410,-14);
+pos = (404,-14);
 ref = "la-beng.blws1";
 }
 );

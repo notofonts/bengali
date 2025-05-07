@@ -38,7 +38,7 @@ pos = (644,0);
 ref = "k_ss-beng.half";
 },
 {
-pos = (632,-83);
+pos = (656,-83);
 ref = "raphala-beng.alt04";
 }
 );
@@ -118,7 +118,7 @@ pos = (692,0);
 ref = "k_ss-beng.half";
 },
 {
-pos = (664,-121);
+pos = (668,-121);
 ref = "raphala-beng.alt04";
 }
 );
@@ -158,7 +158,7 @@ pos = (414,0);
 ref = "k_ss-beng.half";
 },
 {
-pos = (438,-24);
+pos = (433,-24);
 ref = "raphala-beng.alt04";
 }
 );
@@ -198,7 +198,7 @@ pos = (484,0);
 ref = "k_ss-beng.half";
 },
 {
-pos = (476,-74);
+pos = (503,-74);
 ref = "raphala-beng.alt04";
 }
 );
@@ -238,7 +238,7 @@ pos = (532,0);
 ref = "k_ss-beng.half";
 },
 {
-pos = (520,-99);
+pos = (512,-99);
 ref = "raphala-beng.alt04";
 }
 );

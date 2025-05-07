@@ -142,11 +142,11 @@ shapes = (
 ref = "nn-beng.half";
 },
 {
-pos = (513,0);
+pos = (519,0);
 ref = "ddha-beng.side";
 }
 );
-width = 732;
+width = 738;
 }
 );
 script = bengali;

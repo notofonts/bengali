@@ -94,7 +94,7 @@ pos = (399,0);
 ref = "aaMatra-beng.side";
 },
 {
-pos = (31,-42);
+pos = (41,-42);
 ref = "nna-beng.blws1";
 }
 );
@@ -122,11 +122,11 @@ shapes = (
 ref = "nn-beng.half";
 },
 {
-pos = (281,0);
+pos = (275,0);
 ref = "aaMatra-beng.side";
 },
 {
-pos = (42,0);
+pos = (35,0);
 ref = "nna-beng.blws1";
 }
 );
@@ -154,11 +154,11 @@ shapes = (
 ref = "nn-beng.half";
 },
 {
-pos = (307,0);
+pos = (302,0);
 ref = "aaMatra-beng.side";
 },
 {
-pos = (42,-28);
+pos = (39,-28);
 ref = "nna-beng.blws1";
 }
 );
@@ -186,15 +186,15 @@ shapes = (
 ref = "nn-beng.half";
 },
 {
-pos = (307,0);
+pos = (302,0);
 ref = "aaMatra-beng.side";
 },
 {
-pos = (18,-41);
+pos = (24,-41);
 ref = "nna-beng.blws1";
 }
 );
-width = 513;
+width = 519;
 }
 );
 script = bengali;

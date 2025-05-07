@@ -138,11 +138,11 @@ pos = (311,-20);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (350,-69);
+pos = (365,-69);
 ref = "wa-beng.part";
 },
 {
-pos = (336,0);
+pos = (335,0);
 ref = "ttha-beng.topIMatra";
 }
 );
@@ -182,15 +182,15 @@ pos = (164,0);
 ref = "tth-beng.half";
 },
 {
-pos = (227,-129);
+pos = (221,-129);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (229,-139);
+pos = (221,-139);
 ref = "wa-beng.part";
 },
 {
-pos = (224,0);
+pos = (218,0);
 ref = "ttha-beng.topIMatra";
 }
 );
@@ -230,15 +230,15 @@ pos = (202,0);
 ref = "tth-beng.half";
 },
 {
-pos = (255,-108);
+pos = (250,-108);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (273,-138);
+pos = (266,-138);
 ref = "wa-beng.part";
 },
 {
-pos = (260,0);
+pos = (255,0);
 ref = "ttha-beng.topIMatra";
 }
 );
@@ -278,15 +278,15 @@ pos = (244,0);
 ref = "tth-beng.half";
 },
 {
-pos = (242,-38);
+pos = (247,-38);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (277,-84);
+pos = (282,-84);
 ref = "wa-beng.part";
 },
 {
-pos = (270,1);
+pos = (264,1);
 ref = "ttha-beng.topIMatra";
 }
 );

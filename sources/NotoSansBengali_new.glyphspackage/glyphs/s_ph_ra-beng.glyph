@@ -97,7 +97,7 @@ pos = (209,-267);
 ref = "raphala-beng.alt01";
 }
 );
-width = 1145;
+width = 1144;
 },
 {
 background = {
@@ -125,7 +125,7 @@ pos = (426,0);
 ref = "pha-beng.side";
 },
 {
-pos = (164,-141);
+pos = (165,-141);
 ref = "raphala-beng.alt01";
 }
 );
@@ -157,7 +157,7 @@ pos = (485,0);
 ref = "pha-beng.side";
 },
 {
-pos = (158,-177);
+pos = (160,-177);
 ref = "raphala-beng.alt01";
 }
 );
@@ -189,7 +189,7 @@ pos = (542,0);
 ref = "pha-beng.side";
 },
 {
-pos = (168,-252);
+pos = (159,-252);
 ref = "raphala-beng.alt01";
 }
 );

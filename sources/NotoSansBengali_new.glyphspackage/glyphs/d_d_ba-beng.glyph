@@ -22,7 +22,7 @@ shapes = (
 ref = "d_d-beng.half";
 },
 {
-pos = (377,-100);
+pos = (396,-100);
 ref = "baphala-beng.alt3";
 }
 );
@@ -70,7 +70,7 @@ shapes = (
 ref = "d_d-beng.half";
 },
 {
-pos = (372,-116);
+pos = (407,-116);
 ref = "baphala-beng.alt3";
 }
 );
@@ -94,7 +94,7 @@ shapes = (
 ref = "d_d-beng.half";
 },
 {
-pos = (293,-59);
+pos = (288,-59);
 ref = "baphala-beng.alt3";
 }
 );
@@ -118,7 +118,7 @@ shapes = (
 ref = "d_d-beng.half";
 },
 {
-pos = (283,-89);
+pos = (294,-89);
 ref = "baphala-beng.alt3";
 }
 );
@@ -142,7 +142,7 @@ shapes = (
 ref = "d_d-beng.half";
 },
 {
-pos = (287,-113);
+pos = (309,-113);
 ref = "baphala-beng.alt3";
 }
 );

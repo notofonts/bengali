@@ -36,7 +36,7 @@ alignment = -1;
 ref = "g-beng.half";
 },
 {
-pos = (173,20);
+pos = (148,20);
 ref = "dh_ba-beng.blws";
 },
 {
@@ -92,7 +92,7 @@ alignment = -1;
 ref = "g-beng.half";
 },
 {
-pos = (178,15);
+pos = (149,15);
 ref = "dh_ba-beng.blws";
 },
 {
@@ -142,11 +142,11 @@ alignment = -1;
 ref = "g-beng.half";
 },
 {
-pos = (163,30);
+pos = (145,30);
 ref = "dh_ba-beng.blws";
 },
 {
-pos = (216,-187);
+pos = (231,-187);
 ref = "wa-beng.part";
 },
 {
@@ -192,15 +192,15 @@ alignment = -1;
 ref = "g-beng.half";
 },
 {
-pos = (120,14);
+pos = (95,14);
 ref = "dh_ba-beng.blws";
 },
 {
-pos = (152,-146);
+pos = (144,-146);
 ref = "wa-beng.part";
 },
 {
-pos = (299,0);
+pos = (293,0);
 ref = "aaMatra-beng.side";
 },
 {
@@ -242,15 +242,15 @@ alignment = -1;
 ref = "g-beng.half";
 },
 {
-pos = (123,19);
+pos = (101,19);
 ref = "dh_ba-beng.blws";
 },
 {
-pos = (162,-182);
+pos = (155,-182);
 ref = "wa-beng.part";
 },
 {
-pos = (326,0);
+pos = (321,0);
 ref = "aaMatra-beng.side";
 },
 {
@@ -293,11 +293,11 @@ alignment = -1;
 ref = "g-beng.half";
 },
 {
-pos = (110,3);
+pos = (94,3);
 ref = "dh_ba-beng.blws";
 },
 {
-pos = (151,-213);
+pos = (156,-213);
 ref = "wa-beng.part";
 },
 {
@@ -306,11 +306,11 @@ pos = (333,0);
 ref = "aaMatra-beng.side";
 },
 {
-pos = (545,0);
+pos = (550,0);
 ref = "headline-beng.130";
 }
 );
-width = 712;
+width = 718;
 }
 );
 script = bengali;

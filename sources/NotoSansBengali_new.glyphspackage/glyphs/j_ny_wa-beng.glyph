@@ -94,7 +94,7 @@ pos = (139,-75);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (178,-124);
+pos = (193,-124);
 ref = "wa-beng.part";
 }
 );
@@ -122,11 +122,11 @@ shapes = (
 ref = "j_nya-beng";
 },
 {
-pos = (161,-119);
+pos = (155,-119);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (163,-129);
+pos = (155,-129);
 ref = "wa-beng.part";
 }
 );
@@ -154,11 +154,11 @@ shapes = (
 ref = "j_nya-beng";
 },
 {
-pos = (138,-112);
+pos = (133,-112);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (156,-142);
+pos = (149,-142);
 ref = "wa-beng.part";
 }
 );
@@ -186,11 +186,11 @@ shapes = (
 ref = "j_nya-beng";
 },
 {
-pos = (87,-85);
+pos = (92,-85);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (122,-131);
+pos = (127,-131);
 ref = "wa-beng.part";
 }
 );

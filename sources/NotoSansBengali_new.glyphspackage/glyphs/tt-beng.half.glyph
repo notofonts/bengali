@@ -57,7 +57,7 @@ shapes = (
 ref = "ddh-beng.half";
 },
 {
-pos = (267,0);
+pos = (-14,0);
 ref = "tta-beng.flag";
 }
 );
@@ -392,7 +392,7 @@ shapes = (
 ref = "ddh-beng.half";
 },
 {
-pos = (213,0);
+pos = (-28,0);
 ref = "tta-beng.flag";
 }
 );
@@ -452,7 +452,7 @@ shapes = (
 ref = "ddh-beng.half";
 },
 {
-pos = (289,0);
+pos = (-48,0);
 ref = "tta-beng.flag";
 }
 );
@@ -512,7 +512,7 @@ shapes = (
 ref = "ddh-beng.half";
 },
 {
-pos = (148,0);
+pos = (-30,0);
 ref = "tta-beng.flag";
 }
 );
@@ -572,7 +572,7 @@ shapes = (
 ref = "ddh-beng.half";
 },
 {
-pos = (202,0);
+pos = (-21,0);
 ref = "tta-beng.flag";
 }
 );
@@ -632,7 +632,7 @@ shapes = (
 ref = "ddh-beng.half";
 },
 {
-pos = (255,1);
+pos = (-25,1);
 ref = "tta-beng.flag";
 }
 );

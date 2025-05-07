@@ -74,7 +74,7 @@ alignment = -1;
 ref = "t_t-beng.half";
 },
 {
-pos = (48,-151);
+pos = (58,-151);
 ref = "raphala-beng.alt05";
 },
 {
@@ -158,11 +158,11 @@ alignment = -1;
 ref = "t_t-beng.half";
 },
 {
-pos = (38,-151);
+pos = (39,-151);
 ref = "raphala-beng.alt05";
 },
 {
-pos = (350,10);
+pos = (344,10);
 ref = "ka-beng.arm2";
 },
 {
@@ -204,7 +204,7 @@ pos = (14,-174);
 ref = "raphala-beng.alt05";
 },
 {
-pos = (399,38);
+pos = (394,38);
 ref = "ka-beng.arm2";
 },
 {
@@ -242,11 +242,11 @@ alignment = -1;
 ref = "t_t-beng.half";
 },
 {
-pos = (8,-238);
+pos = (3,-238);
 ref = "raphala-beng.alt05";
 },
 {
-pos = (449,64);
+pos = (457,64);
 ref = "ka-beng.arm2";
 },
 {

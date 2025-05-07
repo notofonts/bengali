@@ -38,7 +38,7 @@ pos = (858,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (858,0);
+pos = (497,0);
 ref = "tta-beng.flagIMatra2";
 }
 );
@@ -78,7 +78,7 @@ pos = (785,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (785,0);
+pos = (494,0);
 ref = "tta-beng.flagIMatra2";
 }
 );
@@ -118,7 +118,7 @@ pos = (936,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (936,0);
+pos = (453,0);
 ref = "tta-beng.flagIMatra2";
 }
 );
@@ -158,7 +158,7 @@ pos = (551,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (551,0);
+pos = (337,0);
 ref = "tta-beng.flagIMatra2";
 }
 );
@@ -198,7 +198,7 @@ pos = (660,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (660,0);
+pos = (367,0);
 ref = "tta-beng.flagIMatra2";
 }
 );
@@ -234,15 +234,15 @@ pos = (244,0);
 ref = "nn-beng.half";
 },
 {
-pos = (757,0);
+pos = (763,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (756,1);
+pos = (342,1);
 ref = "tta-beng.flagIMatra2";
 }
 );
-width = 976;
+width = 982;
 }
 );
 script = bengali;

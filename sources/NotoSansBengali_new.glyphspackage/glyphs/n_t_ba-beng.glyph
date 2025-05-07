@@ -122,11 +122,11 @@ shapes = (
 ref = "n-beng.half3";
 },
 {
-pos = (17,69);
+pos = (11,69);
 ref = "ta-beng.blws";
 },
 {
-pos = (196,-146);
+pos = (190,-146);
 ref = "baphala-beng.alt2";
 }
 );
@@ -154,11 +154,11 @@ shapes = (
 ref = "n-beng.half3";
 },
 {
-pos = (-5,54);
+pos = (-10,54);
 ref = "ta-beng.blws";
 },
 {
-pos = (199,-172);
+pos = (194,-172);
 ref = "baphala-beng.alt2";
 }
 );
@@ -186,11 +186,11 @@ shapes = (
 ref = "n-beng.half3";
 },
 {
-pos = (-20,4);
+pos = (-6,4);
 ref = "ta-beng.blws";
 },
 {
-pos = (189,-214);
+pos = (194,-214);
 ref = "baphala-beng.alt2";
 }
 );

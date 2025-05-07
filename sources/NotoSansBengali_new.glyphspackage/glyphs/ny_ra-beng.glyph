@@ -94,7 +94,7 @@ shapes = (
 ref = "nya-beng";
 },
 {
-pos = (98,-189);
+pos = (92,-189);
 ref = "raphala-beng.alt08";
 }
 );
@@ -118,7 +118,7 @@ shapes = (
 ref = "nya-beng";
 },
 {
-pos = (119,-216);
+pos = (114,-216);
 ref = "raphala-beng.alt08";
 }
 );
@@ -142,7 +142,7 @@ shapes = (
 ref = "nya-beng";
 },
 {
-pos = (133,-249);
+pos = (128,-249);
 ref = "raphala-beng.alt08";
 }
 );

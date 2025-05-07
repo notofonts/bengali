@@ -57,15 +57,15 @@ shapes = (
 ref = "sh-beng.half";
 },
 {
-pos = (682,0);
+pos = (681,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (347,-134);
+pos = (346,-134);
 ref = "raphala-beng.alt03";
 }
 );
-width = 942;
+width = 941;
 },
 {
 background = {
@@ -125,7 +125,7 @@ pos = (418,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (217,-84);
+pos = (211,-84);
 ref = "raphala-beng.alt03";
 }
 );
@@ -153,15 +153,15 @@ shapes = (
 ref = "sh-beng.half";
 },
 {
-pos = (507,0);
+pos = (508,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (248,-127);
+pos = (244,-127);
 ref = "raphala-beng.alt03";
 }
 );
-width = 709;
+width = 710;
 },
 {
 background = {
@@ -189,7 +189,7 @@ pos = (571,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (243,-199);
+pos = (238,-199);
 ref = "raphala-beng.alt03";
 }
 );

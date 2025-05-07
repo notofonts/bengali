@@ -158,11 +158,11 @@ alignment = -1;
 ref = "s-beng.half2";
 },
 {
-pos = (35,-136);
+pos = (29,-136);
 ref = "t_ra-beng.blws";
 },
 {
-pos = (342,-176);
+pos = (336,-176);
 ref = "ka-beng.arm2";
 },
 {
@@ -200,11 +200,11 @@ alignment = -1;
 ref = "s-beng.half2";
 },
 {
-pos = (25,-146);
+pos = (28,-146);
 ref = "t_ra-beng.blws";
 },
 {
-pos = (378,-149);
+pos = (373,-149);
 ref = "ka-beng.arm2";
 },
 {
@@ -246,7 +246,7 @@ pos = (20,-156);
 ref = "t_ra-beng.blws";
 },
 {
-pos = (448,-140);
+pos = (456,-140);
 ref = "ka-beng.arm2";
 },
 {

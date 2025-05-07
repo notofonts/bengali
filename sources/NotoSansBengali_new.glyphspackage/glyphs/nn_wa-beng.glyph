@@ -30,7 +30,7 @@ shapes = (
 ref = "nn-beng.half";
 },
 {
-pos = (130,55);
+pos = (135,55);
 ref = "baphala-beng.alt4";
 },
 {
@@ -70,7 +70,7 @@ shapes = (
 ref = "nn-beng.half";
 },
 {
-pos = (148,35);
+pos = (153,35);
 ref = "baphala-beng.alt4";
 },
 {
@@ -110,11 +110,11 @@ shapes = (
 ref = "nn-beng.half";
 },
 {
-pos = (127,36);
+pos = (137,36);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (150,-22);
+pos = (165,-22);
 ref = "wa-beng.part";
 },
 {
@@ -150,15 +150,15 @@ shapes = (
 ref = "nn-beng.half";
 },
 {
-pos = (102,35);
+pos = (100,35);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (115,-4);
+pos = (107,-4);
 ref = "wa-beng.part";
 },
 {
-pos = (281,0);
+pos = (275,0);
 ref = "aaMatra-beng.side";
 }
 );
@@ -190,15 +190,15 @@ shapes = (
 ref = "nn-beng.half";
 },
 {
-pos = (106,52);
+pos = (105,52);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (123,2);
+pos = (116,2);
 ref = "wa-beng.part";
 },
 {
-pos = (307,0);
+pos = (302,0);
 ref = "aaMatra-beng.side";
 }
 );
@@ -230,19 +230,19 @@ shapes = (
 ref = "nn-beng.half";
 },
 {
-pos = (94,39);
+pos = (99,39);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (112,-18);
+pos = (117,-18);
 ref = "wa-beng.part";
 },
 {
-pos = (307,0);
+pos = (302,0);
 ref = "aaMatra-beng.side";
 }
 );
-width = 513;
+width = 519;
 }
 );
 script = bengali;

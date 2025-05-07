@@ -74,7 +74,7 @@ pos = (562,0);
 ref = "pha-beng.side";
 }
 );
-width = 1025;
+width = 1024;
 },
 {
 background = {

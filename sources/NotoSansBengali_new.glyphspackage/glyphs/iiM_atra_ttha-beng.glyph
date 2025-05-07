@@ -26,7 +26,7 @@ shapes = (
 ref = "ttha-beng.notop";
 },
 {
-pos = (80,0);
+pos = (79,0);
 ref = "ttha-beng.topIiMatra";
 },
 {
@@ -226,7 +226,7 @@ shapes = (
 ref = "ttha-beng.notop";
 },
 {
-pos = (90,0);
+pos = (110,0);
 ref = "ttha-beng.topIiMatra";
 },
 {
@@ -234,7 +234,7 @@ pos = (506,0);
 ref = "iiMatra-beng.tthaAlt1";
 }
 );
-width = 741;
+width = 739;
 },
 {
 background = {
@@ -258,7 +258,7 @@ shapes = (
 ref = "ttha-beng.notop";
 },
 {
-pos = (70,0);
+pos = (116,0);
 ref = "ttha-beng.topIiMatra";
 },
 {
@@ -290,7 +290,7 @@ shapes = (
 ref = "ttha-beng.notop";
 },
 {
-pos = (62,0);
+pos = (69,0);
 ref = "ttha-beng.topIiMatra";
 },
 {
@@ -322,7 +322,7 @@ shapes = (
 ref = "ttha-beng.notop";
 },
 {
-pos = (60,0);
+pos = (64,0);
 ref = "ttha-beng.topIiMatra";
 },
 {
@@ -354,7 +354,7 @@ shapes = (
 ref = "ttha-beng.notop";
 },
 {
-pos = (52,1);
+pos = (94,1);
 ref = "ttha-beng.topIiMatra";
 },
 {

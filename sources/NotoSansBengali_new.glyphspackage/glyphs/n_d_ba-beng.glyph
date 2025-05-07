@@ -34,11 +34,11 @@ pos = (304,0);
 ref = "d-beng.half3";
 },
 {
-pos = (-12,10);
+pos = (25,10);
 ref = "n-beng.float";
 },
 {
-pos = (396,20);
+pos = (401,20);
 ref = "baphala-beng.alt4";
 }
 );
@@ -74,11 +74,11 @@ pos = (288,0);
 ref = "d-beng.half3";
 },
 {
-pos = (-13,16);
+pos = (40,16);
 ref = "n-beng.float";
 },
 {
-pos = (375,50);
+pos = (380,50);
 ref = "baphala-beng.alt4";
 }
 );
@@ -114,11 +114,10 @@ pos = (321,0);
 ref = "d-beng.half3";
 },
 {
-pos = (1,0);
 ref = "n-beng.float";
 },
 {
-pos = (415,6);
+pos = (425,6);
 ref = "baphala-beng.alt4";
 }
 );
@@ -154,11 +153,11 @@ pos = (192,0);
 ref = "d-beng.half3";
 },
 {
-pos = (-10,19);
+pos = (20,19);
 ref = "n-beng.float";
 },
 {
-pos = (261,51);
+pos = (259,51);
 ref = "baphala-beng.alt4";
 }
 );
@@ -194,11 +193,11 @@ pos = (225,0);
 ref = "d-beng.half3";
 },
 {
-pos = (-6,14);
+pos = (10,14);
 ref = "n-beng.float";
 },
 {
-pos = (299,25);
+pos = (298,25);
 ref = "baphala-beng.alt4";
 }
 );
@@ -234,11 +233,11 @@ pos = (250,0);
 ref = "d-beng.half3";
 },
 {
-pos = (5,8);
+pos = (-10,8);
 ref = "n-beng.float";
 },
 {
-pos = (331,7);
+pos = (336,7);
 ref = "baphala-beng.alt4";
 }
 );

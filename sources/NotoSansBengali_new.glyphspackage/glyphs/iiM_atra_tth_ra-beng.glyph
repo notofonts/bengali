@@ -34,7 +34,7 @@ pos = (3,-175);
 ref = "raphala-beng.alt06";
 },
 {
-pos = (80,0);
+pos = (79,0);
 ref = "ttha-beng.topIiMatra";
 },
 {
@@ -74,7 +74,7 @@ pos = (26,-136);
 ref = "raphala-beng.alt06";
 },
 {
-pos = (80,0);
+pos = (100,0);
 ref = "ttha-beng.topIiMatra";
 },
 {
@@ -82,7 +82,7 @@ pos = (486,0);
 ref = "iiMatra-beng.tthaAlt1";
 }
 );
-width = 721;
+width = 719;
 },
 {
 background = {
@@ -114,7 +114,7 @@ pos = (-36,-193);
 ref = "raphala-beng.alt06";
 },
 {
-pos = (60,0);
+pos = (106,0);
 ref = "ttha-beng.topIiMatra";
 },
 {
@@ -150,11 +150,11 @@ shapes = (
 ref = "tth-beng.half";
 },
 {
-pos = (17,-127);
+pos = (11,-127);
 ref = "raphala-beng.alt06";
 },
 {
-pos = (60,0);
+pos = (67,0);
 ref = "ttha-beng.topIiMatra";
 },
 {
@@ -190,11 +190,11 @@ shapes = (
 ref = "tth-beng.half";
 },
 {
-pos = (1,-168);
+pos = (-4,-168);
 ref = "raphala-beng.alt06";
 },
 {
-pos = (61,0);
+pos = (65,0);
 ref = "ttha-beng.topIiMatra";
 },
 {
@@ -230,11 +230,11 @@ shapes = (
 ref = "tth-beng.half";
 },
 {
-pos = (-39,-186);
+pos = (-44,-186);
 ref = "raphala-beng.alt06";
 },
 {
-pos = (40,1);
+pos = (82,1);
 ref = "ttha-beng.topIiMatra";
 },
 {

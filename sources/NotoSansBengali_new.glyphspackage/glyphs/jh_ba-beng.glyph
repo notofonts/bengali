@@ -100,7 +100,7 @@ alignment = -1;
 ref = "jh-beng.half";
 },
 {
-pos = (108,12);
+pos = (102,12);
 ref = "baphala-beng.alt1";
 }
 );
@@ -124,7 +124,7 @@ shapes = (
 ref = "jh-beng.half";
 },
 {
-pos = (84,-70);
+pos = (78,-70);
 ref = "baphala-beng.alt1";
 }
 );
@@ -148,7 +148,7 @@ shapes = (
 ref = "jh-beng.half";
 },
 {
-pos = (51,-50);
+pos = (44,-50);
 ref = "baphala-beng.alt1";
 }
 );

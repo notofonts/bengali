@@ -122,7 +122,7 @@ shapes = (
 ref = "th-beng.half";
 },
 {
-pos = (6,6);
+pos = (7,6);
 ref = "raphala-beng.alt01";
 },
 {
@@ -154,7 +154,7 @@ shapes = (
 ref = "th-beng.half";
 },
 {
-pos = (0,-59);
+pos = (2,-59);
 ref = "raphala-beng.alt01";
 },
 {
@@ -186,7 +186,7 @@ shapes = (
 ref = "th-beng.half";
 },
 {
-pos = (7,-92);
+pos = (-2,-92);
 ref = "raphala-beng.alt01";
 },
 {

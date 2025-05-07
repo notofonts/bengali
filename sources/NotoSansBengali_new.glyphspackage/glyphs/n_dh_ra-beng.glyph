@@ -48,11 +48,11 @@ pos = (278,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (-20,7);
+pos = (17,7);
 ref = "n-beng.float";
 },
 {
-pos = (83,45);
+pos = (88,45);
 ref = "baphala-beng.alt4";
 },
 {
@@ -114,11 +114,11 @@ pos = (274,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (-11,-12);
+pos = (42,-12);
 ref = "n-beng.float";
 },
 {
-pos = (91,35);
+pos = (96,35);
 ref = "baphala-beng.alt4";
 },
 {
@@ -126,7 +126,7 @@ pos = (-5,-138);
 ref = "raphala-beng.alt11";
 },
 {
-pos = (365,-5);
+pos = (361,-5);
 ref = "dha-beng.part";
 },
 {
@@ -180,11 +180,11 @@ pos = (284,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (-5,0);
+pos = (-6,0);
 ref = "n-beng.float";
 },
 {
-pos = (70,40);
+pos = (80,40);
 ref = "baphala-beng.alt4";
 },
 {
@@ -192,7 +192,7 @@ pos = (-15,-305);
 ref = "raphala-beng.alt11";
 },
 {
-pos = (431,22);
+pos = (416,22);
 ref = "dha-beng.part";
 },
 {
@@ -246,19 +246,19 @@ pos = (195,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (-6,-7);
+pos = (24,-7);
 ref = "n-beng.float";
 },
 {
-pos = (65,32);
+pos = (63,32);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (-2,-120);
+pos = (-8,-120);
 ref = "raphala-beng.alt11";
 },
 {
-pos = (258,-11);
+pos = (248,-11);
 ref = "dha-beng.part";
 },
 {
@@ -312,19 +312,19 @@ pos = (216,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (-6,5);
+pos = (10,5);
 ref = "n-beng.float";
 },
 {
-pos = (66,44);
+pos = (65,44);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (-7,-175);
+pos = (-12,-175);
 ref = "raphala-beng.alt11";
 },
 {
-pos = (313,14);
+pos = (305,14);
 ref = "dha-beng.part";
 },
 {
@@ -332,7 +332,7 @@ pos = (418,0);
 ref = "headline-beng.130";
 }
 );
-width = 524;
+width = 525;
 },
 {
 background = {
@@ -384,15 +384,15 @@ pos = (-4,1);
 ref = "n-beng.float";
 },
 {
-pos = (50,51);
+pos = (55,51);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (-18,-265);
+pos = (-24,-265);
 ref = "raphala-beng.alt11";
 },
 {
-pos = (338,31);
+pos = (318,31);
 ref = "dha-beng.part";
 },
 {
@@ -400,7 +400,7 @@ pos = (474,0);
 ref = "headline-beng.130";
 }
 );
-width = 636;
+width = 642;
 }
 );
 script = bengali;

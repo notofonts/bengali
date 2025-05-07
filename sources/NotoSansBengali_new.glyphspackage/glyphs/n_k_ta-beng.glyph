@@ -43,7 +43,7 @@ pos = (394,0);
 ref = "aaMatra-beng.part.short";
 },
 {
-pos = (109,38);
+pos = (162,38);
 ref = "n-beng.float";
 },
 {
@@ -59,7 +59,7 @@ pos = (614,0);
 ref = "headline-beng.200";
 }
 );
-width = 780;
+width = 778;
 },
 {
 background = {
@@ -102,7 +102,7 @@ pos = (423,0);
 ref = "aaMatra-beng.part.short";
 },
 {
-pos = (125,37);
+pos = (162,37);
 ref = "n-beng.float";
 },
 {
@@ -164,7 +164,7 @@ pos = (492,0);
 ref = "aaMatra-beng.part.short";
 },
 {
-pos = (203,0);
+pos = (202,0);
 ref = "n-beng.float";
 },
 {
@@ -223,15 +223,15 @@ pos = (261,0);
 ref = "aaMatra-beng.part.short";
 },
 {
-pos = (61,38);
+pos = (91,38);
 ref = "n-beng.float";
 },
 {
-pos = (-26,-30);
+pos = (-32,-30);
 ref = "ta_uMatra-beng.blws";
 },
 {
-pos = (337,-195);
+pos = (331,-195);
 ref = "ka-beng.arm2";
 },
 {
@@ -279,15 +279,15 @@ pos = (320,0);
 ref = "aaMatra-beng.part.short";
 },
 {
-pos = (98,37);
+pos = (114,37);
 ref = "n-beng.float";
 },
 {
-pos = (-25,-47);
+pos = (-30,-47);
 ref = "ta_uMatra-beng.blws";
 },
 {
-pos = (421,-188);
+pos = (416,-188);
 ref = "ka-beng.arm2";
 },
 {
@@ -337,15 +337,15 @@ pos = (386,0);
 ref = "aaMatra-beng.part.short";
 },
 {
-pos = (159,6);
+pos = (144,6);
 ref = "n-beng.float";
 },
 {
-pos = (-32,-62);
+pos = (-23,-62);
 ref = "ta_uMatra-beng.blws";
 },
 {
-pos = (532,-196);
+pos = (540,-196);
 ref = "ka-beng.arm2";
 },
 {

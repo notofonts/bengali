@@ -94,7 +94,7 @@ shapes = (
 ref = "c-beng.half1";
 },
 {
-pos = (40,-73);
+pos = (34,-73);
 ref = "baphala-beng.alt2";
 }
 );
@@ -118,7 +118,7 @@ shapes = (
 ref = "c-beng.half1";
 },
 {
-pos = (36,-55);
+pos = (31,-55);
 ref = "baphala-beng.alt2";
 }
 );
@@ -142,7 +142,7 @@ shapes = (
 ref = "c-beng.half1";
 },
 {
-pos = (-9,-40);
+pos = (-4,-40);
 ref = "baphala-beng.alt2";
 }
 );

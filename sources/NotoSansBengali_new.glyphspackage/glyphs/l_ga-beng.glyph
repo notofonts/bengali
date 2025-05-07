@@ -94,7 +94,7 @@ pos = (414,0);
 ref = "aaMatra-beng.part2";
 },
 {
-pos = (57,-88);
+pos = (87,-88);
 ref = "ga-beng.blws";
 }
 );
@@ -126,7 +126,7 @@ pos = (265,0);
 ref = "aaMatra-beng.part2";
 },
 {
-pos = (50,-56);
+pos = (44,-56);
 ref = "ga-beng.blws";
 }
 );
@@ -190,7 +190,7 @@ pos = (342,0);
 ref = "aaMatra-beng.part2";
 },
 {
-pos = (51,-85);
+pos = (76,-85);
 ref = "ga-beng.blws";
 }
 );

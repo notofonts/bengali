@@ -179,16 +179,14 @@ ref = "nukta-beng";
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
-alignment = -1;
 ref = "dda-beng";
 },
 {
-alignment = -1;
 pos = (303,0);
 ref = "nukta-beng";
 }
 );
-width = 537;
+width = 542;
 },
 {
 anchors = (

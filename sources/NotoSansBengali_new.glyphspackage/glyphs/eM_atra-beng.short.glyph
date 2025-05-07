@@ -161,8 +161,8 @@ nodes = (
 (206,593,c),
 (239,589,l),
 (239,607,l),
-(-7,607,l),
-(-7,589,l)
+(-8,607,l),
+(-8,589,l)
 );
 },
 {
@@ -170,7 +170,7 @@ alignment = -1;
 ref = "eMatra-beng.short.init";
 }
 );
-width = 231;
+width = 241;
 },
 {
 background = {

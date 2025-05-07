@@ -94,7 +94,7 @@ shapes = (
 ref = "ss_ttha-beng.notop";
 },
 {
-pos = (158,0);
+pos = (152,0);
 ref = "ttha-beng.top2";
 }
 );
@@ -118,7 +118,7 @@ shapes = (
 ref = "ss_ttha-beng.notop";
 },
 {
-pos = (141,0);
+pos = (136,0);
 ref = "ttha-beng.top2";
 }
 );
@@ -142,7 +142,7 @@ shapes = (
 ref = "ss_ttha-beng.notop";
 },
 {
-pos = (154,1);
+pos = (164,1);
 ref = "ttha-beng.top2";
 }
 );

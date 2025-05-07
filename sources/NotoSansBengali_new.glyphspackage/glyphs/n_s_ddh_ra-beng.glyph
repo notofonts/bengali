@@ -125,7 +125,7 @@ pos = (496,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (295,-84);
+pos = (289,-84);
 ref = "raphala-beng.alt03";
 }
 );
@@ -157,7 +157,7 @@ pos = (554,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (295,-127);
+pos = (290,-127);
 ref = "raphala-beng.alt03";
 }
 );
@@ -189,7 +189,7 @@ pos = (610,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (282,-199);
+pos = (277,-199);
 ref = "raphala-beng.alt03";
 }
 );

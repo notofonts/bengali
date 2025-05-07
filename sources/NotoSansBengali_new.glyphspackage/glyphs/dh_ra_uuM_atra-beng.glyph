@@ -90,7 +90,7 @@ shapes = (
 ref = "dh-beng.half";
 },
 {
-pos = (-19,-136);
+pos = (-39,-136);
 ref = "raphala-beng.alt14";
 },
 {
@@ -122,7 +122,7 @@ shapes = (
 ref = "dh-beng.half";
 },
 {
-pos = (18,11);
+pos = (12,11);
 ref = "raphala-beng.alt14";
 },
 {
@@ -154,7 +154,7 @@ shapes = (
 ref = "dh-beng.half";
 },
 {
-pos = (1,-59);
+pos = (2,-59);
 ref = "raphala-beng.alt14";
 },
 {
@@ -186,7 +186,7 @@ shapes = (
 ref = "dh-beng.half";
 },
 {
-pos = (-8,-124);
+pos = (-20,-124);
 ref = "raphala-beng.alt14";
 },
 {

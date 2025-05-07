@@ -94,7 +94,7 @@ pos = (611,0);
 ref = "ba-beng.side";
 },
 {
-pos = (531,161);
+pos = (546,161);
 ref = "wa-beng.part";
 }
 );
@@ -126,7 +126,7 @@ pos = (393,0);
 ref = "ba-beng.side";
 },
 {
-pos = (352,130);
+pos = (344,130);
 ref = "wa-beng.part";
 }
 );
@@ -158,7 +158,7 @@ pos = (446,0);
 ref = "ba-beng.side";
 },
 {
-pos = (389,137);
+pos = (382,137);
 ref = "wa-beng.part";
 }
 );
@@ -190,7 +190,7 @@ pos = (471,0);
 ref = "ba-beng.side";
 },
 {
-pos = (408,157);
+pos = (413,157);
 ref = "wa-beng.part";
 }
 );

@@ -156,7 +156,7 @@ alignment = -1;
 ref = "dd-beng.half";
 },
 {
-pos = (174,-92);
+pos = (168,-92);
 ref = "baphala-beng.alt2";
 },
 {
@@ -216,7 +216,7 @@ pos = (371,0);
 ref = "headline-beng.200";
 }
 );
-width = 521;
+width = 522;
 },
 {
 background = {

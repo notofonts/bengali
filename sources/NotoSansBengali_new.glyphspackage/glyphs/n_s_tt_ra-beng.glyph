@@ -33,7 +33,7 @@ pos = (707,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (687,0);
+pos = (446,0);
 ref = "tta-beng.flag";
 },
 {
@@ -73,7 +73,7 @@ pos = (738,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (738,0);
+pos = (457,0);
 ref = "tta-beng.flag";
 },
 {
@@ -113,7 +113,7 @@ pos = (770,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (766,0);
+pos = (429,0);
 ref = "tta-beng.flag";
 },
 {
@@ -153,11 +153,11 @@ pos = (496,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (484,0);
+pos = (306,0);
 ref = "tta-beng.flag";
 },
 {
-pos = (295,-84);
+pos = (289,-84);
 ref = "raphala-beng.alt03";
 }
 );
@@ -193,11 +193,11 @@ pos = (554,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (553,0);
+pos = (330,0);
 ref = "tta-beng.flag";
 },
 {
-pos = (295,-127);
+pos = (290,-127);
 ref = "raphala-beng.alt03";
 }
 );
@@ -233,11 +233,11 @@ pos = (610,0);
 ref = "ddh-beng.side";
 },
 {
-pos = (606,1);
+pos = (326,1);
 ref = "tta-beng.flag";
 },
 {
-pos = (282,-199);
+pos = (277,-199);
 ref = "raphala-beng.alt03";
 }
 );

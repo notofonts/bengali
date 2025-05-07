@@ -70,7 +70,7 @@ shapes = (
 ref = "j_j_ba-beng";
 },
 {
-pos = (796,-211);
+pos = (811,-211);
 ref = "wa-beng.part";
 }
 );
@@ -94,7 +94,7 @@ shapes = (
 ref = "j_j_ba-beng";
 },
 {
-pos = (492,-141);
+pos = (484,-141);
 ref = "wa-beng.part";
 }
 );
@@ -118,7 +118,7 @@ shapes = (
 ref = "j_j_ba-beng";
 },
 {
-pos = (559,-174);
+pos = (552,-174);
 ref = "wa-beng.part";
 }
 );
@@ -142,7 +142,7 @@ shapes = (
 ref = "j_j_ba-beng";
 },
 {
-pos = (627,-205);
+pos = (632,-205);
 ref = "wa-beng.part";
 }
 );

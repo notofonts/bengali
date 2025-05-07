@@ -130,7 +130,7 @@ alignment = -1;
 ref = "ha-beng";
 },
 {
-pos = (257,-20);
+pos = (251,-20);
 ref = "ka-beng.arm2";
 },
 {
@@ -164,7 +164,7 @@ alignment = -1;
 ref = "ha-beng";
 },
 {
-pos = (283,9);
+pos = (278,9);
 ref = "ka-beng.arm2";
 },
 {
@@ -198,7 +198,7 @@ alignment = -1;
 ref = "ha-beng";
 },
 {
-pos = (315,43);
+pos = (323,43);
 ref = "ka-beng.arm2";
 },
 {

@@ -46,7 +46,7 @@ shapes = (
 ref = "bh-beng.half";
 },
 {
-pos = (40,17);
+pos = (52,17);
 ref = "la-beng.blws1";
 }
 );
@@ -94,7 +94,7 @@ shapes = (
 ref = "bh-beng.half";
 },
 {
-pos = (25,8);
+pos = (27,8);
 ref = "la-beng.blws1";
 }
 );
@@ -118,7 +118,7 @@ shapes = (
 ref = "bh-beng.half";
 },
 {
-pos = (24,-9);
+pos = (10,-9);
 ref = "la-beng.blws1";
 }
 );
@@ -142,7 +142,7 @@ shapes = (
 ref = "bh-beng.half";
 },
 {
-pos = (24,-43);
+pos = (18,-43);
 ref = "la-beng.blws1";
 }
 );

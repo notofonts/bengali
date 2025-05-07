@@ -30,7 +30,7 @@ pos = (266,0);
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (497,0);
+pos = (205,0);
 ref = "tta-beng.flagIMatra3";
 }
 );
@@ -68,7 +68,7 @@ pos = (233,0);
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (418,0);
+pos = (210,0);
 ref = "tta-beng.flagIMatra3";
 }
 );
@@ -100,7 +100,7 @@ pos = (290,0);
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (609,0);
+pos = (242,0);
 ref = "tta-beng.flagIMatra3";
 }
 );
@@ -132,7 +132,7 @@ pos = (164,0);
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (300,0);
+pos = (143,0);
 ref = "tta-beng.flagIMatra3";
 }
 );
@@ -164,7 +164,7 @@ pos = (202,0);
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (395,0);
+pos = (163,0);
 ref = "tta-beng.flagIMatra3";
 }
 );
@@ -196,7 +196,7 @@ pos = (244,0);
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (518,1);
+pos = (209,1);
 ref = "tta-beng.flagIMatra3";
 }
 );

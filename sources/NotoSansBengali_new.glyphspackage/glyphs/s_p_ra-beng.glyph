@@ -134,7 +134,7 @@ pos = (302,0);
 ref = "p-beng.half2";
 },
 {
-pos = (254,0);
+pos = (248,0);
 ref = "raphala-beng.alt12";
 }
 );
@@ -168,11 +168,11 @@ pos = (323,0);
 ref = "p-beng.half2";
 },
 {
-pos = (252,-22);
+pos = (246,-22);
 ref = "raphala-beng.alt12";
 }
 );
-width = 887;
+width = 886;
 },
 {
 background = {

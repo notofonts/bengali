@@ -28,7 +28,7 @@ alignment = -1;
 ref = "d-beng.half3";
 },
 {
-pos = (92,40);
+pos = (67,40);
 ref = "dh_ba-beng.blws";
 },
 {
@@ -62,7 +62,7 @@ alignment = -1;
 ref = "d-beng.half3";
 },
 {
-pos = (87,65);
+pos = (58,65);
 ref = "dh_ba-beng.blws";
 },
 {
@@ -96,7 +96,7 @@ alignment = -1;
 ref = "d-beng.half3";
 },
 {
-pos = (86,16);
+pos = (68,16);
 ref = "dh_ba-beng.blws";
 },
 {
@@ -104,7 +104,7 @@ pos = (594,0);
 ref = "headline-beng.130";
 }
 );
-width = 784;
+width = 785;
 },
 {
 background = {
@@ -130,7 +130,7 @@ alignment = -1;
 ref = "d-beng.half3";
 },
 {
-pos = (69,65);
+pos = (44,65);
 ref = "dh_ba-beng.blws";
 },
 {
@@ -164,7 +164,7 @@ alignment = -1;
 ref = "d-beng.half3";
 },
 {
-pos = (72,44);
+pos = (50,44);
 ref = "dh_ba-beng.blws";
 },
 {
@@ -172,7 +172,7 @@ pos = (407,0);
 ref = "headline-beng.130";
 }
 );
-width = 509;
+width = 514;
 },
 {
 background = {
@@ -198,7 +198,7 @@ alignment = -1;
 ref = "d-beng.half3";
 },
 {
-pos = (71,-2);
+pos = (55,-2);
 ref = "dh_ba-beng.blws";
 },
 {

@@ -26,7 +26,7 @@ shapes = (
 ref = "ch-beng.half";
 },
 {
-pos = (136,-137);
+pos = (155,-137);
 ref = "baphala-beng.alt3";
 },
 {
@@ -90,11 +90,11 @@ shapes = (
 ref = "ch-beng.half";
 },
 {
-pos = (119,-98);
+pos = (154,-98);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (155,-107);
+pos = (170,-107);
 ref = "wa-beng.part";
 }
 );
@@ -122,11 +122,11 @@ shapes = (
 ref = "ch-beng.half";
 },
 {
-pos = (108,-120);
+pos = (103,-120);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (107,-126);
+pos = (99,-126);
 ref = "wa-beng.part";
 }
 );
@@ -154,11 +154,11 @@ shapes = (
 ref = "ch-beng.half";
 },
 {
-pos = (102,-130);
+pos = (113,-130);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (120,-121);
+pos = (113,-121);
 ref = "wa-beng.part";
 }
 );
@@ -186,15 +186,15 @@ shapes = (
 ref = "ch-beng.half";
 },
 {
-pos = (84,-105);
+pos = (106,-105);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (115,-110);
+pos = (120,-110);
 ref = "wa-beng.part";
 }
 );
-width = 520;
+width = 524;
 }
 );
 script = bengali;

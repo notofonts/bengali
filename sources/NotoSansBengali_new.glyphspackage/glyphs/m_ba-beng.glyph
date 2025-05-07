@@ -28,7 +28,7 @@ alignment = -1;
 ref = "m-beng.half";
 },
 {
-pos = (113,126);
+pos = (118,126);
 ref = "baphala-beng.alt4";
 },
 {
@@ -62,7 +62,7 @@ alignment = -1;
 ref = "m-beng.half";
 },
 {
-pos = (127,96);
+pos = (132,96);
 ref = "baphala-beng.alt4";
 },
 {
@@ -96,7 +96,7 @@ alignment = -1;
 ref = "m-beng.half";
 },
 {
-pos = (95,123);
+pos = (105,123);
 ref = "baphala-beng.alt4";
 },
 {
@@ -130,7 +130,7 @@ alignment = -1;
 ref = "m-beng.half";
 },
 {
-pos = (86,96);
+pos = (84,96);
 ref = "baphala-beng.alt4";
 },
 {
@@ -164,7 +164,7 @@ alignment = -1;
 ref = "m-beng.half";
 },
 {
-pos = (81,121);
+pos = (80,121);
 ref = "baphala-beng.alt4";
 },
 {
@@ -198,7 +198,7 @@ alignment = -1;
 ref = "m-beng.half";
 },
 {
-pos = (64,124);
+pos = (69,124);
 ref = "baphala-beng.alt4";
 },
 {

@@ -30,7 +30,7 @@ pos = (553,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (-12,-7);
+pos = (25,-7);
 ref = "n-beng.float";
 }
 );
@@ -68,7 +68,7 @@ pos = (503,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (-3,-25);
+pos = (50,-25);
 ref = "n-beng.float";
 }
 );
@@ -100,7 +100,7 @@ pos = (601,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (1,-10);
+pos = (0,-10);
 ref = "n-beng.float";
 }
 );
@@ -132,7 +132,7 @@ pos = (345,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (-10,-25);
+pos = (20,-25);
 ref = "n-beng.float";
 }
 );
@@ -164,7 +164,7 @@ pos = (419,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (-6,-9);
+pos = (10,-9);
 ref = "n-beng.float";
 }
 );
@@ -196,7 +196,7 @@ pos = (484,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (5,-9);
+pos = (-10,-9);
 ref = "n-beng.float";
 }
 );

@@ -126,7 +126,7 @@ pos = (218,0);
 ref = "ch-beng.half";
 },
 {
-pos = (234,-87);
+pos = (228,-87);
 ref = "raphala-beng.alt07";
 }
 );
@@ -158,7 +158,7 @@ pos = (272,0);
 ref = "ch-beng.half";
 },
 {
-pos = (280,-133);
+pos = (275,-133);
 ref = "raphala-beng.alt07";
 }
 );
@@ -190,11 +190,11 @@ pos = (350,0);
 ref = "ch-beng.half";
 },
 {
-pos = (355,-201);
+pos = (350,-201);
 ref = "raphala-beng.alt07";
 }
 );
-width = 870;
+width = 874;
 }
 );
 script = bengali;
