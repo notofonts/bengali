@@ -332,7 +332,6 @@ ref = "tta-beng.flag";
 layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
 shapes = (
 {
-alignment = -1;
 ref = "ddha-beng";
 },
 {
