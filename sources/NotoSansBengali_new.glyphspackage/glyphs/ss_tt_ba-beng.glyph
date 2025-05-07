@@ -29,7 +29,7 @@ pos = (-13,0);
 ref = "tta-beng.flag3";
 },
 {
-pos = (103,-188);
+pos = (103,-189);
 ref = "baphala-beng.alt3";
 }
 );

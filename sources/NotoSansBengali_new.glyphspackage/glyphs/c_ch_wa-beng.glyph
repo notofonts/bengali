@@ -74,11 +74,11 @@ pos = (313,0);
 ref = "ch-beng.half";
 },
 {
-pos = (473,-118);
+pos = (473,-120);
 ref = "baphala-beng.alt3";
 },
 {
-pos = (467,-123);
+pos = (467,-125);
 ref = "wa-beng.part";
 }
 );

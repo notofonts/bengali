@@ -38,7 +38,7 @@ pos = (210,0);
 ref = "tta-beng.flagIMatra3";
 },
 {
-pos = (336,-188);
+pos = (336,-189);
 ref = "baphala-beng.alt3";
 }
 );

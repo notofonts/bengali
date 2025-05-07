@@ -30,7 +30,7 @@ shapes = (
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (103,-188);
+pos = (103,-189);
 ref = "baphala-beng.alt3";
 },
 {

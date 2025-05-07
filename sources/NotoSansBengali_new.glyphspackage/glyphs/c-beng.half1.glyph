@@ -499,7 +499,7 @@ width = 552;
 anchors = (
 {
 name = bottom;
-pos = (314,172);
+pos = (314,171);
 },
 {
 name = top_candrabindu;

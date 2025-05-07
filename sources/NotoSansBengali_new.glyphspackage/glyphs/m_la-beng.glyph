@@ -46,7 +46,7 @@ shapes = (
 ref = "m-beng.half2";
 },
 {
-pos = (59,0);
+pos = (59,-2);
 ref = "la-beng.blws2";
 }
 );

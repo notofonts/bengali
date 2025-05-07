@@ -46,7 +46,7 @@ shapes = (
 ref = "ch-beng.half";
 },
 {
-pos = (160,-118);
+pos = (160,-120);
 ref = "baphala-beng.alt3";
 }
 );
