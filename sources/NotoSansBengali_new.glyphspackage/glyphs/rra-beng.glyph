@@ -12,12 +12,8 @@ pos = (402,-258);
 background = {
 anchors = (
 {
-name = Anchor8;
-pos = (356,622);
-},
-{
-name = top_candrabindu;
-pos = (366,622);
+name = bottom_mark;
+pos = (402,-258);
 }
 );
 shapes = (
@@ -25,7 +21,7 @@ shapes = (
 ref = "dda-beng";
 },
 {
-pos = (405,45);
+pos = (405,0);
 ref = "nukta-beng";
 }
 );
@@ -52,22 +48,16 @@ pos = (452,-230);
 background = {
 anchors = (
 {
-name = Anchor8;
-pos = (347,622);
-},
-{
-name = top_candrabindu;
-pos = (373,622);
+name = bottom_mark;
+pos = (452,-230);
 }
 );
 shapes = (
 {
-alignment = -1;
 ref = "dda-beng";
 },
 {
-alignment = -1;
-pos = (394,49);
+pos = (414,0);
 ref = "nukta-beng";
 }
 );
@@ -94,12 +84,8 @@ pos = (382,-308);
 background = {
 anchors = (
 {
-name = Anchor8;
-pos = (387,622);
-},
-{
-name = top_candrabindu;
-pos = (378,622);
+name = bottom_mark;
+pos = (382,-308);
 }
 );
 shapes = (
@@ -107,7 +93,7 @@ shapes = (
 ref = "dda-beng";
 },
 {
-pos = (413,11);
+pos = (413,0);
 ref = "nukta-beng";
 }
 );
@@ -131,6 +117,25 @@ name = bottom_mark;
 pos = (311,-204);
 }
 );
+background = {
+anchors = (
+{
+name = bottom_mark;
+pos = (311,-204);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = "dda-beng";
+},
+{
+alignment = -1;
+pos = (287,0);
+ref = "nukta-beng";
+}
+);
+};
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
@@ -152,6 +157,25 @@ name = bottom_mark;
 pos = (302,-214);
 }
 );
+background = {
+anchors = (
+{
+name = bottom_mark;
+pos = (302,-214);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = "dda-beng";
+},
+{
+alignment = -1;
+pos = (303,0);
+ref = "nukta-beng";
+}
+);
+};
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
@@ -173,6 +197,23 @@ name = bottom_mark;
 pos = (279,-287);
 }
 );
+background = {
+anchors = (
+{
+name = bottom_mark;
+pos = (279,-287);
+}
+);
+shapes = (
+{
+ref = "dda-beng";
+},
+{
+pos = (322,0);
+ref = "nukta-beng";
+}
+);
+};
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {

@@ -6,19 +6,21 @@ glyphname = "iMatra_tt_ba-beng";
 layers = (
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (283,622);
-}
-);
 shapes = (
 {
-ref = "tta-beng";
+ref = "iMatra-beng.ttaAlt1";
 },
 {
-pos = (532,57);
-ref = basubscriptbeng;
+pos = (266,0);
+ref = "ddh-beng.half";
+},
+{
+pos = (320,-58);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (533,0);
+ref = "tta-beng.flagIMatra1";
 }
 );
 };
@@ -44,21 +46,21 @@ width = 793;
 },
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (274,622);
-}
-);
 shapes = (
 {
-alignment = -1;
-ref = "tta-beng";
+ref = "iMatra-beng.ttaAlt1";
 },
 {
-alignment = -1;
-pos = (486,79);
-ref = basubscriptbeng;
+pos = (233,0);
+ref = "ddh-beng.half";
+},
+{
+pos = (303,-74);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (446,0);
+ref = "tta-beng.flagIMatra1";
 }
 );
 };
@@ -84,19 +86,21 @@ width = 737;
 },
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (303,622);
-}
-);
 shapes = (
 {
-ref = "tta-beng";
+ref = "iMatra-beng.ttaAlt1";
 },
 {
-pos = (580,61);
-ref = basubscriptbeng;
+pos = (290,0);
+ref = "ddh-beng.half";
+},
+{
+pos = (291,-28);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (579,0);
+ref = "tta-beng.flagIMatra1";
 }
 );
 };
@@ -121,6 +125,25 @@ ref = "tta-beng.flagIMatra1";
 width = 854;
 },
 {
+background = {
+shapes = (
+{
+ref = "iMatra-beng.ttaAlt1";
+},
+{
+pos = (164,0);
+ref = "ddh-beng.half";
+},
+{
+pos = (205,-74);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (312,0);
+ref = "tta-beng.flagIMatra1";
+}
+);
+};
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
@@ -142,6 +165,25 @@ ref = "tta-beng.flagIMatra1";
 width = 512;
 },
 {
+background = {
+shapes = (
+{
+ref = "iMatra-beng.ttaAlt1";
+},
+{
+pos = (202,0);
+ref = "ddh-beng.half";
+},
+{
+pos = (233,-67);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (403,0);
+ref = "tta-beng.flagIMatra1";
+}
+);
+};
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
@@ -163,6 +205,25 @@ ref = "tta-beng.flagIMatra1";
 width = 607;
 },
 {
+background = {
+shapes = (
+{
+ref = "iMatra-beng.ttaAlt1";
+},
+{
+pos = (244,0);
+ref = "ddh-beng.half";
+},
+{
+pos = (236,-43);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (499,1);
+ref = "tta-beng.flagIMatra1";
+}
+);
+};
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {

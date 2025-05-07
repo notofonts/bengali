@@ -4,6 +4,17 @@ export = 0;
 glyphname = "t_th_ra-beng";
 layers = (
 {
+background = {
+shapes = (
+{
+ref = "t_tha-beng";
+},
+{
+pos = (79,-44);
+ref = "raphala-beng.alt01";
+}
+);
+};
 layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
 shapes = (
 {
@@ -17,6 +28,17 @@ ref = "raphala-beng.alt01";
 width = 658;
 },
 {
+background = {
+shapes = (
+{
+ref = "t_tha-beng";
+},
+{
+pos = (92,-90);
+ref = "raphala-beng.alt01";
+}
+);
+};
 layerId = UUID0;
 shapes = (
 {
@@ -30,6 +52,17 @@ ref = "raphala-beng.alt01";
 width = 735;
 },
 {
+background = {
+shapes = (
+{
+ref = "t_tha-beng";
+},
+{
+pos = (110,-138);
+ref = "raphala-beng.alt01";
+}
+);
+};
 layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
 shapes = (
 {
@@ -43,6 +76,17 @@ ref = "raphala-beng.alt01";
 width = 822;
 },
 {
+background = {
+shapes = (
+{
+ref = "t_tha-beng";
+},
+{
+pos = (56,-43);
+ref = "raphala-beng.alt01";
+}
+);
+};
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
@@ -56,6 +100,17 @@ ref = "raphala-beng.alt01";
 width = 463;
 },
 {
+background = {
+shapes = (
+{
+ref = "t_tha-beng";
+},
+{
+pos = (71,-83);
+ref = "raphala-beng.alt01";
+}
+);
+};
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
@@ -69,6 +124,17 @@ ref = "raphala-beng.alt01";
 width = 560;
 },
 {
+background = {
+shapes = (
+{
+ref = "t_tha-beng";
+},
+{
+pos = (94,-129);
+ref = "raphala-beng.alt01";
+}
+);
+};
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {

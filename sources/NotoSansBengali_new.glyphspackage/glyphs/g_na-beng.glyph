@@ -5,6 +5,21 @@ export = 0;
 glyphname = "g_na-beng";
 layers = (
 {
+background = {
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (117,0);
+ref = "na-beng.blws1";
+},
+{
+pos = (443,0);
+ref = "aaMatra-beng.side";
+}
+);
+};
 layerId = UUID0;
 shapes = (
 {
@@ -22,6 +37,21 @@ ref = "aaMatra-beng.side";
 width = 635;
 },
 {
+background = {
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (140,0);
+ref = "na-beng.blws1";
+},
+{
+pos = (435,0);
+ref = "aaMatra-beng.side";
+}
+);
+};
 layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
 shapes = (
 {
@@ -39,6 +69,21 @@ ref = "aaMatra-beng.side";
 width = 582;
 },
 {
+background = {
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (113,9);
+ref = "na-beng.blws1";
+},
+{
+pos = (443,0);
+ref = "aaMatra-beng.side";
+}
+);
+};
 layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
 shapes = (
 {
@@ -56,6 +101,21 @@ ref = "aaMatra-beng.side";
 width = 689;
 },
 {
+background = {
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (93,0);
+ref = "na-beng.blws1";
+},
+{
+pos = (299,0);
+ref = "aaMatra-beng.side";
+}
+);
+};
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
@@ -73,6 +133,21 @@ ref = "aaMatra-beng.side";
 width = 405;
 },
 {
+background = {
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (84,0);
+ref = "na-beng.blws1";
+},
+{
+pos = (326,0);
+ref = "aaMatra-beng.side";
+}
+);
+};
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
@@ -90,6 +165,21 @@ ref = "aaMatra-beng.side";
 width = 476;
 },
 {
+background = {
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (78,2);
+ref = "na-beng.blws1";
+},
+{
+pos = (333,0);
+ref = "aaMatra-beng.side";
+}
+);
+};
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {

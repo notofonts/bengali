@@ -20,12 +20,16 @@ pos = (298,622);
 background = {
 anchors = (
 {
-name = Anchor8;
-pos = (298,622);
+name = bottom_mark;
+pos = (424,0);
 },
 {
-name = bottom;
-pos = (424,0);
+name = top_candrabindu;
+pos = (458,622);
+},
+{
+name = top_vedic;
+pos = (298,622);
 }
 );
 shapes = (
@@ -33,7 +37,7 @@ shapes = (
 ref = "ba-beng";
 },
 {
-pos = (195,179);
+pos = (195,134);
 ref = "nukta-beng";
 }
 );
@@ -68,12 +72,16 @@ pos = (286,607);
 background = {
 anchors = (
 {
-name = Anchor8;
-pos = (287,622);
+name = bottom_mark;
+pos = (445,0);
 },
 {
-name = bottom;
-pos = (425,0);
+name = top_candrabindu;
+pos = (455,607);
+},
+{
+name = top_vedic;
+pos = (286,607);
 }
 );
 shapes = (
@@ -81,7 +89,7 @@ shapes = (
 ref = "ba-beng";
 },
 {
-pos = (175,196);
+pos = (195,147);
 ref = "nukta-beng";
 }
 );
@@ -116,12 +124,16 @@ pos = (302,635);
 background = {
 anchors = (
 {
-name = Anchor8;
-pos = (316,635);
+name = bottom_mark;
+pos = (378,0);
 },
 {
-name = bottom;
-pos = (377,-9);
+name = top_candrabindu;
+pos = (446,635);
+},
+{
+name = top_vedic;
+pos = (302,635);
 }
 );
 shapes = (
@@ -129,7 +141,7 @@ shapes = (
 ref = "ba-beng";
 },
 {
-pos = (172,150);
+pos = (182,139);
 ref = "nukta-beng";
 }
 );
@@ -161,6 +173,33 @@ name = top_vedic;
 pos = (192,607);
 }
 );
+background = {
+anchors = (
+{
+name = bottom_mark;
+pos = (293,0);
+},
+{
+name = top_candrabindu;
+pos = (311,607);
+},
+{
+name = top_vedic;
+pos = (192,607);
+}
+);
+shapes = (
+{
+alignment = -1;
+ref = "ba-beng";
+},
+{
+alignment = -1;
+pos = (135,147);
+ref = "nukta-beng";
+}
+);
+};
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
@@ -190,6 +229,31 @@ name = top_vedic;
 pos = (231,634);
 }
 );
+background = {
+anchors = (
+{
+name = bottom_mark;
+pos = (272,0);
+},
+{
+name = top_candrabindu;
+pos = (339,633);
+},
+{
+name = top_vedic;
+pos = (231,634);
+}
+);
+shapes = (
+{
+ref = "ba-beng";
+},
+{
+pos = (130,138);
+ref = "nukta-beng";
+}
+);
+};
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {
@@ -217,6 +281,31 @@ name = top_vedic;
 pos = (220,621);
 }
 );
+background = {
+anchors = (
+{
+name = bottom_mark;
+pos = (305,0);
+},
+{
+name = top_candrabindu;
+pos = (341,621);
+},
+{
+name = top_vedic;
+pos = (220,621);
+}
+);
+shapes = (
+{
+ref = "ba-beng";
+},
+{
+pos = (142,136);
+ref = "nukta-beng";
+}
+);
+};
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {

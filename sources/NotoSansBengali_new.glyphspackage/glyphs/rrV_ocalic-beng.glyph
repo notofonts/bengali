@@ -4,19 +4,13 @@ glyphname = "rrVocalic-beng";
 layers = (
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (426,622);
-}
-);
 shapes = (
 {
 ref = "rVocalic-beng";
 },
 {
 alignment = -1;
-pos = (374,112);
+pos = (352,132);
 ref = "rVocalicMatra-beng";
 }
 );
@@ -36,15 +30,8 @@ width = 846;
 },
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (405,622);
-}
-);
 shapes = (
 {
-alignment = -1;
 ref = "rVocalic-beng";
 },
 {
@@ -69,19 +56,13 @@ width = 764;
 },
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (492,622);
-}
-);
 shapes = (
 {
 ref = "rVocalic-beng";
 },
 {
 alignment = -1;
-pos = (314,103);
+pos = (304,113);
 ref = "rVocalicMatra-beng";
 }
 );
@@ -100,6 +81,20 @@ ref = "rVocalicMatra-beng";
 width = 927;
 },
 {
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (10,0);
+ref = "rVocalic-beng";
+},
+{
+alignment = -1;
+pos = (262,120);
+ref = "rVocalicMatra-beng";
+}
+);
+};
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
@@ -116,6 +111,20 @@ ref = "rVocalicMatra-beng";
 width = 550;
 },
 {
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (10,0);
+ref = "rVocalic-beng";
+},
+{
+alignment = -1;
+pos = (264,140);
+ref = "rVocalicMatra-beng";
+}
+);
+};
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
@@ -132,6 +141,20 @@ ref = "rVocalicMatra-beng";
 width = 654;
 },
 {
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (1,0);
+ref = "rVocalic-beng";
+},
+{
+alignment = -1;
+pos = (192,114);
+ref = "rVocalicMatra-beng";
+}
+);
+};
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {

@@ -18,6 +18,13 @@ ref = hyphen.beng;
 width = 340;
 },
 {
+background = {
+shapes = (
+{
+ref = hyphen.beng;
+}
+);
+};
 layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
 shapes = (
 {
@@ -27,6 +34,13 @@ ref = hyphen.beng;
 width = 316;
 },
 {
+background = {
+shapes = (
+{
+ref = hyphen.beng;
+}
+);
+};
 layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
 shapes = (
 {
@@ -36,6 +50,14 @@ ref = hyphen.beng;
 width = 387;
 },
 {
+background = {
+shapes = (
+{
+alignment = -1;
+ref = hyphen.beng;
+}
+);
+};
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
@@ -46,6 +68,14 @@ ref = hyphen.beng;
 width = 221;
 },
 {
+background = {
+shapes = (
+{
+alignment = -1;
+ref = hyphen.beng;
+}
+);
+};
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
@@ -56,6 +86,14 @@ ref = hyphen.beng;
 width = 260;
 },
 {
+background = {
+shapes = (
+{
+alignment = -1;
+ref = hyphen.beng;
+}
+);
+};
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {

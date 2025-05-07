@@ -5,36 +5,17 @@ glyphname = "d_wa-beng";
 layers = (
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (308,622);
-},
-{
-name = bottom;
-pos = (445,0);
-},
-{
-name = top_candrabindu;
-pos = (322,622);
-}
-);
 shapes = (
 {
-closed = 1;
-nodes = (
-(181,-97,l),
-(251,-106,o),
-(306,-127,o),
-(350,-158,c),
-(384,-113,l),
-(336,-76,o),
-(271,-47,o),
-(191,-37,c)
-);
+ref = "d-beng.half3";
 },
 {
-ref = "d_ba-beng";
+pos = (92,20);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (116,-32);
+ref = "wa-beng.part";
 }
 );
 };
@@ -56,37 +37,17 @@ width = 531;
 },
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (302,622);
-},
-{
-name = bottom;
-pos = (457,0);
-},
-{
-name = top_candrabindu;
-pos = (318,622);
-}
-);
 shapes = (
 {
-closed = 1;
-nodes = (
-(197,-29,l),
-(259,-48,o),
-(322,-80,o),
-(375,-124,c),
-(390,-107,l),
-(332,-60,o),
-(266,-27,o),
-(204,-7,c)
-);
+ref = "d-beng.half3";
 },
 {
-alignment = -1;
-ref = "d_ba-beng";
+pos = (87,50);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (104,12);
+ref = "wa-beng.part";
 }
 );
 };
@@ -108,37 +69,17 @@ width = 465;
 },
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (334,622);
-},
-{
-name = bottom;
-pos = (429,0);
-},
-{
-name = top_candrabindu;
-pos = (274,622);
-}
-);
 shapes = (
 {
-closed = 1;
-nodes = (
-(182,-136,l),
-(257,-146,o),
-(316,-165,o),
-(364,-193,c),
-(402,-132,l),
-(352,-95,o),
-(286,-68,o),
-(196,-56,c)
-);
+ref = "d-beng.half3";
 },
 {
-alignment = -1;
-ref = "d_ba-beng";
+pos = (94,6);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (117,-52);
+ref = "wa-beng.part";
 }
 );
 };
@@ -159,6 +100,21 @@ ref = "wa-beng.part";
 width = 594;
 },
 {
+background = {
+shapes = (
+{
+ref = "d-beng.half3";
+},
+{
+pos = (69,51);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (82,12);
+ref = "wa-beng.part";
+}
+);
+};
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
@@ -176,6 +132,21 @@ ref = "wa-beng.part";
 width = 337;
 },
 {
+background = {
+shapes = (
+{
+ref = "d-beng.half3";
+},
+{
+pos = (74,25);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (91,-25);
+ref = "wa-beng.part";
+}
+);
+};
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
@@ -193,6 +164,21 @@ ref = "wa-beng.part";
 width = 407;
 },
 {
+background = {
+shapes = (
+{
+ref = "d-beng.half3";
+},
+{
+pos = (81,7);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (99,-50);
+ref = "wa-beng.part";
+}
+);
+};
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {

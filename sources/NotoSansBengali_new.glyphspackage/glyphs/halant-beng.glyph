@@ -11,7 +11,7 @@ name = _bottom_mark;
 background = {
 anchors = (
 {
-name = _bottom;
+name = _bottom_mark;
 }
 );
 shapes = (
@@ -57,7 +57,7 @@ name = _bottom_mark;
 background = {
 anchors = (
 {
-name = _bottom;
+name = _bottom_mark;
 }
 );
 shapes = (
@@ -103,7 +103,7 @@ name = _bottom_mark;
 background = {
 anchors = (
 {
-name = _bottom;
+name = _bottom_mark;
 }
 );
 shapes = (
@@ -146,6 +146,28 @@ anchors = (
 name = _bottom_mark;
 }
 );
+background = {
+anchors = (
+{
+name = _bottom_mark;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(-23,-37,l),
+(38,-98,o),
+(83,-153,o),
+(138,-227,c),
+(150,-217,l),
+(97,-142,o),
+(51,-84,o),
+(-7,-21,c)
+);
+}
+);
+};
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
@@ -170,6 +192,28 @@ anchors = (
 name = _bottom_mark;
 }
 );
+background = {
+anchors = (
+{
+name = _bottom_mark;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(-53,-66,l),
+(26,-129,o),
+(81,-183,o),
+(146,-257,c),
+(182,-222,l),
+(121,-145,o),
+(59,-77,o),
+(-7,-17,c)
+);
+}
+);
+};
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
@@ -194,6 +238,28 @@ anchors = (
 name = _bottom_mark;
 }
 );
+background = {
+anchors = (
+{
+name = _bottom_mark;
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(-62,-97,l),
+(36,-152,o),
+(105,-202,o),
+(184,-269,c),
+(238,-199,l),
+(163,-124,o),
+(86,-63,o),
+(1,-6,c)
+);
+}
+);
+};
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {

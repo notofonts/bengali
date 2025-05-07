@@ -6,23 +6,13 @@ glyphname = "j_ny_ra-beng";
 layers = (
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (487,622);
-},
-{
-name = top_candrabindu;
-pos = (547,622);
-}
-);
 shapes = (
 {
 ref = "j_nya-beng";
 },
 {
-pos = (904,-34);
-ref = vattubeng;
+pos = (-8,-180);
+ref = "raphala-beng.alt05";
 }
 );
 };
@@ -40,25 +30,13 @@ width = 939;
 },
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (471,622);
-},
-{
-name = top_candrabindu;
-pos = (546,622);
-}
-);
 shapes = (
 {
-alignment = -1;
 ref = "j_nya-beng";
 },
 {
-alignment = -1;
-pos = (836,-2);
-ref = vattubeng;
+pos = (9,-155);
+ref = "raphala-beng.alt05";
 }
 );
 };
@@ -76,23 +54,13 @@ width = 875;
 },
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (542,622);
-},
-{
-name = top_candrabindu;
-pos = (594,622);
-}
-);
 shapes = (
 {
 ref = "j_nya-beng";
 },
 {
-pos = (1005,-34);
-ref = vattubeng;
+pos = (-22,-245);
+ref = "raphala-beng.alt05";
 }
 );
 };
@@ -109,6 +77,17 @@ ref = "raphala-beng.alt05";
 width = 990;
 },
 {
+background = {
+shapes = (
+{
+ref = "j_nya-beng";
+},
+{
+pos = (17,-152);
+ref = "raphala-beng.alt05";
+}
+);
+};
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
@@ -122,6 +101,17 @@ ref = "raphala-beng.alt05";
 width = 627;
 },
 {
+background = {
+shapes = (
+{
+ref = "j_nya-beng";
+},
+{
+pos = (-6,-176);
+ref = "raphala-beng.alt05";
+}
+);
+};
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
@@ -135,6 +125,17 @@ ref = "raphala-beng.alt05";
 width = 712;
 },
 {
+background = {
+shapes = (
+{
+ref = "j_nya-beng";
+},
+{
+pos = (-21,-229);
+ref = "raphala-beng.alt05";
+}
+);
+};
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {

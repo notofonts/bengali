@@ -12,7 +12,7 @@ pos = (0,-125);
 background = {
 anchors = (
 {
-name = _nukta;
+name = _nukta.alt;
 pos = (0,-125);
 }
 );
@@ -68,7 +68,7 @@ pos = (0,-117);
 background = {
 anchors = (
 {
-name = _nukta;
+name = _nukta.alt;
 pos = (0,-117);
 }
 );
@@ -124,7 +124,7 @@ pos = (0,-135);
 background = {
 anchors = (
 {
-name = _nukta;
+name = _nukta.alt;
 pos = (0,-135);
 }
 );
@@ -178,22 +178,28 @@ pos = (0,-116);
 }
 );
 background = {
+anchors = (
+{
+name = _nukta.alt;
+pos = (0,-116);
+}
+);
 shapes = (
 {
 closed = 1;
 nodes = (
-(-14,-81,o),
-(-27,-93,o),
-(-27,-117,cs),
-(-27,-141,o),
-(-14,-153,o),
-(0,-153,cs),
 (14,-153,o),
 (27,-141,o),
 (27,-117,cs),
 (27,-93,o),
 (14,-81,o),
-(0,-81,cs)
+(0,-81,cs),
+(-14,-81,o),
+(-27,-93,o),
+(-27,-117,cs),
+(-27,-141,o),
+(-14,-153,o),
+(0,-153,cs)
 );
 }
 );
@@ -227,6 +233,33 @@ name = _nukta.alt;
 pos = (0,-123);
 }
 );
+background = {
+anchors = (
+{
+name = _nukta.alt;
+pos = (0,-123);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(27,-180,o),
+(47,-157,o),
+(47,-123,cs),
+(47,-89,o),
+(27,-67,o),
+(0,-67,cs),
+(-27,-67,o),
+(-47,-89,o),
+(-47,-123,cs),
+(-47,-157,o),
+(-27,-180,o),
+(0,-180,cs)
+);
+}
+);
+};
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
@@ -256,6 +289,33 @@ name = _nukta.alt;
 pos = (0,-133);
 }
 );
+background = {
+anchors = (
+{
+name = _nukta.alt;
+pos = (0,-133);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(44,-211,o),
+(70,-176,o),
+(70,-133,cs),
+(70,-91,o),
+(44,-56,o),
+(0,-56,cs),
+(-44,-56,o),
+(-69,-91,o),
+(-69,-133,cs),
+(-69,-176,o),
+(-44,-211,o),
+(0,-211,cs)
+);
+}
+);
+};
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {

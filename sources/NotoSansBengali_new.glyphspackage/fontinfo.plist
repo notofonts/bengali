@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3309";
 .formatVersion = 3;
 axes = (
 {
@@ -541,14 +541,14 @@ wdth = {
 100 = 100;
 };
 wght = {
-100 = 20;
-200 = 32;
-300 = 58;
-400 = 90;
-600 = 128;
-700 = 151;
-800 = 169;
-900 = 178;
+20 = 100;
+32 = 200;
+58 = 300;
+90 = 400;
+128 = 600;
+151 = 700;
+169 = 800;
+178 = 900;
 };
 };
 }
@@ -1298,6 +1298,11 @@ name = "Master Icon Glyph Name";
 value = "ka-beng";
 }
 );
+guides = (
+{
+pos = (181,631);
+}
+);
 iconName = Condensed;
 id = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 metricValues = (
@@ -1429,6 +1434,11 @@ name = "Master Icon Glyph Name";
 value = "ka-beng";
 }
 );
+guides = (
+{
+pos = (403,644);
+}
+);
 id = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 metricValues = (
 {
@@ -1547,21 +1557,10 @@ stemValues = (
 142,
 120
 );
-visible = 1;
 }
 );
 instances = (
 {
-axesValues = (
-0,
-0
-);
-instanceInterpolations = {
-"28FB090A-653E-4199-B7BE-FAE23D31B682" = -1.7027;
-"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = 2.90885;
-"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = -0.14286;
-"F138D99C-4E28-42C5-9F3E-22494052B08F" = -0.06329;
-};
 name = Regular;
 type = variable;
 },

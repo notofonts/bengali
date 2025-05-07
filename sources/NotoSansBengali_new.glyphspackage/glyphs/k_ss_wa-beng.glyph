@@ -6,23 +6,17 @@ glyphname = "k_ss_wa-beng";
 layers = (
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (459,622);
-},
-{
-name = top_candrabindu;
-pos = (537,622);
-}
-);
 shapes = (
 {
-ref = "k_ssa-beng";
+ref = "k_ss-beng.half";
 },
 {
-pos = (709,37);
-ref = basubscriptbeng;
+pos = (229,-48);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (252,-82);
+ref = "wa-beng.part";
 }
 );
 };
@@ -44,25 +38,17 @@ width = 864;
 },
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (442,622);
-},
-{
-name = top_candrabindu;
-pos = (528,622);
-}
-);
 shapes = (
 {
-alignment = -1;
-ref = "k_ssa-beng";
+ref = "k_ss-beng.half";
 },
 {
-alignment = -1;
-pos = (647,68);
-ref = basubscriptbeng;
+pos = (263,-110);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (263,-120);
+ref = "wa-beng.part";
 }
 );
 };
@@ -84,25 +70,17 @@ width = 805;
 },
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (513,622);
-},
-{
-name = top_candrabindu;
-pos = (560,622);
-}
-);
 shapes = (
 {
-alignment = -1;
-ref = "k_ssa-beng";
+ref = "k_ss-beng.half";
 },
 {
-alignment = -1;
-pos = (800,0);
-ref = basubscriptbeng;
+pos = (183,-66);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (222,-115);
+ref = "wa-beng.part";
 }
 );
 };
@@ -123,6 +101,21 @@ ref = "wa-beng.part";
 width = 913;
 },
 {
+background = {
+shapes = (
+{
+ref = "k_ss-beng.half";
+},
+{
+pos = (175,-112);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (177,-122);
+ref = "wa-beng.part";
+}
+);
+};
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
@@ -140,6 +133,21 @@ ref = "wa-beng.part";
 width = 568;
 },
 {
+background = {
+shapes = (
+{
+ref = "k_ss-beng.half";
+},
+{
+pos = (165,-62);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (183,-92);
+ref = "wa-beng.part";
+}
+);
+};
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
@@ -157,6 +165,21 @@ ref = "wa-beng.part";
 width = 665;
 },
 {
+background = {
+shapes = (
+{
+ref = "k_ss-beng.half";
+},
+{
+pos = (140,-58);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (175,-104);
+ref = "wa-beng.part";
+}
+);
+};
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {

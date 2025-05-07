@@ -4,6 +4,21 @@ export = 0;
 glyphname = "n_s_tta-beng";
 layers = (
 {
+background = {
+shapes = (
+{
+ref = "n_s-beng.half";
+},
+{
+pos = (707,0);
+ref = "ddha-beng.side";
+},
+{
+pos = (707,0);
+ref = "tta-beng.flag";
+}
+);
+};
 layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
 shapes = (
 {
@@ -21,6 +36,21 @@ ref = "tta-beng.flag";
 width = 991;
 },
 {
+background = {
+shapes = (
+{
+ref = "n_s-beng.half";
+},
+{
+pos = (738,0);
+ref = "ddha-beng.side";
+},
+{
+pos = (738,0);
+ref = "tta-beng.flag";
+}
+);
+};
 layerId = UUID0;
 shapes = (
 {
@@ -38,6 +68,21 @@ ref = "tta-beng.flag";
 width = 1018;
 },
 {
+background = {
+shapes = (
+{
+ref = "n_s-beng.half";
+},
+{
+pos = (770,0);
+ref = "ddha-beng.side";
+},
+{
+pos = (770,0);
+ref = "tta-beng.flag";
+}
+);
+};
 layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
 shapes = (
 {
@@ -55,6 +100,21 @@ ref = "tta-beng.flag";
 width = 1040;
 },
 {
+background = {
+shapes = (
+{
+ref = "n_s-beng.half";
+},
+{
+pos = (496,0);
+ref = "ddha-beng.side";
+},
+{
+pos = (496,0);
+ref = "tta-beng.flag";
+}
+);
+};
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
@@ -72,6 +132,21 @@ ref = "tta-beng.flag";
 width = 696;
 },
 {
+background = {
+shapes = (
+{
+ref = "n_s-beng.half";
+},
+{
+pos = (554,0);
+ref = "ddha-beng.side";
+},
+{
+pos = (555,0);
+ref = "tta-beng.flag";
+}
+);
+};
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
@@ -89,6 +164,21 @@ ref = "tta-beng.flag";
 width = 771;
 },
 {
+background = {
+shapes = (
+{
+ref = "n_s-beng.half";
+},
+{
+pos = (610,0);
+ref = "ddha-beng.side";
+},
+{
+pos = (610,1);
+ref = "tta-beng.flag";
+}
+);
+};
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {

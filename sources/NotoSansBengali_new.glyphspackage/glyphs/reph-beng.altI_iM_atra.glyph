@@ -16,27 +16,22 @@ pos = (-164,734);
 background = {
 anchors = (
 {
-name = _top_candrabindu;
+name = _top_reph;
 pos = (-172,622);
+},
+{
+name = top_candrabindu;
+pos = (-164,734);
 }
 );
 shapes = (
 {
 closed = 1;
 nodes = (
-(-209,644,l),
-(110,860,l),
-(72,917,l),
-(-254,707,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(140,848,l),
-(106,895,l),
-(-214,707,l),
-(-169,644,l)
+(94,892,l),
+(53,931,l),
+(-211,663,l),
+(-150,615,l)
 );
 }
 );
@@ -69,18 +64,22 @@ pos = (-97,718);
 background = {
 anchors = (
 {
-name = _top_candrabindu;
+name = _top_reph;
 pos = (-148,622);
+},
+{
+name = top_candrabindu;
+pos = (-97,718);
 }
 );
 shapes = (
 {
 closed = 1;
 nodes = (
-(-197,674,l),
-(107,881,l),
-(95,899,l),
-(-210,692,l)
+(79,879,l),
+(66,891,l),
+(-154,636,l),
+(-132,624,l)
 );
 }
 );
@@ -113,18 +112,22 @@ pos = (-210,744);
 background = {
 anchors = (
 {
-name = _top_candrabindu;
+name = _top_reph;
 pos = (-245,622);
+},
+{
+name = top_candrabindu;
+pos = (-210,744);
 }
 );
 shapes = (
 {
 closed = 1;
 nodes = (
-(159,824,l),
-(103,915,l),
-(-341,664,l),
-(-176,618,l)
+(120,867,l),
+(49,946,l),
+(-344,622,l),
+(-174,605,l)
 );
 }
 );
@@ -154,6 +157,29 @@ name = top_candrabindu;
 pos = (-60,723);
 }
 );
+background = {
+anchors = (
+{
+name = _top_reph;
+pos = (-105,622);
+},
+{
+name = top_candrabindu;
+pos = (-60,723);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(61,868,l),
+(47,877,l),
+(-94,649,l),
+(-74,643,l)
+);
+}
+);
+};
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
@@ -179,6 +205,29 @@ name = top_candrabindu;
 pos = (-140,730);
 }
 );
+background = {
+anchors = (
+{
+name = _top_reph;
+pos = (-141,622);
+},
+{
+name = top_candrabindu;
+pos = (-140,730);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(71,883,l),
+(31,915,l),
+(-171,668,l),
+(-116,627,l)
+);
+}
+);
+};
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
@@ -204,6 +253,29 @@ name = top_candrabindu;
 pos = (-203,755);
 }
 );
+background = {
+anchors = (
+{
+name = _top_reph;
+pos = (-209,622);
+},
+{
+name = top_candrabindu;
+pos = (-203,755);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(105,877,l),
+(35,943,l),
+(-284,650,l),
+(-140,610,l)
+);
+}
+);
+};
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {

@@ -124,12 +124,12 @@ pos = (-163,622);
 background = {
 anchors = (
 {
-name = Anchor8;
-pos = (37,622);
+name = bottom_mark;
+pos = (157,-10);
 },
 {
-name = bottom;
-pos = (154,-1);
+name = bottom_markMainForm;
+pos = (-172,260);
 },
 {
 name = nukta;
@@ -137,7 +137,11 @@ pos = (-27,50);
 },
 {
 name = top_candrabindu;
-pos = (-134,622);
+pos = (-54,622);
+},
+{
+name = top_vedic;
+pos = (-163,622);
 }
 );
 shapes = (
@@ -159,9 +163,7 @@ nodes = (
 (-95,551,l),
 (319,551,l),
 (319,622,l),
-(-264,622,l),
-(-264,551,l),
-(-172,551,l),
+(-172,622,l),
 (-172,210,l),
 (-113,170,l),
 (-7,281,o),
@@ -352,12 +354,12 @@ pos = (-138,607);
 background = {
 anchors = (
 {
-name = Anchor8;
-pos = (74,607);
+name = bottom_mark;
+pos = (197,-2);
 },
 {
-name = bottom;
-pos = (218,-5);
+name = bottom_markMainForm;
+pos = (-127,295);
 },
 {
 name = nukta;
@@ -365,7 +367,11 @@ pos = (-1,26);
 },
 {
 name = top_candrabindu;
-pos = (-114,607);
+pos = (-34,607);
+},
+{
+name = top_vedic;
+pos = (-138,607);
 }
 );
 shapes = (
@@ -387,9 +393,7 @@ nodes = (
 (-106,586,l),
 (304,586,l),
 (304,607,l),
-(-226,607,l),
-(-226,586,l),
-(-127,586,l),
+(-127,607,l),
 (-127,218,l),
 (-105,204,l),
 (-2,317,o),
@@ -470,12 +474,12 @@ pos = (-195,635);
 background = {
 anchors = (
 {
-name = Anchor8;
-pos = (15,635);
+name = bottom_mark;
+pos = (97,-24);
 },
 {
-name = bottom;
-pos = (95,-9);
+name = bottom_markMainForm;
+pos = (-234,275);
 },
 {
 name = nukta;
@@ -483,7 +487,11 @@ pos = (-64,4);
 },
 {
 name = top_candrabindu;
-pos = (-153,635);
+pos = (-73,635);
+},
+{
+name = top_vedic;
+pos = (-195,635);
 }
 );
 shapes = (
@@ -505,9 +513,7 @@ nodes = (
 (-70,505,l),
 (308,505,l),
 (308,635,l),
-(-301,635,l),
-(-301,505,l),
-(-233,505,l),
+(-233,635,l),
 (-233,204,l),
 (-90,117,l),
 (-8,208,o),
@@ -587,6 +593,22 @@ pos = (-103,607);
 );
 background = {
 anchors = (
+{
+name = bottom_mark;
+pos = (126,1);
+},
+{
+name = bottom_markMainForm;
+pos = (-91,296);
+},
+{
+name = nukta;
+pos = (-3,25);
+},
+{
+name = top_candrabindu;
+pos = (-25,607);
+},
 {
 name = top_vedic;
 pos = (-103,607);
@@ -689,6 +711,65 @@ name = top_vedic;
 pos = (-128,621);
 }
 );
+background = {
+anchors = (
+{
+name = bottom_mark;
+pos = (102,2);
+},
+{
+name = bottom_markMainForm;
+pos = (-137,266);
+},
+{
+name = nukta;
+pos = (-25,46);
+},
+{
+name = top_candrabindu;
+pos = (-42,621);
+},
+{
+name = top_vedic;
+pos = (-128,621);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(166,8,l),
+(150,82,o),
+(141,149,o),
+(141,205,cs),
+(141,285,o),
+(150,345,o),
+(179,438,c),
+(109,484,l),
+(21,424,o),
+(-58,342,o),
+(-99,269,c),
+(-66,244,l),
+(-66,558,l),
+(228,558,l),
+(228,621,l),
+(-137,621,l),
+(-137,211,l),
+(-75,185,l),
+(-7,297,o),
+(62,372,o),
+(130,419,c),
+(103,418,l),
+(82,358,o),
+(71,292,o),
+(71,210,cs),
+(71,144,o),
+(80,65,o),
+(98,-7,c)
+);
+}
+);
+};
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
@@ -750,6 +831,65 @@ name = top_vedic;
 pos = (-162,634);
 }
 );
+background = {
+anchors = (
+{
+name = bottom_mark;
+pos = (50,-24);
+},
+{
+name = bottom_markMainForm;
+pos = (-198,272);
+},
+{
+name = nukta;
+pos = (-60,12);
+},
+{
+name = top_candrabindu;
+pos = (-62,634);
+},
+{
+name = top_vedic;
+pos = (-162,634);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(184,-1,l),
+(169,56,o),
+(161,115,o),
+(161,182,cs),
+(161,258,o),
+(168,318,o),
+(197,405,c),
+(69,478,l),
+(0,430,o),
+(-54,371,o),
+(-103,282,c),
+(-51,257,l),
+(-51,514,l),
+(222,514,l),
+(222,634,l),
+(-197,634,l),
+(-197,199,l),
+(-57,144,l),
+(-13,224,o),
+(29,278,o),
+(78,314,c),
+(65,370,l),
+(31,303,o),
+(19,233,o),
+(19,139,cs),
+(19,93,o),
+(28,21,o),
+(40,-26,c)
+);
+}
+);
+};
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {

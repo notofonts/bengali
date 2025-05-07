@@ -28,48 +28,33 @@ pos = (273,622);
 background = {
 anchors = (
 {
-name = Anchor8;
-pos = (283,622);
-},
-{
-name = bottom;
-pos = (312,0);
+name = bottom_mark;
+pos = (302,43);
 },
 {
 name = nukta;
 pos = (263,-80);
+},
+{
+name = top_candrabindu;
+pos = (285,638);
+},
+{
+name = top_reph;
+pos = (156,622);
+},
+{
+name = top_vedic;
+pos = (273,622);
 }
 );
 shapes = (
 {
-closed = 1;
-nodes = (
-(473,617,l),
-(469,728,o),
-(409,776,o),
-(299,776,cs),
-(206,776,ls),
-(126,776,o),
-(81,802,o),
-(81,869,cs),
-(81,879,o),
-(82,891,o),
-(85,907,c),
-(11,912,l),
-(8,893,o),
-(6,876,o),
-(6,859,cs),
-(6,749,o),
-(91,704,o),
-(222,704,cs),
-(319,704,ls),
-(380,704,o),
-(401,682,o),
-(401,617,c)
-);
+ref = "ddha-beng";
 },
 {
-ref = "ddha-beng";
+pos = (267,0);
+ref = "tta-beng.flag";
 }
 );
 };
@@ -313,49 +298,34 @@ pos = (258,607);
 background = {
 anchors = (
 {
-name = Anchor8;
-pos = (274,622);
-},
-{
-name = bottom;
-pos = (315,0);
+name = bottom_mark;
+pos = (313,72);
 },
 {
 name = nukta;
 pos = (237,-68);
+},
+{
+name = top_candrabindu;
+pos = (252,625);
+},
+{
+name = top_reph;
+pos = (199,607);
+},
+{
+name = top_vedic;
+pos = (258,607);
 }
 );
 shapes = (
 {
-closed = 1;
-nodes = (
-(431,602,l),
-(430,701,o),
-(380,739,o),
-(294,739,cs),
-(167,739,ls),
-(76,739,o),
-(33,758,o),
-(33,847,cs),
-(33,862,o),
-(35,881,o),
-(37,895,c),
-(16,897,l),
-(14,883,o),
-(12,863,o),
-(12,847,cs),
-(12,742,o),
-(67,718,o),
-(168,718,cs),
-(294,718,ls),
-(383,718,o),
-(408,679,o),
-(410,602,c)
-);
-},
-{
 alignment = -1;
 ref = "ddha-beng";
+},
+{
+pos = (233,0);
+ref = "tta-beng.flag";
 }
 );
 };
@@ -398,76 +368,33 @@ pos = (282,635);
 background = {
 anchors = (
 {
-name = Anchor8;
-pos = (303,622);
-},
-{
-name = bottom;
-pos = (301,0);
+name = bottom_mark;
+pos = (271,5);
 },
 {
 name = nukta;
 pos = (279,-124);
+},
+{
+name = top_candrabindu;
+pos = (380,684);
+},
+{
+name = top_reph;
+pos = (161,635);
+},
+{
+name = top_vedic;
+pos = (282,635);
 }
 );
 shapes = (
 {
-closed = 1;
-nodes = (
-(509,626,l),
-(509,763,o),
-(421,823,o),
-(302,823,cs),
-(222,823,ls),
-(174,823,o),
-(149,838,o),
-(149,879,cs),
-(149,885,o),
-(150,895,o),
-(152,905,c),
-(-2,915,l),
-(-6,897,o),
-(-8,882,o),
-(-8,863,cs),
-(-8,742,o),
-(81,685,o),
-(240,685,cs),
-(291,685,ls),
-(337,685,o),
-(353,667,o),
-(353,626,c)
-);
-},
-{
-alignment = -1;
 ref = "ddha-beng";
 },
 {
-closed = 1;
-nodes = (
-(509,626,l),
-(509,763,o),
-(421,823,o),
-(302,823,cs),
-(222,823,ls),
-(174,823,o),
-(149,838,o),
-(149,879,cs),
-(149,885,o),
-(150,895,o),
-(152,905,c),
-(-2,915,l),
-(-6,897,o),
-(-8,882,o),
-(-8,863,cs),
-(-8,742,o),
-(81,685,o),
-(240,685,cs),
-(291,685,ls),
-(337,685,o),
-(353,667,o),
-(353,626,c)
-);
+pos = (299,0);
+ref = "tta-beng.flag";
 }
 );
 };
@@ -506,6 +433,39 @@ name = top_vedic;
 pos = (171,619);
 }
 );
+background = {
+anchors = (
+{
+name = bottom_mark;
+pos = (208,84);
+},
+{
+name = nukta;
+pos = (159,-56);
+},
+{
+name = top_candrabindu;
+pos = (170,637);
+},
+{
+name = top_reph;
+pos = (128,619);
+},
+{
+name = top_vedic;
+pos = (171,619);
+}
+);
+shapes = (
+{
+ref = "ddha-beng";
+},
+{
+pos = (159,0);
+ref = "tta-beng.flag";
+}
+);
+};
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
@@ -541,6 +501,39 @@ name = top_vedic;
 pos = (204,622);
 }
 );
+background = {
+anchors = (
+{
+name = bottom_mark;
+pos = (219,48);
+},
+{
+name = nukta;
+pos = (196,-77);
+},
+{
+name = top_candrabindu;
+pos = (228,637);
+},
+{
+name = top_reph;
+pos = (119,622);
+},
+{
+name = top_vedic;
+pos = (204,622);
+}
+);
+shapes = (
+{
+ref = "ddha-beng";
+},
+{
+pos = (199,0);
+ref = "tta-beng.flag";
+}
+);
+};
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
@@ -576,6 +569,39 @@ name = top_vedic;
 pos = (226,634);
 }
 );
+background = {
+anchors = (
+{
+name = bottom_mark;
+pos = (200,11);
+},
+{
+name = nukta;
+pos = (219,-116);
+},
+{
+name = top_candrabindu;
+pos = (320,676);
+},
+{
+name = top_reph;
+pos = (125,633);
+},
+{
+name = top_vedic;
+pos = (226,634);
+}
+);
+shapes = (
+{
+ref = "ddha-beng";
+},
+{
+pos = (248,1);
+ref = "tta-beng.flag";
+}
+);
+};
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {

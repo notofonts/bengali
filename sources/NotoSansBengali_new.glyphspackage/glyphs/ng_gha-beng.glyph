@@ -6,18 +6,16 @@ glyphname = "ng_gha-beng";
 layers = (
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (588,622);
-},
-{
-name = bottom;
-pos = (1005,0);
-}
-);
 shapes = (
 {
+ref = "ng-beng.half";
+},
+{
+pos = (620,0);
+ref = "headline-beng.100";
+},
+{
+pos = (620,0);
 ref = "gha-beng";
 }
 );
@@ -40,20 +38,16 @@ width = 1241;
 },
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (572,622);
-},
-{
-name = bottom;
-pos = (995,0);
-}
-);
 shapes = (
 {
-alignment = -1;
-pos = (585,0);
+ref = "ng-beng.half";
+},
+{
+pos = (569,0);
+ref = "headline-beng.100";
+},
+{
+pos = (569,0);
 ref = "gha-beng";
 }
 );
@@ -76,20 +70,16 @@ width = 1151;
 },
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (668,622);
-},
-{
-name = bottom;
-pos = (1097,0);
-}
-);
 shapes = (
 {
-alignment = -1;
-pos = (714,0);
+ref = "ng-beng.half";
+},
+{
+pos = (657,0);
+ref = "headline-beng.100";
+},
+{
+pos = (657,0);
 ref = "gha-beng";
 }
 );
@@ -111,6 +101,21 @@ ref = "gha-beng";
 width = 1284;
 },
 {
+background = {
+shapes = (
+{
+ref = "ng-beng.half";
+},
+{
+pos = (394,0);
+ref = "headline-beng.100";
+},
+{
+pos = (394,0);
+ref = "gha-beng";
+}
+);
+};
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
@@ -128,6 +133,21 @@ ref = "gha-beng";
 width = 805;
 },
 {
+background = {
+shapes = (
+{
+ref = "ng-beng.half";
+},
+{
+pos = (474,0);
+ref = "headline-beng.100";
+},
+{
+pos = (474,0);
+ref = "gha-beng";
+}
+);
+};
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
@@ -145,6 +165,21 @@ ref = "gha-beng";
 width = 937;
 },
 {
+background = {
+shapes = (
+{
+ref = "ng-beng.half";
+},
+{
+pos = (522,0);
+ref = "headline-beng.100";
+},
+{
+pos = (522,0);
+ref = "gha-beng";
+}
+);
+};
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {

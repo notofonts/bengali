@@ -6,14 +6,17 @@ glyphname = "iiMatra_ss_ttha-beng";
 layers = (
 {
 background = {
-anchors = (
+shapes = (
 {
-name = Anchor8;
-pos = (302,622);
+ref = "ss_ttha-beng.notop";
 },
 {
-name = bottom;
-pos = (404,0);
+pos = (182,-2);
+ref = "ttha-beng.topIiMatra";
+},
+{
+pos = (623,0);
+ref = "iiMatra-beng.tthaAlt1";
 }
 );
 };
@@ -37,66 +40,15 @@ width = 889;
 background = {
 shapes = (
 {
-closed = 1;
-nodes = (
-(440,24,o),
-(519,97,o),
-(519,229,cs),
-(519,346,o),
-(456,456,o),
-(339,588,c),
-(359,586,o),
-(376,586,o),
-(402,586,cs),
-(629,586,l),
-(629,607,l),
-(320,607,l),
-(275,664,o),
-(254,713,o),
-(254,753,cs),
-(254,799,o),
-(274,839,o),
-(337,885,c),
-(324,901,l),
-(263,854,o),
-(233,815,o),
-(233,756,cs),
-(233,694,o),
-(266,656,o),
-(298,590,cs),
-(320,545,o),
-(343,464,o),
-(343,404,cs),
-(343,308,o),
-(274,236,o),
-(119,220,c),
-(113,194,l),
-(140,105,o),
-(217,24,o),
-(335,24,cs)
-);
+ref = "ss_ttha-beng.notop";
 },
 {
-closed = 1;
-nodes = (
-(232,45,o),
-(158,117,o),
-(133,206,c),
-(118,198,l),
-(297,216,o),
-(364,297,o),
-(364,408,cs),
-(364,460,o),
-(346,539,o),
-(315,595,c),
-(302,602,l),
-(436,451,o),
-(498,348,o),
-(498,233,cs),
-(498,116,o),
-(427,45,o),
-(336,45,cs)
-);
+pos = (199,-9);
+ref = "ttha-beng.topIiMatra";
+},
+{
+pos = (577,0);
+ref = "iiMatra-beng.tthaAlt1";
 }
 );
 };
@@ -117,6 +69,21 @@ ref = "iiMatra-beng.tthaAlt1";
 width = 812;
 },
 {
+background = {
+shapes = (
+{
+ref = "ss_ttha-beng.notop";
+},
+{
+pos = (197,3);
+ref = "ttha-beng.topIiMatra";
+},
+{
+pos = (702,0);
+ref = "iiMatra-beng.tthaAlt1";
+}
+);
+};
 layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
 shapes = (
 {
@@ -134,6 +101,21 @@ ref = "iiMatra-beng.tthaAlt1";
 width = 992;
 },
 {
+background = {
+shapes = (
+{
+ref = "ss_ttha-beng.notop";
+},
+{
+pos = (146,-8);
+ref = "ttha-beng.topIiMatra";
+},
+{
+pos = (421,0);
+ref = "iiMatra-beng.tthaAlt1";
+}
+);
+};
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
@@ -151,6 +133,21 @@ ref = "iiMatra-beng.tthaAlt1";
 width = 585;
 },
 {
+background = {
+shapes = (
+{
+ref = "ss_ttha-beng.notop";
+},
+{
+pos = (141,-3);
+ref = "ttha-beng.topIiMatra";
+},
+{
+pos = (488,0);
+ref = "iiMatra-beng.tthaAlt1";
+}
+);
+};
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
@@ -168,6 +165,21 @@ ref = "iiMatra-beng.tthaAlt1";
 width = 690;
 },
 {
+background = {
+shapes = (
+{
+ref = "ss_ttha-beng.notop";
+},
+{
+pos = (156,3);
+ref = "ttha-beng.topIiMatra";
+},
+{
+pos = (572,0);
+ref = "iiMatra-beng.tthaAlt1";
+}
+);
+};
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {

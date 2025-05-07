@@ -6,18 +6,13 @@ glyphname = "ng_kha-beng";
 layers = (
 {
 background = {
-anchors = (
+shapes = (
 {
-name = Anchor8;
-pos = (526,622);
+ref = "ng-beng.half2";
 },
 {
-name = bottom;
-pos = (880,0);
-},
-{
-name = top_candrabindu;
-pos = (819,622);
+pos = (635,0);
+ref = "kha-beng.side";
 }
 );
 };
@@ -34,6 +29,17 @@ ref = "kha-beng.side";
 width = 871;
 },
 {
+background = {
+shapes = (
+{
+ref = "ng-beng.half2";
+},
+{
+pos = (629,0);
+ref = "kha-beng.side";
+}
+);
+};
 layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
 shapes = (
 {
@@ -48,18 +54,13 @@ width = 817;
 },
 {
 background = {
-anchors = (
+shapes = (
 {
-name = Anchor8;
-pos = (601,622);
+ref = "ng-beng.half2";
 },
 {
-name = bottom;
-pos = (963,0);
-},
-{
-name = top_candrabindu;
-pos = (906,622);
+pos = (644,0);
+ref = "kha-beng.side";
 }
 );
 };
@@ -547,67 +548,13 @@ width = 1025;
 },
 {
 background = {
-anchors = (
-{
-name = bottom;
-pos = (483,-179);
-},
-{
-name = nukta;
-pos = (342,-170);
-},
-{
-name = top_candrabindu;
-pos = (493,607);
-},
-{
-name = top_vedic;
-pos = (288,607);
-}
-);
 shapes = (
 {
-closed = 1;
-nodes = (
-(503,-179,l),
-(503,589,l),
-(583,589,l),
-(583,607,l),
-(503,607,l),
-(498,660,l),
-(483,660,l),
-(483,-55,ls),
-(483,-92,o),
-(483,-121,o),
-(486,-155,c),
-(455,-103,o),
-(390,-16,o),
-(270,31,c),
-(269,22,l),
-(358,50,o),
-(417,102,o),
-(417,192,cs),
-(417,241,o),
-(404,279,o),
-(375,279,cs),
-(360,279,o),
-(349,267,o),
-(340,249,c),
-(353,229,l),
-(360,251,o),
-(368,258,o),
-(377,258,cs),
-(391,258,o),
-(397,234,o),
-(397,196,cs),
-(397,123,o),
-(362,72,o),
-(253,37,c),
-(263,11,l),
-(378,-29,o),
-(443,-111,o),
-(483,-179,c)
-);
+ref = "ng-beng.half2";
+},
+{
+pos = (441,0);
+ref = "kha-beng.side";
 }
 );
 };
@@ -624,6 +571,17 @@ ref = "kha-beng.side";
 width = 575;
 },
 {
+background = {
+shapes = (
+{
+ref = "ng-beng.half2";
+},
+{
+pos = (482,0);
+ref = "kha-beng.side";
+}
+);
+};
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
@@ -637,6 +595,17 @@ ref = "kha-beng.side";
 width = 677;
 },
 {
+background = {
+shapes = (
+{
+ref = "ng-beng.half2";
+},
+{
+pos = (493,0);
+ref = "kha-beng.side";
+}
+);
+};
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {

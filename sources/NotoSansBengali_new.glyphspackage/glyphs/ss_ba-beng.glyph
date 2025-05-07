@@ -6,19 +6,18 @@ glyphname = "ss_ba-beng";
 layers = (
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (316,622);
-}
-);
 shapes = (
 {
-ref = "ssa-beng";
+alignment = -1;
+ref = "ss-beng.half4";
 },
 {
-pos = (633,0);
-ref = basubscriptbeng;
+pos = (33,125);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (309,0);
+ref = "headline-beng.200";
 }
 );
 };
@@ -41,21 +40,18 @@ width = 509;
 },
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (305,622);
-}
-);
 shapes = (
 {
 alignment = -1;
-ref = "ssa-beng";
+ref = "ss-beng.half4";
 },
 {
-alignment = -1;
-pos = (589,0);
-ref = basubscriptbeng;
+pos = (45,96);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (288,0);
+ref = "headline-beng.200";
 }
 );
 };
@@ -78,21 +74,18 @@ width = 448;
 },
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (339,622);
-}
-);
 shapes = (
 {
 alignment = -1;
-ref = "ssa-beng";
+ref = "ss-beng.half4";
 },
 {
-alignment = -1;
-pos = (678,0);
-ref = basubscriptbeng;
+pos = (17,133);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (337,0);
+ref = "headline-beng.200";
 }
 );
 };
@@ -114,6 +107,21 @@ ref = "headline-beng.200";
 width = 567;
 },
 {
+background = {
+shapes = (
+{
+ref = "ss-beng.half4";
+},
+{
+pos = (20,94);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (198,0);
+ref = "headline-beng.200";
+}
+);
+};
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
@@ -131,6 +139,22 @@ ref = "headline-beng.200";
 width = 309;
 },
 {
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "ss-beng.half4";
+},
+{
+pos = (2,120);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (215,0);
+ref = "headline-beng.200";
+}
+);
+};
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
@@ -149,6 +173,22 @@ ref = "headline-beng.200";
 width = 366;
 },
 {
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "ss-beng.half4";
+},
+{
+pos = (0,132);
+ref = "baphala-beng.alt4";
+},
+{
+pos = (257,0);
+ref = "headline-beng.200";
+}
+);
+};
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {

@@ -5,26 +5,12 @@ glyphname = "ja_nukta-beng";
 layers = (
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (458,622);
-},
-{
-name = bottom;
-pos = (757,0);
-},
-{
-name = top_candrabindu;
-pos = (672,622);
-}
-);
 shapes = (
 {
 ref = "ja-beng";
 },
 {
-pos = (405,45);
+pos = (405,0);
 ref = "nukta-beng";
 }
 );
@@ -43,26 +29,12 @@ width = 862;
 },
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (432,622);
-},
-{
-name = bottom;
-pos = (737,0);
-},
-{
-name = top_candrabindu;
-pos = (660,622);
-}
-);
 shapes = (
 {
 ref = "ja-beng";
 },
 {
-pos = (385,49);
+pos = (385,0);
 ref = "nukta-beng";
 }
 );
@@ -81,26 +53,12 @@ width = 773;
 },
 {
 background = {
-anchors = (
-{
-name = Anchor8;
-pos = (515,622);
-},
-{
-name = bottom;
-pos = (806,0);
-},
-{
-name = top_candrabindu;
-pos = (667,622);
-}
-);
 shapes = (
 {
 ref = "ja-beng";
 },
 {
-pos = (413,11);
+pos = (413,0);
 ref = "nukta-beng";
 }
 );
@@ -118,6 +76,17 @@ ref = "nukta-beng";
 width = 923;
 },
 {
+background = {
+shapes = (
+{
+ref = "ja-beng";
+},
+{
+pos = (278,0);
+ref = "nukta-beng";
+}
+);
+};
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
@@ -131,6 +100,17 @@ ref = "nukta-beng";
 width = 553;
 },
 {
+background = {
+shapes = (
+{
+ref = "ja-beng";
+},
+{
+pos = (303,0);
+ref = "nukta-beng";
+}
+);
+};
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
@@ -144,6 +124,17 @@ ref = "nukta-beng";
 width = 649;
 },
 {
+background = {
+shapes = (
+{
+ref = "ja-beng";
+},
+{
+pos = (320,0);
+ref = "nukta-beng";
+}
+);
+};
 layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {
