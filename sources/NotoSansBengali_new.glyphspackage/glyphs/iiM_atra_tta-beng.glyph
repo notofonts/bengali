@@ -388,7 +388,7 @@ shapes = (
 ref = "ddha-beng";
 },
 {
-pos = (-46,1);
+pos = (247,1);
 ref = "tta-beng.flagIiMatra";
 },
 {

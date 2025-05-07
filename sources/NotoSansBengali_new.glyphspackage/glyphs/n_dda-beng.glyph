@@ -126,11 +126,11 @@ pos = (341,0);
 ref = "dda-beng.side";
 },
 {
-pos = (30,27);
+pos = (31,27);
 ref = "n-beng.float";
 }
 );
-width = 521;
+width = 522;
 },
 {
 background = {

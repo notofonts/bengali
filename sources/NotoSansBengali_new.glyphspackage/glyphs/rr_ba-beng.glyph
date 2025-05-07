@@ -264,7 +264,7 @@ pos = (371,0);
 ref = "headline-beng.200";
 }
 );
-width = 551;
+width = 555;
 }
 );
 script = bengali;

@@ -161,27 +161,21 @@ alignment = -1;
 ref = "n-beng.headline";
 },
 {
-alignment = -1;
 pos = (290,0);
 ref = "aaMatra-beng.part";
 },
 {
-alignment = -1;
-pos = (1,0);
 ref = "n-beng.float";
 },
 {
-alignment = -1;
-pos = (76,40);
+pos = (86,40);
 ref = "baphala-beng.alt4";
 },
 {
-alignment = -1;
-pos = (437,22);
+pos = (472,22);
 ref = "ka-beng.part";
 },
 {
-alignment = -1;
 pos = (595,0);
 ref = "headline-beng.130";
 }

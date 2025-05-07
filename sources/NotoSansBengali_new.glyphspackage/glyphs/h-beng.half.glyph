@@ -1090,7 +1090,7 @@ width = 607;
 anchors = (
 {
 name = bottom;
-pos = (244,139);
+pos = (244,137);
 },
 {
 name = bottom_markMainForm;

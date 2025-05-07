@@ -484,7 +484,7 @@ nodes = (
 );
 },
 {
-pos = (5,-83);
+pos = (33,-83);
 ref = "la-beng.blws2";
 }
 );
@@ -1075,7 +1075,7 @@ nodes = (
 );
 },
 {
-pos = (47,-62);
+pos = (41,-62);
 ref = "la-beng.blws2";
 }
 );
@@ -1403,7 +1403,7 @@ nodes = (
 },
 {
 alignment = -1;
-pos = (-6,-86);
+pos = (23,-86);
 ref = "la-beng.blws2";
 }
 );

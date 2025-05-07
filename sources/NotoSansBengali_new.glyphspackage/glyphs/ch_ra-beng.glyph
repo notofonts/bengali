@@ -94,7 +94,7 @@ shapes = (
 ref = "ch-beng.half";
 },
 {
-pos = (10,-87);
+pos = (10,-89);
 ref = "raphala-beng.alt07";
 }
 );

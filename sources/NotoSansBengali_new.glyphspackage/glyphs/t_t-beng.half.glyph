@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (513,41);
+pos = (513,40);
 },
 {
 name = bottom_markMainForm;

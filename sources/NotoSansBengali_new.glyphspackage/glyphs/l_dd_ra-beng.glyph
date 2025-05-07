@@ -126,11 +126,11 @@ pos = (421,0);
 ref = "dda-beng.side";
 },
 {
-pos = (166,-163);
+pos = (167,-163);
 ref = "raphala-beng.alt05";
 }
 );
-width = 601;
+width = 602;
 },
 {
 background = {

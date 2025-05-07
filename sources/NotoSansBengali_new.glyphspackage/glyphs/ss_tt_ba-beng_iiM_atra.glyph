@@ -70,7 +70,7 @@ shapes = (
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (106,-189);
+pos = (106,-191);
 ref = "baphala-beng.alt3";
 },
 {
@@ -120,7 +120,7 @@ shapes = (
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (99,-146);
+pos = (99,-148);
 ref = "baphala-beng.alt3";
 },
 {
@@ -160,7 +160,7 @@ shapes = (
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (68,-189);
+pos = (68,-191);
 ref = "baphala-beng.alt3";
 },
 {

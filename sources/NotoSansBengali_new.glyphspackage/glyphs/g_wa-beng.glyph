@@ -149,15 +149,15 @@ shapes = (
 ref = "g-beng.half";
 },
 {
-pos = (120,0);
+pos = (118,0);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (133,-39);
+pos = (125,-39);
 ref = "wa-beng.part";
 },
 {
-pos = (299,0);
+pos = (293,0);
 ref = "aaMatra-beng.side";
 }
 );

@@ -197,16 +197,15 @@ layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {
 alignment = -1;
+pos = (0,6);
 ref = "s-beng.half";
 },
 {
-alignment = -1;
-pos = (351,0);
+pos = (351,6);
 ref = "p-beng.half2";
 },
 {
-alignment = -1;
-pos = (219,-66);
+pos = (214,-60);
 ref = "raphala-beng.alt12";
 }
 );

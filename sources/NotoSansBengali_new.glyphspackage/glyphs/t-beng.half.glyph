@@ -7,7 +7,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (475,96);
+pos = (475,94);
 },
 {
 name = top_candrabindu;
@@ -291,7 +291,7 @@ width = 652;
 anchors = (
 {
 name = bottom;
-pos = (419,93);
+pos = (419,90);
 },
 {
 name = top_candrabindu;

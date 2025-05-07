@@ -130,11 +130,11 @@ ref = "l-beng.half3";
 },
 {
 alignment = -1;
-pos = (313,0);
+pos = (311,0);
 ref = "da-beng";
 }
 );
-width = 725;
+width = 723;
 },
 {
 background = {
@@ -158,11 +158,11 @@ ref = "l-beng.half3";
 },
 {
 alignment = -1;
-pos = (335,0);
+pos = (342,0);
 ref = "da-beng";
 }
 );
-width = 793;
+width = 800;
 }
 );
 script = bengali;

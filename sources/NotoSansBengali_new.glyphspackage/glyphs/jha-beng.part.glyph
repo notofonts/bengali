@@ -368,7 +368,7 @@ width = 216;
 anchors = (
 {
 name = _bottom_JhaVattuSide;
-pos = (44,15);
+pos = (45,15);
 },
 {
 name = bottom_JhaVattuSide;
@@ -414,8 +414,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(251,-145,l),
-(251,198,l),
+(252,-145,l),
+(252,198,l),
 (102,198,l),
 (102,33,ls),
 (102,3,o),

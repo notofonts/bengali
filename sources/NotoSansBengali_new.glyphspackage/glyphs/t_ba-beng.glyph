@@ -22,7 +22,7 @@ shapes = (
 ref = "t-beng.half";
 },
 {
-pos = (197,-44);
+pos = (197,-46);
 ref = "baphala-beng.alt2";
 }
 );
@@ -70,7 +70,7 @@ shapes = (
 ref = "t-beng.half";
 },
 {
-pos = (114,-32);
+pos = (114,-35);
 ref = "baphala-beng.alt2";
 }
 );

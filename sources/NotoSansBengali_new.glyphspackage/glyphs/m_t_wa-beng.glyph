@@ -34,11 +34,11 @@ pos = (-19,52);
 ref = "ta-beng.blws";
 },
 {
-pos = (260,-170);
+pos = (260,-172);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (283,-204);
+pos = (283,-206);
 ref = "wa-beng.part";
 }
 );

@@ -33,11 +33,11 @@ pos = (1,52);
 ref = "ta-beng.blws";
 },
 {
-pos = (280,-170);
+pos = (280,-172);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (303,-204);
+pos = (303,-206);
 ref = "wa-beng.part";
 }
 );
@@ -149,15 +149,15 @@ shapes = (
 ref = "s-beng.half3";
 },
 {
-pos = (29,80);
+pos = (23,80);
 ref = "ta-beng.blws";
 },
 {
-pos = (208,-135);
+pos = (202,-135);
 ref = "baphala-beng.alt2";
 },
 {
-pos = (210,-145);
+pos = (202,-145);
 ref = "wa-beng.part";
 }
 );

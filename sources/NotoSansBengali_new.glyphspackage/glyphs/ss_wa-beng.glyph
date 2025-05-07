@@ -198,11 +198,11 @@ alignment = -1;
 ref = "ss-beng.half4";
 },
 {
-pos = (1,120);
+pos = (1,119);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (12,70);
+pos = (12,69);
 ref = "wa-beng.part";
 },
 {

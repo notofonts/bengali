@@ -286,23 +286,23 @@ alignment = -1;
 ref = "l-beng.half3";
 },
 {
-pos = (335,0);
+pos = (342,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (155,51);
+pos = (162,51);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (418,31);
+pos = (425,31);
 ref = "dha-beng.part";
 },
 {
-pos = (574,0);
+pos = (581,0);
 ref = "headline-beng.130";
 }
 );
-width = 742;
+width = 749;
 }
 );
 script = bengali;

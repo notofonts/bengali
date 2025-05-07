@@ -30,7 +30,7 @@ shapes = (
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (-10,-235);
+pos = (-10,-237);
 ref = "raphala-beng.alt06";
 },
 {
@@ -110,7 +110,7 @@ shapes = (
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (-26,-324);
+pos = (-26,-326);
 ref = "raphala-beng.alt06";
 },
 {
@@ -150,7 +150,7 @@ shapes = (
 ref = "ss_tta-beng.noflag";
 },
 {
-pos = (6,-209);
+pos = (6,-211);
 ref = "raphala-beng.alt06";
 },
 {

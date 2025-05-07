@@ -301,16 +301,15 @@ pos = (156,-213);
 ref = "wa-beng.part";
 },
 {
-alignment = -1;
-pos = (333,0);
+pos = (328,0);
 ref = "aaMatra-beng.side";
 },
 {
-pos = (550,0);
+pos = (545,0);
 ref = "headline-beng.130";
 }
 );
-width = 718;
+width = 713;
 }
 );
 script = bengali;

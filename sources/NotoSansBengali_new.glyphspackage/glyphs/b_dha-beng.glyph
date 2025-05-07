@@ -203,22 +203,19 @@ alignment = -1;
 ref = "b-beng.half2";
 },
 {
-alignment = -1;
 pos = (75,76);
 ref = "baphala-beng.alt4";
 },
 {
-alignment = -1;
-pos = (322,47);
+pos = (315,46);
 ref = "dha-beng.part";
 },
 {
-alignment = -1;
-pos = (335,0);
+pos = (336,0);
 ref = "headline-beng.250";
 }
 );
-width = 534;
+width = 535;
 },
 {
 background = {

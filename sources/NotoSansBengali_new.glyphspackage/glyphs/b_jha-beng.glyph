@@ -257,11 +257,11 @@ pos = (55,63);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (383,63);
+pos = (382,63);
 ref = "jha-beng.part";
 },
 {
-pos = (465,0);
+pos = (464,0);
 ref = "aaMatra-beng.side2";
 }
 );
