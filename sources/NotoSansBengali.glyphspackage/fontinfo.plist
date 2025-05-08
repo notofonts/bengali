@@ -551,6 +551,11 @@ wght = {
 178 = 900;
 };
 };
+},
+{
+disabled = 1;
+name = "Variable Font Origin";
+value = "28FB090A-653E-4199-B7BE-FAE23D31B682";
 }
 );
 date = "2017-07-06 08:51:49 +0000";
@@ -3121,82 +3126,6 @@ value = "Noto Sans Bengali UI";
 }
 );
 widthClass = 2;
-},
-{
-axesValues = (
-20,
-75
-);
-customParameters = (
-{
-name = panose;
-value = (
-2,
-11,
-5,
-6,
-4,
-5,
-4,
-2,
-2,
-4
-);
-},
-{
-name = "Don't use Production Names";
-value = 1;
-},
-{
-name = xHeight;
-value = "536";
-}
-);
-instanceInterpolations = {
-"28FB090A-653E-4199-B7BE-FAE23D31B682" = 0.32432;
-"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = 0.67568;
-};
-name = "Condensed Thin";
-weightClass = 100;
-widthClass = 3;
-},
-{
-axesValues = (
-178,
-75
-);
-customParameters = (
-{
-name = panose;
-value = (
-2,
-11,
-5,
-6,
-4,
-5,
-4,
-2,
-2,
-4
-);
-},
-{
-name = "Don't use Production Names";
-value = 1;
-},
-{
-name = xHeight;
-value = "536";
-}
-);
-instanceInterpolations = {
-"F138D99C-4E28-42C5-9F3E-22494052B08F" = 0.67568;
-"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.32432;
-};
-name = "Condensed Black";
-weightClass = 100;
-widthClass = 3;
 }
 );
 kerningLTR = {
