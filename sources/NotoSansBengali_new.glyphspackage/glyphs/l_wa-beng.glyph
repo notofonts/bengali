@@ -30,19 +30,19 @@ shapes = (
 ref = "l-beng.half3";
 },
 {
-pos = (403,0);
+pos = (402,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (213,45);
+pos = (212,45);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (232,-7);
+pos = (231,-7);
 ref = "wa-beng.part";
 }
 );
-width = 667;
+width = 666;
 },
 {
 background = {

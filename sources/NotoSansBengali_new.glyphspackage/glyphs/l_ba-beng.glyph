@@ -26,15 +26,15 @@ shapes = (
 ref = "l-beng.half3";
 },
 {
-pos = (403,0);
+pos = (402,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (213,45);
+pos = (212,45);
 ref = "baphala-beng.alt4";
 }
 );
-width = 667;
+width = 666;
 },
 {
 background = {
