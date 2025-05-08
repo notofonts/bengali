@@ -2,50 +2,6 @@
 glyphname = bracketleft.beng;
 layers = (
 {
-associatedMasterId = UUID0;
-attr = {
-coordinates = (
-151,
-100
-);
-};
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(132.68,-128.9,l),
-(362.06,-128.9,l),
-(362.06,-25.96,l),
-(258.43,-25.96,l),
-(258.43,689.06,l),
-(362.06,689.06,l),
-(362.06,792,l),
-(132.68,792,l)
-);
-}
-);
-};
-layerId = "236aa1c5-9150-4e1c-8f1f-9551ca9e15f2";
-name = "Bold Semi (intermediate)";
-shapes = (
-{
-closed = 1;
-nodes = (
-(134,-125,l),
-(371,-125,l),
-(371,-22,l),
-(261,-22,l),
-(261,689,l),
-(371,689,l),
-(371,792,l),
-(134,792,l)
-);
-}
-);
-width = 452;
-},
-{
 background = {
 shapes = (
 {

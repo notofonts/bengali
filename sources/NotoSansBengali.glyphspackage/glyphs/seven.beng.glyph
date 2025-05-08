@@ -2,48 +2,6 @@
 glyphname = seven.beng;
 layers = (
 {
-associatedMasterId = UUID0;
-attr = {
-coordinates = (
-151,
-100
-);
-};
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(115.04,0,l),
-(272.87,0,l),
-(528.62,616.16,l),
-(528.62,713.39,l),
-(40.34,713.39,l),
-(40.34,584.81,l),
-(369.3,584.81,l)
-);
-}
-);
-};
-layerId = "6c847d35-682e-42b5-be5f-89b30ca38d9a";
-name = "Bold Semi (intermediate)";
-shapes = (
-{
-closed = 1;
-nodes = (
-(101,0,l),
-(259,0,l),
-(519,618,l),
-(519,713,l),
-(27,713,l),
-(27,586,l),
-(355,586,l)
-);
-}
-);
-width = 551;
-},
-{
 background = {
 shapes = (
 {
