@@ -500,8 +500,7 @@ lookup BNG_half_onTheFly_biconsonant_firstHalf {
     # sub pha
     sub pha-beng' halant-beng' [la-beng] by ph-beng.half;
     sub @BNG_BA' halant-beng' [la-beng] by b-beng.half;
-    sub @BNG_BA' halant-beng' [dha-beng] by b-beng.half2;
-    sub @BNG_BA' halant-beng' baphala-beng.alt4 jha-beng.part by b-beng.half2;
+    sub @BNG_BA' halant-beng' [dha-beng jha-beng] by b-beng.half2;
     # sub bha
     sub bha-beng' halant-beng' [la-beng] by bh-beng.half;
     # sub ma
@@ -772,6 +771,8 @@ lookup BNG_pres_onTheFly_halfDecomp { # Half and side form decomposition (contex
     sub k-beng.half' ka-beng by b-beng.half2 ka-beng.arm1;
     sub s-beng.half k-beng.half' by baphala-beng.alt4 ka-beng.part;
     sub [ss-beng.half3 s-beng.half2] ka-beng' raphala-beng by ka-beng ka-beng.arm2;
+    # Decompose jha into baphala + part
+    sub b-beng.half2 jha-beng' by baphala-beng.alt4 jha-beng.part aaMatra-beng.side2;
     # Decompose na headline into headline + stem + na body
     sub n-beng.headline' dh-beng.half raphala-beng by n-beng.headline aaMatra-beng.part n-beng.float;
     sub n-beng.headline' [@BNG_BA dha-beng na-beng ma-beng] by n-beng.headline aaMatra-beng.part n-beng.float;
