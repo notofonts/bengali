@@ -537,7 +537,7 @@ value = 0;
 name = "Axis Mappings";
 value = {
 wdth = {
-63 = 63;
+62.5 = 62.5;
 100 = 100;
 };
 wght = {
@@ -556,6 +556,19 @@ wght = {
 {
 name = "Variable Font Origin";
 value = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+},
+{
+name = "meta Table";
+value = (
+{
+data = "as-Beng, bn-Beng";
+tag = dlng;
+},
+{
+data = "as-Beng, bn-Beng, pi-Beng";
+tag = slng;
+}
+);
 }
 );
 date = "2017-07-06 08:51:49 +0000";
@@ -1165,7 +1178,7 @@ stemValues = (
 {
 axesValues = (
 20,
-63
+62.5
 );
 customParameters = (
 {
@@ -1295,7 +1308,7 @@ stemValues = (
 {
 axesValues = (
 90,
-63
+62.5
 );
 customParameters = (
 {
@@ -1431,7 +1444,7 @@ stemValues = (
 {
 axesValues = (
 178,
-63
+62.5
 );
 customParameters = (
 {
@@ -1906,8 +1919,8 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.35135;
-UUID0 = 0.64865;
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.34667;
+UUID0 = 0.65333;
 };
 name = SemiCondensed;
 widthClass = 4;
@@ -1943,8 +1956,8 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.67568;
-UUID0 = 0.32432;
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.66667;
+UUID0 = 0.33333;
 };
 name = Condensed;
 widthClass = 3;
@@ -1980,7 +1993,8 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = 1;
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = 0.01333;
+"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = 0.98667;
 };
 name = "Extra Condensed Thin";
 weightClass = 100;
@@ -2017,7 +2031,8 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 1;
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.98667;
+UUID0 = 0.01333;
 };
 name = ExtraCondensed;
 widthClass = 2;
@@ -2028,7 +2043,8 @@ axesValues = (
 63
 );
 instanceInterpolations = {
-"F138D99C-4E28-42C5-9F3E-22494052B08F" = 1;
+"F138D99C-4E28-42C5-9F3E-22494052B08F" = 0.98667;
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.01333;
 };
 name = "Extra Condensed Black";
 weightClass = 900;
@@ -2928,8 +2944,8 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.2973;
-UUID0 = 0.7027;
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.29333;
+UUID0 = 0.70667;
 };
 name = SemiCondensed;
 properties = (
@@ -3019,8 +3035,8 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.56757;
-UUID0 = 0.43243;
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.56;
+UUID0 = 0.44;
 };
 name = Condensed;
 properties = (
@@ -3110,8 +3126,8 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.81081;
-UUID0 = 0.18919;
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.8;
+UUID0 = 0.2;
 };
 name = ExtraCondensed;
 properties = (
