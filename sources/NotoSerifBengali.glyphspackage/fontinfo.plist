@@ -735,7 +735,8 @@ featurePrefixes = (
 code = "languagesystem DFLT dflt;
 languagesystem beng dflt;
 languagesystem bng2 dflt;
-";
+languagesystem beng PAL;
+languagesystem bng2 PAL;";
 name = Languagesystems;
 },
 {
@@ -829,6 +830,7 @@ lookup conjuncts_1 {
 	sub ka-beng halant-beng sa-beng by k_sa-beng;
 
 	sub ga-beng halant-beng ga-beng by g_ga-beng;
+	sub ga-beng halant-beng nna-beng by g_nna-beng;
 	sub ga-beng halant-beng da-beng by g_da-beng;
 	sub ga-beng halant-beng dha-beng by g_dha-beng;
 	sub ga-beng halant-beng na-beng by g_na-beng;
@@ -890,15 +892,19 @@ lookup conjuncts_1 {
 	sub dha-beng halant-beng na-beng by dh_na-beng;
 	sub dha-beng halant-beng ma-beng by dh_ma-beng;
 
+	sub na-beng halant-beng ka-beng halant-beng ta-beng by n_k_ta-beng;
+	sub na-beng halant-beng ja-beng by n_ja-beng;	
 	sub na-beng halant-beng tta-beng by n_tta-beng;
 	sub na-beng halant-beng ttha-beng by n_ttha-beng;
 	sub na-beng halant-beng dda-beng by n_dda-beng;
+	sub na-beng halant-beng ddha-beng by n_ddha-beng;
 	sub na-beng halant-beng ta-beng by n_ta-beng;
 	sub na-beng halant-beng tha-beng by n_tha-beng;
 	sub na-beng halant-beng da-beng by n_da-beng;
 	sub na-beng halant-beng dha-beng by n_dha-beng;
 	sub na-beng halant-beng na-beng by n_na-beng;
 	sub na-beng halant-beng ma-beng by n_ma-beng;
+	sub na-beng halant-beng sa-beng halant-beng tta-beng by n_s_tta-beng;
 	sub na-beng halant-beng sa-beng by n_sa-beng;
 
 	sub pa-beng halant-beng tta-beng by p_tta-beng;
@@ -913,6 +919,7 @@ lookup conjuncts_1 {
 	sub pha-beng halant-beng la-beng by ph_la-beng;
 
 	sub ba-beng halant-beng ja-beng by b_ja-beng;
+	sub ba-beng halant-beng ddha-beng by b_ddha-beng;
 	sub ba-beng halant-beng da-beng by b_da-beng;
 	sub ba-beng halant-beng dha-beng by b_dha-beng;
 	sub ba-beng halant-beng bha-beng by b_bha-beng;
@@ -921,8 +928,10 @@ lookup conjuncts_1 {
 	sub bha-beng halant-beng la-beng by bh_la-beng;
 
 	sub ma-beng halant-beng ta-beng by m_ta-beng;
+	sub ma-beng halant-beng tha-beng by m_tha-beng;
 	sub ma-beng halant-beng da-beng by m_da-beng;
 	sub ma-beng halant-beng na-beng by m_na-beng;
+	sub ma-beng halant-beng pa-beng halant-beng la-beng by m_p_la-beng;
 	sub ma-beng halant-beng pa-beng by m_pa-beng;
 	sub ma-beng halant-beng pha-beng by m_pha-beng;
 	sub ma-beng halant-beng bha-beng by m_bha-beng;
@@ -932,18 +941,23 @@ lookup conjuncts_1 {
 
 	sub la-beng halant-beng ka-beng by l_ka-beng;
 	sub la-beng halant-beng ga-beng by l_ga-beng;
+	sub la-beng halant-beng gha-beng by l_gha-beng;
 	sub la-beng halant-beng tta-beng by l_tta-beng;
 	sub la-beng halant-beng dda-beng by l_dda-beng;
+	sub la-beng halant-beng ddha-beng by l_ddha-beng;
 	sub la-beng halant-beng ta-beng by l_ta-beng;
 	sub la-beng halant-beng da-beng by l_da-beng;
 	sub la-beng halant-beng dha-beng by l_dha-beng;
 	sub la-beng halant-beng pa-beng by l_pa-beng;
 	sub la-beng halant-beng pha-beng by l_pha-beng;
+	sub la-beng halant-beng bha-beng by l_bha-beng;
 	sub la-beng halant-beng ma-beng by l_ma-beng;
 	sub la-beng halant-beng la-beng by l_la-beng;
+	sub la-beng halant-beng sa-beng by l_sa-beng;
 
 	sub sha-beng halant-beng ca-beng by sh_ca-beng;
 	sub sha-beng halant-beng cha-beng by sh_cha-beng;
+	sub sha-beng halant-beng tta-beng by sh_tta-beng;
 	sub sha-beng halant-beng ta-beng by sh_ta-beng;
 	sub sha-beng halant-beng na-beng by sh_na-beng;
 	sub sha-beng halant-beng ma-beng by sh_ma-beng;
@@ -957,12 +971,14 @@ lookup conjuncts_1 {
 	sub ssa-beng halant-beng pha-beng by ss_pha-beng;
 	sub ssa-beng halant-beng ma-beng by ss_ma-beng;
 
+	sub sa-beng halant-beng ka-beng halant-beng la-beng by s_k_la-beng;
 	sub sa-beng halant-beng ka-beng by s_ka-beng;
 	sub sa-beng halant-beng kha-beng by s_kha-beng;
 	sub sa-beng halant-beng tta-beng by s_tta-beng;
 	sub sa-beng halant-beng ta-beng by s_ta-beng;
 	sub sa-beng halant-beng tha-beng by s_tha-beng;
 	sub sa-beng halant-beng na-beng by s_na-beng;
+	sub sa-beng halant-beng pa-beng halant-beng la-beng by s_p_la-beng;
 	sub sa-beng halant-beng pa-beng by s_pa-beng;
 	sub sa-beng halant-beng pha-beng by s_pha-beng;
 	sub sa-beng halant-beng ma-beng by s_ma-beng;
@@ -972,39 +988,43 @@ lookup conjuncts_1 {
 	sub ha-beng halant-beng na-beng by h_na-beng;
 	sub ha-beng halant-beng ma-beng by h_ma-beng;
 	sub ha-beng halant-beng la-beng by h_la-beng;
+
+	sub rra-beng halant-beng ga-beng by ddNukta_ga-beng;
 } conjuncts_1 ;
 
 
 lookup conjuncts_belowBase_Ba {
-	sub ka-beng halant-beng t_ba-beng by k_t_ba-beng;
+	sub k_ta-beng ba-beng.blwf by k_t_ba-beng;
 	sub k_ssa-beng ba-beng.blwf by k_ss_ba-beng;
 	sub ka-beng ba-beng.blwf by k_ba-beng;
 	sub kha-beng ba-beng.blwf by kh_ba-beng;
 	sub ga-beng ba-beng.blwf by g_ba-beng;
 	sub gha-beng ba-beng.blwf by gh_ba-beng;
 	sub nga-beng ba-beng.blwf by ng_ba-beng;
-	sub ca-beng halant-beng ch_ba-beng by c_ch_ba-beng;
+	sub c_cha-beng ba-beng.blwf by c_ch_ba-beng;
 	sub ca-beng ba-beng.blwf by c_ba-beng;
 	sub cha-beng ba-beng.blwf by ch_ba-beng;
 	sub j_nya-beng ba-beng.blwf by j_ny_ba-beng;
-	sub ja-beng halant-beng ja-beng ba-beng.blwf by j_j_ba-beng;
+	sub j_ja-beng ba-beng.blwf by j_j_ba-beng;
 	sub ja-beng ba-beng.blwf by j_ba-beng;
 	sub jha-beng ba-beng.blwf by jh_ba-beng;
+	sub ny_ca-beng ba-beng.blwf by ny_c_ba-beng;
 	sub nya-beng ba-beng.blwf by ny_ba-beng;
 	sub tta-beng ba-beng.blwf by tt_ba-beng;
 	sub ttha-beng ba-beng.blwf by tth_ba-beng;
 	sub dda-beng ba-beng.blwf by dd_ba-beng;
 	sub ddha-beng ba-beng.blwf by ddh_ba-beng;
 	sub nna-beng ba-beng.blwf by nn_ba-beng;
-	sub ta-beng halant-beng ta-beng ba-beng.blwf by t_t_ba-beng;
+	sub t_ta-beng ba-beng.blwf by t_t_ba-beng;
 	sub ta-beng ba-beng.blwf by t_ba-beng;
 	sub tha-beng ba-beng.blwf by th_ba-beng;
 	sub d_da-beng ba-beng.blwf by d_d_ba-beng;
-	sub da-beng halant-beng dh_ba-beng by d_dh_ba-beng;
+	sub d_dha-beng ba-beng.blwf by d_dh_ba-beng;
 	sub da-beng ba-beng.blwf by d_ba-beng;
 	sub dha-beng ba-beng.blwf by dh_ba-beng;
 	sub n_da-beng ba-beng.blwf by n_d_ba-beng;
-	sub na-beng halant-beng t_ba-beng by n_t_ba-beng;
+	sub n_dha-beng ba-beng.blwf by n_dh_ba-beng;
+	sub n_ta-beng ba-beng.blwf by n_t_ba-beng;
 	sub na-beng ba-beng.blwf by n_ba-beng;
 	sub pa-beng ba-beng.blwf by p_ba-beng;
 	sub pha-beng ba-beng.blwf by ph_ba-beng;
@@ -1014,8 +1034,9 @@ lookup conjuncts_belowBase_Ba {
 	sub ya-beng ba-beng.blwf by y_ba-beng;
 	sub la-beng ba-beng.blwf by l_ba-beng;
 	sub sha-beng ba-beng.blwf by sh_ba-beng;
+	sub ss_tta-beng ba-beng.blwf by ss_tt_ba-beng;
 	sub ssa-beng ba-beng.blwf by ss_ba-beng;
-	sub sa-beng halant-beng t_ba-beng by s_t_ba-beng;
+	sub s_ta-beng ba-beng.blwf by s_t_ba-beng;
 	sub sa-beng ba-beng.blwf by s_ba-beng;
 	sub ha-beng ba-beng.blwf by h_ba-beng;
 	sub rra-beng ba-beng.blwf by ddNukta_ba-beng;
@@ -1025,52 +1046,63 @@ lookup conjuncts_belowBase_Ba {
 
 lookup conjuncts_belowBase_Ra {
 	sub k_tta-beng ra-beng.blwf by k_tt_ra-beng;
-	sub ka-beng halant-beng t_ra-beng by k_t_ra-beng;
+	sub k_ta-beng ra-beng.blwf by k_t_ra-beng;
 	sub k_ssa-beng ra-beng.blwf by k_ss_ra-beng;
 	sub ka-beng ra-beng.blwf by k_ra-beng;
 	sub kha-beng ra-beng.blwf by kh_ra-beng;
 	sub ga-beng ra-beng.blwf by g_ra-beng;
 	sub gha-beng ra-beng.blwf by gh_ra-beng;
+	sub ng_k_ssa-beng ra-beng.blwf by ng_k_ss_ra-beng;
 	sub ng_ka-beng ra-beng.blwf by ng_k_ra-beng;
 	sub nga-beng ra-beng.blwf by ng_ra-beng;
-	sub ca-beng halant-beng ch_ra-beng by c_ch_ra-beng;
+	sub c_cha-beng ra-beng.blwf by c_ch_ra-beng;
 	sub ca-beng ra-beng.blwf by c_ra-beng;
 	sub cha-beng ra-beng.blwf by ch_ra-beng;
 	sub j_nya-beng ra-beng.blwf by j_ny_ra-beng;
 	sub ja-beng ra-beng.blwf by j_ra-beng;
 	sub jha-beng ra-beng.blwf by jh_ra-beng;
 	sub nya-beng ra-beng.blwf by ny_ra-beng;
+	sub tt_tta-beng ra-beng.blwf by tt_tt_ra-beng;
 	sub tta-beng ra-beng.blwf by tt_ra-beng;
 	sub ttha-beng ra-beng.blwf by tth_ra-beng;
 	sub dda-beng ra-beng.blwf by dd_ra-beng;
 	sub ddha-beng ra-beng.blwf by ddh_ra-beng;
 	sub nn_tta-beng ra-beng.blwf by nn_tt_ra-beng;
+	sub nn_ttha-beng ra-beng.blwf by nn_tth_ra-beng;
 	sub nn_dda-beng ra-beng.blwf by nn_dd_ra-beng;
+	sub nn_ddha-beng ra-beng.blwf by nn_ddh_ra-beng;
 	sub nna-beng ra-beng.blwf by nn_ra-beng;
+	sub t_tha-beng ra-beng.blwf by t_th_ra-beng;
 	sub ta-beng ra-beng.blwf by t_ra-beng;
 	sub tha-beng ra-beng.blwf by th_ra-beng;
-	sub da-beng halant-beng bh_ra-beng by d_bh_ra-beng;
+	sub d_bha-beng ra-beng.blwf by d_bh_ra-beng;
 	sub da-beng ra-beng.blwf by d_ra-beng;
 	sub dha-beng ra-beng.blwf by dh_ra-beng;
 	sub n_tta-beng ra-beng.blwf by n_tt_ra-beng;
 	sub n_dda-beng ra-beng.blwf by n_dd_ra-beng;
 	sub n_da-beng ra-beng.blwf by n_d_ra-beng;
-	sub na-beng halant-beng t_ra-beng by n_t_ra-beng;
-	sub na-beng halant-beng th_ra-beng by n_th_ra-beng;
-	sub na-beng halant-beng dh_ra-beng by n_dh_ra-beng;
+	sub n_ta-beng ra-beng.blwf by n_t_ra-beng;
+	sub n_tha-beng ra-beng.blwf by n_th_ra-beng;
+	sub n_dha-beng ra-beng.blwf by n_dh_ra-beng;
 	sub na-beng ra-beng.blwf by n_ra-beng;
+	sub p_ta-beng ra-beng.blwf by p_t_ra-beng;
 	sub pa-beng ra-beng.blwf by p_ra-beng;
 	sub pha-beng ra-beng.blwf by ph_ra-beng;
 	sub b_da-beng ra-beng.blwf by b_d_ra-beng;
+	sub b_bha-beng ra-beng.blwf by b_bh_ra-beng;
 	sub ba-beng ra-beng.blwf by b_ra-beng;
 	sub bha-beng ra-beng.blwf by bh_ra-beng;
+	sub m_da-beng ra-beng.blwf by m_d_ra-beng;
 	sub m_pa-beng ra-beng.blwf by m_p_ra-beng;
+	sub m_pha-beng ra-beng.blwf by m_ph_ra-beng;
 	sub m_ba-beng ra-beng.blwf by m_b_ra-beng;
-	sub ma-beng halant-beng bh_ra-beng by m_bh_ra-beng;
+	sub m_bha-beng ra-beng.blwf by m_bh_ra-beng;
 	sub ma-beng ra-beng.blwf by m_ra-beng;
 	sub ya-beng ra-beng.blwf by y_ra-beng;
 	sub l_tta-beng ra-beng.blwf by l_tt_ra-beng;
 	sub l_dda-beng ra-beng.blwf by l_dd_ra-beng;
+	sub l_da-beng ra-beng.blwf by l_d_ra-beng;
+	sub l_pha-beng ra-beng.blwf by l_ph_ra-beng;
 	sub la-beng ra-beng.blwf by l_ra-beng;
 	sub sha-beng ra-beng.blwf by sh_ra-beng;
 	sub ss_ka-beng ra-beng.blwf by ss_k_ra-beng;
@@ -1079,12 +1111,25 @@ lookup conjuncts_belowBase_Ra {
 	sub s_ka-beng ra-beng.blwf by s_k_ra-beng;
 	sub s_tta-beng ra-beng.blwf by s_tt_ra-beng;
 	sub s_pa-beng ra-beng.blwf by s_p_ra-beng;
-	sub sa-beng halant-beng t_ra-beng by s_t_ra-beng;
+	sub s_pha-beng ra-beng.blwf by s_ph_ra-beng;
+	sub s_ta-beng ra-beng.blwf by s_t_ra-beng;
 	sub sa-beng ra-beng.blwf by s_ra-beng;
 	sub ha-beng ra-beng.blwf by h_ra-beng;
 	sub rha-beng ra-beng.blwf by ddhNukta_ra-beng;
+	sub rra-beng ra-beng.blwf by ddNukta_ra-beng;
 	sub yya-beng ra-beng.blwf by yNukta_ra-beng;
 } conjuncts_belowBase_Ra;
+
+lookup pali_conjuncts_belowBase_Ba{
+	sub ka-beng ba-beng.blwf by k_wa-beng;
+	sub ga-beng ba-beng.blwf by g_wa-beng;
+	sub da-beng ba-beng.blwf by d_wa-beng;
+	sub t_ta-beng ba-beng.blwf by t_t_wa-beng;
+	sub ta-beng ba-beng.blwf by t_wa-beng;
+	sub ma-beng ba-beng.blwf by m_wa-beng;
+	sub s_ta-beng ba-beng.blwf by s_t_wa-beng;
+	sub sa-beng ba-beng.blwf by s_wa-beng;
+}pali_conjuncts_belowBase_Ba;
 ";
 name = Independentlookups;
 },
@@ -1141,8 +1186,12 @@ lookup nukta_forms {
 	sub ralowerdiagonal-beng nukta-beng by ralowerdiagonal-beng.nukt;
 } nukta_forms ;
 
+language PAL;
+
 script bng2 ;
 lookup nukta_forms ;
+
+language PAL;
 ";
 tag = nukt;
 },
@@ -1157,10 +1206,13 @@ lookup akhand_2 {
 	sub ta-beng' halant-beng' zerowidthjoiner by taKhanda-beng;
 } akhand_2 ;
 
+language PAL;
+
 script bng2 ;
 lookup akhand_1 ;
 lookup akhand_2 ;
-";
+
+language PAL;";
 tag = akhn;
 },
 {
@@ -1170,25 +1222,34 @@ lookup reph {
 	sub ramiddlediagonal-beng halant-beng by reph-beng; # Assamese Ra
 } reph ;
 
+language PAL;
+
 script bng2 ;
 lookup reph ;
-";
+
+language PAL;";
 tag = rphf;
 },
 {
 code = "script beng ;
 lookup belowBase_forms_1 { # beng
 	sub ba-beng halant-beng by ba-beng.blwf;
+	sub ralowerdiagonal-beng halant-beng by ba-beng.blwf;
 	sub ra-beng halant-beng by ra-beng.blwf;
 	sub ramiddlediagonal-beng halant-beng by ra-beng.blwf;
 } belowBase_forms_1 ;
 
+language PAL;
+
 script bng2 ;
 lookup belowBase_forms_2 { # bng2
 	sub halant-beng ba-beng by ba-beng.blwf;
+	sub halant-beng ralowerdiagonal-beng by ba-beng.blwf;
 	sub halant-beng ra-beng by ra-beng.blwf;
 	sub halant-beng ramiddlediagonal-beng by ra-beng.blwf;
 } belowBase_forms_2 ;
+
+language PAL;
 ";
 tag = blwf;
 },
@@ -1198,16 +1259,26 @@ lookup postBase_forms_1 { # beng
 	sub ya-beng halant-beng by ya-beng.pstf;
 } postBase_forms_1 ;
 
+language PAL;
+
 script bng2 ;
 lookup postBase_forms_2 { # bng2
 	sub halant-beng ya-beng by ya-beng.pstf;
 } postBase_forms_2 ;
+
+language PAL;
 ";
 tag = pstf;
 },
 {
 code = "script bng2 ;
 lookup conjuncts_1;
+lookup conjuncts_belowBase_Ba;
+lookup conjuncts_belowBase_Ra;
+
+language PAL;
+lookup conjuncts_1;
+lookup pali_conjuncts_belowBase_Ba;
 lookup conjuncts_belowBase_Ba;
 lookup conjuncts_belowBase_Ra;";
 tag = cjct;
@@ -1219,8 +1290,12 @@ lookup initial_forms {
 	sub aiMatra-beng by aiMatra-beng.init;
 } initial_forms ;
 
+language PAL;
+
 script bng2 ;
 lookup initial_forms ;
+
+language PAL;
 ";
 tag = init;
 },
@@ -1263,7 +1338,23 @@ lookup preBase_contextual_imatra {
 	sub iMatra-beng' [m_pa-beng ng_gha-beng j_ja-beng dd_ga-beng d_ga-beng d_gha-beng m_p_ra-beng s_pa-beng s_p_ra-beng ng_k_ssa-beng j_ja-beng j_j_ba-beng] by iMatra-beng.wide4 ;
 } preBase_contextual_imatra ;
 
+language PAL;
+lookup reorder_candrabindu_1;
+lookup reorder_candrabindu_2;
+lookup conjuncts_1;
+lookup pali_conjuncts_belowBase_Ba;
+lookup conjuncts_belowBase_Ba;
+lookup conjuncts_belowBase_Ra;
+lookup preBase_imatra;
+lookup preBase_contextual_imatra;
+
 script bng2 ;
+lookup reorder_candrabindu_1 ;
+lookup reorder_candrabindu_2 ;
+lookup preBase_imatra ;
+lookup preBase_contextual_imatra ;
+
+language PAL;
 lookup reorder_candrabindu_1 ;
 lookup reorder_candrabindu_2 ;
 lookup preBase_imatra ;
@@ -1322,6 +1413,8 @@ lookup postBase_aumatra {
 	sub ss_tt_ra-beng auLength-beng by ss_tt_ra_auLength-beng;
 	sub s_tt_ra-beng auLength-beng by s_tt_ra_auLength-beng;
 } postBase_aumatra ;
+
+language PAL;
 ";
 tag = psts;
 },
@@ -1355,6 +1448,8 @@ lookup lowerAvagraha {
 	sub dottedcircle uni09FE' by  uni09FE.low ;
 	sub dottedcircle uniA8F1' by uniA8F1.low ;
 } lowerAvagraha ;
+language PAL;
+
 
 script bng2 ;
 lookup aboveBase_matraLigatures ;
@@ -1362,6 +1457,8 @@ lookup aboveBase_imatra_ligatures_1 ;
 lookup aboveBase_imatra_ligatures_2 ;
 lookup switch_candrabindu ;
 lookup lowerAvagraha ;
+language PAL;
+
 ";
 tag = abvs;
 },
@@ -1372,6 +1469,7 @@ lookup finalForms {
 	ignore sub [aaMatra-beng iiMatra-beng auLength-beng]' @BENG_allSpacingGlyphs_RCLT;
 	sub [aaMatra-beng iiMatra-beng auLength-beng]' lookup finalFormsOfMatras;
 } finalForms ;
+language PAL;
 
 script bng2 ;
 lookup finalForms ;
@@ -1392,6 +1490,8 @@ lookup shiftStackMarks {
 	sub uni1CF5.stack' [iiMatra-beng iiMatra_reph-beng iiMatra_reph_candrabindu-beng iiMatra-beng.fina ] by uni1CF5.stick ;
 	sub uni1CF6.stack' [iiMatra-beng iiMatra_reph-beng iiMatra_reph_candrabindu-beng iiMatra-beng.fina ] by uni1CF6.stick ;
 } shiftStackMarks ;
+language PAL;
+
 ";
 tag = rclt;
 },
@@ -1444,11 +1544,16 @@ lookup alternate_uMatra {
 	sub @BENG_allUMatraVariantBases uuMatra-beng' by uuMatra-beng.alt;
 } alternate_uMatra ;
 
+language PAL;
+
 script bng2 ;
 lookup belowBase_umatra ;
 lookup belowBase_uumatra ;
 lookup belowBase_rVocalicMatra ;
-lookup alternate_uMatra ;";
+lookup alternate_uMatra ;
+
+language PAL;
+";
 tag = blws;
 },
 {
@@ -1488,8 +1593,12 @@ lookup halant_forms {
 	sub ralowerdiagonal-beng.nukt halant-beng by ralowerdiagonalhalf-beng.nukt;
 } halant_forms ;
 
+language PAL;
+
 script bng2 ;
 lookup halant_forms ;
+language PAL;
+
 ";
 tag = haln;
 }

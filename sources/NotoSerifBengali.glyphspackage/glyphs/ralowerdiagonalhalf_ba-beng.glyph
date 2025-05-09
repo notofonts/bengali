@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 0;
 glyphname = "ralowerdiagonalhalf_ba-beng";
 kernLeft = bnBA;
 layers = (
