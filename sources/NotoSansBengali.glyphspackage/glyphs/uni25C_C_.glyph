@@ -8,36 +8,20 @@ name = bottom;
 pos = (255,63);
 },
 {
-name = bottomPart;
-pos = (431,220);
-},
-{
-name = bottom_JhaVattuSide;
-pos = (255,78);
-},
-{
 name = bottom_mark;
 pos = (255,0);
-},
-{
-name = bottom_markMainForm;
-pos = (79,298);
 },
 {
 name = bottom_nukta;
 pos = (255,-10);
 },
 {
-name = bottom_wa;
-pos = (255,-20);
-},
-{
 name = nukta;
 pos = (255,43);
 },
 {
-name = side;
-pos = (79,440);
+name = top;
+pos = (255,622);
 },
 {
 name = top_candrabindu;
@@ -48,26 +32,6 @@ name = top_candrabindu_iMatra;
 pos = (255,643);
 },
 {
-name = top_flag;
-pos = (346,635);
-},
-{
-name = top_headline130;
-pos = (431,511);
-},
-{
-name = top_headline200;
-pos = (441,511);
-},
-{
-name = top_headline250;
-pos = (451,511);
-},
-{
-name = top_headlineBa;
-pos = (461,511);
-},
-{
 name = top_iMatra;
 pos = (255,646);
 },
@@ -76,12 +40,12 @@ name = top_reph;
 pos = (255,629);
 },
 {
-name = top_ttha;
-pos = (346,618);
-},
-{
 name = top_vedic;
 pos = (255,632);
+},
+{
+name = topright;
+pos = (418,622);
 }
 );
 background = {
@@ -454,36 +418,20 @@ name = bottom;
 pos = (255,63);
 },
 {
-name = bottomPart;
-pos = (431,220);
-},
-{
-name = bottom_JhaVattuSide;
-pos = (255,78);
-},
-{
 name = bottom_mark;
 pos = (255,0);
-},
-{
-name = bottom_markMainForm;
-pos = (79,298);
 },
 {
 name = bottom_nukta;
 pos = (255,-10);
 },
 {
-name = bottom_wa;
-pos = (255,-20);
-},
-{
 name = nukta;
 pos = (255,43);
 },
 {
-name = side;
-pos = (79,440);
+name = top;
+pos = (255,622);
 },
 {
 name = top_candrabindu;
@@ -494,26 +442,6 @@ name = top_candrabindu_iMatra;
 pos = (255,643);
 },
 {
-name = top_flag;
-pos = (346,635);
-},
-{
-name = top_headline130;
-pos = (431,511);
-},
-{
-name = top_headline200;
-pos = (441,511);
-},
-{
-name = top_headline250;
-pos = (451,511);
-},
-{
-name = top_headlineBa;
-pos = (461,511);
-},
-{
 name = top_iMatra;
 pos = (255,646);
 },
@@ -522,12 +450,12 @@ name = top_reph;
 pos = (255,629);
 },
 {
-name = top_ttha;
-pos = (346,618);
-},
-{
 name = top_vedic;
 pos = (255,632);
+},
+{
+name = topright;
+pos = (418,622);
 }
 );
 background = {
@@ -900,36 +828,20 @@ name = bottom;
 pos = (255,63);
 },
 {
-name = bottomPart;
-pos = (431,220);
-},
-{
-name = bottom_JhaVattuSide;
-pos = (255,78);
-},
-{
 name = bottom_mark;
 pos = (255,0);
-},
-{
-name = bottom_markMainForm;
-pos = (79,298);
 },
 {
 name = bottom_nukta;
 pos = (255,-10);
 },
 {
-name = bottom_wa;
-pos = (255,-20);
-},
-{
 name = nukta;
 pos = (255,43);
 },
 {
-name = side;
-pos = (79,440);
+name = top;
+pos = (255,622);
 },
 {
 name = top_candrabindu;
@@ -940,26 +852,6 @@ name = top_candrabindu_iMatra;
 pos = (255,643);
 },
 {
-name = top_flag;
-pos = (346,635);
-},
-{
-name = top_headline130;
-pos = (431,511);
-},
-{
-name = top_headline200;
-pos = (441,511);
-},
-{
-name = top_headline250;
-pos = (451,511);
-},
-{
-name = top_headlineBa;
-pos = (461,511);
-},
-{
 name = top_iMatra;
 pos = (255,646);
 },
@@ -968,12 +860,12 @@ name = top_reph;
 pos = (255,629);
 },
 {
-name = top_ttha;
-pos = (346,618);
-},
-{
 name = top_vedic;
 pos = (255,632);
+},
+{
+name = topright;
+pos = (418,622);
 }
 );
 background = {
@@ -1346,36 +1238,20 @@ name = bottom;
 pos = (197,63);
 },
 {
-name = bottomPart;
-pos = (343,220);
-},
-{
-name = bottom_JhaVattuSide;
-pos = (197,78);
-},
-{
 name = bottom_mark;
 pos = (197,0);
-},
-{
-name = bottom_markMainForm;
-pos = (51,298);
 },
 {
 name = bottom_nukta;
 pos = (197,-10);
 },
 {
-name = bottom_wa;
-pos = (197,-20);
-},
-{
 name = nukta;
 pos = (197,43);
 },
 {
-name = side;
-pos = (51,440);
+name = top;
+pos = (197,622);
 },
 {
 name = top_candrabindu;
@@ -1386,26 +1262,6 @@ name = top_candrabindu_iMatra;
 pos = (197,643);
 },
 {
-name = top_flag;
-pos = (272,635);
-},
-{
-name = top_headline130;
-pos = (343,511);
-},
-{
-name = top_headline200;
-pos = (353,511);
-},
-{
-name = top_headline250;
-pos = (363,511);
-},
-{
-name = top_headlineBa;
-pos = (373,511);
-},
-{
 name = top_iMatra;
 pos = (197,646);
 },
@@ -1414,12 +1270,12 @@ name = top_reph;
 pos = (197,629);
 },
 {
-name = top_ttha;
-pos = (272,618);
-},
-{
 name = top_vedic;
 pos = (197,632);
+},
+{
+name = topright;
+pos = (318,622);
 }
 );
 background = {
@@ -1792,36 +1648,20 @@ name = bottom;
 pos = (197,63);
 },
 {
-name = bottomPart;
-pos = (343,220);
-},
-{
-name = bottom_JhaVattuSide;
-pos = (197,78);
-},
-{
 name = bottom_mark;
 pos = (197,0);
-},
-{
-name = bottom_markMainForm;
-pos = (51,298);
 },
 {
 name = bottom_nukta;
 pos = (197,-10);
 },
 {
-name = bottom_wa;
-pos = (197,-20);
-},
-{
 name = nukta;
 pos = (197,43);
 },
 {
-name = side;
-pos = (51,440);
+name = top;
+pos = (197,622);
 },
 {
 name = top_candrabindu;
@@ -1832,26 +1672,6 @@ name = top_candrabindu_iMatra;
 pos = (197,643);
 },
 {
-name = top_flag;
-pos = (272,635);
-},
-{
-name = top_headline130;
-pos = (343,511);
-},
-{
-name = top_headline200;
-pos = (353,511);
-},
-{
-name = top_headline250;
-pos = (363,511);
-},
-{
-name = top_headlineBa;
-pos = (373,511);
-},
-{
 name = top_iMatra;
 pos = (197,646);
 },
@@ -1860,12 +1680,12 @@ name = top_reph;
 pos = (197,629);
 },
 {
-name = top_ttha;
-pos = (272,618);
-},
-{
 name = top_vedic;
 pos = (197,632);
+},
+{
+name = topright;
+pos = (318,622);
 }
 );
 background = {
@@ -2238,36 +2058,20 @@ name = bottom;
 pos = (197,63);
 },
 {
-name = bottomPart;
-pos = (343,220);
-},
-{
-name = bottom_JhaVattuSide;
-pos = (197,78);
-},
-{
 name = bottom_mark;
 pos = (197,0);
-},
-{
-name = bottom_markMainForm;
-pos = (51,298);
 },
 {
 name = bottom_nukta;
 pos = (197,-10);
 },
 {
-name = bottom_wa;
-pos = (197,-20);
-},
-{
 name = nukta;
 pos = (197,43);
 },
 {
-name = side;
-pos = (51,440);
+name = top;
+pos = (197,622);
 },
 {
 name = top_candrabindu;
@@ -2278,26 +2082,6 @@ name = top_candrabindu_iMatra;
 pos = (197,643);
 },
 {
-name = top_flag;
-pos = (272,635);
-},
-{
-name = top_headline130;
-pos = (343,511);
-},
-{
-name = top_headline200;
-pos = (353,511);
-},
-{
-name = top_headline250;
-pos = (363,511);
-},
-{
-name = top_headlineBa;
-pos = (373,511);
-},
-{
 name = top_iMatra;
 pos = (197,646);
 },
@@ -2306,12 +2090,12 @@ name = top_reph;
 pos = (197,629);
 },
 {
-name = top_ttha;
-pos = (272,618);
-},
-{
 name = top_vedic;
 pos = (197,632);
+},
+{
+name = topright;
+pos = (318,622);
 }
 );
 background = {
