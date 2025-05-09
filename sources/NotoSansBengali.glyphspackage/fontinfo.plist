@@ -564,7 +564,7 @@ featurePrefixes = (
 {
 code = "# link modified after the change to .glyphspackage. Glyphs3 marks an error, but this is the correct path for fontmake.
 #include(../features/unicode_on-the-fly.fea);
-include(../features/on-the-fly.fea);
+include(features/on-the-fly.fea);
 #include(features/static.fea);
 ";
 name = Include;
