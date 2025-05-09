@@ -1,5 +1,4 @@
 {
-category = "";
 export = 0;
 glyphname = assastroke;
 layers = (
@@ -161,5 +160,4 @@ width = 353;
 }
 );
 script = "";
-subCategory = "";
 }
