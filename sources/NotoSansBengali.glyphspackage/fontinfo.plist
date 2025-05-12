@@ -1318,7 +1318,7 @@ value = "ka-beng";
 );
 guides = (
 {
-pos = (181,631);
+pos = (214,917);
 }
 );
 iconName = Condensed;
@@ -1454,7 +1454,7 @@ value = "ka-beng";
 );
 guides = (
 {
-pos = (403,644);
+pos = (447,-408);
 }
 );
 id = "F138D99C-4E28-42C5-9F3E-22494052B08F";

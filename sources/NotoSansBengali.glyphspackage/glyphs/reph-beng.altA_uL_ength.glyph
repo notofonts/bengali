@@ -6,19 +6,19 @@ layers = (
 anchors = (
 {
 name = _top_iMatra;
-pos = (-113,693);
+pos = (-113,676);
 },
 {
 name = _top_reph;
-pos = (-172,622);
+pos = (-172,605);
 },
 {
 name = top_candrabindu;
-pos = (-185,749);
+pos = (-185,732);
 },
 {
 name = top_candrabindu_iMatra;
-pos = (-180,749);
+pos = (-180,732);
 }
 );
 background = {
@@ -57,10 +57,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(110,894,l),
-(68,934,l),
-(-165,711,l),
-(-47,730,l)
+(110,877,l),
+(68,917,l),
+(-165,694,l),
+(-47,713,l)
 );
 }
 );
@@ -134,19 +134,19 @@ width = 0;
 anchors = (
 {
 name = _top_iMatra;
-pos = (-150,673);
+pos = (-150,625);
 },
 {
 name = _top_reph;
-pos = (-245,622);
+pos = (-245,574);
 },
 {
 name = top_candrabindu;
-pos = (-248,793);
+pos = (-248,745);
 },
 {
 name = top_candrabindu_iMatra;
-pos = (-264,743);
+pos = (-264,695);
 }
 );
 background = {
@@ -185,10 +185,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(91,884,l),
-(22,965,l),
-(-298,734,l),
-(-134,674,l)
+(91,836,l),
+(22,917,l),
+(-298,686,l),
+(-134,626,l)
 );
 }
 );
@@ -262,19 +262,19 @@ width = 0;
 anchors = (
 {
 name = _top_iMatra;
-pos = (-88,695);
+pos = (-88,685);
 },
 {
 name = _top_reph;
-pos = (-140,622);
+pos = (-140,612);
 },
 {
 name = top_candrabindu;
-pos = (-147,743);
+pos = (-147,733);
 },
 {
 name = top_candrabindu_iMatra;
-pos = (-147,743);
+pos = (-147,733);
 }
 );
 background = {
@@ -313,10 +313,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(76,894,l),
-(38,927,l),
-(-140,718,l),
-(-53,731,l)
+(76,884,l),
+(38,917,l),
+(-140,708,l),
+(-53,721,l)
 );
 }
 );
@@ -326,19 +326,19 @@ width = 0;
 anchors = (
 {
 name = _top_iMatra;
-pos = (-126,676);
+pos = (-126,637);
 },
 {
 name = _top_reph;
-pos = (-209,622);
+pos = (-209,583);
 },
 {
 name = top_candrabindu;
-pos = (-227,785);
+pos = (-227,746);
 },
 {
 name = top_candrabindu_iMatra;
-pos = (-227,744);
+pos = (-227,705);
 }
 );
 background = {
@@ -377,10 +377,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(70,883,l),
-(2,956,l),
-(-262,733,l),
-(-123,682,l)
+(70,844,l),
+(2,917,l),
+(-262,694,l),
+(-123,643,l)
 );
 }
 );

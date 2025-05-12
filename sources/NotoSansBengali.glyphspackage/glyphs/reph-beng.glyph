@@ -331,19 +331,19 @@ width = 0;
 anchors = (
 {
 name = _top_candrabindu;
-pos = (0,622);
+pos = (0,609);
 },
 {
 name = _top_iMatra;
-pos = (6,659);
+pos = (6,646);
 },
 {
 name = top_candrabindu;
-pos = (-64,760);
+pos = (-64,747);
 },
 {
 name = top_candrabindu_iMatra;
-pos = (-134,743);
+pos = (-134,730);
 }
 );
 background = {
@@ -382,10 +382,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(189,869,l),
-(98,930,l),
-(-83,708,l),
-(33,632,l)
+(189,856,l),
+(98,917,l),
+(-83,695,l),
+(33,619,l)
 );
 }
 );
