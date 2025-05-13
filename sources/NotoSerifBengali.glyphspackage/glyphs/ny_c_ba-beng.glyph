@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = "ny_c_ba-beng";
 layers = (
 {
@@ -1273,7 +1272,6 @@ nodes = (
 }
 );
 };
-color = 4;
 layerId = "03D26766-37BE-4C80-9191-ECBB7A84F3C2";
 shapes = (
 {

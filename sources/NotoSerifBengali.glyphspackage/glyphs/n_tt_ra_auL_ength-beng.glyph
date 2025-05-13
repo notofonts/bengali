@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 10;
 glyphname = "n_tt_ra_auLength-beng";
 kernLeft = above_N;
 layers = (
