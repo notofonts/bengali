@@ -3905,7 +3905,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2023 The Noto Project Authors (https://github.com/notofonts/bengali)";
+value = "Copyright 2025 The Noto Project Authors (https://github.com/notofonts/bengali)";
 }
 );
 },
@@ -3923,7 +3923,7 @@ key = designers;
 values = (
 {
 language = dflt;
-value = "Joana Ranito, Namrata Goyal - Universal Thirst; Jelle Bosma - Monotype Design Team";
+value = "Joana Ranito - Universal Thirst; Jelle Bosma - Monotype Design Team";
 }
 );
 },
