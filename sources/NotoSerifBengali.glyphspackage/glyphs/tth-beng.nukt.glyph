@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 11;
 glyphname = "tth-beng.nukt";
 layers = (
 {
@@ -51,7 +52,6 @@ pos = (471,44);
 ref = "nukta-beng";
 }
 );
-vertWidth = 0;
 width = 533;
 },
 {
@@ -103,7 +103,6 @@ pos = (491,82);
 ref = "nukta-beng";
 }
 );
-vertWidth = 0;
 width = 547;
 },
 {
@@ -155,7 +154,6 @@ pos = (507,34);
 ref = "nukta-beng";
 }
 );
-vertWidth = 0;
 width = 562;
 },
 {
@@ -207,7 +205,6 @@ pos = (363,66);
 ref = "nukta-beng";
 }
 );
-vertWidth = 0;
 width = 380;
 },
 {
@@ -259,7 +256,6 @@ pos = (385,90);
 ref = "nukta-beng";
 }
 );
-vertWidth = 0;
 width = 389;
 },
 {
@@ -311,7 +307,6 @@ pos = (483,24);
 ref = "nukta-beng";
 }
 );
-vertWidth = 0;
 width = 525;
 }
 );

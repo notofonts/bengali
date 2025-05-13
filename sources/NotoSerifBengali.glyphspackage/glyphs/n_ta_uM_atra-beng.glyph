@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 8;
 glyphname = "n_ta_uMatra-beng";
 layers = (
 {

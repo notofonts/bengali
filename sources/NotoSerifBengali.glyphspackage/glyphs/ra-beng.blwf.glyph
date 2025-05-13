@@ -181,7 +181,6 @@ width = 0;
 anchors = (
 {
 name = _bottom.rakaar;
-pos = (-2,0);
 },
 {
 name = bottom;
@@ -240,7 +239,6 @@ width = 0;
 anchors = (
 {
 name = _bottom.rakaar;
-pos = (4,0);
 },
 {
 name = bottom;
@@ -299,7 +297,6 @@ width = 0;
 anchors = (
 {
 name = _bottom.rakaar;
-pos = (3,0);
 },
 {
 name = bottom;

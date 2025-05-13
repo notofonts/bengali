@@ -98,7 +98,7 @@ width = 593;
 anchors = (
 {
 name = bottom;
-pos = (510,-6);
+pos = (510,-14);
 },
 {
 name = bottom.rvocalic;

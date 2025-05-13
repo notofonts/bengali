@@ -9,12 +9,8 @@ name = bottom;
 pos = (512,11);
 },
 {
-name = bottom.rakaar;
-pos = (522,50);
-},
-{
 name = bottom.rvocalic;
-pos = (522,6);
+pos = (522,2);
 },
 {
 name = bottom.virama;
@@ -233,15 +229,11 @@ width = 620;
 anchors = (
 {
 name = bottom;
-pos = (565,29);
-},
-{
-name = bottom.rakaar;
-pos = (570,69);
+pos = (565,16);
 },
 {
 name = bottom.rvocalic;
-pos = (570,8);
+pos = (570,3);
 },
 {
 name = bottom.virama;
@@ -463,12 +455,8 @@ name = bottom;
 pos = (655,-68);
 },
 {
-name = bottom.rakaar;
-pos = (665,-5);
-},
-{
 name = bottom.rvocalic;
-pos = (665,-94);
+pos = (665,-99);
 },
 {
 name = bottom.virama;
@@ -690,16 +678,12 @@ name = bottom;
 pos = (386,8);
 },
 {
-name = bottom.rakaar;
-pos = (392,17);
-},
-{
 name = bottom.rvocalic;
 pos = (394,3);
 },
 {
 name = bottom.virama;
-pos = (390,29);
+pos = (389,9);
 },
 {
 name = top;
@@ -917,12 +901,8 @@ name = bottom;
 pos = (429,8);
 },
 {
-name = bottom.rakaar;
-pos = (434,48);
-},
-{
 name = bottom.rvocalic;
-pos = (434,-10);
+pos = (434,-12);
 },
 {
 name = bottom.virama;
@@ -1167,11 +1147,7 @@ width = 501;
 anchors = (
 {
 name = bottom;
-pos = (537,-75);
-},
-{
-name = bottom.rakaar;
-pos = (541,-12);
+pos = (545,-90);
 },
 {
 name = bottom.rvocalic;

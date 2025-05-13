@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 8;
 glyphname = "b_bha-beng";
 layers = (
 {
@@ -365,7 +366,7 @@ pos = (353,-142);
 },
 {
 name = bottom.rvocalic;
-pos = (297,-31);
+pos = (297,-25);
 },
 {
 name = bottom.virama;
@@ -591,7 +592,7 @@ width = 492;
 anchors = (
 {
 name = bottom;
-pos = (409,-245);
+pos = (459,-245);
 },
 {
 name = bottom.rakaar;

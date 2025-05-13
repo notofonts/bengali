@@ -11,11 +11,11 @@ pos = (452,25);
 },
 {
 name = bottom.rakaar;
-pos = (464,53);
+pos = (464,-7);
 },
 {
 name = bottom.rvocalic;
-pos = (464,9);
+pos = (464,-1);
 },
 {
 name = bottom.virama;
@@ -40,7 +40,6 @@ shapes = (
 closed = 1;
 nodes = (
 (464,-9,l),
-(464,173,l),
 (464,602,l),
 (581,602,l),
 (567,622,l),
@@ -155,11 +154,11 @@ pos = (498,5);
 },
 {
 name = bottom.rakaar;
-pos = (500,45);
+pos = (500,-65);
 },
 {
 name = bottom.rvocalic;
-pos = (500,-13);
+pos = (500,-16);
 },
 {
 name = bottom.virama;
@@ -299,7 +298,7 @@ pos = (607,-83);
 },
 {
 name = bottom.rakaar;
-pos = (607,-52);
+pos = (607,-132);
 },
 {
 name = bottom.rvocalic;
@@ -472,7 +471,6 @@ shapes = (
 closed = 1;
 nodes = (
 (341,-9,l),
-(341,151,l),
 (341,602,l),
 (430,602,l),
 (418,622,l),
@@ -587,7 +585,7 @@ pos = (387,-2);
 },
 {
 name = bottom.rakaar;
-pos = (386,45);
+pos = (386,-35);
 },
 {
 name = bottom.rvocalic;
@@ -663,16 +661,16 @@ nodes = (
 (292,510,o),
 (341,358,c),
 (335,420,l),
-(335,176,ls),
-(336,133,o),
-(338,87,o),
+(334,176,ls),
+(334,133,o),
+(337,87,o),
 (340,46,c),
 (349,62,l),
 (333,138,o),
 (302,197,o),
 (261,197,cs),
 (235,197,o),
-(214,172,o),
+(216,172,o),
 (216,116,c),
 (223,113,l),
 (215,166,o),
@@ -731,7 +729,7 @@ pos = (519,-74);
 },
 {
 name = bottom.rakaar;
-pos = (524,-46);
+pos = (524,-146);
 },
 {
 name = bottom.rvocalic;

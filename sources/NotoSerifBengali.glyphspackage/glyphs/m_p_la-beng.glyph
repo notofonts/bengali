@@ -1,20 +1,20 @@
 {
-color = 9;
+color = 4;
 glyphname = "m_p_la-beng";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (944,25);
+pos = (939,25);
 },
 {
 name = bottom.rakaar;
-pos = (956,53);
+pos = (946,3);
 },
 {
 name = bottom.rvocalic;
-pos = (956,9);
+pos = (946,25);
 },
 {
 name = bottom.virama;
@@ -356,7 +356,7 @@ pos = (941,0);
 },
 {
 name = bottom.rakaar;
-pos = (943,40);
+pos = (943,-60);
 },
 {
 name = bottom.rvocalic;
@@ -732,7 +732,7 @@ pos = (1158,-86);
 },
 {
 name = bottom.rakaar;
-pos = (1158,-50);
+pos = (1158,-120);
 },
 {
 name = bottom.rvocalic;
@@ -752,7 +752,7 @@ pos = (1108,572);
 },
 {
 name = vedic;
-pos = (882,0);
+pos = (619,0);
 }
 );
 background = {
@@ -1074,7 +1074,7 @@ width = 1238;
 anchors = (
 {
 name = bottom;
-pos = (672,2);
+pos = (670,1);
 },
 {
 name = bottom.rakaar;
@@ -1275,7 +1275,7 @@ pos = (732,-2);
 },
 {
 name = bottom.rakaar;
-pos = (731,45);
+pos = (731,-35);
 },
 {
 name = bottom.rvocalic;
@@ -1465,7 +1465,7 @@ pos = (913,-74);
 },
 {
 name = bottom.rakaar;
-pos = (918,-46);
+pos = (918,-106);
 },
 {
 name = bottom.rvocalic;
@@ -1649,7 +1649,6 @@ nodes = (
 }
 );
 };
-color = 0;
 layerId = "03D26766-37BE-4C80-9191-ECBB7A84F3C2";
 shapes = (
 {

@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 9;
+color = 8;
 glyphname = "m_ta-beng";
 layers = (
 {
@@ -297,6 +297,7 @@ name = vedic;
 pos = (329,0);
 }
 );
+color = 8;
 layerId = "B2542900-2B87-4688-8902-A06B6D3D93DD";
 shapes = (
 {

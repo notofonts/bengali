@@ -1,12 +1,13 @@
 {
 category = Letter;
+color = 8;
 glyphname = "b_ja-beng";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (684,102);
+pos = (688,98);
 },
 {
 name = bottom.rakaar;
@@ -140,7 +141,7 @@ width = 796;
 anchors = (
 {
 name = bottom;
-pos = (787,-12);
+pos = (790,63);
 },
 {
 name = bottom.rakaar;
@@ -182,7 +183,7 @@ nodes = (
 (648,298,o),
 (603,358,o),
 (562,389,c),
-(530,347,o),
+(531,347,o),
 (497,302,o),
 (448,302,cs),
 (427,302,o),
@@ -274,7 +275,7 @@ width = 879;
 anchors = (
 {
 name = bottom;
-pos = (985,-39);
+pos = (990,-59);
 },
 {
 name = bottom.rakaar;
@@ -676,7 +677,7 @@ width = 667;
 anchors = (
 {
 name = bottom;
-pos = (792,-2);
+pos = (825,-53);
 },
 {
 name = bottom.rakaar;
@@ -751,8 +752,8 @@ nodes = (
 (427,100,o),
 (474,100,cs),
 (529,100,o),
-(576,145,o),
-(616,214,c),
+(576,143,o),
+(616,212,c),
 (552,212,l),
 (569,186,o),
 (581,163,o),

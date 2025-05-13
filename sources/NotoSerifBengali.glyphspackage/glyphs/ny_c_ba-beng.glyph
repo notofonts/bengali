@@ -219,7 +219,7 @@ pos = (465,532);
 },
 {
 name = vedic;
-pos = (428,-168);
+pos = (428,0);
 }
 );
 background = {
@@ -467,7 +467,7 @@ pos = (496,541);
 },
 {
 name = vedic;
-pos = (459,-240);
+pos = (469,0);
 }
 );
 background = {
@@ -695,7 +695,7 @@ pos = (319,-117);
 },
 {
 name = bottom.rakaar;
-pos = (326,50);
+pos = (326,-70);
 },
 {
 name = bottom.rvocalic;
@@ -715,7 +715,7 @@ pos = (326,602);
 },
 {
 name = vedic;
-pos = (286,-128);
+pos = (290,0);
 }
 );
 background = {
@@ -947,7 +947,7 @@ pos = (355,-97);
 },
 {
 name = bottom.rvocalic;
-pos = (291,-33);
+pos = (355,-155);
 },
 {
 name = bottom.virama;
@@ -963,7 +963,7 @@ pos = (357,570);
 },
 {
 name = vedic;
-pos = (311,-167);
+pos = (314,1);
 }
 );
 background = {
@@ -1187,7 +1187,7 @@ width = 623;
 anchors = (
 {
 name = bottom;
-pos = (478,-218);
+pos = (479,-176);
 },
 {
 name = bottom.rakaar;
@@ -1195,7 +1195,7 @@ pos = (478,-118);
 },
 {
 name = bottom.rvocalic;
-pos = (421,-108);
+pos = (478,-195);
 },
 {
 name = bottom.virama;
@@ -1211,7 +1211,7 @@ pos = (481,536);
 },
 {
 name = vedic;
-pos = (378,-218);
+pos = (378,0);
 }
 );
 background = {

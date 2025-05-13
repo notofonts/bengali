@@ -1,5 +1,5 @@
 {
-color = 9;
+color = 4;
 glyphname = "sh_tta-beng";
 layers = (
 {
@@ -34,7 +34,7 @@ pos = (525,656);
 },
 {
 name = vedic;
-pos = (411,0);
+pos = (401,0);
 }
 );
 background = {
@@ -346,7 +346,7 @@ pos = (442,652);
 },
 {
 name = vedic;
-pos = (379,0);
+pos = (395,0);
 }
 );
 layerId = "B2542900-2B87-4688-8902-A06B6D3D93DD";
@@ -628,7 +628,7 @@ pos = (457,61);
 },
 {
 name = bottom.rakaar;
-pos = (499,14);
+pos = (499,4);
 },
 {
 name = bottom.rvocalic;
@@ -676,7 +676,7 @@ nodes = (
 (524,339,o),
 (531,360,c),
 (523,363,l),
-(521,219,o),
+(523,219,o),
 (462,89,o),
 (387,89,cs),
 (357,89,o),
@@ -781,7 +781,7 @@ pos = (505,30);
 },
 {
 name = bottom.rakaar;
-pos = (551,0);
+pos = (531,0);
 },
 {
 name = bottom.rvocalic;
@@ -934,7 +934,7 @@ pos = (674,-10);
 },
 {
 name = bottom.rakaar;
-pos = (758,0);
+pos = (753,0);
 },
 {
 name = bottom.rvocalic;
@@ -958,7 +958,7 @@ pos = (479,632);
 },
 {
 name = vedic;
-pos = (404,0);
+pos = (408,0);
 }
 );
 layerId = "03D26766-37BE-4C80-9191-ECBB7A84F3C2";

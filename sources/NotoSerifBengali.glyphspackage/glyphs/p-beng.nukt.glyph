@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 11;
 glyphname = "p-beng.nukt";
 layers = (
 {
@@ -43,7 +44,6 @@ pos = (599,5);
 ref = "halant-beng";
 }
 );
-vertWidth = 0;
 width = 617;
 },
 {
@@ -87,7 +87,6 @@ pos = (606,6);
 ref = "halant-beng";
 }
 );
-vertWidth = 0;
 width = 631;
 },
 {
@@ -131,7 +130,6 @@ pos = (707,10);
 ref = "halant-beng";
 }
 );
-vertWidth = 0;
 width = 752;
 },
 {
@@ -175,7 +173,6 @@ pos = (452,5);
 ref = "halant-beng";
 }
 );
-vertWidth = 0;
 width = 448;
 },
 {
@@ -219,7 +216,6 @@ pos = (477,6);
 ref = "halant-beng";
 }
 );
-vertWidth = 0;
 width = 488;
 },
 {
@@ -263,7 +259,6 @@ pos = (575,10);
 ref = "halant-beng";
 }
 );
-vertWidth = 0;
 width = 598;
 }
 );

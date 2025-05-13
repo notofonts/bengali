@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 9;
+color = 8;
 glyphname = "m_pa-beng";
 kernLeft = upper_SA;
 layers = (

@@ -1,5 +1,5 @@
 {
-color = 9;
+color = 4;
 glyphname = "l_ddha-beng";
 layers = (
 {
@@ -34,7 +34,7 @@ pos = (485,602);
 },
 {
 name = vedic;
-pos = (518,0);
+pos = (438,0);
 }
 );
 layerId = "94EB6DF8-7434-4BE0-9F23-77BCD575F5B8";
@@ -165,7 +165,7 @@ pos = (519,570);
 },
 {
 name = vedic;
-pos = (528,0);
+pos = (448,0);
 }
 );
 layerId = "B2542900-2B87-4688-8902-A06B6D3D93DD";
@@ -296,7 +296,7 @@ pos = (614,572);
 },
 {
 name = vedic;
-pos = (616,0);
+pos = (527,0);
 }
 );
 layerId = "18A8C34B-6260-4854-BBF8-229863F38B25";
@@ -403,7 +403,7 @@ pos = (466,61);
 },
 {
 name = bottom.rakaar;
-pos = (508,14);
+pos = (508,-1);
 },
 {
 name = bottom.rvocalic;
@@ -534,7 +534,7 @@ pos = (553,30);
 },
 {
 name = bottom.rakaar;
-pos = (599,0);
+pos = (579,0);
 },
 {
 name = bottom.rvocalic;
@@ -689,7 +689,7 @@ pos = (492,572);
 },
 {
 name = vedic;
-pos = (505,0);
+pos = (435,0);
 }
 );
 layerId = "03D26766-37BE-4C80-9191-ECBB7A84F3C2";

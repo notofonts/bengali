@@ -43,7 +43,6 @@ pos = (340,146);
 ref = "rVocalicMatra-beng";
 }
 );
-vertWidth = 0;
 width = 664;
 },
 {
@@ -87,7 +86,6 @@ pos = (429,133);
 ref = "rVocalicMatra-beng";
 }
 );
-vertWidth = 0;
 width = 742;
 },
 {
@@ -131,7 +129,6 @@ pos = (479,81);
 ref = "rVocalicMatra-beng";
 }
 );
-vertWidth = 0;
 width = 832;
 },
 {
@@ -175,7 +172,6 @@ pos = (238,149);
 ref = "rVocalicMatra-beng";
 }
 );
-vertWidth = 0;
 width = 478;
 },
 {
@@ -219,7 +215,6 @@ pos = (307,134);
 ref = "rVocalicMatra-beng";
 }
 );
-vertWidth = 0;
 width = 552;
 },
 {
@@ -263,7 +258,6 @@ pos = (441,110);
 ref = "rVocalicMatra-beng";
 }
 );
-vertWidth = 0;
 width = 703;
 }
 );

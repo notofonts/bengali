@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 10;
 glyphname = "l_tt_ra_iiMatra-beng";
 kernLeft = upper_SHA;
 layers = (

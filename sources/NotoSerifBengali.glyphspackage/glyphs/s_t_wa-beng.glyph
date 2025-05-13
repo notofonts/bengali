@@ -987,8 +987,6 @@ vertWidth = 0;
 width = 659;
 }
 );
-metricLeft = "s-beng";
-metricRight = "t-beng";
 production = uni09B809CD09A409CD09F1;
 script = bengali;
 subCategory = Other;

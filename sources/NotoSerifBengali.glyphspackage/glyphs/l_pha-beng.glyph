@@ -1,5 +1,6 @@
 {
 category = Letter;
+color = 8;
 glyphname = "l_pha-beng";
 kernLeft = upper_SHA;
 layers = (
