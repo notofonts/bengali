@@ -1,0 +1,90 @@
+{
+category = Letter;
+color = 11;
+glyphname = "d-beng";
+layers = (
+{
+layerId = "94EB6DF8-7434-4BE0-9F23-77BCD575F5B8";
+shapes = (
+{
+ref = "da-beng";
+},
+{
+pos = (500,0);
+ref = "halant-beng";
+}
+);
+width = 501;
+},
+{
+layerId = "B2542900-2B87-4688-8902-A06B6D3D93DD";
+shapes = (
+{
+ref = "da-beng";
+},
+{
+pos = (490,0);
+ref = "halant-beng";
+}
+);
+width = 511;
+},
+{
+layerId = "18A8C34B-6260-4854-BBF8-229863F38B25";
+shapes = (
+{
+ref = "da-beng";
+},
+{
+pos = (570,-45);
+ref = "halant-beng";
+}
+);
+width = 581;
+},
+{
+layerId = "33F2F8B2-CCE7-4937-A852-9C044B0330C5";
+shapes = (
+{
+ref = "da-beng";
+},
+{
+pos = (390,0);
+ref = "halant-beng";
+}
+);
+width = 376;
+},
+{
+layerId = "5278E13D-D735-4789-ABCD-F52B0BBC306E";
+shapes = (
+{
+ref = "da-beng";
+},
+{
+pos = (400,0);
+ref = "halant-beng";
+}
+);
+width = 398;
+},
+{
+layerId = "03D26766-37BE-4C80-9191-ECBB7A84F3C2";
+shapes = (
+{
+ref = "da-beng";
+},
+{
+pos = (501,-45);
+ref = "halant-beng";
+}
+);
+width = 495;
+}
+);
+metricLeft = "da-beng";
+metricRight = "da-beng";
+production = uni09A609CD;
+script = bengali;
+subCategory = Halfform;
+}
