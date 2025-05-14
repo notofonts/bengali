@@ -1,4 +1,6 @@
 {
+color = 11;
+export = 0;
 glyphname = "nn_tth_ra_iiMatra-beng";
 layers = (
 {

@@ -1,5 +1,7 @@
 {
 category = Letter;
+color = 11;
+export = 0;
 glyphname = "nn_ttha_iiMatra-beng";
 kernLeft = above_N;
 layers = (
