@@ -1,7 +1,5 @@
 {
-color = 11;
-export = 0;
-glyphname = uni20B9.beng;
+glyphname = uni20B9;
 layers = (
 {
 background = {
