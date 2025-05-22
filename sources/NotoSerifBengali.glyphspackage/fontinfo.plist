@@ -1902,7 +1902,7 @@ value = (
 },
 {
 name = versionString;
-value = "Version 2.003";
+value = "Version 3.000";
 },
 {
 name = vendorID;
@@ -1910,11 +1910,11 @@ value = GOOG;
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org/";
 },
 {
 name = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org/";
 },
 {
 name = trademark;
@@ -1926,7 +1926,7 @@ value = "Designed by Monotype design team.";
 },
 {
 name = openTypeNameVersion;
-value = "Version 2.003";
+value = "Version 3.000";
 },
 {
 name = styleMapFamilyName;
@@ -2044,7 +2044,7 @@ value = (
 },
 {
 name = versionString;
-value = "Version 2.003";
+value = "Version 3.000";
 },
 {
 name = vendorID;
@@ -2052,11 +2052,11 @@ value = GOOG;
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org/";
 },
 {
 name = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org/";
 },
 {
 name = trademark;
@@ -2068,7 +2068,7 @@ value = "Designed by Monotype design team.";
 },
 {
 name = openTypeNameVersion;
-value = "Version 2.003";
+value = "Version 3.000";
 },
 {
 name = styleMapFamilyName;
@@ -2190,7 +2190,7 @@ value = (
 },
 {
 name = versionString;
-value = "Version 2.003";
+value = "Version 3.000";
 },
 {
 name = vendorID;
@@ -2198,11 +2198,11 @@ value = GOOG;
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org/";
 },
 {
 name = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org/";
 },
 {
 name = trademark;
@@ -2214,7 +2214,7 @@ value = "Designed by Monotype design team.";
 },
 {
 name = openTypeNameVersion;
-value = "Version 2.003";
+value = "Version 3.000";
 },
 {
 name = styleMapFamilyName;
@@ -2332,7 +2332,7 @@ value = (
 },
 {
 name = versionString;
-value = "Version 2.003";
+value = "Version 3.000";
 },
 {
 name = vendorID;
@@ -2340,11 +2340,11 @@ value = GOOG;
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org/";
 },
 {
 name = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org/";
 },
 {
 name = trademark;
@@ -2356,7 +2356,7 @@ value = "Designed by Monotype design team.";
 },
 {
 name = openTypeNameVersion;
-value = "Version 2.003";
+value = "Version 3.000";
 },
 {
 name = styleMapFamilyName;
@@ -2474,7 +2474,7 @@ value = (
 },
 {
 name = versionString;
-value = "Version 2.003";
+value = "Version 3.000";
 },
 {
 name = vendorID;
@@ -2482,11 +2482,11 @@ value = GOOG;
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org/";
 },
 {
 name = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org/";
 },
 {
 name = trademark;
@@ -2498,7 +2498,7 @@ value = "Designed by Monotype design team.";
 },
 {
 name = openTypeNameVersion;
-value = "Version 2.003";
+value = "Version 3.000";
 },
 {
 name = styleMapFamilyName;
@@ -2621,7 +2621,7 @@ value = (
 },
 {
 name = versionString;
-value = "Version 2.003";
+value = "Version 3.000";
 },
 {
 name = vendorID;
@@ -2629,11 +2629,11 @@ value = GOOG;
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org/";
 },
 {
 name = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org/";
 },
 {
 name = trademark;
@@ -2645,7 +2645,7 @@ value = "Designed by Monotype design team.";
 },
 {
 name = openTypeNameVersion;
-value = "Version 2.003";
+value = "Version 3.000";
 },
 {
 name = styleMapFamilyName;
@@ -4407,7 +4407,7 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org/";
 }
 );
 },
