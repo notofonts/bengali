@@ -795,6 +795,39 @@ uni02BC
 {
 name = "Variable Font Origin";
 value = "B2542900-2B87-4688-8902-A06B6D3D93DD";
+},
+{
+name = "meta Table";
+value = (
+{
+data = "as-Beng, bn-Beng";
+tag = dlng;
+},
+{
+data = "as-Beng, bn-Beng, pi-Beng";
+tag = slng;
+}
+);
+},
+{
+name = "Axis Mappings";
+value = {
+wdth = {
+70 = 70;
+100 = 100;
+};
+wght = {
+100 = 28;
+200 = 42;
+300 = 64;
+400 = 94;
+500 = 110;
+600 = 130;
+700 = 152;
+800 = 175;
+900 = 194;
+};
+};
 }
 );
 date = "2019-06-10 11:58:22 +0000";
@@ -4363,7 +4396,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/bengali)";
+value = "Copyright 2025 The Noto Project Authors (https://github.com/notofonts/bengali)";
 }
 );
 },
@@ -4400,14 +4433,14 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 key = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org/";
 },
 {
 key = manufacturers;
 values = (
 {
 language = dflt;
-value = "Monotype Imaging Inc.";
+value = "Universal Thrist ehf.";
 }
 );
 },
@@ -4430,7 +4463,7 @@ value = GOOG;
 },
 {
 key = versionString;
-value = "Version 2.003";
+value = "Version 3.000";
 }
 );
 settings = {
@@ -4574,6 +4607,6 @@ public.kern2.upper_ttha = (
 );
 };
 };
-versionMajor = 2;
-versionMinor = 3;
+versionMajor = 3;
+versionMinor = 0;
 }
