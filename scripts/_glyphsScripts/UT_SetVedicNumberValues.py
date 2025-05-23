@@ -73,9 +73,10 @@ def test_user_data(font, data):
     print("Testing user glyph data against active master...")
     collection = [g.name for g in data if g not in font.glyphs]
     if len(collection) > 0:
-        return collection
+        for names in collection:
+            print(names)
     else:
-        return None
+        print("...No errors found!")
 
 def deduct_half_width(value):
     """
@@ -86,41 +87,25 @@ def deduct_half_width(value):
         new_value = int(-value/2)
         return new_value
 
-def output_vedic_values(font, user_data, layer_name):
+def output_vedic_values(font, user_data):
     """docstring for output_number_values"""
+    layer_name = font.selectedFontMaster.name
     data = ""
-    print("\nProcessing...\n")
-    for f in font.glyphs:
-        for l in f.layers:
+    print("\nPrinting values...\n")
+    for g in font.glyphs:
+        for l in g.layers:
             if l.name == layer_name:
-                if l.parent.name in user_data:
+                if g.name in user_data:
                     #print("{")
-                    data += "{\n"
-                    #print("name= {};".format(user_data[l.parent.name]))
-                    data += "name= {};\n".format(user_data[l.parent.name])
+                    #data += "{\n"
+                    #print("name= {};".format(user_data[g.name]))
+                    #data += "name= {};\n".format(user_data[g.name])
                     #print("value= {};".format(deduct_half_width(l.width)))
-                    data += "value= {};\n".format(deduct_half_width(l.width))
+                    #data += "value= {};\n".format(deduct_half_width(l.width))
                     #print("},")
-                    data += "},\n"
-    if data:
-        return data
-
-def output_kern_values(font, user_data, layer_name):
-    """docstring for output_number_values"""
-    data = ""
-    print("\nProcessing...\n")
-    for f in font.glyphs:
-        for l in f.layers:
-            if l.name == layer_name:
-                if l.parent.name in user_data:
-                    #print("{")
-                    data += "{\n"
-                    #print("name= {};".format(user_data[l.parent.name]))
-                    data += "name= {};\n".format(user_data[l.parent.name])
-                    #print("value= {};".format(deduct_half_width(l.width)))
-                    data += "value= {};\n".format(deduct_half_width(l.width))
-                    #print("},")
-                    data += "},\n"
+                    #data += "},\n"
+                    print(f"Number Value Name: {user_data[g.name]} Value: {deduct_half_width(l.width)}")
+    print("\n...done!")
     if data:
         return data
 
@@ -130,21 +115,26 @@ def update_number_values(font, user_data):
     for g in font.glyphs:
         for l in g.layers:
             if l.name == layer_name:
+                # Need to also add a check to make sure that the number value 
+                # labels are valid.
                 if g.name in user_data:
-                    print(deduct_half_width(l.width), user_data[l.parent.name])
-                    font.selectedFontMaster.numbers[user_data[l.parent.name]] = deduct_half_width(l.width)
+                    font.selectedFontMaster.numbers[user_data[g.name]] = deduct_half_width(l.width)
                     
 # -----
 # TESTS
 # -----
+
+# Test to ensure that the data in the dictionary is valid. If there
+# are issues in the glyphs list, it'll output invalid glyph names.
+
 test_user_data(this_font, vedic_value_info)
 
-# Vedic Data
-# ----------
-#vedic_data = output_vedic_values(this_font, number_value_info, "Thin")
-#print(vedic_data)
+# To preview data as text output uncomment lines 134
+
+#vedic_data = output_vedic_values(this_font, vedic_value_info)
 
 # -------------
 # Apply changes
 # -------------
+
 update_number_values(this_font, vedic_value_info)
