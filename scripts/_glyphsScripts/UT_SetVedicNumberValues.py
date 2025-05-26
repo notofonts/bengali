@@ -8,6 +8,19 @@ Glyphs.clearLog()
 
 this_font = Glyphs.font
 
+test_value = {
+    # Value Number Label: ((<comp-glyph-1>, <comp-glyph-2>), <ref-glyph>)
+    "VEDIC_kTa": [("t_ta-beng", "headline-beng.200"), "k_ta-beng"],
+    "VEDIC_nnHalf": [("nn-beng.half", "ddha-beng.side"), "nn_ddha-beng"],
+    "VEDIC_kRa": [("t_ra-beng", "headline-beng.200"), "k_ra-beng"],
+    "VEDIC_bHalf": [("k-beng.half", ""), "k_na-beng"],
+    "VEDIC_ddHalf": [("dd-beng.half", "headline-beng.200"), "dd_ba-beng"],
+    "VEDIC_dHalf3": [("d-beng.half3", "headline-beng.130"), "d_dh_wa-beng"],
+    "VEDIC_dHalf4": [("d-beng.half4", "gha-beng"), "d_gha-beng"],
+    "VEDIC_nHeadline": [("n-beng.headline", "ddha-beng.side"), "n_tta-beng"]
+    
+}
+
 vedic_value_info = {"g-beng.half": "VEDIC_gHalf",
 "g-beng.half2": "VEDIC_gHalf2",
 "ng-beng.half": "VEDIC_ng",
@@ -15,25 +28,24 @@ vedic_value_info = {"g-beng.half": "VEDIC_gHalf",
 "c-beng.half": "VEDIC_cHalf",
 "j-beng.half": "VEDIC_jHalf",
 "dd-beng.half1": "VEDIC_ddHalf1",
-"dd-beng.half": "VEDIC_ddHalf",
+#"dd-beng.half": "VEDIC_ddHalf",
 "ddh-beng.half": "VEDIC_ddhHalf",
-"nn-beng.half": "VEDIC_nnHalf",
+#"nn-beng.half": "VEDIC_nnHalf",
 "nn-beng.half3": "VEDIC_nnHalf3",
 "t-beng.half": "VEDIC_tHalf",
-"k_ta-beng": "VEDIC_kTa",
-"t_ta-beng": "VEDIC_kTaHalf",
-"k_ra-beng": "VEDIC_kRa",
+#"t_ta-beng": "VEDIC_kTaHalf",
+#"k_ra-beng": "VEDIC_kRa",
 "th-beng.half": "VEDIC_thHalf",
 "d-beng.half": "VEDIC_dHalf",
 "d-beng.half2": "VEDIC_dHalf2",
 "d-beng.half3": "VEDIC_dHalf3",
 "n-beng.headline": "VEDIC_nHeadline",
-"d-beng.half4": "VEDIC_dHalf4",
+#"d-beng.half4": "VEDIC_dHalf4",
 "n_s-beng.half": "VEDIC_nSHalf",
 "n_k_ta-beng": "VEDIC_nKTa",
 "p-beng.half": "VEDIC_pHalf",
 "p-beng.half3": "VEDIC_pHalf3",
-"b-beng.half": "VEDIC_bHalf",
+#"b-beng.half": "VEDIC_bHalf",
 "b-beng.half2": "VEDIC_bHalf2",
 "bh-beng.half": "VEDIC_bhHalf",
 "m-beng.half": "VEDIC_mHalf",
@@ -69,7 +81,9 @@ vedic_value_info = {"g-beng.half": "VEDIC_gHalf",
 
 
 def test_user_data(font, data):
-    """Test if glyph names in user data are the active master"""
+    """
+    Test if glyph names in user data are the active master.
+    """
     print("Testing user glyph data against active master...")
     collection = [g.name for g in data if g not in font.glyphs]
     if len(collection) > 0:
@@ -87,24 +101,59 @@ def deduct_half_width(value):
         new_value = int(-value/2)
         return new_value
 
-def output_vedic_values(font, user_data):
+def subtract_values(value_1, value_2, reference_glyph):
+    """
+    Calculate the true width of an on-the-fly combination
+    """
+    result = value_1 - value_2
+    if result == reference_glyph.width:
+        return result
+    else:
+        return None
+
+def output_vedic_values(font, user_data, anchor_name="top_vedic"):
     """docstring for output_number_values"""
     layer_name = font.selectedFontMaster.name
     data = ""
+
+    for vals in user_data.values():
+        if len(vals) > 1:
+            ref_glyph = vals[1]
+            ref_glyph_width = int(font[ref_glyph].layers[layer_name].width)
+            base_glyph = ""
+            if vals[0][1] != "":
+                base_glyph = vals[0][1]
+                base_anchor_position = int(font[base_glyph].layers[layer_name].anchors[anchor_name].x)
+                base_lsb = int(font[base_glyph].layers[layer_name].LSB)
+                if base_lsb < -10:
+                    gap = base_lsb + 10
+                    new_value = -((int(ref_glyph_width/2) - base_anchor_position) + gap)
+                    print(f"BASE: {base_glyph} Anchor Pos. X: {base_anchor_position}\n\tRef. BASE: {ref_glyph} Ref. BASE width: {ref_glyph_width}\n\tRef. BASE half width: {int(ref_glyph_width/2)} Difference: {new_value}")
+                elif int(ref_glyph_width/2) > base_anchor_position:
+                    #print(base_glyph, base_anchor_position, ref_glyph, int(ref_glyph_width/2) - base_anchor_position)
+                    new_value = -(int(ref_glyph_width/2) - base_anchor_position)
+                    print(f"BASE: {base_glyph} Anchor Pos. X: {base_anchor_position}\n\tRef. BASE: {ref_glyph} Ref. BASE width: {ref_glyph_width}\n\tRef. BASE half width: {int(ref_glyph_width/2)} Difference: {new_value}")
+            else:
+                base_glyph = vals[0][0]
+                base_anchor_position = int(font[base_glyph].layers[layer_name].anchors[anchor_name].x)
+                base_lsb = int(font[base_glyph].layers[layer_name].LSB)
+                if int(ref_glyph_width/2) > base_anchor_position:
+                    new_value = int(ref_glyph_width/2) - base_anchor_position
+                    #new_value = base_anchor_position + difference
+                    print(f"BASE: {base_glyph} Anchor Pos. X: {base_anchor_position}\n\tRef. BASE: {ref_glyph} Ref. BASE width: {ref_glyph_width}\n\tRef. BASE half width: {int(ref_glyph_width/2)} Difference: {new_value}")
+            
+            
+            #print(base_glyph, base_anchor_position)
+            #print(ref_glyph, ref_glyph_width, int(ref_glyph_width/2))
+            
+
     print("\nPrinting values...\n")
     for g in font.glyphs:
         for l in g.layers:
             if l.name == layer_name:
                 if g.name in user_data:
-                    #print("{")
-                    #data += "{\n"
-                    #print("name= {};".format(user_data[g.name]))
-                    #data += "name= {};\n".format(user_data[g.name])
-                    #print("value= {};".format(deduct_half_width(l.width)))
-                    #data += "value= {};\n".format(deduct_half_width(l.width))
-                    #print("},")
-                    #data += "},\n"
-                    print(f"Number Value Name: {user_data[g.name]} Value: {deduct_half_width(l.width)}")
+                    #print(f"Number Value Name: {user_data[g.name]} Value: {deduct_half_width(l.width)}")
+                    data += f"Number Value Name: {user_data[g.name]} Value: {deduct_half_width(l.width)}"
     print("\n...done!")
     if data:
         return data
@@ -127,14 +176,15 @@ def update_number_values(font, user_data):
 # Test to ensure that the data in the dictionary is valid. If there
 # are issues in the glyphs list, it'll output invalid glyph names.
 
-test_user_data(this_font, vedic_value_info)
+#test_user_data(this_font, test_value)
 
 # To preview data as text output uncomment lines 134
 
-#vedic_data = output_vedic_values(this_font, vedic_value_info)
+vedic_data = output_vedic_values(this_font, test_value)
+print(vedic_data)
 
 # -------------
 # Apply changes
 # -------------
 
-update_number_values(this_font, vedic_value_info)
+#update_number_values(this_font, vedic_value_info)
