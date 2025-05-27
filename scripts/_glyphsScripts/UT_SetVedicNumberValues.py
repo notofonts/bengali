@@ -13,7 +13,6 @@ test_value = {
     "VEDIC_kTa": [("t_ta-beng", "headline-beng.200"), "k_ta-beng"],
     "VEDIC_nnHalf": [("nn-beng.half", "ddha-beng.side"), "nn_ddha-beng"],
     "VEDIC_kRa": [("t_ra-beng", "headline-beng.200"), "k_ra-beng"],
-    "VEDIC_bHalf": [("k-beng.half", ""), "k_na-beng"],
     "VEDIC_ddHalf": [("dd-beng.half", "headline-beng.200"), "dd_ba-beng"],
     "VEDIC_dHalf3": [("d-beng.half3", "headline-beng.130"), "d_dh_wa-beng"],
     "VEDIC_dHalf4": [("d-beng.half4", "gha-beng"), "d_gha-beng"],
@@ -24,7 +23,12 @@ test_value = {
     "VEDIC_mBa": [("m-beng.half", "headline-beng.200"), "m_ba-beng"],
     "VEDIC_mSa": [("m-beng.half", "sa-beng"), "m_sa-beng"],
     "VEDIC_sKRa": [("s-beng.half2", ""), "s_k_ra-beng"],
-    "VEDIC_ssBa": [("ss-beng.half4", ""), "ss_ba-beng"]
+    "VEDIC_ssBa": [("ss-beng.half4", ""), "ss_ba-beng"],
+    # testing:
+    "VEDIC_lGa": [("l-beng.half3", "aaMatra-beng.part2"), "l_ga-beng"]
+    "VEDIC_sPa": [("s-beng.half", "pa-beng"), "s_pa-beng"]
+    "VEDIC_mPa": [("m-beng.half", "pa-beng"), "m_pa-beng"]
+    "VEDIC_ssPa": [("ss-beng.half4", "pa-beng"), "ss_pa-beng"]
 }
 
 vedic_value_info = {
@@ -52,7 +56,7 @@ vedic_value_info = {
 "n_k_ta-beng": "VEDIC_nKTa",
 "p-beng.half": "VEDIC_pHalf",
 "p-beng.half3": "VEDIC_pHalf3",
-#"b-beng.half": "VEDIC_bHalf",
+"b-beng.half": "VEDIC_bHalf",
 "b-beng.half2": "VEDIC_bHalf2",
 "bh-beng.half": "VEDIC_bhHalf",
 "m-beng.half": "VEDIC_mHalf",
