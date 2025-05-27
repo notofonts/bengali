@@ -850,8 +850,8 @@ lookup finalFormsOfMatras {
 
 lookup killStack {
 #ka-beng kha-beng pa-beng pha-beng uni1CF5.stack uni1CF6.stack 
-	sub uni1CF5  by NULL ;
-	sub uni1CF6  by NULL ;
+	sub uni1CF5  by zerowidthspace ;
+	sub uni1CF6  by zerowidthspace ;
 } killStack ;
 
 lookup splitStack {
