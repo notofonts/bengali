@@ -606,13 +606,11 @@ code = "# Automatic Code End
 # For all these glyphs, insert a top_vedic anchor at half of the advance width. This can
 # be done with MekkaBlue's Batch Insert Anchor script; set H Position to Center of Width
 # and V Position to BBox Top
-@SideExtensionBases = [headline-beng.130 headline-beng.200 ma-beng.side1 ddh-beng.side ddha-beng.side pha-beng.side ka-beng.arm d-beng.side ma-beng.side uMatra-beng.side uuMatra-beng.side aaMatra-beng.float ga-beng.side ttha-beng.side ma-beng.side3 dda-beng.side ma-beng.side2 gh-beng.half ch-beng.half d-beng.half3 d-beng.half p-beng.half2 k_ssa-beng k_ss-beng.half p-beng.half pa-beng da-beng gha-beng ca-beng cha-beng gha-beng gh-beng.half n-beng.float dh_ba-beng.blws];
+@SideExtensionBases = [headline-beng.130 headline-beng.200 ma-beng.side1 ddh-beng.side ddha-beng.side pha-beng.side ka-beng.arm d-beng.side ma-beng.side uMatra-beng.side uuMatra-beng.side aaMatra-beng.float ga-beng.side ttha-beng.side ma-beng.side3 dda-beng.side ma-beng.side2 gh-beng.half ch-beng.half d-beng.half3 d-beng.half p-beng.half2 k_ssa-beng k_ss-beng.half p-beng.half pa-beng da-beng gha-beng ca-beng cha-beng gha-beng gh-beng.half];
 
 
 @BNG_VEDIC_ALL = [uni0951 uni1CD0 uni1CD2 uni1CF5.stack uni1CF6.stack uni0952 uni1CD5 uni1CD6 uni1CD8 uni1CED];
 @BNG_VEDIC_TOP = [uni0951 uni1CD0 uni1CD2 uni1CF5.stack uni1CF6.stack];
-
-#MarkClass uni0951 
 
 lookup BNG_dflt_vedic_extension_shift1 {
 	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
@@ -632,21 +630,21 @@ lookup BNG_dflt_vedic_extension_shift1 {
 	# Newly added contexts
 	pos [t_ta-beng t_t-beng.half] headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_kTa 0 0 0>;
 	pos [k-beng.half] @BNG_VEDIC_ALL' <$VEDIC_bHalf 0 0 0>;
+	pos dh-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <$VEDIC_dhHalf 0 0 0>;
 } BNG_dflt_vedic_extension_shift1;
 
-#lookup BNG_dflt_vedic_extension_shift2 {
-# 	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
-#	pos t_t-beng.half @BNG_VEDIC_ALL' <$VEDIC_kTaHalf 0 0 0>;
-#} BNG_dflt_vedic_extension_shift2;
+lookup BNG_dflt_vedic_extension_shift2 {
+ 	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
+	pos t_t-beng.half @BNG_VEDIC_ALL' <$VEDIC_kTaHalf 0 0 0>;
+} BNG_dflt_vedic_extension_shift2;
 
 lookup BNG_dflt_vedic_extension_shift3 {
- 	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250 headline-beng.130 headline-beng.100];
+ 	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
 	pos t_ra-beng headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_kRa 0 0 0>;
 	pos d-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf 0 0 0>;
  	pos n-beng.headline aaMatra-beng.part.short headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_nKTa 0 0 0>;
  	pos d-beng.half2 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf2 0 0 0>;
- 	pos d-beng.half3 headline-beng.130 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf3 0 0 0>;
-	pos d-beng.half3 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf3 0 0 0>;
+ 	pos d-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <$VEDIC_dHalf3 0 0 0>;
 	pos d-beng.half4 headline-beng.100 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf4 0 0 0>;
 	pos d-beng.half4 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf4 0 0 0>;
 } BNG_dflt_vedic_extension_shift3;
@@ -654,12 +652,12 @@ lookup BNG_dflt_vedic_extension_shift3 {
 lookup BNG_dflt_vedic_extension_shift4 {
 	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
 	pos p-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_pHalf 0 0 0>;
-	pos p-beng.half3 @BNG_VEDIC_ALL' <$VEDIC_ddhaSide 0 0 0> ddha-beng.side;
-	pos p-beng.half3 @BNG_VEDIC_ALL' <$VEDIC_ddhaHalfSide 0 0 0> ddh-beng.side;
+	pos p-beng.half3 [ddha-beng.side ddh-beng.side] @BNG_VEDIC_ALL' <$VEDIC_ddhaSide 0 0 0>;
 	pos b-beng.half2 ka-beng.arm @BNG_VEDIC_ALL' <$VEDIC_bHalf2 0 0 0>;
 	pos b-beng.half2 headline-beng.250 @BNG_VEDIC_ALL' <$VEDIC_bDha 0 0 0>;
 	pos m-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_mHalf 0 0 0>;
 	pos m-beng.half headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_mBa 0 0 0>;
+	pos m-beng.half sa-beng @BNG_VEDIC_ALL' <$VEDIC_mSa 0 0 0>;
 	pos ra-beng @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ra 0 0 0>;
 	pos l-beng.half3 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_lHalf3 0 0 0>;
 } BNG_dflt_vedic_extension_shift4;
@@ -669,7 +667,7 @@ lookup BNG_dflt_vedic_extension_shift5 {
  	pos sh-beng.half2 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_shHalf2 0 0 0>;
  	pos ss-beng.half4 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ssHalf4 0 0 0>;
  	pos ss-beng.half4 headline-beng.250 @BNG_VEDIC_ALL' <$VEDIC_ssKa 0 0 0>;
- 	pos ss-beng.half4 headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_ssBa 0 0 0>;
+	pos ss-beng.half4 headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_ssBa 0 0 0>;
  	pos s-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_sHalf 0 0 0>;
  	pos s-beng.half headline-beng.250 @BNG_VEDIC_ALL' <$VEDIC_sKa 0 0 0>;
  	pos s-beng.half headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_sBa 0 0 0>;
@@ -683,7 +681,8 @@ lookup BNG_dflt_vedic_extension_shift6 {
  	pos g-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_gHalf 0 0 0>;
  	pos g-beng.half2 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_gHalf2 0 0 0>;
  	pos ng-beng.half [headline-beng.130 headline-beng.100] @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ng 0 0 0>;
- 	pos n-beng.headline [ddha-beng.side ddh-beng.side ttha-beng.side dda-beng.side] @BNG_VEDIC_ALL' <$VEDIC_nHeadline 0 0 0>;
+ 	pos n-beng.headline [ddha-beng.side ddh-beng.side ttha-beng.side] @BNG_VEDIC_ALL' <$VEDIC_nHeadline 0 0 0>;
+ 	pos n-beng.headline dda-beng.side @BNG_VEDIC_ALL' <$VEDIC_nDda 0 0 0>;
  	pos n-beng.headline aaMatra-beng.part ma-beng.side @BNG_VEDIC_ALL' <$VEDIC_nMa 0 0 0>;
  	pos [b-beng.half dh-beng.half] @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_bHalf 0 0 0>;
 } BNG_dflt_vedic_extension_shift6;
@@ -805,8 +804,8 @@ numberValues = (
 -287,
 -255,
 -232,
--232,
--134,
+-230,
+-251,
 -185,
 -353,
 -307,
@@ -837,13 +836,16 @@ numberValues = (
 -299,
 -294,
 -148,
--144,
--311,
+-11,
+75,
 -321,
 -235,
 -209,
-142,
-136
+-205,
+-200,
+-216,
+-246,
+-196
 );
 stemValues = (
 21,
@@ -984,7 +986,10 @@ numberValues = (
 -237,
 -247,
 140,
-130
+130,
+0,
+0,
+0
 );
 stemValues = (
 77,
@@ -1126,7 +1131,10 @@ numberValues = (
 -272,
 -220,
 135,
-136
+136,
+0,
+0,
+0
 );
 stemValues = (
 164,
@@ -1256,7 +1264,10 @@ numberValues = (
 -164,
 -147,
 100,
-144
+144,
+0,
+0,
+0
 );
 stemValues = (
 20,
@@ -1392,7 +1403,10 @@ numberValues = (
 -184,
 -179,
 107,
-130
+130,
+0,
+0,
+0
 );
 stemValues = (
 70,
@@ -1527,7 +1541,10 @@ numberValues = (
 -217,
 -175,
 105,
-106
+106,
+0,
+0,
+0
 );
 stemValues = (
 150,
@@ -3857,6 +3874,15 @@ name = VEDIC_ddhaSide;
 },
 {
 name = VEDIC_ddhaHalfSide;
+},
+{
+name = VEDIC_dhHalf;
+},
+{
+name = VEDIC_nDda;
+},
+{
+name = VEDIC_mSa;
 }
 );
 properties = (

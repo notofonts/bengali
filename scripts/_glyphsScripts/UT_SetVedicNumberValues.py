@@ -17,11 +17,18 @@ test_value = {
     "VEDIC_ddHalf": [("dd-beng.half", "headline-beng.200"), "dd_ba-beng"],
     "VEDIC_dHalf3": [("d-beng.half3", "headline-beng.130"), "d_dh_wa-beng"],
     "VEDIC_dHalf4": [("d-beng.half4", "gha-beng"), "d_gha-beng"],
-    "VEDIC_nHeadline": [("n-beng.headline", "ddha-beng.side"), "n_tta-beng"]
-    
+    "VEDIC_nHeadline": [("n-beng.headline", "ddha-beng.side"), "n_tta-beng"],
+    "VEDIC_ddhaSide": [("p-beng.half3", "ddha-beng.side"), "p_ddha-beng"],
+    "VEDIC_dhHalf": [("dh-beng.half", "ma-beng.side3"), "dh_ma-beng"],
+    "VEDIC_nDda": [("n-beng.headline", "dda-beng.side"), "n_dda-beng"],
+    "VEDIC_mBa": [("m-beng.half", "headline-beng.200"), "m_ba-beng"],
+    "VEDIC_mSa": [("m-beng.half", "sa-beng"), "m_sa-beng"],
+    "VEDIC_sKRa": [("s-beng.half2", ""), "s_k_ra-beng"],
+    "VEDIC_ssBa": [("ss-beng.half4", ""), "ss_ba-beng"]
 }
 
-vedic_value_info = {"g-beng.half": "VEDIC_gHalf",
+vedic_value_info = {
+"g-beng.half": "VEDIC_gHalf",
 "g-beng.half2": "VEDIC_gHalf2",
 "ng-beng.half": "VEDIC_ng",
 "ng-beng.half2": "VEDIC_ngHalf2",
@@ -38,7 +45,7 @@ vedic_value_info = {"g-beng.half": "VEDIC_gHalf",
 "th-beng.half": "VEDIC_thHalf",
 "d-beng.half": "VEDIC_dHalf",
 "d-beng.half2": "VEDIC_dHalf2",
-"d-beng.half3": "VEDIC_dHalf3",
+#"d-beng.half3": "VEDIC_dHalf3",
 "n-beng.headline": "VEDIC_nHeadline",
 #"d-beng.half4": "VEDIC_dHalf4",
 "n_s-beng.half": "VEDIC_nSHalf",
@@ -59,7 +66,7 @@ vedic_value_info = {"g-beng.half": "VEDIC_gHalf",
 "s-beng.half4": "VEDIC_sHalf4",
 "s-beng.half2": "VEDIC_sHalf2",
 "ramiddlediagonal-beng": "VEDIC_ramiddlediagonal",
-"m_ba-beng": "VEDIC_mBa",
+#"m_ba-beng": "VEDIC_mBa",
 "s_ka-beng": "VEDIC_sKa",
 "s_ba-beng": "VEDIC_sBa",
 "n_da-beng": "VEDIC_nDa",
@@ -70,12 +77,12 @@ vedic_value_info = {"g-beng.half": "VEDIC_gHalf",
 "l_ka-beng": "VEDIC_lKa",
 "l_ma-beng": "VEDIC_lMa",
 "ss_ka-beng": "VEDIC_ssKa",
-"ss_ba-beng": "VEDIC_ssBa",
+#"ss_ba-beng": "VEDIC_ssBa",
 "s_k_ra-beng": "VEDIC_sKRa",
 "s_ra_uMatra-beng": "VEDIC_sRU",
 "ha_rVocalicMatra-beng": "VEDIC_hRvoc",
 "h_na-beng": "VEDIC_hNa",
-"ddha-beng.side": "VEDIC_ddhaSide",
+#"ddha-beng.side": "VEDIC_ddhaSide",
 "ddh-beng.side": "VEDIC_ddhaHalfSide"
 }
 
@@ -114,8 +121,6 @@ def subtract_values(value_1, value_2, reference_glyph):
 def output_vedic_values(font, user_data, anchor_name="top_vedic"):
     """docstring for output_number_values"""
     layer_name = font.selectedFontMaster.name
-    data = ""
-
     for vals in user_data.values():
         if len(vals) > 1:
             ref_glyph = vals[1]
@@ -124,39 +129,21 @@ def output_vedic_values(font, user_data, anchor_name="top_vedic"):
             if vals[0][1] != "":
                 base_glyph = vals[0][1]
                 base_anchor_position = int(font[base_glyph].layers[layer_name].anchors[anchor_name].x)
-                base_lsb = int(font[base_glyph].layers[layer_name].LSB)
-                if base_lsb < -10:
-                    gap = base_lsb + 10
-                    new_value = -((int(ref_glyph_width/2) - base_anchor_position) + gap)
-                    print(f"BASE: {base_glyph} Anchor Pos. X: {base_anchor_position}\n\tRef. BASE: {ref_glyph} Ref. BASE width: {ref_glyph_width}\n\tRef. BASE half width: {int(ref_glyph_width/2)} Difference: {new_value}")
-                elif int(ref_glyph_width/2) > base_anchor_position:
-                    #print(base_glyph, base_anchor_position, ref_glyph, int(ref_glyph_width/2) - base_anchor_position)
-                    new_value = -(int(ref_glyph_width/2) - base_anchor_position)
-                    print(f"BASE: {base_glyph} Anchor Pos. X: {base_anchor_position}\n\tRef. BASE: {ref_glyph} Ref. BASE width: {ref_glyph_width}\n\tRef. BASE half width: {int(ref_glyph_width/2)} Difference: {new_value}")
+                base_glyph_width = int(font[base_glyph].layers[layer_name].width)
+                #print(base_glyph_width, base_anchor_position, ref_glyph_width, ref_glyph_width/2)
+                new_value = -(int(ref_glyph_width/2) - (base_glyph_width - base_anchor_position))
+                print(f"BASE: {base_glyph} Anchor Pos. X: {base_anchor_position}\n\tRef. BASE: {ref_glyph} Ref. BASE width: {ref_glyph_width}\n\tRef. BASE half width: {int(ref_glyph_width/2)} Difference: {new_value}")
             else:
                 base_glyph = vals[0][0]
                 base_anchor_position = int(font[base_glyph].layers[layer_name].anchors[anchor_name].x)
-                base_lsb = int(font[base_glyph].layers[layer_name].LSB)
                 if int(ref_glyph_width/2) > base_anchor_position:
                     new_value = int(ref_glyph_width/2) - base_anchor_position
                     #new_value = base_anchor_position + difference
                     print(f"BASE: {base_glyph} Anchor Pos. X: {base_anchor_position}\n\tRef. BASE: {ref_glyph} Ref. BASE width: {ref_glyph_width}\n\tRef. BASE half width: {int(ref_glyph_width/2)} Difference: {new_value}")
-            
-            
-            #print(base_glyph, base_anchor_position)
-            #print(ref_glyph, ref_glyph_width, int(ref_glyph_width/2))
-            
+                else:
+                    new_value = -(base_anchor_position - int(ref_glyph_width/2))
+                    print(f"BASE: {base_glyph} Anchor Pos. X: {base_anchor_position}\n\tRef. BASE: {ref_glyph} Ref. BASE width: {ref_glyph_width}\n\tRef. BASE half width: {int(ref_glyph_width/2)} Difference: {new_value}")
 
-    print("\nPrinting values...\n")
-    for g in font.glyphs:
-        for l in g.layers:
-            if l.name == layer_name:
-                if g.name in user_data:
-                    #print(f"Number Value Name: {user_data[g.name]} Value: {deduct_half_width(l.width)}")
-                    data += f"Number Value Name: {user_data[g.name]} Value: {deduct_half_width(l.width)}"
-    print("\n...done!")
-    if data:
-        return data
 
 def update_number_values(font, user_data):
     """Update values in the glyphs source"""
