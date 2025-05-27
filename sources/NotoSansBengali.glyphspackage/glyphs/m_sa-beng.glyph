@@ -190,7 +190,7 @@ pos = (359,0);
 ref = "sa-beng";
 }
 );
-width = 882;
+width = 883;
 }
 );
 script = bengali;

@@ -11,10 +11,6 @@ pos = (485,622);
 {
 name = top_candrabindu;
 pos = (389,647);
-},
-{
-name = top_vedic;
-pos = (367,622);
 }
 );
 background = {
@@ -309,10 +305,6 @@ pos = (473,607);
 {
 name = top_candrabindu;
 pos = (355,635);
-},
-{
-name = top_vedic;
-pos = (355,607);
 }
 );
 background = {
@@ -405,10 +397,6 @@ pos = (483,635);
 {
 name = top_candrabindu;
 pos = (520,675);
-},
-{
-name = top_vedic;
-pos = (433,622);
 }
 );
 background = {
@@ -501,10 +489,6 @@ pos = (335,607);
 {
 name = top_candrabindu;
 pos = (256,635);
-},
-{
-name = top_vedic;
-pos = (315,607);
 }
 );
 background = {
@@ -597,10 +581,6 @@ pos = (365,621);
 {
 name = top_candrabindu;
 pos = (317,645);
-},
-{
-name = top_vedic;
-pos = (382,621);
 }
 );
 background = {
@@ -693,10 +673,6 @@ pos = (376,633);
 {
 name = top_candrabindu;
 pos = (443,670);
-},
-{
-name = top_vedic;
-pos = (459,634);
 }
 );
 background = {

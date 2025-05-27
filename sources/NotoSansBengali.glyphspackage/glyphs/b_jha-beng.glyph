@@ -183,7 +183,7 @@ pos = (371,0);
 ref = "aaMatra-beng.side2";
 }
 );
-width = 482;
+width = 483;
 },
 {
 background = {
@@ -208,6 +208,7 @@ ref = "aaMatra-beng.side2";
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
+alignment = -1;
 ref = "b-beng.half2";
 },
 {
@@ -223,7 +224,7 @@ pos = (422,0);
 ref = "aaMatra-beng.side2";
 }
 );
-width = 428;
+width = 578;
 },
 {
 background = {
@@ -265,7 +266,7 @@ pos = (464,0);
 ref = "aaMatra-beng.side2";
 }
 );
-width = 672;
+width = 671;
 }
 );
 }

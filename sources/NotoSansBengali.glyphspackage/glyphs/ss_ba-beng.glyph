@@ -200,11 +200,11 @@ pos = (5,132);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (257,0);
+pos = (258,0);
 ref = "headline-beng.200";
 }
 );
-width = 452;
+width = 442;
 }
 );
 script = bengali;

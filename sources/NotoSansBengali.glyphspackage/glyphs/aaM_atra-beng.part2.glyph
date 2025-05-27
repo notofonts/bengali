@@ -12,6 +12,10 @@ pos = (95,110);
 {
 name = bottom_markMainForm;
 pos = (95,291);
+},
+{
+name = top_vedic;
+pos = (132,622);
 }
 );
 background = {
@@ -78,6 +82,10 @@ pos = (94,111);
 {
 name = bottom_markMainForm;
 pos = (94,288);
+},
+{
+name = top_vedic;
+pos = (110,607);
 }
 );
 background = {
@@ -144,6 +152,10 @@ pos = (78,47);
 {
 name = bottom_markMainForm;
 pos = (78,300);
+},
+{
+name = top_vedic;
+pos = (148,635);
 }
 );
 background = {
@@ -210,6 +222,10 @@ pos = (65,111);
 {
 name = bottom_markMainForm;
 pos = (65,288);
+},
+{
+name = top_vedic;
+pos = (79,607);
 }
 );
 background = {
@@ -276,6 +292,10 @@ pos = (66,110);
 {
 name = bottom_markMainForm;
 pos = (66,291);
+},
+{
+name = top_vedic;
+pos = (101,621);
 }
 );
 background = {
@@ -342,6 +362,10 @@ pos = (43,58);
 {
 name = bottom_markMainForm;
 pos = (43,298);
+},
+{
+name = top_vedic;
+pos = (120,634);
 }
 );
 background = {
