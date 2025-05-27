@@ -252,8 +252,8 @@ lookup BNG_rclt_chain_SwapVedic_2 {
 
 # Start Chain Contextual Sub
 lookup BNG_rclt_swapVedicStacks_removeMark {
-    sub uni1CF5' by zerowidthnonjoiner;
-    sub uni1CF6' by zerowidthnonjoiner;
+    sub uni1CF5' by uni200B;
+    sub uni1CF6' by uni200B;
 } BNG_rclt_swapVedicStacks_removeMark;
 
 
