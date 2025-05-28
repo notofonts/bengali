@@ -25,9 +25,9 @@ test_value = {
     "VEDIC_sKRa": [("s-beng.half2", ""), "s_k_ra-beng"],
     "VEDIC_ssBa": [("ss-beng.half4", ""), "ss_ba-beng"],
     # testing:
-    "VEDIC_lGa": [("l-beng.half3", "aaMatra-beng.part2"), "l_ga-beng"]
-    "VEDIC_sPa": [("s-beng.half", "pa-beng"), "s_pa-beng"]
-    "VEDIC_mPa": [("m-beng.half", "pa-beng"), "m_pa-beng"]
+    "VEDIC_lGa": [("l-beng.half3", "aaMatra-beng.part2"), "l_ga-beng"],
+    "VEDIC_sPa": [("s-beng.half", "pa-beng"), "s_pa-beng"],
+    "VEDIC_mPa": [("m-beng.half", "pa-beng"), "m_pa-beng"],
     "VEDIC_ssPa": [("ss-beng.half4", "pa-beng"), "ss_pa-beng"]
 }
 
@@ -39,19 +39,13 @@ vedic_value_info = {
 "c-beng.half": "VEDIC_cHalf",
 "j-beng.half": "VEDIC_jHalf",
 "dd-beng.half1": "VEDIC_ddHalf1",
-#"dd-beng.half": "VEDIC_ddHalf",
 "ddh-beng.half": "VEDIC_ddhHalf",
-#"nn-beng.half": "VEDIC_nnHalf",
 "nn-beng.half3": "VEDIC_nnHalf3",
 "t-beng.half": "VEDIC_tHalf",
-#"t_ta-beng": "VEDIC_kTaHalf",
-#"k_ra-beng": "VEDIC_kRa",
 "th-beng.half": "VEDIC_thHalf",
 "d-beng.half": "VEDIC_dHalf",
 "d-beng.half2": "VEDIC_dHalf2",
-#"d-beng.half3": "VEDIC_dHalf3",
 "n-beng.headline": "VEDIC_nHeadline",
-#"d-beng.half4": "VEDIC_dHalf4",
 "n_s-beng.half": "VEDIC_nSHalf",
 "n_k_ta-beng": "VEDIC_nKTa",
 "p-beng.half": "VEDIC_pHalf",
@@ -70,7 +64,6 @@ vedic_value_info = {
 "s-beng.half4": "VEDIC_sHalf4",
 "s-beng.half2": "VEDIC_sHalf2",
 "ramiddlediagonal-beng": "VEDIC_ramiddlediagonal",
-#"m_ba-beng": "VEDIC_mBa",
 "s_ka-beng": "VEDIC_sKa",
 "s_ba-beng": "VEDIC_sBa",
 "n_da-beng": "VEDIC_nDa",
@@ -81,12 +74,10 @@ vedic_value_info = {
 "l_ka-beng": "VEDIC_lKa",
 "l_ma-beng": "VEDIC_lMa",
 "ss_ka-beng": "VEDIC_ssKa",
-#"ss_ba-beng": "VEDIC_ssBa",
 "s_k_ra-beng": "VEDIC_sKRa",
 "s_ra_uMatra-beng": "VEDIC_sRU",
 "ha_rVocalicMatra-beng": "VEDIC_hRvoc",
 "h_na-beng": "VEDIC_hNa",
-#"ddha-beng.side": "VEDIC_ddhaSide",
 "ddh-beng.side": "VEDIC_ddhaHalfSide"
 }
 
@@ -122,10 +113,11 @@ def subtract_values(value_1, value_2, reference_glyph):
     else:
         return None
 
-def output_vedic_values(font, user_data, anchor_name="top_vedic"):
+def update_vedic_values(font, user_data, anchor_name="top_vedic"):
     """docstring for output_number_values"""
     layer_name = font.selectedFontMaster.name
-    for vals in user_data.values():
+    for i, k in enumerate(user_data):
+        vals = user_data[i]
         if len(vals) > 1:
             ref_glyph = vals[1]
             ref_glyph_width = int(font[ref_glyph].layers[layer_name].width)
@@ -137,6 +129,7 @@ def output_vedic_values(font, user_data, anchor_name="top_vedic"):
                 #print(base_glyph_width, base_anchor_position, ref_glyph_width, ref_glyph_width/2)
                 new_value = -(int(ref_glyph_width/2) - (base_glyph_width - base_anchor_position))
                 print(f"BASE: {base_glyph} Anchor Pos. X: {base_anchor_position}\n\tRef. BASE: {ref_glyph} Ref. BASE width: {ref_glyph_width}\n\tRef. BASE half width: {int(ref_glyph_width/2)} Difference: {new_value}")
+                font.selectedFontMaster.numbers[user_data[k]] = new_value
             else:
                 base_glyph = vals[0][0]
                 base_anchor_position = int(font[base_glyph].layers[layer_name].anchors[anchor_name].x)
@@ -144,9 +137,11 @@ def output_vedic_values(font, user_data, anchor_name="top_vedic"):
                     new_value = int(ref_glyph_width/2) - base_anchor_position
                     #new_value = base_anchor_position + difference
                     print(f"BASE: {base_glyph} Anchor Pos. X: {base_anchor_position}\n\tRef. BASE: {ref_glyph} Ref. BASE width: {ref_glyph_width}\n\tRef. BASE half width: {int(ref_glyph_width/2)} Difference: {new_value}")
+                    font.selectedFontMaster.numbers[user_data[k]] = new_value
                 else:
                     new_value = -(base_anchor_position - int(ref_glyph_width/2))
                     print(f"BASE: {base_glyph} Anchor Pos. X: {base_anchor_position}\n\tRef. BASE: {ref_glyph} Ref. BASE width: {ref_glyph_width}\n\tRef. BASE half width: {int(ref_glyph_width/2)} Difference: {new_value}")
+                    font.selectedFontMaster.numbers[user_data[k]] = new_value
 
 
 def update_number_values(font, user_data):
@@ -171,8 +166,8 @@ def update_number_values(font, user_data):
 
 # To preview data as text output uncomment lines 134
 
-vedic_data = output_vedic_values(this_font, test_value)
-print(vedic_data)
+vedic_data = update_vedic_values(this_font, test_value)
+#print(vedic_data)
 
 # -------------
 # Apply changes
