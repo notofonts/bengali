@@ -1,6 +1,6 @@
 {
 category = Letter;
-color = 10;
+color = 2;
 export = 0;
 glyphname = "g_la-beng";
 layers = (

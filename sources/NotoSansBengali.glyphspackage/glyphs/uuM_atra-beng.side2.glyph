@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = top_vedic;
-pos = (-216,622);
+pos = (85,622);
 }
 );
 background = {
@@ -100,7 +100,7 @@ width = 169;
 anchors = (
 {
 name = top_vedic;
-pos = (-204,607);
+pos = (72,607);
 }
 );
 background = {
@@ -194,7 +194,7 @@ width = 143;
 anchors = (
 {
 name = top_vedic;
-pos = (-190,635);
+pos = (108,635);
 }
 );
 background = {
@@ -288,7 +288,7 @@ width = 215;
 anchors = (
 {
 name = top_vedic;
-pos = (-142,607);
+pos = (51,607);
 }
 );
 background = {
@@ -382,7 +382,7 @@ width = 101;
 anchors = (
 {
 name = top_vedic;
-pos = (-154,621);
+pos = (67,621);
 }
 );
 background = {
@@ -476,7 +476,7 @@ width = 133;
 anchors = (
 {
 name = top_vedic;
-pos = (-142,634);
+pos = (90,634);
 }
 );
 background = {

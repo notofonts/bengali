@@ -117,7 +117,8 @@ def update_vedic_values(font, user_data, anchor_name="top_vedic"):
     """docstring for output_number_values"""
     layer_name = font.selectedFontMaster.name
     for i, k in enumerate(user_data):
-        vals = user_data[i]
+        #print(user_data[k])
+        vals = user_data[k]
         if len(vals) > 1:
             ref_glyph = vals[1]
             ref_glyph_width = int(font[ref_glyph].layers[layer_name].width)
@@ -142,7 +143,6 @@ def update_vedic_values(font, user_data, anchor_name="top_vedic"):
                     new_value = -(base_anchor_position - int(ref_glyph_width/2))
                     print(f"BASE: {base_glyph} Anchor Pos. X: {base_anchor_position}\n\tRef. BASE: {ref_glyph} Ref. BASE width: {ref_glyph_width}\n\tRef. BASE half width: {int(ref_glyph_width/2)} Difference: {new_value}")
                     font.selectedFontMaster.numbers[user_data[k]] = new_value
-
 
 def update_number_values(font, user_data):
     """Update values in the glyphs source"""

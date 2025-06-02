@@ -754,7 +754,7 @@ pos = (379,586);
 },
 {
 name = top_vedic;
-pos = (249,607);
+pos = (250,607);
 }
 );
 background = {
