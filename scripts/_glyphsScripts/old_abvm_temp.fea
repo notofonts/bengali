@@ -1,0 +1,117 @@
+# Automatic Code End
+
+# For all these glyphs, insert a top_vedic anchor at half of the advance width. This can
+# be done with MekkaBlue's Batch Insert Anchor script; set H Position to Center of Width
+# and V Position to BBox Top
+@SideExtensionBases = [headline-beng.130 headline-beng.200 ma-beng.side1 ddh-beng.side ddha-beng.side pha-beng.side ka-beng.arm d-beng.side ma-beng.side uMatra-beng.side uuMatra-beng.side aaMatra-beng.float ga-beng.side ttha-beng.side ma-beng.side3 dda-beng.side ma-beng.side2 gh-beng.half ch-beng.half d-beng.half3 d-beng.half k_ssa-beng k_ss-beng.half p-beng.half da-beng gha-beng ca-beng cha-beng gha-beng gh-beng.half];
+
+
+@BNG_VEDIC_ALL = [uni0951 uni1CD0 uni1CD2 uni1CF5.stack uni1CF6.stack uni0952 uni1CD5 uni1CD6 uni1CD8 uni1CED];
+@BNG_VEDIC_TOP = [uni0951 uni1CD0 uni1CD2 uni1CF5.stack uni1CF6.stack];
+
+lookup BNG_dflt_vedic_extension_shift1 {
+	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
+	pos ng-beng.half2 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ngHalf2 0 0 0>;
+	pos c-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_cHalf 0 0 0>;
+	pos j-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_jHalf 0 0 0>;
+	pos dd-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ddHalf 0 0 0>;
+	pos dd-beng.half1 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ddHalf1 0 0 0>;
+	pos ddh-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ddhHalf 0 0 0>;
+	pos nn-beng.half3 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_nnHalf3 0 0 0>;
+	pos nn-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_nnHalf 0 0 0>;
+	pos n_s-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_nSHalf 0 0 0>;
+	pos n-beng.headline [da-beng d-beng.half d-beng.half3] @BNG_VEDIC_ALL' <$VEDIC_nDa 0 0 0>;
+	pos n-beng.headline aaMatra-beng.part headline-beng.130 @BNG_VEDIC_ALL' <$VEDIC_nDha 0 0 0>;
+	pos t-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_tHalf 0 0 0>;
+	# Newly added contexts
+	pos [t_ta-beng t_t-beng.half] headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_kTa 0 0 0>;
+	pos dh-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dhHalf 0 0 0>;
+} BNG_dflt_vedic_extension_shift1;
+
+lookup BNG_dflt_vedic_extension_shift2 {
+ 	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
+	pos t_t-beng.half @BNG_VEDIC_ALL' <$VEDIC_kTaHalf 0 0 0>;
+} BNG_dflt_vedic_extension_shift2;
+
+lookup BNG_dflt_vedic_extension_shift3 {
+ 	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
+	pos t_ra-beng headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_kRa 0 0 0>;
+	pos d-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf 0 0 0>;
+ 	pos n-beng.headline aaMatra-beng.part.short headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_nKTa 0 0 0>;
+ 	pos d-beng.half2 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf2 0 0 0>;
+ 	pos d-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <$VEDIC_dHalf3 0 0 0>;
+	pos d-beng.half4 headline-beng.100 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf4 0 0 0>;
+	pos d-beng.half4 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf4 0 0 0>;
+} BNG_dflt_vedic_extension_shift3;
+
+lookup BNG_dflt_vedic_extension_shift4 {
+	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
+	pos p-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_pHalf 0 0 0>;
+	pos p-beng.half3 [ddha-beng.side ddh-beng.side] @BNG_VEDIC_ALL' <$VEDIC_ddhaSide 0 0 0>;
+	pos b-beng.half2 ka-beng.arm @BNG_VEDIC_ALL' <$VEDIC_bHalf2 0 0 0>;
+	pos b-beng.half2 headline-beng.250 @BNG_VEDIC_ALL' <$VEDIC_bDha 0 0 0>;
+	pos m-beng.half headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_mBa 0 0 0>;
+	pos m-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_mHalf 0 0 0>;
+	pos m-beng.half sa-beng @BNG_VEDIC_ALL' <$VEDIC_mSa 0 0 0>;
+	pos ra-beng @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ra 0 0 0>;
+	pos l-beng.half3 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_lHalf3 0 0 0>;
+} BNG_dflt_vedic_extension_shift4;
+
+lookup BNG_dflt_vedic_extension_shift5 {
+	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
+ 	pos sh-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_shHalf 0 0 0>;
+ 	pos sh-beng.half2 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_shHalf2 0 0 0>;
+ 	pos ss-beng.half4 [pha-beng.side ma-beng.side2] @BNG_VEDIC_ALL' <$VEDIC_ssHalf4 0 0 0>;
+ 	pos ss-beng.half4 headline-beng.250 @BNG_VEDIC_ALL' <$VEDIC_ssKa 0 0 0>;
+	pos ss-beng.half4 headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_ssBa 0 0 0>;
+ 	pos s-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_sHalf 0 0 0>;
+ 	pos s-beng.half headline-beng.250 @BNG_VEDIC_ALL' <$VEDIC_sKa 0 0 0>;
+ 	pos s-beng.half headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_sBa 0 0 0>;
+ 	pos s-beng.half2 headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_sKRa 0 0 0>;
+ 	pos s-beng.half2 uMatra-beng.side @BNG_VEDIC_ALL' <$VEDIC_sRU 0 0 0>;
+} BNG_dflt_vedic_extension_shift5;
+
+lookup BNG_dflt_vedic_extension_shift6 {
+	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.250 headline-beng.200 headline-beng.130 headline-beng.100];
+ 	ignore pos s-beng.half2 uMatra-beng.side @BNG_VEDIC_ALL';
+ 	pos g-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_gHalf 0 0 0>;
+ 	pos g-beng.half2 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_gHalf2 0 0 0>;
+ 	pos ng-beng.half [headline-beng.130 headline-beng.100] @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ng 0 0 0>;
+ 	pos n-beng.headline [ddha-beng.side ddh-beng.side ttha-beng.side] @BNG_VEDIC_ALL' <$VEDIC_nHeadline 0 0 0>;
+ 	pos n-beng.headline dda-beng.side @BNG_VEDIC_ALL' <$VEDIC_nDda 0 0 0>;
+ 	pos n-beng.headline aaMatra-beng.part ma-beng.side @BNG_VEDIC_ALL' <$VEDIC_nMa 0 0 0>;
+ 	pos b-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_bHalf 0 0 0>;
+} BNG_dflt_vedic_extension_shift6;
+	
+lookup BNG_dflt_vedic_extension_shift7 {
+	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.250 headline-beng.200 headline-beng.130 headline-beng.100];
+ 	pos ss-beng.half3 headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_ssHalf3 0 0 0>;
+ 	pos s-beng.half2 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_sHalf2 0 0 0>;
+ 	pos s-beng.half4 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_sHalf4 0 0 0>;
+ 	pos ha-beng headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_hRvoc 0 0 0>;
+ 	pos ha-beng headline-beng.250 @BNG_VEDIC_ALL' <$VEDIC_hNa 0 0 0>;
+} BNG_dflt_vedic_extension_shift7;
+
+lookup BNG_dflt_vedic_extension_shift8{
+	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200];
+ 	pos th-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_thHalf 0 0 0>;
+ 	pos bh-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_bhHalf 0 0 0>;
+ 	pos bh-beng.half headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_bhRUu 0 0 0>;
+ 	pos ramiddlediagonal-beng @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ramiddlediagonal 0 0 0>;
+ 	pos l-beng.half3 aaMatra-beng.part headline-beng.130 @BNG_VEDIC_ALL' <$VEDIC_lKa 0 0 0>;
+} BNG_dflt_vedic_extension_shift8;
+
+lookup BNG_dflt_vedic_extension_shift9{
+	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL aaMatra-beng.part aaMatra-beng.part2 headline-beng.130];
+	pos l-beng.half3 aaMatra-beng.part ma-beng.side @BNG_VEDIC_ALL' <$VEDIC_lMa 0 0 0>;
+	ignore pos l-beng.half3 [aaMatra-beng.part aaMatra-beng.part2] headline-beng.130 @BNG_VEDIC_ALL';
+	pos l-beng.half3 [aaMatra-beng.part aaMatra-beng.part2] @BNG_VEDIC_ALL' <$VEDIC_lGa 0 0 0>;
+} BNG_dflt_vedic_extension_shift9;
+
+lookup BNG_dflt_vedic_extension_shift10{
+	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL];
+ 	pos s-beng.half [pa-beng p-beng.half2] @BNG_VEDIC_ALL' <$VEDIC_sPa 0 0 0>;
+ 	pos m-beng.half [pa-beng p-beng.half2] @BNG_VEDIC_ALL' <$VEDIC_mPa 0 0 0>;
+ 	pos ss-beng.half4 [pa-beng p-beng.half2] @BNG_VEDIC_ALL' <$VEDIC_ssPa 0 0 0>;
+} BNG_dflt_vedic_extension_shift10;
+

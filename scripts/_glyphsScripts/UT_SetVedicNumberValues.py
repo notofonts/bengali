@@ -129,20 +129,24 @@ def update_vedic_values(font, user_data, anchor_name="top_vedic"):
                 base_glyph_width = int(font[base_glyph].layers[layer_name].width)
                 #print(base_glyph_width, base_anchor_position, ref_glyph_width, ref_glyph_width/2)
                 new_value = -(int(ref_glyph_width/2) - (base_glyph_width - base_anchor_position))
-                print(f"BASE: {base_glyph} Anchor Pos. X: {base_anchor_position}\n\tRef. BASE: {ref_glyph} Ref. BASE width: {ref_glyph_width}\n\tRef. BASE half width: {int(ref_glyph_width/2)} Difference: {new_value}")
-                font.selectedFontMaster.numbers[user_data[k]] = new_value
+                print(f"{k}: {new_value}")
+                #print(f"BASE: {base_glyph} Anchor Pos. X: {base_anchor_position}\n\tRef. BASE: {ref_glyph} Ref. BASE width: {ref_glyph_width}\n\tRef. BASE half width: {int(ref_glyph_width/2)} Difference: {new_value}")
+                #font.selectedFontMaster.numbers[k] = new_value
+                
             else:
                 base_glyph = vals[0][0]
                 base_anchor_position = int(font[base_glyph].layers[layer_name].anchors[anchor_name].x)
                 if int(ref_glyph_width/2) > base_anchor_position:
                     new_value = int(ref_glyph_width/2) - base_anchor_position
                     #new_value = base_anchor_position + difference
-                    print(f"BASE: {base_glyph} Anchor Pos. X: {base_anchor_position}\n\tRef. BASE: {ref_glyph} Ref. BASE width: {ref_glyph_width}\n\tRef. BASE half width: {int(ref_glyph_width/2)} Difference: {new_value}")
-                    font.selectedFontMaster.numbers[user_data[k]] = new_value
+                    print(f"{k}: {new_value}")
+                    #print(f"BASE: {base_glyph} Anchor Pos. X: {base_anchor_position}\n\tRef. BASE: {ref_glyph} Ref. BASE width: {ref_glyph_width}\n\tRef. BASE half width: {int(ref_glyph_width/2)} Difference: {new_value}")
+                    #font.selectedFontMaster.numbers[k] = new_value
                 else:
                     new_value = -(base_anchor_position - int(ref_glyph_width/2))
-                    print(f"BASE: {base_glyph} Anchor Pos. X: {base_anchor_position}\n\tRef. BASE: {ref_glyph} Ref. BASE width: {ref_glyph_width}\n\tRef. BASE half width: {int(ref_glyph_width/2)} Difference: {new_value}")
-                    font.selectedFontMaster.numbers[user_data[k]] = new_value
+                    print(f"{k}: {new_value}")
+                    #print(f"BASE: {base_glyph} Anchor Pos. X: {base_anchor_position}\n\tRef. BASE: {ref_glyph} Ref. BASE width: {ref_glyph_width}\n\tRef. BASE half width: {int(ref_glyph_width/2)} Difference: {new_value}")
+                    #font.selectedFontMaster.numbers[k] = new_value
 
 def update_number_values(font, user_data):
     """Update values in the glyphs source"""

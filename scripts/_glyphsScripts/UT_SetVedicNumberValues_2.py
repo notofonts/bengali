@@ -41,13 +41,33 @@ for g in this_font.selection:
                         #print("Multi comp: last letter")
                         #print(g.name, ref_glyph_width_center)
                         #print(f"\t{first_comp.name}, {last_comp.name}, {new_value}")
-                        data_struct = [(first_comp.name, last_comp.name), (g.name, f"VEDIC_{g.name.split('-')[0]}")]
+                        bases = (first_comp.name, last_comp.name)
+                        references = (g.name, f"VEDIC_{g.name.split('-')[0]}")
                         #print(g.name, data_struct[0], new_value)
                         if new_value not in internal_database_1:
-                            internal_database_1[new_value] = {data_struct[0]: data_struct[1]}
-                        elif new_value in internal_database_1 and data_struct[0] not in internal_database_1[new_value]:
-                            internal_database_1[new_value][data_struct[0]] = data_struct[1]
-                        
+                            internal_database_1[new_value] = {references: data_struct[1]}
+                            #print("! Novel", data_struct[0], data_struct[1], new_value)
+#                        elif new_value in internal_database_1 and data_struct[0] not in internal_database_1[new_value]:
+#                            if data_struct[0][0] in internal_database_1[new_value]:
+#                                internal_database_1[new_value][data_struct[0]] = data_struct[1]
+#                                #print("Repeat", data_struct[0], data_struct[1], new_value)
+                        else:
+                            original_base_A = data_struct[0][0]
+                            original_base_B = data_struct[0][1]
+                            new_bases = []
+                            for k, v in internal_database_1[new_value].items():
+                                #print(k, v, k[1], new_bases, new_value)
+                                new_base_A = k[0]
+                                new_base_B = k[1]
+                                new_bases.append(original_base_B)
+                                if original_base_A == new_base_A and new_base_B not in new_bases:
+                                    new_bases.append(new_base_B)
+                                    #print(k, v, k[1], new_bases, new_value)
+                            new_struct = (original_base_A, new_bases)
+                            #print(new_struct, new_value)
+                            #print("TEST 1 Repeat", new_struct[0], new_struct[1], new_value)
+                            internal_database_1[new_value] = {new_struct: v}
+
                 elif this_font[last_comp.name].layers[layer_name].components:
                     first_comp_glyph = this_font[last_comp.name].layers[layer_name].shapes[0]
                     if this_font[first_comp_glyph.name].layers[layer_name].anchors[anchors_name]:
@@ -64,8 +84,26 @@ for g in this_font.selection:
                             #base_anchor_pos_x = int(this_font[first_comp.name].layers[layer_name].anchors[anchors_name].x)
                             if new_value not in internal_database_1:
                                 internal_database_1[new_value] = {data_struct[0]: data_struct[1]}
-                            elif new_value in internal_database_1 and data_struct[0] not in internal_database_1[new_value]:
-                                internal_database_1[new_value][data_struct[0]] = data_struct[1]
+                                #print("Novel", data_struct[0], data_struct[1], new_value)
+                            #elif new_value in internal_database_1 and data_struct[0] not in internal_database_1[new_value]:
+                                #print(f"Repeat: {data_struct[0][0]}, {data_struct[0][1]}, {new_value}")
+                                #internal_database_1[new_value][data_struct[0]] = data_struct[1]
+                            else:
+                                original_base_A = data_struct[0][0]
+                                original_base_B = data_struct[0][1]
+                                new_bases = []
+                                for k, v in internal_database_1[new_value].items():
+                                    #print(k, v, k[1], new_bases, new_value)
+                                    new_base_A = k[0]
+                                    new_base_B = k[1]
+                                    new_bases.append(original_base_B)
+                                    if original_base_A == new_base_A and new_base_B not in new_bases:
+                                        new_bases.append(new_base_B)
+                                        #print(k, v, k[1], new_bases, new_value)
+                                new_struct = (original_base_A, new_bases)
+                                #print(new_struct, new_value)
+                                #print("TEST 2 Repeat", new_struct[0], new_struct[1], new_value)
+                                internal_database_1[new_value] = {new_struct: v}
 
 
             elif this_font[first_comp.name].category == "Letter" and this_font[last_comp.name].category != "Letter":
@@ -102,8 +140,29 @@ for g in this_font.selection:
                                     #print(g.name, data_struct[0], c.name, new_value)
                                     if new_value not in internal_database_1:
                                         internal_database_1[new_value] = {data_struct[0]: data_struct[1]}
-                                    elif new_value in internal_database_1 and data_struct[0] not in internal_database_1[new_value]:
-                                        internal_database_1[new_value][data_struct[0]] = data_struct[1]
+                                        #print("Novel", data_struct[0], data_struct[1], new_value)
+                                    #elif new_value in internal_database_1 and data_struct[0] not in internal_database_1[new_value]:
+                                    #else:
+                                        #print(f"Repeat: {data_struct[0][0]}, {data_struct[0][1]}, {new_value}")
+                                        #internal_database_1[new_value][data_struct[0]] = data_struct[1]
+                                        #print("Repeat", data_struct[0], data_struct[1], new_value)
+                                    else:
+                                        original_base_A = data_struct[0][0]
+                                        original_base_B = data_struct[0][1]
+                                        new_bases = []
+                                        for k, v in internal_database_1[new_value].items():
+                                            #print(k, v, k[1], new_bases, new_value)
+                                            new_base_A = k[0]
+                                            new_base_B = k[1]
+                                            new_bases.append(original_base_B)
+                                            if original_base_A == new_base_A and new_base_B not in new_bases:
+                                                new_bases.append(new_base_B)
+                                                #print(k, v, k[1], new_bases, new_value)
+                                        new_struct = (original_base_A, new_bases)
+                                        #print(new_struct, new_value)
+                                        #print("TEST 3 Repeat", new_struct[0], new_struct[1], new_value)
+                                        #print(internal_database_1[new_value], new_struct, v)
+                                        internal_database_1[new_value] = {new_struct: v}
                             else:
                                 print("! Multi comp: Untested 2")
                                 print(g.name, last_comp)
@@ -129,8 +188,27 @@ for g in this_font.selection:
                         
                         if new_value not in internal_database_1:
                             internal_database_1[new_value] = {data_struct[0]: data_struct[1]}
-                        elif new_value in internal_database_1 and data_struct[0] not in internal_database_1[new_value]:
-                            internal_database_1[new_value][data_struct[0]] = data_struct[1]
+                            #print("Novel", data_struct[0], data_struct[1], new_value)
+                        #elif new_value in internal_database_1 and data_struct[0] not in internal_database_1[new_value]:
+                        #    internal_database_1[new_value][data_struct[0]] = data_struct[1]
+                        #    print("Repeat", data_struct[0], data_struct[1], new_value)
+                        else:
+                            original_base_A = data_struct[0][0]
+                            original_base_B = data_struct[0][1]
+                            new_bases = []
+                            for k, v in internal_database_1[new_value].items():
+                                #print(k, v, k[1], new_bases, new_value)
+                                new_base_A = k[0]
+                                new_base_B = k[1]
+                                new_bases.append(original_base_B)
+                                if original_base_A == new_base_A and new_base_B not in new_bases:
+                                    new_bases.append(new_base_B)
+                                    #print(k, v, k[1], new_bases, new_value)
+                            new_struct = (original_base_A, new_bases)
+                            #print(new_struct, new_value)
+                            #print("TEST 4 Repeat", new_struct[0], new_struct[1], new_value)
+                            internal_database_1[new_value] = {new_struct: new_struct[1]}
+
                 else:
                     print("! Single comp: Untested")
                     print(g.name, ref_glyph_width_center)
@@ -157,6 +235,20 @@ def lookup_labels(substitution_data, lookup_flag=("0", ""), lookup_name_prefix="
         for rules in subs:
             print(rules)
         print("} " + f"{lookup_name_prefix}{feature_tag}{lookup_name_desc};")
+
+def apply_number_values(data):
+    vals = []
+    if data:
+        for k, v in data.items():
+            preview = ""
+            for sub_v in v:
+                preview = f"{v[sub_v][1]}: {k}"
+                if preview not in vals:
+                    vals.append(preview)
+                else:
+                    pass
+    if vals:
+        return vals
 
 def output_feature_code(feature_data):
     collected_data = []
@@ -196,9 +288,17 @@ def output_feature_code(feature_data):
     else:
         return None
 
-lookup_labels(internal_database_1, lookup_flag=("UseMarkFilteringSet", "@BNG_VEDIC_ALL"), lookup_name_prefix="BNG_dflt_", feature_tag="abvm_", lookup_name_desc="vedic_mark_shift_1")
-lookup_labels(internal_database_2, lookup_flag=("UseMarkFilteringSet", "[@BNG_VEDIC_ALL ]"), lookup_name_prefix="BNG_dflt_", feature_tag="abvm_", lookup_name_desc="vedic_mark_shift_2")
+#for lines in output_feature_code(internal_database_1):
+#    print(lines)
+print(internal_database_1)
 
-#output_feature_code(internal_database_2, )
+#lookup_labels(internal_database_1, lookup_flag=("UseMarkFilteringSet", "@BNG_VEDIC_ALL"), lookup_name_prefix="BNG_dflt_", feature_tag="abvm_", lookup_name_desc="vedic_mark_shift_1")
+#lookup_labels(internal_database_2, lookup_flag=("UseMarkFilteringSet", "[@BNG_VEDIC_ALL ]"), lookup_name_prefix="BNG_dflt_", feature_tag="abvm_", lookup_name_desc="vedic_mark_shift_2")
+
+#number_vals = apply_number_values(internal_database_1)
+#for n in number_vals:
+#    print(n)
+
+
 
 #"vedic_mark_shift_2"
