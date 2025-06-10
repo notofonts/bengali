@@ -11,7 +11,7 @@ ref = "eMatra-beng";
 {
 alignment = 1;
 pos = (361,0);
-ref = uni25CC;
+ref = dottedCircle;
 },
 {
 pos = (871,0);
@@ -40,7 +40,7 @@ ref = "eMatra-beng.init";
 {
 alignment = 1;
 pos = (361,0);
-ref = uni25CC;
+ref = dottedCircle;
 },
 {
 pos = (871,0);
@@ -59,7 +59,7 @@ ref = "eMatra-beng";
 {
 alignment = -1;
 pos = (305,0);
-ref = uni25CC;
+ref = dottedCircle;
 },
 {
 alignment = -1;
@@ -90,7 +90,7 @@ ref = "eMatra-beng.init";
 {
 alignment = -1;
 pos = (305,0);
-ref = uni25CC;
+ref = dottedCircle;
 },
 {
 alignment = -1;
@@ -109,7 +109,7 @@ ref = "eMatra-beng";
 {
 alignment = 1;
 pos = (417,0);
-ref = uni25CC;
+ref = dottedCircle;
 },
 {
 pos = (927,0);
@@ -138,7 +138,7 @@ ref = "eMatra-beng.init";
 {
 alignment = 1;
 pos = (417,0);
-ref = uni25CC;
+ref = dottedCircle;
 },
 {
 pos = (927,0);
@@ -156,7 +156,7 @@ ref = "eMatra-beng";
 {
 alignment = 1;
 pos = (241,0);
-ref = uni25CC;
+ref = dottedCircle;
 },
 {
 pos = (596,0);
@@ -185,7 +185,7 @@ ref = "eMatra-beng.init";
 {
 alignment = 1;
 pos = (241,0);
-ref = uni25CC;
+ref = dottedCircle;
 },
 {
 pos = (596,0);
@@ -203,7 +203,7 @@ ref = "eMatra-beng";
 {
 alignment = 1;
 pos = (282,0);
-ref = uni25CC;
+ref = dottedCircle;
 },
 {
 pos = (663,0);
@@ -233,7 +233,7 @@ ref = "eMatra-beng.init";
 {
 alignment = 1;
 pos = (282,0);
-ref = uni25CC;
+ref = dottedCircle;
 },
 {
 pos = (663,0);
@@ -251,7 +251,7 @@ ref = "eMatra-beng";
 {
 alignment = 1;
 pos = (336,0);
-ref = uni25CC;
+ref = dottedCircle;
 },
 {
 pos = (728,0);
@@ -281,7 +281,7 @@ ref = "eMatra-beng.init";
 {
 alignment = 1;
 pos = (336,0);
-ref = uni25CC;
+ref = dottedCircle;
 },
 {
 pos = (728,0);

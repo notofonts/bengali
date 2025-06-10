@@ -194,6 +194,7 @@ ref = "headline-beng.200";
 layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
+alignment = -1;
 ref = "m-beng.half";
 },
 {
@@ -209,7 +210,7 @@ pos = (294,0);
 ref = "headline-beng.200";
 }
 );
-width = 443;
+width = 445;
 },
 {
 background = {
@@ -254,5 +255,4 @@ ref = "headline-beng.200";
 width = 502;
 }
 );
-metricWidth = mababeng;
 }

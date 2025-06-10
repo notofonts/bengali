@@ -271,27 +271,27 @@ alignment = -1;
 ref = "n-beng.headline";
 },
 {
-pos = (221,0);
+pos = (226,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (15,5);
+pos = (20,5);
 ref = "n-beng.float";
 },
 {
-pos = (70,44);
+pos = (75,44);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (310,14);
+pos = (315,14);
 ref = "dha-beng.part";
 },
 {
-pos = (423,0);
+pos = (428,0);
 ref = "headline-beng.130";
 }
 );
-width = 530;
+width = 535;
 },
 {
 background = {

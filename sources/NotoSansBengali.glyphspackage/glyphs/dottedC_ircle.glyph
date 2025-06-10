@@ -1,5 +1,6 @@
 {
-glyphname = uni25CC;
+color = 10;
+glyphname = dottedCircle;
 layers = (
 {
 anchors = (

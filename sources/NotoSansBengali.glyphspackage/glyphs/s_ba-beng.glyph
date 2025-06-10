@@ -23,6 +23,7 @@ ref = "headline-beng.200";
 layerId = UUID0;
 shapes = (
 {
+alignment = -1;
 ref = "s-beng.half";
 },
 {
@@ -34,7 +35,7 @@ pos = (445,0);
 ref = "headline-beng.200";
 }
 );
-width = 640;
+width = 645;
 },
 {
 background = {
@@ -55,6 +56,7 @@ ref = "headline-beng.200";
 layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
 shapes = (
 {
+alignment = -1;
 ref = "s-beng.half";
 },
 {
@@ -66,7 +68,7 @@ pos = (446,0);
 ref = "headline-beng.200";
 }
 );
-width = 616;
+width = 606;
 },
 {
 background = {
@@ -87,6 +89,7 @@ ref = "headline-beng.200";
 layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
 shapes = (
 {
+alignment = -1;
 ref = "s-beng.half";
 },
 {
