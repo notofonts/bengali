@@ -2,7 +2,7 @@ buildVariable: true
 familyName: Noto Sans Bengali
 googleFonts: true
 includeSubsets:
-- from: Noto Sans
-  name: GF_Latin_Core
+- from: "Noto Sans"
+  name: "GF Glyph Sets/GF-latin-core"
 sources:
 - NotoSansBengali.glyphspackage
