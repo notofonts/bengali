@@ -1,0 +1,44 @@
+name: Build test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  build_test:
+    runs-on: ubuntu-latest
+    name: Build main TTFs
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up latest harfbuzz
+        uses: notofonts/install-harfbuzz-action@main
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install the latest version of uv
+        uses: eifinger/setup-uv@v1
+        with:
+          enable-cache: true
+      - name: Install Python deps
+        run: |
+          uv venv venv; . venv/bin/activate ; uv pip install -r requirements.txt
+          touch venv/touchfile
+      - name: Do first-run script if necessary
+        run: make .init.stamp
+        if: github.repository != 'notofonts/noto-project-template'
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        name: First-run setup
+        if: github.repository != 'notofonts/noto-project-template'
+        with:
+          file_pattern: .init.stamp README.md requirements.txt OFL.txt
+          commit_message: "Personalize for this repo"
+      - name: Build fonts
+        run: make build
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: fontbuild
+          path: fonts
