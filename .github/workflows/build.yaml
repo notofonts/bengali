@@ -1,9 +1,10 @@
 name: Build, QA, Release
 
-on:
+on: 
   push:
-    branches:
-    - 'main'
+    branches: [main]
+  pull_request:
+    types: [opened, synchronize, reopened]
 
 jobs:
   build_font:
