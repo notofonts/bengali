@@ -6,6 +6,9 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
 
+permissions:
+  id-token: write
+
 jobs:
   build_font:
     uses: notofonts/notobuilder/.github/workflows/build.yaml@main
