@@ -1,9 +1,12 @@
 name: Build, QA, Release
 
-on: push
+on: 
+  push:
+    branches: [main]
+  pull_request:
+    types: [opened, synchronize, reopened]
 
 jobs:
   build_font:
     uses: notofonts/notobuilder/.github/workflows/build.yaml@main
     secrets: inherit
-
