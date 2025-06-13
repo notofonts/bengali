@@ -491,7 +491,7 @@ value = 0;
 name = "Axis Mappings";
 value = {
 wdth = {
-0 = 62.5;
+62.5 = 62.5;
 100 = 100;
 };
 wght = {
