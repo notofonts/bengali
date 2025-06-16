@@ -234,7 +234,7 @@ pos = (519,0);
 ref = "ddha-beng.side";
 },
 {
-pos = (518,1);
+pos = (225,1);
 ref = "tta-beng.flagIiMatra";
 },
 {

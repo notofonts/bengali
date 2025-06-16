@@ -34,7 +34,7 @@ pos = (-10,-237);
 ref = "raphala-beng.alt06";
 },
 {
-pos = (-50,0);
+pos = (-31,0);
 ref = "tta-beng.flagIiMatra3";
 },
 {
@@ -74,7 +74,7 @@ pos = (17,-219);
 ref = "raphala-beng.alt06";
 },
 {
-pos = (-56,0);
+pos = (-8,0);
 ref = "tta-beng.flagIiMatra3";
 },
 {
@@ -114,7 +114,7 @@ pos = (-26,-326);
 ref = "raphala-beng.alt06";
 },
 {
-pos = (-18,0);
+pos = (-28,0);
 ref = "tta-beng.flagIiMatra3";
 },
 {
@@ -194,7 +194,7 @@ pos = (-8,-232);
 ref = "raphala-beng.alt06";
 },
 {
-pos = (-29,0);
+pos = (-22,0);
 ref = "tta-beng.flagIiMatra3";
 },
 {

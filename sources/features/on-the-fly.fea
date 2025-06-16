@@ -86,7 +86,7 @@ languagesystem beng dflt;
 # @BNG_BASE_IMATRA_LONG10 = [];
 # @BNG_BASE_IMATRA_LONG11 = [];
 
-@BNG_BASE_IIMATRA_TTA = [ddha-beng ddh-beng.half ddh-beng.half2 ddha-beng.side ddh-beng.side tt_tta-beng.noflag ph_tta-beng.noflag k_tta-beng.noflag ss_tta-beng.noflag];
+@BNG_BASE_IIMATRA_TTA = [ddha-beng ddh-beng.half ddh-beng.half2 ddha-beng.side ddh-beng.side tt_tta-beng.noflag k_tta-beng.noflag ss_tta-beng.noflag];
 @BNG_BASE_IIMATRA_TTHA = [ttha-beng ttha-beng.notop tth-beng.half ss_ttha-beng.notop ttha-beng.side];
 @BNG_BASE_IIMATRA_NO_HEADLINE = [nga-beng nya-beng ny_cha-beng ny_ca-beng ny_ja-beng nn_dda-beng ss_nna-beng ng-beng.half ny-beng.half ];
 
@@ -1384,6 +1384,7 @@ lookup BNG_psts_iiMatra{
     sub g-beng.half aaMatra-beng.side headline-beng.130 iiMatra-beng' by iiMatra-beng.nubAlt1;
     # tta
     sub @BNG_BASE_IIMATRA_TTA @BNG_TTA_FLAGS iiMatra-beng' by iiMatra-beng.ttaAlt1;
+    sub ph_tta-beng.noflag @BNG_TTA_FLAGS iiMatra-beng' by iiMatra-beng.ttaAlt2;
     # ttha
     sub @BNG_BASE_IIMATRA_TTHA iiMatra-beng' by iiMatra-beng.tthaAlt1;
     # no headline

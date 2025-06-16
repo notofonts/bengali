@@ -2,7 +2,7 @@
 category = Letter;
 color = 11;
 export = 0;
-glyphname = "iiMatra_ph_tta-beng";
+glyphname = "iiMatra_ph_tta-beng.001";
 layers = (
 {
 background = {
@@ -32,10 +32,6 @@ ref = "tta-beng.flagIiMatra2";
 {
 pos = (829,0);
 ref = "iiMatra-beng.ttaAlt2";
-},
-{
-pos = (816,52);
-ref = "reph-beng.altIiMatra";
 }
 );
 width = 1095;
@@ -74,10 +70,6 @@ ref = "tta-beng.flagIiMatra2";
 {
 pos = (771,0);
 ref = "iiMatra-beng.ttaAlt2";
-},
-{
-pos = (737,23);
-ref = "reph-beng.altIiMatra";
 }
 );
 width = 1004;
@@ -110,10 +102,6 @@ ref = "tta-beng.flagIiMatra2";
 {
 pos = (824,0);
 ref = "iiMatra-beng.ttaAlt2";
-},
-{
-pos = (858,69);
-ref = "reph-beng.altIiMatra";
 }
 );
 width = 1114;
@@ -146,10 +134,6 @@ ref = "tta-beng.flagIiMatra2";
 {
 pos = (537,0);
 ref = "iiMatra-beng.ttaAlt2";
-},
-{
-pos = (492,28);
-ref = "reph-beng.altIiMatra";
 }
 );
 width = 701;
@@ -182,10 +166,6 @@ ref = "tta-beng.flagIiMatra2";
 {
 pos = (622,0);
 ref = "iiMatra-beng.ttaAlt2";
-},
-{
-pos = (619,38);
-ref = "reph-beng.altIiMatra";
 }
 );
 width = 824;
@@ -218,10 +198,6 @@ ref = "tta-beng.flagIiMatra2";
 {
 pos = (653,0);
 ref = "iiMatra-beng.ttaAlt2";
-},
-{
-pos = (678,58);
-ref = "reph-beng.altIiMatra";
 }
 );
 width = 897;
