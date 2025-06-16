@@ -1173,13 +1173,16 @@ lookup BNG_pres_eMAtra {
     sub @BNG_EMATRA' [gh-beng.half b-beng.half dh-beng.half y-beng.half] raphala-beng.alt14 by @BNG_EMATRA_SHORT;
     sub @BNG_EMATRA' [kh-beng.half] raphala-beng.alt01 by @BNG_EMATRA_SHORT;
     sub @BNG_EMATRA' [k_ss-beng.half g-beng.half2] raphala-beng.alt04 by @BNG_EMATRA_SHORT;
-    sub @BNG_EMATRA' ng-beng.half raphala-beng.alt05 by @BNG_EMATRA_SHORT;
+    sub @BNG_EMATRA' [j_nya-beng ng-beng.half c-beng.half2] raphala-beng.alt05 by @BNG_EMATRA_SHORT;
     sub @BNG_EMATRA' ng_ka-beng raphala-beng.alt11 by @BNG_EMATRA_SHORT;
+    sub @BNG_EMATRA' ng_g-beng.half raphala-beng.alt02 by @BNG_EMATRA_SHORT;
+    sub @BNG_EMATRA' tt_tta-beng.noflag by @BNG_EMATRA_SHORT;
     sub @BNG_EMATRA' tth-beng.half ttha-beng.top raphala-beng.alt06 by @BNG_EMATRA_SHORT;
-    sub @BNG_EMATRA' c-beng.half2 raphala-beng.alt06 by @BNG_EMATRA_SHORT;
-    sub @BNG_EMATRA' d-beng.half2 raphala-beng.alt09 by @BNG_EMATRA_SHORT;
     sub @BNG_EMATRA' dd-beng.half nukta-beng.alt by @BNG_EMATRA_SHORT;
+    # sub @BNG_EMATRA' [nn-beng.half3] ttha-beng.side ttha-beng.top2 raphala-beng.alt05 by @BNG_EMATRA_SHORT;
+    sub @BNG_EMATRA' d-beng.half2 raphala-beng.alt09 by @BNG_EMATRA_SHORT;
     sub @BNG_EMATRA' [n-beng.half2 ss-beng.half3] t_ra-beng.blws by @BNG_EMATRA_SHORT;
+    sub @BNG_EMATRA' ss_ttha-beng.notop ttha-beng.top2 raphala-beng.alt05 by @BNG_EMATRA_SHORT;
     #long
     sub @BNG_EMATRA' @BNG_BASE_EMATRA_LONG by @BNG_EMATRA_LONG;
     sub @BNG_EMATRA' k_ss-beng.half [na-beng.blws baphala-beng.alt2] by @BNG_EMATRA_LONG;
@@ -1188,6 +1191,7 @@ lookup BNG_pres_eMAtra {
     sub @BNG_EMATRA' [g-beng.half nn-beng.half sh-beng.half] [aaMatra-beng.side aaMatra-beng.part] ma-beng.side by @BNG_EMATRA_LONG;
     sub @BNG_EMATRA' n-beng.headline aaMatra-beng.part n-beng.float ma-beng.side by @BNG_EMATRA_LONG;
     sub @BNG_EMATRA' [nn-beng.half n-beng.headline p-beng.half3 sh-beng.half] [ddha-beng.side ddh-beng.side ca-beng.side cha-beng.side] by @BNG_EMATRA_LONG;
+    ignore sub @BNG_EMATRA' nn-beng.half3 ttha-beng.side ttha-beng.top2 raphala-beng.alt05;
     sub @BNG_EMATRA' nn-beng.half3 ttha-beng.side by @BNG_EMATRA_LONG;
     sub @BNG_EMATRA' t-beng.half ma-beng.side1 by @BNG_EMATRA_LONG;
     sub @BNG_EMATRA' n-beng.headline [da-beng d-beng.half3] by @BNG_EMATRA_LONG;
