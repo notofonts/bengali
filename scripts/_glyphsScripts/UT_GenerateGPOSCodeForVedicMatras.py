@@ -1,10 +1,11 @@
-#MenuTitle: UT-NotoBengali: Set vedic number values.
+#MenuTitle: UT-NotoBengali: Generate GPOS code for Vedic matras.
 # -*- coding: utf-8 -*-
 from __future__ import division, print_function, unicode_literals
 from math import ceil
 import collections
 __doc__="""
-Sets number values automatically in masters.
+For selected set of 'composed', non-exporting glyphs in the Noto Sans Bengali source.
+Evaluate their parts to determine anchor center positions and output feature code.
 """
 Glyphs.clearLog()
 
@@ -369,43 +370,6 @@ def lookup_labels(substitution_data, lookup_flag=("0", ""), lookup_name_prefix="
     else:
         raise Exception("No output collected")
 
-def update_number_values(font, data):
-    """
-    Update values in the glyphs source
-
-    font.selectedFontMaster.numbers[user_data[g.name]] = deduct_half_width(l.width)
-    """
-    master = font.selectedFontMaster
-    value_data = _collect_number_values(data)
-    for key in value_data:
-        #print(key, value_data[key])
-        master.numbers[key] = value_data[key]
-
-def _collect_number_values(data):
-    vals = {}
-    filtered_data = _data_with_int_keys(data)
-    sorted_data = collections.OrderedDict(sorted(filtered_data.items()))
-    if filtered_data:
-        for int_key in sorted_data:
-            for key in data[int_key].items():
-                #print(key[1][1], int_key)
-                vals[key[1][1]] = int_key
-    if vals:
-        return vals
-
-def _data_with_int_keys(data):
-    """
-    """
-    collection = {}
-    if data == None:
-        raise Exception("No data found!")
-    else:
-        for key in data:
-            if type(key) == int:
-                collection[key] = data[key]
-    if collection:
-        return collection
-
 def opentype_code(data, mark_class="@BNG_VEDIC_ALL", lookup_flag="UseMarkFilteringSet"):
     count = 1
     for key in data:
@@ -435,27 +399,10 @@ vedic_marks = ["uni0951", "uni1CD0", "uni1CD2", "uni1CF5.stack", "uni1CF6.stack"
 mark_glyphs_with_anchor = ["headline-beng.130", "headline-beng.200", "headline-beng.250", "aaMatra-beng.float", "aaMatra-beng.side2", "ka-beng.arm", "ka-beng.arm1", "headline-beng.ba"]
 
 dataset_1, selection_count_1, selection_count_2, all_selected = gather_data(this_font, mark_glyphs_with_anchor, anchor_label='top_vedic')
-#consolidated_data_a, consolidated_data_b = output_sorted_collection(dataset_1)
 
 # Output feature code for selected master
 # -----
 
-
-
-#print("abvm;")
-#print("# Automatic Code End\n")
-#print(f"# {master_layer_name}\n")
-#print(f"{mark_class_name} = [" + " ".join(vedic_marks) + "];\n")
-#lookup_labels(consolidated_data_a, lookup_name_desc="vedicMatraShiftA")
-#print("")
-#lookup_labels(consolidated_data_b, lookup_name_desc="vedicMatraShiftB")
-
-# Update number values in selected master
-# -----
-#update_number_values(this_font, consolidated_data_a)
-#update_number_values(this_font, consolidated_data_b)
-
-#print("abvm;")
 print("# Automatic Code End\n")
 print(f"# {master_layer_name}\n")
 print(f"{mark_class_name} = [" + " ".join(vedic_marks) + "];\n")
