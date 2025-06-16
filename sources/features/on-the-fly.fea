@@ -18,7 +18,7 @@ languagesystem beng dflt;
 @BNG_BAPHALA_RAPHALA = [baphala-beng raphala-beng];
 @BNG_VATTUS = [ baphala-beng raphala-beng baphala-beng.alt1 baphala-beng.alt2 baphala-beng.alt3 baphala-beng.alt4 ga-beng.blws nna-beng.blws ta-beng.blws ta_uMatra-beng.blws t_ra-beng.blws tha-beng.blws dh_ba-beng.blws na-beng.blws pa-beng.blws bha-beng.blws la-beng.blws nna-beng.blws1 na-beng.blws1 la-beng.blws1 na-beng.blws2 la-beng.blws2 na-beng.blws3 ka-beng.part jha-beng.part dha-beng.part raphala-beng.alt01 raphala-beng.alt02 raphala-beng.alt03 raphala-beng.alt04 raphala-beng.alt05 raphala-beng.alt06 raphala-beng.alt07 raphala-beng.alt08 raphala-beng.alt09 raphala-beng.alt10 raphala-beng.alt11 raphala-beng.alt12 raphala-beng.alt13 raphala-beng.alt14 raphala-beng.alt15 la-beng.blws3];
 
-@BNG_ALL_BASES = [ka-beng kha-beng ga-beng gha-beng nga-beng ca-beng cha-beng ja-beng jha-beng nya-beng tta-beng ttha-beng.notop dda-beng ddha-beng nna-beng ta-beng tha-beng da-beng dha-beng na-beng pa-beng pha-beng ba-beng bha-beng ma-beng ya-beng ra-beng la-beng sha-beng ssa-beng sa-beng ha-beng rra-beng rha-beng yya-beng ramiddlediagonal-beng ralowerdiagonal-beng k_ma-beng k_ssa-beng k_ss_ma-beng k_sa-beng ga_uMatra-beng ng_ka-beng ng_ga-beng c_nya-beng j_ja-beng j_j_ba-beng j_nya-beng j_ra-beng ny_ca-beng ny_cha-beng ny_ja-beng dd_dda-beng nn_dda-beng t_ta-beng t_t_ra-beng t_tha-beng t_ra-beng d_da-beng d_bha-beng d_bh_ra-beng n_ra-beng n_sa-beng p_sa-beng b_ja-beng b_da-beng b_d_ra-beng b_bha-beng m_da-beng m_bh_ra-beng l_ga_uMatra-beng l_ta-beng l_pha-beng l_ra-beng l_sa-beng sha_uMatra-beng ss_ttha-beng.notop ss_nna-beng s_kha-beng ha_uMatra-beng h_ma-beng rr_ra-beng rh_ba-beng rh_ra-beng yy_ba-beng yy_ra-beng k_tta-beng.noflag tt_tta-beng.noflag ph_tta-beng.noflag ss_tta-beng.noflag k_ss-beng.half kh-beng.half g-beng.half g-beng.half2 gh-beng.half ng-beng.half ng-beng.half2 c-beng.half c-beng.half1 c-beng.half2 ch-beng.half j-beng.half ny-beng.half tth-beng.half dd-beng.half dd-beng.half1 ddh-beng.half ddh-beng.half2 nn-beng.half nn-beng.half2 nn-beng.half3 t-beng.half t_t-beng.half th-beng.half d-beng.half d-beng.half2 d-beng.half3 d-beng.half4 d_d-beng.half dh-beng.half n-beng.half2 n-beng.half3 p-beng.half p-beng.half2 p-beng.half3 ph-beng.half b-beng.half b-beng.half2 bh-beng.half m-beng.half m-beng.half2 m-beng.half3 l-beng.half3 y-beng.half sh-beng.half sh-beng.half2 ss-beng.half ss-beng.half3 ss-beng.half4 s-beng.half s-beng.half2 s-beng.half3 s-beng.half4 h-beng.half h-beng.half2 kha-beng.side ga-beng.side ca-beng.side cha-beng.side jh-beng.side ttha-beng.side dda-beng.side ddha-beng.side ddh-beng.side da-beng.side d-beng.side pha-beng.side ba-beng.side ma-beng.side ma-beng.side1 ma-beng.side2 ma-beng.side3 aaMatra-beng.part aaMatra-beng.part2 uMatra-beng.side uuMatra-beng.side uuMatra-beng.side2 headline-beng.100 n-beng.headline ];
+@BNG_ALL_BASES = [ka-beng kha-beng ga-beng gha-beng nga-beng ca-beng cha-beng ja-beng jha-beng nya-beng tta-beng ttha-beng ttha-beng.notop dda-beng ddha-beng nna-beng ta-beng tha-beng da-beng dha-beng na-beng pa-beng pha-beng ba-beng bha-beng ma-beng ya-beng ra-beng la-beng sha-beng ssa-beng sa-beng ha-beng rra-beng rha-beng yya-beng ramiddlediagonal-beng ralowerdiagonal-beng k_ma-beng k_ssa-beng k_ss_ma-beng k_sa-beng ga_uMatra-beng ng_ka-beng ng_ga-beng c_nya-beng j_ja-beng j_j_ba-beng j_nya-beng j_ra-beng ny_ca-beng ny_cha-beng ny_ja-beng dd_dda-beng nn_dda-beng t_ta-beng t_t_ra-beng t_tha-beng t_ra-beng d_da-beng d_bha-beng d_bh_ra-beng n_ra-beng n_sa-beng p_sa-beng b_ja-beng b_da-beng b_d_ra-beng b_bha-beng m_da-beng m_bh_ra-beng l_ga_uMatra-beng l_ta-beng l_pha-beng l_ra-beng l_sa-beng sha_uMatra-beng ss_ttha-beng.notop ss_nna-beng s_kha-beng ha_uMatra-beng h_ma-beng rr_ra-beng rh_ba-beng rh_ra-beng yy_ba-beng yy_ra-beng k_tta-beng.noflag tt_tta-beng.noflag ph_tta-beng.noflag ss_tta-beng.noflag k_ss-beng.half kh-beng.half g-beng.half g-beng.half2 gh-beng.half ng-beng.half ng-beng.half2 c-beng.half c-beng.half1 c-beng.half2 ch-beng.half j-beng.half ny-beng.half tth-beng.half dd-beng.half dd-beng.half1 ddh-beng.half ddh-beng.half2 nn-beng.half nn-beng.half2 nn-beng.half3 t-beng.half t_t-beng.half th-beng.half d-beng.half d-beng.half2 d-beng.half3 d-beng.half4 d_d-beng.half dh-beng.half n-beng.half2 n-beng.half3 p-beng.half p-beng.half2 p-beng.half3 ph-beng.half b-beng.half b-beng.half2 bh-beng.half m-beng.half m-beng.half2 m-beng.half3 l-beng.half3 y-beng.half sh-beng.half sh-beng.half2 ss-beng.half ss-beng.half3 ss-beng.half4 s-beng.half s-beng.half2 s-beng.half3 s-beng.half4 h-beng.half h-beng.half2 kha-beng.side ga-beng.side ca-beng.side cha-beng.side jh-beng.side ttha-beng.side dda-beng.side ddha-beng.side ddh-beng.side da-beng.side d-beng.side pha-beng.side ba-beng.side ma-beng.side ma-beng.side1 ma-beng.side2 ma-beng.side3 aaMatra-beng.part aaMatra-beng.part2 uMatra-beng.side uuMatra-beng.side uuMatra-beng.side2 headline-beng.100 n-beng.headline k-beng.half jh-beng.half n_ja-beng];
 @BNG_ALL_HALFS = [k-beng.half k_ss-beng.half kh-beng.half g-beng.half g-beng.half2 gh-beng.half ng-beng.half ng-beng.half2 c-beng.half c-beng.half1 c-beng.half2 ch-beng.half j-beng.half jh-beng.half ny-beng.half tt-beng.half tth-beng.half dd-beng.half dd-beng.half1 ddh-beng.half ddh-beng.half2 nn-beng.half nn-beng.half2 nn-beng.half3 t-beng.half t_t-beng.half th-beng.half d-beng.half d-beng.half2 d-beng.half3 d-beng.half4 d_d-beng.half dh-beng.half n-beng.half2 n-beng.half3 n-beng.headline p-beng.half p-beng.half2 p-beng.half3 ph-beng.half b-beng.half b-beng.half2 bh-beng.half m-beng.half m-beng.half2 m-beng.half3 l-beng.half3 y-beng.half sh-beng.half sh-beng.half2 ss-beng.half ss-beng.half3 ss-beng.half4 s-beng.half s-beng.half2 s-beng.half3 s-beng.half4 h-beng.half h-beng.half2];
 @BNG_ALL_UNICODE_BASES = [ka-beng kha-beng ga-beng gha-beng nga-beng ca-beng cha-beng ja-beng jha-beng nya-beng tta-beng ttha-beng dda-beng ddha-beng nna-beng ta-beng tha-beng da-beng dha-beng na-beng pa-beng pha-beng ba-beng bha-beng ma-beng ya-beng ra-beng la-beng sha-beng ssa-beng sa-beng ha-beng rra-beng rha-beng yya-beng ramiddlediagonal-beng ralowerdiagonal-beng ];
 @BNG_ALL_CONJUNCT_BASES = [ka-beng kha-beng ga-beng gha-beng nga-beng ca-beng cha-beng ja-beng jha-beng nya-beng tta-beng ttha-beng dda-beng ddha-beng nna-beng ta-beng tha-beng da-beng dha-beng na-beng pa-beng pha-beng bha-beng ma-beng ya-beng la-beng sha-beng ssa-beng sa-beng ha-beng rra-beng rha-beng yya-beng];
@@ -429,10 +429,10 @@ lookup BNG_half_onTheFly_triconsonant_middleHalf {
     lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng];
     #sub middle ka
     sub sa-beng halant-beng ka-beng' halant-beng' la-beng by k-beng.half;
+    sub na-beng halant-beng ka-beng' halant-beng' ta-beng by k-beng.half;
     #sub middle pa
     sub [ma-beng sa-beng ssa-beng] halant-beng pa-beng' halant-beng' la-beng by p-beng.half;
 } BNG_half_onTheFly_triconsonant_middleHalf;
-
 
 lookup BNG_half_onTheFly_biconsonant_firstHalf {
     lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng];
@@ -441,12 +441,12 @@ lookup BNG_half_onTheFly_biconsonant_firstHalf {
     ignore sub @BNG_ALL_BASES' halant-beng' ca-beng halant-beng nya-beng;
     ignore sub @BNG_ALL_BASES' halant-beng' dda-beng halant-beng dda-beng;
     ignore sub @BNG_ALL_BASES' halant-beng' nna-beng halant-beng dda-beng;
-    ignore sub @BNG_ALL_BASES' halant-beng' ta-beng halant-beng ta-beng tha-beng;
-    ignore sub @BNG_ALL_BASES' halant-beng' da-beng halant-beng da-beng bha-beng;
-    ignore sub @BNG_ALL_BASES' halant-beng' na-beng halant-beng ja-beng sa-beng;
+    ignore sub @BNG_ALL_BASES' halant-beng' ta-beng halant-beng [ta-beng tha-beng];
+    ignore sub @BNG_ALL_BASES' halant-beng' da-beng halant-beng [da-beng bha-beng];
+    ignore sub @BNG_ALL_BASES' halant-beng' na-beng halant-beng [ja-beng sa-beng];
     ignore sub @BNG_ALL_BASES' halant-beng' pa-beng halant-beng sa-beng;
-    ignore sub @BNG_ALL_BASES' halant-beng' ma-beng halant-beng da-beng bha-beng;
-    ignore sub @BNG_ALL_BASES' halant-beng' la-beng halant-beng gha-beng ta-beng pha-beng bha-beng sa-beng;
+    ignore sub @BNG_ALL_BASES' halant-beng' ma-beng halant-beng [da-beng bha-beng];
+    ignore sub @BNG_ALL_BASES' halant-beng' la-beng halant-beng [gha-beng pha-beng bha-beng sa-beng];
     ignore sub @BNG_ALL_BASES' halant-beng' pha-beng halant-beng ddha-beng;
     # ignore half-form formation to avoid bad floating half-forms
     ignore sub @BNG_ALL_HALFS @BNG_ALL_CONJUNCT_BASES' halant-beng';
@@ -488,7 +488,7 @@ lookup BNG_half_onTheFly_biconsonant_firstHalf {
     # sub dha
     sub dha-beng' halant-beng' [na-beng ma-beng] by dh-beng.half;
     # sub na
-    sub na-beng' halant-beng' [ka-beng ttha-beng da-beng ta_uMatra-beng.blws dha-beng na-beng ma-beng] by n-beng.headline;
+    sub na-beng' halant-beng' [ka-beng k-beng.half ttha-beng da-beng ta_uMatra-beng.blws dha-beng na-beng ma-beng] by n-beng.headline;
     sub na-beng' halant-beng' [tha-beng] by n-beng.half2;
     sub na-beng' halant-beng' ta-beng raphala-beng by n-beng.half2;
     sub na-beng' halant-beng' [ta-beng] by n-beng.half3;
@@ -510,7 +510,8 @@ lookup BNG_half_onTheFly_biconsonant_firstHalf {
     ignore sub ma-beng' halant-beng' bha-beng raphala-beng;
     sub ma-beng' halant-beng' [ta-beng bha-beng] by m-beng.half3;
     # sub la
-     sub la-beng' halant-beng' [ka-beng ga-beng da-beng dha-beng pa-beng ma-beng la-beng] by l-beng.half3;
+    sub la-beng' halant-beng' [ka-beng ga-beng da-beng dha-beng pa-beng ma-beng la-beng] by l-beng.half3;
+    sub la-beng' halant-beng' ta-beng raphala-beng by l-beng.half3;
     # sub sha
     sub sha-beng' halant-beng' [ca-beng cha-beng na-beng ma-beng la-beng] by sh-beng.half;
     sub sha-beng' halant-beng' [ta-beng] by sh-beng.half2;
@@ -706,10 +707,10 @@ feature pres {
 script bng2;
 
 # --- IMatra + Marks ---
-# When iMatra is present, move candrabindu and reph to between the iMatra and the consonant/conjunt, so they can use the iMatra as a base and avoid clashes
+# When iMatra is present, move candrabindu and reph between the iMatra and the consonant/conjunt, so the marks can use the iMatra as a base, and avoid clashes
 
 
-@BNG_BASE_IMATRAREPH_SWAP = [n-beng.headline ka-beng gha-beng nga-beng ca-beng cha-beng ja-beng jha-beng nya-beng tta-beng ttha-beng dda-beng ddha-beng ta-beng da-beng dha-beng na-beng pha-beng ba-beng bha-beng ma-beng ya-beng ra-beng la-beng ssa-beng sa-beng ha-beng rra-beng rha-beng yya-beng ramiddlediagonal-beng ralowerdiagonal-beng k_ma-beng k_ssa-beng k_ss_ma-beng k_sa-beng ga_uMatra-beng ng_ka-beng ng_ga-beng c_nya-beng j_ja-beng j_j_ba-beng j_nya-beng j_ra-beng ny_cha-beng ny_ja-beng dd_dda-beng nn_dda-beng t_ta-beng t_t_ra-beng t_ra-beng d_da-beng d_bha-beng d_bh_ra-beng n_ra-beng n_sa-beng p_sa-beng b_ja-beng b_da-beng b_d_ra-beng b_bha-beng m_da-beng m_bh_ra-beng l_ga_uMatra-beng l_ta-beng l_pha-beng l_ra-beng l_sa-beng sha_uMatra-beng ss_nna-beng ha_uMatra-beng h_ma-beng rr_ra-beng rh_ba-beng rh_ra-beng yy_ba-beng yy_ra-beng k_tta-beng.noflag tt_tta-beng.noflag ph_tta-beng.noflag ss_tta-beng.noflag ttha-beng.notop ss_ttha-beng.notop k_ss-beng.half gh-beng.half ng-beng.half c-beng.half c-beng.half1 c-beng.half2 ch-beng.half j-beng.half ny-beng.half tth-beng.half dd-beng.half dd-beng.half1 ddh-beng.half ddh-beng.half2 t-beng.half t_t-beng.half th-beng.half d-beng.half d-beng.half2 d-beng.half3 d-beng.half4 d_d-beng.half dh-beng.half n-beng.half2 n-beng.half3 p-beng.half3 ph-beng.half b-beng.half b-beng.half2 bh-beng.half m-beng.half m-beng.half2 m-beng.half3 l-beng.half3 y-beng.half ss-beng.half ss-beng.half3 ss-beng.half4 s-beng.half s-beng.half2 s-beng.half3 s-beng.half4 h-beng.half h-beng.half2];
+@BNG_BASE_IMATRAREPH_SWAP = [n_ja-beng n-beng.headline ka-beng gha-beng nga-beng ca-beng cha-beng ja-beng jha-beng nya-beng tta-beng ttha-beng dda-beng ddha-beng ta-beng da-beng dha-beng na-beng pha-beng ba-beng bha-beng ma-beng ya-beng ra-beng la-beng ssa-beng sa-beng ha-beng rra-beng rha-beng yya-beng ramiddlediagonal-beng ralowerdiagonal-beng k_ma-beng k_ssa-beng k_ss_ma-beng k_sa-beng ga_uMatra-beng ng_ka-beng ng_ga-beng c_nya-beng j_ja-beng j_j_ba-beng j_nya-beng j_ra-beng ny_cha-beng ny_ja-beng dd_dda-beng nn_dda-beng t_ta-beng t_t_ra-beng t_ra-beng d_da-beng d_bha-beng d_bh_ra-beng n_ra-beng n_sa-beng p_sa-beng b_ja-beng b_da-beng b_d_ra-beng b_bha-beng m_da-beng m_bh_ra-beng l_ga_uMatra-beng l_ta-beng l_pha-beng l_ra-beng l_sa-beng sha_uMatra-beng ss_nna-beng ha_uMatra-beng h_ma-beng rr_ra-beng rh_ba-beng rh_ra-beng yy_ba-beng yy_ra-beng k_tta-beng.noflag tt_tta-beng.noflag ph_tta-beng.noflag ss_tta-beng.noflag ttha-beng.notop ss_ttha-beng.notop k_ss-beng.half gh-beng.half ng-beng.half c-beng.half c-beng.half1 c-beng.half2 ch-beng.half j-beng.half ny-beng.half tth-beng.half dd-beng.half dd-beng.half1 ddh-beng.half ddh-beng.half2 t-beng.half t_t-beng.half th-beng.half d-beng.half d-beng.half2 d-beng.half3 d-beng.half4 d_d-beng.half dh-beng.half n-beng.half2 n-beng.half3 p-beng.half3 ph-beng.half b-beng.half b-beng.half2 bh-beng.half m-beng.half m-beng.half2 m-beng.half3 l-beng.half3 y-beng.half ss-beng.half ss-beng.half3 ss-beng.half4 s-beng.half s-beng.half2 s-beng.half3 s-beng.half4 h-beng.half h-beng.half2 nn-beng.half3];
 @BNG_BASE_SIDE = [ma-beng da-beng ddha-beng ca-beng cha-beng];
 
 lookup BNG_abvs_swapCandrabinduMarkIMatra_1 {
@@ -719,14 +720,16 @@ lookup BNG_abvs_swapCandrabinduMarkIMatra_1 {
     ignore sub iMatra-beng' ng-beng.half [gha-beng gh-beng.half k_ssa-beng k_ss-beng.half];
     sub iMatra-beng' [g-beng.half nn-beng.half sh-beng.half] @BNG_BASE_SIDE candrabindu-beng by iMatra-beng candrabindu-beng.altIMatra;
     sub iMatra-beng' @BNG_BASE_IMATRAREPH_SWAP @BNG_ALL_BASES candrabindu-beng by iMatra-beng candrabindu-beng.altIMatra;
+    sub iMatra-beng' @BNG_BASE_IMATRAREPH_SWAP @BNG_ALL_BASES @BNG_ALL_BASES candrabindu-beng by iMatra-beng candrabindu-beng.altIMatra;
     sub iMatra-beng' @BNG_BASE_IMATRAREPH_SWAP candrabindu-beng by iMatra-beng candrabindu-beng.altIMatra;
 } BNG_abvs_swapCandrabinduMarkIMatra_1;
 
 lookup BNG_abvs_swapCandrabinduMarkIMatra_2 {
     lookupflag UseMarkFilteringSet [candrabindu-beng candrabindu-beng.altIMatra aaMatra-beng.side];
     sub iMatra-beng candrabindu-beng.altIMatra [g-beng.half nn-beng.half sh-beng.half] @BNG_BASE_SIDE candrabindu-beng' by uni200B;
-    sub iMatra-beng candrabindu-beng.altIMatra @BNG_ALL_BASES @BNG_ALL_BASES candrabindu-beng' by uni200B;
-    sub iMatra-beng candrabindu-beng.altIMatra @BNG_ALL_BASES candrabindu-beng' by uni200B;
+    sub iMatra-beng candrabindu-beng.altIMatra @BNG_BASE_IMATRAREPH_SWAP @BNG_ALL_BASES candrabindu-beng' by uni200B;
+    sub iMatra-beng candrabindu-beng.altIMatra @BNG_BASE_IMATRAREPH_SWAP @BNG_ALL_BASES @BNG_ALL_BASES candrabindu-beng' by uni200B;
+    sub iMatra-beng candrabindu-beng.altIMatra @BNG_BASE_IMATRAREPH_SWAP candrabindu-beng' by uni200B;
 } BNG_abvs_swapCandrabinduMarkIMatra_2;
 
 lookup BNG_abvs_swapRephMarkIMatra_1 {
@@ -735,6 +738,7 @@ lookup BNG_abvs_swapRephMarkIMatra_1 {
     ignore sub iMatra-beng' [m-beng.half s-beng.half ss-beng.half4] pa-beng reph-beng;
     ignore sub iMatra-beng' ng-beng.half [gha-beng gh-beng.half k_ssa-beng k_ss-beng.half];
     sub iMatra-beng' [g-beng.half nn-beng.half sh-beng.half] @BNG_BASE_SIDE reph-beng by iMatra-beng reph-beng;
+    sub iMatra-beng' @BNG_BASE_IMATRAREPH_SWAP @BNG_ALL_BASES @BNG_ALL_BASES reph-beng by iMatra-beng reph-beng;
     sub iMatra-beng' @BNG_BASE_IMATRAREPH_SWAP @BNG_ALL_BASES reph-beng by iMatra-beng reph-beng;
     sub iMatra-beng' @BNG_BASE_IMATRAREPH_SWAP reph-beng by iMatra-beng reph-beng;
 } BNG_abvs_swapRephMarkIMatra_1;
@@ -742,8 +746,9 @@ lookup BNG_abvs_swapRephMarkIMatra_1 {
 lookup BNG_abvs_swapRephMarkIMatra_2 {
     lookupflag UseMarkFilteringSet [reph-beng aaMatra-beng.side];
     sub iMatra-beng reph-beng [g-beng.half nn-beng.half sh-beng.half] @BNG_BASE_SIDE reph-beng' by uni200B;
-    sub iMatra-beng reph-beng @BNG_ALL_BASES @BNG_ALL_BASES reph-beng' by uni200B;
-    sub iMatra-beng reph-beng @BNG_ALL_BASES reph-beng' by uni200B;
+    sub iMatra-beng reph-beng @BNG_BASE_IMATRAREPH_SWAP @BNG_ALL_BASES @BNG_ALL_BASES reph-beng' by uni200B;
+    sub iMatra-beng reph-beng @BNG_BASE_IMATRAREPH_SWAP @BNG_ALL_BASES reph-beng' by uni200B;
+    sub iMatra-beng reph-beng @BNG_BASE_IMATRAREPH_SWAP reph-beng' by uni200B;
 } BNG_abvs_swapRephMarkIMatra_2;
 
 
@@ -815,7 +820,7 @@ lookup BNG_pres_onTheFly_triconsonant_double { # Replace second AND third conson
     # k_ra
     sub [ss-beng.half3 s-beng.half2] ka-beng' raphala-beng' by t_ra-beng.blws;
     # t_ra
-    sub [n-beng.half2 p-beng.half m-beng.half2 s-beng.half2] ta-beng' raphala-beng' by t_ra-beng.blws;
+    sub [n-beng.half2 p-beng.half m-beng.half2 l-beng.half3 s-beng.half2] ta-beng' raphala-beng' by t_ra-beng.blws;
 
 } BNG_pres_onTheFly_triconsonant_double;
 
@@ -823,8 +828,8 @@ lookup BNG_pres_onTheFly_triconsonant_double { # Replace second AND third conson
 lookup BNG_pres_onTheFly_last_biconsonant { # Replace last consonant
     lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng n-beng.float];
     # sub ka
-    ignore sub n-beng.headline ka-beng' halant-beng ta-beng;
     sub [b-beng.half2 l-beng.half3 ss-beng.half4 s-beng.half n-beng.headline] ka-beng' by baphala-beng.alt4 ka-beng.part;
+    sub n-beng.headline k-beng.half' ta-beng by ta_uMatra-beng.blws;
     #sub kha
     sub [ng-beng.half2] kha-beng' by kha-beng.side;
     # sub ga
@@ -895,7 +900,6 @@ lookup BNG_pres_onTheFly_last_dblBlwf { # Replace two blwfs for one blwf
     # for the case where b_ra comes at the end of a cluster
     sub baphala-beng.alt4' dha-beng.part' halant-beng' ba-beng' by dh_ba-beng.blws;
     sub baphala-beng.alt4' dha-beng.part' ba-beng' raphala-beng by dh_ba-beng.blws;
-    sub n-beng.headline ka-beng' halant-beng' ta-beng by ta_uMatra-beng.blws;
 } BNG_pres_onTheFly_last_dblBlwf;
 
 
@@ -1018,6 +1022,7 @@ lookup BNG_pres_addHeadlineStem { # Adding these at the end to avoid having to a
     sub l-beng.half3' [ma-beng.side la-beng.blws2] by l-beng.half3 aaMatra-beng.part;
     sub l-beng.half3' baphala-beng.alt4 [ka-beng.part dha-beng.part] by l-beng.half3 aaMatra-beng.part;
     sub l-beng.half3' [ga-beng.blws pa-beng.blws] by l-beng.half3 aaMatra-beng.part2;
+    sub l-beng.half3' t_ra-beng.blws by l-beng.half3 aaMatra-beng.part.short;
 } BNG_pres_addHeadlineStem;
 
 
@@ -1348,8 +1353,9 @@ script bng2;
 
 
 lookup BNG_psts_iiMatra_tthaBase {
-    lookupflag UseMarkFilteringSet [ttha-beng.topIiMatra];
+    lookupflag UseMarkFilteringSet [ttha-beng.topIiMatra tta-beng.flag];
     sub ttha-beng' iiMatra-beng by ttha-beng.notop ttha-beng.topIiMatra;
+    sub tta-beng' iiMatra-beng by ddha-beng tta-beng.flag;
 } BNG_psts_iiMatra_tthaBase;
 
 
