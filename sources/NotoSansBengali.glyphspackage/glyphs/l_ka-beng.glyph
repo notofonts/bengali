@@ -181,6 +181,7 @@ ref = "headline-beng.130";
 layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
 shapes = (
 {
+alignment = -1;
 ref = "l-beng.half3";
 },
 {
@@ -200,7 +201,7 @@ pos = (420,0);
 ref = "headline-beng.130";
 }
 );
-width = 420;
+width = 493;
 },
 {
 background = {
@@ -233,23 +234,23 @@ alignment = -1;
 ref = "l-beng.half3";
 },
 {
-pos = (301,0);
+pos = (300,0);
 ref = "aaMatra-beng.part";
 },
 {
-pos = (150,44);
+pos = (149,44);
 ref = "baphala-beng.alt4";
 },
 {
-pos = (396,14);
+pos = (395,14);
 ref = "ka-beng.part";
 },
 {
-pos = (503,0);
+pos = (502,0);
 ref = "headline-beng.130";
 }
 );
-width = 610;
+width = 609;
 },
 {
 background = {

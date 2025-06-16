@@ -201,7 +201,7 @@ pos = (142,17);
 ref = "nukta-beng";
 }
 );
-width = 513;
+width = 510;
 },
 {
 background = {
@@ -305,8 +305,7 @@ pos = (135,-118);
 ref = "nukta-beng";
 }
 );
-width = 629;
+width = 648;
 }
 );
-metricWidth = kababeng;
 }

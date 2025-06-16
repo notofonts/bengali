@@ -1,18 +1,9 @@
 {
-glyphname = dbldandadeva;
+glyphname = "danda-deva";
 layers = (
 {
 background = {
 shapes = (
-{
-closed = 1;
-nodes = (
-(495,0,l),
-(495,622,l),
-(414,622,l),
-(414,0,l)
-);
-},
 {
 closed = 1;
 nodes = (
@@ -29,15 +20,6 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(495,0,l),
-(495,622,l),
-(414,622,l),
-(414,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
 (275,0,l),
 (275,622,l),
 (194,622,l),
@@ -45,20 +27,11 @@ nodes = (
 );
 }
 );
-width = 599;
+width = 379;
 },
 {
 background = {
 shapes = (
-{
-closed = 1;
-nodes = (
-(418,0,l),
-(418,622,l),
-(392,622,l),
-(392,0,l)
-);
-},
 {
 closed = 1;
 nodes = (
@@ -75,15 +48,6 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(418,0,l),
-(418,622,l),
-(392,622,l),
-(392,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
 (226,0,l),
 (226,622,l),
 (200,622,l),
@@ -91,20 +55,11 @@ nodes = (
 );
 }
 );
-width = 527;
+width = 335;
 },
 {
 background = {
 shapes = (
-{
-closed = 1;
-nodes = (
-(594,0,l),
-(594,622,l),
-(419,622,l),
-(419,0,l)
-);
-},
 {
 closed = 1;
 nodes = (
@@ -121,15 +76,6 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(594,0,l),
-(594,622,l),
-(419,622,l),
-(419,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
 (340,0,l),
 (340,622,l),
 (165,622,l),
@@ -137,20 +83,11 @@ nodes = (
 );
 }
 );
-width = 673;
+width = 419;
 },
 {
 background = {
 shapes = (
-{
-closed = 1;
-nodes = (
-(364,0,l),
-(364,622,l),
-(349,622,l),
-(349,0,l)
-);
-},
 {
 closed = 1;
 nodes = (
@@ -167,15 +104,6 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(364,0,l),
-(364,622,l),
-(349,622,l),
-(349,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
 (207,0,l),
 (207,622,l),
 (191,622,l),
@@ -183,20 +111,11 @@ nodes = (
 );
 }
 );
-width = 479;
+width = 322;
 },
 {
 background = {
 shapes = (
-{
-closed = 1;
-nodes = (
-(428,0,l),
-(428,622,l),
-(362,622,l),
-(362,0,l)
-);
-},
 {
 closed = 1;
 nodes = (
@@ -213,15 +132,6 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(428,0,l),
-(428,622,l),
-(362,622,l),
-(362,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
 (248,0,l),
 (248,622,l),
 (182,622,l),
@@ -229,20 +139,11 @@ nodes = (
 );
 }
 );
-width = 533;
+width = 353;
 },
 {
 background = {
 shapes = (
-{
-closed = 1;
-nodes = (
-(536,0,l),
-(536,622,l),
-(384,622,l),
-(384,0,l)
-);
-},
 {
 closed = 1;
 nodes = (
@@ -259,15 +160,6 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(536,0,l),
-(536,622,l),
-(384,622,l),
-(384,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
 (317,0,l),
 (317,622,l),
 (166,622,l),
@@ -275,8 +167,8 @@ nodes = (
 );
 }
 );
-width = 625;
+width = 405;
 }
 );
-unicode = 2405;
+unicode = 2404;
 }

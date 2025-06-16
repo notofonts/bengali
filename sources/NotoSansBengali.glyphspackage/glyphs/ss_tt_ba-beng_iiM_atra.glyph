@@ -255,5 +255,6 @@ ref = "iiMatra-beng.ttaAlt1";
 width = 701;
 }
 );
+script = bengali;
 subCategory = Spacing;
 }

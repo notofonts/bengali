@@ -1,5 +1,5 @@
 {
-.appVersion = "3309";
+.appVersion = "3343";
 .formatVersion = 3;
 axes = (
 {
@@ -4425,7 +4425,7 @@ key = manufacturers;
 values = (
 {
 language = dflt;
-value = "Universal Thrist ehf.";
+value = "Universal Thirst ehf.";
 }
 );
 },

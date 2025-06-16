@@ -1,5 +1,5 @@
 {
-.appVersion = "3309";
+.appVersion = "3343";
 .formatVersion = 3;
 axes = (
 {
@@ -25,7 +25,9 @@ CR,
 zerowidthnonjoiner,
 zerowidthjoiner,
 uni200B,
+dottedCircle,
 space,
+nbspace,
 "anji-beng",
 "candrabindu-beng",
 "anusvara-beng",
@@ -122,7 +124,23 @@ space,
 "vedicAnusvara-beng",
 "abbreviation-beng",
 "sandhi-beng",
-"sandhi-bengdummymarkbeng",
+"danda-deva",
+"dbldanda-deva",
+uni0951,
+uni0952,
+uni1CD0,
+uni1CD2,
+uni1CD5,
+uni1CD6,
+uni1CD8,
+uni1CE1,
+uni1CEA,
+uni1CED,
+uni1CF2,
+uni1CF5,
+uni1CF6,
+uni1CF7,
+uniA8F1,
 "#non-unicodeMarks",
 "reph-beng",
 "ya-beng.pstf",
@@ -407,27 +425,6 @@ space,
 "reph-beng.altIiMatra",
 "reph-beng.altTtha",
 "ya-beng.pstf.short",
-uni20B9,
-uni0951,
-uni0952,
-dandadeva,
-dbldandadeva,
-uni02BC,
-uni1CD0,
-uni1CD2,
-uni1CD5,
-uni1CD6,
-uni1CD8,
-uni1CE1,
-uni1CEA,
-uni1CED,
-uni1CF2,
-uni1CF5,
-uni1CF6,
-uni1CF7,
-uniA8F1,
-uni2010,
-uni25CC,
 uni1CF5.stack,
 uni1CF6.stack,
 ivowelcrossbeng,
@@ -436,7 +433,10 @@ iivowelcrossbeng,
 iivowelwavebeng,
 auvowelcrossbeng,
 auvowelwavebeng,
-aulengthmarkshortbeng
+aulengthmarkshortbeng,
+uni20B9,
+uni02BC,
+uni2010
 );
 },
 {
@@ -601,121 +601,464 @@ tag = dist;
 {
 code = "# Automatic Code End
 
-# For all these glyphs, insert a top_vedic anchor at half of the advance width. This can
-# be done with MekkaBlue's Batch Insert Anchor script; set H Position to Center of Width
-# and V Position to BBox Top
-@SideExtensionBases = [headline-beng.130 headline-beng.200 ma-beng.side1 ddh-beng.side ddha-beng.side pha-beng.side ka-beng.arm d-beng.side ma-beng.side uMatra-beng.side uuMatra-beng.side aaMatra-beng.float ga-beng.side ttha-beng.side ma-beng.side3 dda-beng.side ma-beng.side2 gh-beng.half ch-beng.half d-beng.half3 d-beng.half k_ssa-beng k_ss-beng.half p-beng.half da-beng gha-beng ca-beng cha-beng gha-beng gh-beng.half];
-
+# Thin
 
 @BNG_VEDIC_ALL = [uni0951 uni1CD0 uni1CD2 uni1CF5.stack uni1CF6.stack uni0952 uni1CD5 uni1CD6 uni1CD8 uni1CED];
-@BNG_VEDIC_TOP = [uni0951 uni1CD0 uni1CD2 uni1CF5.stack uni1CF6.stack];
 
-lookup BNG_dflt_vedic_extension_shift1 {
-	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
-	pos ng-beng.half2 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ngHalf2 0 0 0>;
-	pos c-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_cHalf 0 0 0>;
-	pos j-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_jHalf 0 0 0>;
-	pos dd-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ddHalf 0 0 0>;
-	pos dd-beng.half1 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ddHalf1 0 0 0>;
-	pos ddh-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ddhHalf 0 0 0>;
-	pos nn-beng.half3 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_nnHalf3 0 0 0>;
-	pos nn-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_nnHalf 0 0 0>;
-	pos n_s-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_nSHalf 0 0 0>;
-	pos n-beng.headline [da-beng d-beng.half d-beng.half3] @BNG_VEDIC_ALL' <$VEDIC_nDa 0 0 0>;
-	pos n-beng.headline aaMatra-beng.part headline-beng.130 @BNG_VEDIC_ALL' <$VEDIC_nDha 0 0 0>;
-	pos t-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_tHalf 0 0 0>;
-	# Newly added contexts
-	pos [t_ta-beng t_t-beng.half] headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_kTa 0 0 0>;
-	pos dh-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dhHalf 0 0 0>;
-} BNG_dflt_vedic_extension_shift1;
+lookup BNG_dflt_abvm_vedicMatraShift_1 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos b-beng.half2 ka-beng.arm @BNG_VEDIC_ALL' <-124 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_1;
 
-lookup BNG_dflt_vedic_extension_shift2 {
- 	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
-	pos t_t-beng.half @BNG_VEDIC_ALL' <$VEDIC_kTaHalf 0 0 0>;
-} BNG_dflt_vedic_extension_shift2;
+lookup BNG_dflt_abvm_vedicMatraShift_2 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos g-beng.half headline-beng.130 @BNG_VEDIC_ALL' <-291 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_2;
 
-lookup BNG_dflt_vedic_extension_shift3 {
- 	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
-	pos t_ra-beng headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_kRa 0 0 0>;
-	pos d-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf 0 0 0>;
- 	pos n-beng.headline aaMatra-beng.part.short headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_nKTa 0 0 0>;
- 	pos d-beng.half2 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf2 0 0 0>;
- 	pos d-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <$VEDIC_dHalf3 0 0 0>;
-	pos d-beng.half4 headline-beng.100 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf4 0 0 0>;
-	pos d-beng.half4 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_dHalf4 0 0 0>;
-} BNG_dflt_vedic_extension_shift3;
+lookup BNG_dflt_abvm_vedicMatraShift_3 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half gh-beng.half @BNG_VEDIC_ALL' <-285 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_3;
 
-lookup BNG_dflt_vedic_extension_shift4 {
-	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
-	pos p-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_pHalf 0 0 0>;
-	pos p-beng.half3 [ddha-beng.side ddh-beng.side] @BNG_VEDIC_ALL' <$VEDIC_ddhaSide 0 0 0>;
-	pos b-beng.half2 ka-beng.arm @BNG_VEDIC_ALL' <$VEDIC_bHalf2 0 0 0>;
-	pos b-beng.half2 headline-beng.250 @BNG_VEDIC_ALL' <$VEDIC_bDha 0 0 0>;
-	pos m-beng.half headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_mBa 0 0 0>;
-	pos m-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_mHalf 0 0 0>;
-	pos m-beng.half sa-beng @BNG_VEDIC_ALL' <$VEDIC_mSa 0 0 0>;
-	pos ra-beng @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ra 0 0 0>;
-	pos l-beng.half3 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_lHalf3 0 0 0>;
-} BNG_dflt_vedic_extension_shift4;
+lookup BNG_dflt_abvm_vedicMatraShift_4 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half1 ma-beng.side1 @BNG_VEDIC_ALL' <-309 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_4;
 
-lookup BNG_dflt_vedic_extension_shift5 {
-	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200 aaMatra-beng.part.short headline-beng.250];
- 	pos sh-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_shHalf 0 0 0>;
- 	pos sh-beng.half2 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_shHalf2 0 0 0>;
- 	pos ss-beng.half4 [pha-beng.side ma-beng.side2] @BNG_VEDIC_ALL' <$VEDIC_ssHalf4 0 0 0>;
- 	pos ss-beng.half4 headline-beng.250 @BNG_VEDIC_ALL' <$VEDIC_ssKa 0 0 0>;
-	pos ss-beng.half4 headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_ssBa 0 0 0>;
- 	pos s-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_sHalf 0 0 0>;
- 	pos s-beng.half headline-beng.250 @BNG_VEDIC_ALL' <$VEDIC_sKa 0 0 0>;
- 	pos s-beng.half headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_sBa 0 0 0>;
- 	pos s-beng.half2 headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_sKRa 0 0 0>;
- 	pos s-beng.half2 uMatra-beng.side @BNG_VEDIC_ALL' <$VEDIC_sRU 0 0 0>;
-} BNG_dflt_vedic_extension_shift5;
+lookup BNG_dflt_abvm_vedicMatraShift_5 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-277 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_5;
 
-lookup BNG_dflt_vedic_extension_shift6 {
-	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.250 headline-beng.200 headline-beng.130 headline-beng.100];
- 	ignore pos s-beng.half2 uMatra-beng.side @BNG_VEDIC_ALL';
- 	pos g-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_gHalf 0 0 0>;
- 	pos g-beng.half2 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_gHalf2 0 0 0>;
- 	pos ng-beng.half [headline-beng.130 headline-beng.100] @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ng 0 0 0>;
- 	pos n-beng.headline [ddha-beng.side ddh-beng.side ttha-beng.side] @BNG_VEDIC_ALL' <$VEDIC_nHeadline 0 0 0>;
- 	pos n-beng.headline dda-beng.side @BNG_VEDIC_ALL' <$VEDIC_nDda 0 0 0>;
- 	pos n-beng.headline aaMatra-beng.part ma-beng.side @BNG_VEDIC_ALL' <$VEDIC_nMa 0 0 0>;
- 	pos b-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_bHalf 0 0 0>;
-} BNG_dflt_vedic_extension_shift6;
-	
-lookup BNG_dflt_vedic_extension_shift7 {
-	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.250 headline-beng.200 headline-beng.130 headline-beng.100];
- 	pos ss-beng.half3 headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_ssHalf3 0 0 0>;
- 	pos s-beng.half2 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_sHalf2 0 0 0>;
- 	pos s-beng.half4 @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_sHalf4 0 0 0>;
- 	pos ha-beng headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_hRvoc 0 0 0>;
- 	pos ha-beng headline-beng.250 @BNG_VEDIC_ALL' <$VEDIC_hNa 0 0 0>;
-} BNG_dflt_vedic_extension_shift7;
+lookup BNG_dflt_abvm_vedicMatraShift_6 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.200 @BNG_VEDIC_ALL' <-309 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_6;
 
-lookup BNG_dflt_vedic_extension_shift8{
-	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL @SideExtensionBases headline-beng.200];
- 	pos th-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_thHalf 0 0 0>;
- 	pos bh-beng.half @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_bhHalf 0 0 0>;
- 	pos bh-beng.half headline-beng.200 @BNG_VEDIC_ALL' <$VEDIC_bhRUu 0 0 0>;
- 	pos ramiddlediagonal-beng @SideExtensionBases @BNG_VEDIC_ALL' <$VEDIC_ramiddlediagonal 0 0 0>;
- 	pos l-beng.half3 aaMatra-beng.part headline-beng.130 @BNG_VEDIC_ALL' <$VEDIC_lKa 0 0 0>;
-} BNG_dflt_vedic_extension_shift8;
+lookup BNG_dflt_abvm_vedicMatraShift_7 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-354 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_7;
 
-lookup BNG_dflt_vedic_extension_shift9{
-	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL aaMatra-beng.part aaMatra-beng.part2 headline-beng.130];
-	pos l-beng.half3 aaMatra-beng.part ma-beng.side @BNG_VEDIC_ALL' <$VEDIC_lMa 0 0 0>;
-	ignore pos l-beng.half3 [aaMatra-beng.part aaMatra-beng.part2] headline-beng.130 @BNG_VEDIC_ALL';
-	pos l-beng.half3 [aaMatra-beng.part aaMatra-beng.part2] @BNG_VEDIC_ALL' <$VEDIC_lGa 0 0 0>;
-} BNG_dflt_vedic_extension_shift9;
+lookup BNG_dflt_abvm_vedicMatraShift_8 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-354 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_8;
 
-lookup BNG_dflt_vedic_extension_shift10{
-	lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL];
- 	pos s-beng.half [pa-beng p-beng.half2] @BNG_VEDIC_ALL' <$VEDIC_sPa 0 0 0>;
- 	pos m-beng.half [pa-beng p-beng.half2] @BNG_VEDIC_ALL' <$VEDIC_mPa 0 0 0>;
- 	pos ss-beng.half4 [pa-beng p-beng.half2] @BNG_VEDIC_ALL' <$VEDIC_ssPa 0 0 0>;
-} BNG_dflt_vedic_extension_shift10;
+lookup BNG_dflt_abvm_vedicMatraShift_9 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half @BNG_VEDIC_ALL' <-222 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_9;
 
+lookup BNG_dflt_abvm_vedicMatraShift_10 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pha-beng.side @BNG_VEDIC_ALL' <-282 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_10;
+
+lookup BNG_dflt_abvm_vedicMatraShift_11 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos m-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-197 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_11;
+
+lookup BNG_dflt_abvm_vedicMatraShift_12 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-298 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_12;
+
+lookup BNG_dflt_abvm_vedicMatraShift_13 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-298 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_13;
+
+lookup BNG_dflt_abvm_vedicMatraShift_14 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half @BNG_VEDIC_ALL' <-176 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_14;
+
+lookup BNG_dflt_abvm_vedicMatraShift_15 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half headline-beng.250 @BNG_VEDIC_ALL' <-221 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_15;
+
+lookup BNG_dflt_abvm_vedicMatraShift_16 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half @BNG_VEDIC_ALL' <-248 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_16;
+
+lookup BNG_dflt_abvm_vedicMatraShift_17 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pha-beng.side @BNG_VEDIC_ALL' <-309 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_17;
+
+lookup BNG_dflt_abvm_vedicMatraShift_18 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-223 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_18;
+
+lookup BNG_dflt_abvm_vedicMatraShift_19 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos b-beng.half2 ka-beng.arm1 @BNG_VEDIC_ALL' <-387 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_19;
+
+lookup BNG_dflt_abvm_vedicMatraShift_20 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ta-beng headline-beng.200 @BNG_VEDIC_ALL' <-332 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_20;
+
+lookup BNG_dflt_abvm_vedicMatraShift_21 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_t-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-322 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_21;
+
+lookup BNG_dflt_abvm_vedicMatraShift_22 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ra-beng headline-beng.200 @BNG_VEDIC_ALL' <-325 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_22;
+
+lookup BNG_dflt_abvm_vedicMatraShift_23 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half da-beng.side @BNG_VEDIC_ALL' <-291 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_23;
+
+lookup BNG_dflt_abvm_vedicMatraShift_24 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half d-beng.side @BNG_VEDIC_ALL' <-291 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_24;
+
+lookup BNG_dflt_abvm_vedicMatraShift_25 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half ma-beng.side @BNG_VEDIC_ALL' <-291 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_25;
+
+lookup BNG_dflt_abvm_vedicMatraShift_26 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ssa-beng @BNG_VEDIC_ALL' <-285 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_26;
+
+lookup BNG_dflt_abvm_vedicMatraShift_27 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ss-beng.half @BNG_VEDIC_ALL' <-292 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_27;
+
+lookup BNG_dflt_abvm_vedicMatraShift_28 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 kha-beng.side @BNG_VEDIC_ALL' <-315 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_28;
+
+lookup BNG_dflt_abvm_vedicMatraShift_29 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half gha-beng @BNG_VEDIC_ALL' <-285 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_29;
+
+lookup BNG_dflt_abvm_vedicMatraShift_30 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 ma-beng.side1 @BNG_VEDIC_ALL' <-310 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_30;
+
+lookup BNG_dflt_abvm_vedicMatraShift_31 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ca-beng @BNG_VEDIC_ALL' <-154 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_31;
+
+lookup BNG_dflt_abvm_vedicMatraShift_32 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half cha-beng @BNG_VEDIC_ALL' <-154 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_32;
+
+lookup BNG_dflt_abvm_vedicMatraShift_33 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ch-beng.half @BNG_VEDIC_ALL' <-156 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_33;
+
+lookup BNG_dflt_abvm_vedicMatraShift_34 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos j-beng.half aaMatra-beng.float @BNG_VEDIC_ALL' <-306 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_34;
+
+lookup BNG_dflt_abvm_vedicMatraShift_35 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ddh-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-263 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_35;
+
+lookup BNG_dflt_abvm_vedicMatraShift_36 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half ga-beng.side @BNG_VEDIC_ALL' <-241 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_36;
+
+lookup BNG_dflt_abvm_vedicMatraShift_37 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos dd-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-249 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_37;
+
+lookup BNG_dflt_abvm_vedicMatraShift_38 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-276 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_38;
+
+lookup BNG_dflt_abvm_vedicMatraShift_39 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half3 ttha-beng.side @BNG_VEDIC_ALL' <-239 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_39;
+
+lookup BNG_dflt_abvm_vedicMatraShift_40 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ma-beng.side @BNG_VEDIC_ALL' <-276 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_40;
+
+lookup BNG_dflt_abvm_vedicMatraShift_41 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos t-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-326 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_41;
+
+lookup BNG_dflt_abvm_vedicMatraShift_42 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 ga-beng.side @BNG_VEDIC_ALL' <-179 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_42;
+
+lookup BNG_dflt_abvm_vedicMatraShift_43 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 gha-beng @BNG_VEDIC_ALL' <-185 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_43;
+
+lookup BNG_dflt_abvm_vedicMatraShift_44 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos d-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-233 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_44;
+
+lookup BNG_dflt_abvm_vedicMatraShift_45 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-251 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_45;
+
+lookup BNG_dflt_abvm_vedicMatraShift_46 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dh-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-276 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_46;
+
+lookup BNG_dflt_abvm_vedicMatraShift_47 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.130 @BNG_VEDIC_ALL' <-256 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_47;
+
+lookup BNG_dflt_abvm_vedicMatraShift_48 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddha-beng.side @BNG_VEDIC_ALL' <-252 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_48;
+
+lookup BNG_dflt_abvm_vedicMatraShift_49 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddh-beng.side @BNG_VEDIC_ALL' <-248 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_49;
+
+lookup BNG_dflt_abvm_vedicMatraShift_50 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ttha-beng.side @BNG_VEDIC_ALL' <-246 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_50;
+
+lookup BNG_dflt_abvm_vedicMatraShift_51 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline dda-beng.side @BNG_VEDIC_ALL' <-248 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_51;
+
+lookup BNG_dflt_abvm_vedicMatraShift_52 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline da-beng @BNG_VEDIC_ALL' <-139 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_52;
+
+lookup BNG_dflt_abvm_vedicMatraShift_53 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half3 @BNG_VEDIC_ALL' <-144 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_53;
+
+lookup BNG_dflt_abvm_vedicMatraShift_54 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half @BNG_VEDIC_ALL' <-144 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_54;
+
+lookup BNG_dflt_abvm_vedicMatraShift_55 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline aaMatra-beng.part @BNG_VEDIC_ALL' <-146 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_55;
+
+lookup BNG_dflt_abvm_vedicMatraShift_56 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ma-beng.side @BNG_VEDIC_ALL' <-251 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_56;
+
+lookup BNG_dflt_abvm_vedicMatraShift_57 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-322 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_57;
+
+lookup BNG_dflt_abvm_vedicMatraShift_58 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-323 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_58;
+
+lookup BNG_dflt_abvm_vedicMatraShift_59 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half ma-beng.side @BNG_VEDIC_ALL' <-312 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_59;
+
+lookup BNG_dflt_abvm_vedicMatraShift_60 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos b-beng.half2 headline-beng.250 @BNG_VEDIC_ALL' <-182 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_60;
+
+lookup BNG_dflt_abvm_vedicMatraShift_61 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pa-beng @BNG_VEDIC_ALL' <-223 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_61;
+
+lookup BNG_dflt_abvm_vedicMatraShift_62 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-202 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_62;
+
+lookup BNG_dflt_abvm_vedicMatraShift_63 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-282 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_63;
+
+lookup BNG_dflt_abvm_vedicMatraShift_64 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half sa-beng @BNG_VEDIC_ALL' <-196 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_64;
+
+lookup BNG_dflt_abvm_vedicMatraShift_65 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos l-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-299 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_65;
+
+lookup BNG_dflt_abvm_vedicMatraShift_66 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part2 @BNG_VEDIC_ALL' <-189 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_66;
+
+lookup BNG_dflt_abvm_vedicMatraShift_67 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-300 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_67;
+
+lookup BNG_dflt_abvm_vedicMatraShift_68 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-300 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_68;
+
+lookup BNG_dflt_abvm_vedicMatraShift_69 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 dda-beng.side @BNG_VEDIC_ALL' <-300 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_69;
+
+lookup BNG_dflt_abvm_vedicMatraShift_70 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part.short @BNG_VEDIC_ALL' <-194 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_70;
+
+lookup BNG_dflt_abvm_vedicMatraShift_71 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 da-beng @BNG_VEDIC_ALL' <-192 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_71;
+
+lookup BNG_dflt_abvm_vedicMatraShift_72 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 d-beng.side @BNG_VEDIC_ALL' <-300 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_72;
+
+lookup BNG_dflt_abvm_vedicMatraShift_73 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part @BNG_VEDIC_ALL' <-189 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_73;
+
+lookup BNG_dflt_abvm_vedicMatraShift_74 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ma-beng.side @BNG_VEDIC_ALL' <-294 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_74;
+
+lookup BNG_dflt_abvm_vedicMatraShift_75 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half cha-beng.side @BNG_VEDIC_ALL' <-297 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_75;
+
+lookup BNG_dflt_abvm_vedicMatraShift_76 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ma-beng.side @BNG_VEDIC_ALL' <-298 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_76;
+
+lookup BNG_dflt_abvm_vedicMatraShift_77 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.250 @BNG_VEDIC_ALL' <-149 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_77;
+
+lookup BNG_dflt_abvm_vedicMatraShift_78 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half3 headline-beng.200 @BNG_VEDIC_ALL' <-305 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_78;
+
+lookup BNG_dflt_abvm_vedicMatraShift_79 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pa-beng @BNG_VEDIC_ALL' <-176 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_79;
+
+lookup BNG_dflt_abvm_vedicMatraShift_80 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half2 @BNG_VEDIC_ALL' <-157 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_80;
+
+lookup BNG_dflt_abvm_vedicMatraShift_81 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pha-beng.side @BNG_VEDIC_ALL' <-236 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_81;
+
+lookup BNG_dflt_abvm_vedicMatraShift_82 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.200 @BNG_VEDIC_ALL' <-144 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_82;
+
+lookup BNG_dflt_abvm_vedicMatraShift_83 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 ma-beng.side2 @BNG_VEDIC_ALL' <-236 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_83;
+
+lookup BNG_dflt_abvm_vedicMatraShift_84 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half2 headline-beng.200 @BNG_VEDIC_ALL' <-311 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_84;
+
+lookup BNG_dflt_abvm_vedicMatraShift_85 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddha-beng.side @BNG_VEDIC_ALL' <-299 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_85;
+
+lookup BNG_dflt_abvm_vedicMatraShift_86 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddh-beng.side @BNG_VEDIC_ALL' <-299 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_86;
+
+lookup BNG_dflt_abvm_vedicMatraShift_87 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pa-beng @BNG_VEDIC_ALL' <-247 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_87;
+
+lookup BNG_dflt_abvm_vedicMatraShift_88 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-228 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_88;
+
+lookup BNG_dflt_abvm_vedicMatraShift_89 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-309 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_89;
+
+lookup BNG_dflt_abvm_vedicMatraShift_90 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ha-beng headline-beng.200 @BNG_VEDIC_ALL' <-235 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_90;
+
+lookup BNG_dflt_abvm_vedicMatraShift_91 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ha-beng headline-beng.250 @BNG_VEDIC_ALL' <-210 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_91;
 ";
 tag = abvm;
 }
@@ -784,71 +1127,7 @@ numberValues = (
 -157,
 -170,
 -120,
--120,
--291,
--313,
--322,
--314,
--154,
--365,
--301,
--248,
--252,
--159,
--238,
--326,
--332,
-80,
--325,
--287,
--255,
--232,
--230,
--251,
--185,
--353,
--307,
--312,
--322,
--276,
--263,
--266,
--281,
--286,
--299,
--297,
--317,
--305,
--235,
--308,
--298,
--315,
--276,
--197,
--220,
--223,
--140,
--247,
--241,
--181,
--256,
--299,
--294,
--148,
--144,
-75,
--321,
--235,
--209,
--205,
--200,
--276,
--246,
--196,
--189,
--247,
--223,
--175
+-120
 );
 stemValues = (
 21,
@@ -877,6 +1156,470 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = "ka-beng";
+},
+{
+name = "Replace Feature";
+value = "abvm;# Automatic Code End
+
+# Regular
+
+@BNG_VEDIC_ALL = [uni0951 uni1CD0 uni1CD2 uni1CF5.stack uni1CF6.stack uni0952 uni1CD5 uni1CD6 uni1CD8 uni1CED];
+
+lookup BNG_dflt_abvm_vedicMatraShift_1 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos b-beng.half2 ka-beng.arm @BNG_VEDIC_ALL' <-118 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_1;
+
+lookup BNG_dflt_abvm_vedicMatraShift_2 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos g-beng.half headline-beng.130 @BNG_VEDIC_ALL' <-318 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_2;
+
+lookup BNG_dflt_abvm_vedicMatraShift_3 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half gh-beng.half @BNG_VEDIC_ALL' <-311 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_3;
+
+lookup BNG_dflt_abvm_vedicMatraShift_4 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half1 ma-beng.side1 @BNG_VEDIC_ALL' <-339 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_4;
+
+lookup BNG_dflt_abvm_vedicMatraShift_5 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-296 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_5;
+
+lookup BNG_dflt_abvm_vedicMatraShift_6 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.200 @BNG_VEDIC_ALL' <-342 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_6;
+
+lookup BNG_dflt_abvm_vedicMatraShift_7 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-369 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_7;
+
+lookup BNG_dflt_abvm_vedicMatraShift_8 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-369 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_8;
+
+lookup BNG_dflt_abvm_vedicMatraShift_9 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half @BNG_VEDIC_ALL' <-210 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_9;
+
+lookup BNG_dflt_abvm_vedicMatraShift_10 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pha-beng.side @BNG_VEDIC_ALL' <-293 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_10;
+
+lookup BNG_dflt_abvm_vedicMatraShift_11 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos m-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-196 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_11;
+
+lookup BNG_dflt_abvm_vedicMatraShift_12 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-341 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_12;
+
+lookup BNG_dflt_abvm_vedicMatraShift_13 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-341 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_13;
+
+lookup BNG_dflt_abvm_vedicMatraShift_14 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half @BNG_VEDIC_ALL' <-176 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_14;
+
+lookup BNG_dflt_abvm_vedicMatraShift_15 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half headline-beng.250 @BNG_VEDIC_ALL' <-248 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_15;
+
+lookup BNG_dflt_abvm_vedicMatraShift_16 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half @BNG_VEDIC_ALL' <-237 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_16;
+
+lookup BNG_dflt_abvm_vedicMatraShift_17 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pha-beng.side @BNG_VEDIC_ALL' <-320 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_17;
+
+lookup BNG_dflt_abvm_vedicMatraShift_18 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-223 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_18;
+
+lookup BNG_dflt_abvm_vedicMatraShift_19 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos b-beng.half2 ka-beng.arm1 @BNG_VEDIC_ALL' <-394 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_19;
+
+lookup BNG_dflt_abvm_vedicMatraShift_20 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ta-beng headline-beng.200 @BNG_VEDIC_ALL' <-355 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_20;
+
+lookup BNG_dflt_abvm_vedicMatraShift_21 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_t-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-345 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_21;
+
+lookup BNG_dflt_abvm_vedicMatraShift_22 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ra-beng headline-beng.200 @BNG_VEDIC_ALL' <-331 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_22;
+
+lookup BNG_dflt_abvm_vedicMatraShift_23 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half da-beng.side @BNG_VEDIC_ALL' <-317 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_23;
+
+lookup BNG_dflt_abvm_vedicMatraShift_24 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half d-beng.side @BNG_VEDIC_ALL' <-318 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_24;
+
+lookup BNG_dflt_abvm_vedicMatraShift_25 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half ma-beng.side @BNG_VEDIC_ALL' <-318 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_25;
+
+lookup BNG_dflt_abvm_vedicMatraShift_26 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ssa-beng @BNG_VEDIC_ALL' <-313 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_26;
+
+lookup BNG_dflt_abvm_vedicMatraShift_27 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ss-beng.half @BNG_VEDIC_ALL' <-322 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_27;
+
+lookup BNG_dflt_abvm_vedicMatraShift_28 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 kha-beng.side @BNG_VEDIC_ALL' <-318 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_28;
+
+lookup BNG_dflt_abvm_vedicMatraShift_29 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half gha-beng @BNG_VEDIC_ALL' <-311 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_29;
+
+lookup BNG_dflt_abvm_vedicMatraShift_30 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 ma-beng.side1 @BNG_VEDIC_ALL' <-318 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_30;
+
+lookup BNG_dflt_abvm_vedicMatraShift_31 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ca-beng @BNG_VEDIC_ALL' <-182 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_31;
+
+lookup BNG_dflt_abvm_vedicMatraShift_32 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half cha-beng @BNG_VEDIC_ALL' <-182 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_32;
+
+lookup BNG_dflt_abvm_vedicMatraShift_33 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ch-beng.half @BNG_VEDIC_ALL' <-182 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_33;
+
+lookup BNG_dflt_abvm_vedicMatraShift_34 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos j-beng.half aaMatra-beng.float @BNG_VEDIC_ALL' <-336 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_34;
+
+lookup BNG_dflt_abvm_vedicMatraShift_35 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ddh-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-279 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_35;
+
+lookup BNG_dflt_abvm_vedicMatraShift_36 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half ga-beng.side @BNG_VEDIC_ALL' <-262 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_36;
+
+lookup BNG_dflt_abvm_vedicMatraShift_37 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos dd-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-246 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_37;
+
+lookup BNG_dflt_abvm_vedicMatraShift_38 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-296 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_38;
+
+lookup BNG_dflt_abvm_vedicMatraShift_39 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half3 ttha-beng.side @BNG_VEDIC_ALL' <-285 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_39;
+
+lookup BNG_dflt_abvm_vedicMatraShift_40 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ma-beng.side @BNG_VEDIC_ALL' <-296 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_40;
+
+lookup BNG_dflt_abvm_vedicMatraShift_41 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos t-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-362 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_41;
+
+lookup BNG_dflt_abvm_vedicMatraShift_42 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 ga-beng.side @BNG_VEDIC_ALL' <-187 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_42;
+
+lookup BNG_dflt_abvm_vedicMatraShift_43 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 gha-beng @BNG_VEDIC_ALL' <-217 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_43;
+
+lookup BNG_dflt_abvm_vedicMatraShift_44 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos d-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-266 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_44;
+
+lookup BNG_dflt_abvm_vedicMatraShift_45 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-282 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_45;
+
+lookup BNG_dflt_abvm_vedicMatraShift_46 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dh-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-298 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_46;
+
+lookup BNG_dflt_abvm_vedicMatraShift_47 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.130 @BNG_VEDIC_ALL' <-278 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_47;
+
+lookup BNG_dflt_abvm_vedicMatraShift_48 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddha-beng.side @BNG_VEDIC_ALL' <-277 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_48;
+
+lookup BNG_dflt_abvm_vedicMatraShift_49 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddh-beng.side @BNG_VEDIC_ALL' <-273 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_49;
+
+lookup BNG_dflt_abvm_vedicMatraShift_50 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ttha-beng.side @BNG_VEDIC_ALL' <-284 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_50;
+
+lookup BNG_dflt_abvm_vedicMatraShift_51 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline dda-beng.side @BNG_VEDIC_ALL' <-270 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_51;
+
+lookup BNG_dflt_abvm_vedicMatraShift_52 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline da-beng @BNG_VEDIC_ALL' <-150 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_52;
+
+lookup BNG_dflt_abvm_vedicMatraShift_53 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half3 @BNG_VEDIC_ALL' <-153 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_53;
+
+lookup BNG_dflt_abvm_vedicMatraShift_54 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half @BNG_VEDIC_ALL' <-153 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_54;
+
+lookup BNG_dflt_abvm_vedicMatraShift_55 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline aaMatra-beng.part @BNG_VEDIC_ALL' <-146 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_55;
+
+lookup BNG_dflt_abvm_vedicMatraShift_56 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ma-beng.side @BNG_VEDIC_ALL' <-278 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_56;
+
+lookup BNG_dflt_abvm_vedicMatraShift_57 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-358 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_57;
+
+lookup BNG_dflt_abvm_vedicMatraShift_58 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-358 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_58;
+
+lookup BNG_dflt_abvm_vedicMatraShift_59 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half ma-beng.side @BNG_VEDIC_ALL' <-351 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_59;
+
+lookup BNG_dflt_abvm_vedicMatraShift_60 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos b-beng.half2 headline-beng.250 @BNG_VEDIC_ALL' <-220 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_60;
+
+lookup BNG_dflt_abvm_vedicMatraShift_61 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pa-beng @BNG_VEDIC_ALL' <-218 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_61;
+
+lookup BNG_dflt_abvm_vedicMatraShift_62 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-181 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_62;
+
+lookup BNG_dflt_abvm_vedicMatraShift_63 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-294 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_63;
+
+lookup BNG_dflt_abvm_vedicMatraShift_64 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half sa-beng @BNG_VEDIC_ALL' <-204 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_64;
+
+lookup BNG_dflt_abvm_vedicMatraShift_65 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos l-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-334 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_65;
+
+lookup BNG_dflt_abvm_vedicMatraShift_66 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part2 @BNG_VEDIC_ALL' <-201 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_66;
+
+lookup BNG_dflt_abvm_vedicMatraShift_67 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-334 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_67;
+
+lookup BNG_dflt_abvm_vedicMatraShift_68 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-334 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_68;
+
+lookup BNG_dflt_abvm_vedicMatraShift_69 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 dda-beng.side @BNG_VEDIC_ALL' <-335 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_69;
+
+lookup BNG_dflt_abvm_vedicMatraShift_70 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part.short @BNG_VEDIC_ALL' <-199 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_70;
+
+lookup BNG_dflt_abvm_vedicMatraShift_71 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 da-beng @BNG_VEDIC_ALL' <-208 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_71;
+
+lookup BNG_dflt_abvm_vedicMatraShift_72 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 d-beng.side @BNG_VEDIC_ALL' <-335 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_72;
+
+lookup BNG_dflt_abvm_vedicMatraShift_73 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part @BNG_VEDIC_ALL' <-201 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_73;
+
+lookup BNG_dflt_abvm_vedicMatraShift_74 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ma-beng.side @BNG_VEDIC_ALL' <-333 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_74;
+
+lookup BNG_dflt_abvm_vedicMatraShift_75 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half cha-beng.side @BNG_VEDIC_ALL' <-341 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_75;
+
+lookup BNG_dflt_abvm_vedicMatraShift_76 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ma-beng.side @BNG_VEDIC_ALL' <-341 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_76;
+
+lookup BNG_dflt_abvm_vedicMatraShift_77 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.250 @BNG_VEDIC_ALL' <-186 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_77;
+
+lookup BNG_dflt_abvm_vedicMatraShift_78 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half3 headline-beng.200 @BNG_VEDIC_ALL' <-301 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_78;
+
+lookup BNG_dflt_abvm_vedicMatraShift_79 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pa-beng @BNG_VEDIC_ALL' <-178 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_79;
+
+lookup BNG_dflt_abvm_vedicMatraShift_80 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half2 @BNG_VEDIC_ALL' <-144 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_80;
+
+lookup BNG_dflt_abvm_vedicMatraShift_81 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pha-beng.side @BNG_VEDIC_ALL' <-259 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_81;
+
+lookup BNG_dflt_abvm_vedicMatraShift_82 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.200 @BNG_VEDIC_ALL' <-155 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_82;
+
+lookup BNG_dflt_abvm_vedicMatraShift_83 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 ma-beng.side2 @BNG_VEDIC_ALL' <-259 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_83;
+
+lookup BNG_dflt_abvm_vedicMatraShift_84 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half2 headline-beng.200 @BNG_VEDIC_ALL' <-324 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_84;
+
+lookup BNG_dflt_abvm_vedicMatraShift_85 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddha-beng.side @BNG_VEDIC_ALL' <-312 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_85;
+
+lookup BNG_dflt_abvm_vedicMatraShift_86 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddh-beng.side @BNG_VEDIC_ALL' <-312 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_86;
+
+lookup BNG_dflt_abvm_vedicMatraShift_87 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pa-beng @BNG_VEDIC_ALL' <-245 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_87;
+
+lookup BNG_dflt_abvm_vedicMatraShift_88 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-208 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_88;
+
+lookup BNG_dflt_abvm_vedicMatraShift_89 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-321 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_89;
+
+lookup BNG_dflt_abvm_vedicMatraShift_90 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ha-beng headline-beng.200 @BNG_VEDIC_ALL' <-237 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_90;
+
+lookup BNG_dflt_abvm_vedicMatraShift_91 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ha-beng headline-beng.250 @BNG_VEDIC_ALL' <-247 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_91;
+";
 }
 );
 id = UUID0;
@@ -931,71 +1674,7 @@ numberValues = (
 -229,
 -180,
 -167,
--166,
--317,
--347,
--349,
--317,
--181,
--408,
--313,
--346,
--263,
--296,
--284,
--344,
-100,
-100,
-100,
--317,
--281,
--265,
--311,
--272,
--216,
--369,
--343,
--350,
--308,
--293,
--287,
--293,
--293,
--298,
--334,
--341,
--363,
--298,
--258,
--320,
--311,
--333,
--298,
--196,
--248,
--223,
--143,
--271,
--271,
--220,
--271,
--333,
--334,
--183,
--155,
--324,
--339,
--237,
--247,
-140,
-130,
--1,
--2,
--3,
--4,
--5,
--6,
-0
+-166
 );
 stemValues = (
 77,
@@ -1017,6 +1696,470 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = "ka-beng";
+},
+{
+name = "Replace Feature";
+value = "abvm;# Automatic Code End
+
+# Black
+
+@BNG_VEDIC_ALL = [uni0951 uni1CD0 uni1CD2 uni1CF5.stack uni1CF6.stack uni0952 uni1CD5 uni1CD6 uni1CD8 uni1CED];
+
+lookup BNG_dflt_abvm_vedicMatraShift_1 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos b-beng.half2 ka-beng.arm @BNG_VEDIC_ALL' <-107 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_1;
+
+lookup BNG_dflt_abvm_vedicMatraShift_2 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos g-beng.half headline-beng.130 @BNG_VEDIC_ALL' <-345 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_2;
+
+lookup BNG_dflt_abvm_vedicMatraShift_3 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half gh-beng.half @BNG_VEDIC_ALL' <-329 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_3;
+
+lookup BNG_dflt_abvm_vedicMatraShift_4 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half1 ma-beng.side1 @BNG_VEDIC_ALL' <-340 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_4;
+
+lookup BNG_dflt_abvm_vedicMatraShift_5 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-324 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_5;
+
+lookup BNG_dflt_abvm_vedicMatraShift_6 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.200 @BNG_VEDIC_ALL' <-400 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_6;
+
+lookup BNG_dflt_abvm_vedicMatraShift_7 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-385 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_7;
+
+lookup BNG_dflt_abvm_vedicMatraShift_8 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-386 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_8;
+
+lookup BNG_dflt_abvm_vedicMatraShift_9 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half @BNG_VEDIC_ALL' <-202 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_9;
+
+lookup BNG_dflt_abvm_vedicMatraShift_10 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pha-beng.side @BNG_VEDIC_ALL' <-317 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_10;
+
+lookup BNG_dflt_abvm_vedicMatraShift_11 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos m-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-203 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_11;
+
+lookup BNG_dflt_abvm_vedicMatraShift_12 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-352 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_12;
+
+lookup BNG_dflt_abvm_vedicMatraShift_13 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-352 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_13;
+
+lookup BNG_dflt_abvm_vedicMatraShift_14 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half @BNG_VEDIC_ALL' <-177 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_14;
+
+lookup BNG_dflt_abvm_vedicMatraShift_15 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half headline-beng.250 @BNG_VEDIC_ALL' <-254 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_15;
+
+lookup BNG_dflt_abvm_vedicMatraShift_16 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half @BNG_VEDIC_ALL' <-227 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_16;
+
+lookup BNG_dflt_abvm_vedicMatraShift_17 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pha-beng.side @BNG_VEDIC_ALL' <-341 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_17;
+
+lookup BNG_dflt_abvm_vedicMatraShift_18 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-227 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_18;
+
+lookup BNG_dflt_abvm_vedicMatraShift_19 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos b-beng.half2 ka-beng.arm1 @BNG_VEDIC_ALL' <-401 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_19;
+
+lookup BNG_dflt_abvm_vedicMatraShift_20 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ta-beng headline-beng.200 @BNG_VEDIC_ALL' <-376 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_20;
+
+lookup BNG_dflt_abvm_vedicMatraShift_21 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_t-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-376 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_21;
+
+lookup BNG_dflt_abvm_vedicMatraShift_22 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ra-beng headline-beng.200 @BNG_VEDIC_ALL' <-354 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_22;
+
+lookup BNG_dflt_abvm_vedicMatraShift_23 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half da-beng.side @BNG_VEDIC_ALL' <-345 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_23;
+
+lookup BNG_dflt_abvm_vedicMatraShift_24 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half d-beng.side @BNG_VEDIC_ALL' <-345 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_24;
+
+lookup BNG_dflt_abvm_vedicMatraShift_25 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half ma-beng.side @BNG_VEDIC_ALL' <-345 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_25;
+
+lookup BNG_dflt_abvm_vedicMatraShift_26 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ssa-beng @BNG_VEDIC_ALL' <-347 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_26;
+
+lookup BNG_dflt_abvm_vedicMatraShift_27 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ss-beng.half @BNG_VEDIC_ALL' <-347 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_27;
+
+lookup BNG_dflt_abvm_vedicMatraShift_28 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 kha-beng.side @BNG_VEDIC_ALL' <-322 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_28;
+
+lookup BNG_dflt_abvm_vedicMatraShift_29 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half gha-beng @BNG_VEDIC_ALL' <-329 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_29;
+
+lookup BNG_dflt_abvm_vedicMatraShift_30 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 ma-beng.side1 @BNG_VEDIC_ALL' <-330 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_30;
+
+lookup BNG_dflt_abvm_vedicMatraShift_31 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ca-beng @BNG_VEDIC_ALL' <-210 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_31;
+
+lookup BNG_dflt_abvm_vedicMatraShift_32 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half cha-beng @BNG_VEDIC_ALL' <-210 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_32;
+
+lookup BNG_dflt_abvm_vedicMatraShift_33 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ch-beng.half @BNG_VEDIC_ALL' <-210 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_33;
+
+lookup BNG_dflt_abvm_vedicMatraShift_34 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos j-beng.half aaMatra-beng.float @BNG_VEDIC_ALL' <-379 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_34;
+
+lookup BNG_dflt_abvm_vedicMatraShift_35 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ddh-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-290 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_35;
+
+lookup BNG_dflt_abvm_vedicMatraShift_36 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half ga-beng.side @BNG_VEDIC_ALL' <-280 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_36;
+
+lookup BNG_dflt_abvm_vedicMatraShift_37 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos dd-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-241 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_37;
+
+lookup BNG_dflt_abvm_vedicMatraShift_38 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-323 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_38;
+
+lookup BNG_dflt_abvm_vedicMatraShift_39 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half3 ttha-beng.side @BNG_VEDIC_ALL' <-307 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_39;
+
+lookup BNG_dflt_abvm_vedicMatraShift_40 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ma-beng.side @BNG_VEDIC_ALL' <-323 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_40;
+
+lookup BNG_dflt_abvm_vedicMatraShift_41 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos t-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-363 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_41;
+
+lookup BNG_dflt_abvm_vedicMatraShift_42 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 ga-beng.side @BNG_VEDIC_ALL' <-195 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_42;
+
+lookup BNG_dflt_abvm_vedicMatraShift_43 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 gha-beng @BNG_VEDIC_ALL' <-250 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_43;
+
+lookup BNG_dflt_abvm_vedicMatraShift_44 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos d-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-298 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_44;
+
+lookup BNG_dflt_abvm_vedicMatraShift_45 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-295 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_45;
+
+lookup BNG_dflt_abvm_vedicMatraShift_46 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dh-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-300 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_46;
+
+lookup BNG_dflt_abvm_vedicMatraShift_47 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.130 @BNG_VEDIC_ALL' <-298 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_47;
+
+lookup BNG_dflt_abvm_vedicMatraShift_48 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddha-beng.side @BNG_VEDIC_ALL' <-301 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_48;
+
+lookup BNG_dflt_abvm_vedicMatraShift_49 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddh-beng.side @BNG_VEDIC_ALL' <-298 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_49;
+
+lookup BNG_dflt_abvm_vedicMatraShift_50 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ttha-beng.side @BNG_VEDIC_ALL' <-303 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_50;
+
+lookup BNG_dflt_abvm_vedicMatraShift_51 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline dda-beng.side @BNG_VEDIC_ALL' <-273 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_51;
+
+lookup BNG_dflt_abvm_vedicMatraShift_52 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline da-beng @BNG_VEDIC_ALL' <-158 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_52;
+
+lookup BNG_dflt_abvm_vedicMatraShift_53 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half3 @BNG_VEDIC_ALL' <-161 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_53;
+
+lookup BNG_dflt_abvm_vedicMatraShift_54 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half @BNG_VEDIC_ALL' <-156 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_54;
+
+lookup BNG_dflt_abvm_vedicMatraShift_55 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline aaMatra-beng.part @BNG_VEDIC_ALL' <-145 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_55;
+
+lookup BNG_dflt_abvm_vedicMatraShift_56 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ma-beng.side @BNG_VEDIC_ALL' <-294 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_56;
+
+lookup BNG_dflt_abvm_vedicMatraShift_57 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-376 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_57;
+
+lookup BNG_dflt_abvm_vedicMatraShift_58 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-377 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_58;
+
+lookup BNG_dflt_abvm_vedicMatraShift_59 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half ma-beng.side @BNG_VEDIC_ALL' <-376 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_59;
+
+lookup BNG_dflt_abvm_vedicMatraShift_60 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos b-beng.half2 headline-beng.250 @BNG_VEDIC_ALL' <-228 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_60;
+
+lookup BNG_dflt_abvm_vedicMatraShift_61 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pa-beng @BNG_VEDIC_ALL' <-225 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_61;
+
+lookup BNG_dflt_abvm_vedicMatraShift_62 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-191 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_62;
+
+lookup BNG_dflt_abvm_vedicMatraShift_63 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-317 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_63;
+
+lookup BNG_dflt_abvm_vedicMatraShift_64 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half sa-beng @BNG_VEDIC_ALL' <-222 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_64;
+
+lookup BNG_dflt_abvm_vedicMatraShift_65 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos l-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-360 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_65;
+
+lookup BNG_dflt_abvm_vedicMatraShift_66 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part2 @BNG_VEDIC_ALL' <-212 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_66;
+
+lookup BNG_dflt_abvm_vedicMatraShift_67 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-361 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_67;
+
+lookup BNG_dflt_abvm_vedicMatraShift_68 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-361 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_68;
+
+lookup BNG_dflt_abvm_vedicMatraShift_69 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 dda-beng.side @BNG_VEDIC_ALL' <-361 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_69;
+
+lookup BNG_dflt_abvm_vedicMatraShift_70 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part.short @BNG_VEDIC_ALL' <-206 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_70;
+
+lookup BNG_dflt_abvm_vedicMatraShift_71 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 da-beng @BNG_VEDIC_ALL' <-219 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_71;
+
+lookup BNG_dflt_abvm_vedicMatraShift_72 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 d-beng.side @BNG_VEDIC_ALL' <-361 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_72;
+
+lookup BNG_dflt_abvm_vedicMatraShift_73 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part @BNG_VEDIC_ALL' <-207 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_73;
+
+lookup BNG_dflt_abvm_vedicMatraShift_74 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ma-beng.side @BNG_VEDIC_ALL' <-356 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_74;
+
+lookup BNG_dflt_abvm_vedicMatraShift_75 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half cha-beng.side @BNG_VEDIC_ALL' <-352 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_75;
+
+lookup BNG_dflt_abvm_vedicMatraShift_76 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ma-beng.side @BNG_VEDIC_ALL' <-352 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_76;
+
+lookup BNG_dflt_abvm_vedicMatraShift_77 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.250 @BNG_VEDIC_ALL' <-194 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_77;
+
+lookup BNG_dflt_abvm_vedicMatraShift_78 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half3 headline-beng.200 @BNG_VEDIC_ALL' <-340 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_78;
+
+lookup BNG_dflt_abvm_vedicMatraShift_79 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pa-beng @BNG_VEDIC_ALL' <-186 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_79;
+
+lookup BNG_dflt_abvm_vedicMatraShift_80 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half2 @BNG_VEDIC_ALL' <-155 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_80;
+
+lookup BNG_dflt_abvm_vedicMatraShift_81 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pha-beng.side @BNG_VEDIC_ALL' <-281 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_81;
+
+lookup BNG_dflt_abvm_vedicMatraShift_82 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.200 @BNG_VEDIC_ALL' <-170 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_82;
+
+lookup BNG_dflt_abvm_vedicMatraShift_83 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 ma-beng.side2 @BNG_VEDIC_ALL' <-281 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_83;
+
+lookup BNG_dflt_abvm_vedicMatraShift_84 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half2 headline-beng.200 @BNG_VEDIC_ALL' <-347 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_84;
+
+lookup BNG_dflt_abvm_vedicMatraShift_85 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddha-beng.side @BNG_VEDIC_ALL' <-329 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_85;
+
+lookup BNG_dflt_abvm_vedicMatraShift_86 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddh-beng.side @BNG_VEDIC_ALL' <-330 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_86;
+
+lookup BNG_dflt_abvm_vedicMatraShift_87 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pa-beng @BNG_VEDIC_ALL' <-247 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_87;
+
+lookup BNG_dflt_abvm_vedicMatraShift_88 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-215 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_88;
+
+lookup BNG_dflt_abvm_vedicMatraShift_89 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-341 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_89;
+
+lookup BNG_dflt_abvm_vedicMatraShift_90 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ha-beng headline-beng.200 @BNG_VEDIC_ALL' <-274 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_90;
+
+lookup BNG_dflt_abvm_vedicMatraShift_91 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ha-beng headline-beng.250 @BNG_VEDIC_ALL' <-231 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_91;
+";
 }
 );
 guides = (
@@ -1079,71 +2222,7 @@ numberValues = (
 -253,
 -190,
 -230,
--210,
--344,
--370,
--346,
--322,
--209,
--445,
--340,
--350,
--282,
--323,
--306,
--338,
-115,
-105,
-120,
--354,
--294,
--337,
--297,
--297,
--249,
--385,
--395,
--375,
--376,
--300,
--287,
--333,
--316,
--302,
--360,
--351,
--399,
--338,
--281,
--341,
--329,
--360,
--297,
--201,
--253,
--225,
--153,
--295,
--291,
--227,
--330,
--360,
--356,
--193,
--168,
--345,
--368,
--272,
--220,
-135,
-136,
--1,
--2,
--3,
--4,
--5,
--6,
-0
+-210
 );
 stemValues = (
 164,
@@ -1161,6 +2240,470 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = "ka-beng";
+},
+{
+name = "Replace Feature";
+value = "abvm;# Automatic Code End
+
+# Condensed Thin
+
+@BNG_VEDIC_ALL = [uni0951 uni1CD0 uni1CD2 uni1CF5.stack uni1CF6.stack uni0952 uni1CD5 uni1CD6 uni1CD8 uni1CED];
+
+lookup BNG_dflt_abvm_vedicMatraShift_1 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos b-beng.half2 ka-beng.arm @BNG_VEDIC_ALL' <-79 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_1;
+
+lookup BNG_dflt_abvm_vedicMatraShift_2 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos g-beng.half headline-beng.130 @BNG_VEDIC_ALL' <-203 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_2;
+
+lookup BNG_dflt_abvm_vedicMatraShift_3 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half gh-beng.half @BNG_VEDIC_ALL' <-198 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_3;
+
+lookup BNG_dflt_abvm_vedicMatraShift_4 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half1 ma-beng.side1 @BNG_VEDIC_ALL' <-220 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_4;
+
+lookup BNG_dflt_abvm_vedicMatraShift_5 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-194 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_5;
+
+lookup BNG_dflt_abvm_vedicMatraShift_6 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.200 @BNG_VEDIC_ALL' <-214 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_6;
+
+lookup BNG_dflt_abvm_vedicMatraShift_7 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-248 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_7;
+
+lookup BNG_dflt_abvm_vedicMatraShift_8 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-248 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_8;
+
+lookup BNG_dflt_abvm_vedicMatraShift_9 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half @BNG_VEDIC_ALL' <-153 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_9;
+
+lookup BNG_dflt_abvm_vedicMatraShift_10 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pha-beng.side @BNG_VEDIC_ALL' <-197 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_10;
+
+lookup BNG_dflt_abvm_vedicMatraShift_11 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos m-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-137 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_11;
+
+lookup BNG_dflt_abvm_vedicMatraShift_12 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-209 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_12;
+
+lookup BNG_dflt_abvm_vedicMatraShift_13 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-209 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_13;
+
+lookup BNG_dflt_abvm_vedicMatraShift_14 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half @BNG_VEDIC_ALL' <-122 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_14;
+
+lookup BNG_dflt_abvm_vedicMatraShift_15 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half headline-beng.250 @BNG_VEDIC_ALL' <-154 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_15;
+
+lookup BNG_dflt_abvm_vedicMatraShift_16 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half @BNG_VEDIC_ALL' <-170 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_16;
+
+lookup BNG_dflt_abvm_vedicMatraShift_17 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pha-beng.side @BNG_VEDIC_ALL' <-214 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_17;
+
+lookup BNG_dflt_abvm_vedicMatraShift_18 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-156 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_18;
+
+lookup BNG_dflt_abvm_vedicMatraShift_19 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos b-beng.half2 ka-beng.arm1 @BNG_VEDIC_ALL' <-260 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_19;
+
+lookup BNG_dflt_abvm_vedicMatraShift_20 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ta-beng headline-beng.200 @BNG_VEDIC_ALL' <-244 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_20;
+
+lookup BNG_dflt_abvm_vedicMatraShift_21 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_t-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-232 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_21;
+
+lookup BNG_dflt_abvm_vedicMatraShift_22 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ra-beng headline-beng.200 @BNG_VEDIC_ALL' <-226 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_22;
+
+lookup BNG_dflt_abvm_vedicMatraShift_23 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half da-beng.side @BNG_VEDIC_ALL' <-202 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_23;
+
+lookup BNG_dflt_abvm_vedicMatraShift_24 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half d-beng.side @BNG_VEDIC_ALL' <-202 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_24;
+
+lookup BNG_dflt_abvm_vedicMatraShift_25 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half ma-beng.side @BNG_VEDIC_ALL' <-203 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_25;
+
+lookup BNG_dflt_abvm_vedicMatraShift_26 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ssa-beng @BNG_VEDIC_ALL' <-207 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_26;
+
+lookup BNG_dflt_abvm_vedicMatraShift_27 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ss-beng.half @BNG_VEDIC_ALL' <-212 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_27;
+
+lookup BNG_dflt_abvm_vedicMatraShift_28 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 kha-beng.side @BNG_VEDIC_ALL' <-221 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_28;
+
+lookup BNG_dflt_abvm_vedicMatraShift_29 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half gha-beng @BNG_VEDIC_ALL' <-198 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_29;
+
+lookup BNG_dflt_abvm_vedicMatraShift_30 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 ma-beng.side1 @BNG_VEDIC_ALL' <-218 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_30;
+
+lookup BNG_dflt_abvm_vedicMatraShift_31 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ca-beng @BNG_VEDIC_ALL' <-107 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_31;
+
+lookup BNG_dflt_abvm_vedicMatraShift_32 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half cha-beng @BNG_VEDIC_ALL' <-107 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_32;
+
+lookup BNG_dflt_abvm_vedicMatraShift_33 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ch-beng.half @BNG_VEDIC_ALL' <-110 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_33;
+
+lookup BNG_dflt_abvm_vedicMatraShift_34 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos j-beng.half aaMatra-beng.float @BNG_VEDIC_ALL' <-219 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_34;
+
+lookup BNG_dflt_abvm_vedicMatraShift_35 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ddh-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-182 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_35;
+
+lookup BNG_dflt_abvm_vedicMatraShift_36 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half ga-beng.side @BNG_VEDIC_ALL' <-174 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_36;
+
+lookup BNG_dflt_abvm_vedicMatraShift_37 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos dd-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-180 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_37;
+
+lookup BNG_dflt_abvm_vedicMatraShift_38 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-194 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_38;
+
+lookup BNG_dflt_abvm_vedicMatraShift_39 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half3 ttha-beng.side @BNG_VEDIC_ALL' <-165 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_39;
+
+lookup BNG_dflt_abvm_vedicMatraShift_40 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ma-beng.side @BNG_VEDIC_ALL' <-194 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_40;
+
+lookup BNG_dflt_abvm_vedicMatraShift_41 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos t-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-229 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_41;
+
+lookup BNG_dflt_abvm_vedicMatraShift_42 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 ga-beng.side @BNG_VEDIC_ALL' <-126 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_42;
+
+lookup BNG_dflt_abvm_vedicMatraShift_43 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 gha-beng @BNG_VEDIC_ALL' <-131 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_43;
+
+lookup BNG_dflt_abvm_vedicMatraShift_44 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos d-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-168 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_44;
+
+lookup BNG_dflt_abvm_vedicMatraShift_45 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-173 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_45;
+
+lookup BNG_dflt_abvm_vedicMatraShift_46 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dh-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-199 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_46;
+
+lookup BNG_dflt_abvm_vedicMatraShift_47 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.130 @BNG_VEDIC_ALL' <-176 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_47;
+
+lookup BNG_dflt_abvm_vedicMatraShift_48 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddha-beng.side @BNG_VEDIC_ALL' <-173 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_48;
+
+lookup BNG_dflt_abvm_vedicMatraShift_49 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddh-beng.side @BNG_VEDIC_ALL' <-168 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_49;
+
+lookup BNG_dflt_abvm_vedicMatraShift_50 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ttha-beng.side @BNG_VEDIC_ALL' <-168 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_50;
+
+lookup BNG_dflt_abvm_vedicMatraShift_51 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline dda-beng.side @BNG_VEDIC_ALL' <-170 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_51;
+
+lookup BNG_dflt_abvm_vedicMatraShift_52 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline da-beng @BNG_VEDIC_ALL' <-96 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_52;
+
+lookup BNG_dflt_abvm_vedicMatraShift_53 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half3 @BNG_VEDIC_ALL' <-98 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_53;
+
+lookup BNG_dflt_abvm_vedicMatraShift_54 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half @BNG_VEDIC_ALL' <-96 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_54;
+
+lookup BNG_dflt_abvm_vedicMatraShift_55 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline aaMatra-beng.part @BNG_VEDIC_ALL' <-98 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_55;
+
+lookup BNG_dflt_abvm_vedicMatraShift_56 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ma-beng.side @BNG_VEDIC_ALL' <-173 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_56;
+
+lookup BNG_dflt_abvm_vedicMatraShift_57 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-226 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_57;
+
+lookup BNG_dflt_abvm_vedicMatraShift_58 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-226 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_58;
+
+lookup BNG_dflt_abvm_vedicMatraShift_59 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half ma-beng.side @BNG_VEDIC_ALL' <-219 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_59;
+
+lookup BNG_dflt_abvm_vedicMatraShift_60 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos b-beng.half2 headline-beng.250 @BNG_VEDIC_ALL' <-130 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_60;
+
+lookup BNG_dflt_abvm_vedicMatraShift_61 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pa-beng @BNG_VEDIC_ALL' <-156 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_61;
+
+lookup BNG_dflt_abvm_vedicMatraShift_62 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-134 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_62;
+
+lookup BNG_dflt_abvm_vedicMatraShift_63 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-196 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_63;
+
+lookup BNG_dflt_abvm_vedicMatraShift_64 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half sa-beng @BNG_VEDIC_ALL' <-134 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_64;
+
+lookup BNG_dflt_abvm_vedicMatraShift_65 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos l-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-211 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_65;
+
+lookup BNG_dflt_abvm_vedicMatraShift_66 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part2 @BNG_VEDIC_ALL' <-132 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_66;
+
+lookup BNG_dflt_abvm_vedicMatraShift_67 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-211 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_67;
+
+lookup BNG_dflt_abvm_vedicMatraShift_68 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-211 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_68;
+
+lookup BNG_dflt_abvm_vedicMatraShift_69 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 dda-beng.side @BNG_VEDIC_ALL' <-210 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_69;
+
+lookup BNG_dflt_abvm_vedicMatraShift_70 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part.short @BNG_VEDIC_ALL' <-137 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_70;
+
+lookup BNG_dflt_abvm_vedicMatraShift_71 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 da-beng @BNG_VEDIC_ALL' <-134 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_71;
+
+lookup BNG_dflt_abvm_vedicMatraShift_72 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 d-beng.side @BNG_VEDIC_ALL' <-210 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_72;
+
+lookup BNG_dflt_abvm_vedicMatraShift_73 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part @BNG_VEDIC_ALL' <-132 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_73;
+
+lookup BNG_dflt_abvm_vedicMatraShift_74 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ma-beng.side @BNG_VEDIC_ALL' <-207 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_74;
+
+lookup BNG_dflt_abvm_vedicMatraShift_75 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half cha-beng.side @BNG_VEDIC_ALL' <-209 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_75;
+
+lookup BNG_dflt_abvm_vedicMatraShift_76 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ma-beng.side @BNG_VEDIC_ALL' <-209 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_76;
+
+lookup BNG_dflt_abvm_vedicMatraShift_77 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.250 @BNG_VEDIC_ALL' <-103 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_77;
+
+lookup BNG_dflt_abvm_vedicMatraShift_78 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half3 headline-beng.200 @BNG_VEDIC_ALL' <-226 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_78;
+
+lookup BNG_dflt_abvm_vedicMatraShift_79 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pa-beng @BNG_VEDIC_ALL' <-120 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_79;
+
+lookup BNG_dflt_abvm_vedicMatraShift_80 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half2 @BNG_VEDIC_ALL' <-98 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_80;
+
+lookup BNG_dflt_abvm_vedicMatraShift_81 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pha-beng.side @BNG_VEDIC_ALL' <-155 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_81;
+
+lookup BNG_dflt_abvm_vedicMatraShift_82 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.200 @BNG_VEDIC_ALL' <-100 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_82;
+
+lookup BNG_dflt_abvm_vedicMatraShift_83 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 ma-beng.side2 @BNG_VEDIC_ALL' <-155 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_83;
+
+lookup BNG_dflt_abvm_vedicMatraShift_84 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half2 headline-beng.200 @BNG_VEDIC_ALL' <-217 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_84;
+
+lookup BNG_dflt_abvm_vedicMatraShift_85 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddha-beng.side @BNG_VEDIC_ALL' <-209 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_85;
+
+lookup BNG_dflt_abvm_vedicMatraShift_86 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddh-beng.side @BNG_VEDIC_ALL' <-209 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_86;
+
+lookup BNG_dflt_abvm_vedicMatraShift_87 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pa-beng @BNG_VEDIC_ALL' <-174 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_87;
+
+lookup BNG_dflt_abvm_vedicMatraShift_88 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-151 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_88;
+
+lookup BNG_dflt_abvm_vedicMatraShift_89 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-213 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_89;
+
+lookup BNG_dflt_abvm_vedicMatraShift_90 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ha-beng headline-beng.200 @BNG_VEDIC_ALL' <-165 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_90;
+
+lookup BNG_dflt_abvm_vedicMatraShift_91 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ha-beng headline-beng.250 @BNG_VEDIC_ALL' <-147 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_91;
+";
 }
 );
 id = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -1215,71 +2758,7 @@ numberValues = (
 -113,
 -125,
 -86,
--65,
--202,
--220,
--232,
--220,
--106,
--267,
--214,
--235,
--171,
--193,
--215,
--227,
-56,
-56,
-56,
--206,
--176,
--194,
--167,
--168,
--130,
--247,
--208,
--219,
--226,
--191,
--183,
--186,
--196,
--192,
--210,
--209,
--228,
--220,
--159,
--211,
--208,
--219,
--192,
--137,
--154,
--156,
--99,
--175,
--172,
--129,
--124,
--210,
--207,
--148,
--104,
--217,
--223,
--164,
--147,
-100,
-144,
--1,
--2,
--3,
--4,
--5,
--6,
-0
+-65
 );
 stemValues = (
 20,
@@ -1297,6 +2776,470 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = "ka-beng";
+},
+{
+name = "Replace Feature";
+value = "abvm;# Automatic Code End
+
+# Condensed Regular
+
+@BNG_VEDIC_ALL = [uni0951 uni1CD0 uni1CD2 uni1CF5.stack uni1CF6.stack uni0952 uni1CD5 uni1CD6 uni1CD8 uni1CED];
+
+lookup BNG_dflt_abvm_vedicMatraShift_1 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos b-beng.half2 ka-beng.arm @BNG_VEDIC_ALL' <-84 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_1;
+
+lookup BNG_dflt_abvm_vedicMatraShift_2 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos g-beng.half headline-beng.130 @BNG_VEDIC_ALL' <-239 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_2;
+
+lookup BNG_dflt_abvm_vedicMatraShift_3 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half gh-beng.half @BNG_VEDIC_ALL' <-238 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_3;
+
+lookup BNG_dflt_abvm_vedicMatraShift_4 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half1 ma-beng.side1 @BNG_VEDIC_ALL' <-259 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_4;
+
+lookup BNG_dflt_abvm_vedicMatraShift_5 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-231 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_5;
+
+lookup BNG_dflt_abvm_vedicMatraShift_6 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.200 @BNG_VEDIC_ALL' <-186 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_6;
+
+lookup BNG_dflt_abvm_vedicMatraShift_7 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-280 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_7;
+
+lookup BNG_dflt_abvm_vedicMatraShift_8 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-279 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_8;
+
+lookup BNG_dflt_abvm_vedicMatraShift_9 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half @BNG_VEDIC_ALL' <-163 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_9;
+
+lookup BNG_dflt_abvm_vedicMatraShift_10 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pha-beng.side @BNG_VEDIC_ALL' <-224 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_10;
+
+lookup BNG_dflt_abvm_vedicMatraShift_11 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos m-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-148 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_11;
+
+lookup BNG_dflt_abvm_vedicMatraShift_12 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-257 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_12;
+
+lookup BNG_dflt_abvm_vedicMatraShift_13 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-256 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_13;
+
+lookup BNG_dflt_abvm_vedicMatraShift_14 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half @BNG_VEDIC_ALL' <-125 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_14;
+
+lookup BNG_dflt_abvm_vedicMatraShift_15 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half headline-beng.250 @BNG_VEDIC_ALL' <-186 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_15;
+
+lookup BNG_dflt_abvm_vedicMatraShift_16 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half @BNG_VEDIC_ALL' <-181 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_16;
+
+lookup BNG_dflt_abvm_vedicMatraShift_17 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pha-beng.side @BNG_VEDIC_ALL' <-245 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_17;
+
+lookup BNG_dflt_abvm_vedicMatraShift_18 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-167 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_18;
+
+lookup BNG_dflt_abvm_vedicMatraShift_19 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos b-beng.half2 ka-beng.arm1 @BNG_VEDIC_ALL' <-299 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_19;
+
+lookup BNG_dflt_abvm_vedicMatraShift_20 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ta-beng headline-beng.200 @BNG_VEDIC_ALL' <-267 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_20;
+
+lookup BNG_dflt_abvm_vedicMatraShift_21 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_t-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-264 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_21;
+
+lookup BNG_dflt_abvm_vedicMatraShift_22 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ra-beng headline-beng.200 @BNG_VEDIC_ALL' <-251 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_22;
+
+lookup BNG_dflt_abvm_vedicMatraShift_23 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half da-beng.side @BNG_VEDIC_ALL' <-239 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_23;
+
+lookup BNG_dflt_abvm_vedicMatraShift_24 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half d-beng.side @BNG_VEDIC_ALL' <-239 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_24;
+
+lookup BNG_dflt_abvm_vedicMatraShift_25 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half ma-beng.side @BNG_VEDIC_ALL' <-239 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_25;
+
+lookup BNG_dflt_abvm_vedicMatraShift_26 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ssa-beng @BNG_VEDIC_ALL' <-246 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_26;
+
+lookup BNG_dflt_abvm_vedicMatraShift_27 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ss-beng.half @BNG_VEDIC_ALL' <-248 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_27;
+
+lookup BNG_dflt_abvm_vedicMatraShift_28 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 kha-beng.side @BNG_VEDIC_ALL' <-241 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_28;
+
+lookup BNG_dflt_abvm_vedicMatraShift_29 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half gha-beng @BNG_VEDIC_ALL' <-238 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_29;
+
+lookup BNG_dflt_abvm_vedicMatraShift_30 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 ma-beng.side1 @BNG_VEDIC_ALL' <-241 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_30;
+
+lookup BNG_dflt_abvm_vedicMatraShift_31 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ca-beng @BNG_VEDIC_ALL' <-136 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_31;
+
+lookup BNG_dflt_abvm_vedicMatraShift_32 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half cha-beng @BNG_VEDIC_ALL' <-137 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_32;
+
+lookup BNG_dflt_abvm_vedicMatraShift_33 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ch-beng.half @BNG_VEDIC_ALL' <-136 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_33;
+
+lookup BNG_dflt_abvm_vedicMatraShift_34 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos j-beng.half aaMatra-beng.float @BNG_VEDIC_ALL' <-255 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_34;
+
+lookup BNG_dflt_abvm_vedicMatraShift_35 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ddh-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-214 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_35;
+
+lookup BNG_dflt_abvm_vedicMatraShift_36 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half ga-beng.side @BNG_VEDIC_ALL' <-194 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_36;
+
+lookup BNG_dflt_abvm_vedicMatraShift_37 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos dd-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-188 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_37;
+
+lookup BNG_dflt_abvm_vedicMatraShift_38 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-232 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_38;
+
+lookup BNG_dflt_abvm_vedicMatraShift_39 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half3 ttha-beng.side @BNG_VEDIC_ALL' <-219 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_39;
+
+lookup BNG_dflt_abvm_vedicMatraShift_40 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ma-beng.side @BNG_VEDIC_ALL' <-229 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_40;
+
+lookup BNG_dflt_abvm_vedicMatraShift_41 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos t-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-270 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_41;
+
+lookup BNG_dflt_abvm_vedicMatraShift_42 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 ga-beng.side @BNG_VEDIC_ALL' <-135 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_42;
+
+lookup BNG_dflt_abvm_vedicMatraShift_43 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 gha-beng @BNG_VEDIC_ALL' <-166 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_43;
+
+lookup BNG_dflt_abvm_vedicMatraShift_44 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos d-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-204 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_44;
+
+lookup BNG_dflt_abvm_vedicMatraShift_45 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-210 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_45;
+
+lookup BNG_dflt_abvm_vedicMatraShift_46 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dh-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-224 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_46;
+
+lookup BNG_dflt_abvm_vedicMatraShift_47 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.130 @BNG_VEDIC_ALL' <-215 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_47;
+
+lookup BNG_dflt_abvm_vedicMatraShift_48 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddha-beng.side @BNG_VEDIC_ALL' <-212 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_48;
+
+lookup BNG_dflt_abvm_vedicMatraShift_49 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddh-beng.side @BNG_VEDIC_ALL' <-208 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_49;
+
+lookup BNG_dflt_abvm_vedicMatraShift_50 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ttha-beng.side @BNG_VEDIC_ALL' <-217 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_50;
+
+lookup BNG_dflt_abvm_vedicMatraShift_51 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline dda-beng.side @BNG_VEDIC_ALL' <-205 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_51;
+
+lookup BNG_dflt_abvm_vedicMatraShift_52 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline da-beng @BNG_VEDIC_ALL' <-113 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_52;
+
+lookup BNG_dflt_abvm_vedicMatraShift_53 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half3 @BNG_VEDIC_ALL' <-110 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_53;
+
+lookup BNG_dflt_abvm_vedicMatraShift_54 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half @BNG_VEDIC_ALL' <-116 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_54;
+
+lookup BNG_dflt_abvm_vedicMatraShift_55 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline aaMatra-beng.part @BNG_VEDIC_ALL' <-113 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_55;
+
+lookup BNG_dflt_abvm_vedicMatraShift_56 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ma-beng.side @BNG_VEDIC_ALL' <-208 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_56;
+
+lookup BNG_dflt_abvm_vedicMatraShift_57 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-272 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_57;
+
+lookup BNG_dflt_abvm_vedicMatraShift_58 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-272 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_58;
+
+lookup BNG_dflt_abvm_vedicMatraShift_59 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half ma-beng.side @BNG_VEDIC_ALL' <-262 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_59;
+
+lookup BNG_dflt_abvm_vedicMatraShift_60 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos b-beng.half2 headline-beng.250 @BNG_VEDIC_ALL' <-169 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_60;
+
+lookup BNG_dflt_abvm_vedicMatraShift_61 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pa-beng @BNG_VEDIC_ALL' <-164 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_61;
+
+lookup BNG_dflt_abvm_vedicMatraShift_62 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-143 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_62;
+
+lookup BNG_dflt_abvm_vedicMatraShift_63 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-223 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_63;
+
+lookup BNG_dflt_abvm_vedicMatraShift_64 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half sa-beng @BNG_VEDIC_ALL' <-149 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_64;
+
+lookup BNG_dflt_abvm_vedicMatraShift_65 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos l-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-252 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_65;
+
+lookup BNG_dflt_abvm_vedicMatraShift_66 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part2 @BNG_VEDIC_ALL' <-151 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_66;
+
+lookup BNG_dflt_abvm_vedicMatraShift_67 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-254 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_67;
+
+lookup BNG_dflt_abvm_vedicMatraShift_68 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-254 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_68;
+
+lookup BNG_dflt_abvm_vedicMatraShift_69 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 dda-beng.side @BNG_VEDIC_ALL' <-257 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_69;
+
+lookup BNG_dflt_abvm_vedicMatraShift_70 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part.short @BNG_VEDIC_ALL' <-151 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_70;
+
+lookup BNG_dflt_abvm_vedicMatraShift_71 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 da-beng @BNG_VEDIC_ALL' <-156 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_71;
+
+lookup BNG_dflt_abvm_vedicMatraShift_72 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 d-beng.side @BNG_VEDIC_ALL' <-252 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_72;
+
+lookup BNG_dflt_abvm_vedicMatraShift_73 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part @BNG_VEDIC_ALL' <-151 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_73;
+
+lookup BNG_dflt_abvm_vedicMatraShift_74 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ma-beng.side @BNG_VEDIC_ALL' <-251 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_74;
+
+lookup BNG_dflt_abvm_vedicMatraShift_75 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half cha-beng.side @BNG_VEDIC_ALL' <-254 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_75;
+
+lookup BNG_dflt_abvm_vedicMatraShift_76 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ma-beng.side @BNG_VEDIC_ALL' <-254 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_76;
+
+lookup BNG_dflt_abvm_vedicMatraShift_77 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.250 @BNG_VEDIC_ALL' <-126 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_77;
+
+lookup BNG_dflt_abvm_vedicMatraShift_78 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half3 headline-beng.200 @BNG_VEDIC_ALL' <-233 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_78;
+
+lookup BNG_dflt_abvm_vedicMatraShift_79 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pa-beng @BNG_VEDIC_ALL' <-123 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_79;
+
+lookup BNG_dflt_abvm_vedicMatraShift_80 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half2 @BNG_VEDIC_ALL' <-105 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_80;
+
+lookup BNG_dflt_abvm_vedicMatraShift_81 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pha-beng.side @BNG_VEDIC_ALL' <-186 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_81;
+
+lookup BNG_dflt_abvm_vedicMatraShift_82 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.200 @BNG_VEDIC_ALL' <-108 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_82;
+
+lookup BNG_dflt_abvm_vedicMatraShift_83 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 ma-beng.side2 @BNG_VEDIC_ALL' <-184 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_83;
+
+lookup BNG_dflt_abvm_vedicMatraShift_84 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half2 headline-beng.200 @BNG_VEDIC_ALL' <-245 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_84;
+
+lookup BNG_dflt_abvm_vedicMatraShift_85 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddha-beng.side @BNG_VEDIC_ALL' <-240 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_85;
+
+lookup BNG_dflt_abvm_vedicMatraShift_86 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddh-beng.side @BNG_VEDIC_ALL' <-240 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_86;
+
+lookup BNG_dflt_abvm_vedicMatraShift_87 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pa-beng @BNG_VEDIC_ALL' <-183 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_87;
+
+lookup BNG_dflt_abvm_vedicMatraShift_88 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-162 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_88;
+
+lookup BNG_dflt_abvm_vedicMatraShift_89 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-244 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_89;
+
+lookup BNG_dflt_abvm_vedicMatraShift_90 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ha-beng headline-beng.200 @BNG_VEDIC_ALL' <-185 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_90;
+
+lookup BNG_dflt_abvm_vedicMatraShift_91 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ha-beng headline-beng.250 @BNG_VEDIC_ALL' <-180 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_91;
+";
 }
 );
 guides = (
@@ -1357,71 +3300,7 @@ numberValues = (
 -158,
 -147,
 -120,
--119,
--238,
--257,
--263,
--241,
--136,
--310,
--234,
--261,
--200,
--229,
--219,
--257,
-76,
-76,
-76,
--244,
--209,
--241,
--201,
--205,
--166,
--276,
--261,
--261,
--269,
--220,
--213,
--226,
--222,
--220,
--251,
--253,
--276,
--232,
--193,
--242,
--237,
--249,
--220,
--147,
--185,
--167,
--111,
--208,
--208,
--167,
--212,
--250,
--250,
--140,
--118,
--244,
--256,
--184,
--179,
-107,
-130,
--1,
--2,
--3,
--4,
--5,
--6,
-0
+-119
 );
 stemValues = (
 70,
@@ -1439,6 +3318,470 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = "ka-beng";
+},
+{
+name = "Replace Feature";
+value = "abvm;# Automatic Code End
+
+# Condensed Black
+
+@BNG_VEDIC_ALL = [uni0951 uni1CD0 uni1CD2 uni1CF5.stack uni1CF6.stack uni0952 uni1CD5 uni1CD6 uni1CD8 uni1CED];
+
+lookup BNG_dflt_abvm_vedicMatraShift_1 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos b-beng.half2 ka-beng.arm @BNG_VEDIC_ALL' <-82 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_1;
+
+lookup BNG_dflt_abvm_vedicMatraShift_2 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos g-beng.half headline-beng.130 @BNG_VEDIC_ALL' <-273 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_2;
+
+lookup BNG_dflt_abvm_vedicMatraShift_3 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half gh-beng.half @BNG_VEDIC_ALL' <-262 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_3;
+
+lookup BNG_dflt_abvm_vedicMatraShift_4 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half1 ma-beng.side1 @BNG_VEDIC_ALL' <-265 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_4;
+
+lookup BNG_dflt_abvm_vedicMatraShift_5 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-264 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_5;
+
+lookup BNG_dflt_abvm_vedicMatraShift_6 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.200 @BNG_VEDIC_ALL' <-323 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_6;
+
+lookup BNG_dflt_abvm_vedicMatraShift_7 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-311 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_7;
+
+lookup BNG_dflt_abvm_vedicMatraShift_8 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-310 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_8;
+
+lookup BNG_dflt_abvm_vedicMatraShift_9 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half @BNG_VEDIC_ALL' <-177 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_9;
+
+lookup BNG_dflt_abvm_vedicMatraShift_10 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pha-beng.side @BNG_VEDIC_ALL' <-254 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_10;
+
+lookup BNG_dflt_abvm_vedicMatraShift_11 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos m-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-159 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_11;
+
+lookup BNG_dflt_abvm_vedicMatraShift_12 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-291 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_12;
+
+lookup BNG_dflt_abvm_vedicMatraShift_13 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-290 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_13;
+
+lookup BNG_dflt_abvm_vedicMatraShift_14 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half @BNG_VEDIC_ALL' <-143 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_14;
+
+lookup BNG_dflt_abvm_vedicMatraShift_15 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half headline-beng.250 @BNG_VEDIC_ALL' <-197 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_15;
+
+lookup BNG_dflt_abvm_vedicMatraShift_16 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half @BNG_VEDIC_ALL' <-197 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_16;
+
+lookup BNG_dflt_abvm_vedicMatraShift_17 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pha-beng.side @BNG_VEDIC_ALL' <-275 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_17;
+
+lookup BNG_dflt_abvm_vedicMatraShift_18 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-176 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_18;
+
+lookup BNG_dflt_abvm_vedicMatraShift_19 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos b-beng.half2 ka-beng.arm1 @BNG_VEDIC_ALL' <-322 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_19;
+
+lookup BNG_dflt_abvm_vedicMatraShift_20 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ta-beng headline-beng.200 @BNG_VEDIC_ALL' <-294 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_20;
+
+lookup BNG_dflt_abvm_vedicMatraShift_21 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_t-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-291 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_21;
+
+lookup BNG_dflt_abvm_vedicMatraShift_22 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ra-beng headline-beng.200 @BNG_VEDIC_ALL' <-283 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_22;
+
+lookup BNG_dflt_abvm_vedicMatraShift_23 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half da-beng.side @BNG_VEDIC_ALL' <-273 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_23;
+
+lookup BNG_dflt_abvm_vedicMatraShift_24 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half d-beng.side @BNG_VEDIC_ALL' <-273 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_24;
+
+lookup BNG_dflt_abvm_vedicMatraShift_25 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half ma-beng.side @BNG_VEDIC_ALL' <-272 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_25;
+
+lookup BNG_dflt_abvm_vedicMatraShift_26 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ssa-beng @BNG_VEDIC_ALL' <-272 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_26;
+
+lookup BNG_dflt_abvm_vedicMatraShift_27 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ss-beng.half @BNG_VEDIC_ALL' <-274 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_27;
+
+lookup BNG_dflt_abvm_vedicMatraShift_28 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 kha-beng.side @BNG_VEDIC_ALL' <-246 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_28;
+
+lookup BNG_dflt_abvm_vedicMatraShift_29 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half gha-beng @BNG_VEDIC_ALL' <-262 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_29;
+
+lookup BNG_dflt_abvm_vedicMatraShift_30 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 ma-beng.side1 @BNG_VEDIC_ALL' <-252 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_30;
+
+lookup BNG_dflt_abvm_vedicMatraShift_31 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ca-beng @BNG_VEDIC_ALL' <-176 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_31;
+
+lookup BNG_dflt_abvm_vedicMatraShift_32 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half cha-beng @BNG_VEDIC_ALL' <-176 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_32;
+
+lookup BNG_dflt_abvm_vedicMatraShift_33 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ch-beng.half @BNG_VEDIC_ALL' <-177 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_33;
+
+lookup BNG_dflt_abvm_vedicMatraShift_34 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos j-beng.half aaMatra-beng.float @BNG_VEDIC_ALL' <-305 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_34;
+
+lookup BNG_dflt_abvm_vedicMatraShift_35 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ddh-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-232 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_35;
+
+lookup BNG_dflt_abvm_vedicMatraShift_36 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half ga-beng.side @BNG_VEDIC_ALL' <-217 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_36;
+
+lookup BNG_dflt_abvm_vedicMatraShift_37 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos dd-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-186 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_37;
+
+lookup BNG_dflt_abvm_vedicMatraShift_38 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-265 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_38;
+
+lookup BNG_dflt_abvm_vedicMatraShift_39 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half3 ttha-beng.side @BNG_VEDIC_ALL' <-247 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_39;
+
+lookup BNG_dflt_abvm_vedicMatraShift_40 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ma-beng.side @BNG_VEDIC_ALL' <-259 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_40;
+
+lookup BNG_dflt_abvm_vedicMatraShift_41 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos t-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-289 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_41;
+
+lookup BNG_dflt_abvm_vedicMatraShift_42 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 ga-beng.side @BNG_VEDIC_ALL' <-145 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_42;
+
+lookup BNG_dflt_abvm_vedicMatraShift_43 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 gha-beng @BNG_VEDIC_ALL' <-204 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_43;
+
+lookup BNG_dflt_abvm_vedicMatraShift_44 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos d-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-250 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_44;
+
+lookup BNG_dflt_abvm_vedicMatraShift_45 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-240 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_45;
+
+lookup BNG_dflt_abvm_vedicMatraShift_46 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dh-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-246 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_46;
+
+lookup BNG_dflt_abvm_vedicMatraShift_47 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.130 @BNG_VEDIC_ALL' <-242 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_47;
+
+lookup BNG_dflt_abvm_vedicMatraShift_48 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddha-beng.side @BNG_VEDIC_ALL' <-248 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_48;
+
+lookup BNG_dflt_abvm_vedicMatraShift_49 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddh-beng.side @BNG_VEDIC_ALL' <-240 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_49;
+
+lookup BNG_dflt_abvm_vedicMatraShift_50 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ttha-beng.side @BNG_VEDIC_ALL' <-249 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_50;
+
+lookup BNG_dflt_abvm_vedicMatraShift_51 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline dda-beng.side @BNG_VEDIC_ALL' <-221 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_51;
+
+lookup BNG_dflt_abvm_vedicMatraShift_52 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline da-beng @BNG_VEDIC_ALL' <-123 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_52;
+
+lookup BNG_dflt_abvm_vedicMatraShift_53 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half3 @BNG_VEDIC_ALL' <-129 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_53;
+
+lookup BNG_dflt_abvm_vedicMatraShift_54 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half @BNG_VEDIC_ALL' <-124 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_54;
+
+lookup BNG_dflt_abvm_vedicMatraShift_55 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline aaMatra-beng.part @BNG_VEDIC_ALL' <-122 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_55;
+
+lookup BNG_dflt_abvm_vedicMatraShift_56 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ma-beng.side @BNG_VEDIC_ALL' <-235 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_56;
+
+lookup BNG_dflt_abvm_vedicMatraShift_57 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-300 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_57;
+
+lookup BNG_dflt_abvm_vedicMatraShift_58 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-299 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_58;
+
+lookup BNG_dflt_abvm_vedicMatraShift_59 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half ma-beng.side @BNG_VEDIC_ALL' <-289 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_59;
+
+lookup BNG_dflt_abvm_vedicMatraShift_60 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos b-beng.half2 headline-beng.250 @BNG_VEDIC_ALL' <-187 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_60;
+
+lookup BNG_dflt_abvm_vedicMatraShift_61 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pa-beng @BNG_VEDIC_ALL' <-173 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_61;
+
+lookup BNG_dflt_abvm_vedicMatraShift_62 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-157 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_62;
+
+lookup BNG_dflt_abvm_vedicMatraShift_63 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-251 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_63;
+
+lookup BNG_dflt_abvm_vedicMatraShift_64 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half sa-beng @BNG_VEDIC_ALL' <-181 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_64;
+
+lookup BNG_dflt_abvm_vedicMatraShift_65 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos l-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-291 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_65;
+
+lookup BNG_dflt_abvm_vedicMatraShift_66 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part2 @BNG_VEDIC_ALL' <-171 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_66;
+
+lookup BNG_dflt_abvm_vedicMatraShift_67 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-296 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_67;
+
+lookup BNG_dflt_abvm_vedicMatraShift_68 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-295 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_68;
+
+lookup BNG_dflt_abvm_vedicMatraShift_69 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 dda-beng.side @BNG_VEDIC_ALL' <-294 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_69;
+
+lookup BNG_dflt_abvm_vedicMatraShift_70 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part.short @BNG_VEDIC_ALL' <-163 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_70;
+
+lookup BNG_dflt_abvm_vedicMatraShift_71 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 da-beng @BNG_VEDIC_ALL' <-172 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_71;
+
+lookup BNG_dflt_abvm_vedicMatraShift_72 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 d-beng.side @BNG_VEDIC_ALL' <-291 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_72;
+
+lookup BNG_dflt_abvm_vedicMatraShift_73 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part @BNG_VEDIC_ALL' <-171 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_73;
+
+lookup BNG_dflt_abvm_vedicMatraShift_74 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ma-beng.side @BNG_VEDIC_ALL' <-288 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_74;
+
+lookup BNG_dflt_abvm_vedicMatraShift_75 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half cha-beng.side @BNG_VEDIC_ALL' <-285 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_75;
+
+lookup BNG_dflt_abvm_vedicMatraShift_76 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ma-beng.side @BNG_VEDIC_ALL' <-285 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_76;
+
+lookup BNG_dflt_abvm_vedicMatraShift_77 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.250 @BNG_VEDIC_ALL' <-155 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_77;
+
+lookup BNG_dflt_abvm_vedicMatraShift_78 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half3 headline-beng.200 @BNG_VEDIC_ALL' <-279 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_78;
+
+lookup BNG_dflt_abvm_vedicMatraShift_79 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pa-beng @BNG_VEDIC_ALL' <-138 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_79;
+
+lookup BNG_dflt_abvm_vedicMatraShift_80 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half2 @BNG_VEDIC_ALL' <-125 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_80;
+
+lookup BNG_dflt_abvm_vedicMatraShift_81 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pha-beng.side @BNG_VEDIC_ALL' <-225 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_81;
+
+lookup BNG_dflt_abvm_vedicMatraShift_82 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.200 @BNG_VEDIC_ALL' <-129 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_82;
+
+lookup BNG_dflt_abvm_vedicMatraShift_83 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 ma-beng.side2 @BNG_VEDIC_ALL' <-222 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_83;
+
+lookup BNG_dflt_abvm_vedicMatraShift_84 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half2 headline-beng.200 @BNG_VEDIC_ALL' <-279 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_84;
+
+lookup BNG_dflt_abvm_vedicMatraShift_85 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddha-beng.side @BNG_VEDIC_ALL' <-269 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_85;
+
+lookup BNG_dflt_abvm_vedicMatraShift_86 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddh-beng.side @BNG_VEDIC_ALL' <-268 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_86;
+
+lookup BNG_dflt_abvm_vedicMatraShift_87 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pa-beng @BNG_VEDIC_ALL' <-192 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_87;
+
+lookup BNG_dflt_abvm_vedicMatraShift_88 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-177 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_88;
+
+lookup BNG_dflt_abvm_vedicMatraShift_89 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-272 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_89;
+
+lookup BNG_dflt_abvm_vedicMatraShift_90 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ha-beng headline-beng.200 @BNG_VEDIC_ALL' <-217 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_90;
+
+lookup BNG_dflt_abvm_vedicMatraShift_91 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ha-beng headline-beng.250 @BNG_VEDIC_ALL' <-177 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_91;
+";
 }
 );
 guides = (
@@ -1498,71 +3841,7 @@ numberValues = (
 -195,
 -141,
 -149,
--158,
--268,
--292,
--267,
--246,
--174,
--353,
--263,
--275,
--225,
--256,
--240,
--269,
-89,
-89,
-89,
--291,
--235,
--266,
--246,
--235,
--203,
--302,
--321,
--288,
--294,
--242,
--234,
--265,
--250,
--231,
--285,
--285,
--315,
--276,
--226,
--268,
--259,
--281,
--236,
--159,
--196,
--176,
--125,
--237,
--234,
--182,
--267,
--286,
--284,
--154,
--144,
--192,
--289,
--217,
--175,
-105,
-106,
--1,
--2,
--3,
--4,
--5,
--6,
-0
+-158
 );
 stemValues = (
 150,
@@ -3712,198 +5991,6 @@ name = KERN_onTheFly_MPLa;
 },
 {
 name = KERN_onTheFly_SsPLa;
-},
-{
-name = VEDIC_gHalf;
-},
-{
-name = VEDIC_gHalf2;
-},
-{
-name = VEDIC_ng;
-},
-{
-name = VEDIC_ngHalf2;
-},
-{
-name = VEDIC_cHalf;
-},
-{
-name = VEDIC_jHalf;
-},
-{
-name = VEDIC_ddHalf1;
-},
-{
-name = VEDIC_ddHalf;
-},
-{
-name = VEDIC_ddhHalf;
-},
-{
-name = VEDIC_nnHalf;
-},
-{
-name = VEDIC_nnHalf3;
-},
-{
-name = VEDIC_tHalf;
-},
-{
-name = VEDIC_kTa;
-},
-{
-name = VEDIC_kTaHalf;
-},
-{
-name = VEDIC_kRa;
-},
-{
-name = VEDIC_thHalf;
-},
-{
-name = VEDIC_dHalf;
-},
-{
-name = VEDIC_dHalf2;
-},
-{
-name = VEDIC_dHalf3;
-},
-{
-name = VEDIC_nHeadline;
-},
-{
-name = VEDIC_dHalf4;
-},
-{
-name = VEDIC_nSHalf;
-},
-{
-name = VEDIC_nKTa;
-},
-{
-name = VEDIC_pHalf;
-},
-{
-name = VEDIC_pHalf3;
-},
-{
-name = VEDIC_bHalf;
-},
-{
-name = VEDIC_bHalf2;
-},
-{
-name = VEDIC_bhHalf;
-},
-{
-name = VEDIC_mHalf;
-},
-{
-name = VEDIC_ra;
-},
-{
-name = VEDIC_lHalf3;
-},
-{
-name = VEDIC_shHalf;
-},
-{
-name = VEDIC_shHalf2;
-},
-{
-name = VEDIC_ssHalf3;
-},
-{
-name = VEDIC_ssHalf4;
-},
-{
-name = VEDIC_sHalf;
-},
-{
-name = VEDIC_sHalf4;
-},
-{
-name = VEDIC_sHalf2;
-},
-{
-name = VEDIC_ramiddlediagonal;
-},
-{
-name = VEDIC_mBa;
-},
-{
-name = VEDIC_sKa;
-},
-{
-name = VEDIC_sBa;
-},
-{
-name = VEDIC_nDa;
-},
-{
-name = VEDIC_nDha;
-},
-{
-name = VEDIC_nMa;
-},
-{
-name = VEDIC_bDha;
-},
-{
-name = VEDIC_bhRUu;
-},
-{
-name = VEDIC_lKa;
-},
-{
-name = VEDIC_lMa;
-},
-{
-name = VEDIC_ssKa;
-},
-{
-name = VEDIC_ssBa;
-},
-{
-name = VEDIC_sKRa;
-},
-{
-name = VEDIC_sRU;
-},
-{
-name = VEDIC_hRvoc;
-},
-{
-name = VEDIC_hNa;
-},
-{
-name = VEDIC_ddhaSide;
-},
-{
-name = VEDIC_ddhaHalfSide;
-},
-{
-name = VEDIC_dhHalf;
-},
-{
-name = VEDIC_nDda;
-},
-{
-name = VEDIC_mSa;
-},
-{
-name = VEDIC_lGa;
-},
-{
-name = VEDIC_sPa;
-},
-{
-name = VEDIC_mPa;
-},
-{
-name = VEDIC_ssPa;
 }
 );
 properties = (
