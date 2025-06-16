@@ -1326,9 +1326,11 @@ lookup BNG_blws_onTheFly_uMatraLiga{
     sub [n-beng.half3 s-beng.half3] ta-beng.blws' uMatra-beng' by ta_uMatra-beng.blws;
 } BNG_blws_onTheFly_uMatraLiga;
 
+@BNG_BLWS_VOWELS_ALL=[uMatra-beng uuMatra-beng rVocalicMatra-beng rrVocalicMatra-beng lVocalicMatra-beng llVocalicMatra-beng uMatra-beng.alt uMatra-beng.alt1 uMatra-beng.round uMatra-beng.low uuMatra-beng.alt uuMatra-beng.alt1 uuMatra-beng.alt2 uuMatra-beng.round uuMatra-beng.low rVocalicMatra-beng.alt rrVocalicMatra-beng.alt lVocalicMatra-beng.alt llVocalicMatra-beng.alt];
+
 lookup BNG_blws_vowelAlternates_nukta{
-    lookupflag UseMarkFilteringSet [nukta-beng @BNG_BLWS_VOWELS uMatra-beng.alt uuMatra-beng.alt uMatra-beng.low uuMatra-beng.low];
-    sub [ddha-beng dda-beng] nukta-beng @BNG_BLWS_VOWELS' by [uMatra-beng.alt uuMatra-beng.alt];
+    lookupflag UseMarkFilteringSet [nukta-beng @BNG_BLWS_VOWELS_ALL];
+    sub [ddha-beng dda-beng ha-beng] nukta-beng [@BNG_BLWS_VOWELS rVocalicMatra-beng rrVocalicMatra-beng lVocalicMatra-beng llVocalicMatra-beng]' by [uMatra-beng.alt uuMatra-beng.alt rVocalicMatra-beng.alt rrVocalicMatra-beng.alt lVocalicMatra-beng.alt llVocalicMatra-beng.alt];
     sub [ya-beng] nukta-beng @BNG_BLWS_VOWELS' by [uMatra-beng.low uuMatra-beng.low];
 } BNG_blws_vowelAlternates_nukta;
 

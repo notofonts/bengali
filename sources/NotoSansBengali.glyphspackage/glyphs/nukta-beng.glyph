@@ -74,7 +74,7 @@ pos = (0,-68);
 },
 {
 name = bottom_nukta;
-pos = (0,-220);
+pos = (0,-200);
 }
 );
 background = {
