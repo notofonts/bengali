@@ -55,7 +55,7 @@ languagesystem beng dflt;
 @BNG_TTA_FLAGS = [tta-beng.flag tta-beng.flag2 tta-beng.flag3 tta-beng.flagIMatra1 tta-beng.flagIMatra2 tta-beng.flagIMatra3 tta-beng.flagIiMatra tta-beng.flagIiMatra2 tta-beng.flagIiMatra3 ];
 @BNG_TTHA_TOP = [ttha-beng.top ttha-beng.top2 ttha-beng.topIMatra ttha-beng.topIMatra2];
 
-@BNG_BASE_NUBS = [kha-beng ga-beng nna-beng tha-beng pa-beng sha-beng g-beng.half2 nn-beng.half2 p-beng.half p-beng.half2 sh-beng.half2 ];
+@BNG_BASE_NUBS = [kha-beng ga-beng nna-beng tha-beng pa-beng sha-beng g-beng.half2 nn-beng.half2 p-beng.half p-beng.half2 sh-beng.half2 ny_ca-beng t_tha-beng s_kha-beng ny_c_ba-beng];
 
 @BNG_IMATRA_TTHA = [iMatra-beng.tthaAlt1 iMatra-beng.tthaAlt2 iMatra-beng.tthaAlt3];
 
@@ -1244,7 +1244,7 @@ lookup BNG_abvs_SwapReph{
 lookup BNG_abvs_smallCandrabindu {
     lookupflag UseMarkFilteringSet [reph-beng candrabindu-beng candrabindu-beng.small tta-beng.flag tta-beng.flag2 tta-beng.flag3];
     sub [reph-beng iiMatra-beng auLength-beng tta-beng.flag tta-beng.flag2 tta-beng.flag3 tta-beng ttha-beng tth-beng.half ttha-beng.side ss_ttha-beng.notop] candrabindu-beng' by candrabindu-beng.small;
-    sub @BNG_BASE_NUBS candrabindu-beng' @BNG_IMATRAS by candrabindu-beng.small;
+    sub @BNG_IMATRAS @BNG_BASE_NUBS candrabindu-beng' by candrabindu-beng.small;
 } BNG_abvs_smallCandrabindu;
 
 lookup BNG_abvs_altReph {
