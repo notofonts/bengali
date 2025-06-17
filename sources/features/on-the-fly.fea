@@ -1243,7 +1243,7 @@ lookup BNG_abvs_smallCandrabindu {
 } BNG_abvs_smallCandrabindu;
 
 lookup BNG_abvs_altReph {
-    lookupflag UseMarkFilteringSet [reph-beng reph-beng.altIiMatra reph-beng.altAuLength reph-beng.altTtha tta-beng.flag tta-beng.flag2 tta-beng.flag tta-beng.flagIMatra1 tta-beng.flagIMatra2 tta-beng.flagIMatra3 ];
+    lookupflag UseMarkFilteringSet [reph-beng reph-beng.altIiMatra reph-beng.altAuLength reph-beng.altTtha tta-beng.flag tta-beng.flag2 tta-beng.flag3 tta-beng.flagIMatra1 tta-beng.flagIMatra2 tta-beng.flagIMatra3 ];
     sub iiMatra-beng reph-beng' by reph-beng.altIiMatra;
     sub [auLength-beng tta-beng tta-beng.flag tta-beng.flag2 tta-beng.flag3] reph-beng' by reph-beng.altAuLength;
     sub [iMatra-beng.ttaAlt1 iMatra-beng.ttaAlt2 iMatra-beng.ttaAlt3 iMatra-beng.ttaAlt4] reph-beng' by reph-beng.altAuLength;
