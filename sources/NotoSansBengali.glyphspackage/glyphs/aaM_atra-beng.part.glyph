@@ -15,6 +15,10 @@ name = bottom_markMainForm;
 pos = (95,291);
 },
 {
+name = top_candrabindu;
+pos = (134,622);
+},
+{
 name = top_headline130;
 pos = (254,551);
 },
@@ -91,6 +95,10 @@ pos = (94,195);
 {
 name = bottom_markMainForm;
 pos = (94,288);
+},
+{
+name = top_candrabindu;
+pos = (105,607);
 },
 {
 name = top_headline130;
@@ -171,6 +179,10 @@ name = bottom_markMainForm;
 pos = (78,300);
 },
 {
+name = top_candrabindu;
+pos = (156,635);
+},
+{
 name = top_headline130;
 pos = (295,505);
 },
@@ -247,6 +259,10 @@ pos = (63,192);
 {
 name = bottom_markMainForm;
 pos = (63,293);
+},
+{
+name = top_candrabindu;
+pos = (74,607);
 },
 {
 name = top_headline130;
@@ -333,12 +349,16 @@ name = bottom_markMainForm;
 pos = (66,291);
 },
 {
+name = top_candrabindu;
+pos = (102,621);
+},
+{
 name = top_headline130;
 pos = (194,558);
 },
 {
 name = top_vedic;
-pos = (101,622);
+pos = (101,621);
 }
 );
 background = {
@@ -409,6 +429,10 @@ pos = (43,174);
 {
 name = bottom_markMainForm;
 pos = (43,298);
+},
+{
+name = top_candrabindu;
+pos = (123,634);
 },
 {
 name = top_headline130;
