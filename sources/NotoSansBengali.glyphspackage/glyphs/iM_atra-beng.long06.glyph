@@ -40,7 +40,7 @@ width = 233;
 anchors = (
 {
 name = top_iMatra;
-pos = (1025,683);
+pos = (985,683);
 }
 );
 background = {
@@ -63,7 +63,7 @@ layerId = UUID0;
 shapes = (
 {
 piece = {
-Length = 470;
+Length = 430;
 };
 ref = "_smart-iMatra-beng";
 }
@@ -142,7 +142,7 @@ width = 164;
 anchors = (
 {
 name = top_iMatra;
-pos = (753,688);
+pos = (743,688);
 }
 );
 background = {
@@ -165,7 +165,7 @@ layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
 piece = {
-Length = 463;
+Length = 443;
 };
 ref = "_smart-iMatra-beng";
 }

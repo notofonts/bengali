@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = top_iMatra;
-pos = (942,694);
+pos = (1047,688);
 }
 );
 background = {
@@ -102,7 +102,7 @@ width = 233;
 anchors = (
 {
 name = top_iMatra;
-pos = (1043,706);
+pos = (1044,724);
 }
 );
 background = {
@@ -294,7 +294,7 @@ width = 290;
 anchors = (
 {
 name = top_iMatra;
-pos = (660,694);
+pos = (724,699);
 }
 );
 background = {
