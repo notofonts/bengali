@@ -1066,6 +1066,21 @@ lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.2
 } BNG_dflt_abvm_vedicMatraShift_91;
 ";
 tag = abvm;
+},
+{
+code = "# Automatic Code End
+
+lookup BNG_blwm_iMatra_CandrabinduSmall{
+	lookupflag UseMarkFilteringSet [candrabindu-beng.small aaMatra-beng.side];
+	pos @BNG_IMATRAS @BNG_BASE_NUBS candrabindu-beng.small' <$ABVM_smallCandrabindu_right $ABVM_smallCandrabindu_up 0 0>;
+	pos @BNG_IMATRAS @BNG_BASE_FLOATING_NUBS aaMatra-beng.side candrabindu-beng.small' <$ABVM_smallCandrabindu_right $ABVM_smallCandrabindu_up 0 0>;
+	pos @BNG_IMATRAS [dd-beng.half d-beng.half4] ga-beng.side candrabindu-beng.small' <$ABVM_smallCandrabindu_right $ABVM_smallCandrabindu_up 0 0>;
+    pos @BNG_IMATRAS [m-beng.half ss-beng.half4 s-beng.half ] [pa-beng p-beng.half p-beng.half2] candrabindu-beng.small' <$ABVM_smallCandrabindu_right $ABVM_smallCandrabindu_up 0 0>;
+    pos @BNG_IMATRAS [ng-beng.half] [gha-beng gh-beng.half] candrabindu-beng.small' <$ABVM_smallCandrabindu_right $ABVM_smallCandrabindu_up 0 0>;
+    pos @BNG_IMATRAS [ng-beng.half2] [kha-beng.side] candrabindu-beng.small' <$ABVM_smallCandrabindu_right $ABVM_smallCandrabindu_up 0 0>;
+}BNG_blwm_iMatra_CandrabinduSmall;
+";
+tag = blwm;
 }
 );
 fontMaster = (
@@ -1133,6 +1148,7 @@ numberValues = (
 -170,
 -120,
 -120,
+0,
 0
 );
 stemValues = (
@@ -1682,7 +1698,8 @@ numberValues = (
 -180,
 -167,
 -166,
-20
+20,
+10
 );
 stemValues = (
 77,
@@ -2231,7 +2248,8 @@ numberValues = (
 -190,
 -230,
 -210,
-200
+60,
+30
 );
 stemValues = (
 164,
@@ -2768,6 +2786,7 @@ numberValues = (
 -125,
 -86,
 -65,
+0,
 0
 );
 stemValues = (
@@ -3311,7 +3330,8 @@ numberValues = (
 -147,
 -120,
 -119,
-20
+20,
+0
 );
 stemValues = (
 70,
@@ -3853,7 +3873,8 @@ numberValues = (
 -141,
 -149,
 -158,
-200
+60,
+10
 );
 stemValues = (
 150,
@@ -6839,7 +6860,10 @@ name = KERN_onTheFly_MPLa;
 name = KERN_onTheFly_SsPLa;
 },
 {
-name = ABVM_smallCandrabindu;
+name = ABVM_smallCandrabindu_up;
+},
+{
+name = ABVM_smallCandrabindu_right;
 }
 );
 properties = (

@@ -74,7 +74,7 @@ width = 266;
 anchors = (
 {
 name = top_iMatra;
-pos = (1212,668);
+pos = (1140,668);
 }
 );
 background = {
@@ -97,7 +97,7 @@ layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
 shapes = (
 {
 piece = {
-Length = 570;
+Length = 510;
 };
 ref = "_smart-iMatra-beng";
 }
@@ -142,7 +142,7 @@ width = 164;
 anchors = (
 {
 name = top_iMatra;
-pos = (834,689);
+pos = (825,689);
 }
 );
 background = {
@@ -165,7 +165,7 @@ layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
 shapes = (
 {
 piece = {
-Length = 563;
+Length = 530;
 };
 ref = "_smart-iMatra-beng";
 }
@@ -176,7 +176,7 @@ width = 202;
 anchors = (
 {
 name = top_iMatra;
-pos = (962,672);
+pos = (884,673);
 }
 );
 background = {
@@ -199,7 +199,7 @@ layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
 shapes = (
 {
 piece = {
-Length = 570;
+Length = 470;
 };
 ref = "_smart-iMatra-beng";
 }
