@@ -1132,7 +1132,8 @@ numberValues = (
 -157,
 -170,
 -120,
--120
+-120,
+0
 );
 stemValues = (
 21,
@@ -1680,7 +1681,8 @@ numberValues = (
 -229,
 -180,
 -167,
--166
+-166,
+20
 );
 stemValues = (
 77,
@@ -2228,7 +2230,8 @@ numberValues = (
 -253,
 -190,
 -230,
--210
+-210,
+200
 );
 stemValues = (
 164,
@@ -2764,7 +2767,8 @@ numberValues = (
 -113,
 -125,
 -86,
--65
+-65,
+0
 );
 stemValues = (
 20,
@@ -3306,7 +3310,8 @@ numberValues = (
 -158,
 -147,
 -120,
--119
+-119,
+20
 );
 stemValues = (
 70,
@@ -3847,7 +3852,8 @@ numberValues = (
 -195,
 -141,
 -149,
--158
+-158,
+200
 );
 stemValues = (
 150,
@@ -6831,6 +6837,9 @@ name = KERN_onTheFly_MPLa;
 },
 {
 name = KERN_onTheFly_SsPLa;
+},
+{
+name = ABVM_smallCandrabindu;
 }
 );
 properties = (
