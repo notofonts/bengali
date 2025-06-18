@@ -1070,6 +1070,7 @@ tag = abvm;
 {
 code = "# Automatic Code End
 
+
 lookup BNG_blwm_iMatra_CandrabinduSmall{
 	lookupflag UseMarkFilteringSet [candrabindu-beng.small aaMatra-beng.side];
 	pos @BNG_IMATRAS @BNG_BASE_NUBS candrabindu-beng.small' <$ABVM_smallCandrabindu_right $ABVM_smallCandrabindu_up 0 0>;
@@ -1084,7 +1085,8 @@ lookup BNG_blwm_iMatra_CandrabinduSmall{
 lookup BNG_blwm_vedicTta_shiftUp{
 	lookupflag IgnoreBaseGlyphs;
 	pos [uni1CF5.stack uni1CF6.stack]' @BNG_TTA_FLAGS <0 $ABVM_vedicTta_up 0 0>;
-} BNG_blwm_vedicTta_shiftUp;";
+} BNG_blwm_vedicTta_shiftUp;
+";
 tag = blwm;
 }
 );

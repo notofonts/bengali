@@ -99,7 +99,7 @@ languagesystem beng dflt;
 
 @BNG_RCLT_BASES_VEDIC1CF5 = [ka-beng k-beng.half k_ma-beng k_ssa-beng k_ss_ma-beng k_sa-beng k_tta-beng.noflag k_ss-beng.half kha-beng kh-beng.half];
 @BNG_RCLT_BASES_VEDIC1CF6 = [pa-beng p_sa-beng p-beng.half p-beng.half2 p-beng.half3 pha-beng ph_tta-beng.noflag ph-beng.half];
-@BNG_RCLT_BASES_KA_ARM = [ka-beng.arm ka-beng.arm1 ka-beng.arm2];
+@BNG_RCLT_BASES_KA_ARM = [ka-beng.arm ka-beng.arm1];
 
 
 # --------
@@ -270,7 +270,7 @@ lookup BNG_rclt_swapVedicStacks_addMark {
     #ka multipart
     sub ka-beng.arm' by ka-beng.arm uni1CF5.stack;
     sub ka-beng.arm1' by ka-beng.arm1 uni1CF5.stack;
-    sub ka-beng.arm2' by ka-beng.arm2 uni1CF5.stack;
+    sub headline-beng.200' by headline-beng.200 uni1CF5.stack;
     #kha
     sub kha-beng' by kha-beng uni1CF5.stack;
     sub kh-beng.half' by kh-beng.half uni1CF5.stack;
@@ -281,6 +281,10 @@ lookup BNG_rclt_swapVedicStacks_addMark {
     sub p-beng.half' by p-beng.half uni1CF6.stack;
     sub p-beng.half2' by p-beng.half2 uni1CF6.stack;
     sub p-beng.half3' by p-beng.half3 uni1CF6.stack;
+    #pa wide
+    sub ddha-beng.side' by ddha-beng.side uni1CF6.stack;
+    sub ddh-beng.side' by ddh-beng.side uni1CF6.stack;
+    sub ma-beng.side' by ma-beng.side uni1CF6.stack;
     #pha
     sub pha-beng' by pha-beng uni1CF6.stack;
     sub ph_tta-beng.noflag' by ph_tta-beng.noflag uni1CF6.stack;
@@ -289,12 +293,12 @@ lookup BNG_rclt_swapVedicStacks_addMark {
 
 
 
-lookup BNG_rclt_swapVedicStacks_addMark_kaPart {
-    sub b-beng.half2' by b-beng.half2 uni1CF6.stack;
-    sub t_ta-beng' by t_ta-beng uni1CF6.stack;
-    sub t_t-beng.half' by t_t-beng.half uni1CF6.stack;
-    sub t_ra-beng' by t_ra-beng uni1CF6.stack;
-} BNG_rclt_swapVedicStacks_addMark_kaPart;
+# lookup BNG_rclt_swapVedicStacks_addMark_kaPart {
+#     sub b-beng.half2' by b-beng.half2 uni1CF6.stack;
+#     sub t_ta-beng' by t_ta-beng uni1CF6.stack;
+#     sub t_t-beng.half' by t_t-beng.half uni1CF6.stack;
+#     sub t_ra-beng' by t_ra-beng uni1CF6.stack;
+# } BNG_rclt_swapVedicStacks_addMark_kaPart;
 
 
 # ---------
@@ -1413,16 +1417,19 @@ script bng2;
 
 #SWAP VEDIC STACKS
 
+lookup BNG_rclt_swapVedicStacks_context {
+    lookupflag UseMarkFilteringSet [@BNG_RCLT_BASES_KA_ARM uni1CF5.stack uni1CF6.stack headline-beng.200];
+    sub uni1CF5' lookup BNG_rclt_swapVedicStacks_removeMark [b-beng.half2]' @BNG_RCLT_BASES_KA_ARM' lookup BNG_rclt_swapVedicStacks_addMark;
+    sub uni1CF5' lookup BNG_rclt_swapVedicStacks_removeMark [t_ta-beng t_t-beng.half t_ra-beng]' headline-beng.200' lookup BNG_rclt_swapVedicStacks_addMark;
+    sub uni1CF6' lookup BNG_rclt_swapVedicStacks_removeMark [p-beng.half p-beng.half3]' [ddha-beng.side ddh-beng.side ma-beng.side]' lookup BNG_rclt_swapVedicStacks_addMark;
+} BNG_rclt_swapVedicStacks_context;
+
 lookup BNG_abvs_swapVedicStacks {
     lookupflag 0;
     sub uni1CF5' lookup BNG_rclt_swapVedicStacks_removeMark @BNG_RCLT_BASES_VEDIC1CF5' lookup BNG_rclt_swapVedicStacks_addMark;
     sub uni1CF6' lookup BNG_rclt_swapVedicStacks_removeMark @BNG_RCLT_BASES_VEDIC1CF6' lookup BNG_rclt_swapVedicStacks_addMark;
 } BNG_abvs_swapVedicStacks;
 
-lookup BNG_rclt_swapVedicStacks_context {
-    lookupflag UseMarkFilteringSet [@BNG_RCLT_BASES_KA_ARM uni1CF5.stack uni1CF6.stack];
-    sub uni1CF5' lookup BNG_rclt_swapVedicStacks_removeMark [b-beng.half2 t_ta-beng t_t-beng.half t_ra-beng]' @BNG_RCLT_BASES_KA_ARM' lookup BNG_rclt_swapVedicStacks_addMark;
-} BNG_rclt_swapVedicStacks_context;
 
 language PAL;
 
