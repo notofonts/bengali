@@ -734,8 +734,8 @@ lookup BNG_abvs_swapCandrabinduMarkIMatra_1 {
 lookup BNG_abvs_swapCandrabinduMarkIMatra_2 {
     lookupflag UseMarkFilteringSet [candrabindu-beng candrabindu-beng.altIMatra aaMatra-beng.side];
     sub iMatra-beng candrabindu-beng.altIMatra [g-beng.half nn-beng.half sh-beng.half n_s-beng.half p-beng.half] @BNG_BASE_SIDE candrabindu-beng' by uni200B;
-    sub iMatra-beng candrabindu-beng.altIMatra @BNG_BASE_IMATRAREPH_SWAP @BNG_ALL_BASES candrabindu-beng' by uni200B;
     sub iMatra-beng candrabindu-beng.altIMatra @BNG_BASE_IMATRAREPH_SWAP @BNG_ALL_BASES @BNG_ALL_BASES candrabindu-beng' by uni200B;
+    sub iMatra-beng candrabindu-beng.altIMatra @BNG_BASE_IMATRAREPH_SWAP @BNG_ALL_BASES candrabindu-beng' by uni200B;
     sub iMatra-beng candrabindu-beng.altIMatra @BNG_BASE_IMATRAREPH_SWAP candrabindu-beng' by uni200B;
 } BNG_abvs_swapCandrabinduMarkIMatra_2;
 
@@ -743,8 +743,9 @@ lookup BNG_abvs_swapRephMarkIMatra_1 {
     lookupflag UseMarkFilteringSet [reph-beng aaMatra-beng.side];
     ignore sub iMatra-beng' [dd-beng.half d-beng.half4] ga-beng reph-beng;
     ignore sub iMatra-beng' [m-beng.half s-beng.half ss-beng.half4] [pa-beng p-beng.half] reph-beng;
+    ignore sub iMatra-beng' [m-beng.half s-beng.half ss-beng.half4] [pa-beng p-beng.half] la-beng reph-beng;
     ignore sub iMatra-beng' ng-beng.half [gha-beng gh-beng.half k_ssa-beng k_ss-beng.half] reph-beng;
-    ignore sub iMatra-beng' ng-beng.half2 kha-beng.side reph-beng;
+    ignore sub iMatra-beng' ng-beng.half2 kha-beng reph-beng;
     sub iMatra-beng' [g-beng.half nn-beng.half sh-beng.half n_s-beng.half] @BNG_BASE_SIDE reph-beng by iMatra-beng reph-beng;
     sub iMatra-beng' @BNG_BASE_IMATRAREPH_SWAP @BNG_ALL_BASES @BNG_ALL_BASES reph-beng by iMatra-beng reph-beng;
     sub iMatra-beng' @BNG_BASE_IMATRAREPH_SWAP @BNG_ALL_BASES reph-beng by iMatra-beng reph-beng;
@@ -753,7 +754,7 @@ lookup BNG_abvs_swapRephMarkIMatra_1 {
 
 lookup BNG_abvs_swapRephMarkIMatra_2 {
     lookupflag UseMarkFilteringSet [reph-beng aaMatra-beng.side];
-    sub iMatra-beng reph-beng [g-beng.half nn-beng.half sh-beng.half n_s-beng.half] @BNG_BASE_SIDE reph-beng' by uni200B;
+    sub iMatra-beng reph-beng [g-beng.half nn-beng.half sh-beng.half n_s-beng.half p-beng.half] @BNG_BASE_SIDE reph-beng' by uni200B;
     sub iMatra-beng reph-beng @BNG_BASE_IMATRAREPH_SWAP @BNG_ALL_BASES @BNG_ALL_BASES reph-beng' by uni200B;
     sub iMatra-beng reph-beng @BNG_BASE_IMATRAREPH_SWAP @BNG_ALL_BASES reph-beng' by uni200B;
     sub iMatra-beng reph-beng @BNG_BASE_IMATRAREPH_SWAP reph-beng' by uni200B;
