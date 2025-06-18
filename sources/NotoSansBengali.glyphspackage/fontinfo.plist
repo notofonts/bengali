@@ -1078,8 +1078,13 @@ lookup BNG_blwm_iMatra_CandrabinduSmall{
     pos @BNG_IMATRAS [m-beng.half ss-beng.half4 s-beng.half ] [pa-beng p-beng.half p-beng.half2] candrabindu-beng.small' <$ABVM_smallCandrabindu_right $ABVM_smallCandrabindu_up 0 0>;
     pos @BNG_IMATRAS [ng-beng.half] [gha-beng gh-beng.half] candrabindu-beng.small' <$ABVM_smallCandrabindu_right $ABVM_smallCandrabindu_up 0 0>;
     pos @BNG_IMATRAS [ng-beng.half2] [kha-beng.side] candrabindu-beng.small' <$ABVM_smallCandrabindu_right $ABVM_smallCandrabindu_up 0 0>;
-}BNG_blwm_iMatra_CandrabinduSmall;
-";
+} BNG_blwm_iMatra_CandrabinduSmall;
+
+
+lookup BNG_blwm_vedicTta_shiftUp{
+	lookupflag IgnoreBaseGlyphs;
+	pos [uni1CF5.stack uni1CF6.stack]' @BNG_TTA_FLAGS <0 $ABVM_vedicTta_up 0 0>;
+} BNG_blwm_vedicTta_shiftUp;";
 tag = blwm;
 }
 );
@@ -1149,7 +1154,8 @@ numberValues = (
 -120,
 -120,
 0,
-0
+0,
+120
 );
 stemValues = (
 21,
@@ -1699,7 +1705,8 @@ numberValues = (
 -167,
 -166,
 20,
-10
+10,
+160
 );
 stemValues = (
 77,
@@ -2249,7 +2256,8 @@ numberValues = (
 -230,
 -210,
 60,
-30
+30,
+210
 );
 stemValues = (
 164,
@@ -2787,7 +2795,8 @@ numberValues = (
 -86,
 -65,
 0,
-0
+0,
+120
 );
 stemValues = (
 20,
@@ -3331,7 +3340,8 @@ numberValues = (
 -120,
 -119,
 20,
-0
+0,
+160
 );
 stemValues = (
 70,
@@ -3874,7 +3884,8 @@ numberValues = (
 -149,
 -158,
 60,
-10
+10,
+210
 );
 stemValues = (
 150,
@@ -6864,6 +6875,9 @@ name = ABVM_smallCandrabindu_up;
 },
 {
 name = ABVM_smallCandrabindu_right;
+},
+{
+name = ABVM_vedicTta_up;
 }
 );
 properties = (
