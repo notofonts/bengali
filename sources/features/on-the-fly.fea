@@ -451,7 +451,7 @@ lookup BNG_half_onTheFly_biconsonant_firstHalf {
     ignore sub @BNG_ALL_BASES' halant-beng' na-beng halant-beng [ja-beng sa-beng];
     ignore sub @BNG_ALL_BASES' halant-beng' pa-beng halant-beng sa-beng;
     ignore sub @BNG_ALL_BASES' halant-beng' ma-beng halant-beng [da-beng bha-beng];
-    ignore sub @BNG_ALL_BASES' halant-beng' la-beng halant-beng [gha-beng pha-beng bha-beng sa-beng];
+    ignore sub @BNG_ALL_BASES' halant-beng' la-beng halant-beng [gha-beng pha-beng bha-beng sa-beng ta-beng];
     ignore sub @BNG_ALL_BASES' halant-beng' pha-beng halant-beng ddha-beng;
     # ignore half-form formation to avoid bad floating half-forms
     ignore sub @BNG_ALL_HALFS @BNG_ALL_CONJUNCT_BASES' halant-beng';
