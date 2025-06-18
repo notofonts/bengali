@@ -723,6 +723,7 @@ lookup BNG_abvs_swapCandrabinduMarkIMatra_1 {
     ignore sub iMatra-beng' [dd-beng.half d-beng.half4] ga-beng candrabindu-beng;
     ignore sub iMatra-beng' [m-beng.half s-beng.half ss-beng.half4] [pa-beng p-beng.half] candrabindu-beng;
     ignore sub iMatra-beng' [m-beng.half s-beng.half ss-beng.half4] [pa-beng p-beng.half] la-beng candrabindu-beng;
+    ignore sub iMatra-beng' [p-beng.half] [ma-beng] candrabindu-beng;
     ignore sub iMatra-beng' ng-beng.half [gha-beng gh-beng.half k_ssa-beng k_ss-beng.half] candrabindu-beng;
     ignore sub iMatra-beng' ng-beng.half2 kha-beng candrabindu-beng;
     sub iMatra-beng' [g-beng.half nn-beng.half sh-beng.half n_s-beng.half p-beng.half] @BNG_BASE_SIDE candrabindu-beng by iMatra-beng candrabindu-beng.altIMatra;
@@ -1254,7 +1255,7 @@ lookup BNG_abvs_altReph {
     sub [iMatra-beng.ttaAlt1 iMatra-beng.ttaAlt2 iMatra-beng.ttaAlt3 iMatra-beng.ttaAlt4] reph-beng' by reph-beng.altAuLength;
     sub [ttha-beng ttha-beng.notop tth-beng.half ttha-beng.side ss_ttha-beng.notop] reph-beng' by reph-beng.altTtha;
     sub reph-beng' [ddha-beng ddh-beng.half k_tta-beng.noflag ph_tta-beng.noflag ss_tta-beng.noflag tt_tta-beng.noflag] [tta-beng.flagIMatra1 tta-beng.flagIMatra2 tta-beng.flagIMatra3 ] by reph-beng.altAuLength;
-    sub reph-beng' [nn-beng.half n-beng.headline p-beng.half3 l-beng.half3 s-beng.half4] [ddha-beng.side ddh-beng.side] [tta-beng.flagIMatra1 tta-beng.flagIMatra2 tta-beng.flagIMatra3 ] by reph-beng.altAuLength;
+    sub reph-beng' [nn-beng.half n-beng.headline p-beng.half3 l-beng.half3 s-beng.half4 n_s-beng.half] [ddha-beng.side ddh-beng.side] [tta-beng.flagIMatra1 tta-beng.flagIMatra2 tta-beng.flagIMatra3 ] by reph-beng.altAuLength;
 } BNG_abvs_altReph;
 
 lookup BNG_abvs_shorterIMatraReph { # For glyphs with nubs where the reph attaching to iMatra does not work
