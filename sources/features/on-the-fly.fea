@@ -97,7 +97,7 @@ languagesystem beng dflt;
 @BNG_EMATRA_LONG = [eMatra-beng.long eMatra-beng.long.init aiMatra-beng.long aiMatra-beng.long.init];
 @BNG_BASE_EMATRA_LONG = [kha-beng ga-beng sha-beng nna-beng tha-beng pa-beng k_ma-beng k_ssa-beng k_ss_ma-beng p_sa-beng b_da-beng m_da-beng j_ja-beng j_j_ba-beng dd_dda-beng dd-beng.half1 s_kha-beng];
 
-@BNG_RCLT_BASES_VEDIC1CF5 = [ka-beng k_ma-beng k_ssa-beng k_ss_ma-beng k_sa-beng k_tta-beng.noflag k_ss-beng.half kha-beng kh-beng.half];
+@BNG_RCLT_BASES_VEDIC1CF5 = [ka-beng k-beng.half k_ma-beng k_ssa-beng k_ss_ma-beng k_sa-beng k_tta-beng.noflag k_ss-beng.half kha-beng kh-beng.half];
 @BNG_RCLT_BASES_VEDIC1CF6 = [pa-beng p_sa-beng p-beng.half p-beng.half2 p-beng.half3 pha-beng ph_tta-beng.noflag ph-beng.half];
 @BNG_RCLT_BASES_KA_ARM = [ka-beng.arm ka-beng.arm1 ka-beng.arm2];
 
@@ -266,6 +266,7 @@ lookup BNG_rclt_swapVedicStacks_addMark {
     sub k_sa-beng' by k_sa-beng uni1CF5.stack;
     sub k_tta-beng.noflag' by k_tta-beng.noflag uni1CF5.stack;
     sub k_ss-beng.half' by k_ss-beng.half uni1CF5.stack;
+    sub k-beng.half' by k-beng.half uni1CF5.stack;
     #ka multipart
     sub ka-beng.arm' by ka-beng.arm uni1CF5.stack;
     sub ka-beng.arm1' by ka-beng.arm1 uni1CF5.stack;
@@ -289,7 +290,6 @@ lookup BNG_rclt_swapVedicStacks_addMark {
 
 
 lookup BNG_rclt_swapVedicStacks_addMark_kaPart {
-    sub b-beng.half' by b-beng.half uni1CF6.stack;
     sub b-beng.half2' by b-beng.half2 uni1CF6.stack;
     sub t_ta-beng' by t_ta-beng uni1CF6.stack;
     sub t_t-beng.half' by t_t-beng.half uni1CF6.stack;
@@ -1421,7 +1421,7 @@ lookup BNG_abvs_swapVedicStacks {
 
 lookup BNG_rclt_swapVedicStacks_context {
     lookupflag UseMarkFilteringSet [@BNG_RCLT_BASES_KA_ARM uni1CF5.stack uni1CF6.stack];
-    sub uni1CF5' lookup BNG_rclt_swapVedicStacks_removeMark [b-beng.half b-beng.half2 t_ta-beng t_t-beng.half t_ra-beng]' @BNG_RCLT_BASES_KA_ARM' lookup BNG_rclt_swapVedicStacks_addMark;
+    sub uni1CF5' lookup BNG_rclt_swapVedicStacks_removeMark [b-beng.half2 t_ta-beng t_t-beng.half t_ra-beng]' @BNG_RCLT_BASES_KA_ARM' lookup BNG_rclt_swapVedicStacks_addMark;
 } BNG_rclt_swapVedicStacks_context;
 
 language PAL;
