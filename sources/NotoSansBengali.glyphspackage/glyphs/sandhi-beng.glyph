@@ -3,12 +3,6 @@ category = Mark;
 glyphname = "sandhi-beng";
 layers = (
 {
-anchors = (
-{
-name = top_candrabindu;
-pos = (0,536);
-}
-);
 background = {
 shapes = (
 {
@@ -129,12 +123,6 @@ nodes = (
 width = 0;
 },
 {
-anchors = (
-{
-name = top_candrabindu;
-pos = (0,536);
-}
-);
 background = {
 shapes = (
 {
@@ -255,12 +243,6 @@ nodes = (
 width = 0;
 },
 {
-anchors = (
-{
-name = top_candrabindu;
-pos = (0,536);
-}
-);
 background = {
 shapes = (
 {
@@ -381,12 +363,6 @@ nodes = (
 width = 0;
 },
 {
-anchors = (
-{
-name = top_candrabindu;
-pos = (0,536);
-}
-);
 background = {
 shapes = (
 {
@@ -507,12 +483,6 @@ nodes = (
 width = 0;
 },
 {
-anchors = (
-{
-name = top_candrabindu;
-pos = (0,536);
-}
-);
 background = {
 shapes = (
 {
@@ -633,12 +603,6 @@ nodes = (
 width = 0;
 },
 {
-anchors = (
-{
-name = top_candrabindu;
-pos = (0,536);
-}
-);
 background = {
 shapes = (
 {
