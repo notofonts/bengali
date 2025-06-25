@@ -260,6 +260,10 @@ name = top;
 pos = (1086,582);
 },
 {
+name = topleft;
+pos = (892,632);
+},
+{
 name = topright;
 pos = (1076,572);
 },
