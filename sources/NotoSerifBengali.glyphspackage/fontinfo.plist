@@ -998,6 +998,7 @@ lookup conjuncts {
 	sub pha-beng halant-beng la-beng by ph_la-beng;
 	sub ba-beng halant-beng ja-beng by b_ja-beng;
 	sub ba-beng halant-beng jha-beng by b_jha-beng;
+	sub ba-beng halant-beng dda-beng by b_dda-beng;
 	sub ba-beng halant-beng ddha-beng by b_ddha-beng;
 	sub ba-beng halant-beng da-beng by b_da-beng;
 	sub ba-beng halant-beng dha-beng by b_dha-beng;
