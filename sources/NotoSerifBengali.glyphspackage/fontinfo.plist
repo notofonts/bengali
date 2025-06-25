@@ -560,6 +560,8 @@ uniA8F1,
 "iiMatra-beng.long.fina",
 "iiMatra_reph-beng",
 "iiMatra_reph_candrabindu-beng",
+"iiMatra_reph-beng.long",
+"iiMatra_reph_candrabindu-beng.long",
 "auLength-beng.fina",
 "auLength-beng.long",
 "aaMatra-beng.fina",
@@ -1650,8 +1652,9 @@ code = "script beng ;
 lookup aboveBase_matraLigatures {
 	sub reph-beng candrabindu-beng by reph_candrabindu-beng;
 	sub reph-beng iiMatra-beng by iiMatra_reph-beng;
-	#sub iiMatra-beng candrabindu-beng by iiMatra_candrabindu-beng;
 	sub reph-beng iiMatra-beng candrabindu-beng by iiMatra_reph_candrabindu-beng;
+	sub reph-beng iiMatra-beng.long by iiMatra_reph-beng.long;
+	sub reph-beng iiMatra-beng.long candrabindu-beng by iiMatra_reph_candrabindu-beng.long;
 } aboveBase_matraLigatures ;
 
 lookup aboveBase_imatra_ligatures_1 {
