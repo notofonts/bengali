@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 11;
 export = 0;
 glyphname = "kh-beng";
 layers = (
