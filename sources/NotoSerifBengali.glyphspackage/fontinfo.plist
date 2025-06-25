@@ -875,6 +875,13 @@ lookup splitStack {
 	sub kh_ra-beng by kh_ra-beng uni1CF5.stack ;
 	sub k_tta-beng by k_tta-beng uni1CF5.steck ;
 	sub k_tt_ra-beng by k_tt_ra-beng uni1CF5.steck ;
+	sub k_ssa-beng by k_ssa-beng uni1CF5.stack ;
+	sub k_ss_nna-beng by k_ss_nna-beng uni1CF5.stack ;
+	sub k_ss_ma-beng by k_ss_ma-beng uni1CF5.stack ;
+	sub k_ss_nna-beng by k_ss_nna-beng uni1CF5.stack ;
+	sub k_ss_ra-beng by k_ss_ra-beng uni1CF5.stack ;
+	sub k_ss_ba-beng by k_ss_ba-beng uni1CF5.stack ;
+	sub k_ss_wa-beng by k_ss_wa-beng uni1CF5.stack ;
 	sub pa-beng by pa-beng uni1CF6.stack ;
 	sub pha-beng by pha-beng uni1CF6.stack ;
 	sub p_ba-beng by p_ba-beng uni1CF6.stack ;
@@ -1493,7 +1500,7 @@ lookup preBase_imatra {
 } preBase_imatra ;
 
 lookup preBase_contextual_imatra {
-	sub iMatra-beng' [tth_ba-beng nn_tta-beng nn_tt_ra-beng n_tt_ra-beng rh_ra-beng] by iMatra-beng.short ;
+	sub iMatra-beng' [tth_ba-beng nn_tta-beng nn_tt_ra-beng n_tt_ra-beng rh_ra-beng ddhNukta_ba-beng] by iMatra-beng.short ;
 	sub iMatra-beng' [n_ttha-beng n_tth_ra-beng ss_ttha-beng tth_ra-beng la-beng sa-beng k_ta-beng k_t_ba-beng k_t_ra-beng k_ra-beng g_ra-beng gh_ra-beng ph_tta-beng jh_ra-beng ny_ba-beng ny_ra-beng nn_ra-beng nn_dda-beng nn_dd_ra-beng m_ta-beng d_da-beng d_d_ra-beng d_d_ba-beng d_ma-beng dh_ra-beng dh_ma-beng n_ra-beng p_ra-beng p_ta-beng ph_la-beng m_bha-beng k_ssa-beng k_ss_ba-beng k_ss_ra-beng k_ss_nna-beng b_da-beng b_d_ra-beng b_bha-beng b_ra-beng t_t_ra-beng s_k_la-beng l_bha-beng l_ddha-beng m_tha-beng p_t_ra-beng n_k_ta-beng s_ra-beng h_ma-beng m_ra-beng y_ra-beng l_ka-beng l_ga-beng l_dda-beng l_dd_ra-beng l_ta-beng l_dha-beng l_pa-beng l_ba-beng l_la-beng sh_ta-beng sh_ra-beng ss_pha-beng s_k_ra-beng s_ta-beng s_tha-beng s_na-beng s_ba-beng s_k_ra-beng s_k_la-beng s_ka-beng s_la-beng ng_ka-beng ng_k_ra-beng n_ta-beng n_t_ba-beng ss_k_ra-beng s_t_ba-beng s_t_ra-beng yNukta_ra-beng ss_ra-beng ss_ma-beng m_b_ra-beng n_da-beng n_d_ra-beng n_d_ba-beng ] by iMatra-beng.wide1 ;
 	sub iMatra-beng' [nn_ttha-beng nn_tth_ra-beng k_ma-beng k_sa-beng g_ma-beng ng_kha-beng ng_ma-beng c_cha-beng c_ch_ba-beng c_ch_ra-beng nn_ddha-beng c_nya-beng b_ja-beng j_ba-beng j_ra-beng dd_ma-beng n_tta-beng nn_ma-beng t_ma-beng n_sa-beng p_ma-beng m_pha-beng m_ma-beng m_ph_ra-beng n_ja-beng nn_ddh_ra-beng s_ma-beng m_da-beng l_ra-beng l_ma-beng sh_ma-beng s_kha-beng n_ma-beng] by iMatra-beng.wide2 ;
 	sub iMatra-beng' [j_jha-beng nn_tta-beng dh_ba-beng p_sa-beng b_ba-beng k_ss_ma-beng dd_dda-beng s_tta-beng s_tt_ra-beng l_tta-beng l_tt_ra-beng s_pha-beng s_ph_ra-beng l_sa-beng l_pha-beng l_ph_ra-beng l_gha-beng ss_pa-beng ss_p_ra-beng l_da-beng l_d_ra-beng] by iMatra-beng.wide3 ;
@@ -1694,14 +1701,14 @@ lookup finalForms ;
 
 lookup stackMarks {
 #ka-beng kha-beng pa-beng pha-beng uni1CF5.stack uni1CF6.stack 
-	sub uni1CF5' lookup killStack [ka-beng kha-beng k_ka-beng k_ra-beng k_ta-beng k_t_ba-beng k_t_ra-beng k_na-beng k_ba-beng k_ma-beng k_la-beng k_sa-beng kh_ba-beng kh_ra-beng k_tta-beng k_tt_ra-beng ]' lookup splitStack ;
-	sub uni1CF5' lookup killStack [iMatra-beng iMatra-beng.short iMatra-beng.wide1 iMatra-beng.wide2 iMatra-beng.wide3 iMatra-beng.wide4 iMatra_candrabindu-beng iMatra_reph-beng eMatra-beng eMatra-beng.init aiMatra-beng aiMatra-beng.init ]' [ka-beng kha-beng k_ka-beng k_ra-beng k_ta-beng k_t_ba-beng k_t_ra-beng k_na-beng k_ba-beng k_ma-beng k_la-beng k_sa-beng kh_ba-beng kh_ra-beng k_tta-beng k_tt_ra-beng ]' lookup splitStack ;
+	sub uni1CF5' lookup killStack [ka-beng kha-beng k_ka-beng k_ra-beng k_ta-beng k_t_ba-beng k_t_ra-beng k_na-beng k_ba-beng k_ma-beng k_la-beng k_sa-beng k_ssa-beng k_ss_nna-beng k_ss_ba-beng k_ss_wa-beng k_ss_ma-beng k_ss_ra-beng kh_ba-beng kh_ra-beng k_tta-beng k_tt_ra-beng]' lookup splitStack ;
+	sub uni1CF5' lookup killStack [iMatra-beng iMatra-beng.short iMatra-beng.wide1 iMatra-beng.wide2 iMatra-beng.wide3 iMatra-beng.wide4 iMatra_candrabindu-beng iMatra_reph-beng eMatra-beng eMatra-beng.init aiMatra-beng aiMatra-beng.init ]' [ka-beng kha-beng k_ka-beng k_ra-beng k_ta-beng k_t_ba-beng k_t_ra-beng k_na-beng k_ba-beng k_ma-beng k_la-beng k_sa-beng k_ssa-beng k_ss_nna-beng k_ss_ba-beng k_ss_wa-beng k_ss_ma-beng k_ss_ra-beng kh_ba-beng kh_ra-beng k_tta-beng k_tt_ra-beng]' lookup splitStack ;
 	sub uni1CF6' lookup killStack [pa-beng pha-beng p_ba-beng p_ra-beng p_ra_uMatra-beng p_ra_uuMatra-beng p_tta-beng p_ta-beng p_t_ra-beng p_ta_uMatra-beng p_na-beng p_pa-beng p_ma-beng p_la-beng p_sa-beng ph_ba-beng ph_ra-beng ph_tta-beng ph_la-beng ]' lookup splitStack ;
 	sub uni1CF6' lookup killStack [iMatra-beng iMatra-beng.short iMatra-beng.wide1 iMatra-beng.wide2 iMatra-beng.wide3 iMatra-beng.wide4 iMatra_candrabindu-beng iMatra_reph-beng eMatra-beng eMatra-beng.init aiMatra-beng aiMatra-beng.init ]' [pa-beng pha-beng p_ba-beng p_ra-beng p_ra_uMatra-beng p_ra_uuMatra-beng p_tta-beng p_ta-beng p_t_ra-beng p_ta_uMatra-beng p_na-beng p_pa-beng p_ma-beng p_la-beng p_sa-beng ph_ba-beng ph_ra-beng ph_tta-beng ph_la-beng ]' lookup splitStack ;
 } stackMarks ;
 
 lookup shiftStackMarks {
-	sub [iMatra-beng iMatra-beng.wide1 iMatra-beng.wide2 iMatra-beng.wide3] [ka-beng kha-beng k_ka-beng k_ra-beng k_ta-beng k_t_ba-beng k_t_ra-beng k_na-beng k_ba-beng k_ma-beng k_la-beng k_sa-beng kh_ba-beng kh_ra-beng k_tta-beng k_tt_ra-beng] uni1CF5.stack' lookup stack2 ;
+	sub [iMatra-beng iMatra-beng.wide1 iMatra-beng.wide2 iMatra-beng.wide3] [ka-beng kha-beng k_ka-beng k_ra-beng k_ta-beng k_t_ba-beng k_t_ra-beng k_na-beng k_ba-beng k_ma-beng k_la-beng k_sa-beng k_ssa-beng k_ss_nna-beng k_ss_ba-beng k_ss_wa-beng k_ss_ma-beng k_ss_ra-beng kh_ba-beng kh_ra-beng k_tta-beng k_tt_ra-beng] uni1CF5.stack' lookup stack2 ;
 	sub [iMatra-beng iMatra-beng.wide1 iMatra-beng.wide2 iMatra-beng.wide3] [pa-beng pha-beng p_ba-beng p_ra-beng p_ra_uMatra-beng p_ra_uuMatra-beng p_tta-beng p_ta-beng p_t_ra-beng p_ta_uMatra-beng p_na-beng p_pa-beng p_ma-beng p_la-beng p_sa-beng ph_ba-beng ph_ra-beng ph_tta-beng ph_la-beng] uni1CF6.stack' lookup stack2 ;
 	sub uni1CF5.stack' [auLength-beng auLength-beng.fina] by uni1CF5.steck ;
 	sub uni1CF6.stack' [auLength-beng auLength-beng.fina] by uni1CF6.steck ;
@@ -1730,7 +1737,8 @@ lookup PAL_shiftStackMarks {
 	sub uni1CF6.stack' [auLength-beng auLength-beng.fina] by uni1CF6.steck ;
 	sub uni1CF5.stack' [iiMatra-beng iiMatra_reph-beng iiMatra_reph_candrabindu-beng iiMatra-beng.fina ] by uni1CF5.stick ;
 	sub uni1CF6.stack' [iiMatra-beng iiMatra_reph-beng iiMatra_reph_candrabindu-beng iiMatra-beng.fina ] by uni1CF6.stick ;
-} PAL_shiftStackMarks ;";
+} PAL_shiftStackMarks ;
+";
 tag = rclt;
 },
 {
