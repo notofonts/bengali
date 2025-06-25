@@ -1,5 +1,5 @@
 {
-.appVersion = "3343";
+.appVersion = "3309";
 .formatVersion = 3;
 axes = (
 {
@@ -906,8 +906,16 @@ lookup stack2 {
 } stack2 ;
 
 lookup conjuncts {
+	#triconsonant
+	sub na-beng halant-beng ka-beng halant-beng ta-beng by n_k_ta-beng;
+	sub na-beng halant-beng sa-beng halant-beng tta-beng by n_s_tta-beng;
+	sub ma-beng halant-beng pa-beng halant-beng la-beng by m_p_la-beng;
+	sub sa-beng halant-beng ka-beng halant-beng la-beng by s_k_la-beng;
+	sub sa-beng halant-beng pa-beng halant-beng la-beng by s_p_la-beng;
+	#triconsonant akhand
 	sub k_ssa-beng halant-beng nna-beng by k_ss_nna-beng;
 	sub k_ssa-beng halant-beng ma-beng by k_ss_ma-beng;
+	#biconsonant
 	sub ka-beng halant-beng ka-beng by k_ka-beng;
 	sub ka-beng halant-beng tta-beng by k_tta-beng;
 	sub ka-beng halant-beng ta-beng by k_ta-beng;
@@ -966,8 +974,6 @@ lookup conjuncts {
 	sub da-beng halant-beng ma-beng by d_ma-beng;
 	sub dha-beng halant-beng na-beng by dh_na-beng;
 	sub dha-beng halant-beng ma-beng by dh_ma-beng;
-	sub na-beng halant-beng ka-beng halant-beng ta-beng by n_k_ta-beng;
-	sub na-beng halant-beng sa-beng halant-beng tta-beng by n_s_tta-beng;
 	sub na-beng halant-beng ja-beng by n_ja-beng;
 	sub na-beng halant-beng tta-beng by n_tta-beng;
 	sub na-beng halant-beng ttha-beng by n_ttha-beng;
@@ -996,7 +1002,6 @@ lookup conjuncts {
 	sub ba-beng halant-beng bha-beng by b_bha-beng;
 	sub ba-beng halant-beng la-beng by b_la-beng;
 	sub bha-beng halant-beng la-beng by bh_la-beng;
-	sub ma-beng halant-beng pa-beng halant-beng la-beng by m_p_la-beng;
 	sub ma-beng halant-beng ta-beng by m_ta-beng;
 	sub ma-beng halant-beng tha-beng by m_tha-beng;
 	sub ma-beng halant-beng da-beng by m_da-beng;
@@ -1036,14 +1041,12 @@ lookup conjuncts {
 	sub ssa-beng halant-beng pa-beng by ss_pa-beng;
 	sub ssa-beng halant-beng pha-beng by ss_pha-beng;
 	sub ssa-beng halant-beng ma-beng by ss_ma-beng;
-	sub sa-beng halant-beng ka-beng halant-beng la-beng by s_k_la-beng;
 	sub sa-beng halant-beng ka-beng by s_ka-beng;
 	sub sa-beng halant-beng kha-beng by s_kha-beng;
 	sub sa-beng halant-beng tta-beng by s_tta-beng;
 	sub sa-beng halant-beng ta-beng by s_ta-beng;
 	sub sa-beng halant-beng tha-beng by s_tha-beng;
 	sub sa-beng halant-beng na-beng by s_na-beng;
-	sub sa-beng halant-beng pa-beng halant-beng la-beng by s_p_la-beng;
 	sub sa-beng halant-beng pa-beng by s_pa-beng;
 	sub sa-beng halant-beng pha-beng by s_pha-beng;
 	sub sa-beng halant-beng ma-beng by s_ma-beng;
