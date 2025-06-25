@@ -2130,5 +2130,5 @@ width = 827;
 metricLeft = "iMatra-beng";
 metricRight = "pha-beng";
 script = bengali;
-subCategory = Other;
+subCategory = Spacing;
 }
