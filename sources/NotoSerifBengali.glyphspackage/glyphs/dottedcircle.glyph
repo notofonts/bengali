@@ -10,15 +10,15 @@ pos = (299,0);
 },
 {
 name = bottom.rakaar;
-pos = (299,0);
+pos = (409,0);
 },
 {
 name = bottom.rvocalic;
-pos = (299,0);
+pos = (299,-10);
 },
 {
 name = bottom.virama;
-pos = (299,0);
+pos = (300,-26);
 },
 {
 name = nukta;
@@ -26,11 +26,11 @@ pos = (299,-120);
 },
 {
 name = top;
-pos = (314,592);
+pos = (332,592);
 },
 {
 name = topleft;
-pos = (421,610);
+pos = (421,593);
 },
 {
 name = topright;
@@ -38,7 +38,7 @@ pos = (299,592);
 },
 {
 name = vedic;
-pos = (273,0);
+pos = (265,0);
 }
 );
 layerId = "94EB6DF8-7434-4BE0-9F23-77BCD575F5B8";
@@ -327,15 +327,15 @@ pos = (299,0);
 },
 {
 name = bottom.rakaar;
-pos = (299,0);
+pos = (409,0);
 },
 {
 name = bottom.rvocalic;
-pos = (299,0);
+pos = (299,-10);
 },
 {
 name = bottom.virama;
-pos = (299,0);
+pos = (300,-26);
 },
 {
 name = nukta;
@@ -644,15 +644,15 @@ pos = (299,0);
 },
 {
 name = bottom.rakaar;
-pos = (299,0);
+pos = (409,0);
 },
 {
 name = bottom.rvocalic;
-pos = (299,0);
+pos = (299,-10);
 },
 {
 name = bottom.virama;
-pos = (299,0);
+pos = (300,-26);
 },
 {
 name = nukta;
@@ -660,11 +660,11 @@ pos = (299,-120);
 },
 {
 name = top;
-pos = (365,592);
+pos = (332,592);
 },
 {
 name = topleft;
-pos = (398,609);
+pos = (421,593);
 },
 {
 name = topright;
@@ -672,7 +672,7 @@ pos = (299,592);
 },
 {
 name = vedic;
-pos = (259,0);
+pos = (265,0);
 }
 );
 layerId = "18A8C34B-6260-4854-BBF8-229863F38B25";
@@ -961,15 +961,15 @@ pos = (299,0);
 },
 {
 name = bottom.rakaar;
-pos = (299,0);
+pos = (409,0);
 },
 {
 name = bottom.rvocalic;
-pos = (299,0);
+pos = (299,-10);
 },
 {
 name = bottom.virama;
-pos = (299,0);
+pos = (300,-26);
 },
 {
 name = nukta;
@@ -977,11 +977,11 @@ pos = (299,-120);
 },
 {
 name = top;
-pos = (314,592);
+pos = (332,592);
 },
 {
 name = topleft;
-pos = (423,609);
+pos = (421,593);
 },
 {
 name = topright;
@@ -989,7 +989,7 @@ pos = (299,592);
 },
 {
 name = vedic;
-pos = (270,0);
+pos = (265,0);
 }
 );
 layerId = "33F2F8B2-CCE7-4937-A852-9C044B0330C5";
@@ -1278,15 +1278,15 @@ pos = (299,0);
 },
 {
 name = bottom.rakaar;
-pos = (299,0);
+pos = (409,0);
 },
 {
 name = bottom.rvocalic;
-pos = (299,0);
+pos = (299,-10);
 },
 {
 name = bottom.virama;
-pos = (299,0);
+pos = (300,-26);
 },
 {
 name = nukta;
@@ -1298,7 +1298,7 @@ pos = (332,592);
 },
 {
 name = topleft;
-pos = (418,587);
+pos = (421,593);
 },
 {
 name = topright;
@@ -1306,7 +1306,7 @@ pos = (299,592);
 },
 {
 name = vedic;
-pos = (260,0);
+pos = (265,0);
 }
 );
 layerId = "5278E13D-D735-4789-ABCD-F52B0BBC306E";
@@ -1595,15 +1595,15 @@ pos = (299,0);
 },
 {
 name = bottom.rakaar;
-pos = (299,0);
+pos = (409,0);
 },
 {
 name = bottom.rvocalic;
-pos = (299,0);
+pos = (299,-10);
 },
 {
 name = bottom.virama;
-pos = (299,0);
+pos = (300,-26);
 },
 {
 name = nukta;
@@ -1611,11 +1611,11 @@ pos = (299,-120);
 },
 {
 name = top;
-pos = (365,592);
+pos = (332,592);
 },
 {
 name = topleft;
-pos = (404,600);
+pos = (421,593);
 },
 {
 name = topright;
@@ -1623,7 +1623,7 @@ pos = (299,592);
 },
 {
 name = vedic;
-pos = (256,0);
+pos = (265,0);
 }
 );
 layerId = "03D26766-37BE-4C80-9191-ECBB7A84F3C2";

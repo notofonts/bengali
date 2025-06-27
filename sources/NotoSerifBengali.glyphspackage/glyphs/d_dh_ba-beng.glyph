@@ -48,8 +48,8 @@ nodes = (
 (104,322,c),
 (117,314,l),
 (117,602,l),
-(652,602,l),
-(639,622,l),
+(660,602,l),
+(647,622,l),
 (-19,622,l),
 (-4,602,l),
 (94,602,l),
@@ -108,7 +108,7 @@ nodes = (
 }
 );
 vertWidth = 0;
-width = 633;
+width = 641;
 },
 {
 anchors = (
@@ -122,7 +122,7 @@ pos = (476,-123);
 },
 {
 name = bottom.rvocalic;
-pos = (476,-188);
+pos = (476,-183);
 },
 {
 name = bottom.virama;
@@ -156,8 +156,8 @@ nodes = (
 (103,369,c),
 (122,351,l),
 (122,570,l),
-(685,570,l),
-(651,622,l),
+(701,570,l),
+(667,622,l),
 (-29,622,l),
 (5,570,l),
 (68,570,l),
@@ -216,7 +216,7 @@ nodes = (
 }
 );
 vertWidth = 0;
-width = 656;
+width = 672;
 },
 {
 anchors = (
@@ -230,7 +230,7 @@ pos = (569,-215);
 },
 {
 name = bottom.rvocalic;
-pos = (569,-304);
+pos = (569,-302);
 },
 {
 name = bottom.virama;
@@ -372,8 +372,8 @@ nodes = (
 (73,325,c),
 (85,321,l),
 (85,602,l),
-(486,602,l),
-(474,622,l),
+(476,602,l),
+(464,622,l),
 (-15,622,l),
 (-2,602,l),
 (63,602,l),
@@ -432,7 +432,7 @@ nodes = (
 }
 );
 vertWidth = 0;
-width = 471;
+width = 461;
 },
 {
 anchors = (
@@ -550,7 +550,7 @@ pos = (447,-265);
 },
 {
 name = bottom.rakaar;
-pos = (452,-212);
+pos = (452,-202);
 },
 {
 name = bottom.rvocalic;
@@ -652,7 +652,6 @@ width = 640;
 }
 );
 metricLeft = "d_dha-beng";
-metricRight = "d_dha-beng";
 production = uni09A609CD09A709CD09AC;
 script = bengali;
 subCategory = Other;

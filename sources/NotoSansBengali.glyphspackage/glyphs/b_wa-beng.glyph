@@ -1,0 +1,202 @@
+{
+category = Letter;
+color = 2;
+export = 0;
+glyphname = "b_wa-beng";
+layers = (
+{
+background = {
+shapes = (
+{
+ref = "ba-beng";
+},
+{
+pos = (596,0);
+ref = "ba-beng.side";
+},
+{
+pos = (520,138);
+ref = "wa-beng.part";
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+ref = "ba-beng";
+},
+{
+pos = (596,0);
+ref = "ba-beng.side";
+},
+{
+pos = (520,138);
+ref = "wa-beng.part";
+}
+);
+width = 998;
+},
+{
+background = {
+shapes = (
+{
+ref = "ba-beng";
+},
+{
+pos = (572,0);
+ref = "ba-beng.side";
+},
+{
+pos = (515,131);
+ref = "wa-beng.part";
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+ref = "ba-beng";
+},
+{
+pos = (572,0);
+ref = "ba-beng.side";
+},
+{
+pos = (515,131);
+ref = "wa-beng.part";
+}
+);
+width = 957;
+},
+{
+background = {
+shapes = (
+{
+ref = "ba-beng";
+},
+{
+pos = (605,0);
+ref = "ba-beng.side";
+},
+{
+pos = (525,161);
+ref = "wa-beng.part";
+}
+);
+};
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+ref = "ba-beng";
+},
+{
+pos = (605,0);
+ref = "ba-beng.side";
+},
+{
+pos = (540,161);
+ref = "wa-beng.part";
+}
+);
+width = 1035;
+},
+{
+background = {
+shapes = (
+{
+ref = "ba-beng";
+},
+{
+pos = (385,0);
+ref = "ba-beng.side";
+},
+{
+pos = (344,130);
+ref = "wa-beng.part";
+}
+);
+};
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+ref = "ba-beng";
+},
+{
+pos = (385,0);
+ref = "ba-beng.side";
+},
+{
+pos = (336,130);
+ref = "wa-beng.part";
+}
+);
+width = 653;
+},
+{
+background = {
+shapes = (
+{
+ref = "ba-beng";
+},
+{
+pos = (441,0);
+ref = "ba-beng.side";
+},
+{
+pos = (384,137);
+ref = "wa-beng.part";
+}
+);
+};
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "ba-beng";
+},
+{
+pos = (441,0);
+ref = "ba-beng.side";
+},
+{
+pos = (377,137);
+ref = "wa-beng.part";
+}
+);
+width = 746;
+},
+{
+background = {
+shapes = (
+{
+ref = "ba-beng";
+},
+{
+pos = (466,0);
+ref = "ba-beng.side";
+},
+{
+pos = (403,157);
+ref = "wa-beng.part";
+}
+);
+};
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "ba-beng";
+},
+{
+pos = (466,0);
+ref = "ba-beng.side";
+},
+{
+pos = (408,157);
+ref = "wa-beng.part";
+}
+);
+width = 812;
+}
+);
+script = bengali;
+subCategory = Spacing;
+}

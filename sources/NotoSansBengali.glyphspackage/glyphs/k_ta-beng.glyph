@@ -1,0 +1,214 @@
+{
+category = Letter;
+color = 10;
+export = 0;
+glyphname = "k_ta-beng";
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "t_ta-beng";
+},
+{
+pos = (545,23);
+ref = "ka-beng.arm2";
+},
+{
+pos = (710,0);
+ref = "headline-beng.200";
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+ref = "t_ta-beng";
+},
+{
+pos = (545,23);
+ref = "ka-beng.arm2";
+},
+{
+pos = (710,0);
+ref = "headline-beng.200";
+}
+);
+width = 910;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "t_ta-beng";
+},
+{
+pos = (512,-8);
+ref = "ka-beng.arm2";
+},
+{
+pos = (664,0);
+ref = "headline-beng.200";
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+alignment = -1;
+ref = "t_ta-beng";
+},
+{
+pos = (512,-8);
+ref = "ka-beng.arm2";
+},
+{
+pos = (664,0);
+ref = "headline-beng.200";
+}
+);
+width = 824;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "t_ta-beng";
+},
+{
+pos = (580,45);
+ref = "ka-beng.arm2";
+},
+{
+pos = (740,0);
+ref = "headline-beng.200";
+}
+);
+};
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+alignment = -1;
+ref = "t_ta-beng";
+},
+{
+pos = (580,45);
+ref = "ka-beng.arm2";
+},
+{
+pos = (740,0);
+ref = "headline-beng.200";
+}
+);
+width = 980;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "t_ta-beng";
+},
+{
+pos = (370,-8);
+ref = "ka-beng.arm2";
+},
+{
+pos = (486,0);
+ref = "headline-beng.200";
+}
+);
+};
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+alignment = -1;
+ref = "t_ta-beng";
+},
+{
+pos = (364,-8);
+ref = "ka-beng.arm2";
+},
+{
+pos = (486,0);
+ref = "headline-beng.200";
+}
+);
+width = 597;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "t_ta-beng";
+},
+{
+pos = (416,18);
+ref = "ka-beng.arm2";
+},
+{
+pos = (533,0);
+ref = "headline-beng.200";
+}
+);
+};
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+alignment = -1;
+ref = "t_ta-beng";
+},
+{
+pos = (411,18);
+ref = "ka-beng.arm2";
+},
+{
+pos = (533,0);
+ref = "headline-beng.200";
+}
+);
+width = 684;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+ref = "t_ta-beng";
+},
+{
+pos = (462,40);
+ref = "ka-beng.arm2";
+},
+{
+pos = (587,0);
+ref = "headline-beng.200";
+}
+);
+};
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+alignment = -1;
+ref = "t_ta-beng";
+},
+{
+pos = (470,40);
+ref = "ka-beng.arm2";
+},
+{
+pos = (587,0);
+ref = "headline-beng.200";
+}
+);
+width = 771;
+}
+);
+script = bengali;
+subCategory = Spacing;
+}

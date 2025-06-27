@@ -1,0 +1,202 @@
+{
+category = Letter;
+color = 10;
+export = 0;
+glyphname = "g_d_ra-beng";
+layers = (
+{
+background = {
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (635,0);
+ref = "d-beng.side";
+},
+{
+pos = (303,-40);
+ref = "raphala-beng.alt09";
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (635,0);
+ref = "d-beng.side";
+},
+{
+pos = (309,-40);
+ref = "raphala-beng.alt09";
+}
+);
+width = 944;
+},
+{
+background = {
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (582,0);
+ref = "d-beng.side";
+},
+{
+pos = (308,15);
+ref = "raphala-beng.alt09";
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (582,0);
+ref = "d-beng.side";
+},
+{
+pos = (308,15);
+ref = "raphala-beng.alt09";
+}
+);
+width = 876;
+},
+{
+background = {
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (689,0);
+ref = "d-beng.side";
+},
+{
+pos = (298,-71);
+ref = "raphala-beng.alt09";
+}
+);
+};
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (689,0);
+ref = "d-beng.side";
+},
+{
+pos = (296,-71);
+ref = "raphala-beng.alt09";
+}
+);
+width = 987;
+},
+{
+background = {
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (405,0);
+ref = "d-beng.side";
+},
+{
+pos = (208,16);
+ref = "raphala-beng.alt09";
+}
+);
+};
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (405,0);
+ref = "d-beng.side";
+},
+{
+pos = (202,16);
+ref = "raphala-beng.alt09";
+}
+);
+width = 609;
+},
+{
+background = {
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (476,0);
+ref = "d-beng.side";
+},
+{
+pos = (219,-31);
+ref = "raphala-beng.alt09";
+}
+);
+};
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (477,0);
+ref = "d-beng.side";
+},
+{
+pos = (218,-31);
+ref = "raphala-beng.alt09";
+}
+);
+width = 704;
+},
+{
+background = {
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (537,0);
+ref = "d-beng.side";
+},
+{
+pos = (220,-65);
+ref = "raphala-beng.alt09";
+}
+);
+};
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "g-beng.half";
+},
+{
+pos = (545,0);
+ref = "d-beng.side";
+},
+{
+pos = (227,-65);
+ref = "raphala-beng.alt09";
+}
+);
+width = 770;
+}
+);
+script = bengali;
+subCategory = Spacing;
+}

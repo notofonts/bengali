@@ -239,8 +239,8 @@ closed = 1;
 nodes = (
 (528,-184,l),
 (528,536,l),
-(775,536,l),
-(726,622,l),
+(779,536,l),
+(730,622,l),
 (-39,622,l),
 (8,536,l),
 (413,536,l),
@@ -298,7 +298,7 @@ nodes = (
 }
 );
 vertWidth = 0;
-width = 736;
+width = 740;
 },
 {
 anchors = (
@@ -338,8 +338,8 @@ closed = 1;
 nodes = (
 (289,-28,l),
 (289,602,l),
-(438,602,l),
-(426,622,l),
+(440,602,l),
+(428,622,l),
 (-15,622,l),
 (-3,602,l),
 (267,602,l),
@@ -397,7 +397,7 @@ nodes = (
 }
 );
 vertWidth = 0;
-width = 423;
+width = 425;
 },
 {
 anchors = (
@@ -598,8 +598,6 @@ vertWidth = 0;
 width = 609;
 }
 );
-metricLeft = "n_ba-beng";
-metricRight = "d_dha-beng";
 production = uni09A809CD09A7;
 script = bengali;
 subCategory = Other;

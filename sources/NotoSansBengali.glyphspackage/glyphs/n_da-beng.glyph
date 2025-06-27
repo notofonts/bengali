@@ -1,0 +1,202 @@
+{
+category = Letter;
+color = 10;
+export = 0;
+glyphname = "n_da-beng";
+layers = (
+{
+background = {
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (299,0);
+ref = "da-beng";
+},
+{
+pos = (-12,-24);
+ref = "n-beng.float";
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (299,0);
+ref = "da-beng";
+},
+{
+pos = (25,-24);
+ref = "n-beng.float";
+}
+);
+width = 852;
+},
+{
+background = {
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (277,0);
+ref = "da-beng";
+},
+{
+pos = (-13,-15);
+ref = "n-beng.float";
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (277,0);
+ref = "da-beng";
+},
+{
+pos = (40,-15);
+ref = "n-beng.float";
+}
+);
+width = 777;
+},
+{
+background = {
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (316,0);
+ref = "da-beng";
+},
+{
+pos = (1,-25);
+ref = "n-beng.float";
+}
+);
+};
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (316,0);
+ref = "da-beng";
+},
+{
+pos = (0,-25);
+ref = "n-beng.float";
+}
+);
+width = 890;
+},
+{
+background = {
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (192,0);
+ref = "da-beng";
+},
+{
+pos = (-10,-4);
+ref = "n-beng.float";
+}
+);
+};
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (192,0);
+ref = "da-beng";
+},
+{
+pos = (20,-4);
+ref = "n-beng.float";
+}
+);
+width = 544;
+},
+{
+background = {
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (226,0);
+ref = "da-beng";
+},
+{
+pos = (-6,-25);
+ref = "n-beng.float";
+}
+);
+};
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (226,0);
+ref = "da-beng";
+},
+{
+pos = (10,-25);
+ref = "n-beng.float";
+}
+);
+width = 638;
+},
+{
+background = {
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (246,0);
+ref = "da-beng";
+},
+{
+pos = (5,-25);
+ref = "n-beng.float";
+}
+);
+};
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (246,0);
+ref = "da-beng";
+},
+{
+pos = (-10,-25);
+ref = "n-beng.float";
+}
+);
+width = 704;
+}
+);
+script = bengali;
+subCategory = Spacing;
+}

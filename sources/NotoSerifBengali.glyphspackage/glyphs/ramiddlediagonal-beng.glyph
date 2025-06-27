@@ -46,7 +46,6 @@ ref = "ba-beng";
 ref = assacross;
 }
 );
-vertWidth = 0;
 width = 523;
 },
 {
@@ -93,7 +92,6 @@ ref = "ba-beng";
 ref = assacross;
 }
 );
-vertWidth = 0;
 width = 511;
 },
 {
@@ -141,7 +139,6 @@ pos = (2,5);
 ref = assacross;
 }
 );
-vertWidth = 0;
 width = 571;
 },
 {
@@ -189,7 +186,6 @@ pos = (-53,0);
 ref = assacross;
 }
 );
-vertWidth = 0;
 width = 382;
 },
 {
@@ -237,7 +233,6 @@ pos = (-64,-11);
 ref = assacross;
 }
 );
-vertWidth = 0;
 width = 396;
 },
 {
@@ -285,7 +280,6 @@ pos = (-54,6);
 ref = assacross;
 }
 );
-vertWidth = 0;
 width = 471;
 }
 );

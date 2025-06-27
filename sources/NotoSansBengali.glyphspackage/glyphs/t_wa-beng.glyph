@@ -1,0 +1,200 @@
+{
+color = 2;
+export = 0;
+glyphname = "t_wa-beng";
+layers = (
+{
+background = {
+shapes = (
+{
+ref = "t-beng.half";
+},
+{
+pos = (197,-44);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (220,-78);
+ref = "wa-beng.part";
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+ref = "t-beng.half";
+},
+{
+pos = (197,-46);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (220,-80);
+ref = "wa-beng.part";
+}
+);
+width = 688;
+},
+{
+background = {
+shapes = (
+{
+ref = "t-beng.half";
+},
+{
+pos = (204,-47);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (204,-57);
+ref = "wa-beng.part";
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+ref = "t-beng.half";
+},
+{
+pos = (204,-47);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (204,-57);
+ref = "wa-beng.part";
+}
+);
+width = 652;
+},
+{
+background = {
+shapes = (
+{
+ref = "t-beng.half";
+},
+{
+pos = (114,-32);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (153,-81);
+ref = "wa-beng.part";
+}
+);
+};
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+ref = "t-beng.half";
+},
+{
+pos = (114,-35);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (168,-84);
+ref = "wa-beng.part";
+}
+);
+width = 676;
+},
+{
+background = {
+shapes = (
+{
+ref = "t-beng.half";
+},
+{
+pos = (148,-46);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (150,-56);
+ref = "wa-beng.part";
+}
+);
+};
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+ref = "t-beng.half";
+},
+{
+pos = (142,-46);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (142,-56);
+ref = "wa-beng.part";
+}
+);
+width = 455;
+},
+{
+background = {
+shapes = (
+{
+ref = "t-beng.half";
+},
+{
+pos = (124,-50);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (142,-80);
+ref = "wa-beng.part";
+}
+);
+};
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "t-beng.half";
+},
+{
+pos = (119,-50);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (135,-80);
+ref = "wa-beng.part";
+}
+);
+width = 514;
+},
+{
+background = {
+shapes = (
+{
+ref = "t-beng.half";
+},
+{
+pos = (77,-45);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (112,-91);
+ref = "wa-beng.part";
+}
+);
+};
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "t-beng.half";
+},
+{
+pos = (82,-45);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (117,-91);
+ref = "wa-beng.part";
+}
+);
+width = 539;
+}
+);
+metricWidth = tababeng;
+}

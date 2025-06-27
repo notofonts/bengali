@@ -43,7 +43,6 @@ pos = (141,172);
 ref = "nukta-beng";
 }
 );
-vertWidth = 0;
 width = 605;
 },
 {
@@ -87,7 +86,6 @@ pos = (170,135);
 ref = "nukta-beng";
 }
 );
-vertWidth = 0;
 width = 617;
 },
 {
@@ -131,7 +129,6 @@ pos = (197,88);
 ref = "nukta-beng";
 }
 );
-vertWidth = 0;
 width = 727;
 },
 {
@@ -175,7 +172,6 @@ pos = (119,169);
 ref = "nukta-beng";
 }
 );
-vertWidth = 0;
 width = 437;
 },
 {
@@ -219,7 +215,6 @@ pos = (133,145);
 ref = "nukta-beng";
 }
 );
-vertWidth = 0;
 width = 477;
 },
 {
@@ -263,7 +258,6 @@ pos = (179,103);
 ref = "nukta-beng";
 }
 );
-vertWidth = 0;
 width = 620;
 }
 );

@@ -1,0 +1,180 @@
+{
+category = Letter;
+color = 10;
+export = 0;
+glyphname = "dd_wa-beng";
+layers = (
+{
+background = {
+shapes = (
+{
+ref = "dd_ba-beng";
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+ref = "dd-beng.half";
+},
+{
+pos = (218,-94);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (241,-128);
+ref = "wa-beng.part";
+},
+{
+pos = (492,0);
+ref = "headline-beng.200";
+}
+);
+width = 692;
+},
+{
+background = {
+shapes = (
+{
+ref = "dd_ba-beng";
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+ref = "dd-beng.half";
+},
+{
+pos = (239,-91);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (239,-101);
+ref = "wa-beng.part";
+},
+{
+pos = (497,0);
+ref = "headline-beng.200";
+}
+);
+width = 657;
+},
+{
+background = {
+shapes = (
+{
+ref = "dd_ba-beng";
+}
+);
+};
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+alignment = -1;
+ref = "dd-beng.half";
+},
+{
+pos = (149,-32);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (203,-81);
+ref = "wa-beng.part";
+},
+{
+pos = (480,0);
+ref = "headline-beng.200";
+}
+);
+width = 710;
+},
+{
+background = {
+shapes = (
+{
+ref = "dd_ba-beng";
+}
+);
+};
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+ref = "dd-beng.half";
+},
+{
+pos = (168,-92);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (168,-102);
+ref = "wa-beng.part";
+},
+{
+pos = (359,0);
+ref = "headline-beng.200";
+}
+);
+width = 470;
+},
+{
+background = {
+shapes = (
+{
+ref = "dd_ba-beng";
+}
+);
+};
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "dd-beng.half";
+},
+{
+pos = (146,-98);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (162,-128);
+ref = "wa-beng.part";
+},
+{
+pos = (375,0);
+ref = "headline-beng.200";
+}
+);
+width = 526;
+},
+{
+background = {
+shapes = (
+{
+ref = "dd_ba-beng";
+}
+);
+};
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+alignment = -1;
+ref = "dd-beng.half";
+},
+{
+pos = (112,-47);
+ref = "baphala-beng.alt2";
+},
+{
+pos = (147,-93);
+ref = "wa-beng.part";
+},
+{
+pos = (372,0);
+ref = "headline-beng.200";
+}
+);
+width = 556;
+}
+);
+script = bengali;
+subCategory = Spacing;
+}

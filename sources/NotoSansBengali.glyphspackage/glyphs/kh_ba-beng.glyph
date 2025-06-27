@@ -1,0 +1,154 @@
+{
+category = Letter;
+color = 2;
+export = 0;
+glyphname = "kh_ba-beng";
+layers = (
+{
+background = {
+shapes = (
+{
+ref = "kh-beng.half";
+},
+{
+pos = (174,-98);
+ref = "baphala-beng.alt1";
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+ref = "kh-beng.half";
+},
+{
+pos = (174,-98);
+ref = "baphala-beng.alt1";
+}
+);
+width = 646;
+},
+{
+background = {
+shapes = (
+{
+ref = "kh-beng.half";
+},
+{
+pos = (218,-15);
+ref = "baphala-beng.alt1";
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+ref = "kh-beng.half";
+},
+{
+pos = (218,-15);
+ref = "baphala-beng.alt1";
+}
+);
+width = 607;
+},
+{
+background = {
+shapes = (
+{
+ref = "kh-beng.half";
+},
+{
+pos = (179,-37);
+ref = "baphala-beng.alt1";
+}
+);
+};
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+ref = "kh-beng.half";
+},
+{
+pos = (179,-37);
+ref = "baphala-beng.alt1";
+}
+);
+width = 708;
+},
+{
+background = {
+shapes = (
+{
+ref = "kh-beng.half";
+},
+{
+pos = (149,-14);
+ref = "baphala-beng.alt1";
+}
+);
+};
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+ref = "kh-beng.half";
+},
+{
+pos = (143,-14);
+ref = "baphala-beng.alt1";
+}
+);
+width = 424;
+},
+{
+background = {
+shapes = (
+{
+ref = "kh-beng.half";
+},
+{
+pos = (136,-86);
+ref = "baphala-beng.alt1";
+}
+);
+};
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "kh-beng.half";
+},
+{
+pos = (130,-86);
+ref = "baphala-beng.alt1";
+}
+);
+width = 493;
+},
+{
+background = {
+shapes = (
+{
+ref = "kh-beng.half";
+},
+{
+pos = (145,-47);
+ref = "baphala-beng.alt1";
+}
+);
+};
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "kh-beng.half";
+},
+{
+pos = (138,-47);
+ref = "baphala-beng.alt1";
+}
+);
+width = 576;
+}
+);
+script = bengali;
+subCategory = Spacing;
+}

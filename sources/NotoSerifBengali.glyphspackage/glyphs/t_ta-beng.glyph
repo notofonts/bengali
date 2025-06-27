@@ -330,11 +330,11 @@ width = 699;
 anchors = (
 {
 name = bottom;
-pos = (340,40);
+pos = (340,60);
 },
 {
 name = bottom.rakaar;
-pos = (371,-18);
+pos = (391,-28);
 },
 {
 name = bottom.rvocalic;
@@ -450,7 +450,7 @@ pos = (352,8);
 },
 {
 name = bottom.virama;
-pos = (313,-29);
+pos = (293,-9);
 },
 {
 name = top;
@@ -546,7 +546,7 @@ width = 485;
 anchors = (
 {
 name = bottom;
-pos = (474,-79);
+pos = (474,-59);
 },
 {
 name = bottom.rakaar;
@@ -558,7 +558,7 @@ pos = (471,-58);
 },
 {
 name = bottom.virama;
-pos = (420,-65);
+pos = (390,-43);
 },
 {
 name = top;
@@ -622,7 +622,7 @@ nodes = (
 (423,313,o),
 (383,302,c),
 (401,240,l),
-(439,242,o),
+(439,240,o),
 (488,220,o),
 (488,173,cs),
 (488,116,o),

@@ -27,7 +27,6 @@ pos = (70,-20);
 ref = "reph-beng";
 }
 );
-vertWidth = 0;
 width = 219;
 },
 {
@@ -55,7 +54,6 @@ pos = (96,-52);
 ref = "reph-beng";
 }
 );
-vertWidth = 0;
 width = 214;
 },
 {
@@ -83,7 +81,6 @@ pos = (70,-46);
 ref = "reph-beng";
 }
 );
-vertWidth = 0;
 width = 275;
 },
 {
@@ -111,7 +108,6 @@ pos = (40,-20);
 ref = "reph-beng";
 }
 );
-vertWidth = 0;
 width = 170;
 },
 {
@@ -139,7 +135,6 @@ pos = (52,-12);
 ref = "reph-beng";
 }
 );
-vertWidth = 0;
 width = 185;
 },
 {
@@ -167,7 +162,6 @@ pos = (61,-6);
 ref = "reph-beng";
 }
 );
-vertWidth = 0;
 width = 203;
 }
 );

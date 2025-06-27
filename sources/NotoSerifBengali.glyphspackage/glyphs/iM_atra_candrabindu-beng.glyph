@@ -23,7 +23,6 @@ pos = (646,-20);
 ref = "candrabindu-beng";
 }
 );
-vertWidth = 0;
 width = 219;
 },
 {
@@ -47,7 +46,6 @@ pos = (676,-52);
 ref = "candrabindu-beng";
 }
 );
-vertWidth = 0;
 width = 214;
 },
 {
@@ -71,7 +69,6 @@ pos = (741,-30);
 ref = "candrabindu-beng";
 }
 );
-vertWidth = 0;
 width = 275;
 },
 {
@@ -95,7 +92,6 @@ pos = (487,-20);
 ref = "candrabindu-beng";
 }
 );
-vertWidth = 0;
 width = 170;
 },
 {
@@ -119,7 +115,6 @@ pos = (526,-52);
 ref = "candrabindu-beng";
 }
 );
-vertWidth = 0;
 width = 185;
 },
 {
@@ -143,7 +138,6 @@ pos = (602,-30);
 ref = "candrabindu-beng";
 }
 );
-vertWidth = 0;
 width = 203;
 }
 );
