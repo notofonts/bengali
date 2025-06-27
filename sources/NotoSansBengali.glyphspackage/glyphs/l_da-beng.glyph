@@ -12,7 +12,7 @@ ref = "l-beng.half3";
 },
 {
 alignment = -1;
-pos = (414,0);
+pos = (415,0);
 ref = "da-beng";
 }
 );
@@ -24,11 +24,11 @@ ref = "l-beng.half3";
 },
 {
 alignment = -1;
-pos = (415,0);
-ref = "da-beng";
+pos = (669,0);
+ref = "da-beng.side";
 }
 );
-width = 968;
+width = 978;
 },
 {
 background = {
@@ -50,11 +50,11 @@ ref = "l-beng.half3";
 },
 {
 alignment = -1;
-pos = (384,0);
-ref = "da-beng";
+pos = (600,0);
+ref = "da-beng.side";
 }
 );
-width = 884;
+width = 894;
 },
 {
 background = {
@@ -64,7 +64,7 @@ ref = "l-beng.half3";
 },
 {
 alignment = -1;
-pos = (431,0);
+pos = (438,0);
 ref = "da-beng";
 }
 );
@@ -76,11 +76,11 @@ ref = "l-beng.half3";
 },
 {
 alignment = -1;
-pos = (438,0);
-ref = "da-beng";
+pos = (724,0);
+ref = "da-beng.side";
 }
 );
-width = 1012;
+width = 1022;
 },
 {
 background = {
@@ -102,11 +102,11 @@ ref = "l-beng.half3";
 },
 {
 alignment = -1;
-pos = (267,0);
-ref = "da-beng";
+pos = (421,0);
+ref = "da-beng.side";
 }
 );
-width = 619;
+width = 620;
 },
 {
 background = {
@@ -117,7 +117,7 @@ ref = "l-beng.half3";
 },
 {
 alignment = -1;
-pos = (313,0);
+pos = (312,0);
 ref = "da-beng";
 }
 );
@@ -130,11 +130,11 @@ ref = "l-beng.half3";
 },
 {
 alignment = -1;
-pos = (312,0);
-ref = "da-beng";
+pos = (505,0);
+ref = "da-beng.side";
 }
 );
-width = 724;
+width = 725;
 },
 {
 background = {
@@ -145,7 +145,7 @@ ref = "l-beng.half3";
 },
 {
 alignment = -1;
-pos = (335,0);
+pos = (344,0);
 ref = "da-beng";
 }
 );
@@ -158,11 +158,11 @@ ref = "l-beng.half3";
 },
 {
 alignment = -1;
-pos = (344,0);
-ref = "da-beng";
+pos = (582,0);
+ref = "da-beng.side";
 }
 );
-width = 802;
+width = 796;
 }
 );
 script = bengali;
