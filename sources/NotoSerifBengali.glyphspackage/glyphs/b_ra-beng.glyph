@@ -22,6 +22,10 @@ name = top;
 pos = (495,602);
 },
 {
+name = topleft;
+pos = (487,602);
+},
+{
 name = topright;
 pos = (498,602);
 },
@@ -98,7 +102,7 @@ width = 593;
 anchors = (
 {
 name = bottom;
-pos = (510,-6);
+pos = (510,-14);
 },
 {
 name = bottom.rvocalic;
@@ -111,6 +115,10 @@ pos = (495,-30);
 {
 name = top;
 pos = (515,570);
+},
+{
+name = topleft;
+pos = (511,618);
 },
 {
 name = topright;
@@ -204,6 +212,10 @@ name = top;
 pos = (577,592);
 },
 {
+name = topleft;
+pos = (557,652);
+},
+{
 name = topright;
 pos = (578,572);
 },
@@ -293,6 +305,10 @@ pos = (369,17);
 {
 name = top;
 pos = (384,602);
+},
+{
+name = topleft;
+pos = (350,612);
 },
 {
 name = topright;
@@ -386,6 +402,10 @@ name = top;
 pos = (381,570);
 },
 {
+name = topleft;
+pos = (409,610);
+},
+{
 name = topright;
 pos = (383,570);
 },
@@ -475,6 +495,10 @@ pos = (535,-94);
 {
 name = top;
 pos = (495,592);
+},
+{
+name = topleft;
+pos = (469,632);
 },
 {
 name = topright;

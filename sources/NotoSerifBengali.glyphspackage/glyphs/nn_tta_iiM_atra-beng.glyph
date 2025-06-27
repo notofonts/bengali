@@ -984,7 +984,6 @@ width = 990;
 );
 metricLeft = "nna-beng";
 metricRight = "iiMatra-beng";
-production = uni09A309CD099F09C0;
 script = bengali;
 subCategory = Other;
 }

@@ -1,0 +1,6935 @@
+{
+.appVersion = "3343";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
+customParameters = (
+{
+name = openTypeOS2VendorID;
+value = GOOG;
+},
+{
+name = glyphOrder;
+value = (
+.notdef,
+NULL,
+CR,
+zerowidthnonjoiner,
+zerowidthjoiner,
+uni200B,
+dottedCircle,
+space,
+nbspace,
+"anji-beng",
+"candrabindu-beng",
+"anusvara-beng",
+"visarga-beng",
+"a-beng",
+"aa-beng",
+"i-beng",
+"ii-beng",
+"u-beng",
+"uu-beng",
+"rVocalic-beng",
+"lVocalic-beng",
+"e-beng",
+"ai-beng",
+"o-beng",
+"au-beng",
+"ka-beng",
+"kha-beng",
+"ga-beng",
+"gha-beng",
+"nga-beng",
+"ca-beng",
+"cha-beng",
+"ja-beng",
+"jha-beng",
+"nya-beng",
+"tta-beng",
+"ttha-beng",
+"dda-beng",
+"ddha-beng",
+"nna-beng",
+"ta-beng",
+"tha-beng",
+"da-beng",
+"dha-beng",
+"na-beng",
+"pa-beng",
+"pha-beng",
+"ba-beng",
+"bha-beng",
+"ma-beng",
+"ya-beng",
+"ra-beng",
+"la-beng",
+"sha-beng",
+"ssa-beng",
+"sa-beng",
+"ha-beng",
+"nukta-beng",
+"avagraha-beng",
+"aaMatra-beng",
+"iMatra-beng",
+"iiMatra-beng",
+"uMatra-beng",
+"uuMatra-beng",
+"rVocalicMatra-beng",
+"rrVocalicMatra-beng",
+"eMatra-beng",
+"aiMatra-beng",
+"oMatra-beng",
+"auMatra-beng",
+"halant-beng",
+"taKhanda-beng",
+"auLength-beng",
+"rra-beng",
+"rha-beng",
+"yya-beng",
+"rrVocalic-beng",
+"llVocalic-beng",
+"lVocalicMatra-beng",
+"llVocalicMatra-beng",
+"zero-beng",
+"one-beng",
+"two-beng",
+"three-beng",
+"four-beng",
+"five-beng",
+"six-beng",
+"seven-beng",
+"eight-beng",
+"nine-beng",
+"ramiddlediagonal-beng",
+"ralowerdiagonal-beng",
+"rupeeMark-beng",
+"rupeeSign-beng",
+"oneNumr-beng",
+"twoNumr-beng",
+"threeNumr-beng",
+"fourNumr-beng",
+"oneLessNumr-beng",
+"sixteenDnom-beng",
+"isshar-beng",
+"ganda-beng",
+"vedicAnusvara-beng",
+"abbreviation-beng",
+"sandhi-beng",
+"danda-deva",
+"dbldanda-deva",
+uni0951,
+uni0952,
+uni1CD0,
+uni1CD2,
+uni1CD5,
+uni1CD6,
+uni1CD8,
+uni1CE1,
+uni1CEA,
+uni1CED,
+uni1CF2,
+uni1CF5,
+uni1CF6,
+uni1CF7,
+uniA8F1,
+braceleft,
+braceright,
+bracketleft,
+bracketright,
+quotedblleft,
+quotedblright,
+quoteleft,
+quoteright,
+exclam,
+question,
+"#non-unicodeMarks",
+"reph-beng",
+"ya-beng.pstf",
+"#PrecomposedConjuncts",
+"k_ma-beng",
+"k_ssa-beng",
+"k_ss_ma-beng",
+"k_sa-beng",
+"ng_ka-beng",
+"ng_ga-beng",
+"c_nya-beng",
+"j_ja-beng",
+"j_j_ba-beng",
+"j_nya-beng",
+"j_ra-beng",
+"ny_ca-beng",
+"ny_c_ba-beng",
+"ny_cha-beng",
+"ny_ja-beng",
+"dd_dda-beng",
+"nn_dda-beng",
+"t_ta-beng",
+"t_t_ra-beng",
+"t_tha-beng",
+"t_ra-beng",
+"d_da-beng",
+"d_bha-beng",
+"d_bh_ra-beng",
+"n_ja-beng",
+"n_ra-beng",
+"n_sa-beng",
+"p_sa-beng",
+"b_ja-beng",
+"b_dda-beng",
+"b_ddha-beng",
+"b_da-beng",
+"b_d_ra-beng",
+"b_bha-beng",
+"b_bh_ra-beng",
+"m_da-beng",
+"m_d_ra-beng",
+"m_bh_ra-beng",
+"l_gha-beng",
+"l_ta-beng",
+"l_pha-beng",
+"l_bha-beng",
+"l_ra-beng",
+"l_sa-beng",
+"ss_nna-beng",
+"s_kha-beng",
+"h_ma-beng",
+"rr_ra-beng",
+"rh_ba-beng",
+"rh_ra-beng",
+"yy_ba-beng",
+"yy_ra-beng",
+"#PrecomposedMatraLigatures",
+"ga_uMatra-beng",
+"l_ga_uMatra-beng",
+"sha_uMatra-beng",
+"ha_uMatra-beng",
+"#BaseNoFlag",
+"k_tta-beng.noflag",
+"tt_tta-beng.noflag",
+"ph_tta-beng.noflag",
+"ss_tta-beng.noflag",
+"ttha-beng.notop",
+"ss_ttha-beng.notop",
+"#BaseHalfs",
+"k-beng.half",
+"k_ss-beng.half",
+"kh-beng.half",
+"g-beng.half",
+"g-beng.half2",
+"gh-beng.half",
+"ng-beng.half",
+"ng-beng.half2",
+"ng_g-beng.half",
+"c-beng.half",
+"c-beng.half1",
+"c-beng.half2",
+"ch-beng.half",
+"j-beng.half",
+"jh-beng.half",
+"ny-beng.half",
+"tt-beng.half",
+"tth-beng.half",
+"dd-beng.half",
+"dd-beng.half1",
+"ddh-beng.half",
+"ddh-beng.half2",
+"nn-beng.half",
+"nn-beng.half2",
+"nn-beng.half3",
+"t-beng.half",
+"t_t-beng.half",
+"th-beng.half",
+"d-beng.half",
+"d-beng.half2",
+"d-beng.half3",
+"d-beng.half4",
+"d_d-beng.half",
+"dh-beng.half",
+"n-beng.half2",
+"n-beng.half3",
+"n_s-beng.half",
+"p-beng.half",
+"p-beng.half2",
+"p-beng.half3",
+"ph-beng.half",
+"b-beng.half",
+"b-beng.half2",
+"bh-beng.half",
+"m-beng.half",
+"m-beng.half2",
+"m-beng.half3",
+"l-beng.half3",
+"y-beng.half",
+"sh-beng.half",
+"sh-beng.half2",
+"ss-beng.half",
+"ss-beng.half3",
+"ss-beng.half4",
+"s-beng.half",
+"s-beng.half2",
+"s-beng.half3",
+"s-beng.half4",
+"h-beng.half",
+"h-beng.half2",
+"rlowerdiagonal-beng.half",
+"rmiddlediagonal-beng.half",
+"#SideForms",
+"kha-beng.side",
+"ga-beng.side",
+"ca-beng.side",
+"cha-beng.side",
+"jh-beng.side",
+"ttha-beng.side",
+"dda-beng.side",
+"ddha-beng.side",
+"ddh-beng.side",
+"da-beng.side",
+"d-beng.side",
+"pha-beng.side",
+"ba-beng.side",
+"ma-beng.side",
+"ma-beng.side1",
+"ma-beng.side2",
+"ma-beng.side3",
+"aaMatra-beng.part",
+"aaMatra-beng.part2",
+"aaMatra-beng.part.short",
+"uMatra-beng.side",
+"uuMatra-beng.side",
+"uuMatra-beng.side2",
+"#BelowForms",
+"raphala-beng",
+"raphala-beng.alt01",
+"raphala-beng.alt02",
+"raphala-beng.alt03",
+"raphala-beng.alt04",
+"raphala-beng.alt05",
+"raphala-beng.alt06",
+"raphala-beng.alt07",
+"raphala-beng.alt08",
+"raphala-beng.alt09",
+"raphala-beng.alt10",
+"raphala-beng.alt11",
+"raphala-beng.alt12",
+"raphala-beng.alt13",
+"raphala-beng.alt14",
+"raphala-beng.alt15",
+"baphala-beng",
+"baphala-beng.alt1",
+"baphala-beng.alt2",
+"baphala-beng.alt3",
+"baphala-beng.alt4",
+"ga-beng.blws",
+"nna-beng.blws",
+"nna-beng.blws1",
+"ta-beng.blws",
+"ta_uMatra-beng.blws",
+"t_ra-beng.blws",
+"tha-beng.blws",
+"dh_ba-beng.blws",
+"na-beng.blws",
+"na-beng.blws1",
+"na-beng.blws2",
+"na-beng.blws3",
+"pa-beng.blws",
+"bha-beng.blws",
+"la-beng.blws",
+"la-beng.blws1",
+"la-beng.blws2",
+"la-beng.blws3",
+"#Parts",
+"ka-beng.arm",
+"ka-beng.arm1",
+"ka-beng.arm2",
+"ka-beng.part",
+"jha-beng.part",
+"dha-beng.part",
+"dha-beng.part2",
+"n-beng.float",
+"wa-beng.part",
+"aaMatra-beng.float",
+"aaMatra-beng.side",
+"aaMatra-beng.side2",
+"tta-beng.flag",
+"tta-beng.flag2",
+"tta-beng.flag3",
+"tta-beng.flagIMatra1",
+"tta-beng.flagIMatra2",
+"tta-beng.flagIMatra3",
+"tta-beng.flagIiMatra",
+"tta-beng.flagIiMatra2",
+"tta-beng.flagIiMatra3",
+"ttha-beng.top",
+"ttha-beng.top2",
+"ttha-beng.topIMatra",
+"ttha-beng.topIMatra2",
+"ttha-beng.topIiMatra",
+"ttha-beng.topIiMatra2",
+"#Headline",
+"headline-beng.100",
+"headline-beng.130",
+"headline-beng.200",
+"headline-beng.250",
+"headline-beng.ba",
+"n-beng.headline",
+"#AlternateVowels",
+"candrabindu-beng.altIMatra",
+"candrabindu-beng.small",
+"nukta-beng.alt",
+"iMatra-beng.long01",
+"iMatra-beng.long02",
+"iMatra-beng.long03",
+"iMatra-beng.long04",
+"iMatra-beng.long05",
+"iMatra-beng.long06",
+"iMatra-beng.long07",
+"iMatra-beng.long08",
+"iMatra-beng.long09",
+"iMatra-beng.short01",
+"iMatra-beng.short02",
+"iMatra-beng.short03",
+"iMatra-beng.ttaAlt1",
+"iMatra-beng.ttaAlt2",
+"iMatra-beng.ttaAlt3",
+"iMatra-beng.ttaAlt4",
+"iMatra-beng.ttaAlt5",
+"iMatra-beng.tthaAlt1",
+"iMatra-beng.tthaAlt2",
+"iMatra-beng.tthaAlt3",
+"iiMatra-beng.nubAlt1",
+"iiMatra-beng.ttaAlt1",
+"iiMatra-beng.ttaAlt2",
+"iiMatra-beng.tthaAlt1",
+"iiMatra-beng.alt",
+"auLength-beng.short",
+"auLength-beng.long",
+"uMatra-beng.alt",
+"uMatra-beng.alt1",
+"uMatra-beng.round",
+"uMatra-beng.low",
+"uuMatra-beng.alt",
+"uuMatra-beng.alt1",
+"uuMatra-beng.alt2",
+"uuMatra-beng.round",
+"uuMatra-beng.low",
+"rVocalicMatra-beng.alt",
+"rrVocalicMatra-beng.alt",
+"lVocalicMatra-beng.alt",
+"llVocalicMatra-beng.alt",
+"eMatra-beng.short",
+"eMatra-beng.long",
+"eMatra-beng.init",
+"eMatra-beng.short.init",
+"eMatra-beng.long.init",
+"aiMatra-beng.long",
+"aiMatra-beng.short",
+"aiMatra-beng.init",
+"aiMatra-beng.short.init",
+"aiMatra-beng.long.init",
+"reph-beng.altAuLength",
+"reph-beng.altIMatra",
+"reph-beng.altIiMatra",
+"reph-beng.altTtha",
+"ya-beng.pstf.short",
+uni1CF5.stack,
+uni1CF6.stack,
+ivowelcrossbeng,
+ivowelwavebeng,
+iivowelcrossbeng,
+iivowelwavebeng,
+auvowelcrossbeng,
+auvowelwavebeng,
+aulengthmarkshortbeng,
+uni20B9,
+uni02BC,
+uni2010
+);
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = unicodeRanges;
+value = (
+0,
+1,
+2,
+3,
+5,
+6,
+15,
+16,
+29,
+31,
+33,
+35,
+38,
+45
+);
+},
+{
+name = "Has WWS Names";
+value = 1;
+},
+{
+name = "Propagate Anchors";
+value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Enforce Compatibility Check";
+value = 1;
+},
+{
+name = DisableAllAutomaticBehaviour;
+value = 0;
+},
+{
+name = "Write lastChange";
+value = 0;
+},
+{
+name = "Axis Mappings";
+value = {
+wdth = {
+62.5 = 62.5;
+75 = 75;
+87 = 87;
+100 = 100;
+};
+wght = {
+100 = 20;
+200 = 32;
+300 = 58;
+400 = 90;
+500 = 108;
+600 = 128;
+700 = 151;
+800 = 169;
+900 = 178;
+};
+};
+},
+{
+name = "Variable Font Origin";
+value = UUID0;
+},
+{
+name = "meta Table";
+value = (
+{
+data = "as-Beng, bn-Beng";
+tag = dlng;
+},
+{
+data = "as-Beng, bn-Beng, pi-Beng";
+tag = slng;
+}
+);
+}
+);
+date = "2017-07-06 08:51:49 +0000";
+familyName = "Noto Sans Bengali";
+featurePrefixes = (
+{
+code = "# link modified after the change to .glyphspackage. Glyphs3 marks an error, but this is the correct path for fontmake.
+include(features/NotoSansBengali.fea);
+";
+name = Include;
+}
+);
+features = (
+{
+code = "# Automatic Code End
+
+lookup BNG_dflt_dist_onTheFly_kern{
+	lookupflag 0;
+	pos l-beng.half3' da-beng <0 0 $KERN_onTheFly_LDa 0>;
+	pos [m-beng.half s-beng.half]' pa-beng <0 0 $KERN_onTheFly_MPa 0>;
+	pos [m-beng.half s-beng.half]' p-beng.half2 <0 0 $KERN_onTheFly_MPRa 0>;
+	pos [m-beng.half s-beng.half]' p-beng.half2 <0 0 $KERN_onTheFly_MPRa 0>;
+	pos m-beng.half' sa-beng <0 0 $KERN_onTheFly_MSa 0>;
+	pos ss-beng.half4' pa-beng <0 0 $KERN_onTheFly_SsPa 0>;
+	pos ss-beng.half4' p-beng.half2 <0 0 $KERN_onTheFly_SsPRa 0>;
+	pos s-beng.half' sa-beng <0 0 $KERN_onTheFly_MSa 0>;
+} BNG_dflt_dist_onTheFly_kern;
+
+
+lookup BNG_dflt_dist_onTheFly_kern2{
+	lookupflag 0;
+	pos [m-beng.half s-beng.half]' p-beng.half <0 0 $KERN_onTheFly_MPLa 0>;
+} BNG_dflt_dist_onTheFly_kern2;
+
+
+lookup BNG_dflt_dist_floatingHeadline{
+	lookupflag UseMarkFilteringSet [headline-beng.130 headline-beng.200 headline-beng.250];
+	# headline130
+	pos [g-beng.half d-beng.half3 d-beng.half2 s-beng.half2 aaMatra-beng.part]' headline-beng.130 <0 0 $NUM_RSB_headline130 0>;
+	pos t_ra-beng' headline-beng.130 <0 0 $NUM_RSB_headline130_tRUu 0>;
+	# headline120
+	pos [t_ta-beng t_t-beng.half t_ra-beng ss-beng.half3 aaMatra-beng.part.short]' headline-beng.200 <0 0 $NUM_RSB_headline200 0>;
+	pos [dd-beng.half]' headline-beng.200 <0 0 $NUM_RSB_headline200_ddHalf 0>;
+	pos [m-beng.half s-beng.half]' headline-beng.200 <0 0 $NUM_RSB_headline200_mHalf 0>;
+	pos bh-beng.half' headline-beng.200 <0 0 $NUM_RSB_headline200_bhHalf 0>;
+	pos ss-beng.half4' headline-beng.200 <0 0 $NUM_RSB_headline200_ssHalf4 0>;
+	pos s-beng.half2' headline-beng.200 <0 0 $NUM_RSB_headline200_sHalf2 0>;
+	pos ha-beng' headline-beng.200 <0 0 $NUM_RSB_headline200_ha 0>;
+	# headline250
+	pos [ha-beng h-beng.half h-beng.half2]' headline-beng.250 <0 0 $NUM_RSB_headline250_ha 0>;
+	pos [ss-beng.half4 s-beng.half]' headline-beng.250 <0 0 $NUM_RSB_headline250_ssHalf 0>;
+	pos  b-beng.half2' headline-beng.250 <0 0 $NUM_RSB_headline130 0>; 
+	pos ss-beng.half4' p-beng.half <0 0 $KERN_onTheFly_SsPLa 0>;
+
+}BNG_dflt_dist_floatingHeadline;
+
+lookup BNG_dflt_dist_floatingPart{
+	lookupflag UseMarkFilteringSet [headline-beng.130 headline-beng.200 headline-beng.250 ka-beng.arm ka-beng.arm1 jh-beng.side aaMatra-beng.float aaMatra-beng.side2];
+	# kaArm
+	pos b-beng.half2' [ka-beng.arm ka-beng.arm1] <0 0 $NUM_RSB_kaArm 0>;
+	# b_jha
+	pos b-beng.half2' aaMatra-beng.side2 <0 0 $NUM_RSB_bJhaSide 0>;
+	# aaMatra-beng.float
+	pos j-beng.half' aaMatra-beng.float <0 0 $NUM_RSB_aaMatraFloat 0>;
+}BNG_dflt_dist_floatingPart;
+
+
+lookup BNG_dflt_dist_onTheFly_kern_eMatra{
+	pos eMatra-beng.long' [m-beng.half s-beng.half] [p-beng.half pha-beng.side pa-beng ma-beng.side2 sa-beng] <0 0 0 0>;
+}BNG_dflt_dist_onTheFly_kern_eMatra;
+";
+tag = dist;
+},
+{
+code = "# Automatic Code End
+
+# Thin
+
+@BNG_VEDIC_ALL = [uni0951 uni1CD0 uni1CD2 uni1CF5.stack uni1CF6.stack uni0952 uni1CD5 uni1CD6 uni1CD8 uni1CED];
+
+lookup BNG_dflt_abvm_vedicMatraShift_1 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half headline-beng.100 gha-beng @BNG_VEDIC_ALL' <-285 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_1;
+
+lookup BNG_dflt_abvm_vedicMatraShift_2 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 headline-beng.100 gha-beng @BNG_VEDIC_ALL' <-185 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_2;
+
+lookup BNG_dflt_abvm_vedicMatraShift_3 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part ma-beng.side @BNG_VEDIC_ALL' <-294 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_3;
+
+lookup BNG_dflt_abvm_vedicMatraShift_4 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos b-beng.half2 ka-beng.arm @BNG_VEDIC_ALL' <-124 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_4;
+
+lookup BNG_dflt_abvm_vedicMatraShift_5 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos g-beng.half headline-beng.130 @BNG_VEDIC_ALL' <-291 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_5;
+
+lookup BNG_dflt_abvm_vedicMatraShift_6 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.200 @BNG_VEDIC_ALL' <-309 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_6;
+
+lookup BNG_dflt_abvm_vedicMatraShift_7 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos m-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-197 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_7;
+
+lookup BNG_dflt_abvm_vedicMatraShift_8 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half headline-beng.250 @BNG_VEDIC_ALL' <-221 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_8;
+
+lookup BNG_dflt_abvm_vedicMatraShift_9 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-223 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_9;
+
+lookup BNG_dflt_abvm_vedicMatraShift_10 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ta-beng headline-beng.200 @BNG_VEDIC_ALL' <-332 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_10;
+
+lookup BNG_dflt_abvm_vedicMatraShift_11 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_t-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-322 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_11;
+
+lookup BNG_dflt_abvm_vedicMatraShift_12 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ra-beng headline-beng.200 @BNG_VEDIC_ALL' <-325 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_12;
+
+lookup BNG_dflt_abvm_vedicMatraShift_13 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos j-beng.half aaMatra-beng.float @BNG_VEDIC_ALL' <-306 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_13;
+
+lookup BNG_dflt_abvm_vedicMatraShift_14 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos dd-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-249 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_14;
+
+lookup BNG_dflt_abvm_vedicMatraShift_15 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos d-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-233 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_15;
+
+lookup BNG_dflt_abvm_vedicMatraShift_16 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.130 @BNG_VEDIC_ALL' <-256 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_16;
+
+lookup BNG_dflt_abvm_vedicMatraShift_17 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos b-beng.half2 headline-beng.250 @BNG_VEDIC_ALL' <-182 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_17;
+
+lookup BNG_dflt_abvm_vedicMatraShift_18 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos l-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-299 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_18;
+
+lookup BNG_dflt_abvm_vedicMatraShift_19 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.250 @BNG_VEDIC_ALL' <-149 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_19;
+
+lookup BNG_dflt_abvm_vedicMatraShift_20 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half3 headline-beng.200 @BNG_VEDIC_ALL' <-305 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_20;
+
+lookup BNG_dflt_abvm_vedicMatraShift_21 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.200 @BNG_VEDIC_ALL' <-144 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_21;
+
+lookup BNG_dflt_abvm_vedicMatraShift_22 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half2 headline-beng.200 @BNG_VEDIC_ALL' <-311 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_22;
+
+lookup BNG_dflt_abvm_vedicMatraShift_23 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ha-beng headline-beng.250 @BNG_VEDIC_ALL' <-210 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_23;
+
+lookup BNG_dflt_abvm_vedicMatraShift_24 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half gh-beng.half @BNG_VEDIC_ALL' <-285 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_24;
+
+lookup BNG_dflt_abvm_vedicMatraShift_25 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half1 ma-beng.side1 @BNG_VEDIC_ALL' <-309 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_25;
+
+lookup BNG_dflt_abvm_vedicMatraShift_26 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-277 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_26;
+
+lookup BNG_dflt_abvm_vedicMatraShift_27 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-354 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_27;
+
+lookup BNG_dflt_abvm_vedicMatraShift_28 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-354 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_28;
+
+lookup BNG_dflt_abvm_vedicMatraShift_29 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half @BNG_VEDIC_ALL' <-222 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_29;
+
+lookup BNG_dflt_abvm_vedicMatraShift_30 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pha-beng.side @BNG_VEDIC_ALL' <-282 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_30;
+
+lookup BNG_dflt_abvm_vedicMatraShift_31 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-298 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_31;
+
+lookup BNG_dflt_abvm_vedicMatraShift_32 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-298 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_32;
+
+lookup BNG_dflt_abvm_vedicMatraShift_33 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half @BNG_VEDIC_ALL' <-176 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_33;
+
+lookup BNG_dflt_abvm_vedicMatraShift_34 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half @BNG_VEDIC_ALL' <-248 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_34;
+
+lookup BNG_dflt_abvm_vedicMatraShift_35 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pha-beng.side @BNG_VEDIC_ALL' <-309 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_35;
+
+lookup BNG_dflt_abvm_vedicMatraShift_36 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half da-beng.side @BNG_VEDIC_ALL' <-291 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_36;
+
+lookup BNG_dflt_abvm_vedicMatraShift_37 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half d-beng.side @BNG_VEDIC_ALL' <-291 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_37;
+
+lookup BNG_dflt_abvm_vedicMatraShift_38 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half ma-beng.side @BNG_VEDIC_ALL' <-291 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_38;
+
+lookup BNG_dflt_abvm_vedicMatraShift_39 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ssa-beng @BNG_VEDIC_ALL' <-285 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_39;
+
+lookup BNG_dflt_abvm_vedicMatraShift_40 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ss-beng.half @BNG_VEDIC_ALL' <-292 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_40;
+
+lookup BNG_dflt_abvm_vedicMatraShift_41 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 kha-beng.side @BNG_VEDIC_ALL' <-315 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_41;
+
+lookup BNG_dflt_abvm_vedicMatraShift_42 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 ma-beng.side1 @BNG_VEDIC_ALL' <-310 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_42;
+
+lookup BNG_dflt_abvm_vedicMatraShift_43 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ca-beng @BNG_VEDIC_ALL' <-154 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_43;
+
+lookup BNG_dflt_abvm_vedicMatraShift_44 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half cha-beng @BNG_VEDIC_ALL' <-154 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_44;
+
+lookup BNG_dflt_abvm_vedicMatraShift_45 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ch-beng.half @BNG_VEDIC_ALL' <-156 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_45;
+
+lookup BNG_dflt_abvm_vedicMatraShift_46 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ddh-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-263 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_46;
+
+lookup BNG_dflt_abvm_vedicMatraShift_47 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half ga-beng.side @BNG_VEDIC_ALL' <-241 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_47;
+
+lookup BNG_dflt_abvm_vedicMatraShift_48 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-276 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_48;
+
+lookup BNG_dflt_abvm_vedicMatraShift_49 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half3 ttha-beng.side @BNG_VEDIC_ALL' <-239 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_49;
+
+lookup BNG_dflt_abvm_vedicMatraShift_50 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ma-beng.side @BNG_VEDIC_ALL' <-276 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_50;
+
+lookup BNG_dflt_abvm_vedicMatraShift_51 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos t-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-326 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_51;
+
+lookup BNG_dflt_abvm_vedicMatraShift_52 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 ga-beng.side @BNG_VEDIC_ALL' <-179 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_52;
+
+lookup BNG_dflt_abvm_vedicMatraShift_53 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-251 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_53;
+
+lookup BNG_dflt_abvm_vedicMatraShift_54 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dh-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-276 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_54;
+
+lookup BNG_dflt_abvm_vedicMatraShift_55 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddha-beng.side @BNG_VEDIC_ALL' <-252 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_55;
+
+lookup BNG_dflt_abvm_vedicMatraShift_56 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddh-beng.side @BNG_VEDIC_ALL' <-248 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_56;
+
+lookup BNG_dflt_abvm_vedicMatraShift_57 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ttha-beng.side @BNG_VEDIC_ALL' <-246 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_57;
+
+lookup BNG_dflt_abvm_vedicMatraShift_58 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline dda-beng.side @BNG_VEDIC_ALL' <-248 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_58;
+
+lookup BNG_dflt_abvm_vedicMatraShift_59 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline da-beng @BNG_VEDIC_ALL' <-139 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_59;
+
+lookup BNG_dflt_abvm_vedicMatraShift_60 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half3 @BNG_VEDIC_ALL' <-144 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_60;
+
+lookup BNG_dflt_abvm_vedicMatraShift_61 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half @BNG_VEDIC_ALL' <-144 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_61;
+
+lookup BNG_dflt_abvm_vedicMatraShift_62 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline aaMatra-beng.part @BNG_VEDIC_ALL' <-146 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_62;
+
+lookup BNG_dflt_abvm_vedicMatraShift_63 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ma-beng.side @BNG_VEDIC_ALL' <-251 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_63;
+
+lookup BNG_dflt_abvm_vedicMatraShift_64 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-322 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_64;
+
+lookup BNG_dflt_abvm_vedicMatraShift_65 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-323 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_65;
+
+lookup BNG_dflt_abvm_vedicMatraShift_66 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half ma-beng.side @BNG_VEDIC_ALL' <-312 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_66;
+
+lookup BNG_dflt_abvm_vedicMatraShift_67 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pa-beng @BNG_VEDIC_ALL' <-223 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_67;
+
+lookup BNG_dflt_abvm_vedicMatraShift_68 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-202 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_68;
+
+lookup BNG_dflt_abvm_vedicMatraShift_69 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-282 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_69;
+
+lookup BNG_dflt_abvm_vedicMatraShift_70 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half sa-beng @BNG_VEDIC_ALL' <-196 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_70;
+
+lookup BNG_dflt_abvm_vedicMatraShift_71 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part2 @BNG_VEDIC_ALL' <-189 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_71;
+
+lookup BNG_dflt_abvm_vedicMatraShift_72 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-300 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_72;
+
+lookup BNG_dflt_abvm_vedicMatraShift_73 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-300 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_73;
+
+lookup BNG_dflt_abvm_vedicMatraShift_74 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 dda-beng.side @BNG_VEDIC_ALL' <-300 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_74;
+
+lookup BNG_dflt_abvm_vedicMatraShift_75 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part.short @BNG_VEDIC_ALL' <-194 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_75;
+
+lookup BNG_dflt_abvm_vedicMatraShift_76 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 da-beng.side @BNG_VEDIC_ALL' <-300 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_76;
+
+lookup BNG_dflt_abvm_vedicMatraShift_77 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 d-beng.side @BNG_VEDIC_ALL' <-300 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_77;
+
+lookup BNG_dflt_abvm_vedicMatraShift_78 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part @BNG_VEDIC_ALL' <-189 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_78;
+
+lookup BNG_dflt_abvm_vedicMatraShift_79 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half cha-beng.side @BNG_VEDIC_ALL' <-297 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_79;
+
+lookup BNG_dflt_abvm_vedicMatraShift_80 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ma-beng.side @BNG_VEDIC_ALL' <-298 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_80;
+
+lookup BNG_dflt_abvm_vedicMatraShift_81 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pa-beng @BNG_VEDIC_ALL' <-176 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_81;
+
+lookup BNG_dflt_abvm_vedicMatraShift_82 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half2 @BNG_VEDIC_ALL' <-157 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_82;
+
+lookup BNG_dflt_abvm_vedicMatraShift_83 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pha-beng.side @BNG_VEDIC_ALL' <-236 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_83;
+
+lookup BNG_dflt_abvm_vedicMatraShift_84 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 ma-beng.side2 @BNG_VEDIC_ALL' <-236 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_84;
+
+lookup BNG_dflt_abvm_vedicMatraShift_85 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddha-beng.side @BNG_VEDIC_ALL' <-299 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_85;
+
+lookup BNG_dflt_abvm_vedicMatraShift_86 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddh-beng.side @BNG_VEDIC_ALL' <-299 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_86;
+
+lookup BNG_dflt_abvm_vedicMatraShift_87 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pa-beng @BNG_VEDIC_ALL' <-247 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_87;
+
+lookup BNG_dflt_abvm_vedicMatraShift_88 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-228 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_88;
+
+lookup BNG_dflt_abvm_vedicMatraShift_89 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-309 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_89;
+";
+tag = abvm;
+},
+{
+code = "# Automatic Code End
+
+
+lookup BNG_blwm_iMatra_CandrabinduSmall{
+	lookupflag UseMarkFilteringSet [candrabindu-beng.small aaMatra-beng.side];
+	pos @BNG_IMATRAS @BNG_BASE_NUBS candrabindu-beng.small' <$ABVM_smallCandrabindu_right $ABVM_smallCandrabindu_up 0 0>;
+	pos @BNG_IMATRAS @BNG_BASE_FLOATING_NUBS aaMatra-beng.side candrabindu-beng.small' <$ABVM_smallCandrabindu_right $ABVM_smallCandrabindu_up 0 0>;
+	pos @BNG_IMATRAS [dd-beng.half d-beng.half4] ga-beng.side candrabindu-beng.small' <$ABVM_smallCandrabindu_right $ABVM_smallCandrabindu_up 0 0>;
+    pos @BNG_IMATRAS [m-beng.half ss-beng.half4 s-beng.half ] [pa-beng p-beng.half p-beng.half2] candrabindu-beng.small' <$ABVM_smallCandrabindu_right $ABVM_smallCandrabindu_up 0 0>;
+    pos @BNG_IMATRAS [ng-beng.half] [gha-beng gh-beng.half] candrabindu-beng.small' <$ABVM_smallCandrabindu_right $ABVM_smallCandrabindu_up 0 0>;
+    pos @BNG_IMATRAS [ng-beng.half2] [kha-beng.side] candrabindu-beng.small' <$ABVM_smallCandrabindu_right $ABVM_smallCandrabindu_up 0 0>;
+} BNG_blwm_iMatra_CandrabinduSmall;
+
+
+lookup BNG_blwm_vedicTta_shiftUp{
+	lookupflag IgnoreBaseGlyphs;
+	pos [uni1CF5.stack uni1CF6.stack]' @BNG_TTA_FLAGS <0 $ABVM_vedicTta_up 0 0>;
+} BNG_blwm_vedicTta_shiftUp;
+";
+tag = blwm;
+}
+);
+fontMaster = (
+{
+axesValues = (
+20,
+100
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "ka-beng";
+}
+);
+id = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+metricValues = (
+{
+pos = 917;
+},
+{
+over = 10;
+pos = 622;
+},
+{
+pos = 536;
+},
+{
+},
+{
+pos = -408;
+},
+{
+},
+{
+over = 10;
+pos = 713;
+},
+{
+over = 10;
+pos = -10;
+}
+);
+name = Thin;
+numberValues = (
+90,
+105,
+160,
+0,
+-10,
+140,
+-23,
+150,
+130,
+175,
+80,
+206,
+151,
+161,
+-215,
+-175,
+-117,
+-160,
+-120,
+-157,
+-170,
+-120,
+-120,
+0,
+0,
+120
+);
+stemValues = (
+21,
+22,
+21,
+22
+);
+userData = {
+GSSlanterCursivy = 0;
+GSSlanterCursivyContrastFactor = 0.5;
+GSSlanterCursivyDoContrast = 1;
+GSSlanterCursivyDoShape = 1;
+GSSlanterCursivyDoThickness = 1;
+GSSlanterCursivyShapeFactor = 0.5;
+GSSlanterCursivyThicknessFactor = 1;
+GSSlanterGeometric = 0;
+GSSlanterRotate = 0;
+};
+},
+{
+axesValues = (
+90,
+100
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "ka-beng";
+},
+{
+name = "Replace Feature";
+value = "abvm;# Automatic Code End
+
+# Regular
+
+@BNG_VEDIC_ALL = [uni0951 uni1CD0 uni1CD2 uni1CF5.stack uni1CF6.stack uni0952 uni1CD5 uni1CD6 uni1CD8 uni1CED];
+
+lookup BNG_dflt_abvm_vedicMatraShift_1 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half headline-beng.100 gha-beng @BNG_VEDIC_ALL' <-311 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_1;
+
+lookup BNG_dflt_abvm_vedicMatraShift_2 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 headline-beng.100 gha-beng @BNG_VEDIC_ALL' <-217 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_2;
+
+lookup BNG_dflt_abvm_vedicMatraShift_3 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part ma-beng.side @BNG_VEDIC_ALL' <-333 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_3;
+
+lookup BNG_dflt_abvm_vedicMatraShift_4 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos b-beng.half2 ka-beng.arm @BNG_VEDIC_ALL' <-118 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_4;
+
+lookup BNG_dflt_abvm_vedicMatraShift_5 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos g-beng.half headline-beng.130 @BNG_VEDIC_ALL' <-318 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_5;
+
+lookup BNG_dflt_abvm_vedicMatraShift_6 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.200 @BNG_VEDIC_ALL' <-342 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_6;
+
+lookup BNG_dflt_abvm_vedicMatraShift_7 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos m-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-196 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_7;
+
+lookup BNG_dflt_abvm_vedicMatraShift_8 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half headline-beng.250 @BNG_VEDIC_ALL' <-248 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_8;
+
+lookup BNG_dflt_abvm_vedicMatraShift_9 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-223 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_9;
+
+lookup BNG_dflt_abvm_vedicMatraShift_10 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ta-beng headline-beng.200 @BNG_VEDIC_ALL' <-355 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_10;
+
+lookup BNG_dflt_abvm_vedicMatraShift_11 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_t-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-345 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_11;
+
+lookup BNG_dflt_abvm_vedicMatraShift_12 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ra-beng headline-beng.200 @BNG_VEDIC_ALL' <-331 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_12;
+
+lookup BNG_dflt_abvm_vedicMatraShift_13 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos j-beng.half aaMatra-beng.float @BNG_VEDIC_ALL' <-336 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_13;
+
+lookup BNG_dflt_abvm_vedicMatraShift_14 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos dd-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-246 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_14;
+
+lookup BNG_dflt_abvm_vedicMatraShift_15 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos d-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-266 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_15;
+
+lookup BNG_dflt_abvm_vedicMatraShift_16 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.130 @BNG_VEDIC_ALL' <-278 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_16;
+
+lookup BNG_dflt_abvm_vedicMatraShift_17 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos b-beng.half2 headline-beng.250 @BNG_VEDIC_ALL' <-220 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_17;
+
+lookup BNG_dflt_abvm_vedicMatraShift_18 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos l-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-334 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_18;
+
+lookup BNG_dflt_abvm_vedicMatraShift_19 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.250 @BNG_VEDIC_ALL' <-186 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_19;
+
+lookup BNG_dflt_abvm_vedicMatraShift_20 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half3 headline-beng.200 @BNG_VEDIC_ALL' <-301 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_20;
+
+lookup BNG_dflt_abvm_vedicMatraShift_21 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.200 @BNG_VEDIC_ALL' <-155 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_21;
+
+lookup BNG_dflt_abvm_vedicMatraShift_22 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half2 headline-beng.200 @BNG_VEDIC_ALL' <-324 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_22;
+
+lookup BNG_dflt_abvm_vedicMatraShift_23 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ha-beng headline-beng.250 @BNG_VEDIC_ALL' <-247 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_23;
+
+lookup BNG_dflt_abvm_vedicMatraShift_24 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half gh-beng.half @BNG_VEDIC_ALL' <-311 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_24;
+
+lookup BNG_dflt_abvm_vedicMatraShift_25 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half1 ma-beng.side1 @BNG_VEDIC_ALL' <-339 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_25;
+
+lookup BNG_dflt_abvm_vedicMatraShift_26 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-296 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_26;
+
+lookup BNG_dflt_abvm_vedicMatraShift_27 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-369 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_27;
+
+lookup BNG_dflt_abvm_vedicMatraShift_28 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-369 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_28;
+
+lookup BNG_dflt_abvm_vedicMatraShift_29 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half @BNG_VEDIC_ALL' <-210 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_29;
+
+lookup BNG_dflt_abvm_vedicMatraShift_30 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pha-beng.side @BNG_VEDIC_ALL' <-293 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_30;
+
+lookup BNG_dflt_abvm_vedicMatraShift_31 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-341 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_31;
+
+lookup BNG_dflt_abvm_vedicMatraShift_32 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-341 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_32;
+
+lookup BNG_dflt_abvm_vedicMatraShift_33 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half @BNG_VEDIC_ALL' <-176 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_33;
+
+lookup BNG_dflt_abvm_vedicMatraShift_34 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half @BNG_VEDIC_ALL' <-237 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_34;
+
+lookup BNG_dflt_abvm_vedicMatraShift_35 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pha-beng.side @BNG_VEDIC_ALL' <-320 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_35;
+
+lookup BNG_dflt_abvm_vedicMatraShift_36 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half da-beng.side @BNG_VEDIC_ALL' <-317 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_36;
+
+lookup BNG_dflt_abvm_vedicMatraShift_37 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half d-beng.side @BNG_VEDIC_ALL' <-318 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_37;
+
+lookup BNG_dflt_abvm_vedicMatraShift_38 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half ma-beng.side @BNG_VEDIC_ALL' <-318 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_38;
+
+lookup BNG_dflt_abvm_vedicMatraShift_39 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ssa-beng @BNG_VEDIC_ALL' <-313 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_39;
+
+lookup BNG_dflt_abvm_vedicMatraShift_40 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ss-beng.half @BNG_VEDIC_ALL' <-322 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_40;
+
+lookup BNG_dflt_abvm_vedicMatraShift_41 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 kha-beng.side @BNG_VEDIC_ALL' <-318 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_41;
+
+lookup BNG_dflt_abvm_vedicMatraShift_42 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 ma-beng.side1 @BNG_VEDIC_ALL' <-318 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_42;
+
+lookup BNG_dflt_abvm_vedicMatraShift_43 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ca-beng @BNG_VEDIC_ALL' <-182 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_43;
+
+lookup BNG_dflt_abvm_vedicMatraShift_44 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half cha-beng @BNG_VEDIC_ALL' <-182 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_44;
+
+lookup BNG_dflt_abvm_vedicMatraShift_45 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ch-beng.half @BNG_VEDIC_ALL' <-182 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_45;
+
+lookup BNG_dflt_abvm_vedicMatraShift_46 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ddh-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-279 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_46;
+
+lookup BNG_dflt_abvm_vedicMatraShift_47 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half ga-beng.side @BNG_VEDIC_ALL' <-262 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_47;
+
+lookup BNG_dflt_abvm_vedicMatraShift_48 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-296 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_48;
+
+lookup BNG_dflt_abvm_vedicMatraShift_49 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half3 ttha-beng.side @BNG_VEDIC_ALL' <-285 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_49;
+
+lookup BNG_dflt_abvm_vedicMatraShift_50 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ma-beng.side @BNG_VEDIC_ALL' <-296 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_50;
+
+lookup BNG_dflt_abvm_vedicMatraShift_51 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos t-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-362 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_51;
+
+lookup BNG_dflt_abvm_vedicMatraShift_52 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 ga-beng.side @BNG_VEDIC_ALL' <-187 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_52;
+
+lookup BNG_dflt_abvm_vedicMatraShift_53 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-282 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_53;
+
+lookup BNG_dflt_abvm_vedicMatraShift_54 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dh-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-298 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_54;
+
+lookup BNG_dflt_abvm_vedicMatraShift_55 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddha-beng.side @BNG_VEDIC_ALL' <-277 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_55;
+
+lookup BNG_dflt_abvm_vedicMatraShift_56 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddh-beng.side @BNG_VEDIC_ALL' <-273 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_56;
+
+lookup BNG_dflt_abvm_vedicMatraShift_57 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ttha-beng.side @BNG_VEDIC_ALL' <-284 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_57;
+
+lookup BNG_dflt_abvm_vedicMatraShift_58 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline dda-beng.side @BNG_VEDIC_ALL' <-270 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_58;
+
+lookup BNG_dflt_abvm_vedicMatraShift_59 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline da-beng @BNG_VEDIC_ALL' <-150 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_59;
+
+lookup BNG_dflt_abvm_vedicMatraShift_60 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half3 @BNG_VEDIC_ALL' <-153 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_60;
+
+lookup BNG_dflt_abvm_vedicMatraShift_61 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half @BNG_VEDIC_ALL' <-153 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_61;
+
+lookup BNG_dflt_abvm_vedicMatraShift_62 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline aaMatra-beng.part @BNG_VEDIC_ALL' <-146 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_62;
+
+lookup BNG_dflt_abvm_vedicMatraShift_63 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ma-beng.side @BNG_VEDIC_ALL' <-278 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_63;
+
+lookup BNG_dflt_abvm_vedicMatraShift_64 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-358 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_64;
+
+lookup BNG_dflt_abvm_vedicMatraShift_65 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-358 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_65;
+
+lookup BNG_dflt_abvm_vedicMatraShift_66 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half ma-beng.side @BNG_VEDIC_ALL' <-351 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_66;
+
+lookup BNG_dflt_abvm_vedicMatraShift_67 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pa-beng @BNG_VEDIC_ALL' <-218 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_67;
+
+lookup BNG_dflt_abvm_vedicMatraShift_68 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-181 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_68;
+
+lookup BNG_dflt_abvm_vedicMatraShift_69 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-294 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_69;
+
+lookup BNG_dflt_abvm_vedicMatraShift_70 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half sa-beng @BNG_VEDIC_ALL' <-204 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_70;
+
+lookup BNG_dflt_abvm_vedicMatraShift_71 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part2 @BNG_VEDIC_ALL' <-201 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_71;
+
+lookup BNG_dflt_abvm_vedicMatraShift_72 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-334 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_72;
+
+lookup BNG_dflt_abvm_vedicMatraShift_73 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-334 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_73;
+
+lookup BNG_dflt_abvm_vedicMatraShift_74 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 dda-beng.side @BNG_VEDIC_ALL' <-335 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_74;
+
+lookup BNG_dflt_abvm_vedicMatraShift_75 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part.short @BNG_VEDIC_ALL' <-199 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_75;
+
+lookup BNG_dflt_abvm_vedicMatraShift_76 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 da-beng.side @BNG_VEDIC_ALL' <-334 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_76;
+
+lookup BNG_dflt_abvm_vedicMatraShift_77 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 d-beng.side @BNG_VEDIC_ALL' <-335 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_77;
+
+lookup BNG_dflt_abvm_vedicMatraShift_78 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part @BNG_VEDIC_ALL' <-201 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_78;
+
+lookup BNG_dflt_abvm_vedicMatraShift_79 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half cha-beng.side @BNG_VEDIC_ALL' <-341 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_79;
+
+lookup BNG_dflt_abvm_vedicMatraShift_80 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ma-beng.side @BNG_VEDIC_ALL' <-341 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_80;
+
+lookup BNG_dflt_abvm_vedicMatraShift_81 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pa-beng @BNG_VEDIC_ALL' <-178 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_81;
+
+lookup BNG_dflt_abvm_vedicMatraShift_82 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half2 @BNG_VEDIC_ALL' <-144 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_82;
+
+lookup BNG_dflt_abvm_vedicMatraShift_83 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pha-beng.side @BNG_VEDIC_ALL' <-259 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_83;
+
+lookup BNG_dflt_abvm_vedicMatraShift_84 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 ma-beng.side2 @BNG_VEDIC_ALL' <-259 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_84;
+
+lookup BNG_dflt_abvm_vedicMatraShift_85 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddha-beng.side @BNG_VEDIC_ALL' <-312 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_85;
+
+lookup BNG_dflt_abvm_vedicMatraShift_86 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddh-beng.side @BNG_VEDIC_ALL' <-312 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_86;
+
+lookup BNG_dflt_abvm_vedicMatraShift_87 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pa-beng @BNG_VEDIC_ALL' <-245 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_87;
+
+lookup BNG_dflt_abvm_vedicMatraShift_88 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-208 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_88;
+
+lookup BNG_dflt_abvm_vedicMatraShift_89 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-321 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_89;
+
+";
+}
+);
+id = UUID0;
+metricValues = (
+{
+pos = 917;
+},
+{
+over = 10;
+pos = 622;
+},
+{
+pos = 536;
+},
+{
+},
+{
+pos = -408;
+},
+{
+},
+{
+over = 10;
+pos = 713;
+},
+{
+over = 10;
+pos = -10;
+}
+);
+name = Regular;
+numberValues = (
+115,
+130,
+200,
+0,
+5,
+155,
+-8,
+180,
+140,
+210,
+105,
+215,
+172,
+178,
+-253,
+-168,
+-150,
+-225,
+-162,
+-229,
+-180,
+-167,
+-166,
+20,
+10,
+160
+);
+stemValues = (
+77,
+73,
+76,
+71
+);
+userData = {
+GSOffsetHorizontal = 10;
+GSOffsetVertical = 7;
+};
+},
+{
+axesValues = (
+178,
+100
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "ka-beng";
+},
+{
+name = "Replace Feature";
+value = "abvm;# Automatic Code End
+
+# Black
+
+@BNG_VEDIC_ALL = [uni0951 uni1CD0 uni1CD2 uni1CF5.stack uni1CF6.stack uni0952 uni1CD5 uni1CD6 uni1CD8 uni1CED];
+
+lookup BNG_dflt_abvm_vedicMatraShift_1 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half headline-beng.100 gha-beng @BNG_VEDIC_ALL' <-329 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_1;
+
+lookup BNG_dflt_abvm_vedicMatraShift_2 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 headline-beng.100 gha-beng @BNG_VEDIC_ALL' <-250 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_2;
+
+lookup BNG_dflt_abvm_vedicMatraShift_3 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part ma-beng.side @BNG_VEDIC_ALL' <-356 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_3;
+
+lookup BNG_dflt_abvm_vedicMatraShift_4 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos b-beng.half2 ka-beng.arm @BNG_VEDIC_ALL' <-107 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_4;
+
+lookup BNG_dflt_abvm_vedicMatraShift_5 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos g-beng.half headline-beng.130 @BNG_VEDIC_ALL' <-345 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_5;
+
+lookup BNG_dflt_abvm_vedicMatraShift_6 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.200 @BNG_VEDIC_ALL' <-400 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_6;
+
+lookup BNG_dflt_abvm_vedicMatraShift_7 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos m-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-203 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_7;
+
+lookup BNG_dflt_abvm_vedicMatraShift_8 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half headline-beng.250 @BNG_VEDIC_ALL' <-254 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_8;
+
+lookup BNG_dflt_abvm_vedicMatraShift_9 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-227 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_9;
+
+lookup BNG_dflt_abvm_vedicMatraShift_10 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ta-beng headline-beng.200 @BNG_VEDIC_ALL' <-376 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_10;
+
+lookup BNG_dflt_abvm_vedicMatraShift_11 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_t-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-376 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_11;
+
+lookup BNG_dflt_abvm_vedicMatraShift_12 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ra-beng headline-beng.200 @BNG_VEDIC_ALL' <-354 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_12;
+
+lookup BNG_dflt_abvm_vedicMatraShift_13 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos j-beng.half aaMatra-beng.float @BNG_VEDIC_ALL' <-379 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_13;
+
+lookup BNG_dflt_abvm_vedicMatraShift_14 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos dd-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-241 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_14;
+
+lookup BNG_dflt_abvm_vedicMatraShift_15 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos d-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-298 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_15;
+
+lookup BNG_dflt_abvm_vedicMatraShift_16 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.130 @BNG_VEDIC_ALL' <-298 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_16;
+
+lookup BNG_dflt_abvm_vedicMatraShift_17 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos b-beng.half2 headline-beng.250 @BNG_VEDIC_ALL' <-228 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_17;
+
+lookup BNG_dflt_abvm_vedicMatraShift_18 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos l-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-360 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_18;
+
+lookup BNG_dflt_abvm_vedicMatraShift_19 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.250 @BNG_VEDIC_ALL' <-194 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_19;
+
+lookup BNG_dflt_abvm_vedicMatraShift_20 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half3 headline-beng.200 @BNG_VEDIC_ALL' <-340 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_20;
+
+lookup BNG_dflt_abvm_vedicMatraShift_21 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.200 @BNG_VEDIC_ALL' <-170 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_21;
+
+lookup BNG_dflt_abvm_vedicMatraShift_22 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half2 headline-beng.200 @BNG_VEDIC_ALL' <-347 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_22;
+
+lookup BNG_dflt_abvm_vedicMatraShift_23 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ha-beng headline-beng.250 @BNG_VEDIC_ALL' <-231 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_23;
+
+lookup BNG_dflt_abvm_vedicMatraShift_24 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half gh-beng.half @BNG_VEDIC_ALL' <-329 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_24;
+
+lookup BNG_dflt_abvm_vedicMatraShift_25 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half1 ma-beng.side1 @BNG_VEDIC_ALL' <-340 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_25;
+
+lookup BNG_dflt_abvm_vedicMatraShift_26 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-324 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_26;
+
+lookup BNG_dflt_abvm_vedicMatraShift_27 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-385 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_27;
+
+lookup BNG_dflt_abvm_vedicMatraShift_28 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-386 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_28;
+
+lookup BNG_dflt_abvm_vedicMatraShift_29 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half @BNG_VEDIC_ALL' <-202 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_29;
+
+lookup BNG_dflt_abvm_vedicMatraShift_30 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pha-beng.side @BNG_VEDIC_ALL' <-317 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_30;
+
+lookup BNG_dflt_abvm_vedicMatraShift_31 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-352 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_31;
+
+lookup BNG_dflt_abvm_vedicMatraShift_32 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-352 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_32;
+
+lookup BNG_dflt_abvm_vedicMatraShift_33 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half @BNG_VEDIC_ALL' <-177 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_33;
+
+lookup BNG_dflt_abvm_vedicMatraShift_34 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half @BNG_VEDIC_ALL' <-227 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_34;
+
+lookup BNG_dflt_abvm_vedicMatraShift_35 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pha-beng.side @BNG_VEDIC_ALL' <-341 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_35;
+
+lookup BNG_dflt_abvm_vedicMatraShift_36 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half da-beng.side @BNG_VEDIC_ALL' <-345 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_36;
+
+lookup BNG_dflt_abvm_vedicMatraShift_37 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half d-beng.side @BNG_VEDIC_ALL' <-345 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_37;
+
+lookup BNG_dflt_abvm_vedicMatraShift_38 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half ma-beng.side @BNG_VEDIC_ALL' <-345 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_38;
+
+lookup BNG_dflt_abvm_vedicMatraShift_39 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ssa-beng @BNG_VEDIC_ALL' <-347 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_39;
+
+lookup BNG_dflt_abvm_vedicMatraShift_40 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ss-beng.half @BNG_VEDIC_ALL' <-347 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_40;
+
+lookup BNG_dflt_abvm_vedicMatraShift_41 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 kha-beng.side @BNG_VEDIC_ALL' <-322 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_41;
+
+lookup BNG_dflt_abvm_vedicMatraShift_42 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 ma-beng.side1 @BNG_VEDIC_ALL' <-330 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_42;
+
+lookup BNG_dflt_abvm_vedicMatraShift_43 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ca-beng @BNG_VEDIC_ALL' <-210 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_43;
+
+lookup BNG_dflt_abvm_vedicMatraShift_44 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half cha-beng @BNG_VEDIC_ALL' <-210 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_44;
+
+lookup BNG_dflt_abvm_vedicMatraShift_45 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ch-beng.half @BNG_VEDIC_ALL' <-210 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_45;
+
+lookup BNG_dflt_abvm_vedicMatraShift_46 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ddh-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-290 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_46;
+
+lookup BNG_dflt_abvm_vedicMatraShift_47 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half ga-beng.side @BNG_VEDIC_ALL' <-280 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_47;
+
+lookup BNG_dflt_abvm_vedicMatraShift_48 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-323 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_48;
+
+lookup BNG_dflt_abvm_vedicMatraShift_49 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half3 ttha-beng.side @BNG_VEDIC_ALL' <-307 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_49;
+
+lookup BNG_dflt_abvm_vedicMatraShift_50 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ma-beng.side @BNG_VEDIC_ALL' <-323 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_50;
+
+lookup BNG_dflt_abvm_vedicMatraShift_51 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos t-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-363 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_51;
+
+lookup BNG_dflt_abvm_vedicMatraShift_52 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 ga-beng.side @BNG_VEDIC_ALL' <-195 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_52;
+
+lookup BNG_dflt_abvm_vedicMatraShift_53 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-295 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_53;
+
+lookup BNG_dflt_abvm_vedicMatraShift_54 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dh-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-300 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_54;
+
+lookup BNG_dflt_abvm_vedicMatraShift_55 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddha-beng.side @BNG_VEDIC_ALL' <-301 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_55;
+
+lookup BNG_dflt_abvm_vedicMatraShift_56 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddh-beng.side @BNG_VEDIC_ALL' <-298 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_56;
+
+lookup BNG_dflt_abvm_vedicMatraShift_57 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ttha-beng.side @BNG_VEDIC_ALL' <-303 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_57;
+
+lookup BNG_dflt_abvm_vedicMatraShift_58 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline dda-beng.side @BNG_VEDIC_ALL' <-273 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_58;
+
+lookup BNG_dflt_abvm_vedicMatraShift_59 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline da-beng @BNG_VEDIC_ALL' <-158 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_59;
+
+lookup BNG_dflt_abvm_vedicMatraShift_60 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half3 @BNG_VEDIC_ALL' <-161 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_60;
+
+lookup BNG_dflt_abvm_vedicMatraShift_61 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half @BNG_VEDIC_ALL' <-156 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_61;
+
+lookup BNG_dflt_abvm_vedicMatraShift_62 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline aaMatra-beng.part @BNG_VEDIC_ALL' <-145 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_62;
+
+lookup BNG_dflt_abvm_vedicMatraShift_63 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ma-beng.side @BNG_VEDIC_ALL' <-294 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_63;
+
+lookup BNG_dflt_abvm_vedicMatraShift_64 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-376 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_64;
+
+lookup BNG_dflt_abvm_vedicMatraShift_65 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-377 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_65;
+
+lookup BNG_dflt_abvm_vedicMatraShift_66 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half ma-beng.side @BNG_VEDIC_ALL' <-376 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_66;
+
+lookup BNG_dflt_abvm_vedicMatraShift_67 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pa-beng @BNG_VEDIC_ALL' <-225 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_67;
+
+lookup BNG_dflt_abvm_vedicMatraShift_68 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-191 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_68;
+
+lookup BNG_dflt_abvm_vedicMatraShift_69 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-317 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_69;
+
+lookup BNG_dflt_abvm_vedicMatraShift_70 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half sa-beng @BNG_VEDIC_ALL' <-222 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_70;
+
+lookup BNG_dflt_abvm_vedicMatraShift_71 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part2 @BNG_VEDIC_ALL' <-212 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_71;
+
+lookup BNG_dflt_abvm_vedicMatraShift_72 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-361 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_72;
+
+lookup BNG_dflt_abvm_vedicMatraShift_73 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-361 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_73;
+
+lookup BNG_dflt_abvm_vedicMatraShift_74 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 dda-beng.side @BNG_VEDIC_ALL' <-361 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_74;
+
+lookup BNG_dflt_abvm_vedicMatraShift_75 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part.short @BNG_VEDIC_ALL' <-206 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_75;
+
+lookup BNG_dflt_abvm_vedicMatraShift_76 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 da-beng.side @BNG_VEDIC_ALL' <-362 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_76;
+
+lookup BNG_dflt_abvm_vedicMatraShift_77 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 d-beng.side @BNG_VEDIC_ALL' <-361 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_77;
+
+lookup BNG_dflt_abvm_vedicMatraShift_78 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part @BNG_VEDIC_ALL' <-207 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_78;
+
+lookup BNG_dflt_abvm_vedicMatraShift_79 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half cha-beng.side @BNG_VEDIC_ALL' <-352 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_79;
+
+lookup BNG_dflt_abvm_vedicMatraShift_80 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ma-beng.side @BNG_VEDIC_ALL' <-352 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_80;
+
+lookup BNG_dflt_abvm_vedicMatraShift_81 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pa-beng @BNG_VEDIC_ALL' <-186 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_81;
+
+lookup BNG_dflt_abvm_vedicMatraShift_82 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half2 @BNG_VEDIC_ALL' <-155 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_82;
+
+lookup BNG_dflt_abvm_vedicMatraShift_83 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pha-beng.side @BNG_VEDIC_ALL' <-281 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_83;
+
+lookup BNG_dflt_abvm_vedicMatraShift_84 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 ma-beng.side2 @BNG_VEDIC_ALL' <-281 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_84;
+
+lookup BNG_dflt_abvm_vedicMatraShift_85 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddha-beng.side @BNG_VEDIC_ALL' <-329 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_85;
+
+lookup BNG_dflt_abvm_vedicMatraShift_86 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddh-beng.side @BNG_VEDIC_ALL' <-330 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_86;
+
+lookup BNG_dflt_abvm_vedicMatraShift_87 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pa-beng @BNG_VEDIC_ALL' <-247 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_87;
+
+lookup BNG_dflt_abvm_vedicMatraShift_88 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-215 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_88;
+
+lookup BNG_dflt_abvm_vedicMatraShift_89 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-341 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_89;
+";
+}
+);
+guides = (
+{
+pos = (4,-633);
+},
+{
+pos = (4,-633);
+}
+);
+id = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+metricValues = (
+{
+pos = 917;
+},
+{
+over = 10;
+pos = 622;
+},
+{
+pos = 536;
+},
+{
+},
+{
+pos = -408;
+},
+{
+},
+{
+over = 10;
+pos = 713;
+},
+{
+over = 10;
+pos = -10;
+}
+);
+name = Black;
+numberValues = (
+190,
+190,
+240,
+10,
+0,
+225,
+5,
+210,
+220,
+230,
+150,
+213,
+236,
+231,
+-283,
+-140,
+-184,
+-253,
+-192,
+-253,
+-190,
+-230,
+-210,
+60,
+30,
+210
+);
+stemValues = (
+164,
+158,
+154,
+130
+);
+},
+{
+axesValues = (
+20,
+62.5
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "ka-beng";
+},
+{
+name = "Replace Feature";
+value = "abvm;# Automatic Code End
+
+# Condensed Thin
+
+@BNG_VEDIC_ALL = [uni0951 uni1CD0 uni1CD2 uni1CF5.stack uni1CF6.stack uni0952 uni1CD5 uni1CD6 uni1CD8 uni1CED];
+
+lookup BNG_dflt_abvm_vedicMatraShift_1 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half headline-beng.100 gha-beng @BNG_VEDIC_ALL' <-198 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_1;
+
+lookup BNG_dflt_abvm_vedicMatraShift_2 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 headline-beng.100 gha-beng @BNG_VEDIC_ALL' <-131 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_2;
+
+lookup BNG_dflt_abvm_vedicMatraShift_3 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part ma-beng.side @BNG_VEDIC_ALL' <-207 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_3;
+
+lookup BNG_dflt_abvm_vedicMatraShift_4 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos b-beng.half2 ka-beng.arm @BNG_VEDIC_ALL' <-79 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_4;
+
+lookup BNG_dflt_abvm_vedicMatraShift_5 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos g-beng.half headline-beng.130 @BNG_VEDIC_ALL' <-203 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_5;
+
+lookup BNG_dflt_abvm_vedicMatraShift_6 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.200 @BNG_VEDIC_ALL' <-214 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_6;
+
+lookup BNG_dflt_abvm_vedicMatraShift_7 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos m-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-137 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_7;
+
+lookup BNG_dflt_abvm_vedicMatraShift_8 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half headline-beng.250 @BNG_VEDIC_ALL' <-154 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_8;
+
+lookup BNG_dflt_abvm_vedicMatraShift_9 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-156 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_9;
+
+lookup BNG_dflt_abvm_vedicMatraShift_10 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ta-beng headline-beng.200 @BNG_VEDIC_ALL' <-244 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_10;
+
+lookup BNG_dflt_abvm_vedicMatraShift_11 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_t-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-232 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_11;
+
+lookup BNG_dflt_abvm_vedicMatraShift_12 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ra-beng headline-beng.200 @BNG_VEDIC_ALL' <-226 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_12;
+
+lookup BNG_dflt_abvm_vedicMatraShift_13 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos j-beng.half aaMatra-beng.float @BNG_VEDIC_ALL' <-219 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_13;
+
+lookup BNG_dflt_abvm_vedicMatraShift_14 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos dd-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-180 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_14;
+
+lookup BNG_dflt_abvm_vedicMatraShift_15 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos d-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-168 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_15;
+
+lookup BNG_dflt_abvm_vedicMatraShift_16 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.130 @BNG_VEDIC_ALL' <-176 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_16;
+
+lookup BNG_dflt_abvm_vedicMatraShift_17 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos b-beng.half2 headline-beng.250 @BNG_VEDIC_ALL' <-130 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_17;
+
+lookup BNG_dflt_abvm_vedicMatraShift_18 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos l-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-211 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_18;
+
+lookup BNG_dflt_abvm_vedicMatraShift_19 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.250 @BNG_VEDIC_ALL' <-103 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_19;
+
+lookup BNG_dflt_abvm_vedicMatraShift_20 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half3 headline-beng.200 @BNG_VEDIC_ALL' <-226 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_20;
+
+lookup BNG_dflt_abvm_vedicMatraShift_21 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.200 @BNG_VEDIC_ALL' <-100 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_21;
+
+lookup BNG_dflt_abvm_vedicMatraShift_22 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half2 headline-beng.200 @BNG_VEDIC_ALL' <-217 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_22;
+
+lookup BNG_dflt_abvm_vedicMatraShift_23 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ha-beng headline-beng.250 @BNG_VEDIC_ALL' <-147 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_23;
+
+lookup BNG_dflt_abvm_vedicMatraShift_24 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half gh-beng.half @BNG_VEDIC_ALL' <-198 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_24;
+
+lookup BNG_dflt_abvm_vedicMatraShift_25 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half1 ma-beng.side1 @BNG_VEDIC_ALL' <-220 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_25;
+
+lookup BNG_dflt_abvm_vedicMatraShift_26 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-194 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_26;
+
+lookup BNG_dflt_abvm_vedicMatraShift_27 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-248 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_27;
+
+lookup BNG_dflt_abvm_vedicMatraShift_28 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-248 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_28;
+
+lookup BNG_dflt_abvm_vedicMatraShift_29 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half @BNG_VEDIC_ALL' <-153 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_29;
+
+lookup BNG_dflt_abvm_vedicMatraShift_30 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pha-beng.side @BNG_VEDIC_ALL' <-197 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_30;
+
+lookup BNG_dflt_abvm_vedicMatraShift_31 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-209 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_31;
+
+lookup BNG_dflt_abvm_vedicMatraShift_32 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-209 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_32;
+
+lookup BNG_dflt_abvm_vedicMatraShift_33 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half @BNG_VEDIC_ALL' <-122 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_33;
+
+lookup BNG_dflt_abvm_vedicMatraShift_34 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half @BNG_VEDIC_ALL' <-170 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_34;
+
+lookup BNG_dflt_abvm_vedicMatraShift_35 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pha-beng.side @BNG_VEDIC_ALL' <-214 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_35;
+
+lookup BNG_dflt_abvm_vedicMatraShift_36 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half da-beng.side @BNG_VEDIC_ALL' <-202 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_36;
+
+lookup BNG_dflt_abvm_vedicMatraShift_37 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half d-beng.side @BNG_VEDIC_ALL' <-202 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_37;
+
+lookup BNG_dflt_abvm_vedicMatraShift_38 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half ma-beng.side @BNG_VEDIC_ALL' <-203 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_38;
+
+lookup BNG_dflt_abvm_vedicMatraShift_39 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ssa-beng @BNG_VEDIC_ALL' <-207 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_39;
+
+lookup BNG_dflt_abvm_vedicMatraShift_40 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ss-beng.half @BNG_VEDIC_ALL' <-212 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_40;
+
+lookup BNG_dflt_abvm_vedicMatraShift_41 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 kha-beng.side @BNG_VEDIC_ALL' <-221 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_41;
+
+lookup BNG_dflt_abvm_vedicMatraShift_42 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 ma-beng.side1 @BNG_VEDIC_ALL' <-218 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_42;
+
+lookup BNG_dflt_abvm_vedicMatraShift_43 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ca-beng @BNG_VEDIC_ALL' <-107 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_43;
+
+lookup BNG_dflt_abvm_vedicMatraShift_44 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half cha-beng @BNG_VEDIC_ALL' <-107 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_44;
+
+lookup BNG_dflt_abvm_vedicMatraShift_45 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ch-beng.half @BNG_VEDIC_ALL' <-110 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_45;
+
+lookup BNG_dflt_abvm_vedicMatraShift_46 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ddh-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-182 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_46;
+
+lookup BNG_dflt_abvm_vedicMatraShift_47 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half ga-beng.side @BNG_VEDIC_ALL' <-174 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_47;
+
+lookup BNG_dflt_abvm_vedicMatraShift_48 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-194 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_48;
+
+lookup BNG_dflt_abvm_vedicMatraShift_49 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half3 ttha-beng.side @BNG_VEDIC_ALL' <-165 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_49;
+
+lookup BNG_dflt_abvm_vedicMatraShift_50 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ma-beng.side @BNG_VEDIC_ALL' <-194 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_50;
+
+lookup BNG_dflt_abvm_vedicMatraShift_51 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos t-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-229 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_51;
+
+lookup BNG_dflt_abvm_vedicMatraShift_52 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 ga-beng.side @BNG_VEDIC_ALL' <-126 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_52;
+
+lookup BNG_dflt_abvm_vedicMatraShift_53 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-173 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_53;
+
+lookup BNG_dflt_abvm_vedicMatraShift_54 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dh-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-199 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_54;
+
+lookup BNG_dflt_abvm_vedicMatraShift_55 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddha-beng.side @BNG_VEDIC_ALL' <-173 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_55;
+
+lookup BNG_dflt_abvm_vedicMatraShift_56 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddh-beng.side @BNG_VEDIC_ALL' <-168 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_56;
+
+lookup BNG_dflt_abvm_vedicMatraShift_57 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ttha-beng.side @BNG_VEDIC_ALL' <-168 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_57;
+
+lookup BNG_dflt_abvm_vedicMatraShift_58 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline dda-beng.side @BNG_VEDIC_ALL' <-170 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_58;
+
+lookup BNG_dflt_abvm_vedicMatraShift_59 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline da-beng @BNG_VEDIC_ALL' <-96 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_59;
+
+lookup BNG_dflt_abvm_vedicMatraShift_60 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half3 @BNG_VEDIC_ALL' <-98 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_60;
+
+lookup BNG_dflt_abvm_vedicMatraShift_61 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half @BNG_VEDIC_ALL' <-96 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_61;
+
+lookup BNG_dflt_abvm_vedicMatraShift_62 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline aaMatra-beng.part @BNG_VEDIC_ALL' <-98 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_62;
+
+lookup BNG_dflt_abvm_vedicMatraShift_63 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ma-beng.side @BNG_VEDIC_ALL' <-173 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_63;
+
+lookup BNG_dflt_abvm_vedicMatraShift_64 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-226 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_64;
+
+lookup BNG_dflt_abvm_vedicMatraShift_65 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-226 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_65;
+
+lookup BNG_dflt_abvm_vedicMatraShift_66 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half ma-beng.side @BNG_VEDIC_ALL' <-219 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_66;
+
+lookup BNG_dflt_abvm_vedicMatraShift_67 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pa-beng @BNG_VEDIC_ALL' <-156 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_67;
+
+lookup BNG_dflt_abvm_vedicMatraShift_68 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-134 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_68;
+
+lookup BNG_dflt_abvm_vedicMatraShift_69 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-196 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_69;
+
+lookup BNG_dflt_abvm_vedicMatraShift_70 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half sa-beng @BNG_VEDIC_ALL' <-134 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_70;
+
+lookup BNG_dflt_abvm_vedicMatraShift_71 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part2 @BNG_VEDIC_ALL' <-132 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_71;
+
+lookup BNG_dflt_abvm_vedicMatraShift_72 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-211 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_72;
+
+lookup BNG_dflt_abvm_vedicMatraShift_73 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-211 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_73;
+
+lookup BNG_dflt_abvm_vedicMatraShift_74 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 dda-beng.side @BNG_VEDIC_ALL' <-210 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_74;
+
+lookup BNG_dflt_abvm_vedicMatraShift_75 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part.short @BNG_VEDIC_ALL' <-137 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_75;
+
+lookup BNG_dflt_abvm_vedicMatraShift_76 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 da-beng.side @BNG_VEDIC_ALL' <-210 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_76;
+
+lookup BNG_dflt_abvm_vedicMatraShift_77 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 d-beng.side @BNG_VEDIC_ALL' <-210 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_77;
+
+lookup BNG_dflt_abvm_vedicMatraShift_78 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part @BNG_VEDIC_ALL' <-132 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_78;
+
+lookup BNG_dflt_abvm_vedicMatraShift_79 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half cha-beng.side @BNG_VEDIC_ALL' <-209 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_79;
+
+lookup BNG_dflt_abvm_vedicMatraShift_80 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ma-beng.side @BNG_VEDIC_ALL' <-209 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_80;
+
+lookup BNG_dflt_abvm_vedicMatraShift_81 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pa-beng @BNG_VEDIC_ALL' <-120 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_81;
+
+lookup BNG_dflt_abvm_vedicMatraShift_82 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half2 @BNG_VEDIC_ALL' <-98 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_82;
+
+lookup BNG_dflt_abvm_vedicMatraShift_83 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pha-beng.side @BNG_VEDIC_ALL' <-155 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_83;
+
+lookup BNG_dflt_abvm_vedicMatraShift_84 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 ma-beng.side2 @BNG_VEDIC_ALL' <-155 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_84;
+
+lookup BNG_dflt_abvm_vedicMatraShift_85 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddha-beng.side @BNG_VEDIC_ALL' <-209 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_85;
+
+lookup BNG_dflt_abvm_vedicMatraShift_86 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddh-beng.side @BNG_VEDIC_ALL' <-209 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_86;
+
+lookup BNG_dflt_abvm_vedicMatraShift_87 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pa-beng @BNG_VEDIC_ALL' <-174 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_87;
+
+lookup BNG_dflt_abvm_vedicMatraShift_88 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-151 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_88;
+
+lookup BNG_dflt_abvm_vedicMatraShift_89 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-213 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_89;
+
+";
+}
+);
+id = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+metricValues = (
+{
+pos = 917;
+},
+{
+over = 10;
+pos = 622;
+},
+{
+pos = 536;
+},
+{
+},
+{
+pos = -408;
+},
+{
+},
+{
+over = 10;
+pos = 713;
+},
+{
+over = 10;
+pos = -10;
+}
+);
+name = "Condensed Thin";
+numberValues = (
+73,
+85,
+121,
+0,
+-8,
+98,
+0,
+106,
+90,
+123,
+74,
+143,
+115,
+115,
+-154,
+-123,
+-81,
+-124,
+-71,
+-113,
+-125,
+-86,
+-65,
+0,
+0,
+120
+);
+stemValues = (
+20,
+19,
+19,
+18
+);
+},
+{
+axesValues = (
+90,
+62.5
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "ka-beng";
+},
+{
+name = "Replace Feature";
+value = "abvm;# Automatic Code End
+
+# Condensed Regular
+
+@BNG_VEDIC_ALL = [uni0951 uni1CD0 uni1CD2 uni1CF5.stack uni1CF6.stack uni0952 uni1CD5 uni1CD6 uni1CD8 uni1CED];
+
+lookup BNG_dflt_abvm_vedicMatraShift_1 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half headline-beng.100 gha-beng @BNG_VEDIC_ALL' <-238 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_1;
+
+lookup BNG_dflt_abvm_vedicMatraShift_2 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 headline-beng.100 gha-beng @BNG_VEDIC_ALL' <-166 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_2;
+
+lookup BNG_dflt_abvm_vedicMatraShift_3 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part ma-beng.side @BNG_VEDIC_ALL' <-251 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_3;
+
+lookup BNG_dflt_abvm_vedicMatraShift_4 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos b-beng.half2 ka-beng.arm @BNG_VEDIC_ALL' <-84 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_4;
+
+lookup BNG_dflt_abvm_vedicMatraShift_5 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos g-beng.half headline-beng.130 @BNG_VEDIC_ALL' <-239 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_5;
+
+lookup BNG_dflt_abvm_vedicMatraShift_6 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.200 @BNG_VEDIC_ALL' <-186 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_6;
+
+lookup BNG_dflt_abvm_vedicMatraShift_7 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos m-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-148 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_7;
+
+lookup BNG_dflt_abvm_vedicMatraShift_8 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half headline-beng.250 @BNG_VEDIC_ALL' <-186 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_8;
+
+lookup BNG_dflt_abvm_vedicMatraShift_9 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-167 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_9;
+
+lookup BNG_dflt_abvm_vedicMatraShift_10 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ta-beng headline-beng.200 @BNG_VEDIC_ALL' <-267 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_10;
+
+lookup BNG_dflt_abvm_vedicMatraShift_11 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_t-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-264 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_11;
+
+lookup BNG_dflt_abvm_vedicMatraShift_12 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ra-beng headline-beng.200 @BNG_VEDIC_ALL' <-251 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_12;
+
+lookup BNG_dflt_abvm_vedicMatraShift_13 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos j-beng.half aaMatra-beng.float @BNG_VEDIC_ALL' <-255 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_13;
+
+lookup BNG_dflt_abvm_vedicMatraShift_14 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos dd-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-188 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_14;
+
+lookup BNG_dflt_abvm_vedicMatraShift_15 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos d-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-204 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_15;
+
+lookup BNG_dflt_abvm_vedicMatraShift_16 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.130 @BNG_VEDIC_ALL' <-215 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_16;
+
+lookup BNG_dflt_abvm_vedicMatraShift_17 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos b-beng.half2 headline-beng.250 @BNG_VEDIC_ALL' <-169 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_17;
+
+lookup BNG_dflt_abvm_vedicMatraShift_18 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos l-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-252 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_18;
+
+lookup BNG_dflt_abvm_vedicMatraShift_19 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.250 @BNG_VEDIC_ALL' <-126 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_19;
+
+lookup BNG_dflt_abvm_vedicMatraShift_20 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half3 headline-beng.200 @BNG_VEDIC_ALL' <-233 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_20;
+
+lookup BNG_dflt_abvm_vedicMatraShift_21 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.200 @BNG_VEDIC_ALL' <-108 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_21;
+
+lookup BNG_dflt_abvm_vedicMatraShift_22 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half2 headline-beng.200 @BNG_VEDIC_ALL' <-245 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_22;
+
+lookup BNG_dflt_abvm_vedicMatraShift_23 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ha-beng headline-beng.250 @BNG_VEDIC_ALL' <-180 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_23;
+
+lookup BNG_dflt_abvm_vedicMatraShift_24 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half gh-beng.half @BNG_VEDIC_ALL' <-238 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_24;
+
+lookup BNG_dflt_abvm_vedicMatraShift_25 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half1 ma-beng.side1 @BNG_VEDIC_ALL' <-259 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_25;
+
+lookup BNG_dflt_abvm_vedicMatraShift_26 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-231 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_26;
+
+lookup BNG_dflt_abvm_vedicMatraShift_27 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-280 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_27;
+
+lookup BNG_dflt_abvm_vedicMatraShift_28 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-279 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_28;
+
+lookup BNG_dflt_abvm_vedicMatraShift_29 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half @BNG_VEDIC_ALL' <-163 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_29;
+
+lookup BNG_dflt_abvm_vedicMatraShift_30 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pha-beng.side @BNG_VEDIC_ALL' <-224 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_30;
+
+lookup BNG_dflt_abvm_vedicMatraShift_31 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-257 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_31;
+
+lookup BNG_dflt_abvm_vedicMatraShift_32 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-256 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_32;
+
+lookup BNG_dflt_abvm_vedicMatraShift_33 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half @BNG_VEDIC_ALL' <-125 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_33;
+
+lookup BNG_dflt_abvm_vedicMatraShift_34 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half @BNG_VEDIC_ALL' <-181 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_34;
+
+lookup BNG_dflt_abvm_vedicMatraShift_35 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pha-beng.side @BNG_VEDIC_ALL' <-245 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_35;
+
+lookup BNG_dflt_abvm_vedicMatraShift_36 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half da-beng.side @BNG_VEDIC_ALL' <-239 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_36;
+
+lookup BNG_dflt_abvm_vedicMatraShift_37 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half d-beng.side @BNG_VEDIC_ALL' <-239 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_37;
+
+lookup BNG_dflt_abvm_vedicMatraShift_38 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half ma-beng.side @BNG_VEDIC_ALL' <-239 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_38;
+
+lookup BNG_dflt_abvm_vedicMatraShift_39 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ssa-beng @BNG_VEDIC_ALL' <-246 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_39;
+
+lookup BNG_dflt_abvm_vedicMatraShift_40 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ss-beng.half @BNG_VEDIC_ALL' <-248 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_40;
+
+lookup BNG_dflt_abvm_vedicMatraShift_41 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 kha-beng.side @BNG_VEDIC_ALL' <-241 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_41;
+
+lookup BNG_dflt_abvm_vedicMatraShift_42 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 ma-beng.side1 @BNG_VEDIC_ALL' <-241 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_42;
+
+lookup BNG_dflt_abvm_vedicMatraShift_43 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ca-beng @BNG_VEDIC_ALL' <-136 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_43;
+
+lookup BNG_dflt_abvm_vedicMatraShift_44 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half cha-beng @BNG_VEDIC_ALL' <-137 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_44;
+
+lookup BNG_dflt_abvm_vedicMatraShift_45 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ch-beng.half @BNG_VEDIC_ALL' <-136 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_45;
+
+lookup BNG_dflt_abvm_vedicMatraShift_46 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ddh-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-214 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_46;
+
+lookup BNG_dflt_abvm_vedicMatraShift_47 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half ga-beng.side @BNG_VEDIC_ALL' <-194 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_47;
+
+lookup BNG_dflt_abvm_vedicMatraShift_48 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-232 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_48;
+
+lookup BNG_dflt_abvm_vedicMatraShift_49 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half3 ttha-beng.side @BNG_VEDIC_ALL' <-219 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_49;
+
+lookup BNG_dflt_abvm_vedicMatraShift_50 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ma-beng.side @BNG_VEDIC_ALL' <-229 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_50;
+
+lookup BNG_dflt_abvm_vedicMatraShift_51 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos t-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-270 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_51;
+
+lookup BNG_dflt_abvm_vedicMatraShift_52 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 ga-beng.side @BNG_VEDIC_ALL' <-135 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_52;
+
+lookup BNG_dflt_abvm_vedicMatraShift_53 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-210 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_53;
+
+lookup BNG_dflt_abvm_vedicMatraShift_54 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dh-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-224 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_54;
+
+lookup BNG_dflt_abvm_vedicMatraShift_55 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddha-beng.side @BNG_VEDIC_ALL' <-212 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_55;
+
+lookup BNG_dflt_abvm_vedicMatraShift_56 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddh-beng.side @BNG_VEDIC_ALL' <-208 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_56;
+
+lookup BNG_dflt_abvm_vedicMatraShift_57 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ttha-beng.side @BNG_VEDIC_ALL' <-217 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_57;
+
+lookup BNG_dflt_abvm_vedicMatraShift_58 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline dda-beng.side @BNG_VEDIC_ALL' <-205 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_58;
+
+lookup BNG_dflt_abvm_vedicMatraShift_59 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline da-beng @BNG_VEDIC_ALL' <-113 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_59;
+
+lookup BNG_dflt_abvm_vedicMatraShift_60 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half3 @BNG_VEDIC_ALL' <-110 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_60;
+
+lookup BNG_dflt_abvm_vedicMatraShift_61 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half @BNG_VEDIC_ALL' <-116 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_61;
+
+lookup BNG_dflt_abvm_vedicMatraShift_62 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline aaMatra-beng.part @BNG_VEDIC_ALL' <-113 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_62;
+
+lookup BNG_dflt_abvm_vedicMatraShift_63 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ma-beng.side @BNG_VEDIC_ALL' <-208 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_63;
+
+lookup BNG_dflt_abvm_vedicMatraShift_64 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-272 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_64;
+
+lookup BNG_dflt_abvm_vedicMatraShift_65 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-272 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_65;
+
+lookup BNG_dflt_abvm_vedicMatraShift_66 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half ma-beng.side @BNG_VEDIC_ALL' <-262 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_66;
+
+lookup BNG_dflt_abvm_vedicMatraShift_67 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pa-beng @BNG_VEDIC_ALL' <-164 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_67;
+
+lookup BNG_dflt_abvm_vedicMatraShift_68 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-143 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_68;
+
+lookup BNG_dflt_abvm_vedicMatraShift_69 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-223 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_69;
+
+lookup BNG_dflt_abvm_vedicMatraShift_70 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half sa-beng @BNG_VEDIC_ALL' <-149 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_70;
+
+lookup BNG_dflt_abvm_vedicMatraShift_71 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part2 @BNG_VEDIC_ALL' <-151 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_71;
+
+lookup BNG_dflt_abvm_vedicMatraShift_72 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-254 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_72;
+
+lookup BNG_dflt_abvm_vedicMatraShift_73 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-254 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_73;
+
+lookup BNG_dflt_abvm_vedicMatraShift_74 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 dda-beng.side @BNG_VEDIC_ALL' <-257 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_74;
+
+lookup BNG_dflt_abvm_vedicMatraShift_75 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part.short @BNG_VEDIC_ALL' <-151 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_75;
+
+lookup BNG_dflt_abvm_vedicMatraShift_76 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 da-beng.side @BNG_VEDIC_ALL' <-253 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_76;
+
+lookup BNG_dflt_abvm_vedicMatraShift_77 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 d-beng.side @BNG_VEDIC_ALL' <-252 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_77;
+
+lookup BNG_dflt_abvm_vedicMatraShift_78 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part @BNG_VEDIC_ALL' <-151 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_78;
+
+lookup BNG_dflt_abvm_vedicMatraShift_79 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half cha-beng.side @BNG_VEDIC_ALL' <-254 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_79;
+
+lookup BNG_dflt_abvm_vedicMatraShift_80 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ma-beng.side @BNG_VEDIC_ALL' <-254 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_80;
+
+lookup BNG_dflt_abvm_vedicMatraShift_81 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pa-beng @BNG_VEDIC_ALL' <-123 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_81;
+
+lookup BNG_dflt_abvm_vedicMatraShift_82 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half2 @BNG_VEDIC_ALL' <-105 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_82;
+
+lookup BNG_dflt_abvm_vedicMatraShift_83 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pha-beng.side @BNG_VEDIC_ALL' <-186 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_83;
+
+lookup BNG_dflt_abvm_vedicMatraShift_84 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 ma-beng.side2 @BNG_VEDIC_ALL' <-184 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_84;
+
+lookup BNG_dflt_abvm_vedicMatraShift_85 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddha-beng.side @BNG_VEDIC_ALL' <-240 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_85;
+
+lookup BNG_dflt_abvm_vedicMatraShift_86 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddh-beng.side @BNG_VEDIC_ALL' <-240 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_86;
+
+lookup BNG_dflt_abvm_vedicMatraShift_87 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pa-beng @BNG_VEDIC_ALL' <-183 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_87;
+
+lookup BNG_dflt_abvm_vedicMatraShift_88 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-162 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_88;
+
+lookup BNG_dflt_abvm_vedicMatraShift_89 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-244 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_89;
+
+";
+}
+);
+guides = (
+{
+pos = (214,917);
+}
+);
+iconName = Condensed;
+id = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+metricValues = (
+{
+pos = 917;
+},
+{
+over = 10;
+pos = 622;
+},
+{
+pos = 536;
+},
+{
+},
+{
+pos = -408;
+},
+{
+},
+{
+over = 10;
+pos = 713;
+},
+{
+over = 10;
+pos = -10;
+}
+);
+name = "Condensed Regular";
+numberValues = (
+107,
+119,
+151,
+0,
+0,
+131,
+0,
+146,
+122,
+160,
+84,
+163,
+150,
+154,
+-191,
+-140,
+-117,
+-159,
+-121,
+-158,
+-147,
+-120,
+-119,
+20,
+0,
+160
+);
+stemValues = (
+70,
+67,
+67,
+63
+);
+},
+{
+axesValues = (
+178,
+62.5
+);
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "ka-beng";
+},
+{
+name = "Replace Feature";
+value = "abvm;# Automatic Code End
+
+# Condensed Black
+
+@BNG_VEDIC_ALL = [uni0951 uni1CD0 uni1CD2 uni1CF5.stack uni1CF6.stack uni0952 uni1CD5 uni1CD6 uni1CD8 uni1CED];
+
+lookup BNG_dflt_abvm_vedicMatraShift_1 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half headline-beng.100 gha-beng @BNG_VEDIC_ALL' <-262 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_1;
+
+lookup BNG_dflt_abvm_vedicMatraShift_2 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 headline-beng.100 gha-beng @BNG_VEDIC_ALL' <-204 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_2;
+
+lookup BNG_dflt_abvm_vedicMatraShift_3 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part ma-beng.side @BNG_VEDIC_ALL' <-288 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_3;
+
+lookup BNG_dflt_abvm_vedicMatraShift_4 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos b-beng.half2 ka-beng.arm @BNG_VEDIC_ALL' <-82 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_4;
+
+lookup BNG_dflt_abvm_vedicMatraShift_5 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos g-beng.half headline-beng.130 @BNG_VEDIC_ALL' <-273 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_5;
+
+lookup BNG_dflt_abvm_vedicMatraShift_6 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.200 @BNG_VEDIC_ALL' <-323 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_6;
+
+lookup BNG_dflt_abvm_vedicMatraShift_7 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos m-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-159 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_7;
+
+lookup BNG_dflt_abvm_vedicMatraShift_8 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half headline-beng.250 @BNG_VEDIC_ALL' <-197 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_8;
+
+lookup BNG_dflt_abvm_vedicMatraShift_9 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-176 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_9;
+
+lookup BNG_dflt_abvm_vedicMatraShift_10 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ta-beng headline-beng.200 @BNG_VEDIC_ALL' <-294 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_10;
+
+lookup BNG_dflt_abvm_vedicMatraShift_11 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_t-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-291 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_11;
+
+lookup BNG_dflt_abvm_vedicMatraShift_12 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos t_ra-beng headline-beng.200 @BNG_VEDIC_ALL' <-283 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_12;
+
+lookup BNG_dflt_abvm_vedicMatraShift_13 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos j-beng.half aaMatra-beng.float @BNG_VEDIC_ALL' <-305 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_13;
+
+lookup BNG_dflt_abvm_vedicMatraShift_14 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos dd-beng.half headline-beng.200 @BNG_VEDIC_ALL' <-186 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_14;
+
+lookup BNG_dflt_abvm_vedicMatraShift_15 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos d-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-250 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_15;
+
+lookup BNG_dflt_abvm_vedicMatraShift_16 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos n-beng.headline headline-beng.130 @BNG_VEDIC_ALL' <-242 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_16;
+
+lookup BNG_dflt_abvm_vedicMatraShift_17 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos b-beng.half2 headline-beng.250 @BNG_VEDIC_ALL' <-187 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_17;
+
+lookup BNG_dflt_abvm_vedicMatraShift_18 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos l-beng.half3 headline-beng.130 @BNG_VEDIC_ALL' <-291 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_18;
+
+lookup BNG_dflt_abvm_vedicMatraShift_19 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.250 @BNG_VEDIC_ALL' <-155 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_19;
+
+lookup BNG_dflt_abvm_vedicMatraShift_20 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half3 headline-beng.200 @BNG_VEDIC_ALL' <-279 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_20;
+
+lookup BNG_dflt_abvm_vedicMatraShift_21 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ss-beng.half4 headline-beng.200 @BNG_VEDIC_ALL' <-129 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_21;
+
+lookup BNG_dflt_abvm_vedicMatraShift_22 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos s-beng.half2 headline-beng.200 @BNG_VEDIC_ALL' <-279 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_22;
+
+lookup BNG_dflt_abvm_vedicMatraShift_23 {
+lookupflag UseMarkFilteringSet [@BNG_VEDIC_ALL headline-beng.130 headline-beng.200 headline-beng.250 aaMatra-beng.float aaMatra-beng.side2 ka-beng.arm ka-beng.arm1 headline-beng.ba];
+	pos ha-beng headline-beng.250 @BNG_VEDIC_ALL' <-177 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_23;
+
+lookup BNG_dflt_abvm_vedicMatraShift_24 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half gh-beng.half @BNG_VEDIC_ALL' <-262 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_24;
+
+lookup BNG_dflt_abvm_vedicMatraShift_25 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half1 ma-beng.side1 @BNG_VEDIC_ALL' <-265 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_25;
+
+lookup BNG_dflt_abvm_vedicMatraShift_26 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-264 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_26;
+
+lookup BNG_dflt_abvm_vedicMatraShift_27 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-311 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_27;
+
+lookup BNG_dflt_abvm_vedicMatraShift_28 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n_s-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-310 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_28;
+
+lookup BNG_dflt_abvm_vedicMatraShift_29 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half @BNG_VEDIC_ALL' <-177 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_29;
+
+lookup BNG_dflt_abvm_vedicMatraShift_30 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pha-beng.side @BNG_VEDIC_ALL' <-254 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_30;
+
+lookup BNG_dflt_abvm_vedicMatraShift_31 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-291 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_31;
+
+lookup BNG_dflt_abvm_vedicMatraShift_32 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ddh-beng.side @BNG_VEDIC_ALL' <-290 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_32;
+
+lookup BNG_dflt_abvm_vedicMatraShift_33 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half @BNG_VEDIC_ALL' <-143 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_33;
+
+lookup BNG_dflt_abvm_vedicMatraShift_34 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half @BNG_VEDIC_ALL' <-197 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_34;
+
+lookup BNG_dflt_abvm_vedicMatraShift_35 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pha-beng.side @BNG_VEDIC_ALL' <-275 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_35;
+
+lookup BNG_dflt_abvm_vedicMatraShift_36 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half da-beng.side @BNG_VEDIC_ALL' <-273 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_36;
+
+lookup BNG_dflt_abvm_vedicMatraShift_37 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half d-beng.side @BNG_VEDIC_ALL' <-273 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_37;
+
+lookup BNG_dflt_abvm_vedicMatraShift_38 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos g-beng.half ma-beng.side @BNG_VEDIC_ALL' <-272 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_38;
+
+lookup BNG_dflt_abvm_vedicMatraShift_39 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ssa-beng @BNG_VEDIC_ALL' <-272 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_39;
+
+lookup BNG_dflt_abvm_vedicMatraShift_40 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half k_ss-beng.half @BNG_VEDIC_ALL' <-274 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_40;
+
+lookup BNG_dflt_abvm_vedicMatraShift_41 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 kha-beng.side @BNG_VEDIC_ALL' <-246 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_41;
+
+lookup BNG_dflt_abvm_vedicMatraShift_42 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ng-beng.half2 ma-beng.side1 @BNG_VEDIC_ALL' <-252 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_42;
+
+lookup BNG_dflt_abvm_vedicMatraShift_43 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ca-beng @BNG_VEDIC_ALL' <-176 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_43;
+
+lookup BNG_dflt_abvm_vedicMatraShift_44 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half cha-beng @BNG_VEDIC_ALL' <-176 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_44;
+
+lookup BNG_dflt_abvm_vedicMatraShift_45 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos c-beng.half ch-beng.half @BNG_VEDIC_ALL' <-177 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_45;
+
+lookup BNG_dflt_abvm_vedicMatraShift_46 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ddh-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-232 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_46;
+
+lookup BNG_dflt_abvm_vedicMatraShift_47 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dd-beng.half ga-beng.side @BNG_VEDIC_ALL' <-217 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_47;
+
+lookup BNG_dflt_abvm_vedicMatraShift_48 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ddha-beng.side @BNG_VEDIC_ALL' <-265 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_48;
+
+lookup BNG_dflt_abvm_vedicMatraShift_49 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half3 ttha-beng.side @BNG_VEDIC_ALL' <-247 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_49;
+
+lookup BNG_dflt_abvm_vedicMatraShift_50 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos nn-beng.half ma-beng.side @BNG_VEDIC_ALL' <-259 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_50;
+
+lookup BNG_dflt_abvm_vedicMatraShift_51 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos t-beng.half ma-beng.side1 @BNG_VEDIC_ALL' <-289 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_51;
+
+lookup BNG_dflt_abvm_vedicMatraShift_52 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half4 ga-beng.side @BNG_VEDIC_ALL' <-145 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_52;
+
+lookup BNG_dflt_abvm_vedicMatraShift_53 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos d-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-240 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_53;
+
+lookup BNG_dflt_abvm_vedicMatraShift_54 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos dh-beng.half ma-beng.side3 @BNG_VEDIC_ALL' <-246 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_54;
+
+lookup BNG_dflt_abvm_vedicMatraShift_55 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddha-beng.side @BNG_VEDIC_ALL' <-248 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_55;
+
+lookup BNG_dflt_abvm_vedicMatraShift_56 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ddh-beng.side @BNG_VEDIC_ALL' <-240 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_56;
+
+lookup BNG_dflt_abvm_vedicMatraShift_57 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ttha-beng.side @BNG_VEDIC_ALL' <-249 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_57;
+
+lookup BNG_dflt_abvm_vedicMatraShift_58 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline dda-beng.side @BNG_VEDIC_ALL' <-221 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_58;
+
+lookup BNG_dflt_abvm_vedicMatraShift_59 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline da-beng @BNG_VEDIC_ALL' <-123 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_59;
+
+lookup BNG_dflt_abvm_vedicMatraShift_60 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half3 @BNG_VEDIC_ALL' <-129 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_60;
+
+lookup BNG_dflt_abvm_vedicMatraShift_61 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline d-beng.half @BNG_VEDIC_ALL' <-124 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_61;
+
+lookup BNG_dflt_abvm_vedicMatraShift_62 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline aaMatra-beng.part @BNG_VEDIC_ALL' <-122 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_62;
+
+lookup BNG_dflt_abvm_vedicMatraShift_63 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos n-beng.headline ma-beng.side @BNG_VEDIC_ALL' <-235 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_63;
+
+lookup BNG_dflt_abvm_vedicMatraShift_64 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-300 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_64;
+
+lookup BNG_dflt_abvm_vedicMatraShift_65 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-299 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_65;
+
+lookup BNG_dflt_abvm_vedicMatraShift_66 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos p-beng.half ma-beng.side @BNG_VEDIC_ALL' <-289 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_66;
+
+lookup BNG_dflt_abvm_vedicMatraShift_67 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half pa-beng @BNG_VEDIC_ALL' <-173 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_67;
+
+lookup BNG_dflt_abvm_vedicMatraShift_68 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-157 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_68;
+
+lookup BNG_dflt_abvm_vedicMatraShift_69 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-251 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_69;
+
+lookup BNG_dflt_abvm_vedicMatraShift_70 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos m-beng.half sa-beng @BNG_VEDIC_ALL' <-181 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_70;
+
+lookup BNG_dflt_abvm_vedicMatraShift_71 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part2 @BNG_VEDIC_ALL' <-171 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_71;
+
+lookup BNG_dflt_abvm_vedicMatraShift_72 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddha-beng.side @BNG_VEDIC_ALL' <-296 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_72;
+
+lookup BNG_dflt_abvm_vedicMatraShift_73 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 ddh-beng.side @BNG_VEDIC_ALL' <-295 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_73;
+
+lookup BNG_dflt_abvm_vedicMatraShift_74 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 dda-beng.side @BNG_VEDIC_ALL' <-294 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_74;
+
+lookup BNG_dflt_abvm_vedicMatraShift_75 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part.short @BNG_VEDIC_ALL' <-163 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_75;
+
+lookup BNG_dflt_abvm_vedicMatraShift_76 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 da-beng.side @BNG_VEDIC_ALL' <-291 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_76;
+
+lookup BNG_dflt_abvm_vedicMatraShift_77 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 d-beng.side @BNG_VEDIC_ALL' <-291 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_77;
+
+lookup BNG_dflt_abvm_vedicMatraShift_78 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos l-beng.half3 aaMatra-beng.part @BNG_VEDIC_ALL' <-171 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_78;
+
+lookup BNG_dflt_abvm_vedicMatraShift_79 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half cha-beng.side @BNG_VEDIC_ALL' <-285 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_79;
+
+lookup BNG_dflt_abvm_vedicMatraShift_80 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos sh-beng.half ma-beng.side @BNG_VEDIC_ALL' <-285 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_80;
+
+lookup BNG_dflt_abvm_vedicMatraShift_81 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pa-beng @BNG_VEDIC_ALL' <-138 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_81;
+
+lookup BNG_dflt_abvm_vedicMatraShift_82 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 p-beng.half2 @BNG_VEDIC_ALL' <-125 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_82;
+
+lookup BNG_dflt_abvm_vedicMatraShift_83 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 pha-beng.side @BNG_VEDIC_ALL' <-225 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_83;
+
+lookup BNG_dflt_abvm_vedicMatraShift_84 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos ss-beng.half4 ma-beng.side2 @BNG_VEDIC_ALL' <-222 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_84;
+
+lookup BNG_dflt_abvm_vedicMatraShift_85 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddha-beng.side @BNG_VEDIC_ALL' <-269 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_85;
+
+lookup BNG_dflt_abvm_vedicMatraShift_86 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half4 ddh-beng.side @BNG_VEDIC_ALL' <-268 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_86;
+
+lookup BNG_dflt_abvm_vedicMatraShift_87 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half pa-beng @BNG_VEDIC_ALL' <-192 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_87;
+
+lookup BNG_dflt_abvm_vedicMatraShift_88 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half p-beng.half2 @BNG_VEDIC_ALL' <-177 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_88;
+
+lookup BNG_dflt_abvm_vedicMatraShift_89 {
+lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
+	pos s-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-272 0 0 0>;
+} BNG_dflt_abvm_vedicMatraShift_89;
+
+";
+}
+);
+guides = (
+{
+pos = (447,-408);
+}
+);
+id = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+metricValues = (
+{
+pos = 917;
+},
+{
+over = 10;
+pos = 622;
+},
+{
+pos = 536;
+},
+{
+},
+{
+pos = -408;
+},
+{
+},
+{
+over = 10;
+pos = 713;
+},
+{
+over = 10;
+pos = -10;
+}
+);
+name = "Condensed Black";
+numberValues = (
+167,
+180,
+188,
+0,
+2,
+185,
+0,
+179,
+185,
+191,
+137,
+174,
+197,
+205,
+-236,
+-125,
+-154,
+-189,
+-166,
+-195,
+-141,
+-149,
+-158,
+60,
+10,
+210
+);
+stemValues = (
+150,
+138,
+142,
+120
+);
+}
+);
+instances = (
+{
+name = Regular;
+type = variable;
+},
+{
+axesValues = (
+20,
+100
+);
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = 1;
+};
+name = Thin;
+weightClass = 100;
+},
+{
+axesValues = (
+32,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+3,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = 0.82857;
+UUID0 = 0.17143;
+};
+name = ExtraLight;
+weightClass = 200;
+},
+{
+axesValues = (
+58,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+4,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = 0.45714;
+UUID0 = 0.54286;
+};
+name = Light;
+weightClass = 300;
+},
+{
+axesValues = (
+90,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+UUID0 = 1;
+};
+name = Regular;
+},
+{
+axesValues = (
+108,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.20455;
+UUID0 = 0.79545;
+};
+name = Medium;
+weightClass = 500;
+},
+{
+axesValues = (
+128,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+7,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.43182;
+UUID0 = 0.56818;
+};
+name = SemiBold;
+weightClass = 600;
+},
+{
+axesValues = (
+151,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+8,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.69318;
+UUID0 = 0.30682;
+};
+isBold = 1;
+linkStyle = Regular;
+name = Bold;
+weightClass = 700;
+},
+{
+axesValues = (
+169,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+9,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.89773;
+UUID0 = 0.10227;
+};
+name = ExtraBold;
+weightClass = 800;
+},
+{
+axesValues = (
+178,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+10,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 1;
+};
+name = Black;
+weightClass = 900;
+},
+{
+axesValues = (
+20,
+87
+);
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = 0.65333;
+"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = 0.34667;
+};
+name = "SemiCondensed Thin";
+weightClass = 100;
+widthClass = 4;
+},
+{
+axesValues = (
+32,
+87
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+3,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = 0.54133;
+"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = 0.28724;
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.05943;
+UUID0 = 0.112;
+};
+name = "SemiCondensed ExtraLight";
+weightClass = 200;
+widthClass = 4;
+},
+{
+axesValues = (
+58,
+87
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+4,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = 0.29867;
+"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = 0.15848;
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.18819;
+UUID0 = 0.35467;
+};
+name = "SemiCondensed Light";
+weightClass = 300;
+widthClass = 4;
+},
+{
+axesValues = (
+90,
+87
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.34667;
+UUID0 = 0.65333;
+};
+name = SemiCondensed;
+widthClass = 4;
+},
+{
+axesValues = (
+108,
+87
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.27576;
+"F138D99C-4E28-42C5-9F3E-22494052B08F" = 0.07091;
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.13364;
+UUID0 = 0.5197;
+};
+name = "SemiCondensed Medium";
+weightClass = 500;
+widthClass = 4;
+},
+{
+axesValues = (
+128,
+87
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+7,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.19697;
+"F138D99C-4E28-42C5-9F3E-22494052B08F" = 0.1497;
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.28212;
+UUID0 = 0.37121;
+};
+name = "SemiCondensed SemiBold";
+weightClass = 600;
+widthClass = 4;
+},
+{
+axesValues = (
+151,
+87
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+8,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.10636;
+"F138D99C-4E28-42C5-9F3E-22494052B08F" = 0.2403;
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.45288;
+UUID0 = 0.20045;
+};
+isBold = 1;
+linkStyle = SemiCondensed;
+name = "SemiCondensed Bold";
+weightClass = 700;
+widthClass = 4;
+},
+{
+axesValues = (
+169,
+87
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+9,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.03545;
+"F138D99C-4E28-42C5-9F3E-22494052B08F" = 0.31121;
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.58652;
+UUID0 = 0.06682;
+};
+name = "SemiCondensed ExtraBold";
+weightClass = 800;
+widthClass = 4;
+},
+{
+axesValues = (
+178,
+87
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+10,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"F138D99C-4E28-42C5-9F3E-22494052B08F" = 0.34667;
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.65333;
+};
+name = "SemiCondensed Black";
+weightClass = 900;
+widthClass = 4;
+},
+{
+axesValues = (
+20,
+75
+);
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = 0.33333;
+"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = 0.66667;
+};
+name = "Condensed Thin";
+weightClass = 100;
+widthClass = 3;
+},
+{
+axesValues = (
+32,
+75
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+3,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = 0.27619;
+"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = 0.55238;
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.11429;
+UUID0 = 0.05714;
+};
+name = "Condensed ExtraLight";
+weightClass = 200;
+widthClass = 3;
+},
+{
+axesValues = (
+58,
+75
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+4,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = 0.15238;
+"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = 0.30476;
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.3619;
+UUID0 = 0.18095;
+};
+name = "Condensed Light";
+weightClass = 300;
+widthClass = 3;
+},
+{
+axesValues = (
+90,
+75
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.66667;
+UUID0 = 0.33333;
+};
+name = Condensed;
+widthClass = 3;
+},
+{
+axesValues = (
+108,
+75
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.5303;
+"F138D99C-4E28-42C5-9F3E-22494052B08F" = 0.13636;
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.06818;
+UUID0 = 0.26515;
+};
+name = "Condensed Medium";
+weightClass = 500;
+widthClass = 3;
+},
+{
+axesValues = (
+128,
+75
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+7,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.37879;
+"F138D99C-4E28-42C5-9F3E-22494052B08F" = 0.28788;
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.14394;
+UUID0 = 0.18939;
+};
+name = "Condensed SemiBold";
+weightClass = 600;
+widthClass = 3;
+},
+{
+axesValues = (
+151,
+75
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+8,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.20455;
+"F138D99C-4E28-42C5-9F3E-22494052B08F" = 0.46212;
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.23106;
+UUID0 = 0.10227;
+};
+isBold = 1;
+linkStyle = Condensed;
+name = "Condensed Bold";
+weightClass = 700;
+widthClass = 3;
+},
+{
+axesValues = (
+169,
+75
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+9,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.06818;
+"F138D99C-4E28-42C5-9F3E-22494052B08F" = 0.59848;
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.29924;
+UUID0 = 0.03409;
+};
+name = "Condensed ExtraBold";
+weightClass = 800;
+widthClass = 3;
+},
+{
+axesValues = (
+178,
+75
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+10,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"F138D99C-4E28-42C5-9F3E-22494052B08F" = 0.66667;
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.33333;
+};
+name = "Condensed Black";
+weightClass = 900;
+widthClass = 3;
+},
+{
+axesValues = (
+20,
+63
+);
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = 0.01333;
+"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = 0.98667;
+};
+name = "ExtraCondensed Thin";
+weightClass = 100;
+widthClass = 2;
+},
+{
+axesValues = (
+32,
+63
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+3,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = 0.01105;
+"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = 0.81752;
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.16914;
+UUID0 = 0.00229;
+};
+name = "ExtraCondensed ExtraLight";
+weightClass = 200;
+widthClass = 2;
+},
+{
+axesValues = (
+58,
+63
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+4,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = 0.0061;
+"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = 0.45105;
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.53562;
+UUID0 = 0.00724;
+};
+name = "ExtraCondensed Light";
+weightClass = 300;
+widthClass = 2;
+},
+{
+axesValues = (
+90,
+63
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.98667;
+UUID0 = 0.01333;
+};
+name = ExtraCondensed;
+widthClass = 2;
+},
+{
+axesValues = (
+108,
+63
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.78485;
+"F138D99C-4E28-42C5-9F3E-22494052B08F" = 0.20182;
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.00273;
+UUID0 = 0.01061;
+};
+name = "ExtraCondensed Medium";
+weightClass = 500;
+widthClass = 2;
+},
+{
+axesValues = (
+128,
+63
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+7,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.56061;
+"F138D99C-4E28-42C5-9F3E-22494052B08F" = 0.42606;
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.00576;
+UUID0 = 0.00758;
+};
+name = "ExtraCondensed SemiBold";
+weightClass = 600;
+widthClass = 2;
+},
+{
+axesValues = (
+151,
+63
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+8,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.30273;
+"F138D99C-4E28-42C5-9F3E-22494052B08F" = 0.68394;
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.00924;
+UUID0 = 0.00409;
+};
+isBold = 1;
+linkStyle = ExtraCondensed;
+name = "ExtraCondensed Bold";
+weightClass = 700;
+widthClass = 2;
+},
+{
+axesValues = (
+169,
+63
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+9,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.10091;
+"F138D99C-4E28-42C5-9F3E-22494052B08F" = 0.88576;
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.01197;
+UUID0 = 0.00136;
+};
+name = "ExtraCondensed ExtraBold";
+weightClass = 800;
+widthClass = 2;
+},
+{
+axesValues = (
+178,
+63
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+10,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+"F138D99C-4E28-42C5-9F3E-22494052B08F" = 0.98667;
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.01333;
+};
+name = "ExtraCondensed Black";
+weightClass = 900;
+widthClass = 2;
+},
+{
+axesValues = (
+26,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+2,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = 0.91429;
+UUID0 = 0.08571;
+};
+name = Thin;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+weightClass = 100;
+},
+{
+axesValues = (
+39,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+3,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = 0.72857;
+UUID0 = 0.27143;
+};
+name = ExtraLight;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+weightClass = 200;
+},
+{
+axesValues = (
+58,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+4,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = 0.45714;
+UUID0 = 0.54286;
+};
+name = Light;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+weightClass = 300;
+},
+{
+axesValues = (
+90,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+UUID0 = 1;
+};
+name = Regular;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+},
+{
+axesValues = (
+108,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.20455;
+UUID0 = 0.79545;
+};
+name = Medium;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+weightClass = 500;
+},
+{
+axesValues = (
+128,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+7,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.43182;
+UUID0 = 0.56818;
+};
+name = SemiBold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+weightClass = 600;
+},
+{
+axesValues = (
+151,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+8,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.69318;
+UUID0 = 0.30682;
+};
+isBold = 1;
+linkStyle = Regular;
+name = Bold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+weightClass = 700;
+},
+{
+axesValues = (
+169,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+9,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 0.89773;
+UUID0 = 0.10227;
+};
+name = ExtraBold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+weightClass = 800;
+},
+{
+axesValues = (
+190,
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+10,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = -0.03797;
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = 1.10616;
+UUID0 = -0.06818;
+};
+name = Black;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+weightClass = 900;
+},
+{
+axesValues = (
+90,
+89
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.29333;
+UUID0 = 0.70667;
+};
+name = SemiCondensed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+widthClass = 4;
+},
+{
+axesValues = (
+90,
+79
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+6,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.56;
+UUID0 = 0.44;
+};
+name = Condensed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+widthClass = 3;
+},
+{
+axesValues = (
+90,
+70
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+6,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = typoAscender;
+value = 1069;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1069;
+},
+{
+name = winDescent;
+value = 293;
+},
+{
+name = hheaAscender;
+value = 1069;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = xHeight;
+value = "536";
+},
+{
+name = "Reencode Glyphs";
+value = (
+"llvocalicUIbeng=09E1",
+"rrvocalicvowelsignUIbeng=09C4",
+"lvocalicvowelsignUIbeng=09E2",
+"llvocalicvowelsignUIbeng=09E3",
+"uni1CE1.UI=1CE1"
+);
+}
+);
+exports = 0;
+instanceInterpolations = {
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = 0.8;
+UUID0 = 0.2;
+};
+name = ExtraCondensed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Noto Sans Bengali UI";
+}
+);
+}
+);
+widthClass = 2;
+}
+);
+kerningLTR = {
+"28FB090A-653E-4199-B7BE-FAE23D31B682" = {
+"@MMK_L_BNG_R_eMatra" = {
+"@MMK_R_BNG_L_ba" = -20;
+"@MMK_R_L_BNG_kTta" = -20;
+"@MMK_R_L_BNG_nga_half2" = -30;
+};
+"@MMK_L_R_BNG_aaMatra_part" = {
+"@MMK_R_L_BNG_ma_side" = -10;
+};
+"@MMK_L_R_BNG_bha_half" = {
+"@MMK_R_L_BNG_headline_200" = -20;
+"@MMK_R_L_BNG_uMatra_side" = 29;
+};
+"@MMK_L_R_BNG_ca_half" = {
+"@MMK_R_L_BNG_cha_half" = 5;
+};
+"@MMK_L_R_BNG_da_half" = {
+"@MMK_R_L_BNG_ga" = -12;
+"@MMK_R_L_BNG_ga_side" = -12;
+"@MMK_R_L_BNG_headline130" = -80;
+"@MMK_R_L_BNG_ma_half" = -9;
+};
+"@MMK_L_R_BNG_dd_half1" = {
+"@MMK_R_L_BNG_ma_side1" = 15;
+};
+"@MMK_L_R_BNG_dda_half" = {
+"@MMK_R_L_BNG_ga_side" = -175;
+"@MMK_R_L_BNG_headline_200" = -160;
+};
+"@MMK_L_R_BNG_ddh_half" = {
+"@MMK_R_L_BNG_ma_side1" = 21;
+};
+"@MMK_L_R_BNG_headline130" = {
+"@MMK_R_L_BNG_k_ssa" = -20;
+};
+"@MMK_L_R_BNG_j-beng_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -59;
+};
+"@MMK_L_R_BNG_la_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -221;
+"@MMK_R_L_BNG_aaMatra_partShort" = -221;
+};
+"@MMK_L_R_BNG_ma_half" = {
+"@MMK_R_L_BNG_headline_200" = -170;
+"@MMK_R_L_BNG_headline_250" = -180;
+};
+"@MMK_L_R_BNG_nHeadline_part" = {
+"@MMK_R_L_BNG_aaMatra_part" = -203;
+"@MMK_R_L_BNG_aaMatra_partShort" = -101;
+"@MMK_R_L_BNG_da" = -218;
+"@MMK_R_L_BNG_dda_side" = -1;
+"@MMK_R_L_BNG_ddhaSide" = 8;
+"@MMK_R_L_BNG_tthaSide" = -4;
+"@MMK_R_L_d-beng_half" = -207;
+"@MMK_R_L_d-beng_half2" = -275;
+"@MMK_R_L_d-beng_half3" = -207;
+};
+"@MMK_L_R_BNG_ng_half2" = {
+"@MMK_R_L_BNG_ma_side1" = -10;
+};
+"@MMK_L_R_BNG_nga_half" = {
+"@MMK_R_L_BNG_headline-100" = -75;
+"@MMK_R_L_BNG_kSsa_half" = -60;
+"@MMK_R_L_BNG_k_ssa" = -50;
+};
+"@MMK_L_R_BNG_sa_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 12;
+};
+"@MMK_L_R_BNG_ss_half" = {
+"@MMK_R_L_BNG_headline_200" = -185;
+"@MMK_R_L_BNG_headline_250" = -175;
+};
+"@MMK_L_R_BNG_uni1CE1" = {
+"@MMK_R_L_BNG_aiMatra" = 70;
+};
+};
+UUID0 = {
+"@MMK_L_BNG_R_eMatra" = {
+"@MMK_R_L_BNG_kTta" = -35;
+"@MMK_R_L_BNG_nga_half2" = -40;
+};
+"@MMK_L_R_BNG_aaMatra_part" = {
+"@MMK_R_L_BNG_ma_side" = 0;
+};
+"@MMK_L_R_BNG_bha_half" = {
+"@MMK_R_L_BNG_headline_200" = -45;
+"@MMK_R_L_BNG_uMatra_side" = 12;
+};
+"@MMK_L_R_BNG_ca_half" = {
+"@MMK_R_L_BNG_cha_half" = 0;
+};
+"@MMK_L_R_BNG_da_half" = {
+"@MMK_R_L_BNG_ga" = -57;
+"@MMK_R_L_BNG_ga_side" = -60;
+"@MMK_R_L_BNG_headline130" = -105;
+"@MMK_R_L_BNG_ma_half" = 0;
+};
+"@MMK_L_R_BNG_dd_half1" = {
+"@MMK_R_L_BNG_ma_side1" = 50;
+};
+"@MMK_L_R_BNG_dda_half" = {
+"@MMK_R_L_BNG_ga_side" = -170;
+"@MMK_R_L_BNG_headline_200" = -200;
+};
+"@MMK_L_R_BNG_ddh_half" = {
+"@MMK_R_L_BNG_ma_side1" = 30;
+};
+"@MMK_L_R_BNG_headline130" = {
+"@MMK_R_L_BNG_k_ssa" = -35;
+};
+"@MMK_L_R_BNG_j-beng_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -86;
+};
+"@MMK_L_R_BNG_la_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -266;
+"@MMK_R_L_BNG_aaMatra_partShort" = -266;
+};
+"@MMK_L_R_BNG_ma_half" = {
+"@MMK_R_L_BNG_headline_200" = -195;
+"@MMK_R_L_BNG_headline_250" = -140;
+};
+"@MMK_L_R_BNG_nHeadline_part" = {
+"@MMK_R_L_BNG_aaMatra_part" = -254;
+"@MMK_R_L_BNG_aaMatra_partShort" = -122;
+"@MMK_R_L_BNG_da" = -246;
+"@MMK_R_L_BNG_dda_side" = -6;
+"@MMK_R_L_BNG_ddhaSide" = 8;
+"@MMK_R_L_BNG_tthaSide" = 22;
+"@MMK_R_L_d-beng_half" = -241;
+"@MMK_R_L_d-beng_half2" = -340;
+"@MMK_R_L_d-beng_half3" = -241;
+};
+"@MMK_L_R_BNG_nga_half" = {
+"@MMK_R_L_BNG_headline-100" = -79;
+"@MMK_R_L_BNG_kSsa_half" = -55;
+"@MMK_R_L_BNG_k_ssa" = -40;
+};
+"@MMK_L_R_BNG_sa_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 10;
+};
+"@MMK_L_R_BNG_ss_half" = {
+"@MMK_R_L_BNG_headline_200" = -210;
+"@MMK_R_L_BNG_headline_250" = -145;
+};
+"@MMK_L_R_BNG_t_half" = {
+"@MMK_R_L_BNG_ma_side1" = 35;
+};
+"@MMK_L_R_BNG_uni1CE1" = {
+"@MMK_R_L_BNG_aiMatra" = 70;
+};
+};
+"F455777D-7EDD-47E2-866A-D8A5173CE243" = {
+"@MMK_L_BNG_R_eMatra" = {
+"@MMK_R_L_BNG_kTta" = -30;
+"@MMK_R_L_BNG_nga_half2" = -40;
+};
+"@MMK_L_R_BNG_aaMatra_part" = {
+"@MMK_R_L_BNG_ma_side" = -7;
+};
+"@MMK_L_R_BNG_bha_half" = {
+"@MMK_R_L_BNG_headline_200" = -5;
+"@MMK_R_L_BNG_uMatra_side" = 13;
+};
+"@MMK_L_R_BNG_ca_half" = {
+"@MMK_R_L_BNG_cha_half" = 0;
+};
+"@MMK_L_R_BNG_da_half" = {
+"@MMK_R_L_BNG_ga" = -108;
+"@MMK_R_L_BNG_ga_side" = -110;
+"@MMK_R_L_BNG_headline130" = -190;
+};
+"@MMK_L_R_BNG_da_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 25;
+};
+"@MMK_L_R_BNG_dda_half" = {
+"@MMK_R_L_BNG_ga_side" = -145;
+"@MMK_R_L_BNG_headline_200" = -220;
+};
+"@MMK_L_R_BNG_ddh_half" = {
+"@MMK_R_L_BNG_ma_side1" = 15;
+};
+"@MMK_L_R_BNG_headline130" = {
+"@MMK_R_L_BNG_k_ssa" = -10;
+};
+"@MMK_L_R_BNG_j-beng_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -74;
+};
+"@MMK_L_R_BNG_la_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -307;
+"@MMK_R_L_BNG_aaMatra_partShort" = -308;
+};
+"@MMK_L_R_BNG_ma_half" = {
+"@MMK_R_L_BNG_headline_200" = -230;
+"@MMK_R_L_BNG_headline_250" = -170;
+};
+"@MMK_L_R_BNG_nHeadline_part" = {
+"@MMK_R_L_BNG_aaMatra_part" = -305;
+"@MMK_R_L_BNG_aaMatra_partShort" = -110;
+"@MMK_R_L_BNG_da" = -279;
+"@MMK_R_L_BNG_dda_side" = -50;
+"@MMK_R_L_BNG_ddhaSide" = 6;
+"@MMK_R_L_BNG_tthaSide" = 9;
+"@MMK_R_L_d-beng_half" = -284;
+"@MMK_R_L_d-beng_half2" = -421;
+"@MMK_R_L_d-beng_half3" = -274;
+};
+"@MMK_L_R_BNG_ng_half2" = {
+"@MMK_R_L_BNG_ma_side1" = 15;
+};
+"@MMK_L_R_BNG_nga_half" = {
+"@MMK_R_L_BNG_headline-100" = -35;
+};
+"@MMK_L_R_BNG_sa_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 25;
+};
+"@MMK_L_R_BNG_ss_half" = {
+"@MMK_R_L_BNG_headline_200" = -225;
+"@MMK_R_L_BNG_headline_250" = -175;
+};
+"@MMK_L_R_BNG_t_half" = {
+"@MMK_R_L_BNG_ma_side1" = 50;
+};
+"@MMK_L_R_BNG_t_ra" = {
+"@MMK_R_L_BNG_uMatra_side" = -10;
+};
+"@MMK_L_R_BNG_uni1CE1" = {
+"@MMK_R_L_BNG_aiMatra" = 70;
+};
+};
+"ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = {
+"@MMK_L_BNG_R_eMatra" = {
+"@MMK_R_BNG_L_ba" = -10;
+"@MMK_R_L_BNG_nga_half2" = -20;
+};
+"@MMK_L_R_BNG_aaMatra_part" = {
+"@MMK_R_L_BNG_ma_side" = -6;
+};
+"@MMK_L_R_BNG_bha_half" = {
+"@MMK_R_L_BNG_headline_200" = -14;
+"@MMK_R_L_BNG_uMatra_side" = 19;
+};
+"@MMK_L_R_BNG_ca_half" = {
+"@MMK_R_L_BNG_cha_half" = 5;
+};
+"@MMK_L_R_BNG_da_half" = {
+"@MMK_R_L_BNG_ga" = -9;
+"@MMK_R_L_BNG_ga_side" = -10;
+"@MMK_R_L_BNG_headline130" = -52;
+"@MMK_R_L_BNG_ma_half" = -6;
+};
+"@MMK_L_R_BNG_da_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 2;
+};
+"@MMK_L_R_BNG_dd_half1" = {
+"@MMK_R_L_BNG_ma_side1" = 11;
+};
+"@MMK_L_R_BNG_dda_half" = {
+"@MMK_R_L_BNG_ga_side" = -123;
+"@MMK_R_L_BNG_headline_200" = -102;
+};
+"@MMK_L_R_BNG_ddh_half" = {
+"@MMK_R_L_BNG_ma_side1" = 14;
+};
+"@MMK_L_R_BNG_headline130" = {
+"@MMK_R_L_BNG_k_ssa" = -13;
+};
+"@MMK_L_R_BNG_j-beng_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -38;
+};
+"@MMK_L_R_BNG_la_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -156;
+"@MMK_R_L_BNG_aaMatra_partShort" = -156;
+};
+"@MMK_L_R_BNG_ma_half" = {
+"@MMK_R_L_BNG_headline_200" = -109;
+"@MMK_R_L_BNG_headline_250" = -112;
+};
+"@MMK_L_R_BNG_nHeadline_part" = {
+"@MMK_R_L_BNG_aaMatra_part" = -140;
+"@MMK_R_L_BNG_aaMatra_partShort" = -75;
+"@MMK_R_L_BNG_da" = -144;
+"@MMK_R_L_BNG_dda_side" = 5;
+"@MMK_R_L_BNG_ddhaSide" = 9;
+"@MMK_R_L_BNG_tthaSide" = 6;
+"@MMK_R_L_d-beng_half" = -144;
+"@MMK_R_L_d-beng_half2" = -176;
+"@MMK_R_L_d-beng_half3" = -144;
+};
+"@MMK_L_R_BNG_ng_half2" = {
+"@MMK_R_L_BNG_ma_side1" = -6;
+};
+"@MMK_L_R_BNG_nga_half" = {
+"@MMK_R_L_BNG_headline-100" = -70;
+"@MMK_R_L_BNG_kSsa_half" = -50;
+"@MMK_R_L_BNG_k_ssa" = -62;
+};
+"@MMK_L_R_BNG_sa_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 7;
+};
+"@MMK_L_R_BNG_ss_half" = {
+"@MMK_R_L_BNG_headline_200" = -118;
+"@MMK_R_L_BNG_headline_250" = -109;
+};
+"@MMK_L_R_BNG_t_half" = {
+"@MMK_R_L_BNG_ma_side1" = 1;
+};
+"@MMK_L_R_BNG_uni1CE1" = {
+"@MMK_R_L_BNG_aiMatra" = 45;
+};
+};
+"D7742CE6-1B18-47A0-AEB5-463D77EA217C" = {
+"@MMK_L_BNG_R_eMatra" = {
+"@MMK_R_BNG_L_ba" = -10;
+"@MMK_R_L_BNG_kTta" = -25;
+"@MMK_R_L_BNG_nga_half2" = -20;
+};
+"@MMK_L_R_BNG_aaMatra_part" = {
+"@MMK_R_L_BNG_ma_side" = -1;
+};
+"@MMK_L_R_BNG_bha_half" = {
+"@MMK_R_L_BNG_headline_200" = -32;
+"@MMK_R_L_BNG_uMatra_side" = 14;
+};
+"@MMK_L_R_BNG_ca_half" = {
+"@MMK_R_L_BNG_cha_half" = 0;
+};
+"@MMK_L_R_BNG_da_half" = {
+"@MMK_R_L_BNG_ga" = -40;
+"@MMK_R_L_BNG_ga_side" = -63;
+"@MMK_R_L_BNG_headline130" = -77;
+"@MMK_R_L_BNG_ma_half" = -1;
+};
+"@MMK_L_R_BNG_da_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 1;
+};
+"@MMK_L_R_BNG_dd_half1" = {
+"@MMK_R_L_BNG_ma_side1" = 36;
+};
+"@MMK_L_R_BNG_dda_half" = {
+"@MMK_R_L_BNG_ga_side" = -140;
+"@MMK_R_L_BNG_headline_200" = -146;
+};
+"@MMK_L_R_BNG_ddh_half" = {
+"@MMK_R_L_BNG_ma_side1" = 22;
+};
+"@MMK_L_R_BNG_headline130" = {
+"@MMK_R_L_BNG_k_ssa" = -25;
+};
+"@MMK_L_R_BNG_j-beng_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -63;
+};
+"@MMK_L_R_BNG_la_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -202;
+"@MMK_R_L_BNG_aaMatra_partShort" = -202;
+};
+"@MMK_L_R_BNG_ma_half" = {
+"@MMK_R_L_BNG_headline_200" = -143;
+"@MMK_R_L_BNG_headline_250" = -106;
+};
+"@MMK_L_R_BNG_nHeadline_part" = {
+"@MMK_R_L_BNG_aaMatra_part" = -185;
+"@MMK_R_L_BNG_aaMatra_partShort" = -91;
+"@MMK_R_L_BNG_da" = -185;
+"@MMK_R_L_BNG_dda_side" = -13;
+"@MMK_R_L_BNG_ddhaSide" = 8;
+"@MMK_R_L_BNG_tthaSide" = 14;
+"@MMK_R_L_d-beng_half" = -180;
+"@MMK_R_L_d-beng_half2" = -248;
+"@MMK_R_L_d-beng_half3" = -186;
+};
+"@MMK_L_R_BNG_ng_half2" = {
+"@MMK_R_L_BNG_ma_side1" = -1;
+};
+"@MMK_L_R_BNG_nga_half" = {
+"@MMK_R_L_BNG_headline-100" = -62;
+"@MMK_R_L_BNG_kSsa_half" = -52;
+"@MMK_R_L_BNG_k_ssa" = -56;
+};
+"@MMK_L_R_BNG_sa_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 13;
+};
+"@MMK_L_R_BNG_ss_half" = {
+"@MMK_R_L_BNG_headline_200" = -155;
+"@MMK_R_L_BNG_headline_250" = -109;
+};
+"@MMK_L_R_BNG_t_half" = {
+"@MMK_R_L_BNG_ma_side1" = 24;
+};
+"@MMK_L_R_BNG_uni1CE1" = {
+"@MMK_R_L_BNG_aiMatra" = 52;
+};
+};
+"F138D99C-4E28-42C5-9F3E-22494052B08F" = {
+"@MMK_L_BNG_R_eMatra" = {
+"@MMK_R_BNG_L_ba" = -10;
+"@MMK_R_L_BNG_kTta" = -20;
+"@MMK_R_L_BNG_nga_half2" = -20;
+"@MMK_R_L_BNG_sa_half" = 0;
+};
+"@MMK_L_R_BNG_aaMatra_part" = {
+"@MMK_R_L_BNG_ma_side" = -5;
+};
+"@MMK_L_R_BNG_bha_half" = {
+"@MMK_R_L_BNG_headline_200" = -6;
+"@MMK_R_L_BNG_uMatra_side" = 6;
+};
+"@MMK_L_R_BNG_ca_half" = {
+"@MMK_R_L_BNG_cha_half" = 0;
+};
+"@MMK_L_R_BNG_da_half" = {
+"@MMK_R_L_BNG_ga" = -80;
+"@MMK_R_L_BNG_ga_side" = -119;
+"@MMK_R_L_BNG_headline130" = -141;
+"@MMK_R_L_BNG_ma_half" = 0;
+};
+"@MMK_L_R_BNG_da_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 18;
+};
+"@MMK_L_R_BNG_dd_half1" = {
+"@MMK_R_L_BNG_ma_side1" = 3;
+};
+"@MMK_L_R_BNG_dda_half" = {
+"@MMK_R_L_BNG_ga_side" = -125;
+"@MMK_R_L_BNG_headline_200" = -168;
+};
+"@MMK_L_R_BNG_ddh_half" = {
+"@MMK_R_L_BNG_ma_side1" = 13;
+};
+"@MMK_L_R_BNG_headline130" = {
+"@MMK_R_L_BNG_k_ssa" = -9;
+};
+"@MMK_L_R_BNG_j-beng_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -58;
+};
+"@MMK_L_R_BNG_la_half" = {
+"@MMK_R_L_BNG_aaMatra_part" = -238;
+"@MMK_R_L_BNG_aaMatra_partShort" = -250;
+};
+"@MMK_L_R_BNG_ma_half" = {
+"@MMK_R_L_BNG_headline_200" = -175;
+"@MMK_R_L_BNG_headline_250" = -129;
+"eMatra-beng.long" = 0;
+};
+"@MMK_L_R_BNG_nHeadline_part" = {
+"@MMK_R_L_BNG_aaMatra_part" = -227;
+"@MMK_R_L_BNG_aaMatra_partShort" = -85;
+"@MMK_R_L_BNG_da" = -225;
+"@MMK_R_L_BNG_dda_side" = -37;
+"@MMK_R_L_BNG_ddhaSide" = 13;
+"@MMK_R_L_BNG_tthaSide" = 15;
+"@MMK_R_L_d-beng_half" = -225;
+"@MMK_R_L_d-beng_half2" = -319;
+"@MMK_R_L_d-beng_half3" = -221;
+};
+"@MMK_L_R_BNG_ng_half2" = {
+"@MMK_R_L_BNG_ma_side1" = 11;
+};
+"@MMK_L_R_BNG_nga_half" = {
+"@MMK_R_L_BNG_headline-100" = -23;
+"@MMK_R_L_BNG_kSsa_half" = -13;
+"@MMK_R_L_BNG_k_ssa" = -13;
+};
+"@MMK_L_R_BNG_sa_half2" = {
+"@MMK_R_L_BNG_uMatra_side" = 14;
+};
+"@MMK_L_R_BNG_ss_half" = {
+"@MMK_R_L_BNG_headline_200" = -172;
+"@MMK_R_L_BNG_headline_250" = -133;
+};
+"@MMK_L_R_BNG_t_half" = {
+"@MMK_R_L_BNG_ma_side1" = 38;
+};
+"@MMK_L_R_BNG_t_ra" = {
+"@MMK_R_L_BNG_uMatra_side" = -7;
+};
+"@MMK_L_R_BNG_uni1CE1" = {
+"@MMK_R_L_BNG_aiMatra" = 54;
+};
+};
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+},
+{
+name = "zone 1";
+},
+{
+name = "zone 2";
+}
+);
+note = "iMatra combos
+
+/iMatra-beng.short03/ca-beng/iMatra-beng.short03/c_ba-beng/iMatra-beng.short03/c_wa-beng/iMatra-beng.short03/c_na-beng/iMatra-beng.short03/c_ra-beng/iMatra-beng.short03/ss_wa-beng/iMatra-beng.short03/ss_ka-beng/iMatra-beng.short02/nn_ba-beng/iMatra-beng.short02/nn_na-beng/iMatra-beng.short02/nn_nna-beng/iMatra-beng.short02/nn_wa-beng/iMatra-beng.short02/ny_ca-beng/iMatra-beng.short01/ny_cha-beng/iMatra-beng.short01/ddh_wa-beng/iMatra-beng.short01/ddh_ra-beng/iMatra-beng.short01/ddh_ba-beng/iMatra-beng.short01/rha-beng/iMatra-beng.short01/rh_ba-beng/iMatra-beng.short01/rh_ra-beng/iMatra-beng.short01/ha-beng/iMatra-beng.short01/h_nna-beng/iMatra-beng.short01/h_ba-beng/iMatra-beng.short01/h_wa-beng/iMatra-beng.short01/h_nna-beng.alt/iMatra-beng.short01/d_na-beng/iMatra-beng.short01/d_dh_wa-beng/iMatra-beng.short01/d_dh_ba-beng/iMatra-beng.short01/d_dha-beng/iMatra-beng.short01/d_dha-beng/iMatra-beng.short01/d_dha-beng/iMatra-beng.short01/cha-beng/iMatra-beng.short01/ch_wa-beng/iMatra-beng.short01/ch_ra-beng/iMatra-beng.short01/ch_ba-beng/iMatra-beng.short01/ng_k_ra-beng/iMatra-beng.short01/ha_uMatra-beng/iMatra-beng.short01/rh_wa-beng/iMatra-beng.short01/h_na-beng/iMatra-beng.short01/h_ra-beng/iMatra-beng.short01/h_la-beng/iMatra-beng.short01/m_ba-beng/iMatra-beng.short01/n_t_ra-beng/iMatra-beng.short01/n_tha-beng/iMatra-beng.short01/n_th_ra-beng/iMatra-beng.short01/n_wa-beng/iMatra-beng.short01/n_ba-beng/iMatra-beng.short01/n_na-beng/iMatra-beng.short01/n_dh_wa-beng/iMatra-beng.short01/n_dh_ra-beng/iMatra-beng.short01/n_dh_ba-beng/iMatra-beng.short01/n_dha-beng/iMatra-beng.short01/n_dd_ra-beng/iMatra-beng.short01/n_dda-beng/iMatra-beng.short01/b_dha-beng/iMatra-beng.short01/k_ba-beng/iMatra-beng.short01/k_ka-beng/iMatra-beng/ka-beng/iMatra-beng/ra-beng/iMatra-beng/dha-beng/iMatra-beng/jha-beng/iMatra-beng/ralowerdiagonal-beng/iMatra-beng/ramiddlediagonal-beng/iMatra-beng/k_la-beng/iMatra-beng/k_na-beng/iMatra-beng/b_la-beng/iMatra-beng/b_ra-beng/iMatra-beng/jh_ra-beng/iMatra-beng/jh_ba-beng/iMatra-beng/jh_wa-beng/iMatra-beng/dha-beng/iMatra-beng/dh_ra-beng/iMatra-beng/dh_na-beng/iMatra-beng/yy_wa-beng/iMatra-beng/y_wa-beng/iMatra-beng/y_ra-beng/iMatra-beng/y_ba-beng/iMatra-beng/yy_ra-beng/iMatra-beng/yy_ba-beng/iMatra-beng/yya-beng/iMatra-beng/ya-beng/iMatra-beng/ssa-beng/iMatra-beng/ss_nna-beng/iMatra-beng/s_ba-beng/iMatra-beng/s_ka-beng/iMatra-beng/m_la-beng/iMatra-beng/m_ra-beng/iMatra-beng/m_b_ra-beng/iMatra-beng/m_na-beng/iMatra-beng/m_tha-beng/iMatra-beng/m_t_ra-beng/iMatra-beng/sh_wa-beng/iMatra-beng/sh_la-beng/iMatra-beng/sh_ba-beng/iMatra-beng/sh_na-beng/iMatra-beng/bh_wa-beng/iMatra-beng/bh_la-beng/iMatra-beng/bh_ra-beng/iMatra-beng/th_wa-beng/iMatra-beng/th_ra-beng/iMatra-beng/th_ba-beng/iMatra-beng/t_la-beng/iMatra-beng/t_ba-beng/iMatra-beng/t_na-beng/iMatra-beng/j_ny_wa-beng/iMatra-beng/j_ny_ra-beng/iMatra-beng/j_ny_ba-beng/iMatra-beng/gh_wa-beng/iMatra-beng/gh_la-beng/iMatra-beng/gh_ra-beng/iMatra-beng/gh_ba-beng/iMatra-beng/gh_na-beng/iMatra-beng/g_ba-beng/iMatra-beng/g_na-beng/iMatra-beng/g_dh_wa-beng/iMatra-beng/g_dh_ba-beng/iMatra-beng/g_dh_ba-beng/iMatra-beng/g_dha-beng/iMatra-beng/g_d_ra-beng/iMatra-beng/g_ga-beng/iMatra-beng/kh_wa-beng/iMatra-beng/kh_ra-beng/iMatra-beng/kh_ba-beng/iMatra-beng/m_bh_ra-beng/iMatra-beng/d_bh_ra-beng/iMatra-beng/da-beng/iMatra-beng/j_nya-beng/iMatra-beng/ng_ka-beng/iMatra-beng/na-beng/iMatra-beng/tha-beng/iMatra-beng/ta-beng/iMatra-beng/nna-beng/iMatra-beng/ja-beng/iMatra-beng/gha-beng/iMatra-beng/ga-beng/iMatra-beng.long01/ng_wa-beng/iMatra-beng.long01/ng_wa-beng/iMatra-beng.long01/ng_ra-beng/iMatra-beng.long01/nga-beng/iMatra-beng.long01/ng_ba-beng/iMatra-beng.long01/ny_ja-beng/iMatra-beng.long01/rr_ra-beng/iMatra-beng.long01/dd_ba-beng/iMatra-beng.long01/dd_wa-beng/iMatra-beng.long01/dd_ra-beng/iMatra-beng.long01/rr_ba-beng/iMatra-beng.long01/rr_wa-beng/iMatra-beng.long01/s_la-beng.alt/iMatra-beng.long01/s_la-beng/iMatra-beng.long01/s_ra-beng/iMatra-beng.long01/s_na-beng/iMatra-beng.long01/s_tha-beng/iMatra-beng.long01/s_t_ra-beng/iMatra-beng.long01/s_k_ra-beng/iMatra-beng.long01/ss_ra-beng/iMatra-beng.long01/ph_wa-beng/iMatra-beng.long01/ph_la-beng/iMatra-beng.long01/ph_ra-beng/iMatra-beng.long01/ph_ba-beng/iMatra-beng.long01/p_wa-beng/iMatra-beng.long01/p_la-beng/iMatra-beng.long01/p_ba-beng/iMatra-beng.long01/p_pa-beng/iMatra-beng.long01/p_na-beng/iMatra-beng.long01/nn_ra-beng/iMatra-beng.long01/ny_wa-beng/iMatra-beng.long01/ny_ba-beng/iMatra-beng.long01/ny_jha-beng/iMatra-beng.long01/k_ra-beng/iMatra-beng.long01/t_ra-beng/iMatra-beng.long01/g_ra-beng/iMatra-beng.long01/n_ra-beng/iMatra-beng.long01/sa-beng/iMatra-beng.long01/sha-beng/iMatra-beng.long01/ma-beng/iMatra-beng.long01/bha-beng/iMatra-beng.long01/pha-beng/iMatra-beng.long01/pa-beng/iMatra-beng.long01/kha-beng/iMatra-beng.long02/ng_ga-beng/iMatra-beng.long02/g_da-beng/iMatra-beng.long02/ss_k_ra-beng/iMatra-beng.long02/sh_ra-beng/iMatra-beng.long02/sh_ta-beng/iMatra-beng.long02/l_wa-beng/iMatra-beng.long02/l_la-beng/iMatra-beng.long02/l_ba-beng/iMatra-beng.long02/l_pa-beng/iMatra-beng.long02/l_dha-beng/iMatra-beng.long02/l_dd_ra-beng/iMatra-beng.long02/l_dda-beng/iMatra-beng.long02/l_ga-beng/iMatra-beng.long02/l_ka-beng/iMatra-beng.long02/l_ta-beng/iMatra-beng.long02/p_ra-beng/iMatra-beng.long02/p_ta-beng/iMatra-beng.long02/m_bha-beng/iMatra-beng.long02/m_t_wa-beng/iMatra-beng.long02/m_t_ba-beng/iMatra-beng.long02/m_ta-beng/iMatra-beng.long02/bh_ba-beng/iMatra-beng.long02/n_t_wa-beng/iMatra-beng.long02/n_t_ba-beng/iMatra-beng.long02/n_ta_uMatra-beng/iMatra-beng.long02/n_ta-beng/iMatra-beng.long02/d_ra-beng/iMatra-beng.long02/t_t_ba-beng/iMatra-beng.long02/ny_ra-beng/iMatra-beng.long02/nya-beng/iMatra-beng.long02/h_ma-beng/iMatra-beng.long02/k_ss_nna-beng.alt/iMatra-beng.long02/k_ssa-beng/iMatra-beng.long02/k_ss_wa-beng/iMatra-beng.long02/k_ss_ra-beng/iMatra-beng.long02/k_ss_ba-beng/iMatra-beng.long02/k_ss_nna-beng/iMatra-beng.long02/k_t_wa-beng/iMatra-beng.long02/k_t_ra-beng/iMatra-beng.long02/k_t_ba-beng/iMatra-beng.long02/k_ta-beng/iMatra-beng.long02/t_ta-beng/iMatra-beng.long02/b_bha-beng/iMatra-beng.long02/t_tha-beng/iMatra-beng.long02/t_t_ra-beng/iMatra-beng.long02/dda-beng/iMatra-beng.long02/rra-beng/iMatra-beng.long03/s_t_ba-beng/iMatra-beng.long03/s_ta_uMatra-beng/iMatra-beng.long03/s_ta-beng/iMatra-beng.long03/ss_ma-beng/iMatra-beng.long03/n_ma-beng/iMatra-beng.long03/nn_dd_ra-beng/iMatra-beng.long03/l_ra-beng/iMatra-beng.long03/n_sa-beng/iMatra-beng.long03/d_bha-beng/iMatra-beng.long03/d_da-beng/iMatra-beng.long03/c_nya-beng/iMatra-beng.long03/nn_dda-beng/iMatra-beng.long03/ga_uMatra-beng/iMatra-beng.long03/la-beng/iMatra-beng.long04/j_ra-beng/iMatra-beng.long04/j_ba-beng/iMatra-beng.long04/j_wa-beng/iMatra-beng.long04/ss_pha-beng/iMatra-beng.long04/m_ma-beng/iMatra-beng.long04/m_pha-beng/iMatra-beng.long04/n_d_wa-beng/iMatra-beng.long04/n_d_ba-beng/iMatra-beng.long04/n_ddh_ra-beng/iMatra-beng.long04/n_ddha-beng/iMatra-beng.long04/dh_ma-beng/iMatra-beng.long04/d_ma-beng/iMatra-beng.long04/d_d_wa-beng/iMatra-beng.long04/d_d_ra-beng/iMatra-beng.long04/d_d_ba-beng/iMatra-beng.long04/c_ch_wa-beng/iMatra-beng.long04/c_ch_ra-beng/iMatra-beng.long04/c_ch_ba-beng/iMatra-beng.long04/c_ca-beng/iMatra-beng.long04/s_kha-beng/iMatra-beng.long04/sha_uMatra-beng/iMatra-beng.long04/b_d_ra-beng/iMatra-beng.long04/b_da-beng/iMatra-beng.long04/m_da-beng/iMatra-beng.long05/sh_ca-beng/iMatra-beng.long05/l_d_ra-beng/iMatra-beng.long05/l_da-beng/iMatra-beng.long05/l_ddha-beng/iMatra-beng.long05/n_d_ra-beng/iMatra-beng.long05/n_da-beng/iMatra-beng.long05/nn_ma-beng/iMatra-beng.long05/dd_ma-beng/iMatra-beng.long05/c_cha-beng/iMatra-beng.long05/ng_ma-beng/iMatra-beng.long05/g_ma-beng/iMatra-beng.long05/l_pha-beng/iMatra-beng.long05/dd_dda-beng/iMatra-beng.long05/k_sa-beng/iMatra-beng.long05/k_ma-beng/iMatra-beng.long06/ss_p_ra-beng/iMatra-beng.long06/ss_pa-beng/iMatra-beng.long06/b_ja-beng/iMatra-beng.long06/s_ma-beng/iMatra-beng.long06/s_pha-beng/iMatra-beng.long06/sh_ma-beng/iMatra-beng.long06/sh_cha-beng/iMatra-beng.long06/l_ma-beng/iMatra-beng.long06/nn_ddha-beng/iMatra-beng.long06/p_ma-beng/iMatra-beng.long06/p_ddh_ra-beng/iMatra-beng.long06/p_ddha-beng/iMatra-beng.long06/d_ga-beng/iMatra-beng.long06/p_sa-beng/iMatra-beng.long06/t_ma-beng/iMatra-beng.long07/b_ba-beng/iMatra-beng.long07/dh_ba-beng/iMatra-beng.long07/m_sa-beng/iMatra-beng.long07/d_gha-beng/iMatra-beng.long07/j_jha-beng/iMatra-beng.long07/j_j_wa-beng/iMatra-beng.long07/j_ja-beng/iMatra-beng.long07/k_ss_ma-beng/iMatra-beng.long08/m_p_ra-beng/iMatra-beng.long08/m_p_ra-beng/iMatra-beng.long09/s_p_ra-beng/iMatra-beng.long09/s_pa-beng/iMatra-beng.long09/rr_ga-beng/iMatra-beng.long09/dd_ga-beng/iMatra-beng.long10/ng_gha-beng/iMatra-beng.long11/ng_k_ssa-beng";
+numbers = (
+{
+name = NUM_RSB_headline130;
+},
+{
+name = NUM_RSB_headline130_tRUu;
+},
+{
+name = NUM_RSB_headline200;
+},
+{
+name = NUM_RSB_headline200_ddHalf;
+},
+{
+name = NUM_RSB_headline200_mHalf;
+},
+{
+name = NUM_RSB_headline200_bhHalf;
+},
+{
+name = NUM_RSB_headline200_ssHalf4;
+},
+{
+name = NUM_RSB_headline200_sHalf2;
+},
+{
+name = NUM_RSB_headline200_ha;
+},
+{
+name = NUM_RSB_headline250_ha;
+},
+{
+name = NUM_RSB_headline250_ssHalf;
+},
+{
+name = NUM_RSB_kaArm;
+},
+{
+name = NUM_RSB_bJhaSide;
+},
+{
+name = NUM_RSB_aaMatraFloat;
+},
+{
+name = KERN_onTheFly_LDa;
+},
+{
+name = KERN_onTheFly_DdGa;
+},
+{
+name = KERN_onTheFly_MPa;
+},
+{
+name = KERN_onTheFly_MPRa;
+},
+{
+name = KERN_onTheFly_SsPa;
+},
+{
+name = KERN_onTheFly_SsPRa;
+},
+{
+name = KERN_onTheFly_MSa;
+},
+{
+name = KERN_onTheFly_MPLa;
+},
+{
+name = KERN_onTheFly_SsPLa;
+},
+{
+name = ABVM_smallCandrabindu_up;
+},
+{
+name = ABVM_smallCandrabindu_right;
+},
+{
+name = ABVM_vedicTta_up;
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2025 The Noto Project Authors (https://github.com/notofonts/bengali)";
+}
+);
+},
+{
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "Designed by Universal Thirst";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Joana Ranito - Universal Thirst; Jelle Bosma - Monotype Design Team";
+}
+);
+},
+{
+key = designerURL;
+value = "https://universalthirst.com/";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://openfontlicense.org/";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Universal Thirst ehf.";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "http://www.google.com/get/noto/";
+},
+{
+key = trademarks;
+values = (
+{
+language = dflt;
+value = "Noto is a trademark of Google Inc.";
+}
+);
+},
+{
+key = versionString;
+value = "Version 3.000";
+}
+);
+settings = {
+disablesNiceNames = 1;
+};
+stems = (
+{
+name = hStem0;
+},
+{
+name = hStem1;
+},
+{
+horizontal = 1;
+name = vStem0;
+},
+{
+horizontal = 1;
+name = vStem1;
+}
+);
+unitsPerEm = 1000;
+userData = {
+GSDontShowVersionAlert = 1;
+};
+versionMajor = 3;
+versionMinor = 0;
+}

@@ -26,6 +26,10 @@ name = top;
 pos = (551,602);
 },
 {
+name = topleft;
+pos = (553,602);
+},
+{
 name = topright;
 pos = (554,602);
 },
@@ -163,6 +167,10 @@ pos = (558,-68);
 {
 name = top;
 pos = (578,570);
+},
+{
+name = topleft;
+pos = (571,618);
 },
 {
 name = topright;
@@ -304,6 +312,10 @@ name = top;
 pos = (685,592);
 },
 {
+name = topleft;
+pos = (657,652);
+},
+{
 name = topright;
 pos = (686,572);
 },
@@ -440,6 +452,10 @@ pos = (393,-36);
 },
 {
 name = top;
+pos = (402,602);
+},
+{
+name = topleft;
 pos = (402,602);
 },
 {
@@ -582,6 +598,10 @@ name = top;
 pos = (437,570);
 },
 {
+name = topleft;
+pos = (419,610);
+},
+{
 name = topright;
 pos = (439,570);
 },
@@ -719,6 +739,10 @@ pos = (578,-133);
 {
 name = top;
 pos = (555,592);
+},
+{
+name = topleft;
+pos = (539,642);
 },
 {
 name = topright;

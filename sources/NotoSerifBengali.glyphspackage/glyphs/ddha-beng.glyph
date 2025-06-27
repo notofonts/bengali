@@ -322,7 +322,7 @@ pos = (264,30);
 },
 {
 name = bottom.rakaar;
-pos = (310,0);
+pos = (300,0);
 },
 {
 name = bottom.rvocalic;
@@ -400,7 +400,7 @@ pos = (326,-10);
 },
 {
 name = bottom.rakaar;
-pos = (410,0);
+pos = (405,0);
 },
 {
 name = bottom.rvocalic;

@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (912,48);
+pos = (914,48);
 },
 {
 name = bottom.rakaar;
@@ -176,7 +176,7 @@ width = 1002;
 anchors = (
 {
 name = bottom;
-pos = (1007,-68);
+pos = (1010,7);
 },
 {
 name = bottom.rakaar;
@@ -196,7 +196,7 @@ pos = (725,570);
 },
 {
 name = topleft;
-pos = (900,570);
+pos = (900,610);
 },
 {
 name = topright;
@@ -346,7 +346,7 @@ width = 1092;
 anchors = (
 {
 name = bottom;
-pos = (1114,-41);
+pos = (1135,-82);
 },
 {
 name = bottom.rakaar;
@@ -366,7 +366,7 @@ pos = (765,592);
 },
 {
 name = topleft;
-pos = (973,592);
+pos = (973,632);
 },
 {
 name = topright;
@@ -516,7 +516,7 @@ width = 1202;
 anchors = (
 {
 name = bottom;
-pos = (659,48);
+pos = (654,42);
 },
 {
 name = bottom.rakaar;
@@ -706,7 +706,7 @@ pos = (524,570);
 },
 {
 name = topleft;
-pos = (682,570);
+pos = (682,610);
 },
 {
 name = topright;
@@ -856,7 +856,7 @@ width = 802;
 anchors = (
 {
 name = bottom;
-pos = (889,-24);
+pos = (904,-48);
 },
 {
 name = bottom.rakaar;
@@ -876,7 +876,7 @@ pos = (598,592);
 },
 {
 name = topleft;
-pos = (802,592);
+pos = (802,632);
 },
 {
 name = topright;

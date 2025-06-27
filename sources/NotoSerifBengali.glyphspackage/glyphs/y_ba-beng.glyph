@@ -286,7 +286,7 @@ pos = (284,-42);
 },
 {
 name = bottom.rakaar;
-pos = (290,-33);
+pos = (292,-33);
 },
 {
 name = bottom.rvocalic;
@@ -378,7 +378,7 @@ pos = (325,-86);
 },
 {
 name = bottom.rakaar;
-pos = (323,-46);
+pos = (329,-46);
 },
 {
 name = bottom.rvocalic;
@@ -470,7 +470,7 @@ pos = (460,-166);
 },
 {
 name = bottom.rakaar;
-pos = (468,-104);
+pos = (464,-104);
 },
 {
 name = bottom.rvocalic;
