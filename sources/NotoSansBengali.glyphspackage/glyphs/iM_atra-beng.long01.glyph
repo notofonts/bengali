@@ -1,0 +1,218 @@
+{
+category = Letter;
+glyphname = "iMatra-beng.long01";
+layers = (
+{
+anchors = (
+{
+name = top_iMatra;
+pos = (671,699);
+}
+);
+background = {
+anchors = (
+{
+name = top_iMatra;
+pos = (671,699);
+}
+);
+shapes = (
+{
+piece = {
+Length = 175;
+};
+ref = "_smart-iMatra-beng";
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+piece = {
+Length = 175;
+};
+ref = "_smart-iMatra-beng";
+}
+);
+width = 233;
+},
+{
+anchors = (
+{
+name = top_iMatra;
+pos = (719,681);
+}
+);
+background = {
+anchors = (
+{
+name = top_iMatra;
+pos = (719,681);
+}
+);
+shapes = (
+{
+piece = {
+Length = 175;
+};
+ref = "_smart-iMatra-beng";
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+piece = {
+Length = 175;
+};
+ref = "_smart-iMatra-beng";
+}
+);
+width = 266;
+},
+{
+anchors = (
+{
+name = top_iMatra;
+pos = (741,670);
+}
+);
+background = {
+anchors = (
+{
+name = top_iMatra;
+pos = (741,670);
+}
+);
+shapes = (
+{
+piece = {
+Length = 175;
+};
+ref = "_smart-iMatra-beng";
+}
+);
+};
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+piece = {
+Length = 175;
+};
+ref = "_smart-iMatra-beng";
+}
+);
+width = 290;
+},
+{
+anchors = (
+{
+name = top_iMatra;
+pos = (478,703);
+}
+);
+background = {
+anchors = (
+{
+name = top_iMatra;
+pos = (478,703);
+}
+);
+shapes = (
+{
+piece = {
+Length = 140;
+};
+ref = "_smart-iMatra-beng";
+}
+);
+};
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+piece = {
+Length = 140;
+};
+ref = "_smart-iMatra-beng";
+}
+);
+width = 164;
+},
+{
+anchors = (
+{
+name = top_iMatra;
+pos = (528,687);
+}
+);
+background = {
+anchors = (
+{
+name = top_iMatra;
+pos = (528,687);
+}
+);
+shapes = (
+{
+piece = {
+Length = 173;
+};
+ref = "_smart-iMatra-beng";
+}
+);
+};
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+piece = {
+Length = 173;
+};
+ref = "_smart-iMatra-beng";
+}
+);
+width = 202;
+},
+{
+anchors = (
+{
+name = top_iMatra;
+pos = (582,678);
+}
+);
+background = {
+anchors = (
+{
+name = top_iMatra;
+pos = (582,678);
+}
+);
+shapes = (
+{
+piece = {
+Length = 176;
+};
+ref = "_smart-iMatra-beng";
+}
+);
+};
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+piece = {
+Length = 176;
+};
+ref = "_smart-iMatra-beng";
+}
+);
+width = 244;
+}
+);
+partsSettings = (
+{
+bottomValue = 0;
+name = Length;
+topValue = 850;
+}
+);
+subCategory = Spacing;
+}

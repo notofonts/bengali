@@ -25,6 +25,10 @@ name = top;
 pos = (914,545);
 },
 {
+name = topleft;
+pos = (913,602);
+},
+{
 name = topright;
 pos = (919,564);
 },
@@ -43,7 +47,6 @@ pos = (613,203);
 ref = "nukta-beng";
 }
 );
-vertWidth = 0;
 width = 1012;
 },
 {
@@ -69,6 +72,10 @@ name = top;
 pos = (929,560);
 },
 {
+name = topleft;
+pos = (970,610);
+},
+{
 name = topright;
 pos = (899,552);
 },
@@ -87,7 +94,6 @@ pos = (659,160);
 ref = "nukta-beng";
 }
 );
-vertWidth = 0;
 width = 1060;
 },
 {
@@ -113,6 +119,10 @@ name = top;
 pos = (1086,582);
 },
 {
+name = topleft;
+pos = (1073,632);
+},
+{
 name = topright;
 pos = (1076,572);
 },
@@ -131,7 +141,6 @@ pos = (734,110);
 ref = "nukta-beng";
 }
 );
-vertWidth = 0;
 width = 1207;
 },
 {
@@ -157,6 +166,10 @@ name = top;
 pos = (914,545);
 },
 {
+name = topleft;
+pos = (666,602);
+},
+{
 name = topright;
 pos = (919,564);
 },
@@ -175,7 +188,6 @@ pos = (442,192);
 ref = "nukta-beng";
 }
 );
-vertWidth = 0;
 width = 743;
 },
 {
@@ -201,6 +213,10 @@ name = top;
 pos = (929,560);
 },
 {
+name = topleft;
+pos = (712,610);
+},
+{
 name = topright;
 pos = (899,552);
 },
@@ -219,7 +235,6 @@ pos = (473,190);
 ref = "nukta-beng";
 }
 );
-vertWidth = 0;
 width = 790;
 },
 {
@@ -245,6 +260,10 @@ name = top;
 pos = (1086,582);
 },
 {
+name = topleft;
+pos = (892,632);
+},
+{
 name = topright;
 pos = (1076,572);
 },
@@ -263,7 +282,6 @@ pos = (628,119);
 ref = "nukta-beng";
 }
 );
-vertWidth = 0;
 width = 998;
 }
 );

@@ -1,0 +1,250 @@
+{
+category = Letter;
+color = 10;
+export = 0;
+glyphname = "n_ttha-beng";
+layers = (
+{
+background = {
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (567,0);
+ref = "ttha-beng.side";
+},
+{
+pos = (-2,25);
+ref = "n-beng.float";
+},
+{
+pos = (262,0);
+ref = "ttha-beng.top2";
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (567,0);
+ref = "ttha-beng.side";
+},
+{
+pos = (35,25);
+ref = "n-beng.float";
+},
+{
+pos = (262,0);
+ref = "ttha-beng.top2";
+}
+);
+width = 705;
+},
+{
+background = {
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (491,0);
+ref = "ttha-beng.side";
+},
+{
+pos = (7,0);
+ref = "n-beng.float";
+},
+{
+pos = (292,0);
+ref = "ttha-beng.top2";
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (491,0);
+ref = "ttha-beng.side";
+},
+{
+pos = (60,0);
+ref = "n-beng.float";
+},
+{
+pos = (292,0);
+ref = "ttha-beng.top2";
+}
+);
+width = 688;
+},
+{
+background = {
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (604,0);
+ref = "ttha-beng.side";
+},
+{
+pos = (1,8);
+ref = "n-beng.float";
+},
+{
+pos = (266,0);
+ref = "ttha-beng.top2";
+}
+);
+};
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (604,0);
+ref = "ttha-beng.side";
+},
+{
+pos = (0,8);
+ref = "n-beng.float";
+},
+{
+pos = (266,0);
+ref = "ttha-beng.top2";
+}
+);
+width = 773;
+},
+{
+background = {
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (342,0);
+ref = "ttha-beng.side";
+},
+{
+pos = (0,5);
+ref = "n-beng.float";
+},
+{
+pos = (197,0);
+ref = "ttha-beng.top2";
+}
+);
+};
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (342,0);
+ref = "ttha-beng.side";
+},
+{
+pos = (30,5);
+ref = "n-beng.float";
+},
+{
+pos = (191,0);
+ref = "ttha-beng.top2";
+}
+);
+width = 469;
+},
+{
+background = {
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (425,0);
+ref = "ttha-beng.side";
+},
+{
+pos = (-1,22);
+ref = "n-beng.float";
+},
+{
+pos = (197,0);
+ref = "ttha-beng.top2";
+}
+);
+};
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (425,0);
+ref = "ttha-beng.side";
+},
+{
+pos = (15,22);
+ref = "n-beng.float";
+},
+{
+pos = (192,0);
+ref = "ttha-beng.top2";
+}
+);
+width = 551;
+},
+{
+background = {
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (486,0);
+ref = "ttha-beng.side";
+},
+{
+pos = (5,11);
+ref = "n-beng.float";
+},
+{
+pos = (227,1);
+ref = "ttha-beng.top2";
+}
+);
+};
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "n-beng.headline";
+},
+{
+pos = (486,0);
+ref = "ttha-beng.side";
+},
+{
+pos = (-10,11);
+ref = "n-beng.float";
+},
+{
+pos = (237,1);
+ref = "ttha-beng.top2";
+}
+);
+width = 635;
+}
+);
+script = bengali;
+subCategory = Spacing;
+}

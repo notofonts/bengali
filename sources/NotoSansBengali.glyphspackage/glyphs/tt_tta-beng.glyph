@@ -1,0 +1,154 @@
+{
+category = Letter;
+color = 2;
+export = 0;
+glyphname = "tt_tta-beng";
+layers = (
+{
+background = {
+shapes = (
+{
+ref = "tt_tta-beng.noflag";
+},
+{
+pos = (252,0);
+ref = "tta-beng.flag";
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+ref = "tt_tta-beng.noflag";
+},
+{
+pos = (-29,0);
+ref = "tta-beng.flag";
+}
+);
+width = 562;
+},
+{
+background = {
+shapes = (
+{
+ref = "tt_tta-beng.noflag";
+},
+{
+pos = (223,0);
+ref = "tta-beng.flag";
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+ref = "tt_tta-beng.noflag";
+},
+{
+pos = (-18,0);
+ref = "tta-beng.flag";
+}
+);
+width = 514;
+},
+{
+background = {
+shapes = (
+{
+ref = "tt_tta-beng.noflag";
+},
+{
+pos = (350,0);
+ref = "tta-beng.flag";
+}
+);
+};
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+ref = "tt_tta-beng.noflag";
+},
+{
+pos = (13,0);
+ref = "tta-beng.flag";
+}
+);
+width = 635;
+},
+{
+background = {
+shapes = (
+{
+ref = "tt_tta-beng.noflag";
+},
+{
+pos = (162,0);
+ref = "tta-beng.flag";
+}
+);
+};
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+ref = "tt_tta-beng.noflag";
+},
+{
+pos = (-16,0);
+ref = "tta-beng.flag";
+}
+);
+width = 369;
+},
+{
+background = {
+shapes = (
+{
+ref = "tt_tta-beng.noflag";
+},
+{
+pos = (200,0);
+ref = "tta-beng.flag";
+}
+);
+};
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "tt_tta-beng.noflag";
+},
+{
+pos = (-23,0);
+ref = "tta-beng.flag";
+}
+);
+width = 435;
+},
+{
+background = {
+shapes = (
+{
+ref = "tt_tta-beng.noflag";
+},
+{
+pos = (297,1);
+ref = "tta-beng.flag";
+}
+);
+};
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "tt_tta-beng.noflag";
+},
+{
+pos = (17,1);
+ref = "tta-beng.flag";
+}
+);
+width = 518;
+}
+);
+script = bengali;
+subCategory = Spacing;
+}

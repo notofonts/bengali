@@ -47,7 +47,6 @@ pos = (460,0);
 ref = "halant-beng";
 }
 );
-vertWidth = 0;
 width = 609;
 },
 {
@@ -95,7 +94,6 @@ pos = (451,0);
 ref = "halant-beng";
 }
 );
-vertWidth = 0;
 width = 615;
 },
 {
@@ -143,7 +141,6 @@ pos = (510,0);
 ref = "halant-beng";
 }
 );
-vertWidth = 0;
 width = 639;
 },
 {
@@ -191,7 +188,6 @@ pos = (347,0);
 ref = "halant-beng";
 }
 );
-vertWidth = 0;
 width = 412;
 },
 {
@@ -239,7 +235,6 @@ pos = (365,0);
 ref = "halant-beng";
 }
 );
-vertWidth = 0;
 width = 443;
 },
 {
@@ -287,7 +282,6 @@ pos = (455,0);
 ref = "halant-beng";
 }
 );
-vertWidth = 0;
 width = 543;
 }
 );

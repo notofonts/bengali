@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 10;
 glyphname = "ss_pha-beng";
 kernLeft = upper_SA;
 layers = (
@@ -25,6 +24,10 @@ pos = (529,-31);
 {
 name = top;
 pos = (539,602);
+},
+{
+name = topleft;
+pos = (557,602);
 },
 {
 name = topright;
@@ -168,6 +171,10 @@ name = top;
 pos = (598,570);
 },
 {
+name = topleft;
+pos = (611,618);
+},
+{
 name = topright;
 pos = (601,570);
 },
@@ -307,6 +314,10 @@ pos = (677,-117);
 {
 name = top;
 pos = (661,592);
+},
+{
+name = topleft;
+pos = (657,652);
 },
 {
 name = topright;
@@ -450,6 +461,10 @@ name = top;
 pos = (398,602);
 },
 {
+name = topleft;
+pos = (400,602);
+},
+{
 name = topright;
 pos = (392,602);
 },
@@ -591,6 +606,10 @@ name = top;
 pos = (443,570);
 },
 {
+name = topleft;
+pos = (409,610);
+},
+{
 name = topright;
 pos = (445,570);
 },
@@ -730,6 +749,10 @@ pos = (575,-160);
 {
 name = top;
 pos = (555,592);
+},
+{
+name = topleft;
+pos = (529,632);
 },
 {
 name = topright;

@@ -10,7 +10,6 @@ alignment = 1;
 ref = hyphen;
 }
 );
-vertWidth = 0;
 width = 310;
 },
 {
@@ -41,7 +40,6 @@ alignment = 1;
 ref = hyphen;
 }
 );
-vertWidth = 0;
 width = 236;
 },
 {

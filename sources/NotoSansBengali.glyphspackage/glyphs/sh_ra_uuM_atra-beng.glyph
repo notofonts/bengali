@@ -1,0 +1,202 @@
+{
+category = Letter;
+color = 11;
+export = 0;
+glyphname = "sh_ra_uuMatra-beng";
+layers = (
+{
+background = {
+shapes = (
+{
+ref = "sh-beng.half2";
+},
+{
+pos = (10,-25);
+ref = "raphala-beng.alt02";
+},
+{
+pos = (726,0);
+ref = "uuMatra-beng.side";
+}
+);
+};
+layerId = UUID0;
+shapes = (
+{
+ref = "sh-beng.half2";
+},
+{
+pos = (10,-25);
+ref = "raphala-beng.alt02";
+},
+{
+pos = (726,0);
+ref = "uuMatra-beng.side";
+}
+);
+width = 890;
+},
+{
+background = {
+shapes = (
+{
+ref = "sh-beng.half2";
+},
+{
+pos = (6,0);
+ref = "raphala-beng.alt02";
+},
+{
+pos = (635,0);
+ref = "uuMatra-beng.side";
+}
+);
+};
+layerId = "28FB090A-653E-4199-B7BE-FAE23D31B682";
+shapes = (
+{
+ref = "sh-beng.half2";
+},
+{
+pos = (6,0);
+ref = "raphala-beng.alt02";
+},
+{
+pos = (635,0);
+ref = "uuMatra-beng.side";
+}
+);
+width = 778;
+},
+{
+background = {
+shapes = (
+{
+ref = "sh-beng.half2";
+},
+{
+pos = (26,-57);
+ref = "raphala-beng.alt02";
+},
+{
+pos = (798,0);
+ref = "uuMatra-beng.side";
+}
+);
+};
+layerId = "F455777D-7EDD-47E2-866A-D8A5173CE243";
+shapes = (
+{
+ref = "sh-beng.half2";
+},
+{
+pos = (6,-57);
+ref = "raphala-beng.alt02";
+},
+{
+pos = (798,0);
+ref = "uuMatra-beng.side";
+}
+);
+width = 1008;
+},
+{
+background = {
+shapes = (
+{
+ref = "sh-beng.half2";
+},
+{
+pos = (12,0);
+ref = "raphala-beng.alt02";
+},
+{
+pos = (456,0);
+ref = "uuMatra-beng.side";
+}
+);
+};
+layerId = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
+shapes = (
+{
+ref = "sh-beng.half2";
+},
+{
+pos = (6,0);
+ref = "raphala-beng.alt02";
+},
+{
+pos = (456,0);
+ref = "uuMatra-beng.side";
+}
+);
+width = 576;
+},
+{
+background = {
+shapes = (
+{
+ref = "sh-beng.half2";
+},
+{
+pos = (14,-22);
+ref = "raphala-beng.alt02";
+},
+{
+pos = (553,0);
+ref = "uuMatra-beng.side";
+}
+);
+};
+layerId = "D7742CE6-1B18-47A0-AEB5-463D77EA217C";
+shapes = (
+{
+ref = "sh-beng.half2";
+},
+{
+pos = (5,-22);
+ref = "raphala-beng.alt02";
+},
+{
+pos = (553,0);
+ref = "uuMatra-beng.side";
+}
+);
+width = 688;
+},
+{
+background = {
+shapes = (
+{
+ref = "sh-beng.half2";
+},
+{
+pos = (21,-60);
+ref = "raphala-beng.alt02";
+},
+{
+pos = (637,0);
+ref = "uuMatra-beng.side";
+}
+);
+};
+layerId = "F138D99C-4E28-42C5-9F3E-22494052B08F";
+shapes = (
+{
+ref = "sh-beng.half2";
+},
+{
+pos = (17,-60);
+ref = "raphala-beng.alt02";
+},
+{
+pos = (637,0);
+ref = "uuMatra-beng.side";
+}
+);
+width = 821;
+}
+);
+script = bengali;
+subCategory = Spacing;
+}

@@ -414,8 +414,8 @@ closed = 1;
 nodes = (
 (329,-52,l),
 (329,602,l),
-(478,602,l),
-(466,622,l),
+(480,602,l),
+(468,622,l),
 (-15,622,l),
 (-3,602,l),
 (307,602,l),
@@ -504,7 +504,7 @@ nodes = (
 }
 );
 vertWidth = 0;
-width = 463;
+width = 465;
 },
 {
 anchors = (
@@ -760,7 +760,6 @@ width = 674;
 }
 );
 metricLeft = "n_dha-beng";
-metricRight = "n_dha-beng";
 production = uni09A809CD09A709CD09B0;
 script = bengali;
 subCategory = Other;
