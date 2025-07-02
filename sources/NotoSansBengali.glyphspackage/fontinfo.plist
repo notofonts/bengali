@@ -1,5 +1,5 @@
 {
-.appVersion = "3309";
+.appVersion = "3414";
 .formatVersion = 3;
 axes = (
 {
@@ -1112,6 +1112,10 @@ customParameters = (
 {
 name = "Master Icon Glyph Name";
 value = "ka-beng";
+},
+{
+name = winAscent;
+value = 995;
 }
 );
 id = "28FB090A-653E-4199-B7BE-FAE23D31B682";
@@ -1655,6 +1659,10 @@ lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
 } BNG_dflt_abvm_vedicMatraShift_89;
 
 ";
+},
+{
+name = winAscent;
+value = 995;
 }
 );
 id = UUID0;
@@ -2190,14 +2198,10 @@ lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
 	pos s-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-341 0 0 0>;
 } BNG_dflt_abvm_vedicMatraShift_89;
 ";
-}
-);
-guides = (
-{
-pos = (4,-633);
 },
 {
-pos = (4,-633);
+name = winAscent;
+value = 995;
 }
 );
 id = "F455777D-7EDD-47E2-866A-D8A5173CE243";
@@ -2730,6 +2734,10 @@ lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
 } BNG_dflt_abvm_vedicMatraShift_89;
 
 ";
+},
+{
+name = winAscent;
+value = 995;
 }
 );
 id = "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5";
@@ -3262,11 +3270,10 @@ lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
 } BNG_dflt_abvm_vedicMatraShift_89;
 
 ";
-}
-);
-guides = (
+},
 {
-pos = (214,917);
+name = winAscent;
+value = 995;
 }
 );
 iconName = Condensed;
@@ -3800,6 +3807,10 @@ lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
 } BNG_dflt_abvm_vedicMatraShift_89;
 
 ";
+},
+{
+name = winAscent;
+value = 995;
 }
 );
 id = "F138D99C-4E28-42C5-9F3E-22494052B08F";
