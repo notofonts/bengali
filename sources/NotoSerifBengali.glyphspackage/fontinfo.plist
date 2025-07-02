@@ -1985,7 +1985,7 @@ value = regular;
 },
 {
 name = winAscent;
-value = 1092;
+value = 1213;
 },
 {
 name = winDescent;
@@ -2127,7 +2127,7 @@ value = regular;
 },
 {
 name = winAscent;
-value = 1092;
+value = 1213;
 },
 {
 name = winDescent;
@@ -2273,7 +2273,7 @@ value = regular;
 },
 {
 name = winAscent;
-value = 1092;
+value = 1213;
 },
 {
 name = winDescent;
@@ -2415,7 +2415,7 @@ value = regular;
 },
 {
 name = winAscent;
-value = 1092;
+value = 1213;
 },
 {
 name = winDescent;
@@ -2557,7 +2557,7 @@ value = regular;
 },
 {
 name = winAscent;
-value = 1092;
+value = 1213;
 },
 {
 name = winDescent;
@@ -2704,7 +2704,7 @@ value = regular;
 },
 {
 name = winAscent;
-value = 1092;
+value = 1213;
 },
 {
 name = winDescent;
