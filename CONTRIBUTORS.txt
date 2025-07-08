@@ -8,3 +8,6 @@
 #
 # Names should be added to this file as:
 # Name <email address>
+Gunnar Vilhjálmsson <gunnar@universalthirst.com> @gunnarvilhjalmsson
+Joana Ranito <joana@universalthirst.com> @joanaranito
+Kalapi Gajjar <kalapi@universalthirst.com> @kalapi
