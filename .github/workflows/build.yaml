@@ -1,17 +1,9 @@
 name: Build, QA, Release
 
-on:
-  push:
-    branches: [main]
-  pull_request:
-    types: [opened, synchronize, reopened]
-
-permissions:
-  pages: write
-  id-token: write
-  contents: write
+on: push
 
 jobs:
   build_font:
     uses: notofonts/notobuilder/.github/workflows/build.yaml@main
     secrets: inherit
+
