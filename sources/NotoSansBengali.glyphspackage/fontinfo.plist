@@ -6426,6 +6426,9 @@ UUID0 = {
 "@MMK_L_R_BNG_uni1CE1" = {
 "@MMK_R_L_BNG_aiMatra" = 70;
 };
+"taKhanda-beng" = {
+"yy_ra-beng" = 15;
+};
 };
 "F455777D-7EDD-47E2-866A-D8A5173CE243" = {
 "@MMK_L_BNG_R_eMatra" = {
@@ -6762,6 +6765,9 @@ UUID0 = {
 };
 "@MMK_L_R_BNG_uni1CE1" = {
 "@MMK_R_L_BNG_aiMatra" = 54;
+};
+"taKhanda-beng" = {
+"yy_ra-beng" = 40;
 };
 };
 };
