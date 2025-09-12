@@ -789,10 +789,14 @@ lookup BNG_pres_onTheFly_halfDecomp { # Half and side form decomposition (contex
     # Decompose jha into baphala + part
     sub b-beng.half2 jha-beng' by baphala-beng.alt4 jha-beng.part aaMatra-beng.side2;
     # Decompose na headline into headline + stem + na body
-    sub n-beng.headline' dh-beng.half raphala-beng by n-beng.headline aaMatra-beng.part n-beng.float;
-    sub n-beng.headline' [@BNG_BA dha-beng dh-beng.half na-beng ma-beng] by n-beng.headline aaMatra-beng.part n-beng.float;
+
+    #TESTING FIGMA ISSUE - ORIGINAL CODE
+    # sub n-beng.headline' dh-beng.half raphala-beng by n-beng.headline aaMatra-beng.part n-beng.float;
+    # sub n-beng.headline' [@BNG_BA dha-beng dh-beng.half na-beng ma-beng] by n-beng.headline aaMatra-beng.part n-beng.float;
+
     # Decompose la into la + stem
-    sub l-beng.half3' @BNG_BA by l-beng.half3 aaMatra-beng.part;
+    #TESTING FIGMA ISSUE - ORIGINAL CODE
+    #sub l-beng.half3' @BNG_BA by l-beng.half3 aaMatra-beng.part;
     # Decompose tta into ddha + top flag
     sub @BNG_HALFS_DDHASIDE tta-beng' by ddha-beng.side tta-beng.flag;
     sub @BNG_HALFS_DDHASIDE tta-beng' raphala-beng by ddh-beng.side tta-beng.flag;
@@ -833,7 +837,11 @@ lookup BNG_pres_onTheFly_triconsonant_double { # Replace second AND third conson
     sub [n-beng.half2 p-beng.half m-beng.half2 l-beng.half3 s-beng.half2] ta-beng' raphala-beng' by t_ra-beng.blws;
     #dh_ba
     sub [g-beng.half d-beng.half3] dh-beng.half' @BNG_BA' by dh_ba-beng.blws;
-    sub n-beng.headline aaMatra-beng.part dh-beng.half' @BNG_BA' by dh_ba-beng.blws;
+
+    #TESTING FIGMA BUG - ORIGINAL CODE
+    #sub n-beng.headline aaMatra-beng.part dh-beng.half' @BNG_BA' by dh_ba-beng.blws;
+    #TESTING FIGMA BUG - NEW
+    sub n-beng.headline dh-beng.half' @BNG_BA' by dh_ba-beng.blws;
 
 } BNG_pres_onTheFly_triconsonant_double;
 
@@ -868,11 +876,22 @@ lookup BNG_pres_onTheFly_last_biconsonant { # Replace last consonant
     # sub tha
     sub [n-beng.half2 m-beng.half2 s-beng.half2] tha-beng' by tha-beng.blws;
     # sub dha
-    sub n-beng.headline aaMatra-beng.part n-beng.float dha-beng' by baphala-beng.alt4 dha-beng.part;
+
+    #TESTING FIGMA ISSUE - ORIGINAL CODE
+    #sub n-beng.headline aaMatra-beng.part n-beng.float dha-beng' by baphala-beng.alt4 dha-beng.part;
+    #TESTING FIGMA ISSUE -  NEW
+    sub n-beng.headline dha-beng' by aaMatra-beng.part n-beng.float baphala-beng.alt4 dha-beng.part;
+    sub n-beng.headline dh_ba-beng.blws' by aaMatra-beng.part n-beng.float dh_ba-beng.blws;
+
     sub [g-beng.half d-beng.half3 b-beng.half2 l-beng.half3] dha-beng' by baphala-beng.alt4 dha-beng.part;
     # sub na
     sub [k-beng.half b-beng.half gh-beng.half d-beng.half3 dh-beng.half] na-beng' by na-beng.blws;
-    sub n-beng.headline aaMatra-beng.part n-beng.float na-beng' by na-beng.blws1;
+
+#   TESTING FIGMA ISSUE - ORIGINAL CODE
+    # sub n-beng.headline aaMatra-beng.part n-beng.float na-beng' by na-beng.blws1;
+    #TESTING FIGMA ISSUE - NEW
+    sub n-beng.headline na-beng' by aaMatra-beng.part n-beng.float na-beng.blws1;
+
     sub [g-beng.half nn-beng.half p-beng.half sh-beng.half] na-beng' by na-beng.blws1;
     sub [c-beng.half2 t-beng.half] na-beng' by na-beng.blws2;
     sub [m-beng.half2 s-beng.half2] na-beng' by na-beng.blws3;
@@ -884,7 +903,12 @@ lookup BNG_pres_onTheFly_last_biconsonant { # Replace last consonant
     sub [m-beng.half ss-beng.half4 s-beng.half] pha-beng' by pha-beng.side;
     # sub ma
     sub [g-beng.half nn-beng.half p-beng.half l-beng.half3 sh-beng.half] ma-beng' by ma-beng.side;
-    sub [n-beng.headline] aaMatra-beng.part n-beng.float ma-beng' by ma-beng.side;
+
+    #   TESTING FIGMA ISSUE - ORIGINAL CODE
+    #sub [n-beng.headline] aaMatra-beng.part n-beng.float ma-beng' by ma-beng.side;
+    #TESTING FIGMA ISSUE - NEW
+    sub n-beng.headline ma-beng' by aaMatra-beng.part n-beng.float ma-beng.side;
+
     sub [ng-beng.half2 dd-beng.half1 ddh-beng.half t-beng.half] ma-beng' by ma-beng.side1;
     sub [m-beng.half ss-beng.half4 s-beng.half] ma-beng' by ma-beng.side2;
     sub [d-beng.half dh-beng.half] ma-beng' by ma-beng.side3;
@@ -895,8 +919,14 @@ lookup BNG_pres_onTheFly_last_biconsonant { # Replace last consonant
     sub [m-beng.half2 l-beng.half3 s-beng.half2] la-beng' by la-beng.blws2;
     sub [t-beng.half] la-beng' by la-beng.blws3;
     # sub ba
-    sub n-beng.headline aaMatra-beng.part n-beng.float @BNG_BA' by baphala-beng.alt4;
-    sub l-beng.half3 aaMatra-beng.part @BNG_BA' by baphala-beng.alt4;
+#   TESTING FIGMA ISSUE - ORIGINAL CODE
+#    sub n-beng.headline aaMatra-beng.part n-beng.float @BNG_BA' by baphala-beng.alt4;
+    #TESTING FIGMA ISSUE - NEW
+    sub n-beng.headline @BNG_BA' by aaMatra-beng.part n-beng.float baphala-beng.alt4;
+#   TESTING FIGMA ISSUE - ORIGINAL CODE
+    # sub l-beng.half3 aaMatra-beng.part @BNG_BA' by baphala-beng.alt4;
+    #TESTING FIGMA ISSUE - NEW
+    sub l-beng.half3 @BNG_BA' by aaMatra-beng.part baphala-beng.alt4;
 } BNG_pres_onTheFly_last_biconsonant;
 
 
@@ -1022,10 +1052,18 @@ lookup BNG_pres_addHeadlineStem { # Adding these at the end to avoid having to a
     sub [g-beng.half nn-beng.half sh-beng.half] ma-beng.side' by ma-beng.side aaMatra-beng.side;
     sub [g-beng.half] dh_ba-beng.blws' by aaMatra-beng.side dh_ba-beng.blws;
     sub j-beng.half baphala-beng.alt3 jha-beng.part' by jha-beng.part aaMatra-beng.float;
-    sub l-beng.half3' [ma-beng.side la-beng.blws2] by l-beng.half3 aaMatra-beng.part;
-    sub l-beng.half3' baphala-beng.alt4 [ka-beng.part dha-beng.part] by l-beng.half3 aaMatra-beng.part;
-    sub l-beng.half3' [ga-beng.blws pa-beng.blws] by l-beng.half3 aaMatra-beng.part2;
-    sub l-beng.half3' t_ra-beng.blws by l-beng.half3 aaMatra-beng.part.short;
+    #TESTING FIGMA ISSUE - ORIGINAL CODE
+    # sub l-beng.half3' [ma-beng.side la-beng.blws2] by l-beng.half3 aaMatra-beng.part;
+    # sub l-beng.half3' baphala-beng.alt4 [ka-beng.part dha-beng.part] by l-beng.half3 aaMatra-beng.part;
+    # sub l-beng.half3' [ga-beng.blws pa-beng.blws] by l-beng.half3 aaMatra-beng.part2;
+    # sub l-beng.half3' t_ra-beng.blws by l-beng.half3 aaMatra-beng.part.short;
+    #TESTING FIGMA ISSUE - NEW
+    sub l-beng.half3 ma-beng.side' by aaMatra-beng.part ma-beng.side;
+    sub l-beng.half3 la-beng.blws2' by aaMatra-beng.part la-beng.blws2;
+    sub l-beng.half3 baphala-beng.alt4' [ka-beng.part dha-beng.part] by aaMatra-beng.part baphala-beng.alt4;
+    sub l-beng.half3 ga-beng.blws' by aaMatra-beng.part2 ga-beng.blws;
+    sub l-beng.half3 pa-beng.blws' by aaMatra-beng.part2 pa-beng.blws;
+    sub l-beng.half3 t_ra-beng.blws' by aaMatra-beng.part.short t_ra-beng.blws;
 } BNG_pres_addHeadlineStem;
 
 
@@ -1044,9 +1082,13 @@ lookup BNG_pres_onTheFly_halfDecomp2 {
     # Add floating Na
     sub n-beng.headline [ddha-beng.side ddh-beng.side ttha-beng.side dda-beng.side da-beng d-beng.half d-beng.half2 d-beng.half3]' by [ddha-beng.side ddh-beng.side ttha-beng.side dda-beng.side da-beng d-beng.half d-beng.half2 d-beng.half3] n-beng.float;
     # Add floating Na + Stem
-    sub n-beng.headline' baphala-beng.alt4 ka-beng.part by n-beng.headline aaMatra-beng.part n-beng.float headline-beng.130;
-    sub n-beng.headline' [na-beng.blws1 baphala-beng.alt4 ma-beng.side dh_ba-beng.blws] by n-beng.headline aaMatra-beng.part n-beng.float;
-    sub n-beng.headline' [ta_uMatra-beng.blws] by n-beng.headline aaMatra-beng.part.short n-beng.float;
+    #TESTING FIGMA CODE - ORIGINAL CODE
+    # sub n-beng.headline' baphala-beng.alt4 ka-beng.part by n-beng.headline aaMatra-beng.part n-beng.float headline-beng.130;
+    # sub n-beng.headline' [na-beng.blws1 baphala-beng.alt4 ma-beng.side dh_ba-beng.blws] by n-beng.headline aaMatra-beng.part n-beng.float;
+    # sub n-beng.headline' [ta_uMatra-beng.blws] by n-beng.headline aaMatra-beng.part.short n-beng.float;
+    #TESTING FIGMA CODE - NEW
+    sub n-beng.headline baphala-beng.alt4' ka-beng.part by aaMatra-beng.part n-beng.float headline-beng.130 baphala-beng.alt4;
+    sub n-beng.headline ta_uMatra-beng.blws' by aaMatra-beng.part.short n-beng.float ta_uMatra-beng.blws;
 } BNG_pres_onTheFly_halfDecomp2;
 
 
