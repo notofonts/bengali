@@ -287,7 +287,7 @@ pos = (282,120);
 },
 {
 name = bottom;
-pos = (282,-163);
+pos = (282,-153);
 },
 {
 name = bottomPart;

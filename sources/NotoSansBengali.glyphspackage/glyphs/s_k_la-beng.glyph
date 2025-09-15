@@ -97,7 +97,7 @@ pos = (495,0);
 ref = "headline-beng.250";
 },
 {
-pos = (56,-214);
+pos = (56,-209);
 ref = "la-beng.blws";
 }
 );
@@ -147,7 +147,7 @@ pos = (507,0);
 ref = "headline-beng.250";
 },
 {
-pos = (40,-209);
+pos = (40,-199);
 ref = "la-beng.blws";
 }
 );
