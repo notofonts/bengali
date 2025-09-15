@@ -1,5 +1,5 @@
 {
-.appVersion = "3343";
+.appVersion = "3309";
 .formatVersion = 3;
 axes = (
 {
@@ -547,7 +547,7 @@ familyName = "Noto Sans Bengali";
 featurePrefixes = (
 {
 code = "# link modified after the change to .glyphspackage. Glyphs3 marks an error, but this is the correct path for fontmake.
-include(features/NotoSansBengali.fea);
+include(../features/NotoSansBengali.fea);
 ";
 name = Include;
 }
@@ -6471,6 +6471,9 @@ UUID0 = {
 "@MMK_L_R_BNG_t_ra" = {
 "@MMK_R_L_BNG_uMatra_side" = -10;
 };
+"@MMK_L_R_BNG_taKhanda" = {
+"@MMK_R_L_BNG_yyRa" = 10;
+};
 "@MMK_L_R_BNG_uni1CE1" = {
 "@MMK_R_L_BNG_aiMatra" = 70;
 };
@@ -6720,6 +6723,9 @@ UUID0 = {
 };
 "@MMK_L_R_BNG_t_ra" = {
 "@MMK_R_L_BNG_uMatra_side" = -7;
+};
+"@MMK_L_R_BNG_taKhanda" = {
+"@MMK_R_L_BNG_yyRa" = 20;
 };
 "@MMK_L_R_BNG_uni1CE1" = {
 "@MMK_R_L_BNG_aiMatra" = 54;
