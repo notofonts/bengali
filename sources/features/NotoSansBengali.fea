@@ -118,6 +118,52 @@ languagesystem bng2 PAL;
 # Lookups
 # --------
 
+# ccmp
+
+# locl
+
+# nukt
+# Chain Contextual Sub Lookups
+
+lookup BNG_nukt_swapNuktaHalant {
+    lookupflag 0;
+    sub halant-beng by nukta-beng;
+    sub nukta-beng by halant-beng;
+} BNG_nukt_swapNuktaHalant;
+
+
+
+# akhn
+
+# rphf
+
+# blwf
+
+# half
+
+# rlig
+feature rlig {
+
+script bng2;
+
+lookup BNG_rlig_KLaStep1 {
+    sub na-beng uMatra-beng k-beng.half la-beng' by la-beng dummymarkbeng;
+} BNG_rlig_KLaStep1;
+
+lookup BNG_rlig_KLaStep2 {
+    sub k-beng.half la-beng dummymarkbeng by k_la-beng.alt;
+} BNG_rlig_KLaStep2;
+
+} rlig;
+
+# pstf
+
+# vatu
+
+# cjct
+
+# init
+
 # pres
 
 # Start Chaining Contextual Substitution Lookups
