@@ -491,7 +491,8 @@ script bng2;
 
 lookup BNG_bng2_pstf_yaphala {
     lookupflag 0;
-    sub halant-beng ya-beng by ya-beng.pstf;
+    ignore sub halant-beng' ya-beng' nukta-beng;
+    sub halant-beng' ya-beng' by ya-beng.pstf;
 } BNG_bng2_pstf_yaphala ;
 
 language PAL;
