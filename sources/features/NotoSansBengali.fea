@@ -784,7 +784,7 @@ lookup BNG_pres_onTheFly_halfDecomp { # Half and side form decomposition (contex
     lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng ka-beng.arm1];
     # Decompose ka into baphala + arm
     sub k-beng.half' ka-beng by b-beng.half2 ka-beng.arm1;
-    sub s-beng.half k-beng.half' by baphala-beng.alt4 ka-beng.part;
+    #sub s-beng.half k-beng.half' by baphala-beng.alt4 ka-beng.part;
     sub [ss-beng.half3 s-beng.half2] ka-beng' raphala-beng by ka-beng ka-beng.arm2;
     # Decompose jha into baphala + part
     sub b-beng.half2 jha-beng' by baphala-beng.alt4 jha-beng.part aaMatra-beng.side2;
@@ -890,7 +890,9 @@ lookup BNG_pres_onTheFly_last_biconsonant { # Replace last consonant
     sub [d-beng.half dh-beng.half] ma-beng' by ma-beng.side3;
     # sub la
     sub [k-beng.half b-beng.half gh-beng.half ph-beng.half b-beng.half h-beng.half2] la-beng' by la-beng.blws;
-    sub s-beng.half baphala-beng.alt4 ka-beng.part la-beng' by la-beng.blws;
+    #TEST
+    #sub s-beng.half baphala-beng.alt4 ka-beng.part la-beng' by la-beng.blws;
+    sub s-beng.half k-beng.half la-beng' by la-beng.blws;
     sub [g-beng.half bh-beng.half sh-beng.half p-beng.half] la-beng' by la-beng.blws1;
     sub [m-beng.half2 l-beng.half3 s-beng.half2] la-beng' by la-beng.blws2;
     sub [t-beng.half] la-beng' by la-beng.blws3;
@@ -976,6 +978,22 @@ lookup BNG_pres_onTheFly_raphalaAlts{ # Replace raphala alternates
     sub [gh-beng.half b-beng.half jh-beng.half dh-beng.half ph-beng.half y-beng.half ss-beng.half] raphala-beng' by raphala-beng.alt14;
 } BNG_pres_onTheFly_raphalaAlts;
 
+# add extra glyph to string after the marks
+
+lookup BNG_pres_onTheFly_halfDecomp2 {
+    lookupflag UseMarkFilteringSet [@BNG_VATTUS n-beng.float ka-beng.arm ka-beng.arm2 headline-beng.200 headline-beng.130 ka-beng.part];
+    sub k-beng.half' baphala-beng.alt4 by b-beng.half2 ka-beng.arm;
+    sub k-beng.half' ka-beng.arm2 by t_ra-beng headline-beng.200;
+    # Add floating Na
+    sub n-beng.headline [ddha-beng.side ddh-beng.side ttha-beng.side dda-beng.side da-beng d-beng.half d-beng.half2 d-beng.half3]' by [ddha-beng.side ddh-beng.side ttha-beng.side dda-beng.side da-beng d-beng.half d-beng.half2 d-beng.half3] n-beng.float;
+    # Add floating Na + Stem
+    sub n-beng.headline' baphala-beng.alt4 ka-beng.part by n-beng.headline aaMatra-beng.part n-beng.float headline-beng.130;
+    sub n-beng.headline' [na-beng.blws1 baphala-beng.alt4 ma-beng.side dh_ba-beng.blws] by n-beng.headline aaMatra-beng.part n-beng.float;
+    sub n-beng.headline' [ta_uMatra-beng.blws] by n-beng.headline aaMatra-beng.part.short n-beng.float;
+    sub s-beng.half k-beng.half' la-beng.blws by baphala-beng.alt4 ka-beng.part;
+} BNG_pres_onTheFly_halfDecomp2;
+
+
 lookup BNG_pres_addHeadlineStem { # Adding these at the end to avoid having to add them as context
     lookupflag 0;
     # ADD STEM + HEADLINE
@@ -1033,21 +1051,6 @@ lookup BNG_pres_onTheFly_nukta { # Swap nukta
     lookupflag 0;
     sub dd-beng.half nukta-beng' baphala-beng.alt2 by nukta-beng.alt;
 } BNG_pres_onTheFly_nukta;
-
-
-# add extra glyph to string after the marks
-
-lookup BNG_pres_onTheFly_halfDecomp2 {
-    lookupflag UseMarkFilteringSet [@BNG_VATTUS n-beng.float ka-beng.arm ka-beng.arm2 headline-beng.200 headline-beng.130 ka-beng.part];
-    sub k-beng.half' baphala-beng.alt4 by b-beng.half2 ka-beng.arm;
-    sub k-beng.half' ka-beng.arm2 by t_ra-beng headline-beng.200;
-    # Add floating Na
-    sub n-beng.headline [ddha-beng.side ddh-beng.side ttha-beng.side dda-beng.side da-beng d-beng.half d-beng.half2 d-beng.half3]' by [ddha-beng.side ddh-beng.side ttha-beng.side dda-beng.side da-beng d-beng.half d-beng.half2 d-beng.half3] n-beng.float;
-    # Add floating Na + Stem
-    sub n-beng.headline' baphala-beng.alt4 ka-beng.part by n-beng.headline aaMatra-beng.part n-beng.float headline-beng.130;
-    sub n-beng.headline' [na-beng.blws1 baphala-beng.alt4 ma-beng.side dh_ba-beng.blws] by n-beng.headline aaMatra-beng.part n-beng.float;
-    sub n-beng.headline' [ta_uMatra-beng.blws] by n-beng.headline aaMatra-beng.part.short n-beng.float;
-} BNG_pres_onTheFly_halfDecomp2;
 
 
 
