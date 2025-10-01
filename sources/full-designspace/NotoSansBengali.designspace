@@ -1,0 +1,1681 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400">
+      <map input="100" output="20"/>
+      <map input="200" output="32"/>
+      <map input="300" output="58"/>
+      <map input="400" output="90"/>
+      <map input="500" output="108"/>
+      <map input="600" output="128"/>
+      <map input="700" output="151"/>
+      <map input="800" output="169"/>
+      <map input="900" output="178"/>
+    </axis>
+    <axis tag="wdth" name="Width" minimum="62.5" maximum="100" default="100"/>
+  </axes>
+  <sources>
+    <source filename="NotoSansBengali-Thin.ufo.json" name="Noto Sans Bengali Thin" familyname="Noto Sans Bengali" stylename="Thin">
+      <location>
+        <dimension name="Weight" xvalue="20"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSansBengali-Regular.ufo.json" name="Noto Sans Bengali Regular" familyname="Noto Sans Bengali" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSansBengali-Regular.ufo.json" name="Noto Sans Bengali Regular {151, 100}" layer="{151, 100}">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSansBengali-Black.ufo.json" name="Noto Sans Bengali Black" familyname="Noto Sans Bengali" stylename="Black">
+      <location>
+        <dimension name="Weight" xvalue="178"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSansBengali-CondensedThin.ufo.json" name="Noto Sans Bengali Condensed Thin" familyname="Noto Sans Bengali" stylename="Condensed Thin">
+      <location>
+        <dimension name="Weight" xvalue="20"/>
+        <dimension name="Width" xvalue="62.5"/>
+      </location>
+    </source>
+    <source filename="NotoSansBengali-CondensedRegular.ufo.json" name="Noto Sans Bengali Condensed Regular" familyname="Noto Sans Bengali" stylename="Condensed Regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="62.5"/>
+      </location>
+    </source>
+    <source filename="NotoSansBengali-CondensedBlack.ufo.json" name="Noto Sans Bengali Condensed Black" familyname="Noto Sans Bengali" stylename="Condensed Black">
+      <location>
+        <dimension name="Weight" xvalue="178"/>
+        <dimension name="Width" xvalue="62.5"/>
+      </location>
+    </source>
+  </sources>
+  <variable-fonts>
+    <variable-font name="Regular" filename="NotoSansBengaliVF">
+      <axis-subsets>
+        <axis-subset name="Weight"/>
+        <axis-subset name="Width"/>
+      </axis-subsets>
+    </variable-font>
+  </variable-fonts>
+  <instances>
+    <instance name="Noto Sans Bengali Thin" familyname="Noto Sans Bengali" stylename="Thin" filename="NotoSansBengali-Thin.ufo" stylemapfamilyname="Noto Sans Bengali Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="20"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </instance>
+    <instance name="Noto Sans Bengali ExtraLight" familyname="Noto Sans Bengali" stylename="ExtraLight" filename="NotoSansBengali-ExtraLight.ufo" stylemapfamilyname="Noto Sans Bengali ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="32"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>3</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali Light" familyname="Noto Sans Bengali" stylename="Light" filename="NotoSansBengali-Light.ufo" stylemapfamilyname="Noto Sans Bengali Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="58"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali Regular" familyname="Noto Sans Bengali" stylename="Regular" filename="NotoSansBengali-Regular.ufo" stylemapfamilyname="Noto Sans Bengali" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali Medium" familyname="Noto Sans Bengali" stylename="Medium" filename="NotoSansBengali-Medium.ufo" stylemapfamilyname="Noto Sans Bengali Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="108"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali SemiBold" familyname="Noto Sans Bengali" stylename="SemiBold" filename="NotoSansBengali-SemiBold.ufo" stylemapfamilyname="Noto Sans Bengali SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>7</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali Bold" familyname="Noto Sans Bengali" stylename="Bold" filename="NotoSansBengali-Bold.ufo" stylemapfamilyname="Noto Sans Bengali" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>8</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali ExtraBold" familyname="Noto Sans Bengali" stylename="ExtraBold" filename="NotoSansBengali-ExtraBold.ufo" stylemapfamilyname="Noto Sans Bengali ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="169"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>9</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali Black" familyname="Noto Sans Bengali" stylename="Black" filename="NotoSansBengali-Black.ufo" stylemapfamilyname="Noto Sans Bengali Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="178"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>10</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali SemiCondensed Thin" familyname="Noto Sans Bengali" stylename="SemiCondensed Thin" filename="NotoSansBengali-SemiCondensedThin.ufo" stylemapfamilyname="Noto Sans Bengali SemiCondensed Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="20"/>
+        <dimension name="Width" xvalue="87"/>
+      </location>
+    </instance>
+    <instance name="Noto Sans Bengali SemiCondensed ExtraLight" familyname="Noto Sans Bengali" stylename="SemiCondensed ExtraLight" filename="NotoSansBengali-SemiCondensedExtraLight.ufo" stylemapfamilyname="Noto Sans Bengali SemiCondensed ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="32"/>
+        <dimension name="Width" xvalue="87"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>3</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali SemiCondensed Light" familyname="Noto Sans Bengali" stylename="SemiCondensed Light" filename="NotoSansBengali-SemiCondensedLight.ufo" stylemapfamilyname="Noto Sans Bengali SemiCondensed Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="58"/>
+        <dimension name="Width" xvalue="87"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali SemiCondensed" familyname="Noto Sans Bengali" stylename="SemiCondensed" filename="NotoSansBengali-SemiCondensed.ufo" stylemapfamilyname="Noto Sans Bengali SemiCondensed" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="87"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali SemiCondensed Medium" familyname="Noto Sans Bengali" stylename="SemiCondensed Medium" filename="NotoSansBengali-SemiCondensedMedium.ufo" stylemapfamilyname="Noto Sans Bengali SemiCondensed Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="108"/>
+        <dimension name="Width" xvalue="87"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali SemiCondensed SemiBold" familyname="Noto Sans Bengali" stylename="SemiCondensed SemiBold" filename="NotoSansBengali-SemiCondensedSemiBold.ufo" stylemapfamilyname="Noto Sans Bengali SemiCondensed SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+        <dimension name="Width" xvalue="87"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>7</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali SemiCondensed Bold" familyname="Noto Sans Bengali" stylename="SemiCondensed Bold" filename="NotoSansBengali-SemiCondensedBold.ufo" stylemapfamilyname="Noto Sans Bengali SemiCondensed" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="87"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>8</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali SemiCondensed ExtraBold" familyname="Noto Sans Bengali" stylename="SemiCondensed ExtraBold" filename="NotoSansBengali-SemiCondensedExtraBold.ufo" stylemapfamilyname="Noto Sans Bengali SemiCondensed ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="169"/>
+        <dimension name="Width" xvalue="87"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>9</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali SemiCondensed Black" familyname="Noto Sans Bengali" stylename="SemiCondensed Black" filename="NotoSansBengali-SemiCondensedBlack.ufo" stylemapfamilyname="Noto Sans Bengali SemiCondensed Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="178"/>
+        <dimension name="Width" xvalue="87"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>10</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali Condensed Thin" familyname="Noto Sans Bengali" stylename="Condensed Thin" filename="NotoSansBengali-CondensedThin.ufo" stylemapfamilyname="Noto Sans Bengali Condensed Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="20"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </instance>
+    <instance name="Noto Sans Bengali Condensed ExtraLight" familyname="Noto Sans Bengali" stylename="Condensed ExtraLight" filename="NotoSansBengali-CondensedExtraLight.ufo" stylemapfamilyname="Noto Sans Bengali Condensed ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="32"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>3</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali Condensed Light" familyname="Noto Sans Bengali" stylename="Condensed Light" filename="NotoSansBengali-CondensedLight.ufo" stylemapfamilyname="Noto Sans Bengali Condensed Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="58"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali Condensed" familyname="Noto Sans Bengali" stylename="Condensed" filename="NotoSansBengali-Condensed.ufo" stylemapfamilyname="Noto Sans Bengali Condensed" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali Condensed Medium" familyname="Noto Sans Bengali" stylename="Condensed Medium" filename="NotoSansBengali-CondensedMedium.ufo" stylemapfamilyname="Noto Sans Bengali Condensed Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="108"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali Condensed SemiBold" familyname="Noto Sans Bengali" stylename="Condensed SemiBold" filename="NotoSansBengali-CondensedSemiBold.ufo" stylemapfamilyname="Noto Sans Bengali Condensed SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>7</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali Condensed Bold" familyname="Noto Sans Bengali" stylename="Condensed Bold" filename="NotoSansBengali-CondensedBold.ufo" stylemapfamilyname="Noto Sans Bengali Condensed" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>8</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali Condensed ExtraBold" familyname="Noto Sans Bengali" stylename="Condensed ExtraBold" filename="NotoSansBengali-CondensedExtraBold.ufo" stylemapfamilyname="Noto Sans Bengali Condensed ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="169"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>9</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali Condensed Black" familyname="Noto Sans Bengali" stylename="Condensed Black" filename="NotoSansBengali-CondensedBlack.ufo" stylemapfamilyname="Noto Sans Bengali Condensed Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="178"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>10</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali ExtraCondensed Thin" familyname="Noto Sans Bengali" stylename="ExtraCondensed Thin" filename="NotoSansBengali-ExtraCondensedThin.ufo" stylemapfamilyname="Noto Sans Bengali ExtraCondensed Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="20"/>
+        <dimension name="Width" xvalue="63"/>
+      </location>
+    </instance>
+    <instance name="Noto Sans Bengali ExtraCondensed ExtraLight" familyname="Noto Sans Bengali" stylename="ExtraCondensed ExtraLight" filename="NotoSansBengali-ExtraCondensedExtraLight.ufo" stylemapfamilyname="Noto Sans Bengali ExtraCondensed ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="32"/>
+        <dimension name="Width" xvalue="63"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>3</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali ExtraCondensed Light" familyname="Noto Sans Bengali" stylename="ExtraCondensed Light" filename="NotoSansBengali-ExtraCondensedLight.ufo" stylemapfamilyname="Noto Sans Bengali ExtraCondensed Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="58"/>
+        <dimension name="Width" xvalue="63"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali ExtraCondensed" familyname="Noto Sans Bengali" stylename="ExtraCondensed" filename="NotoSansBengali-ExtraCondensed.ufo" stylemapfamilyname="Noto Sans Bengali ExtraCondensed" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="63"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali ExtraCondensed Medium" familyname="Noto Sans Bengali" stylename="ExtraCondensed Medium" filename="NotoSansBengali-ExtraCondensedMedium.ufo" stylemapfamilyname="Noto Sans Bengali ExtraCondensed Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="108"/>
+        <dimension name="Width" xvalue="63"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali ExtraCondensed SemiBold" familyname="Noto Sans Bengali" stylename="ExtraCondensed SemiBold" filename="NotoSansBengali-ExtraCondensedSemiBold.ufo" stylemapfamilyname="Noto Sans Bengali ExtraCondensed SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+        <dimension name="Width" xvalue="63"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>7</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali ExtraCondensed Bold" familyname="Noto Sans Bengali" stylename="ExtraCondensed Bold" filename="NotoSansBengali-ExtraCondensedBold.ufo" stylemapfamilyname="Noto Sans Bengali ExtraCondensed" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="63"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>8</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali ExtraCondensed ExtraBold" familyname="Noto Sans Bengali" stylename="ExtraCondensed ExtraBold" filename="NotoSansBengali-ExtraCondensedExtraBold.ufo" stylemapfamilyname="Noto Sans Bengali ExtraCondensed ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="169"/>
+        <dimension name="Width" xvalue="63"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>9</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Bengali ExtraCondensed Black" familyname="Noto Sans Bengali" stylename="ExtraCondensed Black" filename="NotoSansBengali-ExtraCondensedBlack.ufo" stylemapfamilyname="Noto Sans Bengali ExtraCondensed Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="178"/>
+        <dimension name="Width" xvalue="63"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>10</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDontShowVersionAlert</key>
+      <integer>1</integer>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>_smart-iMatra-beng</string>
+        <string>_smart-iMatra-beng.001</string>
+        <string>_smart-raphala-beng</string>
+        <string>_smart-raphala-beng.002</string>
+        <string>_smart-raphala-beng.003</string>
+        <string>_smart-raphala-beng.004</string>
+        <string>b_ba-beng</string>
+        <string>b_dha-beng</string>
+        <string>b_jha-beng</string>
+        <string>b_la-beng</string>
+        <string>b_ra-beng</string>
+        <string>b_ra_uMatra-beng</string>
+        <string>b_ra_uuMatra-beng</string>
+        <string>b_wa-beng</string>
+        <string>bh_ba-beng</string>
+        <string>bh_la-beng</string>
+        <string>bh_ra-beng</string>
+        <string>bh_ra_uMatra-beng</string>
+        <string>bh_ra_uuMatra-beng</string>
+        <string>bh_wa-beng</string>
+        <string>bha_nukta-beng</string>
+        <string>c_ba-beng</string>
+        <string>c_ca-beng</string>
+        <string>c_ch_ba-beng</string>
+        <string>c_ch_ra-beng</string>
+        <string>c_ch_wa-beng</string>
+        <string>c_cha-beng</string>
+        <string>c_na-beng</string>
+        <string>c_ra-beng</string>
+        <string>c_wa-beng</string>
+        <string>ca_nukta-beng</string>
+        <string>ch_ba-beng</string>
+        <string>ch_ra-beng</string>
+        <string>ch_wa-beng</string>
+        <string>cha_nukta-beng</string>
+        <string>d_ba-beng</string>
+        <string>d_d_ba-beng</string>
+        <string>d_d_ra-beng</string>
+        <string>d_d_wa-beng</string>
+        <string>d_dh_b_ra-beng</string>
+        <string>d_dh_ba-beng</string>
+        <string>d_dh_wa-beng</string>
+        <string>d_dha-beng</string>
+        <string>d_ga-beng</string>
+        <string>d_gha-beng</string>
+        <string>d_ma-beng</string>
+        <string>d_na-beng</string>
+        <string>d_ra-beng</string>
+        <string>d_ra_uMatra-beng</string>
+        <string>d_ra_uuMatra-beng</string>
+        <string>d_wa-beng</string>
+        <string>da_nukta-beng</string>
+        <string>dd_ba-beng</string>
+        <string>dd_ga-beng</string>
+        <string>dd_ma-beng</string>
+        <string>dd_ra-beng</string>
+        <string>dd_wa-beng</string>
+        <string>ddh_ba-beng</string>
+        <string>ddh_ra-beng</string>
+        <string>ddh_wa-beng</string>
+        <string>dh_ba-beng</string>
+        <string>dh_ma-beng</string>
+        <string>dh_na-beng</string>
+        <string>dh_ra-beng</string>
+        <string>dh_ra_uMatra-beng</string>
+        <string>dh_ra_uuMatra-beng</string>
+        <string>dh_wa-beng</string>
+        <string>dha_nukta-beng</string>
+        <string>dummymarkbeng</string>
+        <string>g_ba-beng</string>
+        <string>g_d_ra-beng</string>
+        <string>g_da-beng</string>
+        <string>g_dh_ba-beng</string>
+        <string>g_dh_ra-beng</string>
+        <string>g_dh_wa-beng</string>
+        <string>g_dha-beng</string>
+        <string>g_ga-beng</string>
+        <string>g_la-beng</string>
+        <string>g_ma-beng</string>
+        <string>g_na-beng</string>
+        <string>g_nna-beng</string>
+        <string>g_ra-beng</string>
+        <string>g_ra_uMatra-beng</string>
+        <string>g_ra_uuMatra-beng</string>
+        <string>g_wa-beng</string>
+        <string>ga_nukta-beng</string>
+        <string>gh_ba-beng</string>
+        <string>gh_la-beng</string>
+        <string>gh_na-beng</string>
+        <string>gh_ra-beng</string>
+        <string>gh_wa-beng</string>
+        <string>gha_nukta-beng</string>
+        <string>h_ba-beng</string>
+        <string>h_la-beng</string>
+        <string>h_na-beng</string>
+        <string>h_nna-beng</string>
+        <string>h_nna-beng.alt</string>
+        <string>h_ra-beng</string>
+        <string>h_wa-beng</string>
+        <string>ha_nukta-beng</string>
+        <string>ha_rVocalicMatra-beng</string>
+        <string>iMatra_k_tt_ra-beng</string>
+        <string>iMatra_k_tta-beng</string>
+        <string>iMatra_l_tt_ra-beng</string>
+        <string>iMatra_l_tta-beng</string>
+        <string>iMatra_n_tt_ra-beng</string>
+        <string>iMatra_n_tta-beng</string>
+        <string>iMatra_n_tth_ra-beng</string>
+        <string>iMatra_n_ttha-beng</string>
+        <string>iMatra_nn_tt_ra-beng</string>
+        <string>iMatra_nn_tta-beng</string>
+        <string>iMatra_nn_tth_ra-beng</string>
+        <string>iMatra_nn_ttha-beng</string>
+        <string>iMatra_p_tt_ra-beng</string>
+        <string>iMatra_p_tta-beng</string>
+        <string>iMatra_ph_tta-beng</string>
+        <string>iMatra_s_tt_ra-beng</string>
+        <string>iMatra_s_tta-beng</string>
+        <string>iMatra_sh_tta-beng</string>
+        <string>iMatra_ss_tt_ba-beng</string>
+        <string>iMatra_ss_tt_ra-beng</string>
+        <string>iMatra_ss_tta-beng</string>
+        <string>iMatra_ss_ttha-beng</string>
+        <string>iMatra_tt_ba-beng</string>
+        <string>iMatra_tt_ma-beng</string>
+        <string>iMatra_tt_ra-beng</string>
+        <string>iMatra_tt_tt_ra-beng</string>
+        <string>iMatra_tt_tta-beng</string>
+        <string>iMatra_tt_wa-beng</string>
+        <string>iMatra_tta-beng</string>
+        <string>iMatra_tth_ba-beng</string>
+        <string>iMatra_tth_ra-beng</string>
+        <string>iMatra_tth_wa-beng</string>
+        <string>iMatra_ttha-beng</string>
+        <string>iiMatra_l_tt_ra-beng</string>
+        <string>iiMatra_l_tta-beng</string>
+        <string>iiMatra_n_tt_ra-beng</string>
+        <string>iiMatra_n_tta-beng</string>
+        <string>iiMatra_n_tth_ra-beng</string>
+        <string>iiMatra_n_ttha-beng</string>
+        <string>iiMatra_nn_tt_ra</string>
+        <string>iiMatra_nn_tta-beng</string>
+        <string>iiMatra_nn_tth_ra-beng</string>
+        <string>iiMatra_nn_ttha-beng</string>
+        <string>iiMatra_p_tt_ra-beng</string>
+        <string>iiMatra_p_tta-beng</string>
+        <string>iiMatra_ph_tta-beng</string>
+        <string>iiMatra_ss_ttha-beng</string>
+        <string>iiMatra_tt_ra-beng</string>
+        <string>iiMatra_tt_wa-beng</string>
+        <string>iiMatra_tta-beng</string>
+        <string>iiMatra_tth_ba-beng</string>
+        <string>iiMatra_tth_ra-beng</string>
+        <string>iiMatra_tth_wa-beng</string>
+        <string>iiMatra_ttha-beng</string>
+        <string>j_ba-beng</string>
+        <string>j_j_wa-beng</string>
+        <string>j_jha-beng</string>
+        <string>j_ny_ba-beng</string>
+        <string>j_ny_ra-beng</string>
+        <string>j_ny_wa-beng</string>
+        <string>j_wa-beng</string>
+        <string>ja_nukta-beng</string>
+        <string>jh_ba-beng</string>
+        <string>jh_ra-beng</string>
+        <string>jh_wa-beng</string>
+        <string>jha_nukta-beng</string>
+        <string>k_ba-beng</string>
+        <string>k_ka-beng</string>
+        <string>k_la-beng</string>
+        <string>k_na-beng</string>
+        <string>k_ra-beng</string>
+        <string>k_ss_ba-beng</string>
+        <string>k_ss_nna-beng</string>
+        <string>k_ss_nna-beng.alt</string>
+        <string>k_ss_ra-beng</string>
+        <string>k_ss_wa-beng</string>
+        <string>k_t_ba-beng</string>
+        <string>k_t_ra-beng</string>
+        <string>k_t_wa-beng</string>
+        <string>k_ta-beng</string>
+        <string>k_tt_ra-beng</string>
+        <string>k_tta-beng</string>
+        <string>k_wa-beng</string>
+        <string>ka_nukta-beng</string>
+        <string>kh_ba-beng</string>
+        <string>kh_ra-beng</string>
+        <string>kh_wa-beng</string>
+        <string>kha_nukta-beng</string>
+        <string>l_ba-beng</string>
+        <string>l_d_ra-beng</string>
+        <string>l_da-beng</string>
+        <string>l_dd_ra-beng</string>
+        <string>l_dda-beng</string>
+        <string>l_ddh_ra-beng</string>
+        <string>l_ddha-beng</string>
+        <string>l_dha-beng</string>
+        <string>l_ga-beng</string>
+        <string>l_ka-beng</string>
+        <string>l_la-beng</string>
+        <string>l_ma-beng</string>
+        <string>l_pa-beng</string>
+        <string>l_ph_ra-beng</string>
+        <string>l_t_ra-beng</string>
+        <string>l_tt_ra-beng</string>
+        <string>l_tta-beng</string>
+        <string>l_wa-beng</string>
+        <string>la_nukta-beng</string>
+        <string>m_b_ra-beng</string>
+        <string>m_ba-beng</string>
+        <string>m_bha-beng</string>
+        <string>m_la-beng</string>
+        <string>m_ma-beng</string>
+        <string>m_na-beng</string>
+        <string>m_p_la-beng</string>
+        <string>m_p_ra-beng</string>
+        <string>m_pa-beng</string>
+        <string>m_ph_ra-beng</string>
+        <string>m_pha-beng</string>
+        <string>m_ra-beng</string>
+        <string>m_sa-beng</string>
+        <string>m_t_ba-beng</string>
+        <string>m_t_ra-beng</string>
+        <string>m_t_wa-beng</string>
+        <string>m_ta-beng</string>
+        <string>m_tha-beng</string>
+        <string>m_wa-beng</string>
+        <string>ma_nukta-beng</string>
+        <string>n_ba-beng</string>
+        <string>n_d_ba-beng</string>
+        <string>n_d_ra-beng</string>
+        <string>n_d_wa-beng</string>
+        <string>n_da-beng</string>
+        <string>n_dd_ra-beng</string>
+        <string>n_dda-beng</string>
+        <string>n_ddh_ra-beng</string>
+        <string>n_ddha-beng</string>
+        <string>n_dh_ba-beng</string>
+        <string>n_dh_ra-beng</string>
+        <string>n_dh_wa-beng</string>
+        <string>n_dha-beng</string>
+        <string>n_k_ta-beng</string>
+        <string>n_ka-beng</string>
+        <string>n_ma-beng</string>
+        <string>n_na-beng</string>
+        <string>n_s_ddh_ra-beng</string>
+        <string>n_s_ddha-beng</string>
+        <string>n_s_tt_ra-beng</string>
+        <string>n_s_tta-beng</string>
+        <string>n_s_tta-beng.002</string>
+        <string>n_t_ba-beng</string>
+        <string>n_t_ra-beng</string>
+        <string>n_t_wa-beng</string>
+        <string>n_ta-beng</string>
+        <string>n_ta_uMatra-beng</string>
+        <string>n_th_ra-beng</string>
+        <string>n_tha-beng</string>
+        <string>n_tt_ra-beng</string>
+        <string>n_tta-beng</string>
+        <string>n_tth_ra-beng</string>
+        <string>n_ttha-beng</string>
+        <string>n_wa-beng</string>
+        <string>na_nukta-beng</string>
+        <string>ng_ba-beng</string>
+        <string>ng_g_ra-beng</string>
+        <string>ng_gh_ra-beng</string>
+        <string>ng_gha-beng</string>
+        <string>ng_k_ra-beng</string>
+        <string>ng_k_ss_ra-beng</string>
+        <string>ng_k_ssa-beng</string>
+        <string>ng_kha-beng</string>
+        <string>ng_ma-beng</string>
+        <string>ng_ra-beng</string>
+        <string>ng_wa-beng</string>
+        <string>nga_nukta-beng</string>
+        <string>nn_ba-beng</string>
+        <string>nn_dd_ra-beng</string>
+        <string>nn_ddh_ra-beng</string>
+        <string>nn_ddha-beng</string>
+        <string>nn_ma-beng</string>
+        <string>nn_na-beng</string>
+        <string>nn_nna-beng</string>
+        <string>nn_ra-beng</string>
+        <string>nn_tt_ra-beng</string>
+        <string>nn_tta-beng</string>
+        <string>nn_tth_ra-beng</string>
+        <string>nn_ttha-beng</string>
+        <string>nn_wa-beng</string>
+        <string>nna_nukta-beng</string>
+        <string>ny_ba-beng</string>
+        <string>ny_jha-beng</string>
+        <string>ny_ra-beng</string>
+        <string>ny_wa-beng</string>
+        <string>nya_nukta-beng</string>
+        <string>p_ba-beng</string>
+        <string>p_ddh_ra-beng</string>
+        <string>p_ddha-beng</string>
+        <string>p_la-beng</string>
+        <string>p_ma-beng</string>
+        <string>p_na-beng</string>
+        <string>p_pa-beng</string>
+        <string>p_ra-beng</string>
+        <string>p_t_ra-beng</string>
+        <string>p_ta-beng</string>
+        <string>p_tt_ra-beng</string>
+        <string>p_tta-beng</string>
+        <string>p_wa-beng</string>
+        <string>pa_nukta-beng</string>
+        <string>ph_ba-beng</string>
+        <string>ph_la-beng</string>
+        <string>ph_ra-beng</string>
+        <string>ph_tta-beng</string>
+        <string>ph_wa-beng</string>
+        <string>pha_nukta-beng</string>
+        <string>ra_uMatra-beng</string>
+        <string>ra_uuMatra-beng</string>
+        <string>ralowerdiagonal_nukta-beng</string>
+        <string>ramiddlediagonal_nukta-beng</string>
+        <string>ramiddlediagonal_uMatra-beng</string>
+        <string>ramiddlediagonal_uuMatra-beng</string>
+        <string>rh_wa-beng</string>
+        <string>rr_ba-beng</string>
+        <string>rr_ga-beng</string>
+        <string>rr_wa-beng</string>
+        <string>s_ba-beng</string>
+        <string>s_ddh_ra-beng</string>
+        <string>s_ddha-beng</string>
+        <string>s_k_la-beng</string>
+        <string>s_k_ra-beng</string>
+        <string>s_ka-beng</string>
+        <string>s_la-beng</string>
+        <string>s_la-beng.alt</string>
+        <string>s_la_uMatra-beng</string>
+        <string>s_ma-beng</string>
+        <string>s_na-beng</string>
+        <string>s_p_la-beng</string>
+        <string>s_p_ra-beng</string>
+        <string>s_pa-beng</string>
+        <string>s_ph_ra-beng</string>
+        <string>s_pha-beng</string>
+        <string>s_ra-beng</string>
+        <string>s_ra_uMatra-beng</string>
+        <string>s_ra_uuMatra-beng</string>
+        <string>s_t_ba-beng</string>
+        <string>s_t_ra-beng</string>
+        <string>s_t_wa-beng</string>
+        <string>s_ta-beng</string>
+        <string>s_ta_uMatra-beng</string>
+        <string>s_tha-beng</string>
+        <string>s_tt_ra-beng</string>
+        <string>s_tta-beng</string>
+        <string>s_wa-beng</string>
+        <string>sa_nukta-beng</string>
+        <string>sh_ba-beng</string>
+        <string>sh_ca-beng</string>
+        <string>sh_cha-beng</string>
+        <string>sh_ddh_ra-beng</string>
+        <string>sh_ddha-beng</string>
+        <string>sh_la-beng</string>
+        <string>sh_ma-beng</string>
+        <string>sh_na-beng</string>
+        <string>sh_ra-beng</string>
+        <string>sh_ra_uMatra-beng</string>
+        <string>sh_ra_uuMatra-beng</string>
+        <string>sh_ta-beng</string>
+        <string>sh_tt_ra-beng</string>
+        <string>sh_tta-beng</string>
+        <string>sh_wa-beng</string>
+        <string>sha_nukta-beng</string>
+        <string>ss_ba-beng</string>
+        <string>ss_k_ra-beng</string>
+        <string>ss_ka-beng</string>
+        <string>ss_ma-beng</string>
+        <string>ss_p_la-beng</string>
+        <string>ss_p_ra-beng</string>
+        <string>ss_pa-beng</string>
+        <string>ss_ph_ra-beng</string>
+        <string>ss_pha-beng</string>
+        <string>ss_ra-beng</string>
+        <string>ss_tt_ba-beng</string>
+        <string>ss_tt_ba-beng_iiMatra</string>
+        <string>ss_tt_ra-beng</string>
+        <string>ss_tt_ra-beng_iiMatra</string>
+        <string>ss_tta-beng</string>
+        <string>ss_tta-beng_iiMatra</string>
+        <string>ss_tth_ra-beng</string>
+        <string>ss_ttha-beng</string>
+        <string>ss_wa-beng</string>
+        <string>ssa_nukta-beng</string>
+        <string>t_ba-beng</string>
+        <string>t_la-beng</string>
+        <string>t_ma-beng</string>
+        <string>t_na-beng</string>
+        <string>t_ra_uMatra-beng</string>
+        <string>t_ra_uuMatra-beng</string>
+        <string>t_t_ba-beng</string>
+        <string>t_t_wa-beng</string>
+        <string>t_th_ra-beng</string>
+        <string>t_wa-beng</string>
+        <string>ta_nukta-beng</string>
+        <string>th_ba-beng</string>
+        <string>th_ra-beng</string>
+        <string>th_ra_uMatra-beng</string>
+        <string>th_ra_uuMatra-beng</string>
+        <string>th_wa-beng</string>
+        <string>tha_nukta-beng</string>
+        <string>tt_ba-beng</string>
+        <string>tt_ma-beng</string>
+        <string>tt_ra-beng</string>
+        <string>tt_tt_ra-beng</string>
+        <string>tt_tta-beng</string>
+        <string>tt_wa-beng</string>
+        <string>tta_nukta-beng</string>
+        <string>tth_ba-beng</string>
+        <string>tth_ra-beng</string>
+        <string>tth_wa-beng</string>
+        <string>ttha_nukta-beng</string>
+        <string>y_ba-beng</string>
+        <string>y_ra-beng</string>
+        <string>y_wa-beng</string>
+        <string>yy_wa-beng</string>
+      </array>
+    </dict>
+  </lib>
+</designspace>

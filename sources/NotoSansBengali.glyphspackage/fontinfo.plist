@@ -6477,6 +6477,9 @@ UUID0 = {
 "@MMK_L_R_BNG_uni1CE1" = {
 "@MMK_R_L_BNG_aiMatra" = 70;
 };
+"da-beng" = {
+"k_la-beng" = 0;
+};
 };
 "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = {
 "@MMK_L_BNG_R_eMatra" = {
