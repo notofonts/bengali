@@ -134,6 +134,10 @@ name = nukta;
 pos = (230,28);
 },
 {
+name = nukta.alt;
+pos = (230,28);
+},
+{
 name = top_candrabindu;
 pos = (484,622);
 },
@@ -276,6 +280,10 @@ name = nukta;
 pos = (212,47);
 },
 {
+name = nukta.alt;
+pos = (212,47);
+},
+{
 name = top_candrabindu;
 pos = (465,607);
 },
@@ -291,7 +299,7 @@ name = bottom_mark;
 pos = (458,0);
 },
 {
-name = nukta;
+name = nukta.alt;
 pos = (212,47);
 },
 {
@@ -415,6 +423,10 @@ pos = (384,0);
 },
 {
 name = nukta;
+pos = (185,4);
+},
+{
+name = nukta.alt;
 pos = (185,4);
 },
 {
@@ -560,6 +572,10 @@ name = nukta;
 pos = (148,47);
 },
 {
+name = nukta.alt;
+pos = (148,47);
+},
+{
 name = top_candrabindu;
 pos = (323,607);
 },
@@ -702,6 +718,10 @@ name = nukta;
 pos = (160,31);
 },
 {
+name = nukta.alt;
+pos = (160,31);
+},
+{
 name = top_candrabindu;
 pos = (355,621);
 },
@@ -841,6 +861,10 @@ pos = (295,0);
 },
 {
 name = nukta;
+pos = (146,9);
+},
+{
+name = nukta.alt;
 pos = (146,9);
 },
 {

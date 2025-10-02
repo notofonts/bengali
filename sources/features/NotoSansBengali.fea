@@ -992,6 +992,7 @@ lookup BNG_pres_addHeadlineStem { # Adding these at the end to avoid having to a
 lookup BNG_pres_onTheFly_nukta { # Swap nukta
     lookupflag 0;
     sub dd-beng.half nukta-beng' baphala-beng.alt2 by nukta-beng.alt;
+    sub ya-beng nukta-beng' halant-beng by nukta-beng.alt;
 } BNG_pres_onTheFly_nukta;
 
 
