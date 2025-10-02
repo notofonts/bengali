@@ -42,7 +42,7 @@ languagesystem beng dflt;
 @BNG_PAL_BLWS_LOW = [ uMatra-beng.low uuMatra-beng.low];
 
 @BNG_BLWS_BASE_ALT2 = [ ja-beng da-beng rra-beng rha-beng ng_ga-beng j_ja-beng ny_ja-beng d_da-beng n_ja-beng b_ja-beng b_da-beng m_da-beng da-beng.side];
-@BNG_BLWS_ALT2 = [ uMatra-beng.alt uuMatra-beng.alt2];
+@BNG_BLWS_ALT2 = [ uMatra-beng.alt2 uuMatra-beng.alt2];
 
 @BNG_LARGE_BLWS = [ga-beng.blws nna-beng.blws1 dh_ba-beng.blws na-beng.blws1 baphala-beng.alt4 pa-beng.blws la-beng.blws1];
 @BNG_DIAGONAL_BLWS = [na-beng.blws la-beng.blws nna-beng.blws];
@@ -1273,7 +1273,7 @@ lookup BNG_blws_onTheFly_uMatraLiga{
     sub [n-beng.half3 s-beng.half3] ta-beng.blws' uMatra-beng' by ta_uMatra-beng.blws;
 } BNG_blws_onTheFly_uMatraLiga;
 
-@BNG_BLWS_VOWELS_ALL=[uMatra-beng uuMatra-beng rVocalicMatra-beng rrVocalicMatra-beng lVocalicMatra-beng llVocalicMatra-beng uMatra-beng.alt uMatra-beng.alt1 uMatra-beng.round uMatra-beng.low uuMatra-beng.alt uuMatra-beng.alt1 uuMatra-beng.alt2 uuMatra-beng.round uuMatra-beng.low rVocalicMatra-beng.alt rrVocalicMatra-beng.alt lVocalicMatra-beng.alt llVocalicMatra-beng.alt];
+@BNG_BLWS_VOWELS_ALL=[uMatra-beng uuMatra-beng rVocalicMatra-beng rrVocalicMatra-beng lVocalicMatra-beng llVocalicMatra-beng uMatra-beng.alt uMatra-beng.alt1 uMatra-beng.alt2 uMatra-beng.round uMatra-beng.low uuMatra-beng.alt uuMatra-beng.alt1 uuMatra-beng.alt2 uuMatra-beng.round uuMatra-beng.low rVocalicMatra-beng.alt rrVocalicMatra-beng.alt lVocalicMatra-beng.alt llVocalicMatra-beng.alt];
 
 lookup BNG_blws_vowelAlternates_nukta{
     lookupflag UseMarkFilteringSet [nukta-beng @BNG_BLWS_VOWELS_ALL];

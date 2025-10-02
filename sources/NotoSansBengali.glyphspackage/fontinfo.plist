@@ -414,6 +414,8 @@ question,
 "auLength-beng.long",
 "uMatra-beng.alt",
 "uMatra-beng.alt1",
+"uMatra-beng.alt2",
+"uMatra-beng.deep",
 "uMatra-beng.round",
 "uMatra-beng.low",
 "uuMatra-beng.alt",
@@ -421,6 +423,7 @@ question,
 "uuMatra-beng.alt2",
 "uuMatra-beng.round",
 "uuMatra-beng.low",
+"uuMatra-beng.deep",
 "rVocalicMatra-beng.alt",
 "rrVocalicMatra-beng.alt",
 "lVocalicMatra-beng.alt",
@@ -3778,11 +3781,6 @@ lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
 } BNG_dflt_abvm_vedicMatraShift_89;
 
 ";
-}
-);
-guides = (
-{
-pos = (447,-408);
 }
 );
 id = "F138D99C-4E28-42C5-9F3E-22494052B08F";
