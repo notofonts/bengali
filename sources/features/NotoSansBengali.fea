@@ -572,7 +572,7 @@ feature cjct {
 
 script bng2;
 lookup BNG_cjct_precomposedConjuncts {
-    lookupflag UseMarkFilteringSet [halant-beng @BNG_VATTUS nukta-beng];
+    lookupflag 0;
     ignore sub @BNG_ALL_HALFS @BNG_ALL_BASES' halant-beng' @BNG_ALL_BASES';
     ignore sub @BNG_ALL_BASES' halant-beng' @BNG_ALL_BASES' nukta-beng;
 # akhand
