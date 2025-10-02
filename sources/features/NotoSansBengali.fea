@@ -379,7 +379,20 @@ lookup BNG_half_onTheFly_triconsonant_middleHalf {
 lookup BNG_half_onTheFly_biconsonant_firstHalf {
     lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng];
     ignore sub @BNG_ALL_HALFS @BNG_ALL_CONJUNCT_BASES' halant-beng';
-
+    # ignore half-form formation before precomposed conjuncts
+    ignore sub @BNG_ALL_CONJUNCT_BASES' halant-beng' [ma-beng da-beng] halant-beng bha-beng raphala-beng;
+    # # ignore half-form formation before precomposed conjuncts
+    # ignore sub @BNG_ALL_BASES' halant-beng' b_ja-beng;
+    # ignore sub @BNG_ALL_BASES' halant-beng' ca-beng halant-beng nya-beng;
+    # ignore sub @BNG_ALL_BASES' halant-beng' dda-beng halant-beng dda-beng;
+    # ignore sub @BNG_ALL_BASES' halant-beng' nna-beng halant-beng dda-beng;
+    # ignore sub @BNG_ALL_BASES' halant-beng' ta-beng halant-beng [ta-beng tha-beng];
+    # ignore sub @BNG_ALL_BASES' halant-beng' da-beng halant-beng [da-beng bha-beng];
+    # ignore sub @BNG_ALL_BASES' halant-beng' na-beng halant-beng [ja-beng sa-beng];
+    # ignore sub @BNG_ALL_BASES' halant-beng' pa-beng halant-beng sa-beng;
+    # ignore sub @BNG_ALL_BASES' halant-beng' ma-beng halant-beng [da-beng bha-beng];
+    # ignore sub @BNG_ALL_BASES' halant-beng' la-beng halant-beng [gha-beng pha-beng bha-beng sa-beng ta-beng];
+    # ignore sub @BNG_ALL_BASES' halant-beng' pha-beng halant-beng ddha-beng;
     # sub ka
     sub ka-beng' halant-beng' [na-beng la-beng ka-beng] by k-beng.half;
     sub ka-beng' halant-beng' ta-beng by k-beng.half;
@@ -421,6 +434,7 @@ lookup BNG_half_onTheFly_biconsonant_firstHalf {
     sub na-beng' halant-beng' [ka-beng k-beng.half ttha-beng da-beng ta_uMatra-beng.blws dha-beng na-beng ma-beng] by n-beng.headline;
     sub na-beng' halant-beng' [tha-beng] by n-beng.half2;
     sub na-beng' halant-beng' ta-beng raphala-beng by n-beng.half2;
+    ignore sub [na-beng pa-beng ma-beng sha-beng sa-beng]' halant-beng' ta-beng halant-beng ta-beng raphala-beng;
     sub na-beng' halant-beng' [ta-beng] by n-beng.half3;
     # sub n_sa
     # sub pa
@@ -435,6 +449,7 @@ lookup BNG_half_onTheFly_biconsonant_firstHalf {
     # sub bha
     sub bha-beng' halant-beng' [la-beng] by bh-beng.half;
     # sub ma
+    ignore sub ma-beng' halant-beng' sa-beng raphala-beng;
     sub ma-beng' halant-beng' [pa-beng p-beng.half pha-beng ma-beng sa-beng] by m-beng.half;
     sub ma-beng' halant-beng' ta-beng raphala-beng by m-beng.half2;
     sub ma-beng' halant-beng' [tha-beng na-beng la-beng] by m-beng.half2;
@@ -508,17 +523,23 @@ feature vatu {
 script bng2;
 
 
-lookup BNG_vatu_raphala{
+lookup BNG_vatu_raphala_triconsonant{
     lookupflag 0;
 # triConsonant precomposed raphala conjuncts
+    ignore sub k-beng.half ta-beng' halant-beng' ta-beng' raphala-beng';
+    # TEST
+    #ignore sub g-beng.half ma-beng' halant-beng' bha-beng' raphala-beng';
     sub ta-beng' halant-beng' ta-beng' raphala-beng' by t_t_ra-beng;
     sub da-beng' halant-beng' bha-beng' raphala-beng' by d_bh_ra-beng;
     sub @BNG_BA' halant-beng' da-beng' raphala-beng' by b_d_ra-beng;
     sub @BNG_BA' halant-beng' bha-beng' raphala-beng' by b_bh_ra-beng;
     sub ma-beng' halant-beng' bha-beng' raphala-beng' by m_bh_ra-beng;
     sub ma-beng' halant-beng' da-beng' raphala-beng' by m_d_ra-beng;
+}BNG_vatu_raphala_triconsonant;
+
+lookup BNG_vatu_raphala_biconsonant{
+    lookupflag 0;
 # biConsonant Precomposed
-    ignore sub ka-beng halant-beng ta-beng' raphala-beng';
     ignore sub [@BNG_ALL_HALFS n-beng.headline] [na-beng la-beng ta-beng]' raphala-beng';
     ignore sub t_ta-beng ta-beng' raphala-beng';
     sub ja-beng' raphala-beng' by j_ra-beng;
@@ -528,8 +549,7 @@ lookup BNG_vatu_raphala{
     sub dda-beng' nukta-beng' raphala-beng' by rr_ra-beng;
     sub ddha-beng' nukta-beng' raphala-beng' by rh_ra-beng;
     sub ya-beng' nukta-beng' raphala-beng' by yy_ra-beng;
-
-}BNG_vatu_raphala;
+}BNG_vatu_raphala_biconsonant;
 
 
 lookup BNG_vatu_baConjuncts{
@@ -556,8 +576,9 @@ feature cjct {
 
 script bng2;
 lookup BNG_cjct_precomposedConjuncts {
-    lookupflag UseMarkFilteringSet [halant-beng @BNG_VATTUS];
+    lookupflag UseMarkFilteringSet [halant-beng @BNG_VATTUS nukta-beng];
     ignore sub @BNG_ALL_HALFS @BNG_ALL_BASES' halant-beng' @BNG_ALL_BASES';
+    ignore sub @BNG_ALL_BASES' halant-beng' @BNG_ALL_BASES' nukta-beng;
 # akhand
     sub k_ssa-beng' halant-beng' ma-beng' by k_ss_ma-beng;
 # biConsonant
@@ -747,7 +768,7 @@ lookup BNG_pres_onTheFly_triconsonant_double { # Replace second AND third conson
     # k_ra
     sub [ss-beng.half3 s-beng.half2] ka-beng' raphala-beng' by t_ra-beng.blws;
     # t_ra
-    sub [n-beng.half2 p-beng.half m-beng.half2 l-beng.half3 s-beng.half2] ta-beng' raphala-beng' by t_ra-beng.blws;
+    sub [n-beng.half2 p-beng.half m-beng.half2 l-beng.half3 s-beng.half2 sh-beng.half2] ta-beng' raphala-beng' by t_ra-beng.blws;
     # dh_ba
     sub [g-beng.half d-beng.half3 n-beng.headline] dha-beng' baphala-beng' by dh_ba-beng.blws;
 } BNG_pres_onTheFly_triconsonant_double;
