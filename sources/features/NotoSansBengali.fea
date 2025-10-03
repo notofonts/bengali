@@ -96,7 +96,7 @@ languagesystem beng dflt;
 @BNG_BASE_FLOATING_NUBS = [g-beng.half nn-beng.half sh-beng.half ];
 
 @BNG_BLWS_SIDEUMATRA_BASE = [g-beng.half2 th-beng.half dh-beng.half b-beng.half sh-beng.half2];
-@BNG_BLWS_VOWELS_ALL=[uMatra-beng uuMatra-beng rVocalicMatra-beng rrVocalicMatra-beng lVocalicMatra-beng llVocalicMatra-beng uMatra-beng.alt uMatra-beng.alt1 uMatra-beng.alt2 uMatra-beng.round uMatra-beng.low uuMatra-beng.alt uuMatra-beng.alt1 uuMatra-beng.alt2 uuMatra-beng.round uuMatra-beng.low rVocalicMatra-beng.alt rrVocalicMatra-beng.alt lVocalicMatra-beng.alt llVocalicMatra-beng.alt];
+@BNG_BLWS_VOWELS_ALL=[uMatra-beng uuMatra-beng rVocalicMatra-beng rrVocalicMatra-beng lVocalicMatra-beng llVocalicMatra-beng uMatra-beng.alt uMatra-beng.alt1 uMatra-beng.alt2 uMatra-beng.deep uMatra-beng.round uMatra-beng.low uuMatra-beng.alt uuMatra-beng.alt1 uuMatra-beng.alt2 uuMatra-beng.deep uuMatra-beng.round uuMatra-beng.low rVocalicMatra-beng.alt rrVocalicMatra-beng.alt lVocalicMatra-beng.alt llVocalicMatra-beng.alt];
 
 
 @BNG_BASE_IIMATRA_TTA = [ddha-beng ddh-beng.half ddh-beng.half2 ddha-beng.side ddh-beng.side tt_tta-beng.noflag k_tta-beng.noflag ss_tta-beng.noflag];
@@ -536,7 +536,7 @@ feature vatu {
 script bng2;
 
 lookup BNG_vatu_raphala_triconsonant{ # triConsonant precomposed raphala conjuncts
-    lookupflag 0;
+    lookupflag UseMarkFilteringSet [halant-beng raphala-beng @BNG_BLWS_VOWELS_ALL];
     #ignore statement to avoid bad conjunct formation
     ignore sub k-beng.half ta-beng' halant-beng' ta-beng' raphala-beng';
 
@@ -550,7 +550,7 @@ lookup BNG_vatu_raphala_triconsonant{ # triConsonant precomposed raphala conjunc
 
 
 lookup BNG_vatu_raphala_biconsonant{ # biConsonant precomposed raphala conjuncts
-    lookupflag 0;
+    lookupflag UseMarkFilteringSet [halant-beng raphala-beng @BNG_BLWS_VOWELS_ALL];
     #ignore statement to avoid bad conjunct formation
     ignore sub [@BNG_ALL_HALFS n-beng.headline] [na-beng la-beng ta-beng]' raphala-beng';
     ignore sub t_ta-beng ta-beng' raphala-beng';
@@ -1006,7 +1006,6 @@ lookup BNG_pres_addHeadlineStem { # Adding these at the end to avoid having to a
 lookup BNG_pres_onTheFly_nukta { # Swap nukta
     lookupflag 0;
     sub dd-beng.half nukta-beng' baphala-beng.alt2 by nukta-beng.alt;
-    sub ya-beng nukta-beng' halant-beng by nukta-beng.alt;
 } BNG_pres_onTheFly_nukta;
 
 

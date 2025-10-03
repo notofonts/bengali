@@ -612,8 +612,7 @@ lookup BNG_dflt_dist_floatingPart{
 
 lookup BNG_dflt_dist_onTheFly_kern_eMatra{
 	pos eMatra-beng.long' [m-beng.half s-beng.half] [p-beng.half pha-beng.side pa-beng ma-beng.side2 sa-beng] <0 0 0 0>;
-}BNG_dflt_dist_onTheFly_kern_eMatra;
-";
+}BNG_dflt_dist_onTheFly_kern_eMatra;";
 tag = dist;
 },
 {
@@ -1067,6 +1066,7 @@ lookup BNG_dflt_abvm_vedicMatraShift_89 {
 lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
 	pos s-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-309 0 0 0>;
 } BNG_dflt_abvm_vedicMatraShift_89;
+
 ";
 tag = abvm;
 },
@@ -1089,6 +1089,15 @@ lookup BNG_blwm_vedicTta_shiftUp{
 	lookupflag IgnoreBaseGlyphs;
 	pos [uni1CF5.stack uni1CF6.stack]' @BNG_TTA_FLAGS <0 $ABVM_vedicTta_up 0 0>;
 } BNG_blwm_vedicTta_shiftUp;
+
+@BNG_BASE_ROUND_NUKTA = [nga-beng ca-beng tta-beng ttha-beng dda-beng ddha-beng ta-beng];
+@BNG_BASE_HA_NUKTA = [cha-beng ha-beng];
+
+lookup BNG_dflt_blwm_halantNukta {
+	lookupflag 0;
+	pos @BNG_BASE_ROUND_NUKTA nukta-beng halant-beng' <0 $BLWM_round_halant_down 0 0>;
+	pos @BNG_BASE_HA_NUKTA nukta-beng halant-beng' <0 $BLWM_ha_halant_down 0 0>;
+}BNG_dflt_blwm_halantNukta;
 ";
 tag = blwm;
 }
@@ -1160,7 +1169,9 @@ numberValues = (
 -120,
 0,
 0,
-120
+120,
+-210,
+-150
 );
 stemValues = (
 21,
@@ -1701,7 +1712,9 @@ numberValues = (
 -166,
 20,
 10,
-160
+160,
+-200,
+-190
 );
 stemValues = (
 77,
@@ -2242,7 +2255,9 @@ numberValues = (
 -210,
 60,
 30,
-210
+210,
+-250,
+-200
 );
 stemValues = (
 164,
@@ -2772,7 +2787,9 @@ numberValues = (
 -65,
 0,
 0,
-120
+120,
+-210,
+-150
 );
 stemValues = (
 20,
@@ -3308,7 +3325,9 @@ numberValues = (
 -119,
 20,
 0,
-160
+160,
+-200,
+-180
 );
 stemValues = (
 70,
@@ -3838,7 +3857,9 @@ numberValues = (
 -158,
 60,
 10,
-210
+210,
+-220,
+-210
 );
 stemValues = (
 150,
@@ -6840,6 +6861,12 @@ name = ABVM_smallCandrabindu_right;
 },
 {
 name = ABVM_vedicTta_up;
+},
+{
+name = BLWM_round_halant_down;
+},
+{
+name = BLWM_ha_halant_down;
 }
 );
 properties = (
