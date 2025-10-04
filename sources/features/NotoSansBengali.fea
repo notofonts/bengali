@@ -5,7 +5,6 @@
 languagesystem DFLT dflt;
 languagesystem bng2 dflt;
 languagesystem bng2 PAL;
-languagesystem beng dflt;
 
 
 # --------
