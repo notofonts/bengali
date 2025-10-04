@@ -843,8 +843,9 @@ lookup BNG_pres_onTheFly_last_biconsonant { # Replace last consonant
     # pha
     sub [m-beng.half ss-beng.half4 s-beng.half] pha-beng' by pha-beng.side;
     # ma
-    sub [g-beng.half nn-beng.half p-beng.half l-beng.half3 sh-beng.half] ma-beng' by ma-beng.side;
+    sub [g-beng.half nn-beng.half p-beng.half sh-beng.half] ma-beng' by ma-beng.side;
     sub n-beng.headline ma-beng' by aaMatra-beng.part n-beng.float ma-beng.side;
+    sub l-beng.half3 ma-beng' by aaMatra-beng.part ma-beng.side;
 
     sub [ng-beng.half2 dd-beng.half1 ddh-beng.half t-beng.half] ma-beng' by ma-beng.side1;
     sub [m-beng.half ss-beng.half4 s-beng.half] ma-beng' by ma-beng.side2;
@@ -1012,7 +1013,7 @@ lookup BNG_pres_addHeadlineStem { # Adding these at the end to avoid having to a
     sub [g-beng.half nn-beng.half sh-beng.half] ma-beng.side' by ma-beng.side aaMatra-beng.side;
     sub [g-beng.half] dh_ba-beng.blws' by aaMatra-beng.side dh_ba-beng.blws;
     sub j-beng.half baphala-beng.alt3 jha-beng.part' by jha-beng.part aaMatra-beng.float;
-    sub l-beng.half3 ma-beng.side' by aaMatra-beng.part ma-beng.side;
+
     sub l-beng.half3 la-beng.blws2' by aaMatra-beng.part la-beng.blws2;
     sub l-beng.half3 baphala-beng.alt4' [ka-beng.part dha-beng.part] by aaMatra-beng.part baphala-beng.alt4;
     sub l-beng.half3 baphala-beng.alt4' by aaMatra-beng.part baphala-beng.alt4;
