@@ -288,6 +288,7 @@ language PAL;
 
 lookup BNG_bng2_PAL_locl_waBlwf {
     lookupflag 0;
+    ignore sub @BNG_RA halant-beng ralowerdiagonal-beng';
     sub halant-beng ralowerdiagonal-beng' by ralowerdiagonal-beng wa-beng.part;
 } BNG_bng2_PAL_locl_waBlwf;
 
@@ -559,11 +560,14 @@ lookup BNG_vatu_raphala_biconsonant{ # biConsonant precomposed raphala conjuncts
     sub ta-beng' raphala-beng' by t_ra-beng;
     sub na-beng' raphala-beng' by n_ra-beng;
     sub la-beng' raphala-beng' by l_ra-beng;
+}BNG_vatu_raphala_biconsonant;
+
+lookup BNG_vatu_raphala_biconsonant_nukta{ # biConsonant precomposed raphala conjuncts
+	lookupflag 0;
     sub dda-beng' nukta-beng' raphala-beng' by rr_ra-beng;
     sub ddha-beng' nukta-beng' raphala-beng' by rh_ra-beng;
     sub ya-beng' nukta-beng' raphala-beng' by yy_ra-beng;
-}BNG_vatu_raphala_biconsonant;
-
+}BNG_vatu_raphala_biconsonant_nukta;
 
 lookup BNG_vatu_baConjuncts{ # precomposed baphala conjuncts
     lookupflag 0;
@@ -869,14 +873,19 @@ lookup BNG_pres_onTheFly_armsAndParts { # Replace missing arms and parts
 # REPLACE REMAINING HALF FORMS (WITHOUT HALANT)
 
 lookup BNG_pres_onTheFly_half_baphalaRaphala { # Replace single-part half-forms used with raphala and baphala
-    lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng];
+    lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng nukta-beng];
     ignore sub m-beng.half sa-beng' baphala-beng;
     ignore sub [g-beng.half n-beng.headline d-beng.half3] dha-beng halant-beng @BNG_BA' raphala-beng;
     sub [ma-beng]' baphala-beng raphala-beng by [m-beng.half2];
     sub [ga-beng ca-beng ja-beng nya-beng ddha-beng nna-beng ta-beng da-beng pa-beng ma-beng sha-beng ssa-beng sa-beng ha-beng ralowerdiagonal-beng la-beng na-beng]' baphala-beng by [g-beng.half c-beng.half1 j-beng.half ny-beng.half ddh-beng.half nn-beng.half t-beng.half d-beng.half3 p-beng.half m-beng.half sh-beng.half ss-beng.half4 s-beng.half h-beng.half ba-beng l-beng.half3 n-beng.headline];
     sub [ga-beng ca-beng ddha-beng nna-beng da-beng dha-beng pa-beng @BNG_BA bha-beng ma-beng sha-beng ssa-beng sa-beng ha-beng]' raphala-beng by [g-beng.half2 c-beng.half2 ddh-beng.half2 nn-beng.half2 d-beng.half2 dh-beng.half p-beng.half2 b-beng.half b-beng.half bh-beng.half m-beng.half2 sh-beng.half2 ss-beng.half s-beng.half2 h-beng.half2];
-    sub [ka-beng k_ssa-beng kha-beng gha-beng nga-beng cha-beng jha-beng dda-beng tha-beng d_da-beng pha-beng ya-beng t_ta-beng ng_ga-beng ddha-beng.side]' @BNG_BAPHALA_RAPHALA by [k-beng.half k_ss-beng.half kh-beng.half gh-beng.half ng-beng.half ch-beng.half jh-beng.half dd-beng.half th-beng.half d_d-beng.half ph-beng.half y-beng.half t_t-beng.half ng_g-beng.half ddh-beng.side];
+    sub [ka-beng k_ssa-beng kha-beng gha-beng nga-beng cha-beng jha-beng tha-beng d_da-beng pha-beng ya-beng t_ta-beng ng_ga-beng ddha-beng.side]' @BNG_BAPHALA_RAPHALA by [k-beng.half k_ss-beng.half kh-beng.half gh-beng.half ng-beng.half ch-beng.half jh-beng.half th-beng.half d_d-beng.half ph-beng.half y-beng.half t_t-beng.half ng_g-beng.half ddh-beng.side];
 } BNG_pres_onTheFly_half_baphalaRaphala;
+
+lookup BNG_pres_onTheFly_half_baphalaRaphala_nukta { # Replace single-part half-forms with nukta used with raphala and baphala
+    lookupflag UseMarkFilteringSet [@BNG_VATTUS halant-beng];
+    sub [dda-beng]' @BNG_BAPHALA_RAPHALA by [dd-beng.half];
+} BNG_pres_onTheFly_half_baphalaRaphala_nukta;
 
 
 lookup BNG_pres_onTheFly_half_baphalaRaphala2 { # Replace two-part half-forms used with raphala and baphala
