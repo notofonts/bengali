@@ -7,10 +7,6 @@ anchors = (
 {
 name = _nukta;
 pos = (0,-80);
-},
-{
-name = bottom_nukta;
-pos = (1,-250);
 }
 );
 background = {
@@ -71,10 +67,6 @@ anchors = (
 {
 name = _nukta;
 pos = (0,-68);
-},
-{
-name = bottom_nukta;
-pos = (0,-200);
 }
 );
 background = {
@@ -140,10 +132,6 @@ anchors = (
 {
 name = _nukta;
 pos = (0,-124);
-},
-{
-name = bottom_nukta;
-pos = (1,-308);
 }
 );
 background = {
@@ -204,10 +192,6 @@ anchors = (
 {
 name = _nukta;
 pos = (0,-68);
-},
-{
-name = bottom_nukta;
-pos = (0,-220);
 }
 );
 background = {
@@ -268,10 +252,6 @@ anchors = (
 {
 name = _nukta;
 pos = (0,-78);
-},
-{
-name = bottom_nukta;
-pos = (1,-246);
 }
 );
 background = {
@@ -332,10 +312,6 @@ anchors = (
 {
 name = _nukta;
 pos = (0,-116);
-},
-{
-name = bottom_nukta;
-pos = (1,-297);
 }
 );
 background = {

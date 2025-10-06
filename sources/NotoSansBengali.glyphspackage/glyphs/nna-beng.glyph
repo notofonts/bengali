@@ -511,7 +511,7 @@ width = 570;
 anchors = (
 {
 name = bottom_mark;
-pos = (435,0);
+pos = (445,0);
 },
 {
 name = nukta;

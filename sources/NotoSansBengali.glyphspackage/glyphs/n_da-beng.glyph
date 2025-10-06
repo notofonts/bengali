@@ -194,7 +194,7 @@ pos = (-10,-25);
 ref = "n-beng.float";
 }
 );
-width = 704;
+width = 705;
 }
 );
 script = bengali;

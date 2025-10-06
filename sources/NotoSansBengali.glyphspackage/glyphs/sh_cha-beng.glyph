@@ -74,7 +74,7 @@ pos = (703,0);
 ref = "cha-beng.side";
 }
 );
-width = 1089;
+width = 1094;
 },
 {
 background = {
@@ -146,7 +146,7 @@ pos = (571,0);
 ref = "cha-beng.side";
 }
 );
-width = 876;
+width = 881;
 }
 );
 script = bengali;

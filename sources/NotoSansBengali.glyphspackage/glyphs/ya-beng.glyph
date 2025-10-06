@@ -291,7 +291,7 @@ name = bottom_mark;
 pos = (458,0);
 },
 {
-name = nukta;
+name = nukta.alt;
 pos = (212,47);
 },
 {

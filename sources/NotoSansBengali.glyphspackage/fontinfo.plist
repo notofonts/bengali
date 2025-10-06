@@ -414,6 +414,8 @@ question,
 "auLength-beng.long",
 "uMatra-beng.alt",
 "uMatra-beng.alt1",
+"uMatra-beng.alt2",
+"uMatra-beng.deep",
 "uMatra-beng.round",
 "uMatra-beng.low",
 "uuMatra-beng.alt",
@@ -421,6 +423,7 @@ question,
 "uuMatra-beng.alt2",
 "uuMatra-beng.round",
 "uuMatra-beng.low",
+"uuMatra-beng.deep",
 "rVocalicMatra-beng.alt",
 "rrVocalicMatra-beng.alt",
 "lVocalicMatra-beng.alt",
@@ -546,7 +549,7 @@ date = "2017-07-06 08:51:49 +0000";
 familyName = "Noto Sans Bengali";
 featurePrefixes = (
 {
-code = "# link modified after the change to .glyphspackage. Glyphs3 marks an error, but this is the correct path for fontmake.
+code = "# link has to be modified to use fontmake locally
 include(features/NotoSansBengali.fea);
 ";
 name = Include;
@@ -609,8 +612,7 @@ lookup BNG_dflt_dist_floatingPart{
 
 lookup BNG_dflt_dist_onTheFly_kern_eMatra{
 	pos eMatra-beng.long' [m-beng.half s-beng.half] [p-beng.half pha-beng.side pa-beng ma-beng.side2 sa-beng] <0 0 0 0>;
-}BNG_dflt_dist_onTheFly_kern_eMatra;
-";
+}BNG_dflt_dist_onTheFly_kern_eMatra;";
 tag = dist;
 },
 {
@@ -1064,6 +1066,7 @@ lookup BNG_dflt_abvm_vedicMatraShift_89 {
 lookupflag UseMarkFilteringSet @BNG_VEDIC_ALL;
 	pos s-beng.half ma-beng.side2 @BNG_VEDIC_ALL' <-309 0 0 0>;
 } BNG_dflt_abvm_vedicMatraShift_89;
+
 ";
 tag = abvm;
 },
@@ -1086,6 +1089,15 @@ lookup BNG_blwm_vedicTta_shiftUp{
 	lookupflag IgnoreBaseGlyphs;
 	pos [uni1CF5.stack uni1CF6.stack]' @BNG_TTA_FLAGS <0 $ABVM_vedicTta_up 0 0>;
 } BNG_blwm_vedicTta_shiftUp;
+
+@BNG_BASE_ROUND_NUKTA = [nga-beng ca-beng tta-beng ttha-beng dda-beng ddha-beng ta-beng bha-beng];
+@BNG_BASE_HA_NUKTA = [cha-beng ha-beng];
+
+lookup BNG_dflt_blwm_halantNukta {
+	lookupflag 0;
+	pos @BNG_BASE_ROUND_NUKTA nukta-beng halant-beng' <0 $BLWM_round_halant_down 0 0>;
+	pos @BNG_BASE_HA_NUKTA nukta-beng halant-beng' <0 $BLWM_ha_halant_down 0 0>;
+}BNG_dflt_blwm_halantNukta;
 ";
 tag = blwm;
 }
@@ -1161,7 +1173,9 @@ numberValues = (
 -120,
 0,
 0,
-120
+120,
+-210,
+-150
 );
 stemValues = (
 21,
@@ -1706,7 +1720,9 @@ numberValues = (
 -166,
 20,
 10,
-160
+160,
+-200,
+-190
 );
 stemValues = (
 77,
@@ -2243,7 +2259,9 @@ numberValues = (
 -210,
 60,
 30,
-210
+210,
+-250,
+-200
 );
 stemValues = (
 164,
@@ -2777,7 +2795,9 @@ numberValues = (
 -65,
 0,
 0,
-120
+120,
+-210,
+-150
 );
 stemValues = (
 20,
@@ -3312,7 +3332,9 @@ numberValues = (
 -119,
 20,
 0,
-160
+160,
+-200,
+-180
 );
 stemValues = (
 70,
@@ -3846,7 +3868,9 @@ numberValues = (
 -158,
 60,
 10,
-210
+210,
+-220,
+-210
 );
 stemValues = (
 150,
@@ -6480,11 +6504,14 @@ UUID0 = {
 "@MMK_L_R_BNG_t_ra" = {
 "@MMK_R_L_BNG_uMatra_side" = -10;
 };
+"@MMK_L_R_BNG_taKhanda" = {
+"@MMK_R_L_BNG_yyRa" = 10;
+};
 "@MMK_L_R_BNG_uni1CE1" = {
 "@MMK_R_L_BNG_aiMatra" = 70;
 };
-"taKhanda-beng" = {
-"yy_ra-beng" = 40;
+"da-beng" = {
+"k_la-beng" = 0;
 };
 };
 "ADAF9463-560A-4353-9B5A-2FAD12EBF6B5" = {
@@ -6733,6 +6760,9 @@ UUID0 = {
 "@MMK_L_R_BNG_t_ra" = {
 "@MMK_R_L_BNG_uMatra_side" = -7;
 };
+"@MMK_L_R_BNG_taKhanda" = {
+"@MMK_R_L_BNG_yyRa" = 20;
+};
 "@MMK_L_R_BNG_uni1CE1" = {
 "@MMK_R_L_BNG_aiMatra" = 54;
 };
@@ -6848,6 +6878,12 @@ name = ABVM_smallCandrabindu_right;
 },
 {
 name = ABVM_vedicTta_up;
+},
+{
+name = BLWM_round_halant_down;
+},
+{
+name = BLWM_ha_halant_down;
 }
 );
 properties = (
@@ -6946,5 +6982,5 @@ userData = {
 GSDontShowVersionAlert = 1;
 };
 versionMajor = 3;
-versionMinor = 0;
+versionMinor = 10;
 }
