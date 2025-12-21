@@ -6952,10 +6952,6 @@ language = dflt;
 value = "Noto is a trademark of Google Inc.";
 }
 );
-},
-{
-key = versionString;
-value = "Version 3.000";
 }
 );
 settings = {
