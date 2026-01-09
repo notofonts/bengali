@@ -6978,5 +6978,5 @@ userData = {
 GSDontShowVersionAlert = 1;
 };
 versionMajor = 3;
-versionMinor = 10;
+versionMinor = 11;
 }
