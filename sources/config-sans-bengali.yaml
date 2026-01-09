@@ -4,6 +4,10 @@ googleFonts: true
 includeSubsets:
 - from: Noto Sans
   name: GF_Latin_Core
+- from: Noto Sans
+  ranges:
+    - start: 0x35A
+      end: 0x35B
 recipeProvider: noto
 sources:
 - NotoSansBengali.glyphspackage
