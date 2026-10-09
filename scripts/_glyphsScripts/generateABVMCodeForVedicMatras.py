@@ -7,8 +7,10 @@ __doc__="""
 For selected set of 'composed', non-exporting glyphs in the Noto Sans Bengali source.
 Evaluate their parts to determine anchor center positions and output feature code.
 
-Note: The feature code needs to be manually added to the source under the ABVM feature
-in the Thin master and under the Replace Feature custom parameter of other masters.
+Note: The feature code needs to be manually added to the source under the ABVM feature,
+which is shared by all masters. The shift amounts differ per master, so the code uses
+number values ($ABVM_vedicMatraShift_N); the value of each one in every master is printed
+after the feature code and needs to be entered in Font Info as number values.
 """
 Glyphs.clearLog()
 
@@ -151,56 +153,64 @@ def opentype_code(data, mark_class="@BNG_VEDIC_ALL", lookup_flag="UseMarkFilteri
     """
     """
     count = 1
-    group_a = []
-    group_b = []
-    group_c = []
+    numbers = []
+    group_a = {}
+    group_b = {}
+    group_c = {}
     marks = " ".join(lookup_flag_marks)
     for key in data:
         if len(data[key]) == 4:
             if type(data[key][-1]) != list:
-                group_a.append(f"\tpos {data[key][1]} {data[key][2]} {data[key][3]} {mark_class}' <{data[key][0]} 0 0 0>;")
+                group_a.setdefault(f"\tpos {data[key][1]} {data[key][2]} {data[key][3]} {mark_class}' <{{}} 0 0 0>;", key)
             elif type(data[key][-1]) == list:
                 marks = " ".join(data[key][-1])
-                group_b.append(f"\tpos {data[key][1]} {data[key][2]} {mark_class}' <{data[key][0]} 0 0 0>;")
+                group_b.setdefault(f"\tpos {data[key][1]} {data[key][2]} {mark_class}' <{{}} 0 0 0>;", key)
         elif len(data[key]) == 3:
-            group_c.append(f"\tpos {data[key][1]} {data[key][2]} {mark_class}' <{data[key][0]} 0 0 0>;")
+            group_c.setdefault(f"\tpos {data[key][1]} {data[key][2]} {mark_class}' <{{}} 0 0 0>;", key)
 
-    consolidated_group_a = list( dict.fromkeys(group_a) )
-    consolidated_group_b = list( dict.fromkeys(group_b) )
-    consolidated_group_c = list( dict.fromkeys(group_c) )
-    for items in consolidated_group_a:
+    for items, key in group_a.items():
         print(f"lookup BNG_dflt_abvm_vedicMatraShift_{count}" + " {")
         print(f"lookupflag {lookup_flag} {mark_class};")
-        print(items)
+        print(items.format(f"$ABVM_vedicMatraShift_{count}"))
         print("} " + f"BNG_dflt_abvm_vedicMatraShift_{count};\n")
+        numbers.append((f"ABVM_vedicMatraShift_{count}", key))
         count += 1
 
-    for items in consolidated_group_b:
+    for items, key in group_b.items():
         print(f"lookup BNG_dflt_abvm_vedicMatraShift_{count}" + " {")
         print(f"lookupflag {lookup_flag} [{mark_class} {marks}];")
-        print(items)
+        print(items.format(f"$ABVM_vedicMatraShift_{count}"))
         print("} " + f"BNG_dflt_abvm_vedicMatraShift_{count};\n")
+        numbers.append((f"ABVM_vedicMatraShift_{count}", key))
         count += 1
     
-    for items in consolidated_group_c:
+    for items, key in group_c.items():
         print(f"lookup BNG_dflt_abvm_vedicMatraShift_{count}" + " {")
         print(f"lookupflag {lookup_flag} {mark_class};")
-        print(items)
+        print(items.format(f"$ABVM_vedicMatraShift_{count}"))
         print("} " + f"BNG_dflt_abvm_vedicMatraShift_{count};\n")
+        numbers.append((f"ABVM_vedicMatraShift_{count}", key))
         count += 1
+
+    return numbers
 
 # Program
 # -------
 
-master_layer_name = this_font.selectedFontMaster.name
 mark_class_name = "@BNG_VEDIC_ALL"
 vedic_marks = ["uni0951", "uni1CD0", "uni1CD2", "uni1CF5.stack", "uni1CF6.stack", "uni0952", "uni1CD5", "uni1CD6", "uni1CD8", "uni1CED"]
 mark_glyphs_with_anchor = ["headline-beng.130", "headline-beng.200", "headline-beng.250", "aaMatra-beng.float", "aaMatra-beng.side2", "ka-beng.arm", "ka-beng.arm1", "headline-beng.ba"]
 data_collection = collect_structure(this_font, mark_glyphs=mark_glyphs_with_anchor)
-second_collection = calculate_distances(this_font, data_collection, this_font.selectedFontMaster.name, mark_glyphs=mark_glyphs_with_anchor)
+master_collections = {}
+for master in this_font.masters:
+    master_collections[master.name] = calculate_distances(this_font, data_collection, master.name, mark_glyphs=mark_glyphs_with_anchor)
+second_collection = master_collections[this_font.selectedFontMaster.name]
 #print(len(this_font.selection), len(data_collection))
 
 print("# Automatic Code End\n")
-print(f"# {master_layer_name}\n")
 print(f"{mark_class_name} = [" + " ".join(vedic_marks) + "];\n")
-opentype_code(second_collection, lookup_flag_marks=mark_glyphs_with_anchor)
+numbers = opentype_code(second_collection, lookup_flag_marks=mark_glyphs_with_anchor)
+
+print("# Number values per master:")
+for name, key in numbers:
+    print(f"# {name}: " + ", ".join(f"{master} {collection[key][0]}" for master, collection in master_collections.items()))
